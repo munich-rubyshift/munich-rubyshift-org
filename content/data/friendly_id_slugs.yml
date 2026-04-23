@@ -5,6 +5,12 @@ FriendlyId::Slug_0a1894df-b694-4a99-95df-61b7a3f57a48:
   slug: freeletics
   sluggable_id: e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e
   sluggable_type: Entities::Organization
+FriendlyId::Slug_1747b241-bf75-49f6-afce-96951e33809f:
+  id: 1747b241-bf75-49f6-afce-96951e33809f
+  created_at: '2026-04-23 18:58:05.196964'
+  slug: meetup-april-2026
+  sluggable_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
+  sluggable_type: Events::Event
 FriendlyId::Slug_3e3f9e72-1be5-4c04-be40-20bc0c0e740b:
   id: 3e3f9e72-1be5-4c04-be40-20bc0c0e740b
   created_at: '2026-04-23 18:52:35.083846'
