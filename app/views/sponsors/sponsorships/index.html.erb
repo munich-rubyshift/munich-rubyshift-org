@@ -1,0 +1,20 @@
+<% content_for :title, "Sponsorships" %>
+
+<h1>Sponsorships</h1>
+
+<% if Rails.env.development? %>
+  <p>
+    <%= link_to "✏️", avo.resources_sponsors_sponsorships_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="sponsors_sponsorships">
+  <% @sponsors_sponsorships.each do |sponsors_sponsorship| %>
+    <li>
+      <%= render sponsors_sponsorship %>
+      <p>
+        <%= link_to "Show this sponsorship", sponsors_sponsorship %>
+      </p>
+    </li>
+  <% end %>
+</ul>
