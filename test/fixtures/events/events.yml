@@ -1,0 +1,65 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  slug: MyString
+  title: MyString
+  rubyevents_slug: MyString
+  venues_venue: one
+  description: MyText
+  kind: MyString
+  hybrid: false
+  status: MyString
+  last_edition: false
+  start_date: 2026-04-23
+  end_date: 2026-04-23
+  published_at: 2026-04-23 20:55:51
+  announced_on: 2026-04-23
+  year: 1
+  date_precision: MyString
+  frequency: MyString
+  channel_id: MyString
+  playlist: MyString
+  website: MyString
+  twitter: MyString
+  mastodon: MyString
+  github: MyString
+  meetup: MyString
+  luma: MyString
+  youtube: MyString
+  tickets_url: MyString
+  banner_background: MyString
+  featured_background: MyString
+  featured_color: MyString
+  online_event: false
+
+two:
+  slug: MyString
+  title: MyString
+  rubyevents_slug: MyString
+  venues_venue: two
+  description: MyText
+  kind: MyString
+  hybrid: false
+  status: MyString
+  last_edition: false
+  start_date: 2026-04-23
+  end_date: 2026-04-23
+  published_at: 2026-04-23 20:55:51
+  announced_on: 2026-04-23
+  year: 1
+  date_precision: MyString
+  frequency: MyString
+  channel_id: MyString
+  playlist: MyString
+  website: MyString
+  twitter: MyString
+  mastodon: MyString
+  github: MyString
+  meetup: MyString
+  luma: MyString
+  youtube: MyString
+  tickets_url: MyString
+  banner_background: MyString
+  featured_background: MyString
+  featured_color: MyString
+  online_event: false

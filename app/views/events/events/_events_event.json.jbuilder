@@ -1,0 +1,2 @@
+json.extract! events_event, :id, :slug, :title, :rubyevents_slug, :venues_venue_id, :description, :kind, :hybrid, :status, :last_edition, :start_date, :end_date, :published_at, :announced_on, :year, :date_precision, :frequency, :channel_id, :playlist, :website, :twitter, :mastodon, :github, :meetup, :luma, :youtube, :tickets_url, :banner_background, :featured_background, :featured_color, :online_event, :created_at, :updated_at
+json.url events_event_url(events_event, format: :json)

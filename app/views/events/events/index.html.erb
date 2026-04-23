@@ -1,0 +1,20 @@
+<% content_for :title, "Events" %>
+
+<h1>Events</h1>
+
+<% if Rails.env.development? %>
+  <p>
+    <%= link_to "✏️", avo.resources_events_events_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="events_events">
+  <% @events_events.each do |events_event| %>
+    <li>
+      <%= render events_event %>
+      <p>
+        <%= link_to "Show this event", events_event %>
+      </p>
+    </li>
+  <% end %>
+</ul>
