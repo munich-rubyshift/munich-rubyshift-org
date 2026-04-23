@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_04_23_185040) do
+ActiveRecord::Schema[8.1].define(version: 2026_04_23_185551) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.datetime "created_at", null: false
@@ -67,6 +67,42 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_185040) do
     t.string "website"
   end
 
+  create_table "events_events", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.date "announced_on"
+    t.string "banner_background"
+    t.string "channel_id"
+    t.datetime "created_at", null: false
+    t.string "date_precision"
+    t.text "description"
+    t.date "end_date"
+    t.string "featured_background"
+    t.string "featured_color"
+    t.string "frequency"
+    t.string "github"
+    t.boolean "hybrid"
+    t.string "kind"
+    t.boolean "last_edition"
+    t.string "luma"
+    t.string "mastodon"
+    t.string "meetup"
+    t.boolean "online_event"
+    t.string "playlist"
+    t.datetime "published_at"
+    t.string "rubyevents_slug"
+    t.string "slug"
+    t.date "start_date"
+    t.string "status"
+    t.string "tickets_url"
+    t.string "title"
+    t.string "twitter"
+    t.datetime "updated_at", null: false
+    t.string "venues_venue_id", null: false
+    t.string "website"
+    t.integer "year"
+    t.string "youtube"
+    t.index ["venues_venue_id"], name: "index_events_events_on_venues_venue_id"
+  end
+
   create_table "friendly_id_slugs", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.datetime "created_at"
     t.string "scope"
@@ -97,4 +133,5 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_185040) do
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "events_events", "venues_venues"
 end
