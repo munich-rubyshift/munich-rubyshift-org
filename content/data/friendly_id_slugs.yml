@@ -17,6 +17,12 @@ FriendlyId::Slug_3e3f9e72-1be5-4c04-be40-20bc0c0e740b:
   slug: freeletics-office
   sluggable_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   sluggable_type: Venues::Venue
+FriendlyId::Slug_4c850e04-be73-411b-869f-5f146f1abbf5:
+  id: 4c850e04-be73-411b-869f-5f146f1abbf5
+  created_at: '2026-04-23 19:00:39.445301'
+  slug: location-drinks
+  sluggable_id: 7eaf5061-64e3-45a6-bc29-c13c03b07f72
+  sluggable_type: Sponsors::SponsorTier
 FriendlyId::Slug_67713349-6acc-4e87-a11b-f77912d93850:
   id: 67713349-6acc-4e87-a11b-f77912d93850
   created_at: '2026-04-23 18:52:25.426674'
@@ -35,3 +41,15 @@ FriendlyId::Slug_992b041e-2c1a-4304-a176-a324c927640d:
   slug: aron-wolf
   sluggable_id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
   sluggable_type: Entities::Person
+FriendlyId::Slug_ae1aa08e-52ea-4f1a-96c8-e9e5c30f6f25:
+  id: ae1aa08e-52ea-4f1a-96c8-e9e5c30f6f25
+  created_at: '2026-04-23 19:02:08.264613'
+  slug: munich-rubyshift-org-goes-live
+  sluggable_id: '097ea9bd-b75f-4ee5-8ce8-935902d7faca'
+  sluggable_type: Talks::Talk
+FriendlyId::Slug_b5d922a7-b930-4e19-8dc6-abf010358dfd:
+  id: b5d922a7-b930-4e19-8dc6-abf010358dfd
+  created_at: '2026-04-23 19:01:57.741332'
+  slug: gems-are-overrated
+  sluggable_id: 2e0e8a82-1b67-4fc4-9e2a-7379f96661cf
+  sluggable_type: Talks::Talk
