@@ -1,0 +1,17 @@
+---
+Venues::Venue_581db90f-7dcd-416b-aa34-6b06b93060ac:
+  id: 581db90f-7dcd-416b-aa34-6b06b93060ac
+  accessibility_elevators: 0
+  accessibility_notes: ''
+  accessibility_restrooms: 0
+  accessibility_wheelchair: 0
+  created_at: '2026-04-23 18:52:35.080740'
+  description: ''
+  instructions: ''
+  name: Freeletics Office
+  nearby_parking: ''
+  nearby_public_transport: ''
+  rubyevents_slug: ''
+  slug: freeletics-office
+  updated_at: '2026-04-23 18:52:35.080740'
+  url: ''
