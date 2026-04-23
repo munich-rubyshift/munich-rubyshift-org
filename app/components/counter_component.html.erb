@@ -1,0 +1,6 @@
+<div class="counter" data-compiler="counter" up-data="<%= { initialValue: @initial_value }.to_json %>">
+  <% if @label %><h2><%= t('.label') %></h2><% end %>
+  <button type="button" data-element="counter:decrement">−</button>
+  <span data-element="counter:value"><%= @initial_value %></span>
+  <button type="button" data-element="counter:increment">+</button>
+</div>

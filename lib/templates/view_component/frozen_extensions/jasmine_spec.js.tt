@@ -1,0 +1,15 @@
+describe('[data-compiler="<%= file_path.gsub('/', '-') %>"]', () => {
+  let <%= ["component", *js_attributes].join(', ') %>
+
+  beforeEach(() => {
+    const container = loadPreviewScenario('<%= file_path.gsub('/', '-') %>', 'default')
+    component = container.querySelector('.<%= file_path.gsub('/', '---').dasherize %>')
+<% js_attributes.each do |attribute| -%>
+    <%= attribute %> = component.querySelector('[data-element="<%= file_path.gsub('/', '-') %>:<%= attribute %>"]')
+<% end -%>
+  })
+
+  it('works', () => {
+    // TODO: implement spec
+  })
+})

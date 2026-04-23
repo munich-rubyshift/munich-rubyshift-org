@@ -1,0 +1,36 @@
+image: ruby:3.4
+
+cache:
+  paths:
+  - vendor
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - apt-get update -yqqq
+    - apt-get install -y nodejs
+    - bundle config set path 'vendor'
+    - bundle install
+    - npm install -g yarn
+    - yarn install --frozen-lockfile
+    - bin/static-build
+  artifacts:
+    paths:
+      - build
+    expire_in: 1 hour
+
+pages:
+  stage: deploy
+  script:
+    - rm -rf public/*
+    - cp -R build/* public
+    - echo "Deploying to GitLab Pages"
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH

@@ -1,0 +1,18 @@
+.counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.counter button {
+  min-width: 2.25rem;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.75rem;
+}
+
+.counter span {
+  min-width: 2rem;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+}
