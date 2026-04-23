@@ -1,0 +1,31 @@
+---
+FriendlyId::Slug_0a1894df-b694-4a99-95df-61b7a3f57a48:
+  id: 0a1894df-b694-4a99-95df-61b7a3f57a48
+  created_at: '2026-04-23 18:52:44.158139'
+  slug: freeletics
+  sluggable_id: e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e
+  sluggable_type: Entities::Organization
+FriendlyId::Slug_3e3f9e72-1be5-4c04-be40-20bc0c0e740b:
+  id: 3e3f9e72-1be5-4c04-be40-20bc0c0e740b
+  created_at: '2026-04-23 18:52:35.083846'
+  slug: freeletics-office
+  sluggable_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
+  sluggable_type: Venues::Venue
+FriendlyId::Slug_67713349-6acc-4e87-a11b-f77912d93850:
+  id: 67713349-6acc-4e87-a11b-f77912d93850
+  created_at: '2026-04-23 18:52:25.426674'
+  slug: klaus-weidinger
+  sluggable_id: 536bc1f5-5f7f-4f1b-b6b6-e5e101b65906
+  sluggable_type: Entities::Person
+FriendlyId::Slug_87b1f623-e4c8-418f-ab31-272dc3d6a132:
+  id: 87b1f623-e4c8-418f-ab31-272dc3d6a132
+  created_at: '2026-04-23 18:51:44.731179'
+  slug: hans-schnedlitz
+  sluggable_id: 21b0b842-40b4-41b8-a798-8c417ef40986
+  sluggable_type: Entities::Person
+FriendlyId::Slug_992b041e-2c1a-4304-a176-a324c927640d:
+  id: 992b041e-2c1a-4304-a176-a324c927640d
+  created_at: '2026-04-23 18:52:19.533241'
+  slug: aron-wolf
+  sluggable_id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
+  sluggable_type: Entities::Person
