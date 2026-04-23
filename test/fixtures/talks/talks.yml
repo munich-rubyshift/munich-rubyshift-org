@@ -1,0 +1,51 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  slug: MyString
+  title: MyString
+  rubyevents_slug: MyString
+  events_event: one
+  description: MyText
+  raw_title: MyString
+  original_title: MyString
+  slides_url: MyString
+  external_id: MyString
+  kind: MyString
+  status: MyString
+  date: 2026-04-23
+  time: 2026-04-23 20:58:42
+  published_at: 2026-04-23 20:58:42
+  announced_at: 2026-04-23 20:58:42
+  removed: MyString
+  location: MyString
+  video_provider: MyString
+  video_id: MyString
+  external_player: false
+  external_player_url: MyString
+  track: MyString
+  language: MyString
+
+two:
+  slug: MyString
+  title: MyString
+  rubyevents_slug: MyString
+  events_event: two
+  description: MyText
+  raw_title: MyString
+  original_title: MyString
+  slides_url: MyString
+  external_id: MyString
+  kind: MyString
+  status: MyString
+  date: 2026-04-23
+  time: 2026-04-23 20:58:42
+  published_at: 2026-04-23 20:58:42
+  announced_at: 2026-04-23 20:58:42
+  removed: MyString
+  location: MyString
+  video_provider: MyString
+  video_id: MyString
+  external_player: false
+  external_player_url: MyString
+  track: MyString
+  language: MyString

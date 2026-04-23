@@ -1,0 +1,20 @@
+<% content_for :title, "Talks" %>
+
+<h1>Talks</h1>
+
+<% if Rails.env.development? %>
+  <p>
+    <%= link_to "✏️", avo.resources_talks_talks_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="talks_talks">
+  <% @talks_talks.each do |talks_talk| %>
+    <li>
+      <%= render talks_talk %>
+      <p>
+        <%= link_to "Show this talk", talks_talk %>
+      </p>
+    </li>
+  <% end %>
+</ul>
