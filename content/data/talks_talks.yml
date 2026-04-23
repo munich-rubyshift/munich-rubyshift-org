@@ -1,0 +1,47 @@
+---
+Talks::Talk_097ea9bd-b75f-4ee5-8ce8-935902d7faca:
+  id: '097ea9bd-b75f-4ee5-8ce8-935902d7faca'
+  created_at: '2026-04-23 19:02:08.261300'
+  description: ''
+  events_event_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
+  external_id: ''
+  external_player: 0
+  external_player_url: ''
+  kind: ''
+  language: ''
+  location: ''
+  original_title: ''
+  raw_title: ''
+  removed: ''
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: munich-rubyshift-org-goes-live
+  status: ''
+  title: munich-rubyshift.org goes LIVE!
+  track: ''
+  updated_at: '2026-04-23 19:02:08.261300'
+  video_id: ''
+  video_provider: ''
+Talks::Talk_2e0e8a82-1b67-4fc4-9e2a-7379f96661cf:
+  id: 2e0e8a82-1b67-4fc4-9e2a-7379f96661cf
+  created_at: '2026-04-23 19:01:57.736713'
+  description: ''
+  events_event_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
+  external_id: ''
+  external_player: 0
+  external_player_url: ''
+  kind: ''
+  language: ''
+  location: ''
+  original_title: ''
+  raw_title: ''
+  removed: ''
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: gems-are-overrated
+  status: ''
+  title: Gems are overrated
+  track: ''
+  updated_at: '2026-04-23 19:01:57.736713'
+  video_id: ''
+  video_provider: ''
