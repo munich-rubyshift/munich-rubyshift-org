@@ -10,8 +10,7 @@ Category = Data.define(:slug, :title) do
 
   def self.all
     [
-      new(slug: "intro", title: "How it began"),
-      new(slug: "outro", title: "How it ended")
+      new(slug: "legal", title: "Legal stuff")
     ]
   end
 

@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
 
-  root "categories#index"
+  root "pages#show", slug: "welcome"
 
   # frozen:md
   constraints slug: Regexp.union(Category.all.map(&:slug)) do
