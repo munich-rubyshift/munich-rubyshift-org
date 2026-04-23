@@ -11,4 +11,23 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  root "categories#index"
+
+  # frozen:md
+  constraints slug: Regexp.union(Category.all.map(&:slug)) do
+    resources :categories, param: :slug, only: [ :index, :show ]
+  end
+  resources :pages, param: :slug, only: [ :show ]
+
+  # frozen:db
+  if Rails.env.development?
+    mount_avo at: "/avo"
+  end
+
+  # frozen:ui
+  if Rails.env.local?
+    mount Lookbook::Engine, at: "/lookbook"
+    resources :jasmine, only: [ :index ]
+  end
 end

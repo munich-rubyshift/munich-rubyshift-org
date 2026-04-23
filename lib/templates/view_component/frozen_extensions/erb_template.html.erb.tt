@@ -1,0 +1,5 @@
+<div class="<%= file_path.gsub('/', '---').dasherize %>" data-compiler="<%= file_path.gsub('/', '-') %>" up-data="<%%= <%= "{ #{attrs.map { |attr| "#{attr.camelize(:lower)}: @#{attr}" }.join(", ")} }" %>.to_json %>">
+<% css_attributes.zip(js_attributes, attrs).each do |css_attr, js_attr, ruby_attr| -%>
+  <div class="<%= file_path.gsub('/', '---').dasherize %>--<%= css_attr %>" data-element="<%= file_path.gsub('/', '-') %>:<%= js_attr %>"><%%= @<%= ruby_attr %> %></div>
+<% end -%>
+</div>

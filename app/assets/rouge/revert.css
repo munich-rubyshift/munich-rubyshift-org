@@ -1,0 +1,11 @@
+/*
+  Revert all previous styles and reset to the user agent defaults.
+  The rouge "module" needs to be last in the CSS bundle or later
+  styles will mess up the syntax highlighting again.
+  This intentionally removes our base theme so the rouge styles win.
+*/
+.highlight,
+.highlight * {
+  all: revert;
+}
+/* Manually re-apply spacing rules below, if desired. */

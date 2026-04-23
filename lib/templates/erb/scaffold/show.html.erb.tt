@@ -1,0 +1,11 @@
+<%% content_for :title, "<%= human_name %>: #{@<%= singular_table_name %>.slug}" %>
+
+<%%= render @<%= singular_table_name %> %>
+
+<%% if Rails.env.development? %>
+  <p>
+    <%%= link_to "✏️", avo.resources_<%= show_helper(type: :path) %>, "up-follow": false %>
+  </p>
+<%% end %>
+
+<%%= link_to "Back to all <%= human_name.pluralize.downcase %>", <%= index_helper(type: :path) %> %>

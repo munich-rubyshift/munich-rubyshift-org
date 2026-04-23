@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <%= stylesheet_link_tag 'jasmine' %>
+
+    <!-- Referencing npm assets from HTML is currently broken. -->
+    <!-- <link href="<%#= asset_path('jasmine_favicon.png') %>" rel="icon" type="image/png"> -->
+  </head>
+
+  <body>
+    <%= yield %>
+    <%= javascript_include_tag 'jasmine' %>
+  </body>
+</html>

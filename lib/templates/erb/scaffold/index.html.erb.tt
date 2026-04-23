@@ -1,0 +1,20 @@
+<%% content_for :title, "<%= human_name.pluralize %>" %>
+
+<h1><%= human_name.pluralize %></h1>
+
+<%% if Rails.env.development? %>
+  <p>
+    <%%= link_to "✏️", avo.resources_<%= index_helper(type: :path) %>, "up-follow": false %>
+  </p>
+<%% end %>
+
+<ul id="<%= plural_table_name %>">
+  <%% @<%= plural_table_name %>.each do |<%= singular_table_name %>| %>
+    <li>
+      <%%= render <%= singular_table_name %> %>
+      <p>
+        <%%= link_to "Show this <%= human_name.downcase %>", <%= model_resource_name(singular_table_name) %> %>
+      </p>
+    </li>
+  <%% end %>
+</ul>
