@@ -1,0 +1,20 @@
+<% content_for :title, "Venues" %>
+
+<h1>Venues</h1>
+
+<% if Rails.env.development? %>
+  <p>
+    <%= link_to "✏️", avo.resources_venues_venues_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="venues_venues">
+  <% @venues_venues.each do |venues_venue| %>
+    <li>
+      <%= render venues_venue %>
+      <p>
+        <%= link_to "Show this venue", venues_venue %>
+      </p>
+    </li>
+  <% end %>
+</ul>
