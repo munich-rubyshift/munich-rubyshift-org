@@ -1,0 +1,20 @@
+<% content_for :title, "People" %>
+
+<h1>People</h1>
+
+<% if Rails.env.development? %>
+  <p>
+    <%= link_to "✏️", avo.resources_entities_people_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="entities_people">
+  <% @entities_people.each do |entities_person| %>
+    <li>
+      <%= render entities_person %>
+      <p>
+        <%= link_to "Show this person", entities_person %>
+      </p>
+    </li>
+  <% end %>
+</ul>

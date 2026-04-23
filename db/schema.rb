@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_04_23_184026) do
+ActiveRecord::Schema[8.1].define(version: 2026_04_23_185040) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.datetime "created_at", null: false
@@ -39,6 +39,34 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_184026) do
     t.index ["blob_id", "variation_digest"], name: "index_active_storage_variant_records_uniqueness", unique: true
   end
 
+  create_table "entities_organizations", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.text "description"
+    t.string "logo_background"
+    t.string "logo_url"
+    t.string "main_location"
+    t.string "name"
+    t.string "rubyevents_slug"
+    t.string "slug"
+    t.datetime "updated_at", null: false
+    t.string "website"
+  end
+
+  create_table "entities_people", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.string "bluesky"
+    t.datetime "created_at", null: false
+    t.string "github"
+    t.string "linkedin"
+    t.string "mastodon"
+    t.string "name"
+    t.string "rubyevents_slug"
+    t.string "slug"
+    t.string "speakerdeck"
+    t.string "twitter"
+    t.datetime "updated_at", null: false
+    t.string "website"
+  end
+
   create_table "friendly_id_slugs", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.datetime "created_at"
     t.string "scope"
@@ -48,6 +76,23 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_184026) do
     t.index ["slug", "sluggable_type", "scope"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type_and_scope", unique: true
     t.index ["slug", "sluggable_type"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type"
     t.index ["sluggable_type", "sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_type_and_sluggable_id"
+  end
+
+  create_table "venues_venues", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.boolean "accessibility_elevators"
+    t.text "accessibility_notes"
+    t.boolean "accessibility_restrooms"
+    t.boolean "accessibility_wheelchair"
+    t.datetime "created_at", null: false
+    t.text "description"
+    t.text "instructions"
+    t.string "name"
+    t.text "nearby_parking"
+    t.text "nearby_public_transport"
+    t.string "rubyevents_slug"
+    t.string "slug"
+    t.datetime "updated_at", null: false
+    t.string "url"
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"

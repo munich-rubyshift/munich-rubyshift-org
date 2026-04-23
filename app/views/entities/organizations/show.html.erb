@@ -1,0 +1,11 @@
+<% content_for :title, "Organization: #{@entities_organization.slug}" %>
+
+<%= render @entities_organization %>
+
+<% if Rails.env.development? %>
+  <p>
+    <%= link_to "✏️", avo.resources_entities_organization_path(@entities_organization), "up-follow": false %>
+  </p>
+<% end %>
+
+<%= link_to "Back to all organizations", entities_organizations_path %>

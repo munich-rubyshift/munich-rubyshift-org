@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  slug: MyString
+  name: MyString
+  rubyevents_slug: MyString
+  description: MyText
+  url: MyString
+  instructions: MyText
+  accessibility_wheelchair: false
+  accessibility_elevators: false
+  accessibility_restrooms: false
+  accessibility_notes: MyText
+  nearby_public_transport: MyText
+  nearby_parking: MyText
+
+two:
+  slug: MyString
+  name: MyString
+  rubyevents_slug: MyString
+  description: MyText
+  url: MyString
+  instructions: MyText
+  accessibility_wheelchair: false
+  accessibility_elevators: false
+  accessibility_restrooms: false
+  accessibility_notes: MyText
+  nearby_public_transport: MyText
+  nearby_parking: MyText
