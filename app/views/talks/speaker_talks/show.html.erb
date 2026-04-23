@@ -1,0 +1,11 @@
+<% content_for :title, "Speaker talk: #{@talks_speaker_talk.slug}" %>
+
+<%= render @talks_speaker_talk %>
+
+<% if Rails.env.development? %>
+  <p>
+    <%= link_to "✏️", avo.resources_talks_speaker_talk_path(@talks_speaker_talk), "up-follow": false %>
+  </p>
+<% end %>
+
+<%= link_to "Back to all speaker talks", talks_speaker_talks_path %>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_04_23_185902) do
+ActiveRecord::Schema[8.1].define(version: 2026_04_23_190309) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.datetime "created_at", null: false
@@ -103,6 +103,16 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_185902) do
     t.index ["venues_venue_id"], name: "index_events_events_on_venues_venue_id"
   end
 
+  create_table "events_participations", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.string "attended_as"
+    t.datetime "created_at", null: false
+    t.string "entities_person_id", null: false
+    t.string "events_event_id", null: false
+    t.datetime "updated_at", null: false
+    t.index ["entities_person_id"], name: "index_events_participations_on_entities_person_id"
+    t.index ["events_event_id"], name: "index_events_participations_on_events_event_id"
+  end
+
   create_table "friendly_id_slugs", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.datetime "created_at"
     t.string "scope"
@@ -124,6 +134,31 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_185902) do
     t.string "slug"
     t.datetime "updated_at", null: false
     t.index ["events_event_id"], name: "index_sponsors_sponsor_tiers_on_events_event_id"
+  end
+
+  create_table "sponsors_sponsorships", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.string "badge"
+    t.datetime "created_at", null: false
+    t.text "description"
+    t.string "entities_organization_id", null: false
+    t.string "logo_url"
+    t.string "name"
+    t.string "rubyevents_slug"
+    t.string "slug"
+    t.string "sponsors_sponsor_tier_id", null: false
+    t.datetime "updated_at", null: false
+    t.string "website"
+    t.index ["entities_organization_id"], name: "index_sponsors_sponsorships_on_entities_organization_id"
+    t.index ["sponsors_sponsor_tier_id"], name: "index_sponsors_sponsorships_on_sponsors_sponsor_tier_id"
+  end
+
+  create_table "talks_speaker_talks", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.string "entities_person_id", null: false
+    t.string "talks_talk_id", null: false
+    t.datetime "updated_at", null: false
+    t.index ["entities_person_id"], name: "index_talks_speaker_talks_on_entities_person_id"
+    t.index ["talks_talk_id"], name: "index_talks_speaker_talks_on_talks_talk_id"
   end
 
   create_table "talks_talks", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
@@ -175,6 +210,12 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_185902) do
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "events_events", "venues_venues"
+  add_foreign_key "events_participations", "entities_people"
+  add_foreign_key "events_participations", "events_events"
   add_foreign_key "sponsors_sponsor_tiers", "events_events"
+  add_foreign_key "sponsors_sponsorships", "entities_organizations"
+  add_foreign_key "sponsors_sponsorships", "sponsors_sponsor_tiers"
+  add_foreign_key "talks_speaker_talks", "entities_people"
+  add_foreign_key "talks_speaker_talks", "talks_talks"
   add_foreign_key "talks_talks", "events_events"
 end

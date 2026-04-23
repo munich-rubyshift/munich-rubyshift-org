@@ -1,0 +1,11 @@
+<% content_for :title, "Participation: #{@events_participation.slug}" %>
+
+<%= render @events_participation %>
+
+<% if Rails.env.development? %>
+  <p>
+    <%= link_to "✏️", avo.resources_events_participation_path(@events_participation), "up-follow": false %>
+  </p>
+<% end %>
+
+<%= link_to "Back to all participations", events_participations_path %>
