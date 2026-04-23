@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_04_23_185551) do
+ActiveRecord::Schema[8.1].define(version: 2026_04_23_185902) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.datetime "created_at", null: false
@@ -114,6 +114,47 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_185551) do
     t.index ["sluggable_type", "sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_type_and_sluggable_id"
   end
 
+  create_table "sponsors_sponsor_tiers", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.text "description"
+    t.string "events_event_id", null: false
+    t.integer "level"
+    t.string "name"
+    t.string "rubyevents_slug"
+    t.string "slug"
+    t.datetime "updated_at", null: false
+    t.index ["events_event_id"], name: "index_sponsors_sponsor_tiers_on_events_event_id"
+  end
+
+  create_table "talks_talks", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.datetime "announced_at"
+    t.datetime "created_at", null: false
+    t.date "date"
+    t.text "description"
+    t.string "events_event_id", null: false
+    t.string "external_id"
+    t.boolean "external_player"
+    t.string "external_player_url"
+    t.string "kind"
+    t.string "language"
+    t.string "location"
+    t.string "original_title"
+    t.datetime "published_at"
+    t.string "raw_title"
+    t.string "removed"
+    t.string "rubyevents_slug"
+    t.string "slides_url"
+    t.string "slug"
+    t.string "status"
+    t.time "time"
+    t.string "title"
+    t.string "track"
+    t.datetime "updated_at", null: false
+    t.string "video_id"
+    t.string "video_provider"
+    t.index ["events_event_id"], name: "index_talks_talks_on_events_event_id"
+  end
+
   create_table "venues_venues", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.boolean "accessibility_elevators"
     t.text "accessibility_notes"
@@ -134,4 +175,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_185551) do
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "events_events", "venues_venues"
+  add_foreign_key "sponsors_sponsor_tiers", "events_events"
+  add_foreign_key "talks_talks", "events_events"
 end

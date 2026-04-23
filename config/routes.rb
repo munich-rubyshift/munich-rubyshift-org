@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  namespace :sponsors do
+    resources :sponsor_tiers
+  end
+  namespace :talks do
+    resources :talks
+  end
   namespace :events do
     resources :events
   end
