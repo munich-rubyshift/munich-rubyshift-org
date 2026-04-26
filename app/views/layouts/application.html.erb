@@ -17,12 +17,8 @@
     <link rel="icon" href="/icon.png" type="image/png">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/icon.png">
-    <%# Use propshaft in development and precompiled_assets in production. Very brittle. %>
-    <% if Rails.env.development? %>
-      <%= stylesheet_link_tag :app %>
-    <% else %>
-      <%= stylesheet_link_tag "application" %>
-    <% end %>
+
+    <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application", type: "module", defer: true %>
   </head>
 
