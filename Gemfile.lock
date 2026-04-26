@@ -96,7 +96,7 @@ GEM
       turbo_power (>= 0.6.0)
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-icons (0.1.3)
+    avo-icons (0.1.4)
       inline_svg
     base64 (0.3.0)
     bigdecimal (4.1.2)
@@ -261,10 +261,6 @@ GEM
     prism (1.9.0)
     prop_initializer (0.3.0)
       zeitwerk (>= 2.6.18)
-    propshaft (1.3.2)
-      actionpack (>= 7.0.0)
-      activesupport (>= 7.0.0)
-      rack
     psych (5.3.1)
       date
       stringio
@@ -458,7 +454,6 @@ DEPENDENCIES
   lookbook
   parklife-rails
   precompiled_assets
-  propshaft
   puma (>= 5.0)
   rails (~> 8.1.3)
   rouge
@@ -491,7 +486,7 @@ CHECKSUMS
   addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
   avo (3.31.2) sha256=2cf9e12969d5d814cbfeeaedb69f5086a702beac52957b338af7e498b6678521
-  avo-icons (0.1.3) sha256=35b4e2745b83d1b9adf4830dcd15be48bf4efc677387b07539a7eefdc666c2ef
+  avo-icons (0.1.4) sha256=4f77070a5710ebb9db5cd6746aa5f043b8e71e61b27c7fba5210a40d87898e4d
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   bigdecimal (4.1.2) sha256=53d217666027eab4280346fba98e7d5b66baaae1b9c3c1c0ffe89d48188a3fbd
   bindex (0.8.1) sha256=7b1ecc9dc539ed8bccfc8cb4d2732046227b09d6f37582ff12e50a5047ceb17e
@@ -573,7 +568,6 @@ CHECKSUMS
   prettyprint (0.2.0) sha256=2bc9e15581a94742064a3cc8b0fb9d45aae3d03a1baa6ef80922627a0766f193
   prism (1.9.0) sha256=7b530c6a9f92c24300014919c9dcbc055bf4cdf51ec30aed099b06cd6674ef85
   prop_initializer (0.3.0) sha256=7ccbe912ba808fb46404d50a594a884ca0f3f43278b34de552be9a2ba1acb162
-  propshaft (1.3.2) sha256=1d56a3e56a92c21bfc29caf07406b5386b00d4c47ddf357cf989a5a234b1389e
   psych (5.3.1) sha256=eb7a57cef10c9d70173ff74e739d843ac3b2c019a003de48447b2963d81b1974
   public_suffix (7.0.5) sha256=1a8bb08f1bbea19228d3bed6e5ed908d1cb4f7c2726d18bd9cadf60bc676f623
   puma (8.0.0) sha256=1681050b8b60fab1d3033255ab58b6aec64cd063e43fc6f8204bcb8bf9364b88

@@ -4,13 +4,8 @@
     <title>Component Preview</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <%# Use propshaft in development and precompiled_assets in production. Very brittle. %>
-    <% if Rails.env.development? %>
-      <%= stylesheet_link_tag :app, media: 'all' %>
-    <% else %>
-      <%= stylesheet_link_tag "application", media: 'all' %>
-    <% end %>
-    <%= javascript_include_tag 'application' %>
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag "application" %>
   </head>
 
   <body style="padding: 20px">

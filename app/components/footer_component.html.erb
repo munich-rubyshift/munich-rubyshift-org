@@ -2,8 +2,8 @@
   <nav>
     <%= link_to "Imprint", page_path("imprint") %>
     <% if Rails.env.development? %>
-      <%= link_to "Lookbook", lookbook_path %>
-      <%= link_to "Jasmine", jasmine_index_path %>
+      <%= link_to "Lookbook", lookbook_path, "up-follow": false %>
+      <%= link_to "Jasmine", jasmine_index_path, "up-follow": false %>
     <% end %>
   </nav>
 </footer>

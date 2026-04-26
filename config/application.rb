@@ -30,7 +30,6 @@ module MunichRubyshiftOrg
     # config.eager_load_paths << Rails.root.join("extras")
 
     # frozen:md
-    # config.assets.paths << Rails.root.join("content")
     config.action_dispatch.rescue_responses["Decant::FileNotFound"] = :not_found
 
     # frozen:db
@@ -48,7 +47,5 @@ module MunichRubyshiftOrg
     config.view_component.generate.locale = true
     config.view_component.previews.default_layout = "component_preview"
     config.asset_path = "/assets"
-    # Use propshaft in development and precompiled_assets in production. Very brittle.
-    config.assets.paths << Rails.root.join("app/assets") if Rails.env.development?
   end
 end

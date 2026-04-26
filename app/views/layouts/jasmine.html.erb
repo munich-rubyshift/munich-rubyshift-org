@@ -4,14 +4,14 @@
     <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <%= stylesheet_link_tag 'jasmine' %>
 
-    <!-- Referencing npm assets from HTML is currently broken. -->
-    <!-- <link href="<%#= asset_path('jasmine_favicon.png') %>" rel="icon" type="image/png"> -->
+    <link href="<%= asset_path("jasmine-core/images/jasmine_favicon.png") %>" rel="icon" type="image/png">
+
+    <%= stylesheet_link_tag "jasmine" %>
+    <%= javascript_include_tag "jasmine", defer: true %>
   </head>
 
   <body>
     <%= yield %>
-    <%= javascript_include_tag 'jasmine' %>
   </body>
 </html>
