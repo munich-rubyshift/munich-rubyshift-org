@@ -4,4 +4,4 @@ category_slugs: []
 ---
 # Welcome to Munich Rubyshift!
 
-We are Munich's good Ruby meetup.
+We are Munich's evil Ruby meetup.
