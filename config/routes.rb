@@ -1,37 +1,30 @@
 Rails.application.routes.draw do
-  namespace :sponsors do
-    resources :sponsorships
-    resources :sponsor_tiers
-  end
-  namespace :talks do
-    resources :speaker_talks
-    resources :talks
-  end
-  namespace :events do
-    resources :participations
-    resources :events
-  end
-  namespace :entities do
-    resources :organizations
-    resources :people
-  end
-  namespace :venues do
-    resources :venues
-  end
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
-  # Can be used by load balancers and uptime monitors to verify that the app is live.
   get "up" => "rails/health#show", as: :rails_health_check
+  root "pages#show", slug: "welcome"
 
   # Render dynamic PWA files from app/views/pwa/* (remember to link manifest in application.html.erb)
   # get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
-  # Defines the root path route ("/")
-  # root "posts#index"
-
-  root "pages#show", slug: "welcome"
+  namespace :sponsors, path: "" do
+    resources :sponsorships
+    resources :sponsor_tiers
+  end
+  namespace :talks, path: "" do
+    resources :speaker_talks
+    resources :talks
+  end
+  namespace :events, path: "" do
+    resources :participations
+    resources :events
+  end
+  namespace :entities, path: "" do
+    resources :organizations
+    resources :people
+  end
+  namespace :venues, path: "" do
+    resources :venues
+  end
 
   # frozen:md
   constraints slug: Regexp.union(Category.all.map(&:slug)) do
