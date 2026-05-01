@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= content_for(:title) || "Test Freeze" %></title>
+    <title><%= content_for(:title) || "Munich Rubyshift" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Test Freeze">
+    <meta name="application-name" content="Munich Rubyshift">
     <meta name="mobile-web-app-capable" content="yes">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -14,17 +14,27 @@
     <%# Enable PWA manifest for installable apps (make sure to enable in config/routes.rb too!) %>
     <%# = tag.link rel: "manifest", href: pwa_manifest_path(format: :json) %>
 
-    <link rel="icon" href="/icon.png" type="image/png">
-    <link rel="icon" href="/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/icon.png">
+    <link rel="icon" href="/ruby.png" type="image/png">
+    <link rel="icon" href="/ruby.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/ruby.png">
 
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application", type: "module", defer: true %>
   </head>
 
   <body>
-    <%= render HeaderComponent.new %>
-    <%= yield %>
-    <%= render FooterComponent.new %>
+    <%= render LayoutComponent.new do |layout| %>
+      <% layout.with_header do %>
+        <%= render HeaderComponent.new %>
+      <% end %>
+
+      <% layout.with_main do %>
+        <%= yield %>
+      <% end %>
+
+      <% layout.with_footer do %>
+        <%= render FooterComponent.new %>
+      <% end %>
+    <% end %>
   </body>
 </html>

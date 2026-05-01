@@ -1,0 +1,19 @@
+<div class="layout" data-compiler="layout" up-data="<%= {  }.to_json %>">
+  <% if header? %>
+    <div class="layout--header">
+      <%= header %>
+    </div>
+  <% end %>
+
+  <% if main? %>
+    <div class="layout--main">
+      <%= main %>
+    </div>
+  <% end %>
+
+  <% if footer? %>
+    <div class="layout--footer">
+      <%= footer %>
+    </div>
+  <% end %>
+</div>
