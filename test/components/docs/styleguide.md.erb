@@ -1,0 +1,30 @@
+# Component Styleguide
+
+- Use the provided `component` generator to scaffold new components. It also supports namespaces:
+  - `bin/rails g component Users::Avatar`.
+  - Prefer a plural for your namespaces to avoid clashing with your models.
+- Put your components into `app/components` and their tests into `test/components`.
+- Keep filenames consistent.
+- Delete files which you don't need for your component.
+
+## ViewComponent
+
+- Use `ApplicationComponent` as the base class.
+- Prefer using slots over configuration via attributes.
+- Prefer private methods within components over helpers. Use concerns to share behavior.
+- Test your components with view specs.
+
+## Unpoly Compilers
+
+- Use `data-compiler` on the root element and `data-element` to connect your JS logic to the DOM.
+- Pass data into components via `up-data`.
+- Return a list of destructors from your compiler if necessary: [Unpoly Docs: destructor](https://unpoly.com/enhancing-elements#destructor)
+- Consider using a Lookbook preview as the starting point for your Jasmine specs.
+
+## CSS
+
+- Use BEM-style CSS.
+- Keep consistent with the naming conventions from the provided generator:
+  - We use an abbreviated style that differs from regular BEM.
+  - No underscores at all.
+  - Modifiers are just `-modifier` without repeating the block name.

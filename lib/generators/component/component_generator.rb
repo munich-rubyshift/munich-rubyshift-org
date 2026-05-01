@@ -47,10 +47,10 @@ class ComponentGenerator < Rails::Generators::NamedBase
   end
 
   def bem_selectors
-    base = file_path.gsub("/", "---").dasherize
+    base = file_path.gsub("/", "---").dasherize.prepend(".")
     [
       base,
-      *css_attributes.map { |attr| ".#{base}--#{attr}" }
+      *css_attributes.map { |attr| "#{base}--#{attr}" }
     ]
   end
 
