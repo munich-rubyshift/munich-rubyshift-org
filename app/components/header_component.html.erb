@@ -1,8 +1,12 @@
 <header class="header" data-compiler="header" up-data="<%= {  }.to_json %>">
-  <nav>
-    <%= link_to "Home", page_path("welcome") %>
-    <%= link_to "Events", events_events_path %>
-    <%= link_to "Talks", talks_talks_path %>
-    <%= link_to "Sponsors", sponsors_sponsorships_path %>
-  </nav>
+  <%= image_tag("munich_rubyshift.webp", alt: "Munich Rubyshift logo") %>
+  <div class="header--text">
+    <h1 class="header--title">Munich Rubyshift</h1>
+    <nav>
+      <%= link_to "Home", page_path("welcome") %>
+      <%= link_to "Events", events_events_path %>
+      <%= link_to "Talks", talks_talks_path %>
+      <%= link_to "Sponsors", sponsors_sponsorships_path %>
+    </nav>
+  </div>
 </header>
