@@ -1,0 +1,22 @@
+---
+Events::Participation_7938effa-2477-47c4-a016-af96663d60fa:
+  id: 7938effa-2477-47c4-a016-af96663d60fa
+  attended_as: ''
+  created_at: '2026-05-01 10:15:20.572999'
+  entities_person_id: 21b0b842-40b4-41b8-a798-8c417ef40986
+  events_event_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
+  updated_at: '2026-05-01 10:15:20.572999'
+Events::Participation_aee5168d-36a1-4524-af73-d39b66050994:
+  id: aee5168d-36a1-4524-af73-d39b66050994
+  attended_as: ''
+  created_at: '2026-05-01 10:15:32.088772'
+  entities_person_id: 536bc1f5-5f7f-4f1b-b6b6-e5e101b65906
+  events_event_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
+  updated_at: '2026-05-01 10:15:32.088772'
+Events::Participation_f2ef55c2-e986-4722-93c1-3b6de890dd39:
+  id: f2ef55c2-e986-4722-93c1-3b6de890dd39
+  attended_as: ''
+  created_at: '2026-05-01 10:15:26.538322'
+  entities_person_id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
+  events_event_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
+  updated_at: '2026-05-01 10:15:26.538322'

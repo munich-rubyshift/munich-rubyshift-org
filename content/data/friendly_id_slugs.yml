@@ -17,6 +17,12 @@ FriendlyId::Slug_3e3f9e72-1be5-4c04-be40-20bc0c0e740b:
   slug: freeletics-office
   sluggable_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   sluggable_type: Venues::Venue
+FriendlyId::Slug_42ff83c4-dfaa-4749-b539-16b318f193ae:
+  id: 42ff83c4-dfaa-4749-b539-16b318f193ae
+  created_at: '2026-05-01 10:15:44.470624'
+  slug: location-drinks-by-freeletics
+  sluggable_id: 8c929ce2-4102-45c1-951e-ed14515f0a16
+  sluggable_type: Sponsors::Sponsorship
 FriendlyId::Slug_4c850e04-be73-411b-869f-5f146f1abbf5:
   id: 4c850e04-be73-411b-869f-5f146f1abbf5
   created_at: '2026-04-23 19:00:39.445301'
