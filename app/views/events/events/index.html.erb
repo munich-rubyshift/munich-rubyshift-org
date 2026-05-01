@@ -1,12 +1,16 @@
 <% content_for :title, "Events" %>
 
-<h1>Events</h1>
+<h1>Events<% if Rails.env.development? %> <%= link_to "✏️", avo.resources_events_events_path, "up-follow": false %><% end %></h1>
 
-<% if Rails.env.development? %>
-  <p>
-    <%= link_to "✏️", avo.resources_events_events_path, "up-follow": false %>
-  </p>
-<% end %>
+<p>
+  Our current meetup frequency is once every three months. Events usually take place
+  on Thursday evening.
+</p>
+
+<p>
+  We're announcing future events on Meetup, LinkedIn and Discord.
+  We intend to additionally provide an RSS feed on this website soon.
+</p>
 
 <ul id="events_events">
   <% @events_events.each do |events_event| %>
