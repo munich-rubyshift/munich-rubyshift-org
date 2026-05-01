@@ -1,0 +1,13 @@
+---
+Talks::SpeakerTalk_85b0c52f-5ac4-4bc1-bdef-626cf3dd8490:
+  id: 85b0c52f-5ac4-4bc1-bdef-626cf3dd8490
+  created_at: '2026-05-01 10:16:03.108708'
+  entities_person_id: 536bc1f5-5f7f-4f1b-b6b6-e5e101b65906
+  talks_talk_id: '097ea9bd-b75f-4ee5-8ce8-935902d7faca'
+  updated_at: '2026-05-01 10:16:03.108708'
+Talks::SpeakerTalk_8f7fa8b1-26eb-4949-b841-29ad1099a8ba:
+  id: 8f7fa8b1-26eb-4949-b841-29ad1099a8ba
+  created_at: '2026-05-01 10:15:53.573382'
+  entities_person_id: 21b0b842-40b4-41b8-a798-8c417ef40986
+  talks_talk_id: 2e0e8a82-1b67-4fc4-9e2a-7379f96661cf
+  updated_at: '2026-05-01 10:15:53.573382'
