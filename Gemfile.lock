@@ -240,7 +240,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.19.2-x86_64-linux-musl)
       racc (~> 1.4)
-    ostruct (0.6.3)
     pagy (9.4.0)
     parallel (2.0.1)
     parklife (0.8.1)
@@ -388,8 +387,7 @@ GEM
     sqlite3 (2.9.3-x86_64-linux-musl)
     sqlite_extensions-uuid (1.0.2)
       sqlite3 (>= 2.4.0)
-    static_db (0.0.6)
-      ostruct (>= 0.6)
+    static_db (0.1.1)
       rails (>= 7.2)
     stringio (3.2.0)
     thor (1.5.0)
@@ -557,7 +555,6 @@ CHECKSUMS
   nokogiri (1.19.2-x86_64-darwin) sha256=7d9af11fda72dfaa2961d8c4d5380ca0b51bc389dc5f8d4b859b9644f195e7a4
   nokogiri (1.19.2-x86_64-linux-gnu) sha256=fa8feca882b73e871a9845f3817a72e9734c8e974bdc4fbad6e4bc6e8076b94f
   nokogiri (1.19.2-x86_64-linux-musl) sha256=93128448e61a9383a30baef041bf1f5817e22f297a1d400521e90294445069a8
-  ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   pagy (9.4.0) sha256=db3f2e043f684155f18f78be62a81e8d033e39b9f97b1e1a8d12ad38d7bce738
   parallel (2.0.1) sha256=337782d3e39f4121e67563bf91dd8ece67f48923d90698614773a0ec9a5b2c7d
   parklife (0.8.1) sha256=6399c5e05161848d01a2f71532b53d0dcfb6282a10cf3f317eeb7b2e3a18175d
@@ -613,7 +610,7 @@ CHECKSUMS
   sqlite3 (2.9.3-x86_64-linux-gnu) sha256=85200a10c6cf5c60085fcca411a3168c5fba8fda3e2b1b0109ec277d7c226d46
   sqlite3 (2.9.3-x86_64-linux-musl) sha256=b6d0437046d9180335dea1aa0592802e65c4f7b57409d63f14408211bf28536b
   sqlite_extensions-uuid (1.0.2) sha256=289c132b88f198d45694529df13f4ec0f80cd67ba5c35a3fa8fb7174302bb95a
-  static_db (0.0.6) sha256=c9e3879cd1ad8738e830a1474f6b6c66881b3077750396bd77ede3424cc7a03b
+  static_db (0.1.1) sha256=30405ae709786570dfe65edb4873887ef24a92f3efabbdb10ac63788c086a70d
   stringio (3.2.0) sha256=c37cb2e58b4ffbd33fe5cd948c05934af997b36e0b6ca6fdf43afa234cf222e1
   thor (1.5.0) sha256=e3a9e55fe857e44859ce104a84675ab6e8cd59c650a49106a05f55f136425e73
   timeout (0.6.1) sha256=78f57368a7e7bbadec56971f78a3f5ecbcfb59b7fcbb0a3ed6ddc08a5094accb
