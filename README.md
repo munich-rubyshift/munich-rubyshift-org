@@ -19,10 +19,14 @@ run into annoying issues as `foreman` will kill the Ruby process before
 ## Troubleshooting
 
 Data:
-- If your server fails to shut down cleanly or fails to boot, delete the `.sqlite3` files from `storage/`.
-- Use `git` to restore data from the `main` branch.
-- Data that you entered during your current session might not have been written to `content/data/` and might be lost (unless you want to extract it from SQLite manually). We'll try to make this less annoying in the future. In the meantime, don't enter data
-for extended periods of time without stopping your Rails server and committing a save state.
+- After a failed shutdown (e.g. due to validation errors):
+  - `bin/rails s` discards all data changes from your `.sqlite3` files and recreates your DB from the YAML files.
+  - There is currently no convenient way to boot your server without discarding changes in this case.
+    - This will be added later, but getting invalid data into your DB should also be a rare occurrence.
+- After an interrupted shutdown (e.g. due to `bin/dev` / `foreman` killing your Rails process too early):
+  - Data from your `.sqlite3` files might have been dumped to YAML partially or not at all.
+  - Retry dumping your data with `bin/rails static:dump`.
+- Use `git` to discard changes and restore data from earlier commits.
 
 Assets:
 - When adding new assets, they might not get picked up automatically. Restart `yarn build --watch`.
