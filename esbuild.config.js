@@ -24,14 +24,18 @@ async function handleErrors(errors) {
   }
 }
 
+let entryPoints
+
+if (railsEnv === 'production') {
+  entryPoints = ['application.js', 'static.js']
+} else {
+  entryPoints = ['application.js', 'static.js', 'jasmine.js']
+}
+
 const config = {
-  entryPoints: [
-    'application.js',
-    'jasmine.js',
-    'static.js'
-  ],
+  entryPoints,
   bundle: true,
-  sourcemap: true,
+  sourcemap: railsEnv !== 'production',
   format: 'esm',
   outdir,
   absWorkingDir: path.join(process.cwd(), 'app/assets'),
