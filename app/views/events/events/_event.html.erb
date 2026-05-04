@@ -25,6 +25,15 @@
   </p>
 
   <p>
+    <strong>Talks:</strong><br>
+    <ul>
+      <% event.talks.each do |talk| %>
+        <li><%= link_to talk %></li>
+      <% end %>
+    </ul>
+  </p>
+
+  <p>
     <strong>Description:</strong>
     <%= event.description %>
   </p>
