@@ -34,6 +34,15 @@
   </p>
 
   <p>
+    <strong>Sponsor Tiers:</strong><br>
+    <ul>
+      <% event.sponsor_tiers.each do |sponsor_tier| %>
+        <li><%= link_to sponsor_tier %></li>
+      <% end %>
+    </ul>
+  </p>
+
+  <p>
     <strong>Description:</strong>
     <%= event.description %>
   </p>
