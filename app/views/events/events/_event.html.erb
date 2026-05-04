@@ -28,16 +28,18 @@
     <strong>Talks:</strong><br>
     <ul>
       <% event.talks.each do |talk| %>
-        <li><%= link_to talk %></li>
+        <li><%= link_to talk %> by <%= talk.speakers.map(&:to_s).join(",") %></li>
       <% end %>
     </ul>
   </p>
 
   <p>
-    <strong>Sponsor Tiers:</strong><br>
+    <strong>Sponsors:</strong><br>
     <ul>
       <% event.sponsor_tiers.each do |sponsor_tier| %>
-        <li><%= link_to sponsor_tier %></li>
+        <% sponsor_tier.organizations.each do |organization| %>
+          <li><%= link_to organization %> (<%= sponsor_tier.to_s %>)</li>
+        <% end %>
       <% end %>
     </ul>
   </p>

@@ -20,6 +20,15 @@
   </p>
 
   <p>
+    <strong>Organizations:</strong><br>
+    <ul>
+      <% sponsor_tier.organizations.each do |organization| %>
+        <li><%= link_to organization %></li>
+      <% end %>
+    </ul>
+  </p>
+
+  <p>
     <strong>Description:</strong>
     <%= sponsor_tier.description %>
   </p>
