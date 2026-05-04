@@ -15,6 +15,15 @@
   </p>
 
   <p>
+    <strong>Talks:</strong><br>
+    <ul>
+      <% person.talks.each do |talk| %>
+        <li><%= link_to talk %></li>
+      <% end %>
+    </ul>
+  </p>
+
+  <p>
     <strong>Github:</strong>
     <%= person.github %>
   </p>
