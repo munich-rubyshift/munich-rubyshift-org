@@ -7,6 +7,8 @@ class Entities::Person < ApplicationRecord
   has_many :speaker_talks, class_name: "Talks::SpeakerTalk", foreign_key: :entities_person_id, inverse_of: :speaker
   has_many :talks, class_name: "Talks::Talk", through: :speaker_talks
 
+  scope :with_talks, -> { where.not(id: where.missing(:talks)) }
+
   def to_s
     name
   end

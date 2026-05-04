@@ -1,6 +1,6 @@
 class Entities::PeopleController < ApplicationController
   def index
-    @entities_people = Entities::Person.all
+    @entities_people = Entities::Person.with_talks
   end
 
   def show
