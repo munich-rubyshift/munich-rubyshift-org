@@ -4,7 +4,7 @@ one:
   slug: MyString
   title: MyString
   rubyevents_slug: MyString
-  events_event: one
+  event: one
   description: MyText
   raw_title: MyString
   original_title: MyString
@@ -29,7 +29,7 @@ two:
   slug: MyString
   title: MyString
   rubyevents_slug: MyString
-  events_event: two
+  event: two
   description: MyText
   raw_title: MyString
   original_title: MyString

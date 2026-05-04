@@ -4,7 +4,7 @@ one:
   slug: MyString
   name: MyString
   rubyevents_slug: MyString
-  events_event: one
+  event: one
   description: MyText
   level: 1
 
@@ -12,6 +12,6 @@ two:
   slug: MyString
   name: MyString
   rubyevents_slug: MyString
-  events_event: two
+  event: two
   description: MyText
   level: 1
