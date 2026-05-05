@@ -18,7 +18,7 @@
     <strong>Talks:</strong><br>
     <ul>
       <% person.talks.each do |talk| %>
-        <li><%= link_to talk %> at <%= talk.event.to_s %></li>
+        <li><%= link_to talk %> at <%= talk.event %></li>
       <% end %>
     </ul>
   </p>

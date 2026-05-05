@@ -28,7 +28,7 @@
     <strong>Talks:</strong><br>
     <ul>
       <% event.talks.each do |talk| %>
-        <li><%= link_to talk %> by <%= talk.speakers.map(&:to_s).join(",") %></li>
+        <li><%= link_to talk %> by <%= talk.speakers.join(", ") %></li>
       <% end %>
     </ul>
   </p>
@@ -38,7 +38,7 @@
     <ul>
       <% event.sponsor_tiers.each do |sponsor_tier| %>
         <% sponsor_tier.organizations.each do |organization| %>
-          <li><%= link_to organization %> (<%= sponsor_tier.to_s %>)</li>
+          <li><%= link_to organization %> (<%= sponsor_tier %>)</li>
         <% end %>
       <% end %>
     </ul>

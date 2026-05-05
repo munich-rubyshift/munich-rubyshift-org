@@ -18,7 +18,7 @@
     <strong>Sponsored events:</strong><br>
     <ul>
       <% organization.sponsor_tiers.each do |sponsor_tier| %>
-        <li><%= link_to sponsor_tier.event %> (<%= sponsor_tier.to_s %>)</li>
+        <li><%= link_to sponsor_tier.event %> (<%= sponsor_tier %>)</li>
       <% end %>
     </ul>
   </p>
