@@ -2,7 +2,7 @@
 
 <%= render @talks_talk %>
 
-<% if Rails.env.development? %>
+<% if defined?(Avo) %>
   <p>
     <%= link_to "✏️", avo.resources_talks_talk_path(@talks_talk), "up-follow": false %>
   </p>

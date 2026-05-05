@@ -1,6 +1,6 @@
 <% content_for :title, "Organizations" %>
 
-<h1>Sponsors<% if Rails.env.development? %> <%= link_to "✏️", avo.resources_entities_organizations_path, "up-follow": false %><% end %></h1>
+<h1>Sponsors<% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_organizations_path, "up-follow": false %><% end %></h1>
 
 <p>
   We are always looking for meetup hosts.

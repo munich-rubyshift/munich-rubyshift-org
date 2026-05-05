@@ -2,7 +2,7 @@
 
 <%= render @sponsors_sponsor_tier %>
 
-<% if Rails.env.development? %>
+<% if defined?(Avo) %>
   <p>
     <%= link_to "✏️", avo.resources_sponsors_sponsor_tier_path(@sponsors_sponsor_tier), "up-follow": false %>
   </p>

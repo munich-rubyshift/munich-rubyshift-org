@@ -1,6 +1,6 @@
 <% content_for :title, "People" %>
 
-<h1>Speakers <% if Rails.env.development? %> <%= link_to "✏️", avo.resources_entities_people_path, "up-follow": false %><% end %></h1>
+<h1>Speakers <% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_people_path, "up-follow": false %><% end %></h1>
 
 <ul id="entities_people">
   <% @entities_people.each do |entities_person| %>

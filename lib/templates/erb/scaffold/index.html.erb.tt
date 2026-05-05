@@ -2,7 +2,7 @@
 
 <h1><%= human_name.pluralize %></h1>
 
-<%% if Rails.env.development? %>
+<%% if defined?(Avo) %>
   <p>
     <%%= link_to "✏️", avo.resources_<%= index_helper(type: :path) %>, "up-follow": false %>
   </p>

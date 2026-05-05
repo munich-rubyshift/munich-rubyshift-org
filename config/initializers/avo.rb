@@ -1,4 +1,4 @@
-if Rails.env.development?
+if defined?(Avo)
   # Allow moving Avo controllers into `app/avo/controllers/`
   Rails.autoloaders.main.collapse(
     Rails.root.join("app/avo/controllers")

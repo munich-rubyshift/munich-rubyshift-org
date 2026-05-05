@@ -2,7 +2,7 @@
 
 <%= render @entities_person %>
 
-<% if Rails.env.development? %>
+<% if defined?(Avo) %>
   <p>
     <%= link_to "✏️", avo.resources_entities_person_path(@entities_person), "up-follow": false %>
   </p>

@@ -2,7 +2,7 @@
 
 <%= render @events_participation %>
 
-<% if Rails.env.development? %>
+<% if defined?(Avo) %>
   <p>
     <%= link_to "✏️", avo.resources_events_participation_path(@events_participation), "up-follow": false %>
   </p>

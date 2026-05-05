@@ -2,7 +2,7 @@
 
 <h1>Venues</h1>
 
-<% if Rails.env.development? %>
+<% if defined?(Avo) %>
   <p>
     <%= link_to "✏️", avo.resources_venues_venues_path, "up-follow": false %>
   </p>

@@ -1,6 +1,6 @@
 <% content_for :title, "Talks" %>
 
-<h1>Talks<% if Rails.env.development? %> <%= link_to "✏️", avo.resources_talks_talks_path, "up-follow": false %><% end %></h1>
+<h1>Talks<% if defined?(Avo) %> <%= link_to "✏️", avo.resources_talks_talks_path, "up-follow": false %><% end %></h1>
 
 <p>
   Our "call for proposals" (CFP) is always open. If you want to give a talk at

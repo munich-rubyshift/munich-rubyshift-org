@@ -44,6 +44,9 @@ gem "view_component"
 gem "precompiled_assets"
 
 group :development, :test do
+  # frozen:db
+  gem "avo", ">= 3.2"
+
   # frozen:ui
   gem "lookbook"
 
@@ -61,9 +64,6 @@ group :development, :test do
 end
 
 group :development do
-  # frozen:db
-  gem "avo", ">= 3.2"
-
   # frozen:ui
   gem "listen"
 

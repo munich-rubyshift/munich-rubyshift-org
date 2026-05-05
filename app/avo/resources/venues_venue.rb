@@ -2,6 +2,7 @@ class Avo::Resources::VenuesVenue < Avo::BaseResource
   # self.includes = []
   # self.attachments = []
   self.model_class = ::Venues::Venue
+  self.translation_key = "activerecord.models.#{model_class.model_name.i18n_key}"
   # self.search = {
   #   query: -> { query.ransack(id_eq: q, m: "or").result(distinct: false) }
   # }

@@ -33,7 +33,7 @@ Rails.application.routes.draw do
   resources :pages, param: :slug, only: [ :show ]
 
   # frozen:db
-  if Rails.env.development?
+  if defined?(Avo)
     mount_avo at: "/avo"
   end
 
