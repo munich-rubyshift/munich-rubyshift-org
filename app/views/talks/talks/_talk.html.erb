@@ -15,8 +15,17 @@
   </p>
 
   <p>
-    <strong>Events event:</strong>
-    <%= talk.events_event_id %>
+    <strong>Speakers:</strong><br>
+    <ul>
+      <% talk.speakers.each do |speaker| %>
+        <li><%= link_to speaker %></li>
+      <% end %>
+    </ul>
+  </p>
+
+  <p>
+    <strong>Event:</strong>
+    <%= link_to talk.event %>
   </p>
 
   <p>

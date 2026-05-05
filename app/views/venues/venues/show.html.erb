@@ -2,7 +2,7 @@
 
 <%= render @venues_venue %>
 
-<% if Rails.env.development? %>
+<% if defined?(Avo) %>
   <p>
     <%= link_to "✏️", avo.resources_venues_venue_path(@venues_venue), "up-follow": false %>
   </p>

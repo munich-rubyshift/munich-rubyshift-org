@@ -15,8 +15,33 @@
   </p>
 
   <p>
-    <strong>Venues venue:</strong>
-    <%= event.venues_venue_id %>
+    <strong>Venue:</strong>
+    <%= link_to event.venue %>
+  </p>
+
+  <p>
+    <strong>Participants:</strong>
+    <%= event.participants.count %>
+  </p>
+
+  <p>
+    <strong>Talks:</strong><br>
+    <ul>
+      <% event.talks.each do |talk| %>
+        <li><%= link_to talk %> by <%= talk.speakers.join(", ") %></li>
+      <% end %>
+    </ul>
+  </p>
+
+  <p>
+    <strong>Sponsors:</strong><br>
+    <ul>
+      <% event.sponsor_tiers.each do |sponsor_tier| %>
+        <% sponsor_tier.organizations.each do |organization| %>
+          <li><%= link_to organization %> (<%= sponsor_tier %>)</li>
+        <% end %>
+      <% end %>
+    </ul>
   </p>
 
   <p>

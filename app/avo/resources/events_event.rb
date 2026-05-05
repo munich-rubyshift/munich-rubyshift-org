@@ -2,6 +2,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
   # self.includes = []
   # self.attachments = []
   self.model_class = ::Events::Event
+  self.translation_key = "activerecord.models.#{model_class.model_name.i18n_key}"
   # self.search = {
   #   query: -> { query.ransack(id_eq: q, m: "or").result(distinct: false) }
   # }
@@ -11,7 +12,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :slug, as: :id, format_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     field :title, as: :text
     field :rubyevents_slug, as: :text
-    field :venues_venue, as: :belongs_to
+    field :venue, as: :belongs_to
     field :description, as: :textarea
     field :kind, as: :text
     field :hybrid, as: :boolean

@@ -2,6 +2,7 @@ class Avo::Resources::SponsorsSponsorTier < Avo::BaseResource
   # self.includes = []
   # self.attachments = []
   self.model_class = ::Sponsors::SponsorTier
+  self.translation_key = "activerecord.models.#{model_class.model_name.i18n_key}"
   # self.search = {
   #   query: -> { query.ransack(id_eq: q, m: "or").result(distinct: false) }
   # }
@@ -11,7 +12,7 @@ class Avo::Resources::SponsorsSponsorTier < Avo::BaseResource
     field :slug, as: :id, format_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     field :name, as: :text
     field :rubyevents_slug, as: :text
-    field :events_event, as: :belongs_to
+    field :event, as: :belongs_to
     field :description, as: :textarea
     field :level, as: :number
   end

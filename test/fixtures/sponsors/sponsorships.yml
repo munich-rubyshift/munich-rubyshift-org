@@ -4,8 +4,8 @@ one:
   slug: MyString
   name: MyString
   rubyevents_slug: MyString
-  entities_organization: one
-  sponsors_sponsor_tier: one
+  organization: one
+  sponsor_tier: one
   description: MyText
   website: MyString
   logo_url: MyString
@@ -15,8 +15,8 @@ two:
   slug: MyString
   name: MyString
   rubyevents_slug: MyString
-  entities_organization: two
-  sponsors_sponsor_tier: two
+  organization: two
+  sponsor_tier: two
   description: MyText
   website: MyString
   logo_url: MyString

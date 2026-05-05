@@ -15,8 +15,17 @@
   </p>
 
   <p>
-    <strong>Events event:</strong>
-    <%= sponsor_tier.events_event_id %>
+    <strong>Event:</strong>
+    <%= link_to sponsor_tier.event %>
+  </p>
+
+  <p>
+    <strong>Organizations:</strong><br>
+    <ul>
+      <% sponsor_tier.organizations.each do |organization| %>
+        <li><%= link_to organization %></li>
+      <% end %>
+    </ul>
   </p>
 
   <p>

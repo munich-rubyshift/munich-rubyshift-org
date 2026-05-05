@@ -2,6 +2,7 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
   # self.includes = []
   # self.attachments = []
   self.model_class = ::Talks::Talk
+  self.translation_key = "activerecord.models.#{model_class.model_name.i18n_key}"
   # self.search = {
   #   query: -> { query.ransack(id_eq: q, m: "or").result(distinct: false) }
   # }
@@ -11,7 +12,7 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
     field :slug, as: :id, format_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     field :title, as: :text
     field :rubyevents_slug, as: :text
-    field :events_event, as: :belongs_to
+    field :event, as: :belongs_to
     field :description, as: :textarea
     field :raw_title, as: :text
     field :original_title, as: :text

@@ -2,7 +2,7 @@
 
 <%%= render @<%= singular_table_name %> %>
 
-<%% if Rails.env.development? %>
+<%% if defined?(Avo) %>
   <p>
     <%%= link_to "✏️", avo.resources_<%= show_helper(type: :path) %>, "up-follow": false %>
   </p>

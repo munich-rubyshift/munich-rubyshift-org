@@ -28,4 +28,32 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  activerecord:
+    models:
+      entities/organization:
+        one: "Organization"
+        many: "Organizations"
+      entities/person:
+        one: "Person"
+        many: "People"
+      events/event:
+        one: "Event"
+        many: "Events"
+      events/participation:
+        one: "Participation"
+        many: "Participations"
+      sponsors/sponsor_tier:
+        one: "Sponsor Tier"
+        many: "Sponsor Tiers"
+      sponsors/sponsorship:
+        one: "Sponsorship"
+        many: "Sponsorships"
+      talks/speaker_talk:
+        one: "Speaker Talk"
+        many: "Speaker Talks"
+      talks/talk:
+        one: "Talk"
+        many: "Talks"
+      venues/venue:
+        one: "Venue"
+        many: "Venues"

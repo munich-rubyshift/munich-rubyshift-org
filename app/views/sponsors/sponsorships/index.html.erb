@@ -1,12 +1,6 @@
 <% content_for :title, "Sponsorships" %>
 
-<h1>Sponsorships<% if Rails.env.development? %> <%= link_to "✏️", avo.resources_sponsors_sponsorships_path, "up-follow": false %><% end %></h1>
-
-<p>
-  We are always looking for meetup hosts.
-  If you have an office space or equivalent venue in Munich and want to host our next meetup,
-  please reach out to us via LinkedIn or Discord.
-</p>
+<h1>Sponsorships<% if defined?(Avo) %> <%= link_to "✏️", avo.resources_sponsors_sponsorships_path, "up-follow": false %><% end %></h1>
 
 <ul id="sponsors_sponsorships">
   <% @sponsors_sponsorships.each do |sponsors_sponsorship| %>

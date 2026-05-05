@@ -1,12 +1,12 @@
 <% content_for :title, "Organizations" %>
 
-<h1>Organizations</h1>
+<h1>Sponsors<% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_organizations_path, "up-follow": false %><% end %></h1>
 
-<% if Rails.env.development? %>
-  <p>
-    <%= link_to "✏️", avo.resources_entities_organizations_path, "up-follow": false %>
-  </p>
-<% end %>
+<p>
+  We are always looking for meetup hosts.
+  If you have an office space or equivalent venue in Munich and want to host our next meetup,
+  please reach out to us via LinkedIn or Discord.
+</p>
 
 <ul id="entities_organizations">
   <% @entities_organizations.each do |entities_organization| %>

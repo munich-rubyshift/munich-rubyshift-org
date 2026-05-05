@@ -4,7 +4,7 @@ one:
   slug: MyString
   title: MyString
   rubyevents_slug: MyString
-  venues_venue: one
+  venue: one
   description: MyText
   kind: MyString
   hybrid: false
@@ -36,7 +36,7 @@ two:
   slug: MyString
   title: MyString
   rubyevents_slug: MyString
-  venues_venue: two
+  venue: two
   description: MyText
   kind: MyString
   hybrid: false
