@@ -387,7 +387,7 @@ GEM
     sqlite3 (2.9.3-x86_64-linux-musl)
     sqlite_extensions-uuid (1.0.2)
       sqlite3 (>= 2.4.0)
-    static_db (0.1.1)
+    static_db (0.2.1)
       rails (>= 7.2)
     stringio (3.2.0)
     thor (1.5.0)
@@ -610,7 +610,7 @@ CHECKSUMS
   sqlite3 (2.9.3-x86_64-linux-gnu) sha256=85200a10c6cf5c60085fcca411a3168c5fba8fda3e2b1b0109ec277d7c226d46
   sqlite3 (2.9.3-x86_64-linux-musl) sha256=b6d0437046d9180335dea1aa0592802e65c4f7b57409d63f14408211bf28536b
   sqlite_extensions-uuid (1.0.2) sha256=289c132b88f198d45694529df13f4ec0f80cd67ba5c35a3fa8fb7174302bb95a
-  static_db (0.1.1) sha256=30405ae709786570dfe65edb4873887ef24a92f3efabbdb10ac63788c086a70d
+  static_db (0.2.1) sha256=8b2c43c18ca7f4908967dfb34a7371811028c524e569200838529f6acfe83e11
   stringio (3.2.0) sha256=c37cb2e58b4ffbd33fe5cd948c05934af997b36e0b6ca6fdf43afa234cf222e1
   thor (1.5.0) sha256=e3a9e55fe857e44859ce104a84675ab6e8cd59c650a49106a05f55f136425e73
   timeout (0.6.1) sha256=78f57368a7e7bbadec56971f78a3f5ecbcfb59b7fcbb0a3ed6ddc08a5094accb
