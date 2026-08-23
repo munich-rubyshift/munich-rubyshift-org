@@ -20,9 +20,6 @@ gem "solid_cable"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-gem "image_processing", "~> 1.2"
-
 gem "frozen_rails"
 
 # frozen:md
@@ -45,7 +42,10 @@ gem "precompiled_assets"
 
 group :development, :test do
   # frozen:db
-  gem "avo", ">= 3.2"
+  gem "avo", ">= 3.2", "< 4"
+  gem "pagy", "< 43"
+  gem "image_processing"
+  gem "ruby-vips"
 
   # frozen:ui
   gem "lookbook"
