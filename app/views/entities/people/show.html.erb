@@ -1,11 +1,5 @@
-<% content_for :title, "Person: #{@entities_person.slug}" %>
+<% content_for :title, "Person: #{@entities_person}" %>
 
-<%= render @entities_person %>
-
-<% if defined?(Avo) %>
-  <p>
-    <%= link_to "✏️", avo.resources_entities_person_path(@entities_person), "up-follow": false %>
-  </p>
-<% end %>
+<%= render Entities::PersonComponent.new(@entities_person) %>
 
 <%= link_to "Back to all speakers", entities_people_path %>
