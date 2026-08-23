@@ -11,6 +11,6 @@ class Avo::Resources::LocationsAddress < Avo::BaseResource
     field :slug, as: :id, format_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     field :street, as: :text
     field :zip_code, as: :text
-    field :locations_city, as: :belongs_to
+    field :city, as: :belongs_to
   end
 end

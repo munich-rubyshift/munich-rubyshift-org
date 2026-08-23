@@ -13,6 +13,6 @@ class Avo::Resources::LocationsCity < Avo::BaseResource
     field :rubyevents_slug, as: :text
     field :state_code, as: :text
     field :country_code, as: :text
-    field :locations_coordinates, as: :belongs_to
+    field :coordinates, as: :belongs_to
   end
 end
