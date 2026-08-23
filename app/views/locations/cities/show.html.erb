@@ -1,0 +1,11 @@
+<% content_for :title, "City: #{@locations_city.slug}" %>
+
+<%= render @locations_city %>
+
+<% if defined?(Avo) %>
+  <p>
+    <%= link_to "✏️", avo.resources_locations_city_path(@locations_city), "up-follow": false %>
+  </p>
+<% end %>
+
+<%= link_to "Back to all cities", locations_cities_path %>

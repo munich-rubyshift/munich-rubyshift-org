@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_04_23_190309) do
+ActiveRecord::Schema[8.1].define(version: 2026_08_23_184244) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.datetime "created_at", null: false
@@ -124,6 +124,43 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_190309) do
     t.index ["sluggable_type", "sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_type_and_sluggable_id"
   end
 
+  create_table "locations_addresses", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.string "locations_city_id", null: false
+    t.string "slug"
+    t.string "street"
+    t.datetime "updated_at", null: false
+    t.string "zip_code"
+    t.index ["locations_city_id"], name: "index_locations_addresses_on_locations_city_id"
+  end
+
+  create_table "locations_cities", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.string "country_code"
+    t.datetime "created_at", null: false
+    t.string "locations_coordinates_id", null: false
+    t.string "name"
+    t.string "rubyevents_slug"
+    t.string "slug"
+    t.string "state_code"
+    t.datetime "updated_at", null: false
+    t.index ["locations_coordinates_id"], name: "index_locations_cities_on_locations_coordinates_id"
+  end
+
+  create_table "locations_coordinates", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.decimal "latitude", precision: 10, scale: 6
+    t.decimal "longitude", precision: 10, scale: 6
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "locations_maps", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.string "apple_url"
+    t.datetime "created_at", null: false
+    t.string "google_url"
+    t.string "openstreetmap_url"
+    t.datetime "updated_at", null: false
+  end
+
   create_table "sponsors_sponsor_tiers", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.datetime "created_at", null: false
     t.text "description"
@@ -212,6 +249,8 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_23_190309) do
   add_foreign_key "events_events", "venues_venues"
   add_foreign_key "events_participations", "entities_people"
   add_foreign_key "events_participations", "events_events"
+  add_foreign_key "locations_addresses", "locations_cities"
+  add_foreign_key "locations_cities", "locations_coordinates"
   add_foreign_key "sponsors_sponsor_tiers", "events_events"
   add_foreign_key "sponsors_sponsorships", "entities_organizations"
   add_foreign_key "sponsors_sponsorships", "sponsors_sponsor_tiers"

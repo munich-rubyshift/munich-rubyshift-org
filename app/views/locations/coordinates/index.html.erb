@@ -1,0 +1,20 @@
+<% content_for :title, "Coordinates" %>
+
+<h1>Coordinates</h1>
+
+<% if defined?(Avo) %>
+  <p>
+    <%= link_to "✏️", avo.resources_locations_coordinates_index_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="locations_coordinates">
+  <% @locations_coordinates.each do |locations_coordinates| %>
+    <li>
+      <%= render locations_coordinates %>
+      <p>
+        <%= link_to "Show this coordinates", locations_coordinates %>
+      </p>
+    </li>
+  <% end %>
+</ul>
