@@ -182,10 +182,10 @@ core-js@^3.4.1:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.49.0.tgz#8b4d520ac034311fa21aa616f017ada0e0dbbddd"
   integrity sha512-es1U2+YTtzpwkxVLwAFdSpaIMyQaq0PBgm3YD1W3Qpsn1NAmO3KSgZfu+oGSWVu6NvLHoHCV/aYcsE5wiB7ALg==
 
-esbuild-manifest-plugin@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/esbuild-manifest-plugin/-/esbuild-manifest-plugin-1.0.0.tgz#2b236977b3d4f9fa156b5a66e514298783755fdc"
-  integrity sha512-DFi3ibmsa6k6KKEtKQlH7iC9wOsRrEHcHa50zV8pd76YgZH5sQ0WCqdpMs/co5OiX7kagEbxD5pEh1H09A7iUg==
+esbuild-manifest-plugin@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/esbuild-manifest-plugin/-/esbuild-manifest-plugin-2.0.0.tgz#a4a029cb1f202a932e745a48a9baf43ed41d6e50"
+  integrity sha512-4e6yeRNI+c6RyIQOtHSU7j2ewDxAXiG//DX+UGQ9kDIKCjDoa75ScxjpnMrO6CzgocQIjbzWVsrgFI3R0dKHgA==
 
 esbuild-plugin-import-glob@^0.1.1:
   version "0.1.1"
