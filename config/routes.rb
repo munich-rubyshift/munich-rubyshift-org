@@ -1,10 +1,4 @@
 Rails.application.routes.draw do
-  namespace :locations do
-    resources :maps
-    resources :addresses
-    resources :cities
-    resources :coordinates
-  end
   get "up" => "rails/health#show", as: :rails_health_check
   root "pages#show", slug: "welcome"
 
@@ -30,6 +24,12 @@ Rails.application.routes.draw do
   end
   namespace :venues, path: "" do
     resources :venues
+  end
+  namespace :locations, path: "" do
+    resources :addresses
+    resources :cities
+    resources :coordinates
+    resources :maps
   end
 
   # frozen:md
