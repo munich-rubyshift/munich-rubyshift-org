@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_08_23_184244) do
+ActiveRecord::Schema[8.1].define(version: 2026_08_23_184300) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.datetime "created_at", null: false
@@ -143,7 +143,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_23_184244) do
     t.string "slug"
     t.string "state_code"
     t.datetime "updated_at", null: false
-    t.index ["locations_coordinates_id"], name: "index_locations_cities_on_locations_coordinates_id"
+    t.index ["locations_coordinates_id"], name: "index_locations_cities_on_locations_coordinates_id", unique: true
   end
 
   create_table "locations_coordinates", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|

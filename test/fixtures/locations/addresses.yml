@@ -4,10 +4,10 @@ one:
   slug: MyString
   street: MyString
   zip_code: MyString
-  locations_city: one
+  city: one
 
 two:
   slug: MyString
   street: MyString
   zip_code: MyString
-  locations_city: two
+  city: two
