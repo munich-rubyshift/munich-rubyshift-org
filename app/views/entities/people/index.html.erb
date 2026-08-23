@@ -2,13 +2,8 @@
 
 <h1>Speakers <% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_people_path, "up-follow": false %><% end %></h1>
 
-<ul id="entities_people">
+<div id="entities_people">
   <% @entities_people.each do |entities_person| %>
-    <li>
-      <%= render entities_person %>
-      <p>
-        <%= link_to "Show this person", entities_person %>
-      </p>
-    </li>
+    <%= render Entities::PersonComponent.new(entities_person) %>
   <% end %>
-</ul>
+</div>
