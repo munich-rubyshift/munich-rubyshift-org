@@ -1,0 +1,20 @@
+<% content_for :title, "Addresses" %>
+
+<h1>Addresses</h1>
+
+<% if defined?(Avo) %>
+  <p>
+    <%= link_to "✏️", avo.resources_locations_addresses_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="locations_addresses">
+  <% @locations_addresses.each do |locations_address| %>
+    <li>
+      <%= render locations_address %>
+      <p>
+        <%= link_to "Show this address", locations_address %>
+      </p>
+    </li>
+  <% end %>
+</ul>

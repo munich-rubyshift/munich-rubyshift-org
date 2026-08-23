@@ -1,0 +1,20 @@
+<% content_for :title, "Maps" %>
+
+<h1>Maps</h1>
+
+<% if defined?(Avo) %>
+  <p>
+    <%= link_to "✏️", avo.resources_locations_maps_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="locations_maps">
+  <% @locations_maps.each do |locations_map| %>
+    <li>
+      <%= render locations_map %>
+      <p>
+        <%= link_to "Show this map", locations_map %>
+      </p>
+    </li>
+  <% end %>
+</ul>
