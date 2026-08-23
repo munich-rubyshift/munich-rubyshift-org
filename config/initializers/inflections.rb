@@ -14,3 +14,8 @@
 # ActiveSupport::Inflector.inflections(:en) do |inflect|
 #   inflect.acronym "RESTful"
 # end
+
+ActiveSupport::Inflector.inflections(:en) do |inflect|
+  # A pair of coordinates is plural-only. The namespaced form has to be listed separately.
+  inflect.uncountable %w[coordinates locations_coordinates]
+end
