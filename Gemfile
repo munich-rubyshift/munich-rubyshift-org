@@ -42,8 +42,8 @@ gem "precompiled_assets"
 
 group :development, :test do
   # frozen:db
-  gem "avo", ">= 3.2", "< 4"
-  gem "pagy", "< 43"
+  gem "avo", ">= 3.2", "< 5"
+  gem "pagy", "< 44"
   gem "image_processing"
   gem "ruby-vips"
 
