@@ -42,6 +42,18 @@ en:
       events/participation:
         one: "Participation"
         many: "Participations"
+      locations/address:
+        one: "Address"
+        many: "Addresses"
+      locations/city:
+        one: "City"
+        many: "Cities"
+      locations/coordinates:
+        one: "Coordinates"
+        many: "Coordinates"
+      locations/map:
+        one: "Map"
+        many: "Maps"
       sponsors/sponsor_tier:
         one: "Sponsor Tier"
         many: "Sponsor Tiers"
