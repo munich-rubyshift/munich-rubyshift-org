@@ -1,0 +1,476 @@
+direction: right
+
+speakers: {
+  speakers: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    name: string
+    slug: string
+    github: string
+    twitter: string
+    website: string
+    mastodon: string
+    bluesky: string
+    linkedin: string
+    speakerdeck: string
+    canonical_slug: string
+  }
+  speaker_aliases: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    speaker_id: "integer" {constraint: foreign_key}
+    # maybe alias
+    name: string
+    slug: string
+  }
+}
+
+videos: {
+  videos: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    # instead of event_name
+    event_id: "integer" {constraint: foreign_key}
+    
+    	external_id: string
+    
+    title: string
+    raw_title: string
+    original_title: string
+    description: string
+    slug: string
+    kind: string
+    status: string
+    date: "date "
+    time: string
+    published_at: date
+    announced_at: date
+    location: string
+    video_provider: enum
+    video_id: string
+    external_player: boolean
+    external_player_url: string
+    track: string
+    language: string
+    slides_url: string
+    thumbnail_xs: string
+    thumbnail_sm: string
+    thumbnail_md: string
+    thumbnail_lg: string
+    thumbnail_xl: string
+    thumbnail_classes: string
+  }
+  video_speakers: {
+    shape: sql_table
+    video_id: "integer" {constraint: foreign_key}
+    speaker_id: "integer" {constraint: foreign_key}
+    # infer from speaker.name
+    # speaker_name: string
+  }
+  talk_segments: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    # maybe just video_id
+    parent_video_id: "integer" {constraint: foreign_key}
+    
+    	external_id: string
+    	
+    title: string
+    raw_title: string
+    description: string
+    
+    # instead of event_name, but maybe also infer from parent_video_id
+    event_id: "integer" {constraint: foreign_key}
+
+    # TODO: infer many from parent_video_id
+    date: "date "
+    published_at: date
+    announced_at: date
+    video_provider: string
+    video_id: string
+    language: string
+    track: string
+    location: string
+    start_cue: string
+    end_cue: string
+    thumbnail_cue: string
+    slides_url: string
+    thumbnail_xs: string
+    thumbnail_sm: string
+    thumbnail_md: string
+    thumbnail_lg: string
+    thumbnail_xl: string
+    thumbnail_classes: string
+  }
+  talk_segment_speakers: {
+    shape: sql_table
+    talk_segment_id: "integer" {constraint: foreign_key}
+    speaker_id: "integer" {constraint: foreign_key}
+    # infer from speaker.name
+    # speaker_name: string
+  }
+  additional_resources: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    parent_type: string
+    parent_id: integer
+    name: string
+    url: string
+    resource_type: string
+    title: string
+  }
+  alternative_recordings: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    parent_type: string
+    parent_id: integer
+    title: string
+    raw_title: string
+    language: string
+    date: "date "
+    description: string
+    published_at: date
+    event_name: string
+    video_provider: string
+    video_id: string
+    url: string
+    external_url: string
+  }
+  transcripts: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    video_id: "integer" {constraint: foreign_key}
+  }
+  transcript_cues: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    transcript_id: "integer" {constraint: foreign_key}
+    start_time: string
+    end_time: string
+    text: string
+  }
+}
+
+# Schedules are modelled badly. Grouping by days first is fine, but then Rooms/Stages/Tracks and later time
+# If you really need "time slots" as a concept, it should be a secondary optional grouping
+schedules: {
+  schedule_days: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    # where did that come from? But probably a good decision
+    event_id: "integer" {constraint: foreign_key}
+    name: string
+    date: "date "
+  }
+  schedule_slots: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    schedule_day_id: "integer" {constraint: foreign_key}
+    start_time: string
+    end_time: string
+    slots: integer
+    description: string
+  }
+  schedule_items: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    schedule_slot_id: "integer" {constraint: foreign_key}
+    # NOTE: for description outside of "object"
+    short_description: string
+    title: string
+    # NOTE: for description within "object"
+    description: string
+    # TODO: has connection to speakers
+    track: string
+    room: string
+  }
+  schedule_tracks: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    # where did that come from? But probably a good decision
+    event_id: "integer" {constraint: foreign_key}
+    name: string
+    color: string
+    text_color: string
+  }
+}
+
+# Modelled here as one record per user/organization with a role_name [user, organization] instead of a single yaml record
+involvements: {
+  involvements: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    # involved in WHAT? Not in schema, I guess event
+    event_id: "integer" {constraint: foreign_key}
+    # Role or involvement type (e.g., 'Organizer', 'Program Committee member'), maybe just "role"
+    role_name: string
+  }
+  involvement_entities: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    involvement_id: "integer" {constraint: foreign_key}
+    
+    # enum: [user, organization], TODO: NEEDS ORGANIZATION TABLE
+    entity_type: string
+    entity_id: "integer" {constraint: foreign_key}
+    # derive from entity
+    # name: string
+  }
+}
+
+sponsors: {
+  sponsor_tiers: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    event_id: "integer" {constraint: foreign_key}
+    name: string
+    description: string
+    level: integer
+  }
+  sponsors: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    sponsor_tier_id: "integer" {constraint: foreign_key}
+    name: string
+    slug: string
+    website: string
+    description: string
+    logo_url: string
+    badge: string
+  }
+}
+
+events: {
+  series: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    name: string
+    description: string
+    kind: string
+    frequency: string
+    ended: boolean
+    default_country_code: string
+    language: string
+    website: string
+    original_website: string
+    twitter: string
+    mastodon: string
+    bsky: string
+    github: string
+    linkedin: string
+    meetup: string
+    luma: string
+    guild: string
+    vimeo: string
+    youtube_channel_id: string
+    youtube_channel_name: string
+    playlist_matcher: string
+  }
+  series_aliases: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    series_id: "integer" {constraint: foreign_key}
+    alias: string
+  }
+  events: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    series_id: "integer" {constraint: foreign_key}
+    # SOURCE?
+    # external_id: string
+    title: string
+    description: string
+    kind: string
+    hybrid: boolean
+    status: string
+    last_edition: boolean
+    start_date: date
+    end_date: date
+    published_at: date
+    announced_on: date
+    year: integer
+    date_precision: string
+    frequency: string
+    # Probably location_id instead
+    location: string
+    # derive from venue_id
+    # venue_name: string
+    venue_id: "integer" {constraint: foreign_key}
+    # which channel
+    channel_id: string
+    playlist: string
+    website: string
+    original_website: string
+    twitter: string
+    mastodon: string
+    github: string
+    meetup: string
+    luma: string
+    youtube: string
+    tickets_url: string
+    banner_background: string
+    featured_background: string
+    featured_color: string
+    # Derive from venue !!! Or maybe mutually exclusive with venue_id
+    coordinate_id: "integer" {constraint: foreign_key}
+    # can't have coordinates and be online, probably also can't have venue if online
+    online_event: "boolean"
+  }
+  event_aliases: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    event_id: "integer" {constraint: foreign_key}
+    alias: string
+  }
+  cfps: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    # probably series_id instead
+    event_id: "integer" {constraint: foreign_key}
+    # mabye submission_url instead of link
+    link: string
+    name: string
+    open_date: date
+    close_date: date
+  }
+}
+
+venues: {
+  venues: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    name: string
+    description: string
+    instructions: string
+    url: string
+    address_id: "integer" {constraint: foreign_key}
+    coordinate_id: "integer" {constraint: foreign_key}
+    map_id: "integer" {constraint: foreign_key}
+    accessibility_wheelchair: boolean
+    accessibility_elevators: boolean
+    accessibility_restrooms: boolean
+    accessibility_notes: string
+    nearby_public_transport: string
+    nearby_parking: string
+  }
+  venue_rooms: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    venue_id: "integer" {constraint: foreign_key}
+    name: string
+    floor: string
+    capacity: integer
+    instructions: string
+  }
+  venue_spaces: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    venue_id: "integer" {constraint: foreign_key}
+    name: string
+    floor: string
+    instructions: string
+  }
+  venue_locations: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    venue_id: "integer" {constraint: foreign_key}
+    # new, collapses "hotels", enum: [location, hotel]
+    type: string
+    name: string
+    kind: string
+    description: string
+    distance: string
+    url: string
+    address_id: "integer" {constraint: foreign_key}
+    coordinate_id: "integer" {constraint: foreign_key}
+    map_id: "integer" {constraint: foreign_key}
+  }
+}
+
+# BUILT. Table names are locations_*; FK columns are locations_*_id.
+locations: {
+  # renamed from "featured_cities". Dropped "featured" (rubyevents homepage
+  # concept) and "geocode_metadata" (raw geocoder payload).
+  cities: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    slug: string
+    rubyevents_slug: string
+    name: string
+    state_code: string
+    country_code: string
+    # instead of inline latitude/longitude, so every pin lives in one table
+    coordinates_id: "integer" {constraint: foreign_key}
+  }
+  # No city_aliases: we always point at the canonical rubyevents record.
+  addresses: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    slug: string
+    street: string
+    zip_code: string
+    # instead of city/region/country/country_code strings
+    city_id: "integer" {constraint: foreign_key}
+    # display_address dropped, composed by Locations::Address#to_s
+  }
+  # The single pin table: proximity search is one indexed scan here, plus
+  # "WHERE owner.locations_coordinates_id IN (...)".
+  coordinates: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    latitude: "decimal(10,6)"
+    longitude: "decimal(10,6)"
+  }
+  # Only curated links are stored; a blank column falls back to a link
+  # derived from the owner's coordinates.
+  maps: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    google_url: string
+    apple_url: string
+    openstreetmap_url: string
+  }
+}
+
+events.series_aliases.series_id -> events.series.id
+events.events.series_id -> events.series.id
+events.events.venue_id -> venues.venues.id
+events.events.coordinate_id -> locations.coordinates.id
+events.event_aliases.event_id -> events.events.id
+events.cfps.event_id -> events.events.id
+
+venues.venues.address_id -> locations.addresses.id
+venues.venues.coordinate_id -> locations.coordinates.id
+venues.venues.map_id -> locations.maps.id
+venues.venue_rooms.venue_id -> venues.venues.id
+venues.venue_spaces.venue_id -> venues.venues.id
+venues.venue_locations.venue_id -> venues.venues.id
+venues.venue_locations.address_id -> locations.addresses.id
+venues.venue_locations.coordinate_id -> locations.coordinates.id
+venues.venue_locations.map_id -> locations.maps.id
+
+speakers.speaker_aliases.speaker_id -> speakers.speakers.id
+
+videos.videos.event_id -> events.events.id
+videos.video_speakers.video_id -> videos.videos.id
+videos.video_speakers.speaker_id -> speakers.speakers.id
+videos.talk_segments.parent_video_id -> videos.videos.id
+videos.talk_segment_speakers.talk_segment_id -> videos.talk_segments.id
+videos.talk_segment_speakers.speaker_id -> speakers.speakers.id
+videos.transcripts.video_id -> videos.videos.id
+videos.transcript_cues.transcript_id -> videos.transcripts.id
+
+sponsors.sponsor_tiers.event_id -> events.events.id
+sponsors.sponsors.sponsor_tier_id -> sponsors.sponsor_tiers.id
+
+involvements.involvements.event_id -> events.events.id
+involvements.involvement_entities.involvement_id -> involvements.involvements.id
+
+schedules.schedule_days.event_id -> events.events.id
+schedules.schedule_slots.schedule_day_id -> schedules.schedule_days.id
+schedules.schedule_items.schedule_slot_id -> schedules.schedule_slots.id
+schedules.schedule_tracks.event_id -> events.events.id
+
+locations.cities.coordinates_id -> locations.coordinates.id
+locations.addresses.city_id -> locations.cities.id
+
