@@ -18,4 +18,7 @@
 ActiveSupport::Inflector.inflections(:en) do |inflect|
   # A pair of coordinates is plural-only. The namespaced form has to be listed separately.
   inflect.uncountable %w[coordinates locations_coordinates]
+
+  inflect.acronym "CFP"
+  inflect.acronym "CFPs"
 end
