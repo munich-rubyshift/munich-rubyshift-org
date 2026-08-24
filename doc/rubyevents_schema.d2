@@ -240,10 +240,13 @@ sponsors: {
   }
 }
 
+# BUILT. Table names are events_*; FK columns are events_*_id.
 events: {
   series: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
+    slug: string
+    rubyevents_slug: string
     name: string
     description: string
     kind: string
@@ -254,6 +257,7 @@ events: {
     website: string
     original_website: string
     twitter: string
+    facebook: string
     mastodon: string
     bsky: string
     github: string
@@ -262,23 +266,26 @@ events: {
     luma: string
     guild: string
     vimeo: string
+    # ours alone, not in SeriesSchema and not exportable
+    discord: string
+    # flattened from the YAML's youtube_channels array; a channels table is
+    # a later step, once a series really needs more than one
     youtube_channel_id: string
     youtube_channel_name: string
+    youtube_channel_handle: string
     playlist_matcher: string
   }
-  series_aliases: {
-    shape: sql_table
-    id: "integer" {constraint: primary_key}
-    series_id: "integer" {constraint: foreign_key}
-    alias: string
-  }
+  # No series_aliases: we always point at the canonical rubyevents record.
   events: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
+    slug: string
+    rubyevents_slug: string
     series_id: "integer" {constraint: foreign_key}
-    # SOURCE?
-    # external_id: string
     title: string
+    # blank columns fall back to the series, via Events::SeriesDefaults.
+    # "kind" deliberately does not: it is required per event and the series'
+    # allowed values are wider.
     description: string
     kind: string
     hybrid: boolean
@@ -290,13 +297,10 @@ events: {
     announced_on: date
     year: integer
     date_precision: string
-    frequency: string
+    # frequency dropped: it describes a series, not a single edition
     # Probably location_id instead
     location: string
-    # derive from venue_id
-    # venue_name: string
     venue_id: "integer" {constraint: foreign_key}
-    # which channel
     channel_id: string
     playlist: string
     website: string
@@ -316,20 +320,18 @@ events: {
     # can't have coordinates and be online, probably also can't have venue if online
     online_event: "boolean"
   }
-  event_aliases: {
-    shape: sql_table
-    id: "integer" {constraint: primary_key}
-    event_id: "integer" {constraint: foreign_key}
-    alias: string
-  }
+  # No event_aliases: we always point at the canonical rubyevents record.
   cfps: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
-    # probably series_id instead
+    # upstream hangs cfp.yml inside the event directory, so it belongs to an
+    # event, not a series
     event_id: "integer" {constraint: foreign_key}
-    # mabye submission_url instead of link
-    link: string
+    slug: string
     name: string
+    # renamed from "link". Blank means "our own /cfps/<slug> page", which
+    # Events::CFP#url resolves.
+    external_url: string
     open_date: date
     close_date: date
   }
@@ -432,11 +434,9 @@ locations: {
   }
 }
 
-events.series_aliases.series_id -> events.series.id
 events.events.series_id -> events.series.id
 events.events.venue_id -> venues.venues.id
 events.events.coordinate_id -> locations.coordinates.id
-events.event_aliases.event_id -> events.events.id
 events.cfps.event_id -> events.events.id
 
 venues.venues.address_id -> locations.addresses.id
