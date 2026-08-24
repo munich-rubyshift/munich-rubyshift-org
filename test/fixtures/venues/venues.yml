@@ -1,6 +1,8 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  address: one
+  coordinates: one
   slug: MyString
   name: MyString
   rubyevents_slug: MyString
@@ -15,6 +17,9 @@ one:
   nearby_parking: MyText
 
 two:
+  address: two
+  coordinates: two
+  map: two
   slug: MyString
   name: MyString
   rubyevents_slug: MyString

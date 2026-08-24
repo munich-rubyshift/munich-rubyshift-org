@@ -47,6 +47,12 @@ FriendlyId::Slug_992b041e-2c1a-4304-a176-a324c927640d:
   slug: aron-wolf
   sluggable_id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
   sluggable_type: Entities::Person
+FriendlyId::Slug_a62d30fe-eba8-4b03-b26a-3c76277dd2c9:
+  id: a62d30fe-eba8-4b03-b26a-3c76277dd2c9
+  created_at: '2026-08-23 18:59:03.192911'
+  slug: munich
+  sluggable_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  sluggable_type: Locations::City
 FriendlyId::Slug_ae1aa08e-52ea-4f1a-96c8-e9e5c30f6f25:
   id: ae1aa08e-52ea-4f1a-96c8-e9e5c30f6f25
   created_at: '2026-04-23 19:02:08.264613'
@@ -59,3 +65,9 @@ FriendlyId::Slug_b5d922a7-b930-4e19-8dc6-abf010358dfd:
   slug: gems-are-overrated
   sluggable_id: 2e0e8a82-1b67-4fc4-9e2a-7379f96661cf
   sluggable_type: Talks::Talk
+FriendlyId::Slug_c4ee3f3c-f4ba-4dcf-b047-267ff108e5ac:
+  id: c4ee3f3c-f4ba-4dcf-b047-267ff108e5ac
+  created_at: '2026-08-23 18:59:03.219402'
+  slug: berg-am-laim-strasse-111
+  sluggable_id: b67de432-baa6-472d-b97f-6da7f18e8b19
+  sluggable_type: Locations::Address

@@ -21,5 +21,8 @@ class Avo::Resources::VenuesVenue < Avo::BaseResource
     field :accessibility_notes, as: :textarea
     field :nearby_public_transport, as: :textarea
     field :nearby_parking, as: :textarea
+    field :address, as: :belongs_to
+    field :coordinates, as: :belongs_to
+    field :map, as: :belongs_to
   end
 end
