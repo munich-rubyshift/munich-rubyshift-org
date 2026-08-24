@@ -1,8 +1,4 @@
 Rails.application.routes.draw do
-  namespace :events do
-    resources :cfps
-    resources :series
-  end
   get "up" => "rails/health#show", as: :rails_health_check
   root "pages#show", slug: "welcome"
 
@@ -19,8 +15,10 @@ Rails.application.routes.draw do
     resources :talks
   end
   namespace :events, path: "" do
-    resources :participations
+    resources :cfps
     resources :events
+    resources :participations
+    resources :series
   end
   namespace :entities, path: "" do
     resources :organizations
