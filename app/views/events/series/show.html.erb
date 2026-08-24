@@ -1,0 +1,11 @@
+<% content_for :title, "Series: #{@events_series.slug}" %>
+
+<%= render @events_series %>
+
+<% if defined?(Avo) %>
+  <p>
+    <%= link_to "✏️", avo.resources_events_series_path(@events_series), "up-follow": false %>
+  </p>
+<% end %>
+
+<%= link_to "Back to all series", events_series_index_path %>

@@ -1,0 +1,20 @@
+<% content_for :title, "CFPs" %>
+
+<h1>CFPs</h1>
+
+<% if defined?(Avo) %>
+  <p>
+    <%= link_to "✏️", avo.resources_events_cfps_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="events_cfps">
+  <% @events_cfps.each do |events_cfp| %>
+    <li>
+      <%= render events_cfp %>
+      <p>
+        <%= link_to "Show this cfp", events_cfp %>
+      </p>
+    </li>
+  <% end %>
+</ul>

@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  namespace :events do
+    resources :cfps
+    resources :series
+  end
   get "up" => "rails/health#show", as: :rails_health_check
   root "pages#show", slug: "welcome"
 
