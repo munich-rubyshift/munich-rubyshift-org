@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_08_23_185618) do
+ActiveRecord::Schema[8.1].define(version: 2026_08_24_203618) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.datetime "created_at", null: false
@@ -67,6 +67,18 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_23_185618) do
     t.string "website"
   end
 
+  create_table "events_cfps", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.date "close_date"
+    t.datetime "created_at", null: false
+    t.string "events_event_id", null: false
+    t.string "external_url"
+    t.string "name"
+    t.date "open_date"
+    t.string "slug"
+    t.datetime "updated_at", null: false
+    t.index ["events_event_id"], name: "index_events_cfps_on_events_event_id"
+  end
+
   create_table "events_events", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.date "announced_on"
     t.string "banner_background"
@@ -111,6 +123,37 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_23_185618) do
     t.datetime "updated_at", null: false
     t.index ["entities_person_id"], name: "index_events_participations_on_entities_person_id"
     t.index ["events_event_id"], name: "index_events_participations_on_events_event_id"
+  end
+
+  create_table "events_series", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.string "bsky"
+    t.datetime "created_at", null: false
+    t.string "default_country_code"
+    t.text "description"
+    t.string "discord"
+    t.boolean "ended"
+    t.string "facebook"
+    t.string "frequency"
+    t.string "github"
+    t.string "guild"
+    t.string "kind"
+    t.string "language"
+    t.string "linkedin"
+    t.string "luma"
+    t.string "mastodon"
+    t.string "meetup"
+    t.string "name"
+    t.string "original_website"
+    t.string "playlist_matcher"
+    t.string "rubyevents_slug"
+    t.string "slug"
+    t.string "twitter"
+    t.datetime "updated_at", null: false
+    t.string "vimeo"
+    t.string "website"
+    t.string "youtube_channel_handle"
+    t.string "youtube_channel_id"
+    t.string "youtube_channel_name"
   end
 
   create_table "friendly_id_slugs", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
@@ -252,6 +295,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_23_185618) do
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "events_cfps", "events_events"
   add_foreign_key "events_events", "venues_venues"
   add_foreign_key "events_participations", "entities_people"
   add_foreign_key "events_participations", "events_events"

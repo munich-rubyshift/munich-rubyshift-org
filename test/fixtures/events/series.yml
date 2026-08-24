@@ -1,0 +1,57 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  slug: MyString
+  name: MyString
+  rubyevents_slug: MyString
+  description: MyText
+  kind: MyString
+  frequency: MyString
+  ended: false
+  default_country_code: MyString
+  language: MyString
+  website: MyString
+  original_website: MyString
+  twitter: MyString
+  facebook: MyString
+  mastodon: MyString
+  bsky: MyString
+  github: MyString
+  linkedin: MyString
+  meetup: MyString
+  luma: MyString
+  guild: MyString
+  vimeo: MyString
+  discord: MyString
+  youtube_channel_id: MyString
+  youtube_channel_name: MyString
+  youtube_channel_handle: MyString
+  playlist_matcher: MyString
+
+two:
+  slug: MyString
+  name: MyString
+  rubyevents_slug: MyString
+  description: MyText
+  kind: MyString
+  frequency: MyString
+  ended: false
+  default_country_code: MyString
+  language: MyString
+  website: MyString
+  original_website: MyString
+  twitter: MyString
+  facebook: MyString
+  mastodon: MyString
+  bsky: MyString
+  github: MyString
+  linkedin: MyString
+  meetup: MyString
+  luma: MyString
+  guild: MyString
+  vimeo: MyString
+  discord: MyString
+  youtube_channel_id: MyString
+  youtube_channel_name: MyString
+  youtube_channel_handle: MyString
+  playlist_matcher: MyString
