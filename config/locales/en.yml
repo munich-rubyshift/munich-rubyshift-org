@@ -36,12 +36,18 @@ en:
       entities/person:
         one: "Person"
         many: "People"
+      events/cfp:
+        one: "CFP"
+        many: "CFPs"
       events/event:
         one: "Event"
         many: "Events"
       events/participation:
         one: "Participation"
         many: "Participations"
+      events/series:
+        one: "Series"
+        many: "Series"
       locations/address:
         one: "Address"
         many: "Addresses"
