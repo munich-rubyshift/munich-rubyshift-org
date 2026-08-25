@@ -15,16 +15,16 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :series, as: :belongs_to
     field :venue, as: :belongs_to
     field :description, as: :textarea
-    field :kind, as: :text
+    field :kind, as: :select, options: ::Events::Event::KINDS.index_by(&:humanize), include_blank: true
     field :hybrid, as: :boolean
-    field :status, as: :text
+    field :status, as: :select, options: ::Events::Event::STATUSES.index_by(&:humanize), include_blank: true
     field :last_edition, as: :boolean
     field :start_date, as: :date
     field :end_date, as: :date
     field :published_at, as: :date_time
     field :announced_on, as: :date
     field :year, as: :number
-    field :date_precision, as: :text
+    field :date_precision, as: :select, options: ::Events::Event::DATE_PRECISIONS.index_by(&:humanize), include_blank: true
     field :channel_id, as: :text
     field :playlist, as: :text
     field :website, as: :text

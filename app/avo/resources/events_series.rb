@@ -13,8 +13,8 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
     field :name, as: :text
     field :rubyevents_slug, as: :text
     field :description, as: :textarea
-    field :kind, as: :text
-    field :frequency, as: :text
+    field :kind, as: :select, options: ::Events::Series::KINDS.index_by(&:humanize), include_blank: true
+    field :frequency, as: :select, options: ::Events::Series::FREQUENCIES.index_by(&:humanize), include_blank: true
     field :ended, as: :boolean
     field :default_country_code, as: :text
     field :language, as: :text
