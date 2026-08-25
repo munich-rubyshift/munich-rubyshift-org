@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  role: MyString
+  entity: one
+  entity_type: Entity
+  events_event: one
+
+two:
+  role: MyString
+  entity: two
+  entity_type: Entity
+  events_event: two

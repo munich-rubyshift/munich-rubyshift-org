@@ -1,0 +1,20 @@
+<% content_for :title, "Involvements" %>
+
+<h1>Involvements</h1>
+
+<% if defined?(Avo) %>
+  <p>
+    <%= link_to "✏️", avo.resources_events_involvements_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="events_involvements">
+  <% @events_involvements.each do |events_involvement| %>
+    <li>
+      <%= render events_involvement %>
+      <p>
+        <%= link_to "Show this involvement", events_involvement %>
+      </p>
+    </li>
+  <% end %>
+</ul>
