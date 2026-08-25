@@ -195,29 +195,6 @@ schedules: {
   }
 }
 
-# Modelled here as one record per user/organization with a role_name [user, organization] instead of a single yaml record
-involvements: {
-  involvements: {
-    shape: sql_table
-    id: "integer" {constraint: primary_key}
-    # involved in WHAT? Not in schema, I guess event
-    event_id: "integer" {constraint: foreign_key}
-    # Role or involvement type (e.g., 'Organizer', 'Program Committee member'), maybe just "role"
-    role_name: string
-  }
-  involvement_entities: {
-    shape: sql_table
-    id: "integer" {constraint: primary_key}
-    involvement_id: "integer" {constraint: foreign_key}
-    
-    # enum: [user, organization], TODO: NEEDS ORGANIZATION TABLE
-    entity_type: string
-    entity_id: "integer" {constraint: foreign_key}
-    # derive from entity
-    # name: string
-  }
-}
-
 sponsors: {
   sponsor_tiers: {
     shape: sql_table
@@ -334,6 +311,24 @@ events: {
     external_url: string
     open_date: date
     close_date: date
+  }
+  # Organising roles. One row per (event, entity, role) - upstream's shape, not
+  # the two-table split this diagram used to show, which forced you to pick a
+  # role *instance* per event when adding someone.
+  involvements: {
+    shape: sql_table
+    id: "integer" {constraint: primary_key}
+    event_id: "integer" {constraint: foreign_key}
+    # free text: "Organizer", "Conference MC", "Review Committee Member".
+    # Prominence goes in the role name ("Main Organizer") rather than a
+    # position column, so upstream's "position" is dropped and entities sort
+    # alphabetically.
+    role: string
+    # polymorphic: Entities::Person or Entities::Organization. The only
+    # reference in this schema without a DB foreign key, so the model carries
+    # an explicit presence validation to catch dangling rows at dump time.
+    entity_type: string
+    entity_id: "integer" {constraint: foreign_key}
   }
 }
 
@@ -463,8 +458,7 @@ videos.transcript_cues.transcript_id -> videos.transcripts.id
 sponsors.sponsor_tiers.event_id -> events.events.id
 sponsors.sponsors.sponsor_tier_id -> sponsors.sponsor_tiers.id
 
-involvements.involvements.event_id -> events.events.id
-involvements.involvement_entities.involvement_id -> involvements.involvements.id
+events.involvements.event_id -> events.events.id
 
 schedules.schedule_days.event_id -> events.events.id
 schedules.schedule_slots.schedule_day_id -> schedules.schedule_days.id
