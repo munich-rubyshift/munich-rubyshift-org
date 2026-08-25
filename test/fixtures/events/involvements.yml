@@ -2,12 +2,10 @@
 
 one:
   role: MyString
-  entity: one
-  entity_type: Entity
-  events_event: one
+  entity: one (Entities::Person)
+  event: one
 
 two:
   role: MyString
-  entity: two
-  entity_type: Entity
-  events_event: two
+  entity: two (Entities::Organization)
+  event: two

@@ -9,7 +9,7 @@ class Avo::Resources::EventsInvolvement < Avo::BaseResource
   def fields
     field :id, as: :id, format_index_using: -> { content_tag(:span, "#", title: value) }
     field :role, as: :text
-    field :entity, as: :text
-    field :events_event, as: :belongs_to
+    field :entity, as: :belongs_to, polymorphic_as: :entity, types: [ ::Entities::Person, ::Entities::Organization ]
+    field :event, as: :belongs_to
   end
 end

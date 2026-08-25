@@ -15,6 +15,8 @@ class Events::Event < ApplicationRecord
 
   has_many :cfps, class_name: "Events::CFP", foreign_key: :events_event_id, inverse_of: :event
 
+  has_many :involvements, class_name: "Events::Involvement", foreign_key: :events_event_id, inverse_of: :event
+
   has_many :talks, class_name: "Talks::Talk", foreign_key: :events_event_id, inverse_of: :event
 
   has_many :sponsor_tiers, class_name: "Sponsors::SponsorTier", foreign_key: :events_event_id, inverse_of: :event
