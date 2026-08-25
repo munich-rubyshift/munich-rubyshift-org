@@ -12,6 +12,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :slug, as: :id, format_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     field :title, as: :text
     field :rubyevents_slug, as: :text
+    field :series, as: :belongs_to
     field :venue, as: :belongs_to
     field :description, as: :textarea
     field :kind, as: :text
@@ -24,7 +25,6 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :announced_on, as: :date
     field :year, as: :number
     field :date_precision, as: :text
-    field :frequency, as: :text
     field :channel_id, as: :text
     field :playlist, as: :text
     field :website, as: :text

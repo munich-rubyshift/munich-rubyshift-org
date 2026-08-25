@@ -1,0 +1,18 @@
+---
+Events::Series_1659b292-15b3-4b8a-9f61-3f4359c74e3a:
+  id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  created_at: '2026-08-24 20:43:54.575613'
+  default_country_code: DE
+  discord: https://discord.gg/EKqHWmCxGZ
+  ended: 0
+  frequency: quarterly
+  github: https://github.com/munich-rubyshift
+  kind: meetup
+  language: English
+  linkedin: https://www.linkedin.com/groups/15477023
+  meetup: https://www.meetup.com/de-DE/munich-rubyshift-ruby-user-group/
+  name: Munich Rubyshift
+  rubyevents_slug: munich-rubyshift
+  slug: munich-rubyshift
+  updated_at: '2026-08-24 20:43:54.575613'
+  website: https://munich-rubyshift.org

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_08_24_203618) do
+ActiveRecord::Schema[8.1].define(version: 2026_08_24_204225) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.datetime "created_at", null: false
@@ -87,9 +87,9 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_24_203618) do
     t.string "date_precision"
     t.text "description"
     t.date "end_date"
+    t.string "events_series_id", null: false
     t.string "featured_background"
     t.string "featured_color"
-    t.string "frequency"
     t.string "github"
     t.boolean "hybrid"
     t.string "kind"
@@ -112,6 +112,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_24_203618) do
     t.string "website"
     t.integer "year"
     t.string "youtube"
+    t.index ["events_series_id"], name: "index_events_events_on_events_series_id"
     t.index ["venues_venue_id"], name: "index_events_events_on_venues_venue_id"
   end
 
@@ -296,6 +297,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_24_203618) do
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "events_cfps", "events_events"
+  add_foreign_key "events_events", "events_series"
   add_foreign_key "events_events", "venues_venues"
   add_foreign_key "events_participations", "entities_people"
   add_foreign_key "events_participations", "events_events"

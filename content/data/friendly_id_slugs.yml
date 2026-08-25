@@ -29,6 +29,12 @@ FriendlyId::Slug_4c850e04-be73-411b-869f-5f146f1abbf5:
   slug: location-drinks
   sluggable_id: 7eaf5061-64e3-45a6-bc29-c13c03b07f72
   sluggable_type: Sponsors::SponsorTier
+FriendlyId::Slug_553e4f1a-ffe0-4e2a-bae9-866fbdd3ef13:
+  id: 553e4f1a-ffe0-4e2a-bae9-866fbdd3ef13
+  created_at: '2026-08-24 20:43:54.582920'
+  slug: munich-rubyshift
+  sluggable_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  sluggable_type: Events::Series
 FriendlyId::Slug_67713349-6acc-4e87-a11b-f77912d93850:
   id: 67713349-6acc-4e87-a11b-f77912d93850
   created_at: '2026-04-23 18:52:25.426674'
