@@ -42,6 +42,9 @@ en:
       events/event:
         one: "Event"
         many: "Events"
+      events/involvement:
+        one: "Involvement"
+        many: "Involvements"
       events/participation:
         one: "Participation"
         many: "Participations"
