@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_08_24_204225) do
+ActiveRecord::Schema[8.1].define(version: 2026_08_25_202403) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.datetime "created_at", null: false
@@ -114,6 +114,17 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_24_204225) do
     t.string "youtube"
     t.index ["events_series_id"], name: "index_events_events_on_events_series_id"
     t.index ["venues_venue_id"], name: "index_events_events_on_venues_venue_id"
+  end
+
+  create_table "events_involvements", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.string "entity_id", null: false
+    t.string "entity_type", null: false
+    t.string "events_event_id", null: false
+    t.string "role"
+    t.datetime "updated_at", null: false
+    t.index ["entity_type", "entity_id"], name: "index_events_involvements_on_entity"
+    t.index ["events_event_id"], name: "index_events_involvements_on_events_event_id"
   end
 
   create_table "events_participations", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
@@ -299,6 +310,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_24_204225) do
   add_foreign_key "events_cfps", "events_events"
   add_foreign_key "events_events", "events_series"
   add_foreign_key "events_events", "venues_venues"
+  add_foreign_key "events_involvements", "events_events"
   add_foreign_key "events_participations", "entities_people"
   add_foreign_key "events_participations", "events_events"
   add_foreign_key "locations_addresses", "locations_cities"

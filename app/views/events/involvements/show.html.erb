@@ -1,0 +1,11 @@
+<% content_for :title, "Involvement: #{@events_involvement.slug}" %>
+
+<%= render @events_involvement %>
+
+<% if defined?(Avo) %>
+  <p>
+    <%= link_to "✏️", avo.resources_events_involvement_path(@events_involvement), "up-follow": false %>
+  </p>
+<% end %>
+
+<%= link_to "Back to all involvements", events_involvements_path %>
