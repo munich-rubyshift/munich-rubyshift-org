@@ -1,6 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  series: one
   slug: MyString
   title: MyString
   rubyevents_slug: MyString
@@ -16,7 +17,6 @@ one:
   announced_on: 2026-04-23
   year: 1
   date_precision: MyString
-  frequency: MyString
   channel_id: MyString
   playlist: MyString
   website: MyString
@@ -33,6 +33,7 @@ one:
   online_event: false
 
 two:
+  series: two
   slug: MyString
   title: MyString
   rubyevents_slug: MyString
@@ -48,7 +49,6 @@ two:
   announced_on: 2026-04-23
   year: 1
   date_precision: MyString
-  frequency: MyString
   channel_id: MyString
   playlist: MyString
   website: MyString

@@ -2,6 +2,7 @@ class Events::Event < ApplicationRecord
   include FriendlyId
   friendly_id :title
 
+  belongs_to :series, class_name: "Events::Series", foreign_key: :events_series_id, inverse_of: :events
   belongs_to :venue, class_name: "Venues::Venue", foreign_key: :venues_venue_id, inverse_of: :events
 
   has_many :participations, class_name: "Events::Participation", foreign_key: :events_event_id, inverse_of: :event
