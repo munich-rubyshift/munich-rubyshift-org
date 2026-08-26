@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  namespace :talks do
+    resources :additional_resources
+  end
   get "up" => "rails/health#show", as: :rails_health_check
   root "pages#show", slug: "welcome"
 
