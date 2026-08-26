@@ -36,6 +36,10 @@ gem "static_db"
 gem "sqlite_extensions-uuid"
 gem "friendly_id"
 
+# rubyevents.org export
+gem "json_schemer"
+gem "rubyzip", require: "zip"
+
 # frozen:ui
 gem "view_component"
 gem "precompiled_assets"
