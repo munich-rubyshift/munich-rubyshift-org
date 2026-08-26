@@ -1,6 +1,12 @@
 <footer class="footer" data-compiler="footer" up-data="<%= {  }.to_json %>">
   <nav>
     <%= link_to "Imprint", page_path("imprint") %>
+    <% if Rails.env.local? %>
+      <%# Strict fails validation while any required rubyevents field is blank.
+          Lenient fills placeholders so the schema check passes. %>
+      <%= link_to "Export data", rubyevents_export_path, "up-follow": false %>
+      <%= link_to "Export data (lenient)", rubyevents_export_path(lenient: 1), "up-follow": false %>
+    <% end %>
     <% if Rails.env.development? %>
       <%= link_to "Lookbook", lookbook_path, "up-follow": false %>
       <%= link_to "Jasmine", jasmine_index_path, "up-follow": false %>
