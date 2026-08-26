@@ -1,0 +1,20 @@
+<% content_for :title, "Additional resources" %>
+
+<h1>Additional resources</h1>
+
+<% if defined?(Avo) %>
+  <p>
+    <%= link_to "✏️", avo.resources_talks_additional_resources_path, "up-follow": false %>
+  </p>
+<% end %>
+
+<ul id="talks_additional_resources">
+  <% @talks_additional_resources.each do |talks_additional_resource| %>
+    <li>
+      <%= render talks_additional_resource %>
+      <p>
+        <%= link_to "Show this additional resource", talks_additional_resource %>
+      </p>
+    </li>
+  <% end %>
+</ul>
