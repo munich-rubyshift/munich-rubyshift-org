@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  namespace :talks do
-    resources :additional_resources
-  end
   get "up" => "rails/health#show", as: :rails_health_check
   root "pages#show", slug: "welcome"
 
@@ -14,6 +11,7 @@ Rails.application.routes.draw do
     resources :sponsor_tiers
   end
   namespace :talks, path: "" do
+    resources :additional_resources
     resources :speaker_talks
     resources :talks
   end
