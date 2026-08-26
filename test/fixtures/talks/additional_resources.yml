@@ -5,11 +5,11 @@ one:
   name: MyString
   url: MyString
   title: MyString
-  talks_talk: one
+  talk: one
 
 two:
   kind: MyString
   name: MyString
   url: MyString
   title: MyString
-  talks_talk: two
+  talk: two
