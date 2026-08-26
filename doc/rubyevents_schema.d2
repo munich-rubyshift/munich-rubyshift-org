@@ -109,14 +109,19 @@ videos: {
     # infer from speaker.name
     # speaker_name: string
   }
+  # BUILT as talks_additional_resources. Not polymorphic: upstream's
+  # parent_type/parent_id exists to also cover talk_segments, which we do not
+  # build, so a plain talk_id gets us a real foreign key instead.
   additional_resources: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
-    parent_type: string
-    parent_id: integer
+    talk_id: "integer" {constraint: foreign_key}
+    # renamed from resource_type; "type" is reserved by Rails STI and "kind" is
+    # this repo's word for it. All 20 upstream values are allowed, and unlike
+    # the optional enums elsewhere this one is required.
+    kind: string
     name: string
     url: string
-    resource_type: string
     title: string
   }
   alternative_recordings: {
@@ -447,6 +452,7 @@ venues.venue_locations.map_id -> locations.maps.id
 speakers.speaker_aliases.speaker_id -> speakers.speakers.id
 
 videos.videos.event_id -> events.events.id
+videos.additional_resources.talk_id -> videos.videos.id
 videos.video_speakers.video_id -> videos.videos.id
 videos.video_speakers.speaker_id -> speakers.speakers.id
 videos.talk_segments.parent_video_id -> videos.videos.id
