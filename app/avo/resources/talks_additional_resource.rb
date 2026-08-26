@@ -8,10 +8,10 @@ class Avo::Resources::TalksAdditionalResource < Avo::BaseResource
 
   def fields
     field :id, as: :id, format_index_using: -> { content_tag(:span, "#", title: value) }
-    field :kind, as: :text
+    field :kind, as: :select, options: ::Talks::AdditionalResource::KINDS.index_by(&:humanize), include_blank: true
     field :name, as: :text
     field :url, as: :text
     field :title, as: :text
-    field :talks_talk, as: :belongs_to
+    field :talk, as: :belongs_to
   end
 end

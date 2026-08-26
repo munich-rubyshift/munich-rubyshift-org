@@ -4,6 +4,9 @@ class Talks::Talk < ApplicationRecord
 
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :talks
 
+  has_many :additional_resources, -> { order(:kind, :name) },
+    class_name: "Talks::AdditionalResource", foreign_key: :talks_talk_id, inverse_of: :talk
+
   has_many :speaker_talks, class_name: "Talks::SpeakerTalk", foreign_key: :talks_talk_id, inverse_of: :talk
   has_many :speakers, class_name: "Entities::Person", through: :speaker_talks
 
