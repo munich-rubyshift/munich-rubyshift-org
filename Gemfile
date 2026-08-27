@@ -22,6 +22,9 @@ gem "bootsnap", require: false
 
 gem "frozen_rails"
 
+# Turns addresses and cities into coordinates
+gem "geocoder"
+
 # frozen:md
 gem "decant"
 gem "kramdown"
