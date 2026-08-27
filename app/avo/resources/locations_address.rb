@@ -13,5 +13,6 @@ class Avo::Resources::LocationsAddress < Avo::BaseResource
     field :street, as: :text
     field :zip_code, as: :text
     field :city, as: :belongs_to
+    field :coordinates, as: :belongs_to
   end
 end

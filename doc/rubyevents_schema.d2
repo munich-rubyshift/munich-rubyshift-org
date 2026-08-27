@@ -345,8 +345,8 @@ venues: {
     description: string
     instructions: string
     url: string
+    # the pin comes with the address; a venue always has one
     address_id: "integer" {constraint: foreign_key}
-    coordinate_id: "integer" {constraint: foreign_key}
     map_id: "integer" {constraint: foreign_key}
     accessibility_wheelchair: boolean
     accessibility_elevators: boolean
@@ -372,6 +372,9 @@ venues: {
     floor: string
     instructions: string
   }
+  # NOT BUILT. When it is: address XOR direct coordinates - LocationSchema
+  # requires coordinates but makes address optional. This is also where
+  # entrance-level precision within one address belongs, not on venues.
   venue_locations: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
@@ -413,6 +416,9 @@ locations: {
     zip_code: string
     # instead of city/region/country/country_code strings
     city_id: "integer" {constraint: foreign_key}
+    # required: an address is geocodable, so the pin lives next to the thing it
+    # is derived from and the two cannot drift apart
+    coordinate_id: "integer" {constraint: foreign_key}
     # display_address dropped, composed by Locations::Address#to_s
   }
   # The single pin table: proximity search is one indexed scan here, plus
@@ -440,7 +446,6 @@ events.events.coordinate_id -> locations.coordinates.id
 events.cfps.event_id -> events.events.id
 
 venues.venues.address_id -> locations.addresses.id
-venues.venues.coordinate_id -> locations.coordinates.id
 venues.venues.map_id -> locations.maps.id
 venues.venue_rooms.venue_id -> venues.venues.id
 venues.venue_spaces.venue_id -> venues.venues.id
@@ -473,4 +478,5 @@ schedules.schedule_tracks.event_id -> events.events.id
 
 locations.cities.coordinates_id -> locations.coordinates.id
 locations.addresses.city_id -> locations.cities.id
+locations.addresses.coordinate_id -> locations.coordinates.id
 

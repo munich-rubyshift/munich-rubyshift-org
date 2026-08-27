@@ -3,6 +3,7 @@ class Locations::Address < ApplicationRecord
   friendly_id :street
 
   belongs_to :city, class_name: "Locations::City", foreign_key: :locations_city_id, inverse_of: :addresses
+  belongs_to :coordinates, class_name: "Locations::Coordinates", foreign_key: :locations_coordinates_id, inverse_of: :addresses
 
   has_many :venues, class_name: "Venues::Venue", foreign_key: :locations_address_id, inverse_of: :address
 

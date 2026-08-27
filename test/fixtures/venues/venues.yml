@@ -2,7 +2,6 @@
 
 one:
   address: one
-  coordinates: one
   slug: MyString
   name: MyString
   rubyevents_slug: MyString
@@ -18,7 +17,6 @@ one:
 
 two:
   address: two
-  coordinates: two
   map: two
   slug: MyString
   name: MyString
