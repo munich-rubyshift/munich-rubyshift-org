@@ -5,9 +5,11 @@ one:
   street: MyString
   zip_code: MyString
   city: one
+  coordinates: one
 
 two:
   slug: MyString
   street: MyString
   zip_code: MyString
   city: two
+  coordinates: two

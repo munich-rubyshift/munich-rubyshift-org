@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_08_26_195915) do
+ActiveRecord::Schema[8.1].define(version: 2026_08_27_175857) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.datetime "created_at", null: false
@@ -182,11 +182,13 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_26_195915) do
   create_table "locations_addresses", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.datetime "created_at", null: false
     t.string "locations_city_id", null: false
+    t.string "locations_coordinates_id", null: false
     t.string "slug"
     t.string "street"
     t.datetime "updated_at", null: false
     t.string "zip_code"
     t.index ["locations_city_id"], name: "index_locations_addresses_on_locations_city_id"
+    t.index ["locations_coordinates_id"], name: "index_locations_addresses_on_locations_coordinates_id"
   end
 
   create_table "locations_cities", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
@@ -302,7 +304,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_26_195915) do
     t.text "description"
     t.text "instructions"
     t.string "locations_address_id", null: false
-    t.string "locations_coordinates_id", null: false
     t.string "locations_map_id"
     t.string "name"
     t.text "nearby_parking"
@@ -312,7 +313,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_26_195915) do
     t.datetime "updated_at", null: false
     t.string "url"
     t.index ["locations_address_id"], name: "index_venues_venues_on_locations_address_id"
-    t.index ["locations_coordinates_id"], name: "index_venues_venues_on_locations_coordinates_id"
     t.index ["locations_map_id"], name: "index_venues_venues_on_locations_map_id"
   end
 
@@ -325,6 +325,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_26_195915) do
   add_foreign_key "events_participations", "entities_people"
   add_foreign_key "events_participations", "events_events"
   add_foreign_key "locations_addresses", "locations_cities"
+  add_foreign_key "locations_addresses", "locations_coordinates"
   add_foreign_key "locations_cities", "locations_coordinates"
   add_foreign_key "sponsors_sponsor_tiers", "events_events"
   add_foreign_key "sponsors_sponsorships", "entities_organizations"
@@ -334,6 +335,5 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_26_195915) do
   add_foreign_key "talks_speaker_talks", "talks_talks"
   add_foreign_key "talks_talks", "events_events"
   add_foreign_key "venues_venues", "locations_addresses"
-  add_foreign_key "venues_venues", "locations_coordinates"
   add_foreign_key "venues_venues", "locations_maps"
 end

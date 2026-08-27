@@ -1,7 +1,7 @@
 class Locations::Coordinates < ApplicationRecord
-  # Centroid coordinates belongs to exactly one city. Venues and addresses may share coordinates.
+  # Centroid coordinates belongs to exactly one city. Addresses may share coordinates.
   has_one :city, class_name: "Locations::City", foreign_key: :locations_coordinates_id, inverse_of: :coordinates
-  has_many :venues, class_name: "Venues::Venue", foreign_key: :locations_coordinates_id, inverse_of: :coordinates
+  has_many :addresses, class_name: "Locations::Address", foreign_key: :locations_coordinates_id, inverse_of: :coordinates
 
   # Fallbacks for Locations::Map, which only stores curated links.
   def google_url
