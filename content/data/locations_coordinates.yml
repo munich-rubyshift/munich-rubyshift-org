@@ -1,13 +1,229 @@
 ---
+Locations::Coordinates_05c95a3b-8a03-48ec-aae8-38ac35392a02:
+  id: 05c95a3b-8a03-48ec-aae8-38ac35392a02
+  created_at: '2026-08-29 21:09:52.558203'
+  latitude: 48.118196
+  longitude: 11.602731
+  updated_at: '2026-08-29 21:09:52.558203'
+Locations::Coordinates_0dd3520c-4df2-4a85-801f-29a734625357:
+  id: 0dd3520c-4df2-4a85-801f-29a734625357
+  created_at: '2026-08-29 20:27:26.551023'
+  latitude: 48.133376
+  longitude: 11.569202
+  updated_at: '2026-08-29 20:27:26.551023'
+Locations::Coordinates_0df9adaa-4183-4e85-9b98-e8697f0e68f1:
+  id: 0df9adaa-4183-4e85-9b98-e8697f0e68f1
+  created_at: '2026-08-29 21:01:40.947787'
+  latitude: 48.146397
+  longitude: 11.537623
+  updated_at: '2026-08-29 21:01:40.947787'
+Locations::Coordinates_1c3745c4-9bfd-4b3a-9c16-ad68d87ff268:
+  id: 1c3745c4-9bfd-4b3a-9c16-ad68d87ff268
+  created_at: '2026-08-29 20:46:52.632464'
+  latitude: 48.134393
+  longitude: 11.61065
+  updated_at: '2026-08-29 20:46:52.632464'
+Locations::Coordinates_1d855642-bfd8-45dc-8531-3d92ce865271:
+  id: 1d855642-bfd8-45dc-8531-3d92ce865271
+  created_at: '2026-09-01 17:42:37.839182'
+  latitude: 48.140431
+  longitude: 11.535288
+  updated_at: '2026-09-01 17:42:37.839182'
+Locations::Coordinates_2a4a5bfe-a0f9-42a5-989f-2a2de7163a8f:
+  id: 2a4a5bfe-a0f9-42a5-989f-2a2de7163a8f
+  created_at: '2026-08-29 21:00:42.427774'
+  latitude: 48.123795
+  longitude: 11.597294
+  updated_at: '2026-08-29 21:00:42.427774'
+Locations::Coordinates_360d2ade-b703-446e-9c2c-76c646005e9d:
+  id: 360d2ade-b703-446e-9c2c-76c646005e9d
+  created_at: '2026-08-29 20:33:12.651860'
+  latitude: 48.160923
+  longitude: 11.552639
+  updated_at: '2026-08-29 20:33:12.651860'
+Locations::Coordinates_37bbfea3-85e9-46ac-b292-ae7dc111f843:
+  id: 37bbfea3-85e9-46ac-b292-ae7dc111f843
+  created_at: '2026-08-29 21:14:24.238814'
+  latitude: 48.338403
+  longitude: 10.902191
+  updated_at: '2026-08-29 21:14:24.238814'
+Locations::Coordinates_3850e9dc-8a71-426c-be3b-0bac2a1e6f48:
+  id: 3850e9dc-8a71-426c-be3b-0bac2a1e6f48
+  created_at: '2026-09-01 17:40:52.217216'
+  latitude: 48.150288
+  longitude: 11.622526
+  updated_at: '2026-09-01 17:40:52.217216'
 Locations::Coordinates_44145238-4db3-4f9b-bdae-a68a1caa10e4:
   id: 44145238-4db3-4f9b-bdae-a68a1caa10e4
   created_at: '2026-08-23 18:59:03.159224'
   latitude: 48.129604
   longitude: 11.625085
   updated_at: '2026-08-23 18:59:03.159224'
+Locations::Coordinates_51ba80ad-19fd-441c-ac3b-08f64262db5a:
+  id: 51ba80ad-19fd-441c-ac3b-08f64262db5a
+  created_at: '2026-09-01 17:41:11.100954'
+  latitude: 48.149561
+  longitude: 11.556529
+  updated_at: '2026-09-01 17:41:11.100954'
+Locations::Coordinates_5232b84a-d7e7-408e-a963-fd4a63918ea3:
+  id: 5232b84a-d7e7-408e-a963-fd4a63918ea3
+  created_at: '2026-08-29 20:25:52.945094'
+  latitude: 48.143503
+  longitude: 11.551566
+  updated_at: '2026-08-29 20:25:52.945094'
+Locations::Coordinates_55390d01-e943-42a4-b6a1-72c16d51b0f7:
+  id: 55390d01-e943-42a4-b6a1-72c16d51b0f7
+  created_at: '2026-08-29 20:36:55.788565'
+  latitude: 48.134519
+  longitude: 11.594886
+  updated_at: '2026-08-29 20:36:55.788565'
+Locations::Coordinates_61d5fa0a-b157-4323-8eb6-b8e2093603fa:
+  id: 61d5fa0a-b157-4323-8eb6-b8e2093603fa
+  created_at: '2026-08-29 19:28:49.799126'
+  latitude: 48.137767
+  longitude: 11.52308
+  updated_at: '2026-08-29 19:28:49.799126'
+Locations::Coordinates_65d447c1-c7a9-4305-8afd-9cb485e85d06:
+  id: 65d447c1-c7a9-4305-8afd-9cb485e85d06
+  created_at: '2026-08-29 20:26:25.869695'
+  latitude: 48.142891
+  longitude: 11.54306
+  updated_at: '2026-08-29 20:26:25.869695'
+Locations::Coordinates_72de05ee-48c0-41a3-9e1c-ea0ad97c1bad:
+  id: 72de05ee-48c0-41a3-9e1c-ea0ad97c1bad
+  created_at: '2026-08-29 21:07:11.191933'
+  latitude: 48.145842
+  longitude: 11.505325
+  updated_at: '2026-08-29 21:07:11.191933'
+Locations::Coordinates_7325bc5a-0bcf-426c-a701-4291f34e1b40:
+  id: 7325bc5a-0bcf-426c-a701-4291f34e1b40
+  created_at: '2026-09-01 19:28:33.282382'
+  latitude: 48.146212
+  longitude: 11.56175
+  updated_at: '2026-09-01 19:28:33.282382'
+Locations::Coordinates_75ec4ce4-cff7-4ebe-8745-8f8be2e86d7b:
+  id: 75ec4ce4-cff7-4ebe-8745-8f8be2e86d7b
+  created_at: '2026-08-29 21:06:23.165458'
+  latitude: 48.138331
+  longitude: 11.566591
+  updated_at: '2026-08-29 21:06:23.165458'
+Locations::Coordinates_88811aae-7851-4757-bedc-01fdd5024d6f:
+  id: 88811aae-7851-4757-bedc-01fdd5024d6f
+  created_at: '2026-09-01 17:43:08.161528'
+  latitude: 48.149309
+  longitude: 11.540362
+  updated_at: '2026-09-01 17:43:08.161528'
+Locations::Coordinates_89bd61e6-2fde-4f65-aa8e-d4f426b38174:
+  id: 89bd61e6-2fde-4f65-aa8e-d4f426b38174
+  created_at: '2026-08-29 20:38:20.019825'
+  latitude: 48.150675
+  longitude: 11.548507
+  updated_at: '2026-08-29 20:38:20.019825'
 Locations::Coordinates_8f5b4868-38ec-423b-a8ea-f5ac8010efa7:
   id: 8f5b4868-38ec-423b-a8ea-f5ac8010efa7
   created_at: '2026-08-23 18:59:03.133481'
   latitude: 48.137108
   longitude: 11.575382
   updated_at: '2026-08-23 18:59:03.133481'
+Locations::Coordinates_9f70da14-3b38-4613-8b7b-4807340e278b:
+  id: 9f70da14-3b38-4613-8b7b-4807340e278b
+  created_at: '2026-08-29 21:03:19.688187'
+  latitude: 48.133142
+  longitude: 11.567197
+  updated_at: '2026-08-29 21:03:19.688187'
+Locations::Coordinates_a4618d6e-977e-4330-8c22-37706a01a047:
+  id: a4618d6e-977e-4330-8c22-37706a01a047
+  created_at: '2026-09-01 17:42:53.963988'
+  latitude: 48.137087
+  longitude: 11.523978
+  updated_at: '2026-09-01 17:42:53.963988'
+Locations::Coordinates_a69f5df8-0070-4147-bc22-f9c64fd0b970:
+  id: a69f5df8-0070-4147-bc22-f9c64fd0b970
+  created_at: '2026-08-29 20:57:43.959273'
+  latitude: 48.135449
+  longitude: 11.613636
+  updated_at: '2026-08-29 20:57:43.959273'
+Locations::Coordinates_a829f396-c229-4f47-af71-b3a831a56c80:
+  id: a829f396-c229-4f47-af71-b3a831a56c80
+  created_at: '2026-08-29 20:52:41.578068'
+  latitude: 48.13822
+  longitude: 11.550026
+  updated_at: '2026-08-29 20:52:41.578068'
+Locations::Coordinates_b66bc1da-34e6-4fa1-9306-9fd203cad7d2:
+  id: b66bc1da-34e6-4fa1-9306-9fd203cad7d2
+  created_at: '2026-09-01 17:39:36.841104'
+  latitude: 48.149354
+  longitude: 11.558268
+  updated_at: '2026-09-01 17:39:36.841104'
+Locations::Coordinates_bf67fade-2d5b-4b08-aefb-fb6ba5469c4a:
+  id: bf67fade-2d5b-4b08-aefb-fb6ba5469c4a
+  created_at: '2026-09-01 17:44:05.780887'
+  latitude: 48.141211
+  longitude: 11.5682
+  updated_at: '2026-09-01 17:44:05.780887'
+Locations::Coordinates_c2f69052-b2dd-41da-b5e7-1a400d1b5029:
+  id: c2f69052-b2dd-41da-b5e7-1a400d1b5029
+  created_at: '2026-08-29 21:12:22.915536'
+  latitude: 48.144481
+  longitude: 11.520296
+  updated_at: '2026-08-29 21:12:22.915536'
+Locations::Coordinates_ceb37366-32f1-4337-a756-d4286c4074f5:
+  id: ceb37366-32f1-4337-a756-d4286c4074f5
+  created_at: '2026-09-01 17:38:55.607479'
+  latitude: 48.150843
+  longitude: 11.547072
+  updated_at: '2026-09-01 17:38:55.607479'
+Locations::Coordinates_d719ed29-7280-49a0-8ae2-f8ef7dd8589d:
+  id: d719ed29-7280-49a0-8ae2-f8ef7dd8589d
+  created_at: '2026-08-29 20:45:48.815871'
+  latitude: 48.123539
+  longitude: 11.598284
+  updated_at: '2026-08-29 20:45:48.815871'
+Locations::Coordinates_dd3110d4-bed2-4917-a397-8ab10157ec3f:
+  id: dd3110d4-bed2-4917-a397-8ab10157ec3f
+  created_at: '2026-08-29 20:48:52.450541'
+  latitude: 48.153111
+  longitude: 11.57768
+  updated_at: '2026-08-29 20:48:52.450541'
+Locations::Coordinates_e1da567b-9166-4af6-8839-d191ddde8a76:
+  id: e1da567b-9166-4af6-8839-d191ddde8a76
+  created_at: '2026-08-29 20:56:27.355783'
+  latitude: 48.12375
+  longitude: 11.60272
+  updated_at: '2026-08-29 20:56:27.355783'
+Locations::Coordinates_efba2009-b6f0-4066-8dd5-f65f65740892:
+  id: efba2009-b6f0-4066-8dd5-f65f65740892
+  created_at: '2026-09-01 17:41:55.868353'
+  latitude: 48.12418
+  longitude: 11.601639
+  updated_at: '2026-09-01 17:41:55.868353'
+Locations::Coordinates_f14ae649-5816-4c4e-8a42-4d43c8e70922:
+  id: f14ae649-5816-4c4e-8a42-4d43c8e70922
+  created_at: '2026-08-29 21:13:57.683226'
+  latitude: 48.369034
+  longitude: 10.897952
+  updated_at: '2026-08-29 21:13:57.683226'
+Locations::Coordinates_f2a0ed88-20fd-4490-962c-bda43aaae8e0:
+  id: f2a0ed88-20fd-4490-962c-bda43aaae8e0
+  created_at: '2026-08-29 20:41:37.878360'
+  latitude: 48.142327
+  longitude: 11.564598
+  updated_at: '2026-08-29 20:41:37.878360'
+Locations::Coordinates_f61e643e-f6a4-4a97-a4ff-8e7a5e774902:
+  id: f61e643e-f6a4-4a97-a4ff-8e7a5e774902
+  created_at: '2026-08-29 20:42:47.926486'
+  latitude: 48.146837
+  longitude: 11.560982
+  updated_at: '2026-08-29 20:42:47.926486'
+Locations::Coordinates_fa736ebb-c944-4c5d-95b4-f25ac1e16b9f:
+  id: fa736ebb-c944-4c5d-95b4-f25ac1e16b9f
+  created_at: '2026-09-01 17:43:28.941075'
+  latitude: 48.134324
+  longitude: 11.565586
+  updated_at: '2026-09-01 17:43:28.941075'
+Locations::Coordinates_fd869581-17de-42aa-8886-b27dc8187ebd:
+  id: fd869581-17de-42aa-8886-b27dc8187ebd
+  created_at: '2026-09-01 17:47:28.119506'
+  latitude: 48.138987
+  longitude: 11.554181
+  updated_at: '2026-09-01 17:47:28.119506'
