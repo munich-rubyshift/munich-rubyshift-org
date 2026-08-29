@@ -1,4 +1,256 @@
 ---
+Locations::Address_0b5ec8e1-007f-4510-8d0d-ff4b87cb3b18:
+  id: 0b5ec8e1-007f-4510-8d0d-ff4b87cb3b18
+  created_at: '2026-08-29 20:38:20.023552'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 89bd61e6-2fde-4f65-aa8e-d4f426b38174
+  slug: lothstrasse-5
+  street: Lothstraße 5
+  updated_at: '2026-08-29 20:38:20.023552'
+  zip_code: '80335'
+Locations::Address_0e1b4540-68a9-4488-85f9-5c79217d93a4:
+  id: 0e1b4540-68a9-4488-85f9-5c79217d93a4
+  created_at: '2026-08-29 21:03:19.694187'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 9f70da14-3b38-4613-8b7b-4807340e278b
+  slug: sendlinger-tor-platz-1
+  street: Sendlinger-Tor-Platz 1
+  updated_at: '2026-08-29 21:03:19.694187'
+  zip_code: '80336'
+Locations::Address_0e1fb7ca-b03a-40b9-94c0-775585371919:
+  id: 0e1fb7ca-b03a-40b9-94c0-775585371919
+  created_at: '2026-08-29 20:53:10.403316'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: a829f396-c229-4f47-af71-b3a831a56c80
+  slug: martin-greif-strasse-1
+  street: Martin-Greif-Straße 1
+  updated_at: '2026-08-29 20:53:10.403316'
+  zip_code: '80336'
+Locations::Address_13ef6a8f-3ee9-41ab-bddb-115e01d59278:
+  id: 13ef6a8f-3ee9-41ab-bddb-115e01d59278
+  created_at: '2026-08-29 21:04:12.056840'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 7325bc5a-0bcf-426c-a701-4291f34e1b40
+  slug: brienner-strasse-45a-d
+  street: Brienner Straße 45a-d
+  updated_at: '2026-09-01 19:29:28.400461'
+  zip_code: '80333'
+Locations::Address_16d4466b-429f-47c5-bcbd-ad142314371f:
+  id: 16d4466b-429f-47c5-bcbd-ad142314371f
+  created_at: '2026-08-29 20:26:25.874509'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 65d447c1-c7a9-4305-8afd-9cb485e85d06
+  slug: erika-mann-strasse-23
+  street: Erika-Mann-Straße 23
+  updated_at: '2026-08-29 20:26:25.874509'
+  zip_code: '80636'
+Locations::Address_3f35d020-4ee5-49af-8307-1ed67c77eadc:
+  id: 3f35d020-4ee5-49af-8307-1ed67c77eadc
+  created_at: '2026-08-29 20:59:14.542370'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: b66bc1da-34e6-4fa1-9306-9fd203cad7d2
+  slug: dachauer-strasse-65
+  street: Dachauer Straße 65
+  updated_at: '2026-09-01 17:39:36.847871'
+  zip_code: '80335'
+Locations::Address_4814051f-7359-4e0e-9015-b970baacef5e:
+  id: 4814051f-7359-4e0e-9015-b970baacef5e
+  created_at: '2026-09-01 18:37:54.700063'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: e1da567b-9166-4af6-8839-d191ddde8a76
+  slug: rosenheimer-strasse-141e-h
+  street: Rosenheimer Straße 141e-h
+  updated_at: '2026-09-01 18:37:54.700063'
+  zip_code: '81671'
+Locations::Address_56c87d8f-ae59-4c6b-a5c7-e0a4f44b1a71:
+  id: 56c87d8f-ae59-4c6b-a5c7-e0a4f44b1a71
+  created_at: '2026-08-29 21:07:11.196584'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 72de05ee-48c0-41a3-9e1c-ea0ad97c1bad
+  slug: christoph-rapparini-bogen-23
+  street: Christoph-Rapparini-Bogen 23
+  updated_at: '2026-08-29 21:07:11.196584'
+  zip_code: '80639'
+Locations::Address_581c789e-6408-4f1d-8a23-43ae147b210b:
+  id: 581c789e-6408-4f1d-8a23-43ae147b210b
+  created_at: '2026-09-01 17:49:05.764450'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 360d2ade-b703-446e-9c2c-76c646005e9d
+  slug: infanteriestrasse-19-haus-6
+  street: Infanteriestraße 19, Haus 6
+  updated_at: '2026-09-01 17:49:05.764450'
+  zip_code: '80797'
+Locations::Address_5947ec85-23be-4a0d-a2c8-ce15d4b01d79:
+  id: 5947ec85-23be-4a0d-a2c8-ce15d4b01d79
+  created_at: '2026-08-29 20:24:18.198126'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: bf67fade-2d5b-4b08-aefb-fb6ba5469c4a
+  slug: lenbachplatz-3
+  street: Lenbachplatz 3
+  updated_at: '2026-09-01 17:44:05.784167'
+  zip_code: '80333'
+Locations::Address_69484e6d-af88-490c-b9b9-ab961209ce10:
+  id: 69484e6d-af88-490c-b9b9-ab961209ce10
+  created_at: '2026-08-29 21:01:40.951559'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 0df9adaa-4183-4e85-9b98-e8697f0e68f1
+  slug: arnulfstrasse-126
+  street: Arnulfstraße 126
+  updated_at: '2026-08-29 21:01:40.951559'
+  zip_code: '80636'
+Locations::Address_6bf8f3b2-7dcf-419b-88fd-15789f0a21a4:
+  id: 6bf8f3b2-7dcf-419b-88fd-15789f0a21a4
+  created_at: '2026-08-29 21:06:23.169950'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 75ec4ce4-cff7-4ebe-8745-8f8be2e86d7b
+  slug: herzogspitalstrasse-24
+  street: Herzogspitalstraße 24
+  updated_at: '2026-08-29 21:06:23.169950'
+  zip_code: '80331'
+Locations::Address_764b4ed9-7c3b-4364-b946-c6d49c915329:
+  id: 764b4ed9-7c3b-4364-b946-c6d49c915329
+  created_at: '2026-08-29 21:12:22.920472'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: c2f69052-b2dd-41da-b5e7-1a400d1b5029
+  slug: friedenheimer-bruecke-16
+  street: Friedenheimer Brücke 16
+  updated_at: '2026-09-01 17:37:30.676521'
+  zip_code: '80639'
+Locations::Address_7731351b-56ab-4725-851c-bda6bba0c3a5:
+  id: 7731351b-56ab-4725-851c-bda6bba0c3a5
+  created_at: '2026-08-29 20:45:48.820536'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: d719ed29-7280-49a0-8ae2-f8ef7dd8589d
+  slug: orleansstrasse-4
+  street: Orleansstraße 4
+  updated_at: '2026-08-29 20:45:48.820536'
+  zip_code: '81669'
+Locations::Address_7742024b-8219-4ae6-8917-5a9690f313dc:
+  id: 7742024b-8219-4ae6-8917-5a9690f313dc
+  created_at: '2026-08-29 20:29:28.899788'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 88811aae-7851-4757-bedc-01fdd5024d6f
+  slug: blutenburgstrasse-43
+  street: Blutenburgstraße 43
+  updated_at: '2026-09-01 17:43:08.166795'
+  zip_code: '80636'
+Locations::Address_7a2d5886-0641-4104-8c8b-0cd62265fe5a:
+  id: 7a2d5886-0641-4104-8c8b-0cd62265fe5a
+  created_at: '2026-08-29 20:39:58.966792'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: efba2009-b6f0-4066-8dd5-f65f65740892
+  slug: rosenheimer-strasse-145e
+  street: Rosenheimer Straße 145e
+  updated_at: '2026-09-01 17:41:55.871778'
+  zip_code: '81671'
+Locations::Address_7ee6fa75-f78f-41db-83bd-972d07231d29:
+  id: 7ee6fa75-f78f-41db-83bd-972d07231d29
+  created_at: '2026-08-29 20:31:16.706677'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 1d855642-bfd8-45dc-8531-3d92ce865271
+  slug: landsberger-strasse-110
+  street: Landsberger Straße 110
+  updated_at: '2026-09-01 17:42:37.844720'
+  zip_code: '80339'
+Locations::Address_84287654-9b30-432f-9930-caa933469041:
+  id: 84287654-9b30-432f-9930-caa933469041
+  created_at: '2026-08-29 19:28:49.803876'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 61d5fa0a-b157-4323-8eb6-b8e2093603fa
+  slug: elsenheimerstrasse-47
+  street: Elsenheimerstraße 47
+  updated_at: '2026-08-29 19:28:49.803876'
+  zip_code: '80687'
+Locations::Address_87cf3aa0-21d6-48f8-8c8c-0169d9e3be81:
+  id: 87cf3aa0-21d6-48f8-8c8c-0169d9e3be81
+  created_at: '2026-08-29 20:47:58.066551'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 3850e9dc-8a71-426c-be3b-0bac2a1e6f48
+  slug: arabellastrasse-23
+  street: Arabellastraße 23
+  updated_at: '2026-09-01 17:40:52.220661'
+  zip_code: '81925'
+Locations::Address_8db60734-ff15-4d1e-a890-78e45e3013a3:
+  id: 8db60734-ff15-4d1e-a890-78e45e3013a3
+  created_at: '2026-08-29 20:42:47.931710'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: f61e643e-f6a4-4a97-a4ff-8e7a5e774902
+  slug: brienner-strasse-49
+  street: Brienner Straße 49
+  updated_at: '2026-08-29 20:42:47.931710'
+  zip_code: '80333'
+Locations::Address_91fcd7a0-9f33-43d1-ab35-39111c44d308:
+  id: 91fcd7a0-9f33-43d1-ab35-39111c44d308
+  created_at: '2026-08-29 20:57:43.965679'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: a69f5df8-0070-4147-bc22-f9c64fd0b970
+  slug: bothestrasse-11
+  street: Bothestraße 11
+  updated_at: '2026-08-29 20:57:43.965679'
+  zip_code: '81675'
+Locations::Address_9b3512a5-95c8-4eb6-a276-29c0bf5fd66f:
+  id: 9b3512a5-95c8-4eb6-a276-29c0bf5fd66f
+  created_at: '2026-08-29 21:05:22.042012'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: ceb37366-32f1-4337-a756-d4286c4074f5
+  slug: nymphenburger-strasse-86
+  street: Nymphenburger Straße 86
+  updated_at: '2026-09-01 17:38:55.611225'
+  zip_code: '80636'
+Locations::Address_9dac9d5e-1951-48e5-b771-fce25fad6942:
+  id: 9dac9d5e-1951-48e5-b771-fce25fad6942
+  created_at: '2026-08-29 20:27:26.555379'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 0dd3520c-4df2-4a85-801f-29a734625357
+  slug: rossmarkt-6
+  street: Roßmarkt 6
+  updated_at: '2026-08-29 20:27:26.555379'
+  zip_code: '80331'
+Locations::Address_9db5c210-e6a7-403c-88cc-f9cb417063d2:
+  id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
+  created_at: '2026-08-29 20:44:05.873780'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 51ba80ad-19fd-441c-ac3b-08f64262db5a
+  slug: sandstrasse-33
+  street: Sandstraße 33
+  updated_at: '2026-09-01 17:41:11.105611'
+  zip_code: '80335'
+Locations::Address_a2b3bfc0-9fa5-4a08-a546-7d15ad158735:
+  id: a2b3bfc0-9fa5-4a08-a546-7d15ad158735
+  created_at: '2026-08-29 20:30:23.366932'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: a4618d6e-977e-4330-8c22-37706a01a047
+  slug: elsenheimerstrasse-55a
+  street: Elsenheimerstraße 55a
+  updated_at: '2026-09-01 17:42:53.969760'
+  zip_code: '80687'
+Locations::Address_ab12dea4-bf3e-421b-a51c-099f3c18bf3e:
+  id: ab12dea4-bf3e-421b-a51c-099f3c18bf3e
+  created_at: '2026-08-29 20:40:44.724878'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: fd869581-17de-42aa-8886-b27dc8187ebd
+  slug: bayerstrasse-69
+  street: Bayerstraße 69
+  updated_at: '2026-09-01 17:47:28.123787'
+  zip_code: '80335'
+Locations::Address_acc4d061-e232-4610-ad84-26be50187b1b:
+  id: acc4d061-e232-4610-ad84-26be50187b1b
+  created_at: '2026-08-29 20:25:52.950456'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 5232b84a-d7e7-408e-a963-fd4a63918ea3
+  slug: arnulfstrasse-52
+  street: Arnulfstraße 52
+  updated_at: '2026-08-29 20:25:52.950456'
+  zip_code: '80335'
+Locations::Address_af20a4ff-1f6f-4384-970c-e33898c1ac00:
+  id: af20a4ff-1f6f-4384-970c-e33898c1ac00
+  created_at: '2026-08-29 20:46:52.636050'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 1c3745c4-9bfd-4b3a-9c16-ad68d87ff268
+  slug: grillparzerstrasse-14
+  street: Grillparzerstraße 14
+  updated_at: '2026-08-29 20:46:52.636050'
+  zip_code: '81675'
 Locations::Address_b67de432-baa6-472d-b97f-6da7f18e8b19:
   id: b67de432-baa6-472d-b97f-6da7f18e8b19
   created_at: '2026-08-23 18:59:03.214617'
@@ -8,3 +260,66 @@ Locations::Address_b67de432-baa6-472d-b97f-6da7f18e8b19:
   street: Berg-am-Laim-Straße 111
   updated_at: '2026-08-23 18:59:03.214617'
   zip_code: '81673'
+Locations::Address_cdf044dc-7abf-436a-96de-596b9ed7f71c:
+  id: cdf044dc-7abf-436a-96de-596b9ed7f71c
+  created_at: '2026-08-29 20:48:52.456526'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: dd3110d4-bed2-4917-a397-8ab10157ec3f
+  slug: tuerkenstrasse-89
+  street: Türkenstraße 89
+  updated_at: '2026-09-01 17:40:30.180712'
+  zip_code: '80799'
+Locations::Address_ce312dce-0d8a-4a65-8c49-8716f396a1f3:
+  id: ce312dce-0d8a-4a65-8c49-8716f396a1f3
+  created_at: '2026-08-29 21:14:24.243306'
+  locations_city_id: eb6865f6-9a30-4e23-a6ad-c3909abeb7eb
+  locations_coordinates_id: 37bbfea3-85e9-46ac-b292-ae7dc111f843
+  slug: melli-beese-strasse-5
+  street: Melli-Beese-Straße 5
+  updated_at: '2026-08-29 21:14:24.243306'
+  zip_code: '86159'
+Locations::Address_d145e416-b509-4606-874b-9a62dd18d9bd:
+  id: d145e416-b509-4606-874b-9a62dd18d9bd
+  created_at: '2026-08-29 20:36:55.792652'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 55390d01-e943-42a4-b6a1-72c16d51b0f7
+  slug: innere-wiener-strasse-19
+  street: Innere Wiener Straße 19
+  updated_at: '2026-08-29 20:36:55.792652'
+  zip_code: '81667'
+Locations::Address_de341e80-9be5-4433-8ac2-fad47d4775b1:
+  id: de341e80-9be5-4433-8ac2-fad47d4775b1
+  created_at: '2026-08-29 20:41:37.882773'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: f2a0ed88-20fd-4490-962c-bda43aaae8e0
+  slug: sophienstrasse-7
+  street: Sophienstraße 7
+  updated_at: '2026-08-29 20:41:37.882773'
+  zip_code: '80333'
+Locations::Address_e0ae990d-b61a-4bc9-8f25-c920fb2e8d2b:
+  id: e0ae990d-b61a-4bc9-8f25-c920fb2e8d2b
+  created_at: '2026-08-29 20:28:49.663427'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: fa736ebb-c944-4c5d-95b4-f25ac1e16b9f
+  slug: sonnenstrasse-32
+  street: Sonnenstraße 32
+  updated_at: '2026-09-01 17:43:28.945203'
+  zip_code: '80331'
+Locations::Address_eb96f61f-5059-4c2c-b7f6-5361a1241c16:
+  id: eb96f61f-5059-4c2c-b7f6-5361a1241c16
+  created_at: '2026-08-29 21:00:42.433118'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 2a4a5bfe-a0f9-42a5-989f-2a2de7163a8f
+  slug: balanstrasse-49
+  street: Balanstraße 49
+  updated_at: '2026-08-29 21:00:42.433118'
+  zip_code: '81669'
+Locations::Address_f7fe8226-b68a-4ec5-b626-1bcf94ce185a:
+  id: f7fe8226-b68a-4ec5-b626-1bcf94ce185a
+  created_at: '2026-08-29 21:09:52.562807'
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 05c95a3b-8a03-48ec-aae8-38ac35392a02
+  slug: balanstrasse-73
+  street: Balanstraße 73
+  updated_at: '2026-09-01 17:47:49.107566'
+  zip_code: '81541'
