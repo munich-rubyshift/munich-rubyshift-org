@@ -1,5 +1,6 @@
 module Locations
-  # Including models have to define GEOCODED_ATTRIBUTES and #geocoding_query.
+  # Including models have to define GEOCODED_ATTRIBUTES and #geocoding_query,
+  # and belong to :coordinates via locations_coordinates_id.
   module Geocodable
     extend ActiveSupport::Concern
 
@@ -10,6 +11,9 @@ module Locations
     private
 
     def needs_geocoding?
+      assigned_by_hand = locations_coordinates_id_changed? && locations_coordinates_id.present?
+      return false if assigned_by_hand
+
       coordinates.blank? || changed.intersect?(self.class::GEOCODED_ATTRIBUTES)
     end
 
