@@ -16,6 +16,15 @@ class Locations::CityTest < ActiveSupport::TestCase
     assert_equal before, loaded.coordinates.id
   end
 
+  test "keeps coordinates that were assigned by hand" do
+    Geocoder::Lookup::Test.add_stub("Atlantis, XX, ZZ", [])
+    manual = Locations::Coordinates.create!(latitude: 1.5, longitude: 2.5)
+    city = Locations::City.new(name: "Atlantis", state_code: "XX", country_code: "ZZ", locations_coordinates_id: manual.id)
+
+    assert city.valid?, city.errors.full_messages.to_sentence
+    assert_equal manual.id, city.coordinates.id
+  end
+
   test "fails to save when the city cannot be geocoded" do
     Geocoder::Lookup::Test.add_stub("Atlantis, XX, ZZ", [])
     city = Locations::City.new(name: "Atlantis", state_code: "XX", country_code: "ZZ")

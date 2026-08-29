@@ -42,8 +42,57 @@ class Locations::AddressTest < ActiveSupport::TestCase
     assert_equal before, loaded.coordinates.id
   end
 
+  test "keeps coordinates that were assigned by hand" do
+    manual = Locations::Coordinates.create!(latitude: 1.5, longitude: 2.5)
+    address = Locations::Address.new(street: "Marienplatz 1", zip_code: "80331", city: @city, coordinates: manual)
+
+    assert address.valid?
+    assert_equal manual.id, address.coordinates.id
+  end
+
+  test "keeps coordinates that were assigned by hand via the foreign key" do
+    manual = Locations::Coordinates.create!(latitude: 1.5, longitude: 2.5)
+    address = Locations::Address.new(street: "Marienplatz 1", zip_code: "80331", city: @city, locations_coordinates_id: manual.id)
+
+    assert address.valid?
+    assert_equal manual.id, address.coordinates.id
+  end
+
+  test "saves an address that cannot be geocoded when coordinates are assigned by hand" do
+    stub_missing_geocoding
+    manual = Locations::Coordinates.create!(latitude: 1.5, longitude: 2.5)
+    address = Locations::Address.new(street: "Nirgendwo 1", zip_code: "00000", city: @city, locations_coordinates_id: manual.id)
+
+    assert address.valid?, address.errors.full_messages.to_sentence
+    assert_equal manual.id, address.coordinates.id
+  end
+
+  test "fails to save when a changed address cannot be geocoded, rather than keeping stale coordinates" do
+    address = create_address
+    stub_missing_geocoding
+
+    address.street = "Nirgendwo 1"
+    address.zip_code = "00000"
+
+    assert_not address.valid?
+    assert_match(/could not be geocoded/, address.errors[:coordinates].to_sentence)
+  end
+
+  test "saves a changed address that cannot be geocoded when coordinates are assigned by hand" do
+    address = create_address
+    manual = Locations::Coordinates.create!(latitude: 1.5, longitude: 2.5)
+    stub_missing_geocoding
+
+    address.street = "Nirgendwo 1"
+    address.zip_code = "00000"
+    address.coordinates = manual
+
+    assert address.valid?, address.errors.full_messages.to_sentence
+    assert_equal manual.id, address.coordinates.id
+  end
+
   test "fails to save when the address cannot be geocoded" do
-    Geocoder::Lookup::Test.add_stub("Nirgendwo 1, 00000 #{@city.name}, #{@city.state_code}, #{@city.country_code}", [])
+    stub_missing_geocoding
     address = Locations::Address.new(street: "Nirgendwo 1", zip_code: "00000", city: @city)
 
     assert_not address.valid?
@@ -54,5 +103,9 @@ class Locations::AddressTest < ActiveSupport::TestCase
 
   def create_address
     Locations::Address.create!(street: "Marienplatz 1", zip_code: "80331", city: @city)
+  end
+
+  def stub_missing_geocoding
+    Geocoder::Lookup::Test.add_stub("Nirgendwo 1, 00000 #{@city.name}, #{@city.state_code}, #{@city.country_code}", [])
   end
 end
