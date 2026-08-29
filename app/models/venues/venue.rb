@@ -1,10 +1,13 @@
 class Venues::Venue < ApplicationRecord
+  include StringForeignKeys
   include Locations::Mappable
   include FriendlyId
   friendly_id :name
 
   belongs_to :address, class_name: "::Locations::Address", foreign_key: :locations_address_id, inverse_of: :venues
   belongs_to :map, class_name: "::Locations::Map", foreign_key: :locations_map_id, inverse_of: :venues, optional: true
+
+  string_fk :locations_address_id, :locations_map_id
 
   has_one :coordinates, through: :address
 

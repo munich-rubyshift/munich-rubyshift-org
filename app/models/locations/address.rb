@@ -1,4 +1,5 @@
 class Locations::Address < ApplicationRecord
+  include StringForeignKeys
   include FriendlyId
   include Locations::Geocodable
   friendly_id :street
@@ -7,6 +8,8 @@ class Locations::Address < ApplicationRecord
 
   belongs_to :city, class_name: "Locations::City", foreign_key: :locations_city_id, inverse_of: :addresses
   belongs_to :coordinates, class_name: "Locations::Coordinates", foreign_key: :locations_coordinates_id, inverse_of: :addresses, autosave: true
+
+  string_fk :locations_city_id, :locations_coordinates_id
 
   has_many :venues, class_name: "Venues::Venue", foreign_key: :locations_address_id, inverse_of: :address
 

@@ -1,8 +1,11 @@
 class Talks::Talk < ApplicationRecord
+  include StringForeignKeys
   include FriendlyId
   friendly_id :title
 
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :talks
+
+  string_fk :events_event_id
 
   has_many :additional_resources, -> { order(:kind, :name) },
     class_name: "Talks::AdditionalResource", foreign_key: :talks_talk_id, inverse_of: :talk

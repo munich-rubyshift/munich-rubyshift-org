@@ -1,10 +1,13 @@
 class Events::CFP < ApplicationRecord
+  include StringForeignKeys
   include FriendlyId
   friendly_id :slug_candidates
 
   DEFAULT_NAME = "Call for Proposals".freeze
 
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :cfps
+
+  string_fk :events_event_id
 
   validates :name, presence: true
 
