@@ -21,6 +21,21 @@ class SlugsTest < ActiveSupport::TestCase
     end
   end
 
+  # The German substitutions live in config/locales/en.yml, under the locale the
+  # app actually runs in. That is what lets a plain `parameterize` pick them up.
+  test "slugs spell German umlauts the German way" do
+    assert_equal "muenchen-hofbraeukeller", "München Hofbräukeller".parameterize
+    assert_equal "aerzte-oel-ueber", "Ärzte Öl Über".parameterize
+    assert_equal "tuerkenstrasse-89", "Türkenstraße 89".parameterize
+  end
+
+  # FriendlyId parameterizes without passing a locale, so this only holds while
+  # the rules stay under the default locale.
+  test "generated slugs get the German substitutions too" do
+    assert_equal "aeussere-muenchener-strasse-7",
+      Locations::Address.new.normalize_friendly_id("Äußere Münchener Straße 7")
+  end
+
   private
 
   def sluggable_models

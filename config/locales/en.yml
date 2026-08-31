@@ -81,3 +81,15 @@ en:
       venues/venue:
         one: "Venue"
         many: "Venues"
+
+  # The app doesn't use multiple locales and defaults to English, but we want German
+  # transliteration rules for nicer slugs. Rails already includes "ß -> ss" by default.
+  i18n:
+    transliterate:
+      rule:
+        ä: ae
+        ö: oe
+        ü: ue
+        Ä: Ae
+        Ö: Oe
+        Ü: Ue
