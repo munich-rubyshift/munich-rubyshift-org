@@ -175,3 +175,23 @@ Avo.configure do |config|
   #   link "Profile", path: "/avo/profile", icon: "heroicons/outline/user-circle"
   # }
 end
+
+Rails.application.config.to_prepare do
+  # `to_prepare` runs again on every reload, but Avo::BaseResource survives it,
+  # so redefining the constants would warn.
+  next if Avo::BaseResource.const_defined?(:ID_FIELD_OPTIONS, false)
+
+  class Avo::BaseResource
+    # The procs run through Avo::ExecutionContext, which `instance_exec`s them, so
+    # `value`, `record` and `main_app` resolve at call time, not from here.
+    ID_FIELD_OPTIONS = {
+      format_index_using: -> { content_tag(:span, "#", title: value) }
+    }.freeze
+
+    SLUG_FIELD_OPTIONS = {
+      sortable: true,
+      help: "Clear field to regenerate slug.",
+      format_display_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
+    }.freeze
+  end
+end

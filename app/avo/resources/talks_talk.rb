@@ -8,8 +8,8 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
   # }
 
   def fields
-    field :id, as: :id, format_index_using: -> { content_tag(:span, "#", title: value) }
-    field :slug, as: :text, sortable: true, help: "Clear field to regenerate slug.", format_display_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
+    field :id, as: :id, **ID_FIELD_OPTIONS
+    field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :title, as: :text
     field :rubyevents_slug, as: :text
     field :event, as: :belongs_to

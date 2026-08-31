@@ -8,8 +8,8 @@ class Avo::Resources::LocationsAddress < Avo::BaseResource
   # }
 
   def fields
-    field :id, as: :id, format_index_using: -> { content_tag(:span, "#", title: value) }
-    field :slug, as: :text, sortable: true, help: "Clear field to regenerate slug.", format_display_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
+    field :id, as: :id, **ID_FIELD_OPTIONS
+    field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :street, as: :text
     field :zip_code, as: :text
     field :city, as: :belongs_to

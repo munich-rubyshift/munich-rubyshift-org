@@ -8,7 +8,7 @@ class Avo::Resources::LocationsCoordinates < Avo::BaseResource
   # }
 
   def fields
-    field :id, as: :id, format_index_using: -> { content_tag(:span, "#", title: value) }
+    field :id, as: :id, **ID_FIELD_OPTIONS
     field :latitude, as: :text
     field :longitude, as: :text
   end
