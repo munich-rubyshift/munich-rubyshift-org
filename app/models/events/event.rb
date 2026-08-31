@@ -1,6 +1,6 @@
 class Events::Event < ApplicationRecord
   include StringForeignKeys
-  include FriendlyId
+  include Sluggable
   include Events::SeriesDefaults
   friendly_id :title
 

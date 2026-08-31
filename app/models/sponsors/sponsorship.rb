@@ -1,6 +1,6 @@
 class Sponsors::Sponsorship < ApplicationRecord
   include StringForeignKeys
-  include FriendlyId
+  include Sluggable
   friendly_id :name
 
   belongs_to :organization, class_name: "Entities::Organization", foreign_key: :entities_organization_id, inverse_of: :sponsorships
