@@ -1,6 +1,6 @@
 class Locations::City < ApplicationRecord
   include StringForeignKeys
-  include FriendlyId
+  include Sluggable
   include Locations::Geocodable
   friendly_id :name
 

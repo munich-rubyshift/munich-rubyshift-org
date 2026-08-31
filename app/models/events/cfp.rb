@@ -1,6 +1,6 @@
 class Events::CFP < ApplicationRecord
   include StringForeignKeys
-  include FriendlyId
+  include Sluggable
   friendly_id :slug_candidates
 
   DEFAULT_NAME = "Call for Proposals".freeze

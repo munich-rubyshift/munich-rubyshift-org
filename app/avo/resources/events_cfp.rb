@@ -9,7 +9,7 @@ class Avo::Resources::EventsCFP < Avo::BaseResource
 
   def fields
     field :id, as: :id, format_index_using: -> { content_tag(:span, "#", title: value) }
-    field :slug, as: :id, format_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
+    field :slug, as: :text, sortable: true, help: "Clear field to regenerate slug.", format_display_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     field :name, as: :text, default: ::Events::CFP::DEFAULT_NAME
     field :external_url, as: :text
     field :open_date, as: :date

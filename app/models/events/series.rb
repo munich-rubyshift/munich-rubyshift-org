@@ -1,5 +1,5 @@
 class Events::Series < ApplicationRecord
-  include FriendlyId
+  include Sluggable
   friendly_id :name
 
   KINDS = %w[conference meetup retreat hackathon event podcast online organisation workshop].freeze

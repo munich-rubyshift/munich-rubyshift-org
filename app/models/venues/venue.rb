@@ -1,7 +1,7 @@
 class Venues::Venue < ApplicationRecord
   include StringForeignKeys
   include Locations::Mappable
-  include FriendlyId
+  include Sluggable
   friendly_id :name
 
   belongs_to :address, class_name: "::Locations::Address", foreign_key: :locations_address_id, inverse_of: :venues

@@ -1,5 +1,5 @@
 class Entities::Person < ApplicationRecord
-  include FriendlyId
+  include Sluggable
   friendly_id :name
 
   has_many :participations, class_name: "Events::Participation", foreign_key: :entities_person_id, inverse_of: :person

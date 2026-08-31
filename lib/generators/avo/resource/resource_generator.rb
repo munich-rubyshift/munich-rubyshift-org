@@ -5,7 +5,7 @@ module Generators
     class ResourceGenerator
       no_tasks do
         def field_string(name, type, options)
-          return "field :slug, as: :id, format_using: -> { link_to value, main_app.polymorphic_path(record), \"data-turbo\": false }" if name.to_sym == :slug
+          return "field :slug, as: :text, sortable: true, help: \"Clear field to regenerate slug.\", format_display_using: -> { link_to value, main_app.polymorphic_path(record), \"data-turbo\": false }" if name.to_sym == :slug
           "field :#{name}, as: :#{type}#{options}"
         end
 
@@ -21,7 +21,7 @@ module Generators
 
         def field(name, type)
           return { field: "id" } if name.to_sym == :id
-          return { field: "id" } if name.to_sym == :slug
+          return { field: "text" } if name.to_sym == :slug
           ::Avo::Mappings::NAMES_MAPPING[name.to_sym] || ::Avo::Mappings::FIELDS_MAPPING[type&.to_sym] || { field: "text" }
         end
       end
