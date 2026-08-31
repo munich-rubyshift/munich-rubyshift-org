@@ -8,7 +8,7 @@ class Avo::Resources::TalksSpeakerTalk < Avo::BaseResource
   # }
 
   def fields
-    field :id, as: :id, format_index_using: -> { content_tag(:span, "#", title: value) }
+    field :id, as: :id, **ID_FIELD_OPTIONS
     field :talk, as: :belongs_to
     field :speaker, as: :belongs_to
   end

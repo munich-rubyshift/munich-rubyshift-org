@@ -8,7 +8,7 @@ class Avo::Resources::LocationsMap < Avo::BaseResource
   # }
 
   def fields
-    field :id, as: :id, format_index_using: -> { content_tag(:span, "#", title: value) }
+    field :id, as: :id, **ID_FIELD_OPTIONS
     field :google_url, as: :text
     field :apple_url, as: :text
     field :openstreetmap_url, as: :text

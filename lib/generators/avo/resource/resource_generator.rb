@@ -5,7 +5,7 @@ module Generators
     class ResourceGenerator
       no_tasks do
         def field_string(name, type, options)
-          return "field :slug, as: :text, sortable: true, help: \"Clear field to regenerate slug.\", format_display_using: -> { link_to value, main_app.polymorphic_path(record), \"data-turbo\": false }" if name.to_sym == :slug
+          return "field :slug, as: :text, **SLUG_FIELD_OPTIONS" if name.to_sym == :slug
           "field :#{name}, as: :#{type}#{options}"
         end
 
@@ -16,7 +16,7 @@ module Generators
             fields[name] = field(name, type.to_sym)
           end
 
-          ", format_index_using: -> { content_tag(:span, \"#\", title: value) }#{generated_fields_template}"
+          ", **ID_FIELD_OPTIONS#{generated_fields_template}"
         end
 
         def field(name, type)
