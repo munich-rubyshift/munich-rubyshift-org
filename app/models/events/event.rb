@@ -10,7 +10,7 @@ class Events::Event < ApplicationRecord
   ATTENDANCE_MODES = %w[in_person hybrid online].freeze
 
   belongs_to :series, class_name: "Events::Series", foreign_key: :events_series_id, inverse_of: :events
-  belongs_to :venue, class_name: "Venues::Venue", foreign_key: :venues_venue_id, inverse_of: :events
+  belongs_to :venue, class_name: "Venues::Venue", foreign_key: :venues_venue_id, inverse_of: :events, optional: true
 
   string_fk :events_series_id, :venues_venue_id
 
@@ -29,6 +29,22 @@ class Events::Event < ApplicationRecord
   validates :status, inclusion: { in: STATUSES }, allow_blank: true
   validates :date_precision, inclusion: { in: DATE_PRECISIONS }, allow_blank: true
   validates :attendance_mode, presence: true, inclusion: { in: ATTENDANCE_MODES, allow_blank: true }
+  validates :venue, presence: true, if: :venue_required?
+  validates :venue, absence: true, if: :online?
+
+  def cancelled?
+    status == "cancelled"
+  end
+
+  # A hybrid event also happens in person, so only "online" rules out a venue.
+  def online?
+    attendance_mode == "online"
+  end
+
+  # Only an event people can actually show up to needs a venue.
+  def venue_required?
+    !online? && !cancelled?
+  end
 
   def to_s
     title
