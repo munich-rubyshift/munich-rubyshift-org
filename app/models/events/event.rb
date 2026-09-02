@@ -7,6 +7,7 @@ class Events::Event < ApplicationRecord
   KINDS = %w[conference meetup retreat hackathon event workshop].freeze
   STATUSES = %w[cancelled postponed scheduled].freeze
   DATE_PRECISIONS = %w[year month day].freeze
+  ATTENDANCE_MODES = %w[in_person hybrid online].freeze
 
   belongs_to :series, class_name: "Events::Series", foreign_key: :events_series_id, inverse_of: :events
   belongs_to :venue, class_name: "Venues::Venue", foreign_key: :venues_venue_id, inverse_of: :events
@@ -27,6 +28,7 @@ class Events::Event < ApplicationRecord
   validates :kind, inclusion: { in: KINDS }, allow_blank: true
   validates :status, inclusion: { in: STATUSES }, allow_blank: true
   validates :date_precision, inclusion: { in: DATE_PRECISIONS }, allow_blank: true
+  validates :attendance_mode, presence: true, inclusion: { in: ATTENDANCE_MODES, allow_blank: true }
 
   def to_s
     title

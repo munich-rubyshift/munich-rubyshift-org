@@ -16,7 +16,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :venue, as: :belongs_to
     field :description, as: :textarea
     field :kind, as: :select, options: ::Events::Event::KINDS.index_by(&:humanize), include_blank: true
-    field :hybrid, as: :boolean
+    field :attendance_mode, as: :select, options: ::Events::Event::ATTENDANCE_MODES.index_by(&:humanize)
     field :status, as: :select, options: ::Events::Event::STATUSES.index_by(&:humanize), include_blank: true
     field :last_edition, as: :boolean
     field :start_date, as: :date
@@ -38,6 +38,5 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :banner_background, as: :text
     field :featured_background, as: :text
     field :featured_color, as: :text
-    field :online_event, as: :boolean
   end
 end
