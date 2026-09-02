@@ -282,6 +282,7 @@ events: {
     # frequency dropped: it describes a series, not a single edition
     # Probably location_id instead
     location: string
+    # required, except for online or cancelled events; forbidden when online
     venue_id: "integer" {constraint: foreign_key}
     channel_id: string
     playlist: string

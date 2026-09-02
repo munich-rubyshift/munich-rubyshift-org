@@ -13,7 +13,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :title, as: :text
     field :rubyevents_slug, as: :text
     field :series, as: :belongs_to
-    field :venue, as: :belongs_to
+    field :venue, as: :belongs_to, required: -> { record&.venue_required? }, help: "Required unless the event is online or cancelled, and forbidden for online events."
     field :description, as: :textarea
     field :kind, as: :select, options: ::Events::Event::KINDS.index_by(&:humanize), include_blank: true
     field :attendance_mode, as: :select, options: ::Events::Event::ATTENDANCE_MODES.index_by(&:humanize)
