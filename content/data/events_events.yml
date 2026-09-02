@@ -1,6 +1,7 @@
 ---
 Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
+  attendance_mode: in_person
   banner_background: ''
   channel_id: ''
   date_precision: ''
@@ -9,13 +10,11 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   featured_background: ''
   featured_color: ''
   github: ''
-  hybrid: 0
   kind: ''
   last_edition: 0
   luma: ''
   mastodon: ''
   meetup: ''
-  online_event: 0
   playlist: ''
   rubyevents_slug: ''
   slug: meetup-april-2026

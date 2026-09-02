@@ -8,7 +8,7 @@ one:
   venue: one
   description: MyText
   kind: MyString
-  hybrid: false
+  attendance_mode: in_person
   status: MyString
   last_edition: false
   start_date: 2026-04-23
@@ -30,7 +30,6 @@ one:
   banner_background: MyString
   featured_background: MyString
   featured_color: MyString
-  online_event: false
 
 two:
   series: two
@@ -40,7 +39,7 @@ two:
   venue: two
   description: MyText
   kind: MyString
-  hybrid: false
+  attendance_mode: in_person
   status: MyString
   last_edition: false
   start_date: 2026-04-23
@@ -62,4 +61,3 @@ two:
   banner_background: MyString
   featured_background: MyString
   featured_color: MyString
-  online_event: false
