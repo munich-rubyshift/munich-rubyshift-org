@@ -12,12 +12,12 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :title, as: :text
     field :rubyevents_slug, as: :text
-    field :series, as: :belongs_to
+    field :series, as: :belongs_to, default: -> { ::Events::Series.first }
     field :venue, as: :belongs_to, required: -> { record&.venue_required? }, help: "Required unless the event is online or cancelled, and forbidden for online events."
     field :description, as: :textarea
-    field :kind, as: :select, options: ::Events::Event::KINDS.index_by(&:humanize), include_blank: true
+    field :kind, as: :select, options: ::Events::Event::KINDS.index_by(&:humanize), include_blank: true, default: "meetup"
     field :attendance_mode, as: :select, options: ::Events::Event::ATTENDANCE_MODES.index_by(&:humanize)
-    field :status, as: :select, options: ::Events::Event::STATUSES.index_by(&:humanize), include_blank: true
+    field :status, as: :select, options: ::Events::Event::STATUSES.index_by(&:humanize), include_blank: true, default: "scheduled"
     field :last_edition, as: :boolean
     field :start_date, as: :date
     field :start_time, as: :time
@@ -25,7 +25,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :end_time, as: :time
     field :published_at, as: :date_time
     field :announced_on, as: :date
-    field :date_precision, as: :select, options: ::Events::Event::DATE_PRECISIONS.index_by(&:humanize), include_blank: true
+    field :date_precision, as: :select, options: ::Events::Event::DATE_PRECISIONS.index_by(&:humanize), include_blank: true, default: "day"
     field :channel_id, as: :text
     field :playlist, as: :text
     field :website, as: :text, **series_default_options(:website)
