@@ -50,6 +50,31 @@ class AvoResourcesTest < ActiveSupport::TestCase
     assert_equal "From the series", hydrated_field(Avo::Resources::EventsEvent, event, :show, :website).value
   end
 
+  # Most events we enter are scheduled in-person meetups on a known day.
+  EVENT_DEFAULTS = { kind: "meetup", status: "scheduled", date_precision: "day" }.freeze
+
+  test "a new event is prefilled with the usual values" do
+    EVENT_DEFAULTS.each do |attribute, default|
+      assert_equal default, hydrated_field(Avo::Resources::EventsEvent, Events::Event.new, :new, attribute).value
+    end
+  end
+
+  # The defaults are for new records only, so they must not fill in a blank the
+  # editor deliberately left empty on an existing event.
+  test "an existing event keeps its blanks" do
+    event = events_events(:one)
+
+    EVENT_DEFAULTS.each_key do |attribute|
+      event[attribute] = nil
+
+      assert_nil hydrated_field(Avo::Resources::EventsEvent, event, :edit, attribute).value, attribute
+    end
+  end
+
+  test "a new event defaults to the first series" do
+    assert_equal Events::Series.first, hydrated_field(Avo::Resources::EventsEvent, Events::Event.new, :new, :series).value
+  end
+
   private
 
   def hydrated_field(resource_class, record, view, id)
