@@ -2,7 +2,7 @@ class Events::Event < ApplicationRecord
   include StringForeignKeys
   include Sluggable
   include Events::SeriesDefaults
-  friendly_id :title
+  friendly_id :slug_candidates
 
   KINDS = %w[conference meetup retreat hackathon event workshop].freeze
   STATUSES = %w[cancelled postponed scheduled].freeze
@@ -31,6 +31,14 @@ class Events::Event < ApplicationRecord
   validates :attendance_mode, presence: true, inclusion: { in: ATTENDANCE_MODES, allow_blank: true }
   validates :venue, presence: true, if: :venue_required?
   validates :venue, absence: true, if: :online?
+
+  def slug_candidates
+    [
+      ([ kind, start_date ] if start_date),
+      ([ kind, title ] if title.present?),
+      kind
+    ].compact
+  end
 
   def cancelled?
     status == "cancelled"
