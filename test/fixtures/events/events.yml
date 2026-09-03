@@ -12,10 +12,11 @@ one:
   status: MyString
   last_edition: false
   start_date: 2026-04-23
+  start_time: "19:00:00"
   end_date: 2026-04-23
+  end_time: "22:00:00"
   published_at: 2026-04-23 20:55:51
   announced_on: 2026-04-23
-  year: 1
   date_precision: MyString
   channel_id: MyString
   playlist: MyString
@@ -43,10 +44,11 @@ two:
   status: MyString
   last_edition: false
   start_date: 2026-04-23
+  start_time: "19:00:00"
   end_date: 2026-04-23
+  end_time: "22:00:00"
   published_at: 2026-04-23 20:55:51
   announced_on: 2026-04-23
-  year: 1
   date_precision: MyString
   channel_id: MyString
   playlist: MyString
