@@ -20,10 +20,11 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :status, as: :select, options: ::Events::Event::STATUSES.index_by(&:humanize), include_blank: true
     field :last_edition, as: :boolean
     field :start_date, as: :date
+    field :start_time, as: :time
     field :end_date, as: :date
+    field :end_time, as: :time
     field :published_at, as: :date_time
     field :announced_on, as: :date
-    field :year, as: :number
     field :date_precision, as: :select, options: ::Events::Event::DATE_PRECISIONS.index_by(&:humanize), include_blank: true
     field :channel_id, as: :text
     field :playlist, as: :text

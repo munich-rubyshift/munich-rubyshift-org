@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_09_04_182127) do
+ActiveRecord::Schema[8.1].define(version: 2026_09_04_191801) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -79,6 +79,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_09_04_182127) do
     t.string "date_precision"
     t.text "description"
     t.date "end_date"
+    t.time "end_time"
     t.string "events_series_id", null: false
     t.string "featured_background"
     t.string "featured_color"
@@ -93,13 +94,13 @@ ActiveRecord::Schema[8.1].define(version: 2026_09_04_182127) do
     t.string "rubyevents_slug"
     t.string "slug"
     t.date "start_date"
+    t.time "start_time"
     t.string "status"
     t.string "tickets_url"
     t.string "title"
     t.string "twitter"
     t.string "venues_venue_id"
     t.string "website"
-    t.integer "year"
     t.string "youtube"
     t.index ["events_series_id"], name: "index_events_events_on_events_series_id"
     t.index ["venues_venue_id"], name: "index_events_events_on_venues_venue_id"
