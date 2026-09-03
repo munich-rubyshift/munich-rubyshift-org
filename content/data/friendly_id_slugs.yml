@@ -64,6 +64,11 @@ FriendlyId::Slug_189b7cc7-60a8-4b55-94d1-a2f0b8581166:
   slug: metoda-office
   sluggable_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   sluggable_type: Venues::Venue
+FriendlyId::Slug_1b2d0fd9-3bf1-470e-862f-f74bb80a24bf:
+  id: 1b2d0fd9-3bf1-470e-862f-f74bb80a24bf
+  slug: hackathon-2013-12-10
+  sluggable_id: 502aa3dd-a00b-4234-82f7-63f085564b54
+  sluggable_type: Events::Event
 FriendlyId::Slug_1b846372-db7f-4357-a855-b722197fac2e:
   id: 1b846372-db7f-4357-a855-b722197fac2e
   slug: friedenheimer-bruecke-16
@@ -254,6 +259,11 @@ FriendlyId::Slug_70c6ad07-0078-44d0-8f32-30f570ebfcce:
   slug: demodesk-office
   sluggable_id: 7ccf4041-03b7-452a-a7f1-efa5d22e96d4
   sluggable_type: Venues::Venue
+FriendlyId::Slug_71c97352-2cea-4622-add7-12198b19547e:
+  id: 71c97352-2cea-4622-add7-12198b19547e
+  slug: hackathon-2013-11-29
+  sluggable_id: 26873fee-6a38-4179-8b79-b800be48163d
+  sluggable_type: Events::Event
 FriendlyId::Slug_789dd2c6-c2d1-45d2-8735-0141609aa5d2:
   id: 789dd2c6-c2d1-45d2-8735-0141609aa5d2
   slug: it-agenten-office
@@ -369,6 +379,11 @@ FriendlyId::Slug_b1017c04-f3e8-44d0-9e66-5c6ec21d3ecd:
   slug: workday-office
   sluggable_id: 59fc696b-609c-4177-9afa-669185fb0dd7
   sluggable_type: Venues::Venue
+FriendlyId::Slug_b4469669-45a3-4918-87d7-cb0e0d75b11d:
+  id: b4469669-45a3-4918-87d7-cb0e0d75b11d
+  slug: meetup-2013-12-11
+  sluggable_id: dde2695f-80c5-48a6-a450-ad8b5948c1db
+  sluggable_type: Events::Event
 FriendlyId::Slug_b4daa862-5dce-46ae-bf7b-51dc748716e1:
   id: b4daa862-5dce-46ae-bf7b-51dc748716e1
   slug: burda-bootcamp

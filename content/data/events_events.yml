@@ -4,11 +4,10 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
   attendance_mode: in_person
   banner_background: ''
   channel_id: ''
-  date_precision: ''
-  description: "# The big Ruby & Database shootout!\r\n\r\nThis time we will have
-    again very interesting speakers and topics.\r\nWe sincerly hopy you will join
-    us for this cool event.\r\n\r\nIntroduction to ArangoDB\r\n\r\nArangoDB is an
-    open source NoSQL database which is not narrow-mindedly focused on horizontal
+  date_precision: day
+  description: "This time we will have again very interesting speakers and topics.\r\nWe
+    sincerly hopy you will join us for this cool event.\r\n\r\nIntroduction to ArangoDB\r\n\r\nArangoDB
+    is an open source NoSQL database which is not narrow-mindedly focused on horizontal
     scalability. Instead, ArangoDB aims to offer developers great flexibility and
     ease-of-use. The database is suitable for use cases which are difficult to implement
     with most traditional relational databases and also many of the other NoSQL databases.\r\n\r\nBy
@@ -28,11 +27,12 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
     introduction and a demo to Riak and its Ruby bindings.\r\n\r\nPhillipp Fehre @ischi\r\n\r\nPhil
     is your local and friendly ruby and javascript coder, working for his company
     Cospired."
+  end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
   featured_color: ''
   github: ''
-  kind: ''
+  kind: meetup
   last_edition: 0
   luma: ''
   mastodon: ''
@@ -40,11 +40,42 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
   playlist: ''
   rubyevents_slug: ''
   slug: meetup-2013-09-11
-  status: ''
-  tickets_url: ''
-  title: Meetup 2013-09-11
+  start_date: '2013-09-11'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/124636572/
+  title: The big Ruby & Database shootout!
   twitter: ''
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
+  website: ''
+  youtube: ''
+Events::Event_26873fee-6a38-4179-8b79-b800be48163d:
+  id: 26873fee-6a38-4179-8b79-b800be48163d
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: ''
+  end_date: '2013-11-30'
+  end_time: '2000-01-01 14:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: hackathon
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: hackathon-2013-11-29
+  start_date: '2013-11-29'
+  start_time: '2000-01-01 16:00:00'
+  status: cancelled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/152792582/
+  title: Rails Girls
+  twitter: ''
   website: ''
   youtube: ''
 Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
@@ -52,25 +83,26 @@ Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
   attendance_mode: in_person
   banner_background: ''
   channel_id: ''
-  date_precision: ''
-  description: "# Ruby User Group Meetup\r\n\r\nHi,\r\n\r\nwe have again assembled
-    wonderful speakers and topics -\r\nplease join us and have fun together.\r\n\r\n'Fast
-    and furious. Slow and functional' Anna BulenkovaHow Anna benchmarked declarative
-    and imperative solutions in Ruby.\r\n\r\nJRuby: the business perspectiveLeif GensertJRuby
-    is often portrayed as the Ruby with brilliant Garbage Collection and native threads
-    but poor startup time and large memory overhead. But how can JRuby really help
-    you in a project, especially when you deal with large corporations that live in
-    the Java world.\r\n\r\nDesign Patterns - A Ruby PerspectiveMathias Huber\r\nI'll
-    give a digest of Russ Olsen's 2007 book \"Design Patterns in Ruby\". It applies
-    14 of the 23 \"Gang of Four\" patterns to Ruby and suggests 3 additional Ruby-specific
-    patterns. In the discussion part you are invited to talk about your favourite
-    pattern or your least favourite pattern, antipatterns, enterprise patterns, maybe
-    why you don't like patterns ...\r\n\r\nciao robertj & alex"
+  date_precision: day
+  description: "Hi,\r\n\r\nwe have again assembled wonderful speakers and topics -\r\nplease
+    join us and have fun together.\r\n\r\n'Fast and furious. Slow and functional'
+    Anna BulenkovaHow Anna benchmarked declarative and imperative solutions in Ruby.\r\n\r\nJRuby:
+    the business perspectiveLeif GensertJRuby is often portrayed as the Ruby with
+    brilliant Garbage Collection and native threads but poor startup time and large
+    memory overhead. But how can JRuby really help you in a project, especially when
+    you deal with large corporations that live in the Java world.\r\n\r\nDesign Patterns
+    - A Ruby PerspectiveMathias Huber\r\nI'll give a digest of Russ Olsen's 2007 book
+    \"Design Patterns in Ruby\". It applies 14 of the 23 \"Gang of Four\" patterns
+    to Ruby and suggests 3 additional Ruby-specific patterns. In the discussion part
+    you are invited to talk about your favourite pattern or your least favourite pattern,
+    antipatterns, enterprise patterns, maybe why you don't like patterns ...\r\n\r\nciao
+    robertj & alex"
+  end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
   featured_color: ''
   github: ''
-  kind: ''
+  kind: meetup
   last_edition: 0
   luma: ''
   mastodon: ''
@@ -78,11 +110,47 @@ Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
   playlist: ''
   rubyevents_slug: ''
   slug: meetup-2013-11-13
-  status: ''
-  tickets_url: ''
-  title: Meetup 2013-11-13
+  start_date: '2013-11-13'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/140944592/
+  title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
+  website: ''
+  youtube: ''
+Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
+  id: 502aa3dd-a00b-4234-82f7-63f085564b54
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "We're going to get together, talk and work on some learning projects.\r\n\r\nWhether
+    you're working on a project or just want to work through some tutorials and share
+    ideas, come along.\r\n\r\nProject groups welcome. Some coaches will be on hand
+    to help with trouble shooting and guidance :)\r\n\r\nDrinks will be available
+    at Flobby Media for a fee of €1 per drink, and there will just be a couple of
+    snacks, such as chips, carrot sticks, salzstengel"
+  end_time: '2000-01-01 18:45:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: hackathon
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: hackathon-2013-12-10
+  start_date: '2013-12-10'
+  start_time: '2000-01-01 16:45:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/152792572/
+  title: Rails Girls Hack and Play
+  twitter: ''
+  venues_venue_id: 69821224-9122-4f4f-afa2-ea45b4356aa1
   website: ''
   youtube: ''
 Events::Event_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
@@ -90,15 +158,15 @@ Events::Event_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
   attendance_mode: in_person
   banner_background: ''
   channel_id: ''
-  date_precision: ''
-  description: "# August Biergarten Meetup\r\n\r\nThis time we're meeting at Augustiner
-    Keller, in an informal environment to chat with fellow Ruby Hackers, enjoy sun
-    and great weather!"
+  date_precision: day
+  description: This time we're meeting at Augustiner Keller, in an informal environment
+    to chat with fellow Ruby Hackers, enjoy sun and great weather!
+  end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
   featured_color: ''
   github: ''
-  kind: ''
+  kind: meetup
   last_edition: 0
   luma: ''
   mastodon: ''
@@ -106,9 +174,11 @@ Events::Event_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
   playlist: ''
   rubyevents_slug: ''
   slug: meetup-2013-08-14
-  status: ''
-  tickets_url: ''
-  title: Meetup 2013-08-14
+  start_date: '2013-08-14'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/124636722/
+  title: August Biergarten Meetup
   twitter: ''
   venues_venue_id: d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6
   website: ''
@@ -181,21 +251,21 @@ Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
   attendance_mode: in_person
   banner_background: ''
   channel_id: ''
-  date_precision: ''
-  description: "# Ruby User Group Meetup\r\n\r\nDear Rubyistas!\r\n\r\nBe prepared
-    for interesting stuff!\r\n\r\n\"Ultimate guide to convincing people for using
-    better tech\"\r\n\r\nOleksandr Petrov\r\nConvincing people is generally hard.
-    Convincing people about something they're opposed to is even harder. Learn a couple
-    of tricks on how to win friends and influence people in the industry\r\n\r\nWe
-    are still looking for some speakers (also lightning talks).\r\nStep forward -
-    Fame and fortune will be yours.\r\n\r\nBecause of some difficulties we had to
-    change the place where meetup occurs, now it's Roßmarkt 6, 80331, München. We're
-    still on for the meeting though!"
+  date_precision: day
+  description: "Dear Rubyistas!\r\n\r\nBe prepared for interesting stuff!\r\n\r\n\"Ultimate
+    guide to convincing people for using better tech\"\r\n\r\nOleksandr Petrov\r\nConvincing
+    people is generally hard. Convincing people about something they're opposed to
+    is even harder. Learn a couple of tricks on how to win friends and influence people
+    in the industry\r\n\r\nWe are still looking for some speakers (also lightning
+    talks).\r\nStep forward - Fame and fortune will be yours.\r\n\r\nBecause of some
+    difficulties we had to change the place where meetup occurs, now it's Roßmarkt
+    6, 80331, München. We're still on for the meeting though!"
+  end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
   featured_color: ''
   github: ''
-  kind: ''
+  kind: meetup
   last_edition: 0
   luma: ''
   mastodon: ''
@@ -203,9 +273,11 @@ Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
   playlist: ''
   rubyevents_slug: ''
   slug: meetup-2013-10-09
-  status: ''
-  tickets_url: ''
-  title: Meetup 2013-10-09
+  start_date: '2013-10-09'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/137766352/
+  title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: e1cb528f-44ee-4d93-b715-74a738d89c56
   website: ''
@@ -215,27 +287,65 @@ Events::Event_c3faa100-3977-4073-82a8-0ec4625773ea:
   attendance_mode: in_person
   banner_background: ''
   channel_id: ''
-  date_precision: ''
-  description: "# Ruby Hackathon\r\n\r\nHack evening with fellow Rubyists on interesting
-    and exciting projects."
+  date_precision: day
+  description: Hack evening with fellow Rubyists on interesting and exciting projects.
+  end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
   featured_color: ''
-  github: https://github.com/munich-rubyshift
-  kind: ''
+  github: ''
+  kind: hackathon
   last_edition: 0
   luma: ''
   mastodon: ''
-  meetup: https://www.meetup.com/de-DE/munich-rubyshift-ruby-user-group/
+  meetup: ''
   playlist: ''
   rubyevents_slug: ''
   slug: hackathon-2013-07-12
-  status: ''
-  tickets_url: ''
-  title: Hackathon-2013-07-12
+  start_date: '2013-07-12'
+  start_time: '2000-01-01 15:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/125381152/
+  title: Ruby Hackathon
   twitter: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-  website: https://munich-rubyshift.org
+  website: ''
+  youtube: ''
+Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
+  id: dde2695f-80c5-48a6-a450-ad8b5948c1db
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Hi,\r\n\r\nthis time we will have a Christmas themed meetup together\r\nwith
+    the kind people over from the Munich Riak user group (https://www.meetup.com/Riak-Munchen/events/151356762/).\r\n\r\nThis
+    will be a family event - so bring your kids if you want to.\r\n\r\nAnd we will
+    have to short talks by\r\n\r\n• Michal Papis (https://twitter.com/mpapis) will
+    be Talking about \"rvm wrappers\" a dive in ruby and gems configuration and what
+    rvm does to help you\r\n\r\n• Philipp Fehre (https://github.com/sideshowcoder)
+    will be talking about Riak 2.0 CRDTs and more\r\n\r\nWe are looking forward to
+    see you"
+  end_time: '2000-01-01 19:30:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2013-12-11
+  start_date: '2013-12-11'
+  start_time: '2000-01-01 16:30:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/150475432/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 8fd97a9c-10f1-4e65-a8c2-fd14c54a963a
+  website: ''
   youtube: ''
 Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
