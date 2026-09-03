@@ -139,6 +139,11 @@ FriendlyId::Slug_3ecb39c1-304d-43cd-99b2-e9464a281749:
   slug: riskmethods-office
   sluggable_id: f1d0f5b6-c721-4dd0-a632-8acec6cbcd60
   sluggable_type: Venues::Venue
+FriendlyId::Slug_428d5ba4-dc9b-457b-b1cf-b7988b87fe8a:
+  id: 428d5ba4-dc9b-457b-b1cf-b7988b87fe8a
+  slug: meetup-2013-10-09
+  sluggable_id: 7deebf5f-7d41-4658-b871-b12968ec0f25
+  sluggable_type: Events::Event
 FriendlyId::Slug_42ff83c4-dfaa-4749-b539-16b318f193ae:
   id: 42ff83c4-dfaa-4749-b539-16b318f193ae
   slug: location-drinks-by-freeletics
@@ -164,6 +169,11 @@ FriendlyId::Slug_4c850e04-be73-411b-869f-5f146f1abbf5:
   slug: location-drinks
   sluggable_id: 7eaf5061-64e3-45a6-bc29-c13c03b07f72
   sluggable_type: Sponsors::SponsorTier
+FriendlyId::Slug_52bc7c72-4c47-4f40-9a1f-3466c94fae26:
+  id: 52bc7c72-4c47-4f40-9a1f-3466c94fae26
+  slug: meetup-2013-09-11
+  sluggable_id: 05de9889-ca65-4996-a339-09b05a9097fd
+  sluggable_type: Events::Event
 FriendlyId::Slug_52f09073-ceae-41c7-8798-5b170c573001:
   id: 52f09073-ceae-41c7-8798-5b170c573001
   slug: augustiner-keller
@@ -229,6 +239,11 @@ FriendlyId::Slug_67fb2ef5-6072-4911-ae0e-07568db1bf8a:
   slug: zavvy-office
   sluggable_id: 12f15b05-65ee-431d-b691-51486c2be216
   sluggable_type: Venues::Venue
+FriendlyId::Slug_6decc35f-16ee-4232-b9c7-f02672b04345:
+  id: 6decc35f-16ee-4232-b9c7-f02672b04345
+  slug: hackathon-2013-07-12
+  sluggable_id: c3faa100-3977-4073-82a8-0ec4625773ea
+  sluggable_type: Events::Event
 FriendlyId::Slug_6e756345-8ec3-4608-bfdb-2692adaed49c:
   id: 6e756345-8ec3-4608-bfdb-2692adaed49c
   slug: xbav-office
@@ -289,6 +304,11 @@ FriendlyId::Slug_8b54fe60-c5c8-428c-82e9-055691087a8b:
   slug: crewmeister-office
   sluggable_id: e06fb1e7-d75b-4347-bef5-ab4b83b44d37
   sluggable_type: Venues::Venue
+FriendlyId::Slug_8f1ccef6-fe49-4b4f-ab96-7154b4dff52b:
+  id: 8f1ccef6-fe49-4b4f-ab96-7154b4dff52b
+  slug: meetup-2013-08-14
+  sluggable_id: 6fa5571a-9a88-428f-afb6-9a0c07e1f9e3
+  sluggable_type: Events::Event
 FriendlyId::Slug_92b1a054-83a6-493d-8c1a-a4d265d25b27:
   id: 92b1a054-83a6-493d-8c1a-a4d265d25b27
   slug: erika-mann-strasse-23
@@ -394,6 +414,11 @@ FriendlyId::Slug_cb1877a0-3841-417a-be78-4ad3f9c81f39:
   slug: codecentric-office
   sluggable_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
   sluggable_type: Venues::Venue
+FriendlyId::Slug_cbef3ad5-d1ba-4c17-8fd4-fe1ccbb41656:
+  id: cbef3ad5-d1ba-4c17-8fd4-fe1ccbb41656
+  slug: meetup-2013-11-13
+  sluggable_id: 382bfc98-b62a-479c-882b-d8bc3beadfae
+  sluggable_type: Events::Event
 FriendlyId::Slug_cd8912c8-d3b0-4503-9324-e915c887d5ea:
   id: cd8912c8-d3b0-4503-9324-e915c887d5ea
   slug: jetbrains-office
@@ -419,6 +444,11 @@ FriendlyId::Slug_d809c27c-61a3-4850-a985-ee83e992d146:
   slug: le-wagon-munich-coding-bootcamp
   sluggable_id: 63b14137-3cdb-4f1a-88bc-860c5e4f2223
   sluggable_type: Venues::Venue
+FriendlyId::Slug_d93ccc75-ee4c-4147-aa7b-fa3b316d0ad3:
+  id: d93ccc75-ee4c-4147-aa7b-fa3b316d0ad3
+  slug: meetup-2013-07-10
+  sluggable_id: 71a42ab5-d65d-4686-9bf6-7238a6719d66
+  sluggable_type: Events::Event
 FriendlyId::Slug_e21ac3c2-06ff-4c32-a07b-c441457502c2:
   id: e21ac3c2-06ff-4c32-a07b-c441457502c2
   slug: christkindlmarkt-am-sendlinger-tor
