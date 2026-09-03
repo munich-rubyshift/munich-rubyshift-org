@@ -90,6 +90,36 @@ class Events::EventTest < ActiveSupport::TestCase
     assert_equal [ "can't be blank" ], event.errors[:attendance_mode]
   end
 
+  test "slugs an event after its kind and start date" do
+    event = build_event(kind: "meetup", start_date: Date.new(2013, 7, 10))
+    event.save!
+
+    assert_equal "meetup-2013-07-10", event.slug
+  end
+
+  test "slugs an event without a start date after its title" do
+    event = build_event(kind: "meetup", title: "Gems Marathon")
+    event.save!
+
+    assert_equal "meetup-gems-marathon", event.slug
+  end
+
+  test "slugs an event without a start date or title after its kind alone" do
+    event = build_event(kind: "meetup", title: nil)
+    event.save!
+
+    assert_equal "meetup", event.slug
+  end
+
+  # The kind alone is not distinctive, so the second one has to be disambiguated.
+  test "appends a uuid once the kind alone is taken" do
+    build_event(kind: "meetup", title: nil).save!
+    event = build_event(kind: "meetup", title: nil)
+    event.save!
+
+    assert_match(/\Ameetup-\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/, event.slug)
+  end
+
   private
 
   def build_event(**attributes)
