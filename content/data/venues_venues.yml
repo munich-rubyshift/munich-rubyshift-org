@@ -5,7 +5,6 @@ Venues::Venue_00ab037e-02fc-41f7-88c3-3d5147c1bb5f:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:48:19.088225'
   description: ''
   instructions: ''
   locations_address_id: 87cf3aa0-21d6-48f8-8c8c-0169d9e3be81
@@ -14,7 +13,6 @@ Venues::Venue_00ab037e-02fc-41f7-88c3-3d5147c1bb5f:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: burda-bootcamp
-  updated_at: '2026-08-29 20:48:19.088225'
   url: ''
 Venues::Venue_053190c9-9e62-484e-abf4-374d6e69d475:
   id: '053190c9-9e62-484e-abf4-374d6e69d475'
@@ -22,7 +20,6 @@ Venues::Venue_053190c9-9e62-484e-abf4-374d6e69d475:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:54:33.152433'
   description: ''
   instructions: ''
   locations_address_id: 0e1fb7ca-b03a-40b9-94c0-775585371919
@@ -31,7 +28,6 @@ Venues::Venue_053190c9-9e62-484e-abf4-374d6e69d475:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: xbav-office
-  updated_at: '2026-08-29 20:54:33.152433'
   url: ''
 Venues::Venue_05a33493-04bf-4272-9325-d3e40bcd1f6e:
   id: 05a33493-04bf-4272-9325-d3e40bcd1f6e
@@ -39,7 +35,6 @@ Venues::Venue_05a33493-04bf-4272-9325-d3e40bcd1f6e:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:14:43.086870'
   description: ''
   instructions: ''
   locations_address_id: ce312dce-0d8a-4a65-8c49-8716f396a1f3
@@ -48,7 +43,6 @@ Venues::Venue_05a33493-04bf-4272-9325-d3e40bcd1f6e:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: makandra-office
-  updated_at: '2026-08-29 21:14:43.086870'
   url: ''
 Venues::Venue_08636c17-b994-421c-abc6-c14be18e2502:
   id: '08636c17-b994-421c-abc6-c14be18e2502'
@@ -56,7 +50,6 @@ Venues::Venue_08636c17-b994-421c-abc6-c14be18e2502:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:44:28.219052'
   description: ''
   instructions: ''
   locations_address_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
@@ -65,7 +58,6 @@ Venues::Venue_08636c17-b994-421c-abc6-c14be18e2502:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: xing-events-office
-  updated_at: '2026-08-29 20:44:28.219052'
   url: ''
 Venues::Venue_12f15b05-65ee-431d-b691-51486c2be216:
   id: 12f15b05-65ee-431d-b691-51486c2be216
@@ -73,7 +65,6 @@ Venues::Venue_12f15b05-65ee-431d-b691-51486c2be216:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:06:39.251613'
   description: ''
   instructions: ''
   locations_address_id: 6bf8f3b2-7dcf-419b-88fd-15789f0a21a4
@@ -82,7 +73,6 @@ Venues::Venue_12f15b05-65ee-431d-b691-51486c2be216:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: zavvy-office
-  updated_at: '2026-08-29 21:06:39.251613'
   url: ''
 Venues::Venue_1347f7fd-3908-4c46-9325-f7f514394170:
   id: 1347f7fd-3908-4c46-9325-f7f514394170
@@ -90,7 +80,6 @@ Venues::Venue_1347f7fd-3908-4c46-9325-f7f514394170:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:57:59.329512'
   description: ''
   instructions: ''
   locations_address_id: 91fcd7a0-9f33-43d1-ab35-39111c44d308
@@ -99,7 +88,6 @@ Venues::Venue_1347f7fd-3908-4c46-9325-f7f514394170:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: thoughtworks-office
-  updated_at: '2026-08-29 20:57:59.329512'
   url: ''
 Venues::Venue_215487ed-a371-488f-b43f-3caffbbdf0d0:
   id: 215487ed-a371-488f-b43f-3caffbbdf0d0
@@ -107,7 +95,6 @@ Venues::Venue_215487ed-a371-488f-b43f-3caffbbdf0d0:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:31:36.111822'
   description: ''
   instructions: ''
   locations_address_id: 7ee6fa75-f78f-41db-83bd-972d07231d29
@@ -116,7 +103,6 @@ Venues::Venue_215487ed-a371-488f-b43f-3caffbbdf0d0:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: scoreloop-office
-  updated_at: '2026-08-29 20:31:36.111822'
   url: ''
 Venues::Venue_23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2:
   id: 23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2
@@ -124,7 +110,6 @@ Venues::Venue_23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:59:27.430759'
   description: ''
   instructions: ''
   locations_address_id: 3f35d020-4ee5-49af-8307-1ed67c77eadc
@@ -133,7 +118,6 @@ Venues::Venue_23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: dataguard-office
-  updated_at: '2026-08-29 20:59:27.430759'
   url: ''
 Venues::Venue_266215c5-41cf-49b6-b688-566b2d98fd48:
   id: 266215c5-41cf-49b6-b688-566b2d98fd48
@@ -141,7 +125,6 @@ Venues::Venue_266215c5-41cf-49b6-b688-566b2d98fd48:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:37:17.389187'
   description: ''
   instructions: ''
   locations_address_id: d145e416-b509-4606-874b-9a62dd18d9bd
@@ -150,7 +133,6 @@ Venues::Venue_266215c5-41cf-49b6-b688-566b2d98fd48:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: hofbraeukeller
-  updated_at: '2026-09-01 18:32:06.550736'
   url: ''
 Venues::Venue_31e5c809-fba0-4198-8858-a0054501d792:
   id: 31e5c809-fba0-4198-8858-a0054501d792
@@ -158,7 +140,6 @@ Venues::Venue_31e5c809-fba0-4198-8858-a0054501d792:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:27:02.564247'
   description: ''
   instructions: ''
   locations_address_id: 16d4466b-429f-47c5-bcbd-ad142314371f
@@ -167,7 +148,6 @@ Venues::Venue_31e5c809-fba0-4198-8858-a0054501d792:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: gutefrage-office
-  updated_at: '2026-09-01 18:34:14.660787'
   url: ''
 Venues::Venue_3b908116-7311-4923-b840-ed89760170f8:
   id: 3b908116-7311-4923-b840-ed89760170f8
@@ -175,7 +155,6 @@ Venues::Venue_3b908116-7311-4923-b840-ed89760170f8:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:01:06.352775'
   description: ''
   instructions: ''
   locations_address_id: eb96f61f-5059-4c2c-b7f6-5361a1241c16
@@ -184,7 +163,6 @@ Venues::Venue_3b908116-7311-4923-b840-ed89760170f8:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: riskmethods-office-2
-  updated_at: '2026-08-29 21:01:06.352775'
   url: ''
 Venues::Venue_4199ada8-92e2-4074-90a3-5c5dbd97f399:
   id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
@@ -192,7 +170,6 @@ Venues::Venue_4199ada8-92e2-4074-90a3-5c5dbd97f399:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:30:44.448981'
   description: ''
   instructions: ''
   locations_address_id: a2b3bfc0-9fa5-4a08-a546-7d15ad158735
@@ -201,7 +178,6 @@ Venues::Venue_4199ada8-92e2-4074-90a3-5c5dbd97f399:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: codecentric-office
-  updated_at: '2026-08-29 20:30:44.448981'
   url: ''
 Venues::Venue_4615cc6d-19f4-4d57-bbe7-482e41344db1:
   id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
@@ -209,7 +185,6 @@ Venues::Venue_4615cc6d-19f4-4d57-bbe7-482e41344db1:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:39:02.625197'
   description: ''
   instructions: ''
   locations_address_id: 0b5ec8e1-007f-4510-8d0d-ff4b87cb3b18
@@ -218,7 +193,6 @@ Venues::Venue_4615cc6d-19f4-4d57-bbe7-482e41344db1:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: freeletics-office
-  updated_at: '2026-09-01 18:31:42.673060'
   url: ''
 Venues::Venue_4f816bec-c6ce-4776-947f-fa6551d18108:
   id: 4f816bec-c6ce-4776-947f-fa6551d18108
@@ -226,7 +200,6 @@ Venues::Venue_4f816bec-c6ce-4776-947f-fa6551d18108:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-09-01 18:45:39.224636'
   description: ''
   instructions: ''
   locations_address_id: 581c789e-6408-4f1d-8a23-43ae147b210b
@@ -235,7 +208,6 @@ Venues::Venue_4f816bec-c6ce-4776-947f-fa6551d18108:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: former-03-office
-  updated_at: '2026-09-01 18:45:39.224636'
   url: ''
 Venues::Venue_522de6d8-fb07-4a30-ab14-b7c8987ab943:
   id: 522de6d8-fb07-4a30-ab14-b7c8987ab943
@@ -243,7 +215,6 @@ Venues::Venue_522de6d8-fb07-4a30-ab14-b7c8987ab943:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:49:14.184500'
   description: ''
   instructions: ''
   locations_address_id: cdf044dc-7abf-436a-96de-596b9ed7f71c
@@ -252,7 +223,6 @@ Venues::Venue_522de6d8-fb07-4a30-ab14-b7c8987ab943:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: arri-media-office
-  updated_at: '2026-08-29 20:49:14.184500'
   url: ''
 Venues::Venue_581db90f-7dcd-416b-aa34-6b06b93060ac:
   id: 581db90f-7dcd-416b-aa34-6b06b93060ac
@@ -260,7 +230,6 @@ Venues::Venue_581db90f-7dcd-416b-aa34-6b06b93060ac:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-04-23 18:52:35.080740'
   description: ''
   instructions: ''
   locations_address_id: b67de432-baa6-472d-b97f-6da7f18e8b19
@@ -269,7 +238,6 @@ Venues::Venue_581db90f-7dcd-416b-aa34-6b06b93060ac:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: freeletics-office-2
-  updated_at: '2026-09-01 17:54:39.141841'
   url: ''
 Venues::Venue_59fc696b-609c-4177-9afa-669185fb0dd7:
   id: 59fc696b-609c-4177-9afa-669185fb0dd7
@@ -277,7 +245,6 @@ Venues::Venue_59fc696b-609c-4177-9afa-669185fb0dd7:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:47:07.714238'
   description: ''
   instructions: ''
   locations_address_id: af20a4ff-1f6f-4384-970c-e33898c1ac00
@@ -286,7 +253,6 @@ Venues::Venue_59fc696b-609c-4177-9afa-669185fb0dd7:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: workday-office
-  updated_at: '2026-08-29 20:47:07.714238'
   url: ''
 Venues::Venue_6309bbae-cd76-4b93-bfa7-7b1fb076177b:
   id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
@@ -294,7 +260,6 @@ Venues::Venue_6309bbae-cd76-4b93-bfa7-7b1fb076177b:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:24:45.472033'
   description: ''
   instructions: ''
   locations_address_id: 5947ec85-23be-4a0d-a2c8-ce15d4b01d79
@@ -303,7 +268,6 @@ Venues::Venue_6309bbae-cd76-4b93-bfa7-7b1fb076177b:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: experteer-office
-  updated_at: '2026-08-29 20:24:45.472033'
   url: ''
 Venues::Venue_6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f:
   id: 6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f
@@ -311,7 +275,6 @@ Venues::Venue_6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:43:20.118268'
   description: ''
   instructions: ''
   locations_address_id: 8db60734-ff15-4d1e-a890-78e45e3013a3
@@ -320,7 +283,6 @@ Venues::Venue_6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: hamburgerei-eins
-  updated_at: '2026-08-29 20:43:20.118268'
   url: ''
 Venues::Venue_63b14137-3cdb-4f1a-88bc-860c5e4f2223:
   id: 63b14137-3cdb-4f1a-88bc-860c5e4f2223
@@ -328,7 +290,6 @@ Venues::Venue_63b14137-3cdb-4f1a-88bc-860c5e4f2223:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:10:11.367430'
   description: ''
   instructions: ''
   locations_address_id: f7fe8226-b68a-4ec5-b626-1bcf94ce185a
@@ -337,7 +298,6 @@ Venues::Venue_63b14137-3cdb-4f1a-88bc-860c5e4f2223:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: le-wagon-munich-coding-bootcamp
-  updated_at: '2026-08-29 21:10:11.367430'
   url: ''
 Venues::Venue_65fca0f2-adb6-4a50-b344-8771745bee01:
   id: 65fca0f2-adb6-4a50-b344-8771745bee01
@@ -345,7 +305,6 @@ Venues::Venue_65fca0f2-adb6-4a50-b344-8771745bee01:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:02:00.659997'
   description: ''
   instructions: ''
   locations_address_id: 69484e6d-af88-490c-b9b9-ab961209ce10
@@ -354,7 +313,6 @@ Venues::Venue_65fca0f2-adb6-4a50-b344-8771745bee01:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: xempus-office
-  updated_at: '2026-09-01 17:53:18.807521'
   url: ''
 Venues::Venue_69821224-9122-4f4f-afa2-ea45b4356aa1:
   id: 69821224-9122-4f4f-afa2-ea45b4356aa1
@@ -362,7 +320,6 @@ Venues::Venue_69821224-9122-4f4f-afa2-ea45b4356aa1:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:29:04.590392'
   description: ''
   instructions: ''
   locations_address_id: e0ae990d-b61a-4bc9-8f25-c920fb2e8d2b
@@ -371,7 +328,6 @@ Venues::Venue_69821224-9122-4f4f-afa2-ea45b4356aa1:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: flobby-media-office
-  updated_at: '2026-08-29 20:29:04.590392'
   url: ''
 Venues::Venue_7ccf4041-03b7-452a-a7f1-efa5d22e96d4:
   id: 7ccf4041-03b7-452a-a7f1-efa5d22e96d4
@@ -379,7 +335,6 @@ Venues::Venue_7ccf4041-03b7-452a-a7f1-efa5d22e96d4:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:04:28.525424'
   description: ''
   instructions: ''
   locations_address_id: 13ef6a8f-3ee9-41ab-bddb-115e01d59278
@@ -388,7 +343,6 @@ Venues::Venue_7ccf4041-03b7-452a-a7f1-efa5d22e96d4:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: demodesk-office
-  updated_at: '2026-08-29 21:04:28.525424'
   url: ''
 Venues::Venue_876c3466-782e-40c3-a3c0-b08779b6cbdb:
   id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
@@ -396,7 +350,6 @@ Venues::Venue_876c3466-782e-40c3-a3c0-b08779b6cbdb:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:41:50.777211'
   description: ''
   instructions: ''
   locations_address_id: de341e80-9be5-4433-8ac2-fad47d4775b1
@@ -405,7 +358,6 @@ Venues::Venue_876c3466-782e-40c3-a3c0-b08779b6cbdb:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: park-cafe
-  updated_at: '2026-08-29 20:41:50.777211'
   url: ''
 Venues::Venue_87befe94-27c4-488a-b3e3-d7874d97b1a7:
   id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
@@ -413,7 +365,6 @@ Venues::Venue_87befe94-27c4-488a-b3e3-d7874d97b1a7:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:41:09.548697'
   description: ''
   instructions: ''
   locations_address_id: ab12dea4-bf3e-421b-a51c-099f3c18bf3e
@@ -422,7 +373,6 @@ Venues::Venue_87befe94-27c4-488a-b3e3-d7874d97b1a7:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: metoda-office
-  updated_at: '2026-09-01 17:54:18.941728'
   url: ''
 Venues::Venue_8b93680b-2148-4486-93fc-9abadd022492:
   id: 8b93680b-2148-4486-93fc-9abadd022492
@@ -430,7 +380,6 @@ Venues::Venue_8b93680b-2148-4486-93fc-9abadd022492:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:05:43.171671'
   description: ''
   instructions: ''
   locations_address_id: 9b3512a5-95c8-4eb6-a276-29c0bf5fd66f
@@ -439,7 +388,6 @@ Venues::Venue_8b93680b-2148-4486-93fc-9abadd022492:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: workpath-office
-  updated_at: '2026-08-29 21:05:43.171671'
   url: ''
 Venues::Venue_8fd97a9c-10f1-4e65-a8c2-fd14c54a963a:
   id: 8fd97a9c-10f1-4e65-a8c2-fd14c54a963a
@@ -447,7 +395,6 @@ Venues::Venue_8fd97a9c-10f1-4e65-a8c2-fd14c54a963a:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:29:47.303293'
   description: ''
   instructions: ''
   locations_address_id: 7742024b-8219-4ae6-8917-5a9690f313dc
@@ -456,7 +403,6 @@ Venues::Venue_8fd97a9c-10f1-4e65-a8c2-fd14c54a963a:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: it-agenten-office
-  updated_at: '2026-09-01 18:33:48.083032'
   url: ''
 Venues::Venue_90a84792-1569-45c1-9c35-9e3a708e75c4:
   id: 90a84792-1569-45c1-9c35-9e3a708e75c4
@@ -464,7 +410,6 @@ Venues::Venue_90a84792-1569-45c1-9c35-9e3a708e75c4:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:45:07.914172'
   description: ''
   instructions: ''
   locations_address_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
@@ -473,7 +418,6 @@ Venues::Venue_90a84792-1569-45c1-9c35-9e3a708e75c4:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: fidor-bank-office
-  updated_at: '2026-08-29 20:45:07.914172'
   url: ''
 Venues::Venue_92b5edb8-2adb-4ab7-9f06-017d2f0e64c4:
   id: 92b5edb8-2adb-4ab7-9f06-017d2f0e64c4
@@ -481,7 +425,6 @@ Venues::Venue_92b5edb8-2adb-4ab7-9f06-017d2f0e64c4:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:03:36.151817'
   description: ''
   instructions: ''
   locations_address_id: 0e1b4540-68a9-4488-85f9-5c79217d93a4
@@ -490,7 +433,6 @@ Venues::Venue_92b5edb8-2adb-4ab7-9f06-017d2f0e64c4:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: christkindlmarkt-am-sendlinger-tor
-  updated_at: '2026-08-29 21:03:36.151817'
   url: ''
 Venues::Venue_a2c660d1-f70d-4cf5-8dba-f0edaf6f177f:
   id: a2c660d1-f70d-4cf5-8dba-f0edaf6f177f
@@ -498,7 +440,6 @@ Venues::Venue_a2c660d1-f70d-4cf5-8dba-f0edaf6f177f:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:08:08.609784'
   description: ''
   instructions: ''
   locations_address_id: 56c87d8f-ae59-4c6b-a5c7-e0a4f44b1a71
@@ -507,7 +448,6 @@ Venues::Venue_a2c660d1-f70d-4cf5-8dba-f0edaf6f177f:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: jetbrains-office-2
-  updated_at: '2026-08-29 21:08:08.609784'
   url: ''
 Venues::Venue_acac167f-0957-4586-bcca-7ffa3ed8f06a:
   id: acac167f-0957-4586-bcca-7ffa3ed8f06a
@@ -515,7 +455,6 @@ Venues::Venue_acac167f-0957-4586-bcca-7ffa3ed8f06a:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:40:12.273108'
   description: ''
   instructions: ''
   locations_address_id: 7a2d5886-0641-4104-8c8b-0cd62265fe5a
@@ -524,7 +463,6 @@ Venues::Venue_acac167f-0957-4586-bcca-7ffa3ed8f06a:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: shore-office
-  updated_at: '2026-08-29 20:40:12.273108'
   url: ''
 Venues::Venue_c7e45563-ce0e-46c7-9805-77b86851eda6:
   id: c7e45563-ce0e-46c7-9805-77b86851eda6
@@ -532,7 +470,6 @@ Venues::Venue_c7e45563-ce0e-46c7-9805-77b86851eda6:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:12:38.666598'
   description: ''
   instructions: ''
   locations_address_id: 764b4ed9-7c3b-4364-b946-c6d49c915329
@@ -541,7 +478,6 @@ Venues::Venue_c7e45563-ce0e-46c7-9805-77b86851eda6:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: lanes-planes-office
-  updated_at: '2026-09-01 17:53:00.141310'
   url: ''
 Venues::Venue_ca9606cd-d8e0-4c53-8f0f-ee59fda172f4:
   id: ca9606cd-d8e0-4c53-8f0f-ee59fda172f4
@@ -549,7 +485,6 @@ Venues::Venue_ca9606cd-d8e0-4c53-8f0f-ee59fda172f4:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 21:11:29.294371'
   description: ''
   instructions: ''
   locations_address_id: 9b3512a5-95c8-4eb6-a276-29c0bf5fd66f
@@ -558,7 +493,6 @@ Venues::Venue_ca9606cd-d8e0-4c53-8f0f-ee59fda172f4:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: dataguard-office-2
-  updated_at: '2026-08-29 21:11:29.294371'
   url: ''
 Venues::Venue_d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6:
   id: d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6
@@ -566,7 +500,6 @@ Venues::Venue_d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:26:07.296294'
   description: ''
   instructions: ''
   locations_address_id: acc4d061-e232-4610-ad84-26be50187b1b
@@ -575,7 +508,6 @@ Venues::Venue_d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: augustiner-keller
-  updated_at: '2026-08-29 20:26:07.296294'
   url: ''
 Venues::Venue_dbfcbc47-b465-4ef7-9d4c-285208def0d1:
   id: dbfcbc47-b465-4ef7-9d4c-285208def0d1
@@ -583,7 +515,6 @@ Venues::Venue_dbfcbc47-b465-4ef7-9d4c-285208def0d1:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:58:39.314217'
   description: ''
   instructions: ''
   locations_address_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
@@ -592,7 +523,6 @@ Venues::Venue_dbfcbc47-b465-4ef7-9d4c-285208def0d1:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: new-work-office
-  updated_at: '2026-09-01 17:53:57.186419'
   url: ''
 Venues::Venue_e06fb1e7-d75b-4347-bef5-ab4b83b44d37:
   id: e06fb1e7-d75b-4347-bef5-ab4b83b44d37
@@ -600,7 +530,6 @@ Venues::Venue_e06fb1e7-d75b-4347-bef5-ab4b83b44d37:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:57:02.136907'
   description: ''
   instructions: ''
   locations_address_id: 4814051f-7359-4e0e-9015-b970baacef5e
@@ -609,7 +538,6 @@ Venues::Venue_e06fb1e7-d75b-4347-bef5-ab4b83b44d37:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: crewmeister-office
-  updated_at: '2026-09-01 18:38:08.458467'
   url: ''
 Venues::Venue_e1cb528f-44ee-4d93-b715-74a738d89c56:
   id: e1cb528f-44ee-4d93-b715-74a738d89c56
@@ -617,7 +545,6 @@ Venues::Venue_e1cb528f-44ee-4d93-b715-74a738d89c56:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:27:42.630138'
   description: ''
   instructions: ''
   locations_address_id: 9dac9d5e-1951-48e5-b771-fce25fad6942
@@ -626,7 +553,6 @@ Venues::Venue_e1cb528f-44ee-4d93-b715-74a738d89c56:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: cospired-office
-  updated_at: '2026-08-29 20:27:42.630138'
   url: ''
 Venues::Venue_f1d0f5b6-c721-4dd0-a632-8acec6cbcd60:
   id: f1d0f5b6-c721-4dd0-a632-8acec6cbcd60
@@ -634,7 +560,6 @@ Venues::Venue_f1d0f5b6-c721-4dd0-a632-8acec6cbcd60:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:46:18.175711'
   description: ''
   instructions: ''
   locations_address_id: 7731351b-56ab-4725-851c-bda6bba0c3a5
@@ -643,7 +568,6 @@ Venues::Venue_f1d0f5b6-c721-4dd0-a632-8acec6cbcd60:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: riskmethods-office
-  updated_at: '2026-08-29 20:46:18.175711'
   url: ''
 Venues::Venue_f6bb5d43-abdf-464f-ab91-b68855b122c2:
   id: f6bb5d43-abdf-464f-ab91-b68855b122c2
@@ -651,7 +575,6 @@ Venues::Venue_f6bb5d43-abdf-464f-ab91-b68855b122c2:
   accessibility_notes: ''
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  created_at: '2026-08-29 20:25:15.100518'
   description: ''
   instructions: ''
   locations_address_id: 84287654-9b30-432f-9930-caa933469041
@@ -660,5 +583,4 @@ Venues::Venue_f6bb5d43-abdf-464f-ab91-b68855b122c2:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: jetbrains-office
-  updated_at: '2026-08-29 20:25:15.100518'
   url: ''
