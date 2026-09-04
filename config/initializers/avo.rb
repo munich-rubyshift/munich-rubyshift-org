@@ -182,6 +182,9 @@ Rails.application.config.to_prepare do
   next if Avo::BaseResource.const_defined?(:ID_FIELD_OPTIONS, false)
 
   class Avo::BaseResource
+    # Avo's default would be the first of `name`, `title`, `label`, `to_param` or `id`.
+    self.title = :to_s
+
     # The procs run through Avo::ExecutionContext, which `instance_exec`s them, so
     # `value`, `record` and `main_app` resolve at call time, not from here.
     ID_FIELD_OPTIONS = {

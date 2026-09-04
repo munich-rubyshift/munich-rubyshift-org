@@ -6,4 +6,8 @@ class Events::Participation < ApplicationRecord
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :participations
 
   string_fk :entities_person_id, :events_event_id
+
+  def to_s
+    "#{person} @ #{event}"
+  end
 end
