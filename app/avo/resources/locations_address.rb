@@ -10,9 +10,9 @@ class Avo::Resources::LocationsAddress < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
-    field :street, as: :text
-    field :zip_code, as: :text
-    field :city, as: :belongs_to
-    field :coordinates, as: :belongs_to
+    field :street, as: :text, sortable: true
+    field :zip_code, as: :text, sortable: true
+    field :city, as: :belongs_to, **belongs_to_field_options(:city)
+    field :coordinates, as: :belongs_to, **belongs_to_field_options(:coordinates)
   end
 end

@@ -10,30 +10,30 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
-    field :name, as: :text
-    field :rubyevents_slug, as: :text
+    field :name, as: :text, sortable: true
+    field :rubyevents_slug, as: :text, sortable: true
     field :description, as: :textarea
-    field :kind, as: :select, options: ::Events::Series::KINDS.index_by(&:humanize), include_blank: true
-    field :frequency, as: :select, options: ::Events::Series::FREQUENCIES.index_by(&:humanize), include_blank: true
-    field :ended, as: :boolean
-    field :default_country_code, as: :text
-    field :language, as: :text
-    field :website, as: :text
-    field :original_website, as: :text
-    field :twitter, as: :text
-    field :facebook, as: :text
-    field :mastodon, as: :text
-    field :bsky, as: :text
-    field :github, as: :text
-    field :linkedin, as: :text
-    field :meetup, as: :text
-    field :luma, as: :text
-    field :guild, as: :text
-    field :vimeo, as: :text
-    field :discord, as: :text
-    field :youtube_channel_id, as: :text
-    field :youtube_channel_name, as: :text
-    field :youtube_channel_handle, as: :text
-    field :playlist_matcher, as: :text
+    field :kind, as: :select, sortable: true, options: ::Events::Series::KINDS.index_by(&:humanize), include_blank: true
+    field :frequency, as: :select, sortable: true, options: ::Events::Series::FREQUENCIES.index_by(&:humanize), include_blank: true
+    field :ended, as: :boolean, sortable: true
+    field :default_country_code, as: :text, sortable: true
+    field :language, as: :text, sortable: true
+    field :website, as: :text, sortable: true
+    field :original_website, as: :text, sortable: true
+    field :twitter, as: :text, sortable: true
+    field :facebook, as: :text, sortable: true
+    field :mastodon, as: :text, sortable: true
+    field :bsky, as: :text, sortable: true
+    field :github, as: :text, sortable: true
+    field :linkedin, as: :text, sortable: true
+    field :meetup, as: :text, sortable: true
+    field :luma, as: :text, sortable: true
+    field :guild, as: :text, sortable: true
+    field :vimeo, as: :text, sortable: true
+    field :discord, as: :text, sortable: true
+    field :youtube_channel_id, as: :text, sortable: true
+    field :youtube_channel_name, as: :text, sortable: true
+    field :youtube_channel_handle, as: :text, sortable: true
+    field :playlist_matcher, as: :text, sortable: true
   end
 end

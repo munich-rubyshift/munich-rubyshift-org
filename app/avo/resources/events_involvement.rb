@@ -9,8 +9,8 @@ class Avo::Resources::EventsInvolvement < Avo::BaseResource
 
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
-    field :role, as: :text
-    field :entity, as: :belongs_to, polymorphic_as: :entity, types: [ ::Entities::Person, ::Entities::Organization ]
-    field :event, as: :belongs_to
+    field :role, as: :text, sortable: true
+    field :entity, as: :belongs_to, **belongs_to_field_options(:entity), polymorphic_as: :entity, types: [ ::Entities::Person, ::Entities::Organization ]
+    field :event, as: :belongs_to, **belongs_to_field_options(:event)
   end
 end

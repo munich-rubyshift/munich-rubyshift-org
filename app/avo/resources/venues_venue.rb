@@ -10,18 +10,18 @@ class Avo::Resources::VenuesVenue < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
-    field :name, as: :text
-    field :rubyevents_slug, as: :text
+    field :name, as: :text, sortable: true
+    field :rubyevents_slug, as: :text, sortable: true
     field :description, as: :textarea
-    field :url, as: :text
+    field :url, as: :text, sortable: true
     field :instructions, as: :textarea
-    field :accessibility_wheelchair, as: :boolean
-    field :accessibility_elevators, as: :boolean
-    field :accessibility_restrooms, as: :boolean
+    field :accessibility_wheelchair, as: :boolean, sortable: true
+    field :accessibility_elevators, as: :boolean, sortable: true
+    field :accessibility_restrooms, as: :boolean, sortable: true
     field :accessibility_notes, as: :textarea
     field :nearby_public_transport, as: :textarea
     field :nearby_parking, as: :textarea
-    field :address, as: :belongs_to
-    field :map, as: :belongs_to
+    field :address, as: :belongs_to, **belongs_to_field_options(:address)
+    field :map, as: :belongs_to, **belongs_to_field_options(:map)
   end
 end

@@ -193,5 +193,31 @@ Rails.application.config.to_prepare do
       help: "Clear field to regenerate slug.",
       format_display_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     }.freeze
+
+    # Avo orders by the column named after the field, but a belongs_to field is
+    # named after the association rather than its foreign key, so the default
+    # would order by a column that isn't there. Order by what the column really
+    # shows instead: the associated record's `to_s`, which no column holds - it
+    # joins fields, crosses tables, or is computed.
+    #
+    # That leaves Ruby to do the sorting and the database to be told the result.
+    # These lists run to hundreds of rows, where reading them all costs less than
+    # rebuilding each model's `to_s` in SQL would cost to write and to keep true.
+    def belongs_to_field_options(association)
+      {
+        sortable: -> {
+          named, nameless = query.includes(association).partition do |record|
+            record.public_send(association)&.to_s.presence
+          end
+
+          named.sort_by! { |record| record.public_send(association).to_s }
+          named.reverse! if direction.to_s == "desc"
+
+          # A record with nothing to show sorts last either way. Reversing it
+          # along with the rest would open the list with a block of blanks.
+          query.in_order_of(:id, named.concat(nameless).map(&:id))
+        }
+      }
+    end
   end
 end

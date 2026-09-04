@@ -10,53 +10,57 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
-    field :rubyevents_slug, as: :text
+    field :rubyevents_slug, as: :text, sortable: true
 
-    field :kind, as: :select, options: ::Events::Event::KINDS.index_by(&:humanize), include_blank: true, default: "meetup"
+    field :kind, as: :select, sortable: true, options: ::Events::Event::KINDS.index_by(&:humanize), include_blank: true, default: "meetup"
 
     grouped "When?" do
+      # A date and its time are one moment split across two columns, so the time
+      # follows the date's direction rather than settling ties in a fixed one:
+      # newest first should open a day with its latest event, not its earliest.
+      # Sorting on the time alone would order breakfasts against evening talks.
       row do
-        field :start_date, as: :date
+        field :start_date, as: :date, sortable: -> { query.order(start_date: direction, start_time: direction) }
         field :start_time, as: :time
       end
       row do
-        field :end_date, as: :date
+        field :end_date, as: :date, sortable: -> { query.order(end_date: direction, end_time: direction) }
         field :end_time, as: :time
       end
-      field :date_precision, as: :select, options: ::Events::Event::DATE_PRECISIONS.index_by(&:humanize), include_blank: true, default: "day"
-      field :status, as: :select, options: ::Events::Event::STATUSES.index_by(&:humanize), include_blank: true, default: "scheduled"
+      field :date_precision, as: :select, sortable: true, options: ::Events::Event::DATE_PRECISIONS.index_by(&:humanize), include_blank: true, default: "day"
+      field :status, as: :select, sortable: true, options: ::Events::Event::STATUSES.index_by(&:humanize), include_blank: true, default: "scheduled"
     end
 
     grouped "Where?" do
-      field :attendance_mode, as: :select, options: ::Events::Event::ATTENDANCE_MODES.index_by(&:humanize)
-      field :venue, as: :belongs_to, required: -> { record&.venue_required? }, help: "Required unless the event is online or cancelled, and forbidden for online events."
-      field :tickets_url, as: :text
+      field :attendance_mode, as: :select, sortable: true, options: ::Events::Event::ATTENDANCE_MODES.index_by(&:humanize)
+      field :venue, as: :belongs_to, **belongs_to_field_options(:venue), required: -> { record&.venue_required? }, help: "Required unless the event is online or cancelled, and forbidden for online events."
+      field :tickets_url, as: :text, sortable: true
     end
 
     grouped "What?" do
-      field :title, as: :text
+      field :title, as: :text, sortable: true
       field :description, as: :textarea
     end
 
-    field :channel_id, as: :text
-    field :playlist, as: :text
-    field :youtube, as: :text
+    field :channel_id, as: :text, sortable: true
+    field :playlist, as: :text, sortable: true
+    field :youtube, as: :text, sortable: true
 
-    field :series, as: :belongs_to, default: -> { ::Events::Series.first }
-    field :website, as: :text, **series_default_options(:website)
-    field :twitter, as: :text, **series_default_options(:twitter)
-    field :mastodon, as: :text, **series_default_options(:mastodon)
-    field :github, as: :text, **series_default_options(:github)
-    field :meetup, as: :text, **series_default_options(:meetup)
-    field :luma, as: :text, **series_default_options(:luma)
+    field :series, as: :belongs_to, **belongs_to_field_options(:series), default: -> { ::Events::Series.first }
+    field :website, as: :text, sortable: true, **series_default_options(:website)
+    field :twitter, as: :text, sortable: true, **series_default_options(:twitter)
+    field :mastodon, as: :text, sortable: true, **series_default_options(:mastodon)
+    field :github, as: :text, sortable: true, **series_default_options(:github)
+    field :meetup, as: :text, sortable: true, **series_default_options(:meetup)
+    field :luma, as: :text, sortable: true, **series_default_options(:luma)
 
-    field :banner_background, as: :text
-    field :featured_background, as: :text
-    field :featured_color, as: :text
+    field :banner_background, as: :text, sortable: true
+    field :featured_background, as: :text, sortable: true
+    field :featured_color, as: :text, sortable: true
 
-    field :published_at, as: :date_time
-    field :announced_on, as: :date
-    field :last_edition, as: :boolean
+    field :published_at, as: :date_time, sortable: true
+    field :announced_on, as: :date, sortable: true
+    field :last_edition, as: :boolean, sortable: true
   end
 
   private
