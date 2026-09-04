@@ -6,6 +6,8 @@ class Locations::Coordinates < ApplicationRecord
   # the foreign key exists.
   has_many :addresses, class_name: "Locations::Address", foreign_key: :locations_coordinates_id, inverse_of: :coordinates, autosave: false
 
+  validates :latitude, :longitude, presence: true
+
   # Fallbacks for Locations::Map, which only stores curated links.
   def google_url
     "https://www.google.com/maps/search/?api=1&query=#{latitude},#{longitude}"

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_09_04_191801) do
+ActiveRecord::Schema[8.1].define(version: 2026_09_04_211642) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -183,8 +183,8 @@ ActiveRecord::Schema[8.1].define(version: 2026_09_04_191801) do
   end
 
   create_table "locations_coordinates", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
-    t.decimal "latitude", precision: 10, scale: 6
-    t.decimal "longitude", precision: 10, scale: 6
+    t.decimal "latitude", precision: 10, scale: 6, null: false
+    t.decimal "longitude", precision: 10, scale: 6, null: false
   end
 
   create_table "locations_maps", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
