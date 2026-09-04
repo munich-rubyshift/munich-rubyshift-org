@@ -8,4 +8,8 @@ class Sponsors::Sponsorship < ApplicationRecord
   belongs_to :sponsor_tier, class_name: "Sponsors::SponsorTier", foreign_key: :sponsors_sponsor_tier_id, inverse_of: :sponsorships
 
   string_fk :entities_organization_id, :sponsors_sponsor_tier_id
+
+  def to_s
+    "#{sponsor_tier} by #{organization}"
+  end
 end

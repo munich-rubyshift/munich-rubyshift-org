@@ -22,6 +22,17 @@ class Locations::Coordinates < ApplicationRecord
   end
 
   def to_s
-    "#{latitude}, #{longitude}"
+    return "" unless latitude && longitude
+
+    "#{hemisphere(latitude, "N", "S")}\u00A0\u00A0#{hemisphere(longitude, "E", "W")}"
+  end
+
+  private
+
+  # Pad to two digits to keep text aligned. A longitude with "longitude.abs >= 100"
+  # would shift the text, but we accept that as we don't expect such coordinates.
+  def hemisphere(degrees, positive, negative)
+    rounded = degrees.round(2)
+    "#{rounded.negative? ? negative : positive}\u202F#{format("%05.2f", rounded.abs)}°"
   end
 end
