@@ -10,27 +10,27 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
-    field :title, as: :text
-    field :rubyevents_slug, as: :text
-    field :event, as: :belongs_to
+    field :title, as: :text, sortable: true
+    field :rubyevents_slug, as: :text, sortable: true
+    field :event, as: :belongs_to, **belongs_to_field_options(:event)
     field :description, as: :textarea
-    field :raw_title, as: :text
-    field :original_title, as: :text
-    field :slides_url, as: :text
-    field :external_id, as: :text
-    field :kind, as: :text
-    field :status, as: :text
-    field :date, as: :date
-    field :time, as: :date_time
-    field :published_at, as: :date_time
-    field :announced_at, as: :date_time
-    field :removed, as: :text
-    field :location, as: :text
-    field :video_provider, as: :text
-    field :video_id, as: :text
-    field :external_player, as: :boolean
-    field :external_player_url, as: :text
-    field :track, as: :text
-    field :language, as: :text
+    field :raw_title, as: :text, sortable: true
+    field :original_title, as: :text, sortable: true
+    field :slides_url, as: :text, sortable: true
+    field :external_id, as: :text, sortable: true
+    field :kind, as: :text, sortable: true
+    field :status, as: :text, sortable: true
+    field :date, as: :date, sortable: true
+    field :time, as: :date_time, sortable: true
+    field :published_at, as: :date_time, sortable: true
+    field :announced_at, as: :date_time, sortable: true
+    field :removed, as: :text, sortable: true
+    field :location, as: :text, sortable: true
+    field :video_provider, as: :text, sortable: true
+    field :video_id, as: :text, sortable: true
+    field :external_player, as: :boolean, sortable: true
+    field :external_player_url, as: :text, sortable: true
+    field :track, as: :text, sortable: true
+    field :language, as: :text, sortable: true
   end
 end

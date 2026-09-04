@@ -10,10 +10,10 @@ class Avo::Resources::EventsCFP < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
-    field :name, as: :text, default: ::Events::CFP::DEFAULT_NAME
-    field :external_url, as: :text
-    field :open_date, as: :date
-    field :close_date, as: :date
-    field :event, as: :belongs_to
+    field :name, as: :text, sortable: true, default: ::Events::CFP::DEFAULT_NAME
+    field :external_url, as: :text, sortable: true
+    field :open_date, as: :date, sortable: true
+    field :close_date, as: :date, sortable: true
+    field :event, as: :belongs_to, **belongs_to_field_options(:event)
   end
 end

@@ -13,6 +13,6 @@ class Avo::Resources::LocationsCoordinates < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :latitude, as: :text, sortable: -> { query.order(latitude: direction, longitude: :asc) }
-    field :longitude, as: :text
+    field :longitude, as: :text, sortable: true
   end
 end
