@@ -10,12 +10,12 @@ class Avo::Resources::EntitiesOrganization < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
-    field :name, as: :text
-    field :rubyevents_slug, as: :text
+    field :name, as: :text, sortable: true
+    field :rubyevents_slug, as: :text, sortable: true
     field :description, as: :textarea
-    field :website, as: :text
-    field :logo_background, as: :text
-    field :logo_url, as: :text
-    field :main_location, as: :text
+    field :website, as: :text, sortable: true
+    field :logo_background, as: :text, sortable: true
+    field :logo_url, as: :text, sortable: true
+    field :main_location, as: :text, sortable: true
   end
 end

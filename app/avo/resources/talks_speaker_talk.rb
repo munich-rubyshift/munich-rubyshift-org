@@ -9,7 +9,7 @@ class Avo::Resources::TalksSpeakerTalk < Avo::BaseResource
 
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
-    field :talk, as: :belongs_to
-    field :speaker, as: :belongs_to
+    field :talk, as: :belongs_to, **belongs_to_field_options(:talk)
+    field :speaker, as: :belongs_to, **belongs_to_field_options(:speaker)
   end
 end

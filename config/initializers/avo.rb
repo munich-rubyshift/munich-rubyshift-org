@@ -196,6 +196,23 @@ Rails.application.config.to_prepare do
       help: "Clear field to regenerate slug.",
       format_display_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     }.freeze
+
+    # Order by the associated record's title, NULLs last.
+    # Sort in Ruby for now as we have very few records and a "to_s" method
+    # is easier to change than a computed column.
+    def belongs_to_field_options(association)
+      {
+        sortable: -> {
+          records = query.includes(association).sort_by do |record|
+            label = record.public_send(association).to_s
+            [ label.blank? ? 1 : 0, label, record.id ]
+          end
+          records.reverse! if direction.to_s == "desc"
+
+          query.in_order_of(:id, records.map(&:id))
+        }
+      }
+    end
   end
 
   class Avo::Fields::DateField
