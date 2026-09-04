@@ -1,523 +1,436 @@
 ---
 FriendlyId::Slug_014f0b24-3efa-4a7b-a9a1-ffbc704781ac:
   id: 014f0b24-3efa-4a7b-a9a1-ffbc704781ac
-  created_at: '2026-09-01 18:34:14.665399'
   slug: gutefrage-office
   sluggable_id: 31e5c809-fba0-4198-8858-a0054501d792
   sluggable_type: Venues::Venue
 FriendlyId::Slug_01aee2ee-9a16-4d44-94db-e841467070db:
   id: 01aee2ee-9a16-4d44-94db-e841467070db
-  created_at: '2026-09-01 18:37:54.707052'
   slug: rosenheimer-strasse-141e-h
   sluggable_id: 4814051f-7359-4e0e-9015-b970baacef5e
   sluggable_type: Locations::Address
 FriendlyId::Slug_01fcef95-ec40-4c77-8059-587831a6c9b7:
   id: 01fcef95-ec40-4c77-8059-587831a6c9b7
-  created_at: '2026-08-29 20:36:55.799880'
   slug: innere-wiener-strasse-19
   sluggable_id: d145e416-b509-4606-874b-9a62dd18d9bd
   sluggable_type: Locations::Address
 FriendlyId::Slug_0a1894df-b694-4a99-95df-61b7a3f57a48:
   id: 0a1894df-b694-4a99-95df-61b7a3f57a48
-  created_at: '2026-04-23 18:52:44.158139'
   slug: freeletics
   sluggable_id: e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e
   sluggable_type: Entities::Organization
 FriendlyId::Slug_0ceb2935-df05-4dba-8de0-fe0c539e628b:
   id: 0ceb2935-df05-4dba-8de0-fe0c539e628b
-  created_at: '2026-09-01 17:53:18.812015'
   slug: xempus-office
   sluggable_id: 65fca0f2-adb6-4a50-b344-8771745bee01
   sluggable_type: Venues::Venue
 FriendlyId::Slug_0d367b8a-6ae9-4c56-b4e6-c0b0c7288dad:
   id: 0d367b8a-6ae9-4c56-b4e6-c0b0c7288dad
-  created_at: '2026-08-29 20:31:36.117204'
   slug: scoreloop-office
   sluggable_id: 215487ed-a371-488f-b43f-3caffbbdf0d0
   sluggable_type: Venues::Venue
 FriendlyId::Slug_0d81faf9-ffb5-4c96-9d5d-0ecb2bc7548d:
   id: 0d81faf9-ffb5-4c96-9d5d-0ecb2bc7548d
-  created_at: '2026-09-01 17:38:55.619889'
   slug: nymphenburger-strasse-86
   sluggable_id: 9b3512a5-95c8-4eb6-a276-29c0bf5fd66f
   sluggable_type: Locations::Address
 FriendlyId::Slug_0ecea131-a7ea-4241-b333-87e014e56862:
   id: 0ecea131-a7ea-4241-b333-87e014e56862
-  created_at: '2026-08-29 21:01:06.358591'
   slug: riskmethods-office-2
   sluggable_id: 3b908116-7311-4923-b840-ed89760170f8
   sluggable_type: Venues::Venue
 FriendlyId::Slug_0ed0e342-b099-4d33-a432-6f5cba466b7f:
   id: 0ed0e342-b099-4d33-a432-6f5cba466b7f
-  created_at: '2026-09-01 17:53:57.189901'
   slug: new-work-office
   sluggable_id: dbfcbc47-b465-4ef7-9d4c-285208def0d1
   sluggable_type: Venues::Venue
 FriendlyId::Slug_0f8e00fc-0f74-4901-8e34-1b9f7edae94a:
   id: 0f8e00fc-0f74-4901-8e34-1b9f7edae94a
-  created_at: '2026-08-29 20:57:43.974797'
   slug: bothestrasse-11
   sluggable_id: 91fcd7a0-9f33-43d1-ab35-39111c44d308
   sluggable_type: Locations::Address
 FriendlyId::Slug_155dbfa4-b20f-4b1f-a461-5f822b38031f:
   id: 155dbfa4-b20f-4b1f-a461-5f822b38031f
-  created_at: '2026-09-01 17:44:05.789739'
   slug: lenbachplatz-3
   sluggable_id: 5947ec85-23be-4a0d-a2c8-ce15d4b01d79
   sluggable_type: Locations::Address
 FriendlyId::Slug_1747b241-bf75-49f6-afce-96951e33809f:
   id: 1747b241-bf75-49f6-afce-96951e33809f
-  created_at: '2026-04-23 18:58:05.196964'
   slug: meetup-april-2026
   sluggable_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
   sluggable_type: Events::Event
 FriendlyId::Slug_189b7cc7-60a8-4b55-94d1-a2f0b8581166:
   id: 189b7cc7-60a8-4b55-94d1-a2f0b8581166
-  created_at: '2026-09-01 17:54:18.945927'
   slug: metoda-office
   sluggable_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   sluggable_type: Venues::Venue
 FriendlyId::Slug_1b846372-db7f-4357-a855-b722197fac2e:
   id: 1b846372-db7f-4357-a855-b722197fac2e
-  created_at: '2026-09-01 17:37:30.685781'
   slug: friedenheimer-bruecke-16
   sluggable_id: 764b4ed9-7c3b-4364-b946-c6d49c915329
   sluggable_type: Locations::Address
 FriendlyId::Slug_1d76070b-6cbb-451d-893c-f6bc9d1e7e1b:
   id: 1d76070b-6cbb-451d-893c-f6bc9d1e7e1b
-  created_at: '2026-08-29 21:06:23.178602'
   slug: herzogspitalstrasse-24
   sluggable_id: 6bf8f3b2-7dcf-419b-88fd-15789f0a21a4
   sluggable_type: Locations::Address
 FriendlyId::Slug_1e003efa-910e-4c98-8801-7a3b5652239f:
   id: 1e003efa-910e-4c98-8801-7a3b5652239f
-  created_at: '2026-08-29 20:27:42.634299'
   slug: cospired-office
   sluggable_id: e1cb528f-44ee-4d93-b715-74a738d89c56
   sluggable_type: Venues::Venue
 FriendlyId::Slug_1fc8b469-217b-48d4-8066-a2e1057b2f33:
   id: 1fc8b469-217b-48d4-8066-a2e1057b2f33
-  created_at: '2026-09-01 17:54:39.146352'
   slug: freeletics-office-2
   sluggable_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   sluggable_type: Venues::Venue
 FriendlyId::Slug_22882041-56af-43fe-8e99-5eb69887796f:
   id: 22882041-56af-43fe-8e99-5eb69887796f
-  created_at: '2026-08-29 21:14:43.090415'
   slug: makandra-office
   sluggable_id: 05a33493-04bf-4272-9325-d3e40bcd1f6e
   sluggable_type: Venues::Venue
 FriendlyId::Slug_2334d91c-96cf-42d3-8142-544825620654:
   id: 2334d91c-96cf-42d3-8142-544825620654
-  created_at: '2026-09-01 17:39:36.856493'
   slug: dachauer-strasse-65
   sluggable_id: 3f35d020-4ee5-49af-8307-1ed67c77eadc
   sluggable_type: Locations::Address
 FriendlyId::Slug_23383c92-8879-478d-8729-2a2260591443:
   id: 23383c92-8879-478d-8729-2a2260591443
-  created_at: '2026-09-01 18:45:39.241163'
   slug: former-03-office
   sluggable_id: 4f816bec-c6ce-4776-947f-fa6551d18108
   sluggable_type: Venues::Venue
 FriendlyId::Slug_2d0964e2-2545-4e20-9326-ccb6b3151d34:
   id: 2d0964e2-2545-4e20-9326-ccb6b3151d34
-  created_at: '2026-09-01 18:31:42.681177'
   slug: freeletics-office
   sluggable_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   sluggable_type: Venues::Venue
 FriendlyId::Slug_33e2227a-eb4d-46e4-bebd-ee3939ac700d:
   id: 33e2227a-eb4d-46e4-bebd-ee3939ac700d
-  created_at: '2026-08-29 20:24:45.484183'
   slug: experteer-office
   sluggable_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   sluggable_type: Venues::Venue
 FriendlyId::Slug_351dd3bb-bed9-489f-a391-25fd86a473c9:
   id: 351dd3bb-bed9-489f-a391-25fd86a473c9
-  created_at: '2026-09-01 17:43:28.953989'
   slug: sonnenstrasse-32
   sluggable_id: e0ae990d-b61a-4bc9-8f25-c920fb2e8d2b
   sluggable_type: Locations::Address
 FriendlyId::Slug_357031bc-79d5-42eb-a6e4-d19f0935181d:
   id: 357031bc-79d5-42eb-a6e4-d19f0935181d
-  created_at: '2026-08-29 20:46:52.643167'
   slug: grillparzerstrasse-14
   sluggable_id: af20a4ff-1f6f-4384-970c-e33898c1ac00
   sluggable_type: Locations::Address
 FriendlyId::Slug_3578777f-12ff-4fbf-b3c3-67f78671697d:
   id: 3578777f-12ff-4fbf-b3c3-67f78671697d
-  created_at: '2026-08-29 20:53:10.409935'
   slug: martin-greif-strasse-1
   sluggable_id: 0e1fb7ca-b03a-40b9-94c0-775585371919
   sluggable_type: Locations::Address
 FriendlyId::Slug_37c505b5-f41c-42c6-b1b2-6d16f62c63f1:
   id: 37c505b5-f41c-42c6-b1b2-6d16f62c63f1
-  created_at: '2026-08-29 21:08:08.615789'
   slug: jetbrains-office-2
   sluggable_id: a2c660d1-f70d-4cf5-8dba-f0edaf6f177f
   sluggable_type: Venues::Venue
 FriendlyId::Slug_3cf103b3-06d7-49e7-a37d-233ccb548b2e:
   id: 3cf103b3-06d7-49e7-a37d-233ccb548b2e
-  created_at: '2026-08-29 20:57:59.335494'
   slug: thoughtworks-office
   sluggable_id: 1347f7fd-3908-4c46-9325-f7f514394170
   sluggable_type: Venues::Venue
 FriendlyId::Slug_3ecb39c1-304d-43cd-99b2-e9464a281749:
   id: 3ecb39c1-304d-43cd-99b2-e9464a281749
-  created_at: '2026-08-29 20:46:18.183656'
   slug: riskmethods-office
   sluggable_id: f1d0f5b6-c721-4dd0-a632-8acec6cbcd60
   sluggable_type: Venues::Venue
 FriendlyId::Slug_42ff83c4-dfaa-4749-b539-16b318f193ae:
   id: 42ff83c4-dfaa-4749-b539-16b318f193ae
-  created_at: '2026-05-01 10:15:44.470624'
   slug: location-drinks-by-freeletics
   sluggable_id: 8c929ce2-4102-45c1-951e-ed14515f0a16
   sluggable_type: Sponsors::Sponsorship
 FriendlyId::Slug_46d10e05-850a-4453-b63c-a29434159c14:
   id: 46d10e05-850a-4453-b63c-a29434159c14
-  created_at: '2026-09-01 17:43:08.174130'
   slug: blutenburgstrasse-43
   sluggable_id: 7742024b-8219-4ae6-8917-5a9690f313dc
   sluggable_type: Locations::Address
 FriendlyId::Slug_4941428d-ab48-4503-b675-6391259185a0:
   id: 4941428d-ab48-4503-b675-6391259185a0
-  created_at: '2026-08-29 20:41:50.781146'
   slug: park-cafe
   sluggable_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   sluggable_type: Venues::Venue
 FriendlyId::Slug_4a9f56ea-d291-45d7-9289-cc93d5636d24:
   id: 4a9f56ea-d291-45d7-9289-cc93d5636d24
-  created_at: '2026-09-01 17:53:00.150915'
   slug: lanes-planes-office
   sluggable_id: c7e45563-ce0e-46c7-9805-77b86851eda6
   sluggable_type: Venues::Venue
 FriendlyId::Slug_4c850e04-be73-411b-869f-5f146f1abbf5:
   id: 4c850e04-be73-411b-869f-5f146f1abbf5
-  created_at: '2026-04-23 19:00:39.445301'
   slug: location-drinks
   sluggable_id: 7eaf5061-64e3-45a6-bc29-c13c03b07f72
   sluggable_type: Sponsors::SponsorTier
 FriendlyId::Slug_52f09073-ceae-41c7-8798-5b170c573001:
   id: 52f09073-ceae-41c7-8798-5b170c573001
-  created_at: '2026-08-29 20:26:07.303231'
   slug: augustiner-keller
   sluggable_id: d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6
   sluggable_type: Venues::Venue
 FriendlyId::Slug_553e4f1a-ffe0-4e2a-bae9-866fbdd3ef13:
   id: 553e4f1a-ffe0-4e2a-bae9-866fbdd3ef13
-  created_at: '2026-08-24 20:43:54.582920'
   slug: munich-rubyshift
   sluggable_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   sluggable_type: Events::Series
 FriendlyId::Slug_56a3734d-aaff-4df6-ac35-06453ed5aef5:
   id: 56a3734d-aaff-4df6-ac35-06453ed5aef5
-  created_at: '2026-08-29 20:45:48.828245'
   slug: orleansstrasse-4
   sluggable_id: 7731351b-56ab-4725-851c-bda6bba0c3a5
   sluggable_type: Locations::Address
 FriendlyId::Slug_573a5ccc-fda1-4e2e-be9d-080222f78937:
   id: 573a5ccc-fda1-4e2e-be9d-080222f78937
-  created_at: '2026-08-29 20:42:47.940244'
   slug: brienner-strasse-49
   sluggable_id: 8db60734-ff15-4d1e-a890-78e45e3013a3
   sluggable_type: Locations::Address
 FriendlyId::Slug_5ed8ad6e-455f-467a-9c0f-ebc4f00f7ca9:
   id: 5ed8ad6e-455f-467a-9c0f-ebc4f00f7ca9
-  created_at: '2026-08-29 21:03:19.702340'
   slug: sendlinger-tor-platz-1
   sluggable_id: 0e1b4540-68a9-4488-85f9-5c79217d93a4
   sluggable_type: Locations::Address
 FriendlyId::Slug_5f1f5393-ff4f-4c43-a7bf-fd3d41301530:
   id: 5f1f5393-ff4f-4c43-a7bf-fd3d41301530
-  created_at: '2026-08-29 20:59:27.436285'
   slug: dataguard-office
   sluggable_id: 23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2
   sluggable_type: Venues::Venue
 FriendlyId::Slug_5f4f700e-5524-4dfd-96f8-1e3496a823a6:
   id: 5f4f700e-5524-4dfd-96f8-1e3496a823a6
-  created_at: '2026-08-29 20:38:20.032167'
   slug: lothstrasse-5
   sluggable_id: 0b5ec8e1-007f-4510-8d0d-ff4b87cb3b18
   sluggable_type: Locations::Address
 FriendlyId::Slug_60f1a2bc-7bf8-48f6-9d31-ce226f776360:
   id: 60f1a2bc-7bf8-48f6-9d31-ce226f776360
-  created_at: '2026-08-29 21:05:43.176470'
   slug: workpath-office
   sluggable_id: 8b93680b-2148-4486-93fc-9abadd022492
   sluggable_type: Venues::Venue
 FriendlyId::Slug_61c2e6da-9dc0-448c-bcb2-d0f50e045756:
   id: 61c2e6da-9dc0-448c-bcb2-d0f50e045756
-  created_at: '2026-09-01 17:40:30.185832'
   slug: tuerkenstrasse-89
   sluggable_id: cdf044dc-7abf-436a-96de-596b9ed7f71c
   sluggable_type: Locations::Address
 FriendlyId::Slug_6325339c-3e3f-4f3f-baf3-c307182b1fb6:
   id: 6325339c-3e3f-4f3f-baf3-c307182b1fb6
-  created_at: '2026-08-29 21:00:42.440747'
   slug: balanstrasse-49
   sluggable_id: eb96f61f-5059-4c2c-b7f6-5361a1241c16
   sluggable_type: Locations::Address
 FriendlyId::Slug_67713349-6acc-4e87-a11b-f77912d93850:
   id: 67713349-6acc-4e87-a11b-f77912d93850
-  created_at: '2026-04-23 18:52:25.426674'
   slug: klaus-weidinger
   sluggable_id: 536bc1f5-5f7f-4f1b-b6b6-e5e101b65906
   sluggable_type: Entities::Person
 FriendlyId::Slug_67b7c5e8-5d54-49f1-adaa-f83e480c0c53:
   id: 67b7c5e8-5d54-49f1-adaa-f83e480c0c53
-  created_at: '2026-09-01 17:42:37.858314'
   slug: landsberger-strasse-110
   sluggable_id: 7ee6fa75-f78f-41db-83bd-972d07231d29
   sluggable_type: Locations::Address
 FriendlyId::Slug_67fb2ef5-6072-4911-ae0e-07568db1bf8a:
   id: 67fb2ef5-6072-4911-ae0e-07568db1bf8a
-  created_at: '2026-08-29 21:06:39.257159'
   slug: zavvy-office
   sluggable_id: 12f15b05-65ee-431d-b691-51486c2be216
   sluggable_type: Venues::Venue
 FriendlyId::Slug_6e756345-8ec3-4608-bfdb-2692adaed49c:
   id: 6e756345-8ec3-4608-bfdb-2692adaed49c
-  created_at: '2026-08-29 20:54:33.156593'
   slug: xbav-office
   sluggable_id: '053190c9-9e62-484e-abf4-374d6e69d475'
   sluggable_type: Venues::Venue
 FriendlyId::Slug_70c6ad07-0078-44d0-8f32-30f570ebfcce:
   id: 70c6ad07-0078-44d0-8f32-30f570ebfcce
-  created_at: '2026-08-29 21:04:28.532252'
   slug: demodesk-office
   sluggable_id: 7ccf4041-03b7-452a-a7f1-efa5d22e96d4
   sluggable_type: Venues::Venue
 FriendlyId::Slug_789dd2c6-c2d1-45d2-8735-0141609aa5d2:
   id: 789dd2c6-c2d1-45d2-8735-0141609aa5d2
-  created_at: '2026-08-29 20:29:47.307794'
   slug: it-agenten-office
   sluggable_id: 8fd97a9c-10f1-4e65-a8c2-fd14c54a963a
   sluggable_type: Venues::Venue
 FriendlyId::Slug_7d358a7c-aca3-4005-827b-b396898e1316:
   id: 7d358a7c-aca3-4005-827b-b396898e1316
-  created_at: '2026-09-01 18:32:06.556971'
   slug: hofbraeukeller
   sluggable_id: 266215c5-41cf-49b6-b688-566b2d98fd48
   sluggable_type: Venues::Venue
 FriendlyId::Slug_7dc8d168-a6da-47b1-b9c4-b712f87a1dad:
   id: 7dc8d168-a6da-47b1-b9c4-b712f87a1dad
-  created_at: '2026-09-01 17:39:15.115718'
   slug: brienner-strasse-45a-d
   sluggable_id: 13ef6a8f-3ee9-41ab-bddb-115e01d59278
   sluggable_type: Locations::Address
 FriendlyId::Slug_83215aa9-ecfb-44b7-a14c-a3729d0987e2:
   id: 83215aa9-ecfb-44b7-a14c-a3729d0987e2
-  created_at: '2026-09-01 17:41:11.114200'
   slug: sandstrasse-33
   sluggable_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
   sluggable_type: Locations::Address
 FriendlyId::Slug_85906f15-17dd-499c-a49d-bb8dcf212c63:
   id: 85906f15-17dd-499c-a49d-bb8dcf212c63
-  created_at: '2026-08-29 21:13:57.697493'
   slug: augsburg
   sluggable_id: eb6865f6-9a30-4e23-a6ad-c3909abeb7eb
   sluggable_type: Locations::City
 FriendlyId::Slug_871ab0c1-cb88-4958-a064-6666806931b7:
   id: 871ab0c1-cb88-4958-a064-6666806931b7
-  created_at: '2026-08-29 20:41:37.895366'
   slug: sophienstrasse-7
   sluggable_id: de341e80-9be5-4433-8ac2-fad47d4775b1
   sluggable_type: Locations::Address
 FriendlyId::Slug_87b1f623-e4c8-418f-ab31-272dc3d6a132:
   id: 87b1f623-e4c8-418f-ab31-272dc3d6a132
-  created_at: '2026-04-23 18:51:44.731179'
   slug: hans-schnedlitz
   sluggable_id: 21b0b842-40b4-41b8-a798-8c417ef40986
   sluggable_type: Entities::Person
 FriendlyId::Slug_89bc3479-7999-466e-b3d8-6bd23c25ba36:
   id: 89bc3479-7999-466e-b3d8-6bd23c25ba36
-  created_at: '2026-08-29 20:27:26.565238'
   slug: rossmarkt-6
   sluggable_id: 9dac9d5e-1951-48e5-b771-fce25fad6942
   sluggable_type: Locations::Address
 FriendlyId::Slug_8a936470-acae-4fb2-a57e-587e42ec2c87:
   id: 8a936470-acae-4fb2-a57e-587e42ec2c87
-  created_at: '2026-08-29 21:14:24.251116'
   slug: melli-beese-strasse-5
   sluggable_id: ce312dce-0d8a-4a65-8c49-8716f396a1f3
   sluggable_type: Locations::Address
 FriendlyId::Slug_8b54fe60-c5c8-428c-82e9-055691087a8b:
   id: 8b54fe60-c5c8-428c-82e9-055691087a8b
-  created_at: '2026-08-29 20:57:02.141903'
   slug: crewmeister-office
   sluggable_id: e06fb1e7-d75b-4347-bef5-ab4b83b44d37
   sluggable_type: Venues::Venue
 FriendlyId::Slug_92b1a054-83a6-493d-8c1a-a4d265d25b27:
   id: 92b1a054-83a6-493d-8c1a-a4d265d25b27
-  created_at: '2026-08-29 20:26:25.885911'
   slug: erika-mann-strasse-23
   sluggable_id: 16d4466b-429f-47c5-bcbd-ad142314371f
   sluggable_type: Locations::Address
 FriendlyId::Slug_97e9fb7c-2190-4cab-99fa-61a9f62c81c1:
   id: 97e9fb7c-2190-4cab-99fa-61a9f62c81c1
-  created_at: '2026-08-29 20:40:44.734156'
   slug: bayerstrasse-69
   sluggable_id: ab12dea4-bf3e-421b-a51c-099f3c18bf3e
   sluggable_type: Locations::Address
 FriendlyId::Slug_992b041e-2c1a-4304-a176-a324c927640d:
   id: 992b041e-2c1a-4304-a176-a324c927640d
-  created_at: '2026-04-23 18:52:19.533241'
   slug: aron-wolf
   sluggable_id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
   sluggable_type: Entities::Person
 FriendlyId::Slug_9bc3f97a-9fb5-4384-bd77-0cf1967d108a:
   id: 9bc3f97a-9fb5-4384-bd77-0cf1967d108a
-  created_at: '2026-08-29 20:25:52.955569'
   slug: arnulfstrasse-52
   sluggable_id: acc4d061-e232-4610-ad84-26be50187b1b
   sluggable_type: Locations::Address
 FriendlyId::Slug_9d3bd144-cc16-49b2-8aba-77eaab7bf24d:
   id: 9d3bd144-cc16-49b2-8aba-77eaab7bf24d
-  created_at: '2026-08-29 21:09:52.571569'
   slug: balanstrasse-73
   sluggable_id: f7fe8226-b68a-4ec5-b626-1bcf94ce185a
   sluggable_type: Locations::Address
 FriendlyId::Slug_9d62f44c-9b03-4091-b588-905e489c85b3:
   id: 9d62f44c-9b03-4091-b588-905e489c85b3
-  created_at: '2026-09-01 17:40:52.229562'
   slug: arabellastrasse-23
   sluggable_id: 87cf3aa0-21d6-48f8-8c8c-0169d9e3be81
   sluggable_type: Locations::Address
 FriendlyId::Slug_a1652cce-7218-4484-a2f0-749cab9b02c9:
   id: a1652cce-7218-4484-a2f0-749cab9b02c9
-  created_at: '2026-08-29 20:43:20.130396'
   slug: hamburgerei-eins
   sluggable_id: 6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f
   sluggable_type: Venues::Venue
 FriendlyId::Slug_a62d30fe-eba8-4b03-b26a-3c76277dd2c9:
   id: a62d30fe-eba8-4b03-b26a-3c76277dd2c9
-  created_at: '2026-08-23 18:59:03.192911'
   slug: munich
   sluggable_id: 8fe75465-9580-41ae-ba9f-80914da04b89
   sluggable_type: Locations::City
 FriendlyId::Slug_a8a606b6-75f3-4788-9ebf-f0d57fecb333:
   id: a8a606b6-75f3-4788-9ebf-f0d57fecb333
-  created_at: '2026-08-29 20:29:04.597215'
   slug: flobby-media-office
   sluggable_id: 69821224-9122-4f4f-afa2-ea45b4356aa1
   sluggable_type: Venues::Venue
 FriendlyId::Slug_ae1aa08e-52ea-4f1a-96c8-e9e5c30f6f25:
   id: ae1aa08e-52ea-4f1a-96c8-e9e5c30f6f25
-  created_at: '2026-04-23 19:02:08.264613'
   slug: munich-rubyshift-org-goes-live
   sluggable_id: '097ea9bd-b75f-4ee5-8ce8-935902d7faca'
   sluggable_type: Talks::Talk
 FriendlyId::Slug_b0bec286-2dc4-4b98-b0c6-d3a112eb0410:
   id: b0bec286-2dc4-4b98-b0c6-d3a112eb0410
-  created_at: '2026-08-29 20:45:07.919622'
   slug: fidor-bank-office
   sluggable_id: 90a84792-1569-45c1-9c35-9e3a708e75c4
   sluggable_type: Venues::Venue
 FriendlyId::Slug_b1017c04-f3e8-44d0-9e66-5c6ec21d3ecd:
   id: b1017c04-f3e8-44d0-9e66-5c6ec21d3ecd
-  created_at: '2026-08-29 20:47:07.719135'
   slug: workday-office
   sluggable_id: 59fc696b-609c-4177-9afa-669185fb0dd7
   sluggable_type: Venues::Venue
 FriendlyId::Slug_b4daa862-5dce-46ae-bf7b-51dc748716e1:
   id: b4daa862-5dce-46ae-bf7b-51dc748716e1
-  created_at: '2026-08-29 20:48:19.093121'
   slug: burda-bootcamp
   sluggable_id: 00ab037e-02fc-41f7-88c3-3d5147c1bb5f
   sluggable_type: Venues::Venue
 FriendlyId::Slug_b5d922a7-b930-4e19-8dc6-abf010358dfd:
   id: b5d922a7-b930-4e19-8dc6-abf010358dfd
-  created_at: '2026-04-23 19:01:57.741332'
   slug: gems-are-overrated
   sluggable_id: 2e0e8a82-1b67-4fc4-9e2a-7379f96661cf
   sluggable_type: Talks::Talk
 FriendlyId::Slug_b6ff5122-77aa-465b-b49f-8e488fe53b43:
   id: b6ff5122-77aa-465b-b49f-8e488fe53b43
-  created_at: '2026-09-01 17:41:55.877666'
   slug: rosenheimer-strasse-145e
   sluggable_id: 7a2d5886-0641-4104-8c8b-0cd62265fe5a
   sluggable_type: Locations::Address
 FriendlyId::Slug_bdf7948f-0763-43de-b228-dd600d852baa:
   id: bdf7948f-0763-43de-b228-dd600d852baa
-  created_at: '2026-08-29 20:40:12.283074'
   slug: shore-office
   sluggable_id: acac167f-0957-4586-bcca-7ffa3ed8f06a
   sluggable_type: Venues::Venue
 FriendlyId::Slug_c4c0f697-cdc0-4127-ad39-458d330a5c7a:
   id: c4c0f697-cdc0-4127-ad39-458d330a5c7a
-  created_at: '2026-08-29 21:01:40.959776'
   slug: arnulfstrasse-126
   sluggable_id: 69484e6d-af88-490c-b9b9-ab961209ce10
   sluggable_type: Locations::Address
 FriendlyId::Slug_c4ee3f3c-f4ba-4dcf-b047-267ff108e5ac:
   id: c4ee3f3c-f4ba-4dcf-b047-267ff108e5ac
-  created_at: '2026-08-23 18:59:03.219402'
   slug: berg-am-laim-strasse-111
   sluggable_id: b67de432-baa6-472d-b97f-6da7f18e8b19
   sluggable_type: Locations::Address
 FriendlyId::Slug_c6dde27d-d7b1-43e3-9580-8e6d817bfc90:
   id: c6dde27d-d7b1-43e3-9580-8e6d817bfc90
-  created_at: '2026-08-29 20:44:28.223518'
   slug: xing-events-office
   sluggable_id: '08636c17-b994-421c-abc6-c14be18e2502'
   sluggable_type: Venues::Venue
 FriendlyId::Slug_c9a3dd6d-ba37-4cdf-b419-5d438e77e61b:
   id: c9a3dd6d-ba37-4cdf-b419-5d438e77e61b
-  created_at: '2026-08-29 21:07:11.205795'
   slug: christoph-rapparini-bogen-23
   sluggable_id: 56c87d8f-ae59-4c6b-a5c7-e0a4f44b1a71
   sluggable_type: Locations::Address
 FriendlyId::Slug_cb1877a0-3841-417a-be78-4ad3f9c81f39:
   id: cb1877a0-3841-417a-be78-4ad3f9c81f39
-  created_at: '2026-08-29 20:30:44.454023'
   slug: codecentric-office
   sluggable_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
   sluggable_type: Venues::Venue
 FriendlyId::Slug_cd8912c8-d3b0-4503-9324-e915c887d5ea:
   id: cd8912c8-d3b0-4503-9324-e915c887d5ea
-  created_at: '2026-08-29 20:25:15.104871'
   slug: jetbrains-office
   sluggable_id: f6bb5d43-abdf-464f-ab91-b68855b122c2
   sluggable_type: Venues::Venue
 FriendlyId::Slug_d01b57e3-b7df-4527-9509-85a739773da3:
   id: d01b57e3-b7df-4527-9509-85a739773da3
-  created_at: '2026-09-01 17:49:05.771992'
   slug: infanteriestrasse-19-haus-6
   sluggable_id: 581c789e-6408-4f1d-8a23-43ae147b210b
   sluggable_type: Locations::Address
 FriendlyId::Slug_d3bec290-c17a-4295-a777-ff84fa2fbae3:
   id: d3bec290-c17a-4295-a777-ff84fa2fbae3
-  created_at: '2026-08-29 19:28:49.815069'
   slug: elsenheimerstrasse-47
   sluggable_id: 84287654-9b30-432f-9930-caa933469041
   sluggable_type: Locations::Address
 FriendlyId::Slug_d77eca6a-5f14-4491-a174-faab8b827a6a:
   id: d77eca6a-5f14-4491-a174-faab8b827a6a
-  created_at: '2026-08-29 20:49:14.189169'
   slug: arri-media-office
   sluggable_id: 522de6d8-fb07-4a30-ab14-b7c8987ab943
   sluggable_type: Venues::Venue
 FriendlyId::Slug_d809c27c-61a3-4850-a985-ee83e992d146:
   id: d809c27c-61a3-4850-a985-ee83e992d146
-  created_at: '2026-08-29 21:10:11.370851'
   slug: le-wagon-munich-coding-bootcamp
   sluggable_id: 63b14137-3cdb-4f1a-88bc-860c5e4f2223
   sluggable_type: Venues::Venue
 FriendlyId::Slug_e21ac3c2-06ff-4c32-a07b-c441457502c2:
   id: e21ac3c2-06ff-4c32-a07b-c441457502c2
-  created_at: '2026-08-29 21:03:36.157297'
   slug: christkindlmarkt-am-sendlinger-tor
   sluggable_id: 92b5edb8-2adb-4ab7-9f06-017d2f0e64c4
   sluggable_type: Venues::Venue
 FriendlyId::Slug_e2ca6c83-0418-4477-9613-cdd76a427701:
   id: e2ca6c83-0418-4477-9613-cdd76a427701
-  created_at: '2026-08-29 21:11:29.305497'
   slug: dataguard-office-2
   sluggable_id: ca9606cd-d8e0-4c53-8f0f-ee59fda172f4
   sluggable_type: Venues::Venue
 FriendlyId::Slug_faddacd9-d3f4-4922-9734-abf55cf24b3f:
   id: faddacd9-d3f4-4922-9734-abf55cf24b3f
-  created_at: '2026-09-01 17:42:53.978469'
   slug: elsenheimerstrasse-55a
   sluggable_id: a2b3bfc0-9fa5-4a08-a546-7d15ad158735
   sluggable_type: Locations::Address

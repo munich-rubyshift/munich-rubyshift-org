@@ -3,7 +3,6 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
   banner_background: ''
   channel_id: ''
-  created_at: '2026-04-23 18:58:05.191875'
   date_precision: ''
   description: ''
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
@@ -24,7 +23,6 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   tickets_url: ''
   title: Meetup-April-2026
   twitter: ''
-  updated_at: '2026-04-23 18:58:05.191875'
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   website: ''
   youtube: ''

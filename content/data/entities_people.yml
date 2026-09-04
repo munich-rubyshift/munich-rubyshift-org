@@ -2,7 +2,6 @@
 Entities::Person_21b0b842-40b4-41b8-a798-8c417ef40986:
   id: 21b0b842-40b4-41b8-a798-8c417ef40986
   bluesky: https://bsky.app/profile/hschne
-  created_at: '2026-04-23 18:51:44.717733'
   github: hschne
   linkedin: https://www.linkedin.com/in/hschne
   mastodon: https://ruby.social/@hschne
@@ -11,12 +10,10 @@ Entities::Person_21b0b842-40b4-41b8-a798-8c417ef40986:
   slug: hans-schnedlitz
   speakerdeck: ''
   twitter: https://x.com/hschnedlitz
-  updated_at: '2026-05-10 19:25:08.781938'
   website: https://www.hansschnedlitz.com/
 Entities::Person_536bc1f5-5f7f-4f1b-b6b6-e5e101b65906:
   id: 536bc1f5-5f7f-4f1b-b6b6-e5e101b65906
   bluesky: ''
-  created_at: '2026-04-23 18:52:25.423485'
   github: ''
   linkedin: ''
   mastodon: ''
@@ -25,12 +22,10 @@ Entities::Person_536bc1f5-5f7f-4f1b-b6b6-e5e101b65906:
   slug: klaus-weidinger
   speakerdeck: ''
   twitter: ''
-  updated_at: '2026-04-23 18:52:25.423485'
   website: ''
 Entities::Person_92834ea5-e9a2-4485-ae6c-5a1c420ff3b5:
   id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
   bluesky: ''
-  created_at: '2026-04-23 18:52:19.529552'
   github: ''
   linkedin: ''
   mastodon: ''
@@ -39,5 +34,4 @@ Entities::Person_92834ea5-e9a2-4485-ae6c-5a1c420ff3b5:
   slug: aron-wolf
   speakerdeck: ''
   twitter: ''
-  updated_at: '2026-04-23 18:52:19.529552'
   website: ''
