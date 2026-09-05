@@ -182,6 +182,13 @@ Rails.application.config.to_prepare do
   next if Avo::BaseResource.const_defined?(:ID_FIELD_OPTIONS, false)
 
   class Avo::BaseResource
+    # Left alone, Avo labels a record with the first of `name`, `title`, `label`
+    # or `to_param` it finds, so a model owning none of those columns was headed
+    # by its UUID. Every model says what it is called in `to_s` already, and the
+    # index sorts a belongs_to column by that same string, so naming it here is
+    # what stops a column sorting on one thing and printing another.
+    self.title = :to_s
+
     # The procs run through Avo::ExecutionContext, which `instance_exec`s them, so
     # `value`, `record` and `main_app` resolve at call time, not from here.
     ID_FIELD_OPTIONS = {
