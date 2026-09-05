@@ -89,6 +89,11 @@ FriendlyId::Slug_1fc8b469-217b-48d4-8066-a2e1057b2f33:
   slug: freeletics-office-2
   sluggable_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   sluggable_type: Venues::Venue
+FriendlyId::Slug_21e6b925-beb0-4135-9001-e59ba01f12e5:
+  id: 21e6b925-beb0-4135-9001-e59ba01f12e5
+  slug: meetup-2014-01-08
+  sluggable_id: 74ad1707-f344-4743-916f-c5c2a89c27bd
+  sluggable_type: Events::Event
 FriendlyId::Slug_22882041-56af-43fe-8e99-5eb69887796f:
   id: 22882041-56af-43fe-8e99-5eb69887796f
   slug: makandra-office
@@ -154,6 +159,11 @@ FriendlyId::Slug_42ff83c4-dfaa-4749-b539-16b318f193ae:
   slug: location-drinks-by-freeletics
   sluggable_id: 8c929ce2-4102-45c1-951e-ed14515f0a16
   sluggable_type: Sponsors::Sponsorship
+FriendlyId::Slug_440abdfa-e6f0-4582-a00c-28019b667a48:
+  id: 440abdfa-e6f0-4582-a00c-28019b667a48
+  slug: meetup-2014-05-14
+  sluggable_id: 4b2f97a8-d845-475d-8fea-b1f796ab99ad
+  sluggable_type: Events::Event
 FriendlyId::Slug_46d10e05-850a-4453-b63c-a29434159c14:
   id: 46d10e05-850a-4453-b63c-a29434159c14
   slug: blutenburgstrasse-43
@@ -304,6 +314,11 @@ FriendlyId::Slug_89bc3479-7999-466e-b3d8-6bd23c25ba36:
   slug: rossmarkt-6
   sluggable_id: 9dac9d5e-1951-48e5-b771-fce25fad6942
   sluggable_type: Locations::Address
+FriendlyId::Slug_89f5bb6c-79b0-4a5a-8306-8f8f38ec97be:
+  id: 89f5bb6c-79b0-4a5a-8306-8f8f38ec97be
+  slug: meetup-2014-12-10
+  sluggable_id: 3da697ff-0994-4966-a445-1d2b0bfa0a55
+  sluggable_type: Events::Event
 FriendlyId::Slug_8a936470-acae-4fb2-a57e-587e42ec2c87:
   id: 8a936470-acae-4fb2-a57e-587e42ec2c87
   slug: melli-beese-strasse-5
@@ -334,6 +349,11 @@ FriendlyId::Slug_992b041e-2c1a-4304-a176-a324c927640d:
   slug: aron-wolf
   sluggable_id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
   sluggable_type: Entities::Person
+FriendlyId::Slug_9a3948c7-c98b-4702-8326-e3a4f012ce14:
+  id: 9a3948c7-c98b-4702-8326-e3a4f012ce14
+  slug: meetup-2014-02-12
+  sluggable_id: 764df804-c67c-4803-84b3-4221968642fb
+  sluggable_type: Events::Event
 FriendlyId::Slug_9bc3f97a-9fb5-4384-bd77-0cf1967d108a:
   id: 9bc3f97a-9fb5-4384-bd77-0cf1967d108a
   slug: arnulfstrasse-52
@@ -364,6 +384,11 @@ FriendlyId::Slug_a8a606b6-75f3-4788-9ebf-f0d57fecb333:
   slug: flobby-media-office
   sluggable_id: 69821224-9122-4f4f-afa2-ea45b4356aa1
   sluggable_type: Venues::Venue
+FriendlyId::Slug_ab9d97c8-bcb0-4c05-ba6e-a2c4afd005f0:
+  id: ab9d97c8-bcb0-4c05-ba6e-a2c4afd005f0
+  slug: meetup-2014-07-09
+  sluggable_id: 1d63997d-ac93-4cfb-8046-ebed6b6dec89
+  sluggable_type: Events::Event
 FriendlyId::Slug_ae1aa08e-52ea-4f1a-96c8-e9e5c30f6f25:
   id: ae1aa08e-52ea-4f1a-96c8-e9e5c30f6f25
   slug: munich-rubyshift-org-goes-live
@@ -404,6 +429,11 @@ FriendlyId::Slug_bdf7948f-0763-43de-b228-dd600d852baa:
   slug: shore-office
   sluggable_id: acac167f-0957-4586-bcca-7ffa3ed8f06a
   sluggable_type: Venues::Venue
+FriendlyId::Slug_c401802d-3b4f-4d18-bbbc-a0372c0ccbac:
+  id: c401802d-3b4f-4d18-bbbc-a0372c0ccbac
+  slug: meetup-2014-06-11
+  sluggable_id: 55840eb2-652e-4c96-85f0-d8e8f4de320a
+  sluggable_type: Events::Event
 FriendlyId::Slug_c4c0f697-cdc0-4127-ad39-458d330a5c7a:
   id: c4c0f697-cdc0-4127-ad39-458d330a5c7a
   slug: arnulfstrasse-126
@@ -474,8 +504,28 @@ FriendlyId::Slug_e2ca6c83-0418-4477-9613-cdd76a427701:
   slug: dataguard-office-2
   sluggable_id: ca9606cd-d8e0-4c53-8f0f-ee59fda172f4
   sluggable_type: Venues::Venue
+FriendlyId::Slug_e669de48-24a3-4ef8-83e5-f40b32f22bea:
+  id: e669de48-24a3-4ef8-83e5-f40b32f22bea
+  slug: meetup-2014-03-12
+  sluggable_id: d09e00e9-b43f-49d8-b211-9d09abfc482a
+  sluggable_type: Events::Event
+FriendlyId::Slug_ebde770f-a11a-48e0-9d4e-db3878ea187e:
+  id: ebde770f-a11a-48e0-9d4e-db3878ea187e
+  slug: meetup-2014-04-09
+  sluggable_id: b4664359-c1e2-4611-a19e-b8e5cf1d8344
+  sluggable_type: Events::Event
+FriendlyId::Slug_f0ec0d88-ecdd-49a9-a336-03b06df79b28:
+  id: f0ec0d88-ecdd-49a9-a336-03b06df79b28
+  slug: meetup-2014-08-13
+  sluggable_id: 721e3030-460f-48ae-a545-cf81cb327b67
+  sluggable_type: Events::Event
 FriendlyId::Slug_faddacd9-d3f4-4922-9734-abf55cf24b3f:
   id: faddacd9-d3f4-4922-9734-abf55cf24b3f
   slug: elsenheimerstrasse-55a
   sluggable_id: a2b3bfc0-9fa5-4a08-a546-7d15ad158735
   sluggable_type: Locations::Address
+FriendlyId::Slug_fc205309-b661-4942-8e16-3595ab25e8e6:
+  id: fc205309-b661-4942-8e16-3595ab25e8e6
+  slug: meetup-2014-09-10
+  sluggable_id: 81289cc1-6ab1-408c-9f39-dde415b27a20
+  sluggable_type: Events::Event
