@@ -7,6 +7,9 @@ class Avo::Resources::LocationsCity < Avo::BaseResource
   #   query: -> { query.ransack(id_eq: q, m: "or").result(distinct: false) }
   # }
 
+  self.default_sort_column = :name
+  self.default_sort_direction = :asc
+
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
