@@ -194,4 +194,16 @@ Rails.application.config.to_prepare do
       format_display_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     }.freeze
   end
+
+  class Avo::Fields::DateField
+    # Allow typing for all Flatpickr inputs.
+    # All date and time inputs inherit from DateField
+    module TypeableInput
+      def picker_options
+        { allowInput: true }.merge(super)
+      end
+    end
+
+    prepend TypeableInput
+  end
 end
