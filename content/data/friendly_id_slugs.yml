@@ -14,11 +14,26 @@ FriendlyId::Slug_01fcef95-ec40-4c77-8059-587831a6c9b7:
   slug: innere-wiener-strasse-19
   sluggable_id: d145e416-b509-4606-874b-9a62dd18d9bd
   sluggable_type: Locations::Address
+FriendlyId::Slug_022e45a9-028b-4ff1-9506-f636cd85fe68:
+  id: 022e45a9-028b-4ff1-9506-f636cd85fe68
+  slug: meetup-2018-11-14
+  sluggable_id: c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e
+  sluggable_type: Events::Event
 FriendlyId::Slug_0a1894df-b694-4a99-95df-61b7a3f57a48:
   id: 0a1894df-b694-4a99-95df-61b7a3f57a48
   slug: freeletics
   sluggable_id: e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e
   sluggable_type: Entities::Organization
+FriendlyId::Slug_0bd26d33-ade5-477f-b954-2b25a46b24f9:
+  id: 0bd26d33-ade5-477f-b954-2b25a46b24f9
+  slug: meetup-2018-09-12
+  sluggable_id: 7e676004-2eb5-412a-85c5-ac137f22e7d7
+  sluggable_type: Events::Event
+FriendlyId::Slug_0c4119aa-8f44-4659-9706-db132f38d552:
+  id: 0c4119aa-8f44-4659-9706-db132f38d552
+  slug: meetup-2018-02-21
+  sluggable_id: 4078ef3a-7555-429d-9a49-2d7a0fb65e01
+  sluggable_type: Events::Event
 FriendlyId::Slug_0ceb2935-df05-4dba-8de0-fe0c539e628b:
   id: 0ceb2935-df05-4dba-8de0-fe0c539e628b
   slug: xempus-office
@@ -59,6 +74,11 @@ FriendlyId::Slug_1025a4ef-b631-4767-9110-d49c6e5fe406:
   slug: meetup-2015-08-12
   sluggable_id: a6f30940-39ab-4e6e-9bb1-bf94d61070f5
   sluggable_type: Events::Event
+FriendlyId::Slug_1078a2f3-fd30-45c2-861c-9feb2b48aaef:
+  id: 1078a2f3-fd30-45c2-861c-9feb2b48aaef
+  slug: meetup-2018-08-08
+  sluggable_id: 4ef3c58d-c767-4e65-a36b-21383e9d2b8e
+  sluggable_type: Events::Event
 FriendlyId::Slug_155dbfa4-b20f-4b1f-a461-5f822b38031f:
   id: 155dbfa4-b20f-4b1f-a461-5f822b38031f
   slug: lenbachplatz-3
@@ -74,6 +94,11 @@ FriendlyId::Slug_189b7cc7-60a8-4b55-94d1-a2f0b8581166:
   slug: metoda-office
   sluggable_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   sluggable_type: Venues::Venue
+FriendlyId::Slug_19919dba-59af-4024-a418-22b66642c1c9:
+  id: 19919dba-59af-4024-a418-22b66642c1c9
+  slug: meetup-2018-05-09
+  sluggable_id: 11b7a50f-1889-41e6-91bc-53d19cd66d70
+  sluggable_type: Events::Event
 FriendlyId::Slug_1b2d0fd9-3bf1-470e-862f-f74bb80a24bf:
   id: 1b2d0fd9-3bf1-470e-862f-f74bb80a24bf
   slug: hackathon-2013-12-10
@@ -129,6 +154,11 @@ FriendlyId::Slug_23383c92-8879-478d-8729-2a2260591443:
   slug: former-03-office
   sluggable_id: 4f816bec-c6ce-4776-947f-fa6551d18108
   sluggable_type: Venues::Venue
+FriendlyId::Slug_251bab62-1ef8-4bc7-a454-2692020c76ab:
+  id: 251bab62-1ef8-4bc7-a454-2692020c76ab
+  slug: meetup-2018-04-11
+  sluggable_id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
+  sluggable_type: Events::Event
 FriendlyId::Slug_2bddcbbd-c84d-4d70-827e-7586a67795d6:
   id: 2bddcbbd-c84d-4d70-827e-7586a67795d6
   slug: meetup-2017-08-09
@@ -208,6 +238,11 @@ FriendlyId::Slug_440abdfa-e6f0-4582-a00c-28019b667a48:
   id: 440abdfa-e6f0-4582-a00c-28019b667a48
   slug: meetup-2014-05-14
   sluggable_id: 4b2f97a8-d845-475d-8fea-b1f796ab99ad
+  sluggable_type: Events::Event
+FriendlyId::Slug_4410d66e-215e-4f15-8940-66d468d34fa6:
+  id: 4410d66e-215e-4f15-8940-66d468d34fa6
+  slug: meetup-2018-01-24
+  sluggable_id: c8a5aa43-7139-44ce-8b2f-53a6c508de2e
   sluggable_type: Events::Event
 FriendlyId::Slug_46d10e05-850a-4453-b63c-a29434159c14:
   id: 46d10e05-850a-4453-b63c-a29434159c14
@@ -359,6 +394,11 @@ FriendlyId::Slug_7560c164-8ecf-4ca4-92c7-b71bd31df63c:
   slug: meetup-2015-03-11
   sluggable_id: 881f5ab6-f105-4900-a67a-1752ac42874d
   sluggable_type: Events::Event
+FriendlyId::Slug_76d43f64-5e61-4625-b086-1e766a180576:
+  id: 76d43f64-5e61-4625-b086-1e766a180576
+  slug: meetup-2018-10-10
+  sluggable_id: ac48d30d-2724-434c-815e-6853b1f10109
+  sluggable_type: Events::Event
 FriendlyId::Slug_77043539-5a0f-4102-9e30-e91e56da4b7b:
   id: 77043539-5a0f-4102-9e30-e91e56da4b7b
   slug: meetup-2016-02-10
@@ -399,6 +439,11 @@ FriendlyId::Slug_85906f15-17dd-499c-a49d-bb8dcf212c63:
   slug: augsburg
   sluggable_id: eb6865f6-9a30-4e23-a6ad-c3909abeb7eb
   sluggable_type: Locations::City
+FriendlyId::Slug_864c6afd-95c2-4f7a-839e-4354b644d11c:
+  id: 864c6afd-95c2-4f7a-839e-4354b644d11c
+  slug: meetup-2018-12-12
+  sluggable_id: 53be3fcb-a991-4780-a53e-111ad902bb66
+  sluggable_type: Events::Event
 FriendlyId::Slug_871ab0c1-cb88-4958-a064-6666806931b7:
   id: 871ab0c1-cb88-4958-a064-6666806931b7
   slug: sophienstrasse-7
@@ -509,6 +554,11 @@ FriendlyId::Slug_a62d30fe-eba8-4b03-b26a-3c76277dd2c9:
   slug: munich
   sluggable_id: 8fe75465-9580-41ae-ba9f-80914da04b89
   sluggable_type: Locations::City
+FriendlyId::Slug_a726c806-c177-4209-b2d7-6e690c0c57e2:
+  id: a726c806-c177-4209-b2d7-6e690c0c57e2
+  slug: meetup-2018-03-14
+  sluggable_id: 13cf2eb5-4055-4ae5-be56-c18eb875f5bc
+  sluggable_type: Events::Event
 FriendlyId::Slug_a8a606b6-75f3-4788-9ebf-f0d57fecb333:
   id: a8a606b6-75f3-4788-9ebf-f0d57fecb333
   slug: flobby-media-office
@@ -694,6 +744,11 @@ FriendlyId::Slug_f0ec0d88-ecdd-49a9-a336-03b06df79b28:
   slug: meetup-2014-08-13
   sluggable_id: 721e3030-460f-48ae-a545-cf81cb327b67
   sluggable_type: Events::Event
+FriendlyId::Slug_f4d92fe1-dc4e-4157-9dca-c46138318780:
+  id: f4d92fe1-dc4e-4157-9dca-c46138318780
+  slug: meetup-2018-07-18
+  sluggable_id: e56124e4-1e66-411c-a794-41ea348d7504
+  sluggable_type: Events::Event
 FriendlyId::Slug_faddacd9-d3f4-4922-9734-abf55cf24b3f:
   id: faddacd9-d3f4-4922-9734-abf55cf24b3f
   slug: elsenheimerstrasse-55a
@@ -708,4 +763,9 @@ FriendlyId::Slug_fdc04e36-0efc-4aab-8680-bac301685879:
   id: fdc04e36-0efc-4aab-8680-bac301685879
   slug: meetup-2016-03-09
   sluggable_id: e1b18b13-48e8-4aa0-b9c3-cf01423d46d4
+  sluggable_type: Events::Event
+FriendlyId::Slug_fe8e5738-cd65-4d37-9223-85d4934f82fb:
+  id: fe8e5738-cd65-4d37-9223-85d4934f82fb
+  slug: meetup-2018-06-13
+  sluggable_id: 2a94bfd1-b358-439f-81ea-c5f6a4075d8e
   sluggable_type: Events::Event
