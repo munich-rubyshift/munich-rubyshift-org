@@ -803,6 +803,37 @@ Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   website: ''
   youtube: ''
+Events::Event_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
+  id: 4f32d5b3-03fd-42fa-bacf-c544b11ac6bd
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "\U0001F5F2 Lightning Talks\r\n\r\nRuby Coding - My pitfall with String#split
+    by Uli\r\n\r\nWe're actively searching for speakers! Want to become one? Ping
+    us!"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2020-01-08
+  start_date: '2020-01-08'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/267360270/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
+  website: ''
+  youtube: ''
 Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
   id: 502aa3dd-a00b-4234-82f7-63f085564b54
   attendance_mode: in_person
@@ -1743,6 +1774,37 @@ Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
   youtube: ''
+Events::Event_a4070744-c531-4689-941a-d8ebdccdfbe8:
+  id: a4070744-c531-4689-941a-d8ebdccdfbe8
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "\U0001F3A4 Oliver Prater: Interacting with Kubernetes via Ruby\r\n\U0001F3A4
+    Aron Wolf: Refactoring service and query objects in Rails\r\n\r\nWe're always
+    searching for speakers! Want to give a talk at our next meetup? Get in touch!"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2020-02-12
+  start_date: '2020-02-12'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/268082288/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 7ccf4041-03b7-452a-a7f1-efa5d22e96d4
+  website: ''
+  youtube: ''
 Events::Event_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
   id: a6f30940-39ab-4e6e-9bb1-bf94d61070f5
   attendance_mode: in_person
@@ -1959,6 +2021,66 @@ Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
+  website: ''
+  youtube: ''
+Events::Event_b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5:
+  id: b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: We're actively searching for speakers! Want to become one? Ping us!
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2020-05-13
+  start_date: '2020-05-13'
+  start_time: '2000-01-01 17:00:00'
+  status: cancelled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/270509881/
+  title: Ruby User Group Meetup
+  twitter: ''
+  website: ''
+  youtube: ''
+Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
+  id: bb626d8b-beff-4d94-b095-d3a73a369ebb
+  attendance_mode: online
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Hi everyone! Next week will be our first online meetup!\r\n\r\nWe're
+    open for quick ad-hoc lightning talks – please get in touch with Bascht if you
+    want to present something. :-)\r\n\r\nIf you want to test your Audio / Video Setup
+    or suggest a talk / topic:\r\n\r\nBascht will be on Jitsi on Wednesday, April
+    8th at 7pm CEST."
+  end_time: '2000-01-01 18:30:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2020-04-15
+  start_date: '2020-04-15'
+  start_time: '2000-01-01 17:00:00'
+  status: cancelled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/269643042/
+  title: Ruby User Group Meetup
+  twitter: ''
   website: ''
   youtube: ''
 Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
@@ -2249,6 +2371,34 @@ Events::Event_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   website: ''
   youtube: ''
+Events::Event_da4b79dd-3013-476b-8fa3-96e7666e56a9:
+  id: da4b79dd-3013-476b-8fa3-96e7666e56a9
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: We're actively searching for speakers! Want to become one? Ping us!
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2020-06-10
+  start_date: '2020-06-10'
+  start_time: '2000-01-01 17:00:00'
+  status: cancelled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/271084351/
+  title: Ruby User Group Meetup
+  twitter: ''
+  website: ''
+  youtube: ''
 Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
   id: dde2695f-80c5-48a6-a450-ad8b5948c1db
   attendance_mode: in_person
@@ -2314,6 +2464,38 @@ Events::Event_de01ca60-b027-46c8-9735-c6447c68d575:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
+  website: ''
+  youtube: ''
+Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
+  id: e0cc630a-9b72-4f95-badd-f14e16595224
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Hi everyone! We are hosted at xbAV and will have two talks lined up
+    for Wednesday night:\r\n\r\n\U0001F3A4 Karol Lewcio – 1, 1, 2, 3… different ways
+    to Fibonacci\r\n\U0001F3A4 Pavlo Masko – To Rails or not to Rails? Way to go.\r\n\r\nFood
+    and drinks will be provided – we are looking forward to y'all!"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2020-03-11
+  start_date: '2020-03-11'
+  start_time: '2000-01-01 17:00:00'
+  status: cancelled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/267986885/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
   website: ''
   youtube: ''
 Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
