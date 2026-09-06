@@ -49,6 +49,67 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
   website: ''
   youtube: ''
+Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
+  id: 137da0d0-aa0f-4fc0-84de-933aae3c47de
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Join us for our February Meetup!\r\n\r\nWe have\r\n\r\n• Marco Otte-Witte:
+    Rails backends with Ember.js front ends\r\n\r\n... and we could use another 1
+    or 2 talks :-)"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-02-11
+  start_date: '2015-02-11'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/219853849/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+  youtube: ''
+Events::Event_159e036d-87af-4d9b-bbc4-a2adf07f48e1:
+  id: 159e036d-87af-4d9b-bbc4-a2adf07f48e1
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Talks:\r\n\r\nJames Edward Gray II : Objects, no really.\r\n\r\nPeter
+    Schrammel: After 10 years of ruby"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-07-22
+  start_date: '2015-07-22'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711164/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
+  website: ''
+  youtube: ''
 Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
   id: 1d63997d-ac93-4cfb-8046-ebed6b6dec89
   attendance_mode: in_person
@@ -153,6 +214,36 @@ Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
   website: ''
   youtube: ''
+Events::Event_3b6374f6-81eb-4da7-9e6b-ab99549b69db:
+  id: 3b6374f6-81eb-4da7-9e6b-ab99549b69db
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "C. Eigel: Metaprogramming in Ruby\r\n\r\nSebastian Schulze : Padrino
+    and Ruby News of the Week\r\n\r\nPeter Schrammel: ActionCable"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-11-11
+  start_date: '2015-11-11'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/226159319/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
+  website: ''
+  youtube: ''
 Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
   id: 3da697ff-0994-4966-a445-1d2b0bfa0a55
   attendance_mode: in_person
@@ -252,6 +343,37 @@ Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
   title: Rails Girls Hack and Play
   twitter: ''
   venues_venue_id: 69821224-9122-4f4f-afa2-ea45b4356aa1
+  website: ''
+  youtube: ''
+Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
+  id: 51e602d3-0a7f-4842-8257-ba514e5969dd
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Miguel Regedor : Different programming paragdims with ruby\r\n\r\nSebastian
+    Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/):
+    Gerrit"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-05-13
+  start_date: '2015-05-13'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221456141/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: acac167f-0957-4586-bcca-7ffa3ed8f06a
   website: ''
   youtube: ''
 Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
@@ -565,6 +687,186 @@ Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
   youtube: ''
+Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
+  id: 881f5ab6-f105-4900-a67a-1752ac42874d
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Sebastian Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/)
+    is giving a talk on deployment.\r\n\r\nPeter Schrammel (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/98486932/)
+    will talk about websocket-rails."
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-03-11
+  start_date: '2015-03-11'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/203972372/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+  youtube: ''
+Events::Event_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
+  id: 88b1d1f2-0d79-4bc8-98b4-692410dd4d8d
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/)
+    : DIY Ruby Framework\r\n\r\nDino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/)
+    : CoffeeScript, the right and easy way"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-10-14
+  start_date: '2015-10-14'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711190/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
+  website: ''
+  youtube: ''
+Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
+  id: a30e173e-4659-4cae-915b-13d81f8e8fc3
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Peter: ActionCable\r\n\r\nSebastian: Ruby News\r\n\r\nMichael, Pau,
+    Phillip: Refugees on Rails @ Munich"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-12-09
+  start_date: '2015-12-09'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/226291420/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
+  website: ''
+  youtube: ''
+Events::Event_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
+  id: a6f30940-39ab-4e6e-9bb1-bf94d61070f5
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: This time a drinkup! It will take place at any weather (we can go inside).
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-08-12
+  start_date: '2015-08-12'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711177/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
+  website: ''
+  youtube: ''
+Events::Event_ab5a4682-4a75-46dd-bc91-4af39d48df23:
+  id: ab5a4682-4a75-46dd-bc91-4af39d48df23
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Start your new Ruby year with our January Meetup!\r\n\r\nTalks:\r\n\r\n•
+    Peter Schrammel: \"Zookeeper in your rails stack\"\r\n\r\n• Oleg: \"A Rukuli bot\""
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-01-14
+  start_date: '2015-01-14'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/216676492/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
+  website: ''
+  youtube: ''
+Events::Event_ab6dc247-9323-4567-8589-fb1953cde773:
+  id: ab6dc247-9323-4567-8589-fb1953cde773
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: We're actively searching for speakers! Want to become one? Ping us!
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-09-09
+  start_date: '2015-09-09'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711184/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f
+  website: ''
+  youtube: ''
 Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
   id: b4664359-c1e2-4611-a19e-b8e5cf1d8344
   attendance_mode: in_person
@@ -695,6 +997,37 @@ Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
   venues_venue_id: 8fd97a9c-10f1-4e65-a8c2-fd14c54a963a
   website: ''
   youtube: ''
+Events::Event_e5763033-391b-4207-b889-682d099694e3:
+  id: e5763033-391b-4207-b889-682d099694e3
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Torsten Ruger : Salama - a ruby virtual machine in 100% ruby\r\n\r\nJannis
+    Hübl (https://www.meetup.com/messages/t/mg1_mnm?convo_id=189340257864957952) :
+    An introduction to opal"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-06-10
+  start_date: '2015-06-10'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221465143/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
+  website: ''
+  youtube: ''
 Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
   attendance_mode: in_person
@@ -719,5 +1052,35 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   title: Meetup-April-2026
   twitter: ''
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
+  website: ''
+  youtube: ''
+Events::Event_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
+  id: e9ca82f3-5d65-40f9-8552-1a5a594f6e80
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "1. public, protected, private\r\n\r\n2. \"fixing the net\" a preview
+    of an OS project\r\n"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2015-04-08
+  start_date: '2015-04-08'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/220922391/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   website: ''
   youtube: ''
