@@ -479,6 +479,11 @@ FriendlyId::Slug_71c97352-2cea-4622-add7-12198b19547e:
   slug: hackathon-2013-11-29
   sluggable_id: 26873fee-6a38-4179-8b79-b800be48163d
   sluggable_type: Events::Event
+FriendlyId::Slug_751d3d82-ad0e-4e2c-9b26-d23b59ffaa82:
+  id: 751d3d82-ad0e-4e2c-9b26-d23b59ffaa82
+  slug: meetup-2026-09-24
+  sluggable_id: 4b3a7ec3-b6be-40c5-a307-1e560be7fdf3
+  sluggable_type: Events::Event
 FriendlyId::Slug_7560c164-8ecf-4ca4-92c7-b71bd31df63c:
   id: 7560c164-8ecf-4ca4-92c7-b71bd31df63c
   slug: meetup-2015-03-11
@@ -704,6 +709,11 @@ FriendlyId::Slug_b1017c04-f3e8-44d0-9e66-5c6ec21d3ecd:
   slug: workday-office
   sluggable_id: 59fc696b-609c-4177-9afa-669185fb0dd7
   sluggable_type: Venues::Venue
+FriendlyId::Slug_b1fe18fc-9233-46e5-86dd-246059a69542:
+  id: b1fe18fc-9233-46e5-86dd-246059a69542
+  slug: meetup-2026-01-22
+  sluggable_id: e0e0c374-65e9-4652-9b0e-22011412a820
+  sluggable_type: Events::Event
 FriendlyId::Slug_b4469669-45a3-4918-87d7-cb0e0d75b11d:
   id: b4469669-45a3-4918-87d7-cb0e0d75b11d
   slug: meetup-2013-12-11
@@ -844,11 +854,21 @@ FriendlyId::Slug_d9b68beb-6648-404b-adab-339394a5d2a9:
   slug: meetup-2019-11-13
   sluggable_id: 0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6
   sluggable_type: Events::Event
+FriendlyId::Slug_df4aad81-4903-4ebc-8115-27ca8a7afba6:
+  id: df4aad81-4903-4ebc-8115-27ca8a7afba6
+  slug: pharos-office
+  sluggable_id: 3236f853-c433-46ee-a6e4-070b99a632fb
+  sluggable_type: Venues::Venue
 FriendlyId::Slug_e21ac3c2-06ff-4c32-a07b-c441457502c2:
   id: e21ac3c2-06ff-4c32-a07b-c441457502c2
   slug: christkindlmarkt-am-sendlinger-tor
   sluggable_id: 92b5edb8-2adb-4ab7-9f06-017d2f0e64c4
   sluggable_type: Venues::Venue
+FriendlyId::Slug_e292eb93-c6f7-4bbc-8c7f-f14b6ec3ac5a:
+  id: e292eb93-c6f7-4bbc-8c7f-f14b6ec3ac5a
+  slug: meetup-2026-04-23
+  sluggable_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
+  sluggable_type: Events::Event
 FriendlyId::Slug_e2ca6c83-0418-4477-9613-cdd76a427701:
   id: e2ca6c83-0418-4477-9613-cdd76a427701
   slug: dataguard-office-2

@@ -149,6 +149,21 @@ Venues::Venue_31e5c809-fba0-4198-8858-a0054501d792:
   rubyevents_slug: ''
   slug: gutefrage-office
   url: ''
+Venues::Venue_3236f853-c433-46ee-a6e4-070b99a632fb:
+  id: 3236f853-c433-46ee-a6e4-070b99a632fb
+  accessibility_elevators: 0
+  accessibility_notes: ''
+  accessibility_restrooms: 0
+  accessibility_wheelchair: 0
+  description: ''
+  instructions: ''
+  locations_address_id: cdf044dc-7abf-436a-96de-596b9ed7f71c
+  name: PHAROS Office
+  nearby_parking: ''
+  nearby_public_transport: ''
+  rubyevents_slug: ''
+  slug: pharos-office
+  url: ''
 Venues::Venue_3b908116-7311-4923-b840-ed89760170f8:
   id: 3b908116-7311-4923-b840-ed89760170f8
   accessibility_elevators: 0
