@@ -49,6 +49,11 @@ FriendlyId::Slug_0d81faf9-ffb5-4c96-9d5d-0ecb2bc7548d:
   slug: nymphenburger-strasse-86
   sluggable_id: 9b3512a5-95c8-4eb6-a276-29c0bf5fd66f
   sluggable_type: Locations::Address
+FriendlyId::Slug_0db1df3d-22be-48e9-816e-cec32705ed31:
+  id: 0db1df3d-22be-48e9-816e-cec32705ed31
+  slug: meetup-2019-02-13
+  sluggable_id: eb7f7b54-12a9-431d-b16f-a866624c3ee7
+  sluggable_type: Events::Event
 FriendlyId::Slug_0ecea131-a7ea-4241-b333-87e014e56862:
   id: 0ecea131-a7ea-4241-b333-87e014e56862
   slug: riskmethods-office-2
@@ -159,6 +164,11 @@ FriendlyId::Slug_251bab62-1ef8-4bc7-a454-2692020c76ab:
   slug: meetup-2018-04-11
   sluggable_id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
   sluggable_type: Events::Event
+FriendlyId::Slug_29c87655-da45-454b-9825-d8e71d67d896:
+  id: 29c87655-da45-454b-9825-d8e71d67d896
+  slug: meetup-2019-10-09
+  sluggable_id: f9870540-7983-496c-9541-80c13c9d4120
+  sluggable_type: Events::Event
 FriendlyId::Slug_2bddcbbd-c84d-4d70-827e-7586a67795d6:
   id: 2bddcbbd-c84d-4d70-827e-7586a67795d6
   slug: meetup-2017-08-09
@@ -184,6 +194,11 @@ FriendlyId::Slug_33e2227a-eb4d-46e4-bebd-ee3939ac700d:
   slug: experteer-office
   sluggable_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   sluggable_type: Venues::Venue
+FriendlyId::Slug_34ce28b8-ddb9-46e1-a661-5a02834094f6:
+  id: 34ce28b8-ddb9-46e1-a661-5a02834094f6
+  slug: meetup-2019-08-14
+  sluggable_id: 3c718b66-d23e-48d4-bc5f-a8430392ca94
+  sluggable_type: Events::Event
 FriendlyId::Slug_351dd3bb-bed9-489f-a391-25fd86a473c9:
   id: 351dd3bb-bed9-489f-a391-25fd86a473c9
   slug: sonnenstrasse-32
@@ -224,6 +239,11 @@ FriendlyId::Slug_3ecb39c1-304d-43cd-99b2-e9464a281749:
   slug: riskmethods-office
   sluggable_id: f1d0f5b6-c721-4dd0-a632-8acec6cbcd60
   sluggable_type: Venues::Venue
+FriendlyId::Slug_40e29f93-c172-477c-8a7c-f86ca0702b1f:
+  id: 40e29f93-c172-477c-8a7c-f86ca0702b1f
+  slug: meetup-2019-06-12
+  sluggable_id: cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40
+  sluggable_type: Events::Event
 FriendlyId::Slug_428d5ba4-dc9b-457b-b1cf-b7988b87fe8a:
   id: 428d5ba4-dc9b-457b-b1cf-b7988b87fe8a
   slug: meetup-2013-10-09
@@ -259,6 +279,11 @@ FriendlyId::Slug_4941428d-ab48-4503-b675-6391259185a0:
   slug: park-cafe
   sluggable_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   sluggable_type: Venues::Venue
+FriendlyId::Slug_49a211fd-8c8c-44b4-9b5c-cc6ca6388659:
+  id: 49a211fd-8c8c-44b4-9b5c-cc6ca6388659
+  slug: meetup-2019-09-11
+  sluggable_id: aa0190f0-4e61-4234-a914-fe39d0c25a76
+  sluggable_type: Events::Event
 FriendlyId::Slug_4a9f56ea-d291-45d7-9289-cc93d5636d24:
   id: 4a9f56ea-d291-45d7-9289-cc93d5636d24
   slug: lanes-planes-office
@@ -269,6 +294,11 @@ FriendlyId::Slug_4c850e04-be73-411b-869f-5f146f1abbf5:
   slug: location-drinks
   sluggable_id: 7eaf5061-64e3-45a6-bc29-c13c03b07f72
   sluggable_type: Sponsors::SponsorTier
+FriendlyId::Slug_4f79e7d0-7dc9-46fb-8e4c-9ae76986f29f:
+  id: 4f79e7d0-7dc9-46fb-8e4c-9ae76986f29f
+  slug: meetup-2019-04-10
+  sluggable_id: 5120ef88-e9ee-49c7-8d67-5a6190d3fa63
+  sluggable_type: Events::Event
 FriendlyId::Slug_52bc7c72-4c47-4f40-9a1f-3466c94fae26:
   id: 52bc7c72-4c47-4f40-9a1f-3466c94fae26
   slug: meetup-2013-09-11
@@ -308,6 +338,11 @@ FriendlyId::Slug_5b78ad3f-545d-4806-9c6a-2ff748e83f3d:
   id: 5b78ad3f-545d-4806-9c6a-2ff748e83f3d
   slug: meetup-2015-11-11
   sluggable_id: 3b6374f6-81eb-4da7-9e6b-ab99549b69db
+  sluggable_type: Events::Event
+FriendlyId::Slug_5b9b22eb-a854-4196-b09d-ee0c1f5b5e90:
+  id: 5b9b22eb-a854-4196-b09d-ee0c1f5b5e90
+  slug: meetup-2019-05-08
+  sluggable_id: 7c40a4f1-fc58-46e7-8c96-53d3e07d5f88
   sluggable_type: Events::Event
 FriendlyId::Slug_5ed8ad6e-455f-467a-9c0f-ebc4f00f7ca9:
   id: 5ed8ad6e-455f-467a-9c0f-ebc4f00f7ca9
@@ -574,6 +609,11 @@ FriendlyId::Slug_ae1aa08e-52ea-4f1a-96c8-e9e5c30f6f25:
   slug: munich-rubyshift-org-goes-live
   sluggable_id: '097ea9bd-b75f-4ee5-8ce8-935902d7faca'
   sluggable_type: Talks::Talk
+FriendlyId::Slug_aefa80f9-0180-4b1c-a9f1-7b062fa5a4d8:
+  id: aefa80f9-0180-4b1c-a9f1-7b062fa5a4d8
+  slug: meetup-2019-03-13
+  sluggable_id: 373c99ee-c1f2-4550-8e54-3575fa1c14cc
+  sluggable_type: Events::Event
 FriendlyId::Slug_b0bec286-2dc4-4b98-b0c6-d3a112eb0410:
   id: b0bec286-2dc4-4b98-b0c6-d3a112eb0410
   slug: fidor-bank-office
@@ -699,6 +739,11 @@ FriendlyId::Slug_d93ccc75-ee4c-4147-aa7b-fa3b316d0ad3:
   slug: meetup-2013-07-10
   sluggable_id: 71a42ab5-d65d-4686-9bf6-7238a6719d66
   sluggable_type: Events::Event
+FriendlyId::Slug_d9b68beb-6648-404b-adab-339394a5d2a9:
+  id: d9b68beb-6648-404b-adab-339394a5d2a9
+  slug: meetup-2019-11-13
+  sluggable_id: 0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6
+  sluggable_type: Events::Event
 FriendlyId::Slug_e21ac3c2-06ff-4c32-a07b-c441457502c2:
   id: e21ac3c2-06ff-4c32-a07b-c441457502c2
   slug: christkindlmarkt-am-sendlinger-tor
@@ -719,6 +764,11 @@ FriendlyId::Slug_e496e0e0-0491-4b99-ae4d-cb451d26d9d1:
   slug: meetup-2015-12-09
   sluggable_id: a30e173e-4659-4cae-915b-13d81f8e8fc3
   sluggable_type: Events::Event
+FriendlyId::Slug_e5a03926-ecbf-4e4c-9cae-fe2eac84ff65:
+  id: e5a03926-ecbf-4e4c-9cae-fe2eac84ff65
+  slug: meetup-2019-12-11
+  sluggable_id: c7b6e7a9-20e6-45a0-b56b-d10841ff38f4
+  sluggable_type: Events::Event
 FriendlyId::Slug_e6006669-9f06-4b17-b069-8b380a3bd97b:
   id: e6006669-9f06-4b17-b069-8b380a3bd97b
   slug: meetup-2015-06-10
@@ -729,10 +779,20 @@ FriendlyId::Slug_e669de48-24a3-4ef8-83e5-f40b32f22bea:
   slug: meetup-2014-03-12
   sluggable_id: d09e00e9-b43f-49d8-b211-9d09abfc482a
   sluggable_type: Events::Event
+FriendlyId::Slug_e9f4b172-2f76-4ac4-8bd9-ee4d481e0898:
+  id: e9f4b172-2f76-4ac4-8bd9-ee4d481e0898
+  slug: meetup-2019-01-09
+  sluggable_id: c0bcaf27-90cd-4bd8-b8f3-145a42b79c90
+  sluggable_type: Events::Event
 FriendlyId::Slug_ebde770f-a11a-48e0-9d4e-db3878ea187e:
   id: ebde770f-a11a-48e0-9d4e-db3878ea187e
   slug: meetup-2014-04-09
   sluggable_id: b4664359-c1e2-4611-a19e-b8e5cf1d8344
+  sluggable_type: Events::Event
+FriendlyId::Slug_ed3b955f-11bc-495c-9004-1c455164a93f:
+  id: ed3b955f-11bc-495c-9004-1c455164a93f
+  slug: meetup-2019-07-10
+  sluggable_id: ed3a7637-6b92-4d45-bf95-56fba2a9d13a
   sluggable_type: Events::Event
 FriendlyId::Slug_edadf499-db5a-444e-b9a6-0502b3a52eae:
   id: edadf499-db5a-444e-b9a6-0502b3a52eae
