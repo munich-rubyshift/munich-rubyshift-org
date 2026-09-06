@@ -911,6 +911,44 @@ Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
   youtube: ''
+Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
+  id: 4b3a7ec3-b6be-40c5-a307-1e560be7fdf3
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Rubyists,\r\n\r\nI am happy to announce our meetup in September!\r\n\r\nThe
+    meetup will take place on \"PHAROS - The Post Group\" at 18:30. Here a big thanks
+    to Sascha to be our contact person!\r\n\r\nLooking forward to see you all in September!\r\n\r\nDiscord
+    group: https://discord.gg/EKqHWmCxGZ\r\n\r\nCALL FOR SPEAKERS:\r\n\r\n    We are
+    still looking for a second talk. Please contact me if you have something in mind.\r\n\r\nDATE
+    & LOCATION\r\n\r\nDate and Time: September 24nd 2026, 18:30 CEST\r\nLocation:
+    PHAROS - The Post Group\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n    Location/Food
+    & Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: to be announced\r\n    Talk 2 incl.
+    Q&A: conntact us if you want to give it.\r\n    Food & Drinks, Socializing (open
+    end/as long as the location permits)\r\n"
+  end_time: '2000-01-01 19:30:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2026-09-24
+  start_date: '2026-09-24'
+  start_time: '2000-01-01 16:30:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/315466557/?eventOrigin=group_events_list
+  title: Ruby Meetup September 2026
+  twitter: ''
+  venues_venue_id: 3236f853-c433-46ee-a6e4-070b99a632fb
+  website: ''
+  youtube: ''
 Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
   id: 4c25b554-503a-485c-b562-bbf75ec6f1b4
   attendance_mode: in_person
@@ -3148,6 +3186,71 @@ Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
   website: ''
   youtube: ''
+Events::Event_e0e0c374-65e9-4652-9b0e-22011412a820:
+  id: e0e0c374-65e9-4652-9b0e-22011412a820
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Rubyists,\r\n\r\nour first Meetup in 2026 will take place on
+    January 22nd in AUGSBURG !!!\r\n\r\nAfter opening its gates at Rails World 2025
+    in Amsterdam, the Ruby embassy (a \"fun bureaucratic activity\") is opening a
+    branch office at our local Meetup group. Take a photo, fill out your application
+    forms, grab your Ruby passport and start collecting stamps.\r\n\r\nThe Ruby embassy
+    will also issue passports at our future Meetups, although potentially with less
+    bureaucracy (i.e. less fun).\r\n\r\nMore details about the Ruby passport: https://therubypassport.notion.site\r\n\r\nAfter
+    food & drinks we'll switch over to some talks.\r\n\r\nCALL FOR SPEAKERS:\r\n\r\n
+    \   We are still looking for a second talk. Please contact me if you have something
+    in mind.\r\n\r\nLooking forward to seeing you all in January!\r\n\r\nDiscord group:
+    https://discord.gg/EKqHWmCxGZ]\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: January
+    22nd 2026, 18:30 CEST\r\nLocation: AUGSBURG !!! @makandra\r\n\r\nAGENDA\r\n\r\n
+    \   Welcome & Announcements\r\n    18:30 - 19:15 CEST: Office hours of the Ruby
+    embassy (Außenstelle Augsburg)\r\n    Apply for your Ruby passport and become
+    an \"official\" member of the Ruby community\r\n    Food & Drinks (thanks to makandra)\r\n
+    \   Talk 1 incl. Q&A: Henning Koch: \"Limits of Hypermedia\"\r\n    Talk 2 incl.
+    Q&A: Call for Speakers is OPEN\r\n    Socializing (open end/as long as the location
+    permits)\r\n\r\nTALKS\r\n\r\nTalk 1: Henning Koch: \"Limits of Hypermedia\"\r\nHypermedia
+    frameworks like htmx or Unpoly are positioning themselves as simpler alternatives
+    to single-page applications. Yet many of us recall earlier server-rendered experiences
+    as slow, cumbersome and limited. But just as modern React is unrecognizable from
+    its early days, hypermedia frameworks have improved radically over the last decade.
+    Today's server-rendered approaches effectively handle UI problems traditionally
+    thought to require extensive client-side scripting. At the same time, hypermedia
+    apps have some surprising limitations that you might not even have on your radar.\r\nThis
+    talk will help you decide whether adopting hypermedia makes sense for your project,
+    especially if your experience is mostly with SPAs. We will address questions frontend
+    developers typically have:\r\n- Is it possible to achieve the same responsiveness
+    that users have come to expect from SPAs?\r\n- How would dynamic forms with dependent
+    fields and inline validation work without extensive JavaScript?\r\n- Can server-side
+    rendering manage intricate UI interactions, such as multi-step modals, optimistic
+    rendering, and client-side state preservation?\r\n- Where does state go when I
+    don't have components on the client?\r\nAfter ten years of building both hypermedia
+    apps and SPAs, I'm eager to share what works and what doesn't. I hope that by
+    the end of my talk you'll know all the trade-offs to decide when hypermedia can
+    simplify your stack, and when an SPA remains the better fit.\r\n\r\nAbout our
+    speaker https://www.linkedin.com/in/triskweline/"
+  end_time: '2000-01-01 19:30:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2026-01-22
+  start_date: '2026-01-22'
+  start_time: '2000-01-01 16:30:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/312376792/
+  title: Ruby Meetup January 2026
+  twitter: ''
+  venues_venue_id: 05a33493-04bf-4272-9325-d3e40bcd1f6e
+  website: ''
+  youtube: ''
 Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
   id: e1b18b13-48e8-4aa0-b9c3-cf01423d46d4
   attendance_mode: in_person
@@ -3324,23 +3427,59 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   attendance_mode: in_person
   banner_background: ''
   channel_id: ''
-  date_precision: ''
-  description: ''
+  date_precision: day
+  description: "Dear Rubyists,\r\n\r\nthe spring is coming closer and so our next
+    meetup in April!\r\n\r\nThe meetup will take place on Freeletics at 18:30. Here
+    a big thanks to Khaled to be our contact person!\r\n\r\nLooking forward to see
+    you all in April!\r\n\r\nDiscord group: https://discord.gg/EKqHWmCxGZ\r\n\r\nCALL
+    FOR SPEAKERS:\r\n\r\n    We are still looking for a second talk. Please contact
+    me if you have something in mind.\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time:
+    April 23nd 2026, 19:00 CEST\r\nLocation: Freeletics\r\n\r\nAGENDA\r\n\r\n    Welcome
+    & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Talk 1 incl.
+    Q&A: Hans Schnedlitz; \"Gems Are Overrated: or How I Learned to Stop Worrying
+    and Love Copy-Pasting\"\r\n    Talk 2 incl. Q&A: Klaus Weidinger: \"munich-rubyshift.org
+    goes live!\"\r\n    How I Learned to Stop Worrying and Love Copy-Pasting\"\r\n
+    \   Food & Drinks (sponsored by TBD), Socializing (open end/as long as the location
+    permits)\r\n\r\nTALKS\r\n\r\nTalk 1 Hans Schnedlitz: \"Gems Are Overrated: or
+    How I Learned to Stop Worrying and Love Copy-Pasting\"\r\nWhen I started working
+    with Ruby, I embraced its rich ecosystem. My Gemfile for any new project immediately
+    grew longer than Gandalf's beard. Unfortunately, using Gems comes with downsides.
+    On the practical side, pulling in third-party libraries exposes your app to supply-chain
+    attacks that are increasingly common. However, what's even worse is that most
+    Gems are pure bloatware. They add thousands of lines of code you'll never need,
+    and churn constantly.\r\nThe alternative, obviously, is to build everything from
+    scratch. In this talk, we'll look at some examples of how some well-known gems
+    can be boiled down to a single file that you can copy-paste to any new project.
+    We'll also look at the limits of this approach, and when you actually should reach
+    for that Gem.\r\n\r\nAbout our speaker https://www.linkedin.com/in/hschne\r\n\r\nTalk
+    2 Klaus Weidinger: \"munich-rubyshift.org goes live!\"\r\nIn this demo-heavy \"talk
+    & deploy\" I do a classic Ruby on Rails speedrun. How fast can you get from an
+    empty git repo to a deployed website?\r\n\r\nHowever, nothing is as it seems.
+    While frantically switching between slides and code editor, I will reveal and
+    explain my two new gems and will use them to turn a new Ruby on Rails project
+    into a very weird static site generator.\r\n\r\nWe'll create the initial DB tables
+    and add some records ... wait, what? Database tables? In a static site generator???
+    Yes, you heard me right!\r\n\r\nAfterwards, we'll have our tiny release party!
+    At least, if the internet connection is stable. Wish me luck!\r\n\r\nAbout the
+    speaker https://www.linkedin.com/in/klaus-weidinger-a37a27332/"
+  end_time: '2000-01-01 19:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
   featured_color: ''
   github: ''
-  kind: ''
+  kind: meetup
   last_edition: 0
   luma: ''
   mastodon: ''
   meetup: ''
   playlist: ''
   rubyevents_slug: ''
-  slug: meetup-april-2026
-  status: ''
-  tickets_url: ''
-  title: Meetup-April-2026
+  slug: meetup-2026-04-23
+  start_date: '2026-04-23'
+  start_time: '2000-01-01 16:30:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/313838183/
+  title: Ruby Meetup April 2026
   twitter: ''
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   website: ''
