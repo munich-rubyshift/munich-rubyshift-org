@@ -771,6 +771,55 @@ Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
   youtube: ''
+Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
+  id: 4c25b554-503a-485c-b562-bbf75ec6f1b4
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nit's time for 2022 Episode 2.\r\n\r\nDATE
+    & LOCATION\r\n\r\nDate and Time: September 8, from 19:00 CEST\r\nLocation: Workpath
+    Office, Nymphenburger Straße 86, 80636 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome
+    & Announcements (10')\r\n    Location/Food & Drinks Sponsor Slot (5')\r\n    Talk
+    1 incl. Q&A: Pavel Grachev: \"Three Things we do well at Workpath\"\r\n    Talk
+    2 incl. Q&A: Bogdans Laidins: \"Bringing Confidence with Review Apps\"\r\n    Food
+    & Drinks (sponsored by Workpath), Socializing (open end/as long as the location
+    permits)\r\n\r\nTALKS\r\nTalk 1: Three Things we do well at Workpath\r\nFeasibility
+    studies, refinements, QA, Continuous Delivery — everyone of us knows how the SDLC
+    works, we know best practices and we listen to cool smart people speaking at conferences.\r\nPavel
+    will share some bits of Workpath's journey as a growing startup trying to apply
+    modern methodologies and a bit of common sense. Some learnings that felt surprising,
+    what worked for them, and what didn't.\r\nAbout our speaker\r\nPavel Grachev is
+    a Team Lead at Workpath.\r\n\r\nTalk 2: Bringing Confidence with Review Apps\r\nReview
+    Apps provide a fully functional preview of feature branch changes, creating an
+    ephemeral environment for your merge requests. This allows designers, product
+    owners, QA and other stakeholders to get involved in the feedback process as quickly
+    as possible, improving the fidelity and speed of review. DataGuard's road to adoption
+    of Review Apps began with an open source alternative to Heroku, moving on to using
+    Humanitec, a full-fledged platform orchestrator.\r\nAbout our speaker\r\nBogdans
+    Laidins is a Lead Engineer at DataGuard."
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2022-09-08
+  start_date: '2022-09-08'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/286993418/
+  title: Ruby Meetup September 2022
+  twitter: ''
+  venues_venue_id: 8b93680b-2148-4486-93fc-9abadd022492
+  website: ''
+  youtube: ''
 Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
   id: 4ef3c58d-c767-4e65-a36b-21383e9d2b8e
   attendance_mode: in_person
@@ -1332,6 +1381,60 @@ Events::Event_764df804-c67c-4803-84b3-4221968642fb:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 215487ed-a371-488f-b43f-3caffbbdf0d0
+  website: ''
+  youtube: ''
+Events::Event_7756b666-da89-4f60-9947-cbb5d3110256:
+  id: 7756b666-da89-4f60-9947-cbb5d3110256
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nI don't know about you, but I think it's
+    high time that we meet again!\r\n\r\nThe first meetup in almost 2 years has been
+    tentatively scheduled for July 14. (I've moved it from the 2nd Wednesday to the
+    2nd Thursday of the month, because several people in the past have mentioned that
+    Wednesday isn't ideal.)\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: July 14,
+    from 19:00 CEST\r\nLocation: DataGuard Office (5th Floor), Dachauer Str. 65, 80335
+    Munich\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements (10')\r\n    Location/Food
+    & Drinks Sponsor Slot (5')\r\n    Raounak Sharma: How we reduced its public API's
+    response time by 86% (45')\r\n    Talk incl. Q&A (15‘, intended for 1st time/inexperienced
+    speaker)\r\n    Food & Drinks (sponsored by DataGuard), Socializing (open end/as
+    long as the location permits)\r\n\r\nTALKS\r\nTalk 1: How we reduced its public
+    API's response time by 86%\r\nAt the time of product launch, our most important
+    API endpoint was taking around 5 seconds in production. It wasn’t related to tech-stack
+    or a particular database/cloud issue nor did we have very bad code quality or
+    any N+1 query issues. Instead, it turned out to be the cumulative result of small
+    mistakes in some services. In this talk, we will see how we arrive at those mistakes,
+    and how you can avoid them earlier on in the development process.\r\n\r\nAbout
+    our speaker\r\nRaounak has been working with Ruby for the past 5 years, and actively
+    contributing to the Ruby community since 2018. This time has made him focus more
+    on the performance of the software. He has implemented and led projects in the
+    performance optimization area as a senior software engineer. Recently he has moved
+    to Dresden, Germany and is looking forward to meeting new people.\r\n\r\nTalk
+    2: TBD\r\nWe'd still love to have another shorter slot (15 minutes), specifically
+    intended for 1st time/inexperienced speakers who want to take to the stage for
+    a shorter topic.\r\n\r\nAbout our speaker\r\nMaybe you? If you have an idea yourself
+    for anything Ruby or at least Ruby-related, get in touch!"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2022-07-14
+  start_date: '2022-07-14'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/285945003/
+  title: Ruby Meetup - RELAUNCH!
+  twitter: ''
+  venues_venue_id: 23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2
   website: ''
   youtube: ''
 Events::Event_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
@@ -2232,6 +2335,43 @@ Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
+  website: ''
+  youtube: ''
+Events::Event_c92a903b-d40f-478d-a7d6-457d362bd906:
+  id: c92a903b-d40f-478d-a7d6-457d362bd906
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nWinter's Coming -- and so is the November
+    Meetup!\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: November 10, from 19:00 CEST\r\nLocation:
+    Xempus AG, Arnulfstrasse 126, 80636 München\r\n\r\nAGENDA\r\n\r\n    Welcome &
+    Announcements (10')\r\n    Location/Food & Drinks Sponsor Slot (5')\r\n    Talk
+    1 incl. Q&A: Oliver Prater: \"Reasoning about code and configuration\"\r\n    Talk
+    2 incl. Q&A: TBD\r\n    Food & Drinks (sponsored by Xempus), Socializing (open
+    end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: \"Reasoning about
+    code and configuration\"\r\nAbout our speaker\r\nOliver Prater is a Software Engineer
+    at Xempus.\r\n\r\nTalk 2: TBD"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2022-11-10
+  start_date: '2022-11-10'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/288656327/
+  title: Ruby Meetup November 2022
+  twitter: ''
+  venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
   website: ''
   youtube: ''
 Events::Event_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:

@@ -134,6 +134,11 @@ FriendlyId::Slug_1ed86960-73fc-469f-a4c9-55e4c0c6bb71:
   slug: meetup-2017-12-13
   sluggable_id: 388f3a35-88ab-4c17-b911-ef743b26ab87
   sluggable_type: Events::Event
+FriendlyId::Slug_1ef0e433-4e48-41db-9d46-a50d311f4c70:
+  id: 1ef0e433-4e48-41db-9d46-a50d311f4c70
+  slug: meetup-2022-11-10
+  sluggable_id: c92a903b-d40f-478d-a7d6-457d362bd906
+  sluggable_type: Events::Event
 FriendlyId::Slug_1fc8b469-217b-48d4-8066-a2e1057b2f33:
   id: 1fc8b469-217b-48d4-8066-a2e1057b2f33
   slug: freeletics-office-2
@@ -279,6 +284,11 @@ FriendlyId::Slug_46d10e05-850a-4453-b63c-a29434159c14:
   slug: blutenburgstrasse-43
   sluggable_id: 7742024b-8219-4ae6-8917-5a9690f313dc
   sluggable_type: Locations::Address
+FriendlyId::Slug_472d43a5-5230-4921-aa3f-d36c6ad10884:
+  id: 472d43a5-5230-4921-aa3f-d36c6ad10884
+  slug: meetup-2022-09-08
+  sluggable_id: 4c25b554-503a-485c-b562-bbf75ec6f1b4
+  sluggable_type: Events::Event
 FriendlyId::Slug_47515154-b34b-4373-b809-6d9e290daf76:
   id: 47515154-b34b-4373-b809-6d9e290daf76
   slug: meetup-2016-08-10
@@ -838,6 +848,11 @@ FriendlyId::Slug_f4d92fe1-dc4e-4157-9dca-c46138318780:
   id: f4d92fe1-dc4e-4157-9dca-c46138318780
   slug: meetup-2018-07-18
   sluggable_id: e56124e4-1e66-411c-a794-41ea348d7504
+  sluggable_type: Events::Event
+FriendlyId::Slug_f6527ff2-c795-422a-b812-f8e4416e9057:
+  id: f6527ff2-c795-422a-b812-f8e4416e9057
+  slug: meetup-2022-07-14
+  sluggable_id: 7756b666-da89-4f60-9947-cbb5d3110256
   sluggable_type: Events::Event
 FriendlyId::Slug_faddacd9-d3f4-4922-9734-abf55cf24b3f:
   id: faddacd9-d3f4-4922-9734-abf55cf24b3f
