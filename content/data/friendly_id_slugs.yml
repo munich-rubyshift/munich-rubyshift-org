@@ -19,6 +19,11 @@ FriendlyId::Slug_022e45a9-028b-4ff1-9506-f636cd85fe68:
   slug: meetup-2018-11-14
   sluggable_id: c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e
   sluggable_type: Events::Event
+FriendlyId::Slug_05463447-578a-4259-b870-18c9004d92bd:
+  id: 05463447-578a-4259-b870-18c9004d92bd
+  slug: meetup-2025-07-17
+  sluggable_id: 969902ff-c7e8-48e5-8d0e-f64c85568e63
+  sluggable_type: Events::Event
 FriendlyId::Slug_0a1894df-b694-4a99-95df-61b7a3f57a48:
   id: 0a1894df-b694-4a99-95df-61b7a3f57a48
   slug: freeletics
@@ -174,6 +179,11 @@ FriendlyId::Slug_23383c92-8879-478d-8729-2a2260591443:
   slug: former-03-office
   sluggable_id: 4f816bec-c6ce-4776-947f-fa6551d18108
   sluggable_type: Venues::Venue
+FriendlyId::Slug_2390966c-c296-4e25-94f0-1c3f62dbd133:
+  id: 2390966c-c296-4e25-94f0-1c3f62dbd133
+  slug: meetup-2025-03-20
+  sluggable_id: 988d2d1a-5277-4155-87b6-98e25500d5de
+  sluggable_type: Events::Event
 FriendlyId::Slug_251bab62-1ef8-4bc7-a454-2692020c76ab:
   id: 251bab62-1ef8-4bc7-a454-2692020c76ab
   slug: meetup-2018-04-11
@@ -399,6 +409,11 @@ FriendlyId::Slug_60f1a2bc-7bf8-48f6-9d31-ce226f776360:
   slug: workpath-office
   sluggable_id: 8b93680b-2148-4486-93fc-9abadd022492
   sluggable_type: Venues::Venue
+FriendlyId::Slug_617cc5d0-de06-443f-b408-d82107d4d47f:
+  id: 617cc5d0-de06-443f-b408-d82107d4d47f
+  slug: meetup-2025-01-16
+  sluggable_id: 0ca4de01-0994-4c1f-a277-68b7edd8a87a
+  sluggable_type: Events::Event
 FriendlyId::Slug_61c2e6da-9dc0-448c-bcb2-d0f50e045756:
   id: 61c2e6da-9dc0-448c-bcb2-d0f50e045756
   slug: tuerkenstrasse-89
@@ -803,6 +818,11 @@ FriendlyId::Slug_d6d0cffa-51e2-4306-ac75-1af328e9a506:
   id: d6d0cffa-51e2-4306-ac75-1af328e9a506
   slug: meetup-2024-01-11
   sluggable_id: 31dfb46b-8e9e-4941-92e9-d429d53f6eaa
+  sluggable_type: Events::Event
+FriendlyId::Slug_d6e20609-e337-471c-b1b8-fe1e1f1b1e38:
+  id: d6e20609-e337-471c-b1b8-fe1e1f1b1e38
+  slug: meetup-2025-10-16
+  sluggable_id: bd09e5ca-d692-409c-8944-d966c2a175e0
   sluggable_type: Events::Event
 FriendlyId::Slug_d77eca6a-5f14-4491-a174-faab8b827a6a:
   id: d77eca6a-5f14-4491-a174-faab8b827a6a
