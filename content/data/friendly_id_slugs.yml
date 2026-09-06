@@ -584,6 +584,11 @@ FriendlyId::Slug_92b1a054-83a6-493d-8c1a-a4d265d25b27:
   slug: erika-mann-strasse-23
   sluggable_id: 16d4466b-429f-47c5-bcbd-ad142314371f
   sluggable_type: Locations::Address
+FriendlyId::Slug_93b15d6b-b15a-4b28-859b-39dd8fc08d78:
+  id: 93b15d6b-b15a-4b28-859b-39dd8fc08d78
+  slug: meetup-2024-03-14
+  sluggable_id: 5e8801b8-b30c-49d7-b13f-63060e40667a
+  sluggable_type: Events::Event
 FriendlyId::Slug_9553b2c7-4003-4dfe-b645-78e8cf375ae9:
   id: 9553b2c7-4003-4dfe-b645-78e8cf375ae9
   slug: meetup-2016-10-12
@@ -794,6 +799,11 @@ FriendlyId::Slug_d642e1de-0738-4c1c-a357-47be3b1f9b21:
   slug: meetup-2016-04-13
   sluggable_id: de01ca60-b027-46c8-9735-c6447c68d575
   sluggable_type: Events::Event
+FriendlyId::Slug_d6d0cffa-51e2-4306-ac75-1af328e9a506:
+  id: d6d0cffa-51e2-4306-ac75-1af328e9a506
+  slug: meetup-2024-01-11
+  sluggable_id: 31dfb46b-8e9e-4941-92e9-d429d53f6eaa
+  sluggable_type: Events::Event
 FriendlyId::Slug_d77eca6a-5f14-4491-a174-faab8b827a6a:
   id: d77eca6a-5f14-4491-a174-faab8b827a6a
   slug: arri-media-office
@@ -868,6 +878,11 @@ FriendlyId::Slug_edadf499-db5a-444e-b9a6-0502b3a52eae:
   id: edadf499-db5a-444e-b9a6-0502b3a52eae
   slug: meetup-2016-12-14
   sluggable_id: d9055efc-3ba9-41d3-a013-57a1f5d352c6
+  sluggable_type: Events::Event
+FriendlyId::Slug_ef87b2b2-2306-4bd3-b670-fdc769d26b18:
+  id: ef87b2b2-2306-4bd3-b670-fdc769d26b18
+  slug: meetup-2024-07-11
+  sluggable_id: f5c1edc4-ae63-43f2-96ee-c484496986ab
   sluggable_type: Events::Event
 FriendlyId::Slug_f0ec0d88-ecdd-49a9-a336-03b06df79b28:
   id: f0ec0d88-ecdd-49a9-a336-03b06df79b28

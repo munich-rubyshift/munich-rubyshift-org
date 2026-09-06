@@ -448,6 +448,55 @@ Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
   website: ''
   youtube: ''
+Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
+  id: 31dfb46b-8e9e-4941-92e9-d429d53f6eaa
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nthe year is coming to an end – which
+    means, it's almost time for the first Meetup of 2024!\r\n\r\nJust like in 2023,
+    our friends from Freeletics will be the hosts of the year's frist meetup! One
+    of the talks will be given by yours truly -- I'll talk about simplifying our overall
+    backend/frontend setups using InertiaJS. The 2nd talk is currently TBD -- we might
+    have one from our hosts themselves, but if you do have something ready to go,
+    please get in touch. :-)\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: January
+    11, from 19:00 CEST\r\nLocation: Freeletics GmbH, Berg-Am-Laim-Strasse 111, 81673
+    Munich\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n    Location/Food &
+    Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: Clemens Kofler: \"Inertia -- The
+    healthy middleground between a Rails Monolith and a Single Page Application?\"\r\n
+    \   Break\r\n    Talk 2 incl. Q&A: Khaled Muamar: \"Intuitive Client Errors Driven
+    by Backend\"\r\n    Food & Drinks (sponsored by Freeletics), Socializing (open
+    end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: \"Inertia --
+    The healthy middleground between a Rails Monolith and a Single Page Application?\"\r\nCan
+    we strike a balance between the simplicity of a Rails Monolith and the flexibility
+    that a Single Page Application? And can we do so while keeping both Backend Rubyists
+    and Frontend React/Vue people reasonably happy? Let's find out together.\r\nAbout
+    our speaker\r\nClemens Kofler is a Director of Engineering at DataGuard.\r\n\r\nTalk
+    2: \"Intuitive Client Errors Driven by Backend\"\r\nAbout our speaker\r\nKhaled
+    Muamar is a Backend Engineer at Freeletics."
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2024-01-11
+  start_date: '2024-01-11'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/298001922/
+  title: Ruby Meetup January 2024
+  twitter: ''
+  venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
+  website: ''
+  youtube: ''
 Events::Event_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
   id: 373c99ee-c1f2-4550-8e54-3575fa1c14cc
   attendance_mode: in_person
@@ -1195,6 +1244,45 @@ Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+  youtube: ''
+Events::Event_5e8801b8-b30c-49d7-b13f-63060e40667a:
+  id: 5e8801b8-b30c-49d7-b13f-63060e40667a
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nit's time for our 2nd gathering of the
+    year!\r\n\r\nIn the March 2024 edition of our Ruby Meetup, DataGuard will welcome
+    us at their new office and will, as is custom, also sponsor food & drinks!\r\n\r\nAt
+    this time, we're still looking for 1-2 talks. Maybe from you? ;-) Get in touch!\r\n\r\nDATE
+    & LOCATION\r\n\r\nDate and Time: March 14, from 19:00 CEST\r\nLocation: DataGuard
+    (DataCo GmbH), Nymphenburger Str. 86, 80636 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome
+    & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Talk 1 incl.
+    Q&A: TBD\r\n    Talk 2 incl. Q&A: TBD\r\n    Food & Drinks (sponsored by DataGuard),
+    Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
+    1: TBD\r\nAbout our speaker\r\nYou? ;-)\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou?
+    ;-)"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2024-03-14
+  start_date: '2024-03-14'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/299201679/
+  title: Ruby Meetup March 2024
+  twitter: ''
+  venues_venue_id: ca9606cd-d8e0-4c53-8f0f-ee59fda172f4
   website: ''
   youtube: ''
 Events::Event_5ec4c4c6-643b-40e8-b01f-f5396c2323dd:
@@ -3166,6 +3254,43 @@ Events::Event_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 3b908116-7311-4923-b840-ed89760170f8
+  website: ''
+  youtube: ''
+Events::Event_f5c1edc4-ae63-43f2-96ee-c484496986ab:
+  id: f5c1edc4-ae63-43f2-96ee-c484496986ab
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nafter the cancelled May meetup (sorry
+    again!), it's time for 2024's summer edition for our meetup!\r\n\r\nFor our July
+    meetup, I'm still looking for a location as well as a sponsor for food & drinks!\r\n\r\nAt
+    this time, I'm also still looking for 1-2 talks. Maybe from you? ;-) Get in touch!\r\n\r\nDATE
+    & LOCATION\r\n\r\nDate and Time: July 11, from 19:00 CEST\r\nLocation: TBD\r\n\r\nAGENDA\r\n\r\n
+    \   Welcome & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Talk
+    1 incl. Q&A: TBD\r\n    Talk 2 incl. Q&A: TBD\r\n    Food & Drinks (sponsored
+    by DataGuard), Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
+    1: TBD\r\nAbout our speaker\r\nYou? ;-)\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou?
+    ;-)"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2024-07-11
+  start_date: '2024-07-11'
+  start_time: '2000-01-01 17:00:00'
+  status: cancelled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/301144567/
+  title: Ruby Meetup July 2024
+  twitter: ''
   website: ''
   youtube: ''
 Events::Event_f9870540-7983-496c-9541-80c13c9d4120:
