@@ -144,6 +144,11 @@ FriendlyId::Slug_1fc8b469-217b-48d4-8066-a2e1057b2f33:
   slug: freeletics-office-2
   sluggable_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   sluggable_type: Venues::Venue
+FriendlyId::Slug_21aa09ba-ca13-429c-9378-9fda07290e53:
+  id: 21aa09ba-ca13-429c-9378-9fda07290e53
+  slug: meetup-2023-05-11
+  sluggable_id: d096f26c-e4d6-4441-891c-728724a7c26a
+  sluggable_type: Events::Event
 FriendlyId::Slug_21e6b925-beb0-4135-9001-e59ba01f12e5:
   id: 21e6b925-beb0-4135-9001-e59ba01f12e5
   slug: meetup-2014-01-08
@@ -269,6 +274,11 @@ FriendlyId::Slug_42ff83c4-dfaa-4749-b539-16b318f193ae:
   slug: location-drinks-by-freeletics
   sluggable_id: 8c929ce2-4102-45c1-951e-ed14515f0a16
   sluggable_type: Sponsors::Sponsorship
+FriendlyId::Slug_4332bd3a-20fc-471c-b832-7e6814612560:
+  id: 4332bd3a-20fc-471c-b832-7e6814612560
+  slug: meetup-2023-01-12
+  sluggable_id: e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd
+  sluggable_type: Events::Event
 FriendlyId::Slug_440abdfa-e6f0-4582-a00c-28019b667a48:
   id: 440abdfa-e6f0-4582-a00c-28019b667a48
   slug: meetup-2014-05-14
@@ -293,6 +303,11 @@ FriendlyId::Slug_47515154-b34b-4373-b809-6d9e290daf76:
   id: 47515154-b34b-4373-b809-6d9e290daf76
   slug: meetup-2016-08-10
   sluggable_id: 59158906-28a1-4838-944a-529ba1fb889c
+  sluggable_type: Events::Event
+FriendlyId::Slug_490451d4-b263-4e03-bfab-ea8aaafc142f:
+  id: 490451d4-b263-4e03-bfab-ea8aaafc142f
+  slug: meetup-2023-09-14
+  sluggable_id: bfa2ec55-241f-4129-a1bf-92dfa03c543c
   sluggable_type: Events::Event
 FriendlyId::Slug_4941428d-ab48-4503-b675-6391259185a0:
   id: 4941428d-ab48-4503-b675-6391259185a0
@@ -509,6 +524,11 @@ FriendlyId::Slug_864c6afd-95c2-4f7a-839e-4354b644d11c:
   slug: meetup-2018-12-12
   sluggable_id: 53be3fcb-a991-4780-a53e-111ad902bb66
   sluggable_type: Events::Event
+FriendlyId::Slug_86c5154a-a664-4e55-987f-a3aa25b3a29c:
+  id: 86c5154a-a664-4e55-987f-a3aa25b3a29c
+  slug: meetup-2023-11-09
+  sluggable_id: 38fe34a2-f5c1-46a4-92dc-29a27d80ff96
+  sluggable_type: Events::Event
 FriendlyId::Slug_871ab0c1-cb88-4958-a064-6666806931b7:
   id: 871ab0c1-cb88-4958-a064-6666806931b7
   slug: sophienstrasse-7
@@ -528,6 +548,11 @@ FriendlyId::Slug_89f5bb6c-79b0-4a5a-8306-8f8f38ec97be:
   id: 89f5bb6c-79b0-4a5a-8306-8f8f38ec97be
   slug: meetup-2014-12-10
   sluggable_id: 3da697ff-0994-4966-a445-1d2b0bfa0a55
+  sluggable_type: Events::Event
+FriendlyId::Slug_8a02926f-f5e7-42f6-9a06-f77fec3c76ab:
+  id: 8a02926f-f5e7-42f6-9a06-f77fec3c76ab
+  slug: meetup-2023-03-09
+  sluggable_id: adea8129-c6f0-48b1-b764-296c09336343
   sluggable_type: Events::Event
 FriendlyId::Slug_8a936470-acae-4fb2-a57e-587e42ec2c87:
   id: 8a936470-acae-4fb2-a57e-587e42ec2c87
@@ -679,6 +704,11 @@ FriendlyId::Slug_b6ff5122-77aa-465b-b49f-8e488fe53b43:
   slug: rosenheimer-strasse-145e
   sluggable_id: 7a2d5886-0641-4104-8c8b-0cd62265fe5a
   sluggable_type: Locations::Address
+FriendlyId::Slug_bc2edcb0-cc1d-4adf-8f5e-ea72579b404d:
+  id: bc2edcb0-cc1d-4adf-8f5e-ea72579b404d
+  slug: meetup-2023-07-13
+  sluggable_id: 5c39c74b-af9f-47a4-a840-7daca41a559f
+  sluggable_type: Events::Event
 FriendlyId::Slug_bcccc7ed-4980-4ce2-877d-d6eb1ca3a2e6:
   id: bcccc7ed-4980-4ce2-877d-d6eb1ca3a2e6
   slug: meetup-2016-09-14

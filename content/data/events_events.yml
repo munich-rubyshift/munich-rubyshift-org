@@ -551,6 +551,51 @@ Events::Event_388f3a35-88ab-4c17-b911-ef743b26ab87:
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   website: ''
   youtube: ''
+Events::Event_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
+  id: 38fe34a2-f5c1-46a4-92dc-29a27d80ff96
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nthe leaves are turning brown again, so
+    it's high time for this year's November edition of our meetup!\r\n\r\nThis time,
+    or friends from Xempus will be our hosts for location, food & drinks again. They'll
+    also have their own Oliver Prater share their experiences about migrating from
+    a single to multi tenant app.\r\n\r\nI'm also looking for an optional 2nd speaker
+    to give a short(er) talk in addition to the main talk => let me know if you're
+    interested or know someone who might be interested.\r\n\r\nDATE & LOCATION\r\n\r\nDate
+    and Time: November 9, from 19:00 CEST (doors open; talks start at 19:30)\r\n\r\nLocation:
+    Xempus AG, Arnulfstrasse 126, 80636 Munich, Germany\r\n\r\nAGENDA\r\n\r\n    Welcome
+    & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Food & Drinks
+    (sponsored by Xempus)\r\n    Talk 1 incl. Q&A: Using Multiple Databases for Data
+    Migrations (Oliver Prater, Xempus)\r\n    Break\r\n    Talk 2 incl. Q&A: TBD\r\n
+    \   Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
+    1: Oliver Prater: Using Multiple Databases for Data Migrations\r\nHow we used
+    Active Record with multiple databases to migrate a single-tenant application to
+    a multi-tenant world.\r\nAbout our speaker\r\nOliver Prater is a Software Engineer
+    at Xempus.\r\n\r\nTalk 2: TBD\r\n\r\nAbout our speaker\r\nYou? :-)"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2023-11-09
+  start_date: '2023-11-09'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/296645729/
+  title: Ruby Meetup November 2023
+  twitter: ''
+  venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
+  website: ''
+  youtube: ''
 Events::Event_39f6c39c-523a-4f7e-bbae-54ef7574250b:
   id: 39f6c39c-523a-4f7e-bbae-54ef7574250b
   attendance_mode: in_person
@@ -1080,6 +1125,44 @@ Events::Event_59158906-28a1-4838-944a-529ba1fb889c:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
+  website: ''
+  youtube: ''
+Events::Event_5c39c74b-af9f-47a4-a840-7daca41a559f:
+  id: 5c39c74b-af9f-47a4-a840-7daca41a559f
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nsummer is coming – and so is our July
+    meetup!\r\n\r\nWe're still looking for a location for the next meetup, as well
+    as speakers – so if you want to host and/or give a talk, please get in touch!\r\n\r\nDATE
+    & LOCATION\r\n\r\nDate and Time: July 13, from 19:00 CEST\r\nLocation: Experteer
+    GmbH, Lenbachplatz 3 (6th floor), 80333 Munich, Germany\r\n\r\nAGENDA\r\n\r\n
+    \   Welcome & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Food
+    & Drinks (sponsored by Experteer GmbH)\r\n    Talk 1 incl. Q&A: TBD\r\n    Break\r\n
+    \   Talk 2 incl. Q&A: TBD\r\n    Socializing (open end/as long as the location
+    permits)\r\n\r\nTALKS\r\n\r\nTalk 1: TBD\r\nAbout our speaker\r\nYou? :-)\r\n\r\nTalk
+    2: TBD\r\nAbout our speaker\r\nYou? :-)"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2023-07-13
+  start_date: '2023-07-13'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/293720315/
+  title: Ruby Meetup July 2023
+  twitter: ''
+  venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
   youtube: ''
 Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
@@ -2094,6 +2177,56 @@ Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
   venues_venue_id: '053190c9-9e62-484e-abf4-374d6e69d475'
   website: ''
   youtube: ''
+Events::Event_adea8129-c6f0-48b1-b764-296c09336343:
+  id: adea8129-c6f0-48b1-b764-296c09336343
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nwere closing in on Episode 2 of 2023's
+    meetups!\r\n\r\nThis time, we'll visit Zavvy, who will host the meetup and also
+    give one of the talks of the evening. We'll also have Hanami's creator Luca Guidi
+    joining us from remote as a special guest to give us a tour of Hanami 2.0.\r\n\r\nDATE
+    & LOCATION\r\n\r\nDate and Time: March 9, from 19:00 CEST\r\nLocation: Zavvy GmbH
+    (@Mindspace), Herzogspitalstraße 24, 80331 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome
+    & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Food & Drinks
+    (sponsored by Zavvy)\r\n    Talk 1 incl. Q&A: Luca Guidi: \"Hanami 2.0: a framework
+    for a new Ruby era\"\r\n    Break\r\n    Talk 2 incl. Q&A: Sri Vishnu Totakura:
+    \"Best practices we employ for a scalable Rails app\"\r\n    Socializing (open
+    end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: \"Hanami 2.0:
+    a framework a new Ruby era\"\r\nNote: This talk will be held remotely\r\n\r\nAbout
+    our speaker\r\nLuca Guidi is a Backend Architect at Toptal and the creator of
+    the Hanami framework.\r\n\r\nTalk 2: \"Best practices we employ for a scalable
+    Rails app\"\r\nZavvy has grown from a simple Rails app to a huge suite of B2B
+    applications all served with a single Rails app with ~150 API endpoints, models
+    and presenters with a complex inter-connection between apps. As a startup speed
+    of release is crucial, quality is not a tradeoff, security with complex authenticate
+    and authorization logic is a must. This has not been easy but we are proud of
+    what we setup as our best practices/standards and we would like to show you how
+    we kept things simple and made it very easy to achieve all these goals.\r\n\r\nAbout
+    our speaker\r\nSri Vishnu Totakura is the CTO of Zavvy."
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2023-03-09
+  start_date: '2023-03-09'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/291687413/
+  title: Ruby Meetup March 2023
+  twitter: ''
+  venues_venue_id: 12f15b05-65ee-431d-b691-51486c2be216
+  website: ''
+  youtube: ''
 Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
   id: b4664359-c1e2-4611-a19e-b8e5cf1d8344
   attendance_mode: in_person
@@ -2184,6 +2317,64 @@ Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/269643042/
   title: Ruby User Group Meetup
   twitter: ''
+  website: ''
+  youtube: ''
+Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
+  id: bfa2ec55-241f-4129-a1bf-92dfa03c543c
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nthe September edition of our meetup is
+    coming!\r\n\r\nBefore diving into the details, let me start with an apology: On
+    fairly short notice, I unfortunately couldn't attend the last meetup at our friends
+    from Experteer due to a family-related issue. This unfortunately coincided with
+    a meetup where we had no talk lined up, so I couldn't even give the backup talk
+    that I had prepared. From what I heard from our host Valentin, it was still a
+    nice meetup with interesting conversations -- but I'm still sorry that the meetup
+    didn't go as planned.\r\n\r\nAnyway, back to the topic at hand: The September
+    meetup!\r\n\r\nThis time, Le Wagon Munich will be our host for location, food
+    & drinks and they'll also have their own Bruno Brunckhorst give a talk about using
+    Neural Networks with Ruby/Rails.\r\n\r\nI'm also looking for an optional 2nd speaker
+    to give a short(er) talk in addition to the main talk => let me know if you're
+    interested or know someone who might be interested.\r\n\r\nDATE & LOCATION\r\n\r\nDate
+    and Time: September 14, from 19:00 CEST\r\n\r\nLocation: Le Wagon Munich, Balanstrasse
+    73, building 21A, 4th floor, 81541 Munich, Germany\r\n\r\nAs the neue Balan campus
+    is quite extensive, here some tips to make sure everyone gets here without issues:\r\n\r\nThe
+    easiest way to locate us is to pop the location in Google Maps, the pin is very
+    accurate.\r\n\r\nWhen coming by U-Bahn (Karl Preis Platz) take the entrance onto
+    the campus from Claudius Keller Straße. after 150meters, you will find Haus 21A
+    on your left hand side.\r\n\r\nFor those arriving by car, there is a large parking
+    garage located on campus, by the northern entrance (St. Martin Straße 112).\r\n\r\nAGENDA\r\n\r\n
+    \   Welcome & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Food
+    & Drinks (sponsored by Le Wagon)\r\n    Talk 1 incl. Q&A: Rails Unwired: Neural
+    Networks in Ruby (Bruno Brunckhorst, Program Manager & Data Scientist @ Le Wagon)\r\n
+    \   Break\r\n    Talk 2 incl. Q&A: TBD\r\n    Socializing (open end/as long as
+    the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: Rails Unwired: Neural Networks
+    in Ruby\r\n\r\nThis will be a beginner-friendly talk on the topic of Neural Networks
+    and how to connect them with Ruby/Rails.\r\n\r\nAbout our speaker\r\n\r\nBruno
+    Brunckhorst is a Program Manager & Data Scientist at Le Wagon in Munich.\r\n\r\nTalk
+    2: TBD\r\n\r\nAbout our speaker\r\n\r\nYou? :-)"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2023-09-14
+  start_date: '2023-09-14'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/295448929/
+  title: Ruby Meetup September 2023
+  twitter: ''
+  venues_venue_id: 63b14137-3cdb-4f1a-88bc-860c5e4f2223
   website: ''
   youtube: ''
 Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
@@ -2444,6 +2635,46 @@ Events::Event_d03d7342-973f-4746-b70e-85309f34ae40:
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
   youtube: ''
+Events::Event_d096f26c-e4d6-4441-891c-728724a7c26a:
+  id: d096f26c-e4d6-4441-891c-728724a7c26a
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nas winter finally seems to be leaving
+    Munich for good, it's time for our May meetup!\r\n\r\nThis upcoming meetup will
+    be hosted by JetBrains in their Munich office. We're still looking for speakers,
+    so if you want to give a talk, please get in touch.\r\n\r\nDATE & LOCATION\r\n\r\nDate
+    and Time: May 11, from 19:00 CEST\r\nLocation: JetBrains GmbH, Christoph-Rapparini-Bogen
+    23, 80639 Munich, Germany\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n
+    \   Location/Food & Drinks Sponsor Slot\r\n    Food & Drinks (sponsored by JetBrains)\r\n
+    \   Talk 1 incl. Q&A: \"Database decomposition at GitLab.com\" – Omar Qunsul\r\n
+    \   Break\r\n    Talk 2 incl. Q&A: TBD\r\n    Socializing (open end/as long as
+    the location permits)\r\n\r\nTALKS\r\n\r\n**Talk 1: Database decomposition at
+    GitLab.com**\r\nAbout our speaker\r\nOmar Qunsul is a Backend Engineer at GitLab.\r\n\r\nTalk
+    2: TBD\r\n\r\nAbout our speaker\r\nYou? :-)"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2023-05-11
+  start_date: '2023-05-11'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/292979878/
+  title: Ruby Meetup May 2023
+  twitter: ''
+  venues_venue_id: a2c660d1-f70d-4cf5-8dba-f0edaf6f177f
+  website: ''
+  youtube: ''
 Events::Event_d09e00e9-b43f-49d8-b211-9d09abfc482a:
   id: d09e00e9-b43f-49d8-b211-9d09abfc482a
   attendance_mode: in_person
@@ -2667,6 +2898,53 @@ Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 90a84792-1569-45c1-9c35-9e3a708e75c4
+  website: ''
+  youtube: ''
+Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
+  id: e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nthe year is coming to an end – which
+    means, it's almost time for the first Meetup of 2023!\r\n\r\nThis time, our friends
+    from Freeletics will be the hosts, who will also give one of the talks of the
+    evening. (If you're interested in giving the other talk or know someone who would
+    be interested, please get in touch!)\r\n\r\nAlso, at request of several people,
+    we'll bring back the Ruby News segment – I'll give you a handful of my picks of
+    the most relevant things that happened in the world of Ruby since the previous
+    meetup. Let's see how it goes. ;-)\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time:
+    January 12, from 19:00 CEST\r\nLocation: Freeletics GmbH, Berg-Am-Laim-Strasse
+    111, 81673 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n    Location/Food
+    & Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: Khaled Muamar: \"Moving from Rails
+    Secret to Environment Variables\"\r\n    Break / Ruby News\r\n    Talk 2 incl.
+    Q&A: Dmytro Khmelenko: \"Type Management in Ruby\"\r\n    Food & Drinks (sponsored
+    by Freeletics), Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
+    1: \"Moving from Rails Secret to Environment Variables\"\r\nAbout our speaker\r\nKhaled
+    Muamar is a Senior Backend Developer at Freeletics.\r\n\r\nTalk 2: \"Type Management
+    in Ruby\"\r\nAbout our speaker\r\nDmytro Khmelenko is a Software Engineer at Shopify.
+    He's also the author of the book \"Unlock the Code: The Ultimate Guide to Advancing
+    from Junior to Senior Software Engineer in 7 Actionable Steps\" (https://www.amazon.com/dp/B098LNMFCJ)."
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2023-01-12
+  start_date: '2023-01-12'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/290480070/
+  title: Ruby Meetup January 2023
+  twitter: ''
+  venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   website: ''
   youtube: ''
 Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
