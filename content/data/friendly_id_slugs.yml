@@ -89,6 +89,11 @@ FriendlyId::Slug_155dbfa4-b20f-4b1f-a461-5f822b38031f:
   slug: lenbachplatz-3
   sluggable_id: 5947ec85-23be-4a0d-a2c8-ce15d4b01d79
   sluggable_type: Locations::Address
+FriendlyId::Slug_17369888-45f5-45c4-ad51-fa9a51dc85ba:
+  id: 17369888-45f5-45c4-ad51-fa9a51dc85ba
+  slug: meetup-2020-05-13
+  sluggable_id: b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5
+  sluggable_type: Events::Event
 FriendlyId::Slug_1747b241-bf75-49f6-afce-96951e33809f:
   id: 1747b241-bf75-49f6-afce-96951e33809f
   slug: meetup-april-2026
@@ -183,6 +188,11 @@ FriendlyId::Slug_2e75764b-783a-495d-92f0-df9abe380920:
   id: 2e75764b-783a-495d-92f0-df9abe380920
   slug: meetup-2017-07-12
   sluggable_id: 39f6c39c-523a-4f7e-bbae-54ef7574250b
+  sluggable_type: Events::Event
+FriendlyId::Slug_2eb8305f-b07f-44ac-b555-75cd1d028942:
+  id: 2eb8305f-b07f-44ac-b555-75cd1d028942
+  slug: meetup-2020-02-12
+  sluggable_id: a4070744-c531-4689-941a-d8ebdccdfbe8
   sluggable_type: Events::Event
 FriendlyId::Slug_2f350f9f-81a2-4072-9e1d-3871175f653b:
   id: 2f350f9f-81a2-4072-9e1d-3871175f653b
@@ -374,6 +384,11 @@ FriendlyId::Slug_6325339c-3e3f-4f3f-baf3-c307182b1fb6:
   slug: balanstrasse-49
   sluggable_id: eb96f61f-5059-4c2c-b7f6-5361a1241c16
   sluggable_type: Locations::Address
+FriendlyId::Slug_64b7ae5f-9e63-442a-8afd-5487dec10883:
+  id: 64b7ae5f-9e63-442a-8afd-5487dec10883
+  slug: meetup-2020-01-08
+  sluggable_id: 4f32d5b3-03fd-42fa-bacf-c544b11ac6bd
+  sluggable_type: Events::Event
 FriendlyId::Slug_67713349-6acc-4e87-a11b-f77912d93850:
   id: 67713349-6acc-4e87-a11b-f77912d93850
   slug: klaus-weidinger
@@ -444,6 +459,11 @@ FriendlyId::Slug_789dd2c6-c2d1-45d2-8735-0141609aa5d2:
   slug: it-agenten-office
   sluggable_id: 8fd97a9c-10f1-4e65-a8c2-fd14c54a963a
   sluggable_type: Venues::Venue
+FriendlyId::Slug_7a918c58-8f04-490b-8cf7-f617e2f7b49c:
+  id: 7a918c58-8f04-490b-8cf7-f617e2f7b49c
+  slug: meetup-2020-04-15
+  sluggable_id: bb626d8b-beff-4d94-b095-d3a73a369ebb
+  sluggable_type: Events::Event
 FriendlyId::Slug_7d358a7c-aca3-4005-827b-b396898e1316:
   id: 7d358a7c-aca3-4005-827b-b396898e1316
   slug: hofbraeukeller
@@ -553,6 +573,11 @@ FriendlyId::Slug_9a3948c7-c98b-4702-8326-e3a4f012ce14:
   id: 9a3948c7-c98b-4702-8326-e3a4f012ce14
   slug: meetup-2014-02-12
   sluggable_id: 764df804-c67c-4803-84b3-4221968642fb
+  sluggable_type: Events::Event
+FriendlyId::Slug_9af68960-1f86-4de3-8810-5d22bfaca084:
+  id: 9af68960-1f86-4de3-8810-5d22bfaca084
+  slug: meetup-2020-06-10
+  sluggable_id: da4b79dd-3013-476b-8fa3-96e7666e56a9
   sluggable_type: Events::Event
 FriendlyId::Slug_9bc3f97a-9fb5-4384-bd77-0cf1967d108a:
   id: 9bc3f97a-9fb5-4384-bd77-0cf1967d108a
@@ -679,6 +704,11 @@ FriendlyId::Slug_c4ee3f3c-f4ba-4dcf-b047-267ff108e5ac:
   slug: berg-am-laim-strasse-111
   sluggable_id: b67de432-baa6-472d-b97f-6da7f18e8b19
   sluggable_type: Locations::Address
+FriendlyId::Slug_c4f9040e-c797-41de-a6a8-058ed8a09bef:
+  id: c4f9040e-c797-41de-a6a8-058ed8a09bef
+  slug: meetup-2020-03-11
+  sluggable_id: e0cc630a-9b72-4f95-badd-f14e16595224
+  sluggable_type: Events::Event
 FriendlyId::Slug_c6dde27d-d7b1-43e3-9580-8e6d817bfc90:
   id: c6dde27d-d7b1-43e3-9580-8e6d817bfc90
   slug: xing-events-office
