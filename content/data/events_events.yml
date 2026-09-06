@@ -79,6 +79,36 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
   website: ''
   youtube: ''
+Events::Event_11b7a50f-1889-41e6-91bc-53d19cd66d70:
+  id: 11b7a50f-1889-41e6-91bc-53d19cd66d70
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Mario Fernández – TDD for Containers with ServerSpec\r\n\r\nThere
+    is one talk slot left. Want to prepare a talk? Let us know!"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-05-09
+  start_date: '2018-05-09'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760914/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
+  website: ''
+  youtube: ''
 Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
   id: 137da0d0-aa0f-4fc0-84de-933aae3c47de
   attendance_mode: in_person
@@ -108,6 +138,38 @@ Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+  youtube: ''
+Events::Event_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
+  id: 13cf2eb5-4055-4ae5-be56-c18eb875f5bc
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "We have a full line up planned for this meetup, so: buckle up!\r\n\r\nTalks:\r\n\r\n×
+    Marina Petrova – One App Fits All: Single vs. Multi Tenancy\r\n× Lucas Dohmen
+    – Halunke, or: How and why I built a programming language\r\n\r\nPizza and drinks
+    are taken care of. Doors at 7pm. We're looking forward to y'all!"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-03-14
+  start_date: '2018-03-14'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/247415805/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: '053190c9-9e62-484e-abf4-374d6e69d475'
   website: ''
   youtube: ''
 Events::Event_1573831b-d7d7-497c-b0b0-74772ea7a891:
@@ -324,6 +386,38 @@ Events::Event_26873fee-6a38-4179-8b79-b800be48163d:
   twitter: ''
   website: ''
   youtube: ''
+Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
+  id: 2a94bfd1-b358-439f-81ea-c5f6a4075d8e
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "It's not Rails all the way down. We will have Ben Bachhuber over who
+    will talk about:\r\n\r\n· Hanami in production - One year later\r\n\r\nIn our
+    second talk Niko will take us on a journey through JavaScript land with his talk:\r\n\r\n·
+    learnings.js - Concepts and Architectural Insights from FrontEnd JavaScript Frameworks."
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-06-13
+  start_date: '2018-06-13'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760916/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
+  website: ''
+  youtube: ''
 Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
   id: 382bfc98-b62a-479c-882b-d8bc3beadfae
   attendance_mode: in_person
@@ -490,6 +584,37 @@ Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
   youtube: ''
+Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
+  id: 4078ef3a-7555-429d-9a49-2d7a0fb65e01
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "# Talks:\r\n\r\nVishnu – Alexa on Rails\r\n\r\nDmitry Kulikov – RSpec
+    vs. Tests\r\n\r\nThere will be Drinks and Pizza, courtesy of Experteer! <3\r\n\r\nGot
+    an idea for a talk? Let us know!"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-02-21
+  start_date: '2018-02-21'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/246512326/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+  youtube: ''
 Events::Event_4ab85760-fd58-428f-bdf3-0b0f97e4930a:
   id: 4ab85760-fd58-428f-bdf3-0b0f97e4930a
   attendance_mode: in_person
@@ -552,6 +677,38 @@ Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+  youtube: ''
+Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
+  id: 4ef3c58d-c767-4e65-a36b-21383e9d2b8e
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "«Our traditional Biergarten-Meetup in August»\r\n\r\nAs tradition
+    has it, we will meet at Park Café for refreshing drinks. There will be no talks,
+    but time for socialising and your stories. :-) We will be there from 7pm on, open
+    end. If you cannot find us, send a tweet our way."
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-08-08
+  start_date: '2018-08-08'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760921/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   website: ''
   youtube: ''
 Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
@@ -617,6 +774,37 @@ Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: acac167f-0957-4586-bcca-7ffa3ed8f06a
+  website: ''
+  youtube: ''
+Events::Event_53be3fcb-a991-4780-a53e-111ad902bb66:
+  id: 53be3fcb-a991-4780-a53e-111ad902bb66
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "\U0001F3A4 Anastasia Chicu — Agile Testing Days Recap: 3 ideas I brought
+    back from the greaTEST conference\r\n\r\n\U0001F3A4 Oliver Prater — Async migrations
+    on Kubernetes"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-12-12
+  start_date: '2018-12-12'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/255062411/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   website: ''
   youtube: ''
 Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
@@ -1053,6 +1241,38 @@ Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
   venues_venue_id: e1cb528f-44ee-4d93-b715-74a738d89c56
   website: ''
   youtube: ''
+Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
+  id: 7e676004-2eb5-412a-85c5-ac137f22e7d7
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Talks:\r\n\r\n\U0001F5D3️ Uli Ramminger – GDS - General Data Structure
+    - a universal, composable data structure, used to store any kind of data.\r\n\r\n⚡
+    Lightning Talks\r\n\r\nWe will have a slot for spontaneous Lightning Talks. This
+    is your chance to shine. 5 Minutes of fame and glory. Slides are optional."
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-09-12
+  start_date: '2018-09-12'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/250536142/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 1347f7fd-3908-4c46-9325-f7f514394170
+  website: ''
+  youtube: ''
 Events::Event_7f01acc2-0480-41c2-810e-6b7ede0d927e:
   id: 7f01acc2-0480-41c2-810e-6b7ede0d927e
   attendance_mode: in_person
@@ -1237,6 +1457,37 @@ Events::Event_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: f1d0f5b6-c721-4dd0-a632-8acec6cbcd60
+  website: ''
+  youtube: ''
+Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
+  id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Talks:\r\n\r\nAnna — »A user manual to working better with a tester«\r\n\r\nThomas
+    & Flo: — »Migrate a Rails-Backend to a Service«\r\n\r\nPizza and beverages are
+    taken care of. We're looking forward to y'all!"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-04-11
+  start_date: '2018-04-11'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248733771/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: e06fb1e7-d75b-4347-bef5-ab4b83b44d37
   website: ''
   youtube: ''
 Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
@@ -1453,6 +1704,41 @@ Events::Event_ab6dc247-9323-4567-8589-fb1953cde773:
   venues_venue_id: 6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f
   website: ''
   youtube: ''
+Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
+  id: ac48d30d-2724-434c-815e-6853b1f10109
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "\U0001F3A4 Jan Krutisch – Updating Dependencies sucks, so let's do
+    more of that\r\n\r\nI would like to tell you about Depfu and why we believe in
+    doing dependency updates more often. But also have a discussion about how everyone
+    is dealing with keeping their app up-to-date and other maintenance tasks as part
+    of their development process.\r\n\r\n\U0001F3A4 Austin Moore – Ruby + Kafka: The
+    Devil is in Details\r\n\r\nxbAV is just starting to use Kafka. We'd like to share
+    some of the pitfalls we've run into so far, so you can avoid them."
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-10-10
+  start_date: '2018-10-10'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/250536144/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: '053190c9-9e62-484e-abf4-374d6e69d475'
+  website: ''
+  youtube: ''
 Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
   id: b4664359-c1e2-4611-a19e-b8e5cf1d8344
   attendance_mode: in_person
@@ -1512,6 +1798,67 @@ Events::Event_c3faa100-3977-4073-82a8-0ec4625773ea:
   title: Ruby Hackathon
   twitter: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+  youtube: ''
+Events::Event_c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e:
+  id: c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: We're actively searching for speakers! Want to become one? Ping us!
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-11-14
+  start_date: '2018-11-14'
+  start_time: '2000-01-01 17:00:00'
+  status: cancelled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/255062409/
+  title: Ruby User Group Meetup
+  twitter: ''
+  website: ''
+  youtube: ''
+Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
+  id: c8a5aa43-7139-44ce-8b2f-53a6c508de2e
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "First Talk: Dmitry Kulikov – I18n in Rails\r\n\r\nAlso, as it's January,
+    this will be our traditional RubyKaraoke Meetup: At about ~10:30pm we will go
+    to Ratchada near Hauptbahnhof for some Ruby Karaoke! http://www.ratchada.de/karaoke/\r\n\r\nThere
+    is still one slot open for a short talk. Leave a comment or ping us on Twitter
+    if you want to prepare something!"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-01-24
+  start_date: '2018-01-24'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/246244986/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
   youtube: ''
 Events::Event_d03d7342-973f-4746-b70e-85309f34ae40:
@@ -1735,6 +2082,37 @@ Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
   start_time: '2000-01-01 17:00:00'
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345803/
+  title: Ruby User Group Meetup
+  twitter: ''
+  venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+  youtube: ''
+Events::Event_e56124e4-1e66-411c-a794-41ea348d7504:
+  id: e56124e4-1e66-411c-a794-41ea348d7504
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "!!!! We moved the meetup by one week (soccer you know) !!!\r\n\r\nPeter:
+    How I teach my daughter ruby\r\n\r\nUI Mate: Easily create a dynamic UI in your
+    rails app much faster than ever before!"
+  end_time: '2000-01-01 19:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2018-07-18
+  start_date: '2018-07-18'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760918/
   title: Ruby User Group Meetup
   twitter: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
