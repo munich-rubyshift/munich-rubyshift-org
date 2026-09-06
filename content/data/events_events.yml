@@ -109,6 +109,52 @@ Events::Event_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
   website: ''
   youtube: ''
+Events::Event_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
+  id: 0ca4de01-0994-4c1f-a277-68b7edd8a87a
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nI wish you all happy 2025 -- I hope you're
+    having great holidays with your loved ones!\r\n\r\nAfter a rather slow year 2024
+    in terms of meetups, let's revive this in 2025, shall we? :-)\r\n\r\nLike last
+    year, our friends from Freeletics have agreed to host the first meetup of the
+    new year with location and snacks & drinks. They'll also have a talk lined up
+    and you'll find the speaker and topic as soon as it's finalized here in the event
+    notes. If you're up for a talk yourself, let me know -- there's always room for
+    a second one, especially after the longer break that we just had!\r\n\r\nAt this
+    time, I'm also still looking for 1-2 talks. Maybe from you? ;-) Get in touch!\r\n\r\nDATE
+    & LOCATION\r\n\r\nDate and Time: January 16, from 19:00 CEST\r\nLocation: Freeletics
+    GmbH, Berg-Am-Laim-Strasse 111, 81673 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome
+    & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Talk 1 incl.
+    Q&A: \"How a 502 Error led us to cut resource usage by over 30%\", Khaled Muamar,
+    Senior Software Engineer @ Freeletics\r\n    Talk 2 incl. Q&A: TBD\r\n    Food
+    & Drinks (sponsored by Freeltics), Socializing (open end/as long as the location
+    permits)\r\n\r\nTALKS\r\n\r\nTalk 1: How a 502 Error led us to cut resource usage
+    by over 30%\r\nAbout our speaker\r\nKhaled Muamar is a Senior Software Engineer
+    at Freeletics.\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou? ;-)"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2025-01-16
+  start_date: '2025-01-16'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/301843343/
+  title: Ruby Meetup January 2025
+  twitter: ''
+  venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
+  website: ''
+  youtube: ''
 Events::Event_11b7a50f-1889-41e6-91bc-53d19cd66d70:
   id: 11b7a50f-1889-41e6-91bc-53d19cd66d70
   attendance_mode: in_person
@@ -1953,6 +1999,104 @@ Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
   venues_venue_id: e06fb1e7-d75b-4347-bef5-ab4b83b44d37
   website: ''
   youtube: ''
+Events::Event_969902ff-c7e8-48e5-8d0e-f64c85568e63:
+  id: 969902ff-c7e8-48e5-8d0e-f64c85568e63
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nSummer's coming and so is our July meetup!\r\n\r\nWe're
+    looking for a company to provide a location and food & drinks -- so if your company
+    wants to host this edition of our meetup, please get in touch. We're also looking
+    for 1 or 2 speakers -- so if you're up for a talk or know somebody who is, please
+    let me know.\r\n\r\nOn a personal note: As I've said before, this event will be
+    the last one that I'm organizing. It's time to pass on the baton to someone who's
+    still (more) active in the Ruby ecosystem -- so if you're willing to step up,
+    drop me a line or talk to me at the meetup.\r\n\r\nLooking forward to seeing you
+    all in July!\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: July 17, from 19:00
+    CEST\r\nLocation: Lanes & Planes GmbH, Kap West, Friedenheimer Bruecke 16, 80639
+    Munich\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n    Location/Food &
+    Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: Aron Wolf: \"Hotwire Native\"\r\n
+    \   Talk 2 incl. Q&A: Clemens Helm: \"Using database views in Rails and why you
+    should (or shouldn't) do it\"\r\n    Food & Drinks (sponsored by TBD), Socializing
+    (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: Aron Wolf:
+    \"Hotwire Native\"\r\nAn introduction about Hotwire Native. A tool from 37signal
+    to convert your fullstack Rails application into a mobile app.\r\nAbout our speaker\r\nhttps://www.meetup.com/members/264213499\r\n\r\nTalk
+    2: Clemens Helm: \"Using database views in Rails and why you should (or shouldn't)
+    do it\"\r\nComplex data filtering in Rails often leads us down a rabbit hole of
+    custom scopes, service objects, and Arel acrobatics. But what if we let the database
+    do what it’s best at? In this talk, you’ll see how SQL views paired with plain
+    ActiveRecord and Ransack can turn messy logic into elegant, powerful queries —
+    without giving up the Rails way.\r\nAbout our speaker\r\nClemens Helm is a seasoned
+    Rails developer from Vienna who believes good code is boring — in the best way.
+    At railscraft.de, he helps teams modernize legacy Rails apps with clean architecture,
+    sharp tools, and zero-nonsense pragmatism."
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2025-07-17
+  start_date: '2025-07-17'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/308137751/
+  title: Ruby Meetup July 2025
+  twitter: ''
+  venues_venue_id: c7e45563-ce0e-46c7-9805-77b86851eda6
+  website: ''
+  youtube: ''
+Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
+  id: 988d2d1a-5277-4155-87b6-98e25500d5de
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nafter a pleasant start to our meetup
+    year 2025, let's get ready for episode 2!\r\n\r\nThe meetup will take place at
+    metoda GmbH who will also take care of food & drinks.\r\n\r\nHenning Koch will
+    be talking about API design and walking the line between perfectionism and development
+    speed. Additionally, we'd of course still have room for another speaker who might
+    want to give a shorter talk. If that sounds like something for you, let me know!
+    :-)\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: March 20, from 19:00 CEST\r\nLocation:
+    metoda GmbH, Bayerstrasse 69, 80335 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome &
+    Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A:
+    \"API Design & Perfectionism: Keeping momentum when obsessing over details\",
+    Henning Koch, Head of Engineering @ makandra GmbH\r\n    Talk 2 incl. Q&A: TBD\r\n
+    \   Food & Drinks (sponsored by TBD), Socializing (open end/as long as the location
+    permits)\r\n\r\nTALKS\r\n\r\nTalk 1: API Design & Perfectionism: Keeping momentum
+    when obsessing over details\r\nAbout our speaker\r\nHenning Koch is Head of Engineering
+    at makandra GmbH and author and co-author of several popular open source libraries
+    and tools.\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou? ;-)"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2025-03-20
+  start_date: '2025-03-20'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/306159513/
+  title: Ruby Meetup March 2025
+  twitter: ''
+  venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
+  website: ''
+  youtube: ''
 Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
   id: a25cb714-cc6a-4e13-adae-69f1f42f1901
   attendance_mode: in_person
@@ -2405,6 +2549,53 @@ Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/269643042/
   title: Ruby User Group Meetup
   twitter: ''
+  website: ''
+  youtube: ''
+Events::Event_bd09e5ca-d692-409c-8944-d966c2a175e0:
+  id: bd09e5ca-d692-409c-8944-d966c2a175e0
+  attendance_mode: in_person
+  banner_background: ''
+  channel_id: ''
+  date_precision: day
+  description: "Dear Munich Rubyists,\r\n\r\nwill be nice to see you all again on
+    16.10.\r\n\r\nThe meetup will take place at Lanes & Planes GmbH and the food is
+    sponsored by Ruby Central.\r\n\r\nWe have two interesting talks. One from Chikahiro
+    \"Is the monolith a problem?\" and another from Klaus - \"A resource-oriented
+    file structure for Rails\".\r\n\r\nOn a personal note: This is the first event
+    that I am organizing since I took over the group from Clemens. If anyone wants
+    to help organize it or become a co-organizer of the group, please contact me.\r\n\r\nDiscord
+    group: https://discord.gg/EKqHWmCxGZ\r\n\r\nLooking forward to seeing you all
+    in October!\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: October 16, from 19:00
+    CEST\r\nLocation: Lanes & Planes\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n
+    \   Location/Food & Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: Chikahiro: \"Is
+    the monolith a problem?\"\r\n    Talk 2 incl. Q&A: Klaus: Lightning Talk - \"A
+    resource-oriented file structure for Rails\"\r\n    Food & Drinks (sponsored by
+    Ruby Central), Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
+    1: Chikahiro: \"Is the monolith a problem?\"\r\nDiscover the truth about monoliths
+    vs microservices! Debunk myths, uncover real architectural differences, and learn
+    strategies to fix the real problems — not just follow trends.\r\nAbout our speaker
+    https://www.linkedin.com/in/chikahiro\r\n\r\nTalk 2: Klaus: Lightning Talk - \"A
+    resource-oriented file structure for Rails\"\r\nAbout the speaker https://www.linkedin.com/in/klaus-weidinger-a37a27332/"
+  end_time: '2000-01-01 20:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  featured_background: ''
+  featured_color: ''
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  playlist: ''
+  rubyevents_slug: ''
+  slug: meetup-2025-10-16
+  start_date: '2025-10-16'
+  start_time: '2000-01-01 17:00:00'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/310392682/
+  title: Ruby Meetup October 2025
+  twitter: ''
+  venues_venue_id: c7e45563-ce0e-46c7-9805-77b86851eda6
   website: ''
   youtube: ''
 Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
