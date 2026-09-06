@@ -94,6 +94,11 @@ FriendlyId::Slug_1e003efa-910e-4c98-8801-7a3b5652239f:
   slug: cospired-office
   sluggable_id: e1cb528f-44ee-4d93-b715-74a738d89c56
   sluggable_type: Venues::Venue
+FriendlyId::Slug_1ed86960-73fc-469f-a4c9-55e4c0c6bb71:
+  id: 1ed86960-73fc-469f-a4c9-55e4c0c6bb71
+  slug: meetup-2017-12-13
+  sluggable_id: 388f3a35-88ab-4c17-b911-ef743b26ab87
+  sluggable_type: Events::Event
 FriendlyId::Slug_1fc8b469-217b-48d4-8066-a2e1057b2f33:
   id: 1fc8b469-217b-48d4-8066-a2e1057b2f33
   slug: freeletics-office-2
@@ -124,11 +129,21 @@ FriendlyId::Slug_23383c92-8879-478d-8729-2a2260591443:
   slug: former-03-office
   sluggable_id: 4f816bec-c6ce-4776-947f-fa6551d18108
   sluggable_type: Venues::Venue
+FriendlyId::Slug_2bddcbbd-c84d-4d70-827e-7586a67795d6:
+  id: 2bddcbbd-c84d-4d70-827e-7586a67795d6
+  slug: meetup-2017-08-09
+  sluggable_id: 4ab85760-fd58-428f-bdf3-0b0f97e4930a
+  sluggable_type: Events::Event
 FriendlyId::Slug_2d0964e2-2545-4e20-9326-ccb6b3151d34:
   id: 2d0964e2-2545-4e20-9326-ccb6b3151d34
   slug: freeletics-office
   sluggable_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   sluggable_type: Venues::Venue
+FriendlyId::Slug_2e75764b-783a-495d-92f0-df9abe380920:
+  id: 2e75764b-783a-495d-92f0-df9abe380920
+  slug: meetup-2017-07-12
+  sluggable_id: 39f6c39c-523a-4f7e-bbae-54ef7574250b
+  sluggable_type: Events::Event
 FriendlyId::Slug_2f350f9f-81a2-4072-9e1d-3871175f653b:
   id: 2f350f9f-81a2-4072-9e1d-3871175f653b
   slug: meetup-2016-11-09
@@ -244,6 +259,11 @@ FriendlyId::Slug_573a5ccc-fda1-4e2e-be9d-080222f78937:
   slug: brienner-strasse-49
   sluggable_id: 8db60734-ff15-4d1e-a890-78e45e3013a3
   sluggable_type: Locations::Address
+FriendlyId::Slug_58fd4c33-fac4-441c-8525-1768f1ca8fd9:
+  id: 58fd4c33-fac4-441c-8525-1768f1ca8fd9
+  slug: meetup-2017-06-14
+  sluggable_id: 5c659335-1a76-4e74-8341-e5bed8907f8c
+  sluggable_type: Events::Event
 FriendlyId::Slug_5a7ffb75-7473-403a-8209-af78c5f32ec5:
   id: 5a7ffb75-7473-403a-8209-af78c5f32ec5
   slug: meetup-2015-04-08
@@ -299,10 +319,25 @@ FriendlyId::Slug_67fb2ef5-6072-4911-ae0e-07568db1bf8a:
   slug: zavvy-office
   sluggable_id: 12f15b05-65ee-431d-b691-51486c2be216
   sluggable_type: Venues::Venue
+FriendlyId::Slug_68b402fd-fac9-49f7-8c0c-8577f41b858c:
+  id: 68b402fd-fac9-49f7-8c0c-8577f41b858c
+  slug: meetup-2017-02-08
+  sluggable_id: 1cbe4b7d-9dca-4673-a7f0-7d7133a213f7
+  sluggable_type: Events::Event
 FriendlyId::Slug_6decc35f-16ee-4232-b9c7-f02672b04345:
   id: 6decc35f-16ee-4232-b9c7-f02672b04345
   slug: hackathon-2013-07-12
   sluggable_id: c3faa100-3977-4073-82a8-0ec4625773ea
+  sluggable_type: Events::Event
+FriendlyId::Slug_6e163052-2eb9-4761-b3cc-e2c3511419cf:
+  id: 6e163052-2eb9-4761-b3cc-e2c3511419cf
+  slug: meetup-2017-09-13
+  sluggable_id: d03d7342-973f-4746-b70e-85309f34ae40
+  sluggable_type: Events::Event
+FriendlyId::Slug_6e4de414-de55-4395-88f2-824c6aa6ff54:
+  id: 6e4de414-de55-4395-88f2-824c6aa6ff54
+  slug: meetup-2017-01-11
+  sluggable_id: 24295c0d-0811-42c4-a837-68311abd1a63
   sluggable_type: Events::Event
 FriendlyId::Slug_6e756345-8ec3-4608-bfdb-2692adaed49c:
   id: 6e756345-8ec3-4608-bfdb-2692adaed49c
@@ -349,6 +384,11 @@ FriendlyId::Slug_7f42a041-63ac-4328-aa27-98dc1fe47820:
   slug: meetup-2015-02-11
   sluggable_id: 137da0d0-aa0f-4fc0-84de-933aae3c47de
   sluggable_type: Events::Event
+FriendlyId::Slug_7f87df4a-a6e4-4c2d-9f21-d4b3c12bc280:
+  id: 7f87df4a-a6e4-4c2d-9f21-d4b3c12bc280
+  slug: meetup-2017-04-12
+  sluggable_id: 5ec4c4c6-643b-40e8-b01f-f5396c2323dd
+  sluggable_type: Events::Event
 FriendlyId::Slug_83215aa9-ecfb-44b7-a14c-a3729d0987e2:
   id: 83215aa9-ecfb-44b7-a14c-a3729d0987e2
   slug: sandstrasse-33
@@ -389,10 +429,20 @@ FriendlyId::Slug_8b54fe60-c5c8-428c-82e9-055691087a8b:
   slug: crewmeister-office
   sluggable_id: e06fb1e7-d75b-4347-bef5-ab4b83b44d37
   sluggable_type: Venues::Venue
+FriendlyId::Slug_8c430597-8ff2-414d-aea3-ce3aa9ae42b6:
+  id: 8c430597-8ff2-414d-aea3-ce3aa9ae42b6
+  slug: meetup-2017-11-08
+  sluggable_id: a25cb714-cc6a-4e13-adae-69f1f42f1901
+  sluggable_type: Events::Event
 FriendlyId::Slug_8f1ccef6-fe49-4b4f-ab96-7154b4dff52b:
   id: 8f1ccef6-fe49-4b4f-ab96-7154b4dff52b
   slug: meetup-2013-08-14
   sluggable_id: 6fa5571a-9a88-428f-afb6-9a0c07e1f9e3
+  sluggable_type: Events::Event
+FriendlyId::Slug_90a40c93-62b6-40d5-9f73-798f14839372:
+  id: 90a40c93-62b6-40d5-9f73-798f14839372
+  slug: meetup-2017-10-11
+  sluggable_id: 7f01acc2-0480-41c2-810e-6b7ede0d927e
   sluggable_type: Events::Event
 FriendlyId::Slug_92b1a054-83a6-493d-8c1a-a4d265d25b27:
   id: 92b1a054-83a6-493d-8c1a-a4d265d25b27
@@ -519,6 +569,11 @@ FriendlyId::Slug_c23bff6b-4cfe-4434-b7a7-d3a2bdc90da8:
   slug: meetup-2016-06-08
   sluggable_id: e3c9dfd3-52c3-4813-95e9-a940a1add48f
   sluggable_type: Events::Event
+FriendlyId::Slug_c2c0931e-3dda-4eae-9099-c79d06f62a8c:
+  id: c2c0931e-3dda-4eae-9099-c79d06f62a8c
+  slug: meetup-2017-03-08
+  sluggable_id: '01839f7a-6117-4811-97fa-bb15c798556d'
+  sluggable_type: Events::Event
 FriendlyId::Slug_c401802d-3b4f-4d18-bbbc-a0372c0ccbac:
   id: c401802d-3b4f-4d18-bbbc-a0372c0ccbac
   slug: meetup-2014-06-11
@@ -564,6 +619,11 @@ FriendlyId::Slug_d01b57e3-b7df-4527-9509-85a739773da3:
   slug: infanteriestrasse-19-haus-6
   sluggable_id: 581c789e-6408-4f1d-8a23-43ae147b210b
   sluggable_type: Locations::Address
+FriendlyId::Slug_d3aabf70-85a3-48e0-a01d-cf3901adf08c:
+  id: d3aabf70-85a3-48e0-a01d-cf3901adf08c
+  slug: meetup-2017-05-10
+  sluggable_id: a2cad908-ac6a-4757-92b5-23360594d899
+  sluggable_type: Events::Event
 FriendlyId::Slug_d3bec290-c17a-4295-a777-ff84fa2fbae3:
   id: d3bec290-c17a-4295-a777-ff84fa2fbae3
   slug: elsenheimerstrasse-47
