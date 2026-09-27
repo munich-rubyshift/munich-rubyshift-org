@@ -1,13 +1,14 @@
 if defined?(Avo)
-  # Allow moving Avo controllers into `app/avo/controllers/`
+  # Allow moving Avo controllers and components into
+  # `app/avo/controllers/` and `app/avo/components/`
   Rails.autoloaders.main.collapse(
-    Rails.root.join("app/avo/controllers")
+    Rails.root.join("app/avo/controllers"),
+    Rails.root.join("app/avo/components")
   )
 else
   # Don't load Avo
   Rails.autoloaders.main.ignore(
     Rails.root.join("app/avo"),
-    Rails.root.join("app/components/avo"),
     Rails.root.join("app/controllers/avo")
   )
 

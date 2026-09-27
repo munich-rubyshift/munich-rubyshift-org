@@ -30,15 +30,17 @@
             </div>
           <% end %>
 
-          <div>
-            <%= render Avo::Sidebar::HeadingComponent.new label: t('avo.resources'), icon: helpers.svg("avo/resources", class: 'h-4') %>
+          <% resource_groups.each do |heading, group| %>
+            <div>
+              <%= render Avo::Sidebar::HeadingComponent.new label: heading, icon: helpers.svg("avo/resources", class: 'h-4') %>
 
-            <div class="w-full space-y-1">
-              <% resources.sort_by { |r| r.navigation_label }.each do |resource| %>
-                <%= render Avo::Sidebar::LinkComponent.new label: resource.navigation_label, path: helpers.resources_path(resource: resource) %>
-              <% end %>
+              <div class="w-full space-y-1">
+                <% group.each do |resource| %>
+                  <%= render Avo::Sidebar::LinkComponent.new label: resource.navigation_label, path: helpers.resources_path(resource: resource) %>
+                <% end %>
+              </div>
             </div>
-          </div>
+          <% end %>
 
           <% if tools.present? %>
             <div>
