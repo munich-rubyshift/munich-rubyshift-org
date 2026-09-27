@@ -7,6 +7,7 @@ else
   # Don't load Avo
   Rails.autoloaders.main.ignore(
     Rails.root.join("app/avo"),
+    Rails.root.join("app/components/avo"),
     Rails.root.join("app/controllers/avo")
   )
 
