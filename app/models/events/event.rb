@@ -32,6 +32,13 @@ class Events::Event < ApplicationRecord
   validates :venue, presence: true, if: :venue_required?
   validates :venue, absence: true, if: :online?
 
+  # A dated event has both dates, an undated one has neither.
+  validates :end_date, presence: true, if: :start_date?
+  validates :end_date, absence: true, unless: :start_date?
+  validates :start_time, absence: true, unless: :start_date?
+  validates :end_time, absence: true, unless: :end_date?
+  validate :ends_after_it_starts
+
   def slug_candidates
     [
       ([ kind, start_date ] if start_date),
@@ -56,5 +63,17 @@ class Events::Event < ApplicationRecord
 
   def to_s
     title
+  end
+
+  private
+
+  def ends_after_it_starts
+    return unless start_date && end_date
+
+    if end_date < start_date
+      errors.add(:end_date, "can't be before the start date")
+    elsif end_date == start_date && start_time && end_time && end_time < start_time
+      errors.add(:end_time, "can't be before the start time")
+    end
   end
 end

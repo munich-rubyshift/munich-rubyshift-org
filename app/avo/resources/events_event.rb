@@ -23,7 +23,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
         field :start_time, as: :time
       end
       row do
-        field :end_date, as: :date, sortable: -> { query.order(end_date: direction, end_time: direction) }
+        field :end_date, as: :date, sortable: -> { query.order(end_date: direction, end_time: direction) }, help: "Leave blank to end on the start date."
         field :end_time, as: :time
       end
       field :date_precision, as: :select, sortable: true, options: ::Events::Event::DATE_PRECISIONS.index_by(&:humanize), include_blank: true, default: "day"
@@ -60,6 +60,10 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :published_at, as: :date_time, sortable: true
     field :announced_on, as: :date, sortable: true
     field :last_edition, as: :boolean, sortable: true
+  end
+
+  def fill_record(...)
+    super.tap { |record| record.end_date ||= record.start_date }
   end
 
   private

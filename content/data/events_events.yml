@@ -7,6 +7,7 @@ Events::Event_01839f7a-6117-4811-97fa-bb15c798556d:
   date_precision: day
   description: "# Talks\r\n\r\nMarina - Testing database migrations with snapshots\r\n\r\nMichael
     - Docker based development environments at Experteer"
+  end_date: '2017-03-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -57,6 +58,7 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
     introduction and a demo to Riak and its Ruby bindings.\r\n\r\nPhillipp Fehre @ischi\r\n\r\nPhil
     is your local and friendly ruby and javascript coder, working for his company
     Cospired."
+  end_date: '2013-09-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -87,6 +89,7 @@ Events::Event_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
   date_precision: day
   description: "\U0001F3A4 Pavlo – To Rails or not to Rails? Way to go\r\n\r\nOne
     slot is still open. Got a talk prepared? Talk to us!"
+  end_date: '2019-11-13'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -133,6 +136,7 @@ Events::Event_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
     permits)\r\n\r\nTALKS\r\n\r\nTalk 1: How a 502 Error led us to cut resource usage
     by over 30%\r\nAbout our speaker\r\nKhaled Muamar is a Senior Software Engineer
     at Freeletics.\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou? ;-)"
+  end_date: '2025-01-16'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -163,6 +167,7 @@ Events::Event_11b7a50f-1889-41e6-91bc-53d19cd66d70:
   date_precision: day
   description: "Mario Fernández – TDD for Containers with ServerSpec\r\n\r\nThere
     is one talk slot left. Want to prepare a talk? Let us know!"
+  end_date: '2018-05-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -194,6 +199,7 @@ Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
   description: "Join us for our February Meetup!\r\n\r\nWe have\r\n\r\n• Marco Otte-Witte:
     Rails backends with Ember.js front ends\r\n\r\n... and we could use another 1
     or 2 talks :-)"
+  end_date: '2015-02-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -226,6 +232,7 @@ Events::Event_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
     Marina Petrova – One App Fits All: Single vs. Multi Tenancy\r\n× Lucas Dohmen
     – Halunke, or: How and why I built a programming language\r\n\r\nPizza and drinks
     are taken care of. Doors at 7pm. We're looking forward to y'all!"
+  end_date: '2018-03-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -256,6 +263,7 @@ Events::Event_1573831b-d7d7-497c-b0b0-74772ea7a891:
   date_precision: day
   description: "Mario Fernandez - Ruby on Rails in mid-sized companies\r\n\r\nJason
     Franklin - TBD\r\n\r\nCarsten - Asset Pipeline and modern Frontend Development"
+  end_date: '2016-02-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -286,6 +294,7 @@ Events::Event_159e036d-87af-4d9b-bbc4-a2adf07f48e1:
   date_precision: day
   description: "Talks:\r\n\r\nJames Edward Gray II : Objects, no really.\r\n\r\nPeter
     Schrammel: After 10 years of ruby"
+  end_date: '2015-07-22'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -316,6 +325,7 @@ Events::Event_1bd4fee4-ef7b-4050-9932-c657a72151c5:
   date_precision: day
   description: "Florian Gilcher: »Not Omakase – Padrino«\r\n\r\nPeter Schrammel: MRuby
     - a short introduction"
+  end_date: '2016-01-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -347,6 +357,7 @@ Events::Event_1cbe4b7d-9dca-4673-a7f0-7d7133a213f7:
   description: "Monica – Off the Rails: alternatives in the wild\r\n\r\nPeter – Building
     an Agent Framework\r\n\r\nWe're actively searching for speakers! Want to become
     one? Ping us!"
+  end_date: '2017-02-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -381,6 +392,7 @@ Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
     (https://twitter.com/linuxmagazin) (German or English edition)!\r\n\r\n• CANCELLED
     robertj (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/76890822/)
     will talk about the deployment tool Capistrano 3"
+  end_date: '2014-07-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -411,6 +423,7 @@ Events::Event_24295c0d-0811-42c4-a837-68311abd1a63:
   date_precision: day
   description: "• Omar Qunsul – Using Database replicas in Rails using octopus gem\r\n\r\n•
     Hendrik – Exploring web functionality and APIs interactively with pry/REPL"
+  end_date: '2017-01-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -472,6 +485,7 @@ Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
     will talk about:\r\n\r\n· Hanami in production - One year later\r\n\r\nIn our
     second talk Niko will take us on a journey through JavaScript land with his talk:\r\n\r\n·
     learnings.js - Concepts and Architectural Insights from FrontEnd JavaScript Frameworks."
+  end_date: '2018-06-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -521,6 +535,7 @@ Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
     our speaker\r\nClemens Kofler is a Director of Engineering at DataGuard.\r\n\r\nTalk
     2: \"Intuitive Client Errors Driven by Backend\"\r\nAbout our speaker\r\nKhaled
     Muamar is a Backend Engineer at Freeletics."
+  end_date: '2024-01-11'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -552,6 +567,7 @@ Events::Event_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
   description: "Two talks lined up for Wednesday:\r\n\r\n\U0001F3A4 Marina: Keep calm
     and monitor your app with Elastic Stack APM\r\n\U0001F3A4 Austin: Our Kafka Journey
     – Lessons learned Pt. II\r\n\r\nThere will be Pizza and drinks."
+  end_date: '2019-03-13'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -593,6 +609,7 @@ Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
     you are invited to talk about your favourite pattern or your least favourite pattern,
     antipatterns, enterprise patterns, maybe why you don't like patterns ...\r\n\r\nciao
     robertj & alex"
+  end_date: '2013-11-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -624,6 +641,7 @@ Events::Event_388f3a35-88ab-4c17-b911-ef743b26ab87:
   description: "We will have a Database themed meetup, with:\r\n\r\n    Marius Nünnerich
     – Introducing CockroachDB & TiDB\r\n    Omar Qunsul - Adding Graphs to Redis We're
     always searching for speakers! Want to speak at our December meetup? Let us know.\r\n"
+  end_date: '2017-12-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -669,6 +687,7 @@ Events::Event_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
     Active Record with multiple databases to migrate a single-tenant application to
     a multi-tenant world.\r\nAbout our speaker\r\nOliver Prater is a Software Engineer
     at Xempus.\r\n\r\nTalk 2: TBD\r\n\r\nAbout our speaker\r\nYou? :-)"
+  end_date: '2023-11-09'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -701,6 +720,7 @@ Events::Event_39f6c39c-523a-4f7e-bbae-54ef7574250b:
     Jannis Hübl - Measure your side project web-performance without spending shit**loads
     of money\r\n\r\nWe're always searching for speakers! Want to give a talk at our
     next meetup? Comment below or send a message to Bascht (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/)!"
+  end_date: '2017-07-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -731,6 +751,7 @@ Events::Event_3b6374f6-81eb-4da7-9e6b-ab99549b69db:
   date_precision: day
   description: "C. Eigel: Metaprogramming in Ruby\r\n\r\nSebastian Schulze : Padrino
     and Ruby News of the Week\r\n\r\nPeter Schrammel: ActionCable"
+  end_date: '2015-11-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -762,6 +783,7 @@ Events::Event_3c718b66-d23e-48d4-bc5f-a8430392ca94:
   description: "August will be our traditional Beergarden Meetup!\r\nWe will meet
     at Park Café Sophienstraße – everybody is welcome. Rest assured, the beer garden
     will also serve pretty tasty non-alcoholic beverages!"
+  end_date: '2019-08-14'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -794,6 +816,7 @@ Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
     new developers successfully\" with Ilya Krasnov\r\n\r\n• \"Logging - it seems
     so simple\" with Peter Schrammel\r\n\r\n• \"2014 in Ruby\" with MathiasH\r\n\r\n•
     making plans for 2015 with everybody"
+  end_date: '2014-12-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -825,6 +848,7 @@ Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
   description: "# Talks:\r\n\r\nVishnu – Alexa on Rails\r\n\r\nDmitry Kulikov – RSpec
     vs. Tests\r\n\r\nThere will be Drinks and Pizza, courtesy of Experteer! <3\r\n\r\nGot
     an idea for a talk? Let us know!"
+  end_date: '2018-02-21'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -854,6 +878,7 @@ Events::Event_4ab85760-fd58-428f-bdf3-0b0f97e4930a:
   channel_id: ''
   date_precision: day
   description: "< Our traditional Biergarten-Meetup >"
+  end_date: '2017-08-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -889,6 +914,7 @@ Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
     speakers, don't be shy :-)\r\n\r\n• Furthermore, you are invited to bring your
     favourite Ruby or programming book and tell us a bit about it. Let's have a little
     book club session!"
+  end_date: '2014-05-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -927,6 +953,7 @@ Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
     & Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: to be announced\r\n    Talk 2 incl.
     Q&A: conntact us if you want to give it.\r\n    Food & Drinks, Socializing (open
     end/as long as the location permits)\r\n"
+  end_date: '2026-09-24'
   end_time: '2000-01-01 19:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -976,6 +1003,7 @@ Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
     of Review Apps began with an open source alternative to Heroku, moving on to using
     Humanitec, a full-fledged platform orchestrator.\r\nAbout our speaker\r\nBogdans
     Laidins is a Lead Engineer at DataGuard."
+  end_date: '2022-09-08'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1008,6 +1036,7 @@ Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
     has it, we will meet at Park Café for refreshing drinks. There will be no talks,
     but time for socialising and your stories. :-) We will be there from 7pm on, open
     end. If you cannot find us, send a tweet our way."
+  end_date: '2018-08-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1039,6 +1068,7 @@ Events::Event_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
   description: "\U0001F5F2 Lightning Talks\r\n\r\nRuby Coding - My pitfall with String#split
     by Uli\r\n\r\nWe're actively searching for speakers! Want to become one? Ping
     us!"
+  end_date: '2020-01-08'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1073,6 +1103,7 @@ Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
     to help with trouble shooting and guidance :)\r\n\r\nDrinks will be available
     at Flobby Media for a fee of €1 per drink, and there will just be a couple of
     snacks, such as chips, carrot sticks, salzstengel"
+  end_date: '2013-12-10'
   end_time: '2000-01-01 18:45:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1111,6 +1142,7 @@ Events::Event_5120ef88-e9ee-49c7-8d67-5a6190d3fa63:
     raise awareness of this topic with horrible and funny real-life examples and tips
     for everyday work.\r\n\r\nWe're actively searching for speakers! Want to become
     one? Ping us!"
+  end_date: '2019-04-10'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1142,6 +1174,7 @@ Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
   description: "Miguel Regedor : Different programming paragdims with ruby\r\n\r\nSebastian
     Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/):
     Gerrit"
+  end_date: '2015-05-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1173,6 +1206,7 @@ Events::Event_53be3fcb-a991-4780-a53e-111ad902bb66:
   description: "\U0001F3A4 Anastasia Chicu — Agile Testing Days Recap: 3 ideas I brought
     back from the greaTEST conference\r\n\r\n\U0001F3A4 Oliver Prater — Async migrations
     on Kubernetes"
+  end_date: '2018-12-12'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1208,6 +1242,7 @@ Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
     will talk about container virtualization with Docker\r\n\r\n• Shota Bakuradze
     (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/14411411) will
     tell us what's new in Ruby 2.1.0"
+  end_date: '2014-06-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1238,6 +1273,7 @@ Events::Event_59158906-28a1-4838-944a-529ba1fb889c:
   date_precision: day
   description: 'Munich Rubyshift: Beer Garden Meetup. Just a relaxed get-together
     at Park Café near Stachus. Come by, chat along!'
+  end_date: '2016-08-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1276,6 +1312,7 @@ Events::Event_5c39c74b-af9f-47a4-a840-7daca41a559f:
     \   Talk 2 incl. Q&A: TBD\r\n    Socializing (open end/as long as the location
     permits)\r\n\r\nTALKS\r\n\r\nTalk 1: TBD\r\nAbout our speaker\r\nYou? :-)\r\n\r\nTalk
     2: TBD\r\nAbout our speaker\r\nYou? :-)"
+  end_date: '2023-07-13'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1308,6 +1345,7 @@ Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
     and Postgres\r\n\r\n<> - This slot is still open! Comment below if you want to
     give a small talk!\r\n\r\nWe're always searching for speakers! Want to become
     one? Ping us!"
+  end_date: '2017-06-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1347,6 +1385,7 @@ Events::Event_5e8801b8-b30c-49d7-b13f-63060e40667a:
     Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
     1: TBD\r\nAbout our speaker\r\nYou? ;-)\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou?
     ;-)"
+  end_date: '2024-03-14'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1377,6 +1416,7 @@ Events::Event_5ec4c4c6-643b-40e8-b01f-f5396c2323dd:
   date_precision: day
   description: "Talks\r\n\r\n• Mario Fernandez - Managing Pull Requests with YAI (You
     Are It)\r\n\r\n• Henning Koch – Stress and burnout in open source"
+  end_date: '2017-04-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1409,6 +1449,7 @@ Events::Event_60f568f0-6f60-4e53-9e04-e9ffaebb1e06:
     \"Testing Ruby gems against multiple versions of everything\"\r\n\r\nPhillip O
     (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/100664/):
     \"Making feature specs fun again\""
+  end_date: '2016-10-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1439,6 +1480,7 @@ Events::Event_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
   date_precision: day
   description: This time we're meeting at Augustiner Keller, in an informal environment
     to chat with fellow Ruby Hackers, enjoy sun and great weather!
+  end_date: '2013-08-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1502,6 +1544,7 @@ Events::Event_71a42ab5-d65d-4686-9bf6-7238a6719d66:
     be a longer evening, therefore we will start our talks and our introduction round
     at 19:30. please be in time and we will make sure that pizza and beverages are
     there at 19:00.\r\n\r\nLooking forward to this event\r\n\r\nAlex & Robert"
+  end_date: '2013-07-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1533,6 +1576,7 @@ Events::Event_721e3030-460f-48ae-a545-cf81cb327b67:
   description: "Let's go to the Biergarten for the August Meetup!\r\n\r\nFind us at
     a table near the children's playground. In case of rain, there is room indoors.
     Enjoy!"
+  end_date: '2014-08-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1576,6 +1620,7 @@ Events::Event_74ad1707-f344-4743-916f-c5c2a89c27bd:
     bunch of legacy code bases require some older Ruby versions... that can quickly
     become a mess. In this talk, I want to explore some part of the Ruby ecosystem
     that deals with infrastructure: Chef and Vagrant."
+  end_date: '2014-01-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1616,6 +1661,7 @@ Events::Event_764df804-c67c-4803-84b3-4221968642fb:
     introduction to Experella-Proxy and features to aim for.\r\n\r\nAfter the talks
     you are invited to help yourself to some more drinks, socialize, and talk about
     the conferences you will be attending this year (you can find some at http://rubyconferences.org­)"
+  end_date: '2014-02-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1670,6 +1716,7 @@ Events::Event_7756b666-da89-4f60-9947-cbb5d3110256:
     intended for 1st time/inexperienced speakers who want to take to the stage for
     a shorter topic.\r\n\r\nAbout our speaker\r\nMaybe you? If you have an idea yourself
     for anything Ruby or at least Ruby-related, get in touch!"
+  end_date: '2022-07-14'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1702,6 +1749,7 @@ Events::Event_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
     RailsConf 2016\r\n\r\nMonica Giambitto (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/121525572/):
     Effective Testing or how to sleep when you are on call\r\n\r\n(Peter Schrammel:
     ruby on the command line)"
+  end_date: '2016-05-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1731,6 +1779,7 @@ Events::Event_7c40a4f1-fc58-46e7-8c96-53d3e07d5f88:
   channel_id: ''
   date_precision: day
   description: We're actively searching for speakers! Want to become one? Ping us!
+  end_date: '2019-05-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1766,6 +1815,7 @@ Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
     talks).\r\nStep forward - Fame and fortune will be yours.\r\n\r\nBecause of some
     difficulties we had to change the place where meetup occurs, now it's Roßmarkt
     6, 80331, München. We're still on for the meeting though!"
+  end_date: '2013-10-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1798,6 +1848,7 @@ Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
     - a universal, composable data structure, used to store any kind of data.\r\n\r\n⚡
     Lightning Talks\r\n\r\nWe will have a slot for spontaneous Lightning Talks. This
     is your chance to shine. 5 Minutes of fame and glory. Slides are optional."
+  end_date: '2018-09-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1829,6 +1880,7 @@ Events::Event_7f01acc2-0480-41c2-810e-6b7ede0d927e:
   description: "Doors: 7pm at Fidor Bank AG.\r\n\r\nWe'll have two talks\r\n\r\nHendrik
     - Scenic: Versioned database views for Rails\r\nHenning - Crashcourse: Metaprogramming
     in Ruby\r\n\r\nand pizza + drinks. Lookings forward to y'all!"
+  end_date: '2017-10-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1859,6 +1911,7 @@ Events::Event_7f464932-1471-4932-9732-d79d20c32844:
   date_precision: day
   description: "Mario Fernandez - Recap of the FullStack Fest Anastasia\r\n\r\nChicu
     - Agile testing at XING\r\n\r\nOmar Qunsul - \"how to improve Rails translations\""
+  end_date: '2016-09-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1892,6 +1945,7 @@ Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
     will discuss scaling monolithic Rails applications.\r\n\r\nAndreas Eger from @experteer
     (https://twitter.com/experteer) will talk about codeqa (https://github.com/experteer/codeqa)
     and using Rubocop as a reformatter."
+  end_date: '2014-09-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1923,6 +1977,7 @@ Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
   description: "Sebastian Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/)
     is giving a talk on deployment.\r\n\r\nPeter Schrammel (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/98486932/)
     will talk about websocket-rails."
+  end_date: '2015-03-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1954,6 +2009,7 @@ Events::Event_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
   description: "Dino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/)
     : DIY Ruby Framework\r\n\r\nDino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/)
     : CoffeeScript, the right and easy way"
+  end_date: '2015-10-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -1984,6 +2040,7 @@ Events::Event_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
   date_precision: day
   description: "Henning Koch: \"Modern frontends without Javascript\"\r\n\r\nWe're
     actively searching for speakers! Want to become one? Ping us!"
+  end_date: '2016-07-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2015,6 +2072,7 @@ Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
   description: "Talks:\r\n\r\nAnna — »A user manual to working better with a tester«\r\n\r\nThomas
     & Flo: — »Migrate a Rails-Backend to a Service«\r\n\r\nPizza and beverages are
     taken care of. We're looking forward to y'all!"
+  end_date: '2018-04-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2069,6 +2127,7 @@ Events::Event_969902ff-c7e8-48e5-8d0e-f64c85568e63:
     Rails developer from Vienna who believes good code is boring — in the best way.
     At railscraft.de, he helps teams modernize legacy Rails apps with clean architecture,
     sharp tools, and zero-nonsense pragmatism."
+  end_date: '2025-07-17'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2113,6 +2172,7 @@ Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
     when obsessing over details\r\nAbout our speaker\r\nHenning Koch is Head of Engineering
     at makandra GmbH and author and co-author of several popular open source libraries
     and tools.\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou? ;-)"
+  end_date: '2025-03-20'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2147,6 +2207,7 @@ Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
     – Property-based testing: You won’t look at your tests the same way ever again.
     The next U-Bahn station near Freeletics is Maillingerstraße.\r\n\r\nWe're always
     searching for speakers! Want to become one? Ping us!"
+  end_date: '2017-11-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2178,6 +2239,7 @@ Events::Event_a2cad908-ac6a-4757-92b5-23360594d899:
   description: "Jason Franklin – Mobile Development @XING\r\n\r\nFlorin Oltean - Introduction
     to MRuby\r\n\r\nNiko Noll - Pimp your REST API Docs with Swagger\r\n\r\nWe're
     actively searching for speakers! Want to become one? Ping us!"
+  end_date: '2017-05-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2208,6 +2270,7 @@ Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
   date_precision: day
   description: "Peter: ActionCable\r\n\r\nSebastian: Ruby News\r\n\r\nMichael, Pau,
     Phillip: Refugees on Rails @ Munich"
+  end_date: '2015-12-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2239,6 +2302,7 @@ Events::Event_a4070744-c531-4689-941a-d8ebdccdfbe8:
   description: "\U0001F3A4 Oliver Prater: Interacting with Kubernetes via Ruby\r\n\U0001F3A4
     Aron Wolf: Refactoring service and query objects in Rails\r\n\r\nWe're always
     searching for speakers! Want to give a talk at our next meetup? Get in touch!"
+  end_date: '2020-02-12'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2268,6 +2332,7 @@ Events::Event_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
   channel_id: ''
   date_precision: day
   description: This time a drinkup! It will take place at any weather (we can go inside).
+  end_date: '2015-08-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2300,6 +2365,7 @@ Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
     Oliver Prater: The nitty gritty details of ActiveRecord::Associations::Association#target
     and\r\nActiveRecord::AutosaveAssociation\r\n\r\nPlease note: xbAV has a new office
     near Donnersbergerbrücke, see address below. If you get lost, contact @bascht"
+  end_date: '2019-09-11'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2331,6 +2397,7 @@ Events::Event_aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb:
   description: "αλεx π (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/43533372/):
     \"Computer Science 101: Things every programmer should know\"\r\n\r\nWe're actively
     searching for speakers! Want to become one? Ping us!"
+  end_date: '2016-11-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2361,6 +2428,7 @@ Events::Event_ab5a4682-4a75-46dd-bc91-4af39d48df23:
   date_precision: day
   description: "Start your new Ruby year with our January Meetup!\r\n\r\nTalks:\r\n\r\n•
     Peter Schrammel: \"Zookeeper in your rails stack\"\r\n\r\n• Oleg: \"A Rukuli bot\""
+  end_date: '2015-01-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2390,6 +2458,7 @@ Events::Event_ab6dc247-9323-4567-8589-fb1953cde773:
   channel_id: ''
   date_precision: day
   description: We're actively searching for speakers! Want to become one? Ping us!
+  end_date: '2015-09-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2425,6 +2494,7 @@ Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
     of their development process.\r\n\r\n\U0001F3A4 Austin Moore – Ruby + Kafka: The
     Devil is in Details\r\n\r\nxbAV is just starting to use Kafka. We'd like to share
     some of the pitfalls we've run into so far, so you can avoid them."
+  end_date: '2018-10-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2475,6 +2545,7 @@ Events::Event_adea8129-c6f0-48b1-b764-296c09336343:
     what we setup as our best practices/standards and we would like to show you how
     we kept things simple and made it very easy to achieve all these goals.\r\n\r\nAbout
     our speaker\r\nSri Vishnu Totakura is the CTO of Zavvy."
+  end_date: '2023-03-09'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2507,6 +2578,7 @@ Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
     Kuzelj: \"Groovy's closures and the differences to Ruby\"\r\n\r\nDaniel Sudmann:
     \"Blobsterix, a transcoding binary large object server\"\r\n\r\nBig thanks to
     Codecentric for hosting!"
+  end_date: '2014-04-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2536,6 +2608,7 @@ Events::Event_b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5:
   channel_id: ''
   date_precision: day
   description: We're actively searching for speakers! Want to become one? Ping us!
+  end_date: '2020-05-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2568,6 +2641,7 @@ Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
     want to present something. :-)\r\n\r\nIf you want to test your Audio / Video Setup
     or suggest a talk / topic:\r\n\r\nBascht will be on Jitsi on Wednesday, April
     8th at 7pm CEST."
+  end_date: '2020-04-15'
   end_time: '2000-01-01 18:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2614,6 +2688,7 @@ Events::Event_bd09e5ca-d692-409c-8944-d966c2a175e0:
     strategies to fix the real problems — not just follow trends.\r\nAbout our speaker
     https://www.linkedin.com/in/chikahiro\r\n\r\nTalk 2: Klaus: Lightning Talk - \"A
     resource-oriented file structure for Rails\"\r\nAbout the speaker https://www.linkedin.com/in/klaus-weidinger-a37a27332/"
+  end_date: '2025-10-16'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2672,6 +2747,7 @@ Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
     and how to connect them with Ruby/Rails.\r\n\r\nAbout our speaker\r\n\r\nBruno
     Brunckhorst is a Program Manager & Data Scientist at Le Wagon in Munich.\r\n\r\nTalk
     2: TBD\r\n\r\nAbout our speaker\r\n\r\nYou? :-)"
+  end_date: '2023-09-14'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2703,6 +2779,7 @@ Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
   description: "⚡ Talk by Peter on the new JIT compiler in Ruby 2.6.0\r\n⚡ Talk bei
     Uli on the updates in GDS 0.8.0\r\n\r\nWe have one more talk slot open. Want to
     jump in? Talk to us!"
+  end_date: '2019-01-09'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2732,6 +2809,7 @@ Events::Event_c3faa100-3977-4073-82a8-0ec4625773ea:
   channel_id: ''
   date_precision: day
   description: Hack evening with fellow Rubyists on interesting and exciting projects.
+  end_date: '2013-07-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2762,6 +2840,7 @@ Events::Event_c7b6e7a9-20e6-45a0-b56b-d10841ff38f4:
   date_precision: day
   description: No talks but just a merry meetup at the Christmas Market near Sendlinger
     Tor!
+  end_date: '2019-12-11'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2791,6 +2870,7 @@ Events::Event_c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e:
   channel_id: ''
   date_precision: day
   description: We're actively searching for speakers! Want to become one? Ping us!
+  end_date: '2018-11-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2823,6 +2903,7 @@ Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
     to Ratchada near Hauptbahnhof for some Ruby Karaoke! http://www.ratchada.de/karaoke/\r\n\r\nThere
     is still one slot open for a short talk. Leave a comment or ping us on Twitter
     if you want to prepare something!"
+  end_date: '2018-01-24'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2860,6 +2941,7 @@ Events::Event_c92a903b-d40f-478d-a7d6-457d362bd906:
     end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: \"Reasoning about
     code and configuration\"\r\nAbout our speaker\r\nOliver Prater is a Software Engineer
     at Xempus.\r\n\r\nTalk 2: TBD"
+  end_date: '2022-11-10'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2900,6 +2982,7 @@ Events::Event_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:
     plays.\r\n\r\n\U0001F3A4 Dino Reic – Pure JS components in Ruby/Rails server-rendered
     pages\r\n\r\nHow to easily integrate Svelte, React, Vue or your custom widgets
     in your workflow\""
+  end_date: '2019-06-12'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2930,6 +3013,7 @@ Events::Event_d03d7342-973f-4746-b70e-85309f34ae40:
   date_precision: day
   description: "Adnan Husein: Mruby + Nginx\r\n\r\nPeter Schrammel: Micro or not to
     micro?"
+  end_date: '2017-09-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -2970,6 +3054,7 @@ Events::Event_d096f26c-e4d6-4441-891c-728724a7c26a:
     the location permits)\r\n\r\nTALKS\r\n\r\n**Talk 1: Database decomposition at
     GitLab.com**\r\nAbout our speaker\r\nOmar Qunsul is a Backend Engineer at GitLab.\r\n\r\nTalk
     2: TBD\r\n\r\nAbout our speaker\r\nYou? :-)"
+  end_date: '2023-05-11'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3003,6 +3088,7 @@ Events::Event_d09e00e9-b43f-49d8-b211-9d09abfc482a:
     How to Make Excel-Files with Ruby http://hasclass.com (http://hasclass.com/)\r\n\r\n[unconfirmed]
     Tom from Experteer: Bulldozer, an tool for css and javascript monitoring http://www.experteer.de
     (http://www.experteer.de/)"
+  end_date: '2014-03-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3037,6 +3123,7 @@ Events::Event_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
     Kuźma – »Ruby Conf Portugal '16 - Recap«\r\n\r\nThis talk will give everyone who
     didn't make it to Ruby Conf Portugal a chance to get an overview over the most
     interesting topics of the conferences and compare it to other Ruby conferences."
+  end_date: '2016-12-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3066,6 +3153,7 @@ Events::Event_da4b79dd-3013-476b-8fa3-96e7666e56a9:
   channel_id: ''
   date_precision: day
   description: We're actively searching for speakers! Want to become one? Ping us!
+  end_date: '2020-06-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3101,6 +3189,7 @@ Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
     rvm does to help you\r\n\r\n• Philipp Fehre (https://github.com/sideshowcoder)
     will be talking about Riak 2.0 CRDTs and more\r\n\r\nWe are looking forward to
     see you"
+  end_date: '2013-12-11'
   end_time: '2000-01-01 19:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3132,6 +3221,7 @@ Events::Event_de01ca60-b027-46c8-9735-c6447c68d575:
   description: "Sadiksha Gautam (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/185560512/)
     : Speeding up Rails\r\n\r\nMario Fernandez (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/66445692)
     : RuboCop (Lightning Talk)\r\n\r\n(Peter Schrammel: Microservices @ metoda.com)"
+  end_date: '2016-04-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3164,6 +3254,7 @@ Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
     for Wednesday night:\r\n\r\n\U0001F3A4 Karol Lewcio – 1, 1, 2, 3… different ways
     to Fibonacci\r\n\U0001F3A4 Pavlo Masko – To Rails or not to Rails? Way to go.\r\n\r\nFood
     and drinks will be provided – we are looking forward to y'all!"
+  end_date: '2020-03-11'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3229,6 +3320,7 @@ Events::Event_e0e0c374-65e9-4652-9b0e-22011412a820:
     the end of my talk you'll know all the trade-offs to decide when hypermedia can
     simplify your stack, and when an SPA remains the better fit.\r\n\r\nAbout our
     speaker https://www.linkedin.com/in/triskweline/"
+  end_date: '2026-01-22'
   end_time: '2000-01-01 19:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3260,6 +3352,7 @@ Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
   description: "Talks\r\n\r\n• Marc G. – Banking with ruby\r\n\r\n• Ute Mayer – A
     journey into code\r\n\r\n• Alberto Mazaira – How to kill a project\r\n\r\n• Lucas
     Dohmen – Codegolfing"
+  end_date: '2016-03-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3307,6 +3400,7 @@ Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
     in Ruby\"\r\nAbout our speaker\r\nDmytro Khmelenko is a Software Engineer at Shopify.
     He's also the author of the book \"Unlock the Code: The Ultimate Guide to Advancing
     from Junior to Senior Software Engineer in 7 Actionable Steps\" (https://www.amazon.com/dp/B098LNMFCJ)."
+  end_date: '2023-01-12'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3338,6 +3432,7 @@ Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
   description: "John Poulin: Hackin' Rails - An overview of RoR Security\r\n\r\nMarcus
     Lankenau: Phoenix for Rails devs\r\n\r\nSri Vishnu: Run any feature branch on
     the product manager's machine"
+  end_date: '2016-06-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3369,6 +3464,7 @@ Events::Event_e56124e4-1e66-411c-a794-41ea348d7504:
   description: "!!!! We moved the meetup by one week (soccer you know) !!!\r\n\r\nPeter:
     How I teach my daughter ruby\r\n\r\nUI Mate: Easily create a dynamic UI in your
     rails app much faster than ever before!"
+  end_date: '2018-07-18'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3400,6 +3496,7 @@ Events::Event_e5763033-391b-4207-b889-682d099694e3:
   description: "Torsten Ruger : Salama - a ruby virtual machine in 100% ruby\r\n\r\nJannis
     Hübl (https://www.meetup.com/messages/t/mg1_mnm?convo_id=189340257864957952) :
     An introduction to opal"
+  end_date: '2015-06-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3462,6 +3559,7 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
     Yes, you heard me right!\r\n\r\nAfterwards, we'll have our tiny release party!
     At least, if the internet connection is stable. Wish me luck!\r\n\r\nAbout the
     speaker https://www.linkedin.com/in/klaus-weidinger-a37a27332/"
+  end_date: '2026-04-23'
   end_time: '2000-01-01 19:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3492,6 +3590,7 @@ Events::Event_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
   date_precision: day
   description: "1. public, protected, private\r\n\r\n2. \"fixing the net\" a preview
     of an OS project\r\n"
+  end_date: '2015-04-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3533,6 +3632,7 @@ Events::Event_eb7f7b54-12a9-431d-b16f-a866624c3ee7:
     Nils Gemeinhardt: Find unused code in your (rails) project.\r\n\r\nWhy should
     I care about unused code? Which tools are out there to find it and how good are
     they?"
+  end_date: '2019-02-13'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3564,6 +3664,7 @@ Events::Event_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
   description: "\U0001F3A4 Uli Ramminger –Gds Data Validation - a new data validation
     library providing a rule-based schema definition language.\r\n\r\nWe're actively
     searching for speakers! Want to become one? Ping us!"
+  end_date: '2019-07-10'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3602,6 +3703,7 @@ Events::Event_f5c1edc4-ae63-43f2-96ee-c484496986ab:
     by DataGuard), Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
     1: TBD\r\nAbout our speaker\r\nYou? ;-)\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou?
     ;-)"
+  end_date: '2024-07-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
@@ -3635,6 +3737,7 @@ Events::Event_f9870540-7983-496c-9541-80c13c9d4120:
     views to Rails. Learn how to write less code and create interactive user interfaces
     in pure Ruby.\r\n\r\nWe're actively searching for speakers! Want to become one?
     Ping us!"
+  end_date: '2019-10-09'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   featured_background: ''
