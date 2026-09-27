@@ -90,8 +90,81 @@ class Events::EventTest < ActiveSupport::TestCase
     assert_equal [ "can't be blank" ], event.errors[:attendance_mode]
   end
 
+  test "requires an end date once it has a start date" do
+    event = build_event(start_date: Date.new(2026, 9, 24))
+
+    assert_not event.valid?
+    assert_includes event.errors[:end_date], "can't be blank"
+  end
+
+  test "refuses an end date without a start date" do
+    event = build_event(end_date: Date.new(2026, 9, 24))
+
+    assert_not event.valid?
+    assert_includes event.errors[:end_date], "must be blank"
+  end
+
+  test "needs neither date while undated" do
+    event = build_event
+
+    assert event.valid?, event.errors.full_messages.to_sentence
+  end
+
+  test "refuses a start time without a start date" do
+    event = build_event(start_time: "19:00")
+
+    assert_not event.valid?
+    assert_includes event.errors[:start_time], "must be blank"
+  end
+
+  test "refuses an end time without an end date" do
+    event = build_event(end_time: "22:00")
+
+    assert_not event.valid?
+    assert_includes event.errors[:end_time], "must be blank"
+  end
+
+  test "needs no times on its dates" do
+    event = build_event(start_date: Date.new(2026, 9, 24), end_date: Date.new(2026, 9, 24))
+
+    assert event.valid?, event.errors.full_messages.to_sentence
+  end
+
+  test "refuses to end on a day before it starts" do
+    event = build_event(start_date: Date.new(2026, 9, 24), end_date: Date.new(2026, 9, 23))
+
+    assert_not event.valid?
+    assert_includes event.errors[:end_date], "can't be before the start date"
+  end
+
+  test "refuses to end before it starts on the same day" do
+    event = build_event(start_date: Date.new(2026, 9, 24), start_time: "19:00", end_date: Date.new(2026, 9, 24), end_time: "18:59")
+
+    assert_not event.valid?
+    assert_includes event.errors[:end_time], "can't be before the start time"
+  end
+
+  test "may end the moment it starts" do
+    event = build_event(start_date: Date.new(2026, 9, 24), start_time: "19:00", end_date: Date.new(2026, 9, 24), end_time: "19:00")
+
+    assert event.valid?, event.errors.full_messages.to_sentence
+  end
+
+  test "may end at an earlier hour on a later day" do
+    event = build_event(start_date: Date.new(2026, 9, 24), start_time: "19:00", end_date: Date.new(2026, 9, 25), end_time: "01:00")
+
+    assert event.valid?, event.errors.full_messages.to_sentence
+  end
+
+  # Without both times, only the dates can be put in order.
+  test "orders a single day by its dates when a time is missing" do
+    event = build_event(start_date: Date.new(2026, 9, 24), start_time: "19:00", end_date: Date.new(2026, 9, 24))
+
+    assert event.valid?, event.errors.full_messages.to_sentence
+  end
+
   test "slugs an event after its kind and start date" do
-    event = build_event(kind: "meetup", start_date: Date.new(2013, 7, 10))
+    event = build_event(kind: "meetup", start_date: Date.new(2013, 7, 10), end_date: Date.new(2013, 7, 10))
     event.save!
 
     assert_equal "meetup-2013-07-10", event.slug
