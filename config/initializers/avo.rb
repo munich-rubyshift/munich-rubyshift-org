@@ -222,6 +222,12 @@ Rails.application.config.to_prepare do
         }
       }
     end
+
+    # Avo only takes a database column as `default_sort_column`, but a field
+    # sorting through its own lambda works just as well.
+    def sort_by_param
+      get_field(default_sort_column)&.sortable.is_a?(Proc) ? default_sort_column : super
+    end
   end
 
   class Avo::Fields::DateField

@@ -7,12 +7,15 @@ class Avo::Resources::EventsInvolvement < Avo::BaseResource
   #   query: -> { query.ransack(id_eq: q, m: "or").result(distinct: false) }
   # }
 
+  self.default_sort_column = :event
+  self.default_sort_direction = :desc
+
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     # Avo has no default for the type alone, but an unsaved person sets the
     # type and leaves the person to pick.
     field :entity, as: :belongs_to, **sortable(:by_to_s, on: :entity), polymorphic_as: :entity, types: [ ::Entities::Person, ::Entities::Organization ], default: -> { ::Entities::Person.new }
-    field :event, as: :belongs_to, **sortable(:by_to_s, on: :event), attach_scope: -> { query.by_start_date.reverse_order }
+    field :event, as: :belongs_to, **sortable(:by_start_date, on: :event), attach_scope: -> { query.by_start_date.reverse_order }
     field :role, as: :text, sortable: true, default: "Organizer"
   end
 end
