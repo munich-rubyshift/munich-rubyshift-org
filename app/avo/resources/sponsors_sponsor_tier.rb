@@ -12,7 +12,7 @@ class Avo::Resources::SponsorsSponsorTier < Avo::BaseResource
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :name, as: :text, sortable: true
     field :rubyevents_slug, as: :text, sortable: true
-    field :event, as: :belongs_to, **sortable(:by_to_s, on: :event)
+    field :event, as: :belongs_to, **sortable(:by_start_date, on: :event)
     field :description, as: :textarea
     field :level, as: :number, sortable: true
   end
