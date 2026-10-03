@@ -12,7 +12,7 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :title, as: :text, sortable: true
     field :rubyevents_slug, as: :text, sortable: true
-    field :event, as: :belongs_to, **belongs_to_field_options(:event)
+    field :event, as: :belongs_to, **sortable(:by_to_s, on: :event)
     field :description, as: :textarea
     field :raw_title, as: :text, sortable: true
     field :original_title, as: :text, sortable: true

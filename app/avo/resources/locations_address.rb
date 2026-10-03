@@ -15,7 +15,7 @@ class Avo::Resources::LocationsAddress < Avo::BaseResource
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :street, as: :text, sortable: true
     field :zip_code, as: :text, sortable: true
-    field :city, as: :belongs_to, **belongs_to_field_options(:city)
-    field :coordinates, as: :belongs_to, **belongs_to_field_options(:coordinates)
+    field :city, as: :belongs_to, **sortable(:by_to_s, on: :city)
+    field :coordinates, as: :belongs_to, **sortable(:by_to_s, on: :coordinates)
   end
 end

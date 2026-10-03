@@ -14,6 +14,6 @@ class Avo::Resources::EventsCFP < Avo::BaseResource
     field :external_url, as: :text, sortable: true
     field :open_date, as: :date, sortable: true
     field :close_date, as: :date, sortable: true
-    field :event, as: :belongs_to, **belongs_to_field_options(:event)
+    field :event, as: :belongs_to, **sortable(:by_to_s, on: :event)
   end
 end
