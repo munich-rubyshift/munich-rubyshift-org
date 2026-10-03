@@ -9,8 +9,10 @@ class Avo::Resources::EventsInvolvement < Avo::BaseResource
 
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
-    field :entity, as: :belongs_to, **belongs_to_field_options(:entity), polymorphic_as: :entity, types: [ ::Entities::Person, ::Entities::Organization ]
+    # Avo has no default for the type alone, but an unsaved person sets the
+    # type and leaves the person to pick.
+    field :entity, as: :belongs_to, **belongs_to_field_options(:entity), polymorphic_as: :entity, types: [ ::Entities::Person, ::Entities::Organization ], default: -> { ::Entities::Person.new }
     field :event, as: :belongs_to, **belongs_to_field_options(:event), attach_scope: -> { query.order(start_date: :desc, start_time: :desc) }
-    field :role, as: :text, sortable: true
+    field :role, as: :text, sortable: true, default: "Organizer"
   end
 end
