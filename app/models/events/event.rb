@@ -39,6 +39,9 @@ class Events::Event < ApplicationRecord
   validates :end_time, absence: true, unless: :end_date?
   validate :ends_after_it_starts
 
+  scope :by_start_date, -> { order(:start_date, :start_time) }
+  scope :by_end_date, -> { order(:end_date, :end_time) }
+
   def slug_candidates
     [
       ([ kind, start_date ] if start_date),

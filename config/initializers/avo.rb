@@ -199,6 +199,20 @@ Rails.application.config.to_prepare do
       format_display_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     }.freeze
 
+    # Sort a column by one of the model's scopes.
+    #
+    # Our scopes only order ascending, so a descending column reverses them in
+    # SQL. The id settles ties so rows don't move between pages. `direction` is
+    # a string from the URL, but a symbol from `default_sort_direction`.
+    def sortable(scope)
+      {
+        sortable: -> {
+          ordered = query.public_send(scope).order(:id)
+          direction.to_s == "desc" ? ordered.reverse_order : ordered
+        }
+      }
+    end
+
     # Order by the associated record's title, NULLs last.
     # Sort in Ruby for now as we have very few records and a "to_s" method
     # is easier to change than a computed column.
