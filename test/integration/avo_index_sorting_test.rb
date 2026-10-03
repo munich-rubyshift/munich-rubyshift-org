@@ -34,15 +34,33 @@ class AvoIndexSortingTest < ActionDispatch::IntegrationTest
     assert_equal %w[map-without-links mapped], index_order("venues_venues", sort_by: :map, sort_direction: :desc)
   end
 
-  test "rows showing the same belongs_to fall in id order" do
+  test "rows showing different records that read the same fall in their id order" do
     venues_venues(:one).update!(slug: "one", map: locations_maps(:one))
     venues_venues(:two).update!(slug: "two", map: locations_maps(:two))
     locations_maps(:one).update!(google_url: "https://example.com/same")
     locations_maps(:two).update!(google_url: "https://example.com/same")
+    by_map_id = [ venues_venues(:one), venues_venues(:two) ].sort_by(&:locations_map_id).map(&:slug)
+
+    assert_equal by_map_id, index_order("venues_venues", sort_by: :map, sort_direction: :asc)
+    assert_equal by_map_id.reverse, index_order("venues_venues", sort_by: :map, sort_direction: :desc)
+  end
+
+  test "rows sharing a belongs_to fall in id order" do
+    venues_venues(:one).update!(slug: "one", map: locations_maps(:one))
+    venues_venues(:two).update!(slug: "two", map: locations_maps(:one))
     by_id = [ venues_venues(:one), venues_venues(:two) ].sort_by(&:id).map(&:slug)
 
     assert_equal by_id, index_order("venues_venues", sort_by: :map, sort_direction: :asc)
     assert_equal by_id.reverse, index_order("venues_venues", sort_by: :map, sort_direction: :desc)
+  end
+
+  test "a polymorphic belongs_to sorts by name across its types" do
+    events_involvements(:one).entity.update!(name: "Anna")
+    events_involvements(:two).entity.update!(name: "Zeta GmbH")
+    person, organization = events_involvements(:one).id, events_involvements(:two).id
+
+    assert_equal [ person, organization ], index_order("events_involvements", sort_by: :entity, sort_direction: :asc)
+    assert_equal [ organization, person ], index_order("events_involvements", sort_by: :entity, sort_direction: :desc)
   end
 
   test "rows with nothing to show fall in id order too" do

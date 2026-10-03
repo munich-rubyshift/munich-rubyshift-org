@@ -17,6 +17,6 @@ class Avo::Resources::LocationsCity < Avo::BaseResource
     field :rubyevents_slug, as: :text, sortable: true
     field :state_code, as: :text, sortable: true
     field :country_code, as: :text, sortable: true
-    field :coordinates, as: :belongs_to, **belongs_to_field_options(:coordinates)
+    field :coordinates, as: :belongs_to, **sortable(:by_to_s, on: :coordinates)
   end
 end

@@ -32,7 +32,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
 
     grouped "Where?" do
       field :attendance_mode, as: :select, sortable: true, options: ::Events::Event::ATTENDANCE_MODES.index_by(&:humanize)
-      field :venue, as: :belongs_to, **belongs_to_field_options(:venue), required: -> { record&.venue_required? }, help: "Required unless the event is online or cancelled, and forbidden for online events."
+      field :venue, as: :belongs_to, **sortable(:by_to_s, on: :venue), required: -> { record&.venue_required? }, help: "Required unless the event is online or cancelled, and forbidden for online events."
       field :tickets_url, as: :text, sortable: true
     end
 
@@ -45,7 +45,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :playlist, as: :text, sortable: true
     field :youtube, as: :text, sortable: true
 
-    field :series, as: :belongs_to, **belongs_to_field_options(:series), default: -> { ::Events::Series.first }
+    field :series, as: :belongs_to, **sortable(:by_to_s, on: :series), default: -> { ::Events::Series.first }
     field :website, as: :text, sortable: true, **series_default_options(:website)
     field :twitter, as: :text, sortable: true, **series_default_options(:twitter)
     field :mastodon, as: :text, sortable: true, **series_default_options(:mastodon)

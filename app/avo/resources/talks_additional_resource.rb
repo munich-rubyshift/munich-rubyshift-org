@@ -13,6 +13,6 @@ class Avo::Resources::TalksAdditionalResource < Avo::BaseResource
     field :name, as: :text, sortable: true
     field :url, as: :text, sortable: true
     field :title, as: :text, sortable: true
-    field :talk, as: :belongs_to, **belongs_to_field_options(:talk)
+    field :talk, as: :belongs_to, **sortable(:by_to_s, on: :talk)
   end
 end
