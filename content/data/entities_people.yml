@@ -11,6 +11,42 @@ Entities::Person_21b0b842-40b4-41b8-a798-8c417ef40986:
   speakerdeck: ''
   twitter: https://x.com/hschnedlitz
   website: https://www.hansschnedlitz.com/
+Entities::Person_27eb9859-7d38-4d38-b380-8b99f9dbf333:
+  id: 27eb9859-7d38-4d38-b380-8b99f9dbf333
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Nelli Funk
+  rubyevents_slug: ''
+  slug: nelli-funk
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_2c336893-8a87-4d3f-9736-6d38ccd8b701:
+  id: 2c336893-8a87-4d3f-9736-6d38ccd8b701
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Robert J
+  rubyevents_slug: ''
+  slug: robert-j
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_37f33012-4119-4e7c-9e0c-9b820baa7239:
+  id: 37f33012-4119-4e7c-9e0c-9b820baa7239
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Mathias Huber
+  rubyevents_slug: ''
+  slug: mathias-huber
+  speakerdeck: ''
+  twitter: ''
+  website: ''
 Entities::Person_536bc1f5-5f7f-4f1b-b6b6-e5e101b65906:
   id: 536bc1f5-5f7f-4f1b-b6b6-e5e101b65906
   bluesky: ''
@@ -23,6 +59,90 @@ Entities::Person_536bc1f5-5f7f-4f1b-b6b6-e5e101b65906:
   speakerdeck: ''
   twitter: ''
   website: ''
+Entities::Person_5c5fd1fd-209d-4852-a85d-9c65302cbccd:
+  id: 5c5fd1fd-209d-4852-a85d-9c65302cbccd
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Dennis Schreiner
+  rubyevents_slug: ''
+  slug: dennis-schreiner
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_758bf906-19a7-406b-9e0a-87e1e2f276e9:
+  id: 758bf906-19a7-406b-9e0a-87e1e2f276e9
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Uli Ramminger
+  rubyevents_slug: ''
+  slug: uli-ramminger
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_7f138414-a42e-40d2-9f6d-2a68ad233137:
+  id: 7f138414-a42e-40d2-9f6d-2a68ad233137
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Clemens Kofler
+  rubyevents_slug: ''
+  slug: clemens-kofler
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_804a798a-d2a1-457e-aaaf-55c28a4e1386:
+  id: 804a798a-d2a1-457e-aaaf-55c28a4e1386
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Alex Petrov
+  rubyevents_slug: ''
+  slug: alex-petrov
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_828da3f2-7af1-46ac-a730-3822206bb842:
+  id: 828da3f2-7af1-46ac-a730-3822206bb842
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Sebastian Schulze
+  rubyevents_slug: ''
+  slug: sebastian-schulze
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_888b633e-738e-4c98-8784-8666220222e2:
+  id: 888b633e-738e-4c98-8784-8666220222e2
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Kim Klotz
+  rubyevents_slug: ''
+  slug: kim-klotz
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_8f851f08-93fb-4b17-b9e7-3dcc6e55ef57:
+  id: 8f851f08-93fb-4b17-b9e7-3dcc6e55ef57
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Bruno Sedler
+  rubyevents_slug: ''
+  slug: bruno-sedler
+  speakerdeck: ''
+  twitter: ''
+  website: ''
 Entities::Person_92834ea5-e9a2-4485-ae6c-5a1c420ff3b5:
   id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
   bluesky: ''
@@ -32,6 +152,54 @@ Entities::Person_92834ea5-e9a2-4485-ae6c-5a1c420ff3b5:
   name: Aron Wolf
   rubyevents_slug: ''
   slug: aron-wolf
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_92f34ef8-5314-4f5c-be5f-a514bd6e40c9:
+  id: 92f34ef8-5314-4f5c-be5f-a514bd6e40c9
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Marina Petrova
+  rubyevents_slug: ''
+  slug: marina-petrova
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_9deb364b-ca71-43c8-8013-60ea1833f681:
+  id: 9deb364b-ca71-43c8-8013-60ea1833f681
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Peter Schrammel
+  rubyevents_slug: ''
+  slug: peter-schrammel
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_a735dc3a-4ac7-4cab-ae59-588e93bc20aa:
+  id: a735dc3a-4ac7-4cab-ae59-588e93bc20aa
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Guoy
+  rubyevents_slug: ''
+  slug: guoy
+  speakerdeck: ''
+  twitter: ''
+  website: ''
+Entities::Person_ed73fe96-d736-4292-8402-bd1ab64c7442:
+  id: ed73fe96-d736-4292-8402-bd1ab64c7442
+  bluesky: ''
+  github: ''
+  linkedin: ''
+  mastodon: ''
+  name: Sven Ellis
+  rubyevents_slug: ''
+  slug: sven-ellis
   speakerdeck: ''
   twitter: ''
   website: ''

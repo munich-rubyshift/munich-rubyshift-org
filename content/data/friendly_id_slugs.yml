@@ -189,6 +189,11 @@ FriendlyId::Slug_251bab62-1ef8-4bc7-a454-2692020c76ab:
   slug: meetup-2018-04-11
   sluggable_id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
   sluggable_type: Events::Event
+FriendlyId::Slug_280e5aa2-5815-4d3e-afce-9394e62ac6d0:
+  id: 280e5aa2-5815-4d3e-afce-9394e62ac6d0
+  slug: guoy
+  sluggable_id: a735dc3a-4ac7-4cab-ae59-588e93bc20aa
+  sluggable_type: Entities::Person
 FriendlyId::Slug_29c87655-da45-454b-9825-d8e71d67d896:
   id: 29c87655-da45-454b-9825-d8e71d67d896
   slug: meetup-2019-10-09
@@ -344,6 +349,11 @@ FriendlyId::Slug_4f79e7d0-7dc9-46fb-8e4c-9ae76986f29f:
   slug: meetup-2019-04-10
   sluggable_id: 5120ef88-e9ee-49c7-8d67-5a6190d3fa63
   sluggable_type: Events::Event
+FriendlyId::Slug_52b3b480-4484-42af-9943-7a7caa6c4bdf:
+  id: 52b3b480-4484-42af-9943-7a7caa6c4bdf
+  slug: sebastian-schulze
+  sluggable_id: 828da3f2-7af1-46ac-a730-3822206bb842
+  sluggable_type: Entities::Person
 FriendlyId::Slug_52bc7c72-4c47-4f40-9a1f-3466c94fae26:
   id: 52bc7c72-4c47-4f40-9a1f-3466c94fae26
   slug: meetup-2013-09-11
@@ -529,11 +539,21 @@ FriendlyId::Slug_7f87df4a-a6e4-4c2d-9f21-d4b3c12bc280:
   slug: meetup-2017-04-12
   sluggable_id: 5ec4c4c6-643b-40e8-b01f-f5396c2323dd
   sluggable_type: Events::Event
+FriendlyId::Slug_8193d60c-cb97-4b12-8b7c-6e124bc70a10:
+  id: 8193d60c-cb97-4b12-8b7c-6e124bc70a10
+  slug: marina-petrova
+  sluggable_id: 92f34ef8-5314-4f5c-be5f-a514bd6e40c9
+  sluggable_type: Entities::Person
 FriendlyId::Slug_83215aa9-ecfb-44b7-a14c-a3729d0987e2:
   id: 83215aa9-ecfb-44b7-a14c-a3729d0987e2
   slug: sandstrasse-33
   sluggable_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
   sluggable_type: Locations::Address
+FriendlyId::Slug_84e3354b-75d1-4b66-967e-4ce34efd1cc0:
+  id: 84e3354b-75d1-4b66-967e-4ce34efd1cc0
+  slug: alex-petrov
+  sluggable_id: 804a798a-d2a1-457e-aaaf-55c28a4e1386
+  sluggable_type: Entities::Person
 FriendlyId::Slug_85906f15-17dd-499c-a49d-bb8dcf212c63:
   id: 85906f15-17dd-499c-a49d-bb8dcf212c63
   slug: augsburg
@@ -694,6 +714,11 @@ FriendlyId::Slug_ae1aa08e-52ea-4f1a-96c8-e9e5c30f6f25:
   slug: munich-rubyshift-org-goes-live
   sluggable_id: '097ea9bd-b75f-4ee5-8ce8-935902d7faca'
   sluggable_type: Talks::Talk
+FriendlyId::Slug_aeda1859-f735-4c06-941e-7ca601519f17:
+  id: aeda1859-f735-4c06-941e-7ca601519f17
+  slug: clemens-kofler
+  sluggable_id: 7f138414-a42e-40d2-9f6d-2a68ad233137
+  sluggable_type: Entities::Person
 FriendlyId::Slug_aefa80f9-0180-4b1c-a9f1-7b062fa5a4d8:
   id: aefa80f9-0180-4b1c-a9f1-7b062fa5a4d8
   slug: meetup-2019-03-13
@@ -714,6 +739,16 @@ FriendlyId::Slug_b1fe18fc-9233-46e5-86dd-246059a69542:
   slug: meetup-2026-01-22
   sluggable_id: e0e0c374-65e9-4652-9b0e-22011412a820
   sluggable_type: Events::Event
+FriendlyId::Slug_b25bd114-37b2-47e6-b87c-c05efb57d110:
+  id: b25bd114-37b2-47e6-b87c-c05efb57d110
+  slug: kim-klotz
+  sluggable_id: 888b633e-738e-4c98-8784-8666220222e2
+  sluggable_type: Entities::Person
+FriendlyId::Slug_b428de8a-d08b-405e-b080-2aec629edb48:
+  id: b428de8a-d08b-405e-b080-2aec629edb48
+  slug: dennis-schreiner
+  sluggable_id: 5c5fd1fd-209d-4852-a85d-9c65302cbccd
+  sluggable_type: Entities::Person
 FriendlyId::Slug_b4469669-45a3-4918-87d7-cb0e0d75b11d:
   id: b4469669-45a3-4918-87d7-cb0e0d75b11d
   slug: meetup-2013-12-11
@@ -749,6 +784,16 @@ FriendlyId::Slug_bdf7948f-0763-43de-b228-dd600d852baa:
   slug: shore-office
   sluggable_id: acac167f-0957-4586-bcca-7ffa3ed8f06a
   sluggable_type: Venues::Venue
+FriendlyId::Slug_be192089-17d3-417a-864f-e33acdaae3b3:
+  id: be192089-17d3-417a-864f-e33acdaae3b3
+  slug: uli-ramminger
+  sluggable_id: 758bf906-19a7-406b-9e0a-87e1e2f276e9
+  sluggable_type: Entities::Person
+FriendlyId::Slug_bee5c636-2f59-4e19-8712-1bc2148cb4e8:
+  id: bee5c636-2f59-4e19-8712-1bc2148cb4e8
+  slug: peter-schrammel
+  sluggable_id: 9deb364b-ca71-43c8-8013-60ea1833f681
+  sluggable_type: Entities::Person
 FriendlyId::Slug_c23bff6b-4cfe-4434-b7a7-d3a2bdc90da8:
   id: c23bff6b-4cfe-4434-b7a7-d3a2bdc90da8
   slug: meetup-2016-06-08
@@ -849,6 +894,11 @@ FriendlyId::Slug_d93ccc75-ee4c-4147-aa7b-fa3b316d0ad3:
   slug: meetup-2013-07-10
   sluggable_id: 71a42ab5-d65d-4686-9bf6-7238a6719d66
   sluggable_type: Events::Event
+FriendlyId::Slug_d9848edc-0e24-4695-affc-5c26536853bb:
+  id: d9848edc-0e24-4695-affc-5c26536853bb
+  slug: robert-j
+  sluggable_id: 2c336893-8a87-4d3f-9736-6d38ccd8b701
+  sluggable_type: Entities::Person
 FriendlyId::Slug_d9b68beb-6648-404b-adab-339394a5d2a9:
   id: d9b68beb-6648-404b-adab-339394a5d2a9
   slug: meetup-2019-11-13
@@ -869,6 +919,11 @@ FriendlyId::Slug_e292eb93-c6f7-4bbc-8c7f-f14b6ec3ac5a:
   slug: meetup-2026-04-23
   sluggable_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
   sluggable_type: Events::Event
+FriendlyId::Slug_e2a5a136-29b5-48c9-9bfd-b9d67dbb9a82:
+  id: e2a5a136-29b5-48c9-9bfd-b9d67dbb9a82
+  slug: sven-ellis
+  sluggable_id: ed73fe96-d736-4292-8402-bd1ab64c7442
+  sluggable_type: Entities::Person
 FriendlyId::Slug_e2ca6c83-0418-4477-9613-cdd76a427701:
   id: e2ca6c83-0418-4477-9613-cdd76a427701
   slug: dataguard-office-2
@@ -909,6 +964,11 @@ FriendlyId::Slug_ebde770f-a11a-48e0-9d4e-db3878ea187e:
   slug: meetup-2014-04-09
   sluggable_id: b4664359-c1e2-4611-a19e-b8e5cf1d8344
   sluggable_type: Events::Event
+FriendlyId::Slug_ec31fe91-525f-4871-84df-065665b1d75b:
+  id: ec31fe91-525f-4871-84df-065665b1d75b
+  slug: bruno-sedler
+  sluggable_id: 8f851f08-93fb-4b17-b9e7-3dcc6e55ef57
+  sluggable_type: Entities::Person
 FriendlyId::Slug_ed3b955f-11bc-495c-9004-1c455164a93f:
   id: ed3b955f-11bc-495c-9004-1c455164a93f
   slug: meetup-2019-07-10
@@ -929,6 +989,11 @@ FriendlyId::Slug_f0ec0d88-ecdd-49a9-a336-03b06df79b28:
   slug: meetup-2014-08-13
   sluggable_id: 721e3030-460f-48ae-a545-cf81cb327b67
   sluggable_type: Events::Event
+FriendlyId::Slug_f2ba3475-0dca-467e-98e4-3a4f4f3a730b:
+  id: f2ba3475-0dca-467e-98e4-3a4f4f3a730b
+  slug: mathias-huber
+  sluggable_id: 37f33012-4119-4e7c-9e0c-9b820baa7239
+  sluggable_type: Entities::Person
 FriendlyId::Slug_f4d92fe1-dc4e-4157-9dca-c46138318780:
   id: f4d92fe1-dc4e-4157-9dca-c46138318780
   slug: meetup-2018-07-18
@@ -944,6 +1009,11 @@ FriendlyId::Slug_faddacd9-d3f4-4922-9734-abf55cf24b3f:
   slug: elsenheimerstrasse-55a
   sluggable_id: a2b3bfc0-9fa5-4a08-a546-7d15ad158735
   sluggable_type: Locations::Address
+FriendlyId::Slug_fc007aa1-cdca-41ea-9c42-caca7ba99bdd:
+  id: fc007aa1-cdca-41ea-9c42-caca7ba99bdd
+  slug: nelli-funk
+  sluggable_id: 27eb9859-7d38-4d38-b380-8b99f9dbf333
+  sluggable_type: Entities::Person
 FriendlyId::Slug_fc205309-b661-4942-8e16-3595ab25e8e6:
   id: fc205309-b661-4942-8e16-3595ab25e8e6
   slug: meetup-2014-09-10
