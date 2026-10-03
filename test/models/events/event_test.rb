@@ -193,6 +193,16 @@ class Events::EventTest < ActiveSupport::TestCase
     assert_match(/\Ameetup-\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/, event.slug)
   end
 
+  test "sorts by start date and then start time" do
+    evening = build_event(start_date: Date.new(2026, 9, 24), start_time: "19:00", end_date: Date.new(2026, 9, 24)).tap(&:save!)
+    morning = build_event(start_date: Date.new(2026, 9, 24), start_time: "09:00", end_date: Date.new(2026, 9, 24)).tap(&:save!)
+    earlier = build_event(start_date: Date.new(2026, 9, 23), start_time: "20:00", end_date: Date.new(2026, 9, 23)).tap(&:save!)
+    events = Events::Event.where(id: [ evening, morning, earlier ])
+
+    assert_equal [ earlier, morning, evening ], events.by_start_date.to_a
+    assert_equal [ evening, morning, earlier ], events.by_start_date.reverse_order.to_a
+  end
+
   test "reads as its kind and start date like its slug" do
     event = build_event(kind: "meetup", title: "Ruby User Group Meetup", start_date: Date.new(2026, 12, 31))
 

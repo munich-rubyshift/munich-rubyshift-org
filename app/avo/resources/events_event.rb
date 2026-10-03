@@ -19,11 +19,11 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
 
     grouped "When?" do
       row do
-        field :start_date, as: :date, sortable: -> { query.order(start_date: direction, start_time: direction) }
+        field :start_date, as: :date, **sortable(:by_start_date)
         field :start_time, as: :time
       end
       row do
-        field :end_date, as: :date, sortable: -> { query.order(end_date: direction, end_time: direction) }, help: "Leave blank to end on the start date."
+        field :end_date, as: :date, **sortable(:by_end_date), help: "Leave blank to end on the start date."
         field :end_time, as: :time
       end
       field :date_precision, as: :select, sortable: true, options: ::Events::Event::DATE_PRECISIONS.index_by(&:humanize), include_blank: true, default: "day"

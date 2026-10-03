@@ -8,6 +8,8 @@ class Locations::Coordinates < ApplicationRecord
 
   validates :latitude, :longitude, presence: true
 
+  scope :by_latitude, -> { order(:latitude, :longitude) }
+
   # Fallbacks for Locations::Map, which only stores curated links.
   def google_url
     "https://www.google.com/maps/search/?api=1&query=#{latitude},#{longitude}"
