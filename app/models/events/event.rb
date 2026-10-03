@@ -61,8 +61,9 @@ class Events::Event < ApplicationRecord
     !online? && !cancelled?
   end
 
+  # Often the title is too generic, so mimic the slug.
   def to_s
-    title
+    [ kind&.humanize, start_date&.iso8601 ].compact_blank.join(" ")
   end
 
   private

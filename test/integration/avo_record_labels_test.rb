@@ -28,4 +28,15 @@ class AvoRecordLabelsTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_includes response.body, "by Klaus Weidinger"
   end
+
+  test "an event dropdown tells events apart by date, newest first" do
+    events_events(:one).update_columns(kind: "meetup", title: "Ruby User Group Meetup", start_date: Date.new(2017, 3, 8))
+    events_events(:two).update_columns(kind: "meetup", title: "Ruby User Group Meetup", start_date: Date.new(2026, 9, 24))
+
+    get "/avo/resources/events_involvements/new"
+
+    assert_response :success
+    options = css_select("select[name='events/involvement[events_event_id]'] option[value]:not([value=''])").map(&:text)
+    assert_equal [ "Meetup 2026-09-24", "Meetup 2017-03-08" ], options
+  end
 end

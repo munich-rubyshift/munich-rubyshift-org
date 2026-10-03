@@ -193,6 +193,16 @@ class Events::EventTest < ActiveSupport::TestCase
     assert_match(/\Ameetup-\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/, event.slug)
   end
 
+  test "reads as its kind and start date like its slug" do
+    event = build_event(kind: "meetup", title: "Ruby User Group Meetup", start_date: Date.new(2026, 12, 31))
+
+    assert_equal "Meetup 2026-12-31", event.to_s
+  end
+
+  test "reads as its kind alone without a start date" do
+    assert_equal "Meetup", build_event(kind: "meetup", title: "Ruby User Group Meetup").to_s
+  end
+
   private
 
   def build_event(**attributes)
