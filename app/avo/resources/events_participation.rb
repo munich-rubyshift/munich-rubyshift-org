@@ -10,7 +10,7 @@ class Avo::Resources::EventsParticipation < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :person, as: :belongs_to, **sortable(:by_to_s, on: :person)
-    field :event, as: :belongs_to, **sortable(:by_to_s, on: :event)
+    field :event, as: :belongs_to, **sortable(:by_start_date, on: :event)
     field :attended_as, as: :text, sortable: true
   end
 end
