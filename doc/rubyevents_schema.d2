@@ -26,88 +26,64 @@ speakers: {
 }
 
 videos: {
+  # BUILT as talks_talks. Exported in rubyevents' conference shape: one
+  # videos.yml per event, listing its talks (VideoSchema). Not the shape their
+  # meetups use today, a video per meetup with the talks nested under it.
   videos: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
-    # instead of event_name
+    # instead of event_name. "date" is the event's start_date.
     event_id: "integer" {constraint: foreign_key}
-
-    	external_id: string
-
-    title: string
-    raw_title: string
-    original_title: string
-    description: string
+    # exported as "id", their static id. Blank: "<speaker slugs>-<event id>".
+    rubyevents_slug: string
+    # ours alone, the talk's URL here. Theirs is generated on import.
     slug: string
+    title: string
+    # "" when blank: the key is required
+    description: string
+    # one of upstream's 21 kinds, required, "talk" by default
     kind: string
-    status: string
-    date: "date "
-    time: string
-    published_at: date
-    announced_at: date
-    location: string
-    video_provider: enum
-    video_id: string
-    external_player: boolean
-    external_player_url: string
-    track: string
-    language: string
+    # the order of the talks in videos.yml, which their schedule fills its
+    # slots from. Unique per event.
+    position: integer
+    # blank: announced together with the event, so read the event's
+    announced_on: date
+    # ISO 639-1 code, exported as its English name. Required, no fallback to
+    # the series, so a series switching languages keeps its talks' languages.
+    language_code: string
     slides_url: string
-    thumbnail_xs: string
-    thumbnail_sm: string
-    thumbnail_md: string
-    thumbnail_lg: string
-    thumbnail_xl: string
-    thumbnail_classes: string
+    # dropped, none of our talks was recorded. Exported as video_provider
+    # "scheduled" (event not over yet) or "not_recorded", video_id the talk's id.
+    # video_provider, video_id, published_at, external_player(_url), thumbnails
+    # dropped: raw_title, original_title, status, removed, location, track,
+    # start/end time
   }
+  # BUILT as talks_speaker_talks. One row per speaker and talk.
   video_speakers: {
     shape: sql_table
     video_id: "integer" {constraint: foreign_key}
     speaker_id: "integer" {constraint: foreign_key}
-    # infer from speaker.name
+    # exported as the speakers' names, alphabetically. None: [TODO], or
+    # upstream skips the talk.
     # speaker_name: string
   }
+  # NOT BUILT: upstream's meetup shape. Talks point at their event instead.
   talk_segments: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
-    # maybe just video_id
     parent_video_id: "integer" {constraint: foreign_key}
-
-    	external_id: string
-
     title: string
-    raw_title: string
     description: string
-
-    # instead of event_name, but maybe also infer from parent_video_id
     event_id: "integer" {constraint: foreign_key}
-
-    # TODO: infer many from parent_video_id
-    date: "date "
-    published_at: date
-    announced_at: date
-    video_provider: string
-    video_id: string
-    language: string
-    track: string
-    location: string
     start_cue: string
     end_cue: string
     thumbnail_cue: string
-    slides_url: string
-    thumbnail_xs: string
-    thumbnail_sm: string
-    thumbnail_md: string
-    thumbnail_lg: string
-    thumbnail_xl: string
-    thumbnail_classes: string
   }
+  # NOT BUILT, see talk_segments
   talk_segment_speakers: {
     shape: sql_table
     talk_segment_id: "integer" {constraint: foreign_key}
     speaker_id: "integer" {constraint: foreign_key}
-    # infer from speaker.name
-    # speaker_name: string
   }
   # BUILT as talks_additional_resources. Not polymorphic: upstream's
   # parent_type/parent_id exists to also cover talk_segments, which we do not
@@ -235,7 +211,8 @@ events: {
     frequency: string
     ended: boolean
     default_country_code: string
-    language: string
+    # ISO 639-1 code, exported as its English name like the talks'
+    language_code: string
     website: string
     original_website: string
     twitter: string
@@ -479,4 +456,3 @@ schedules.schedule_tracks.event_id -> events.events.id
 locations.cities.coordinates_id -> locations.coordinates.id
 locations.addresses.city_id -> locations.cities.id
 locations.addresses.coordinate_id -> locations.coordinates.id
-
