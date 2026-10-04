@@ -1,6 +1,20 @@
 require "test_helper"
 
 class Talks::TalkTest < ActiveSupport::TestCase
+  test "requires a kind" do
+    talk = build_talk(kind: nil)
+
+    assert_not talk.valid?
+    assert_includes talk.errors[:kind], "can't be blank"
+  end
+
+  test "only takes a kind rubyevents knows" do
+    talk = build_talk(kind: "lightning")
+
+    assert_not talk.valid?
+    assert_includes talk.errors[:kind], "is not included in the list"
+  end
+
   test "requires a language" do
     talk = build_talk(language_code: nil)
 
@@ -29,6 +43,6 @@ class Talks::TalkTest < ActiveSupport::TestCase
   private
 
   def build_talk(**attributes)
-    Talks::Talk.new(title: "Gems are overrated", event: events_events(:one), language_code: "en", **attributes)
+    Talks::Talk.new(title: "Gems are overrated", event: events_events(:one), kind: "talk", language_code: "en", **attributes)
   end
 end

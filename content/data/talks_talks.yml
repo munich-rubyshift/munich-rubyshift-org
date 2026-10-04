@@ -3,7 +3,7 @@ Talks::Talk_097ea9bd-b75f-4ee5-8ce8-935902d7faca:
   id: '097ea9bd-b75f-4ee5-8ce8-935902d7faca'
   description: ''
   events_event_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
-  kind: ''
+  kind: talk
   language_code: en
   rubyevents_slug: ''
   slides_url: ''
@@ -13,7 +13,7 @@ Talks::Talk_2e0e8a82-1b67-4fc4-9e2a-7379f96661cf:
   id: 2e0e8a82-1b67-4fc4-9e2a-7379f96661cf
   description: ''
   events_event_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
-  kind: ''
+  kind: talk
   language_code: en
   rubyevents_slug: ''
   slides_url: ''

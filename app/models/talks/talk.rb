@@ -3,6 +3,12 @@ class Talks::Talk < ApplicationRecord
   include Sluggable
   friendly_id :title
 
+  # The kinds rubyevents knows, in their order.
+  KINDS = %w[
+    keynote talk lightning_talk open_mic announcement city_pitch panel workshop gameshow podcast
+    q_and_a discussion fireside_chat interview award demo trailer recap aftermovie intro outro
+  ].freeze
+
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :talks
 
   string_fk :events_event_id
@@ -12,6 +18,8 @@ class Talks::Talk < ApplicationRecord
 
   has_many :speaker_talks, class_name: "Talks::SpeakerTalk", foreign_key: :talks_talk_id, inverse_of: :talk
   has_many :speakers, class_name: "Entities::Person", through: :speaker_talks
+
+  validates :kind, presence: true, inclusion: { in: KINDS, allow_blank: true }
 
   validates :language_code, presence: true, inclusion: { in: Language::NAMES.keys, allow_blank: true }
 
