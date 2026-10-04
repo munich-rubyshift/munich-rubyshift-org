@@ -9,6 +9,11 @@ class Events::Series < ApplicationRecord
 
   validates :kind, inclusion: { in: KINDS }, allow_blank: true
   validates :frequency, inclusion: { in: FREQUENCIES }, allow_blank: true
+  validates :language_code, inclusion: { in: Language::NAMES.keys }, allow_blank: true
+
+  def language
+    Language::NAMES[language_code]
+  end
 
   def to_s
     name

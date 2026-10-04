@@ -13,6 +13,12 @@ class Talks::Talk < ApplicationRecord
   has_many :speaker_talks, class_name: "Talks::SpeakerTalk", foreign_key: :talks_talk_id, inverse_of: :talk
   has_many :speakers, class_name: "Entities::Person", through: :speaker_talks
 
+  validates :language_code, presence: true, inclusion: { in: Language::NAMES.keys, allow_blank: true }
+
+  def language
+    Language::NAMES[language_code]
+  end
+
   def to_s
     title
   end

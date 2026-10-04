@@ -17,7 +17,7 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
     field :frequency, as: :select, sortable: true, options: ::Events::Series::FREQUENCIES.index_by(&:humanize), include_blank: true
     field :ended, as: :boolean, sortable: true
     field :default_country_code, as: :text, sortable: true
-    field :language, as: :text, sortable: true
+    field :language_code, as: :select, name: "Language", sortable: true, options: ::Language::NAMES.invert, include_blank: true
     field :website, as: :text, sortable: true
     field :original_website, as: :text, sortable: true
     field :twitter, as: :text, sortable: true

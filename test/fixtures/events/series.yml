@@ -9,7 +9,7 @@ one:
   frequency: MyString
   ended: false
   default_country_code: MyString
-  language: MyString
+  language_code: en
   website: MyString
   original_website: MyString
   twitter: MyString
@@ -37,7 +37,7 @@ two:
   frequency: MyString
   ended: false
   default_country_code: MyString
-  language: MyString
+  language_code: en
   website: MyString
   original_website: MyString
   twitter: MyString
