@@ -8,7 +8,7 @@ one:
   description: MyText
   slides_url: MyString
   kind: talk
-  announced_at: 2026-04-23 20:58:42
+  announced_on: 2026-04-23
   language_code: en
 
 two:
@@ -19,5 +19,5 @@ two:
   description: MyText
   slides_url: MyString
   kind: talk
-  announced_at: 2026-04-23 20:58:42
+  announced_on: 2026-04-23
   language_code: en

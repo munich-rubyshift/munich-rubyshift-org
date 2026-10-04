@@ -19,7 +19,12 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
     field :description, as: :textarea
     field :slides_url, as: :text, sortable: true
     field :kind, as: :select, sortable: true, options: KIND_OPTIONS, default: "talk"
-    field :announced_at, as: :date_time, sortable: true
+    # Like an event's series defaults: the form shows the talk's own date, so
+    # saving doesn't copy the event's date onto the talk.
+    field :announced_on, as: :date, sortable: true,
+      help: "Leave blank if announced together with the event.",
+      format_form_using: -> { record.read_attribute(:announced_on) },
+      placeholder: -> { record.event&.announced_on&.iso8601 }
     field :language_code, as: :select, name: "Language", sortable: true, options: ::Language::NAMES.invert, default: "en"
   end
 end
