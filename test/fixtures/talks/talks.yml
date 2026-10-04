@@ -5,6 +5,7 @@ one:
   title: MyString
   rubyevents_slug: MyString
   event: one
+  position: 1
   description: MyText
   slides_url: MyString
   kind: talk
@@ -16,6 +17,7 @@ two:
   title: MyString
   rubyevents_slug: MyString
   event: two
+  position: 1
   description: MyText
   slides_url: MyString
   kind: talk

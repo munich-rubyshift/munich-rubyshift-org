@@ -66,6 +66,82 @@ class Talks::TalkTest < ActiveSupport::TestCase
     assert_equal Date.new(2026, 9, 1), talk.reload.announced_on
   end
 
+  test "a talk without a position comes after its event's last one" do
+    event = events_events(:one)
+    talks_talks(:one).update_columns(events_event_id: events_events(:two).id, position: 2)
+    build_talk(event: event, position: 3).save!
+
+    talk = build_talk(event: event, position: nil)
+    talk.save!
+
+    assert_equal 4, talk.position
+  end
+
+  test "the first talk of an event comes first" do
+    event = events_events(:one)
+    talks_talks(:one).update_columns(events_event_id: events_events(:two).id, position: 2)
+
+    talk = build_talk(event: event, position: nil)
+    talk.save!
+
+    assert_equal 1, talk.position
+  end
+
+  test "a talk whose position gets cleared goes right after the others" do
+    event = events_events(:one)
+    talks_talks(:one).update_columns(events_event_id: events_events(:two).id, position: 2)
+    build_talk(event: event, position: 1).save!
+    talk = build_talk(event: event, position: 3).tap(&:save!)
+
+    talk.update!(position: nil)
+
+    assert_equal 2, talk.position
+  end
+
+  test "a talk keeps the position it was given" do
+    talk = build_talk(position: 7)
+    talk.save!
+
+    assert_equal 7, talk.reload.position
+  end
+
+  test "two talks of an event can't share a position" do
+    talk = build_talk(event: talks_talks(:one).event, position: talks_talks(:one).position)
+
+    assert_not talk.valid?
+    assert_includes talk.errors[:position], "has already been taken"
+  end
+
+  test "talks of different events may share a position" do
+    talks_talks(:one).update_column(:position, 5)
+
+    assert build_talk(event: talks_talks(:two).event, position: 5).valid?
+  end
+
+  test "the database refuses two talks of an event sharing a position" do
+    taken = talks_talks(:one)
+
+    assert_raises ActiveRecord::RecordNotUnique do
+      build_talk(event: taken.event, position: taken.position).save!(validate: false)
+    end
+  end
+
+  test "rejects a position below one" do
+    talk = build_talk(position: 0)
+
+    assert_not talk.valid?
+    assert_includes talk.errors[:position], "must be greater than 0"
+  end
+
+  test "an event lists its talks in running order" do
+    event = events_events(:one)
+    talks_talks(:one).update_columns(events_event_id: events_events(:two).id, position: 2)
+    second = build_talk(event: event, title: "A", position: 2).tap(&:save!)
+    first = build_talk(event: event, title: "B", position: 1).tap(&:save!)
+
+    assert_equal [ first, second ], event.talks.reload.to_a
+  end
+
   private
 
   def build_talk(**attributes)
