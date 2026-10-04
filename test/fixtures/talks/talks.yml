@@ -9,7 +9,7 @@ one:
   slides_url: MyString
   kind: MyString
   announced_at: 2026-04-23 20:58:42
-  language: MyString
+  language_code: en
 
 two:
   slug: MyString
@@ -20,4 +20,4 @@ two:
   slides_url: MyString
   kind: MyString
   announced_at: 2026-04-23 20:58:42
-  language: MyString
+  language_code: en

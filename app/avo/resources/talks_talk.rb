@@ -17,6 +17,6 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
     field :slides_url, as: :text, sortable: true
     field :kind, as: :text, sortable: true
     field :announced_at, as: :date_time, sortable: true
-    field :language, as: :text, sortable: true
+    field :language_code, as: :select, name: "Language", sortable: true, options: ::Language::NAMES.invert, default: "en"
   end
 end

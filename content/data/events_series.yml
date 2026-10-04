@@ -7,7 +7,7 @@ Events::Series_1659b292-15b3-4b8a-9f61-3f4359c74e3a:
   frequency: quarterly
   github: https://github.com/munich-rubyshift
   kind: meetup
-  language: English
+  language_code: en
   linkedin: https://www.linkedin.com/groups/15477023
   meetup: https://www.meetup.com/de-DE/munich-rubyshift-ruby-user-group/
   name: Munich Rubyshift
