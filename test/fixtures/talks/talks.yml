@@ -7,7 +7,7 @@ one:
   event: one
   description: MyText
   slides_url: MyString
-  kind: MyString
+  kind: talk
   announced_at: 2026-04-23 20:58:42
   language_code: en
 
@@ -18,6 +18,6 @@ two:
   event: two
   description: MyText
   slides_url: MyString
-  kind: MyString
+  kind: talk
   announced_at: 2026-04-23 20:58:42
   language_code: en
