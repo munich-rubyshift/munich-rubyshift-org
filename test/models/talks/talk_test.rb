@@ -40,6 +40,32 @@ class Talks::TalkTest < ActiveSupport::TestCase
     assert_nil Talks::Talk.new(event: event).language_code
   end
 
+  test "a talk announced on its own keeps its date" do
+    talk = build_talk(announced_on: Date.new(2026, 9, 10))
+    talk.event.announced_on = Date.new(2026, 9, 1)
+
+    assert_equal Date.new(2026, 9, 10), talk.announced_on
+  end
+
+  test "a talk without its own date was announced with its event" do
+    talk = build_talk(announced_on: nil)
+    talk.event.announced_on = Date.new(2026, 9, 1)
+
+    assert_equal Date.new(2026, 9, 1), talk.announced_on
+  end
+
+  # Entering the event's date explicitly is a statement of its own, so it stays
+  # when the event's date gets corrected.
+  test "a talk announced on the event's date explicitly keeps it" do
+    talk = build_talk(announced_on: Date.new(2026, 9, 1))
+    talk.event.announced_on = Date.new(2026, 9, 1)
+    talk.save!
+
+    talk.event.update_column(:announced_on, Date.new(2026, 9, 2))
+
+    assert_equal Date.new(2026, 9, 1), talk.reload.announced_on
+  end
+
   private
 
   def build_talk(**attributes)

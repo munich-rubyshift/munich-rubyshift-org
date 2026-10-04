@@ -33,4 +33,27 @@ class AvoTalkFormTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select "[data-field-id='language_code']", text: /German/
   end
+
+  test "a talk form shows the talk's own announcement date" do
+    talk = talks_talks(:one)
+    talk.update_columns(slug: "talk-form", announced_on: nil)
+    talk.event.update_columns(announced_on: Date.new(2026, 9, 1))
+
+    get "/avo/resources/talks_talks/#{talk.to_param}/edit"
+
+    assert_response :success
+    assert_select "[data-field-id='announced_on'] input[value='2026-09-01']", count: 0
+    assert_select "[data-field-id='announced_on'] input[placeholder='2026-09-01']"
+  end
+
+  test "a talk page shows when the talk was announced with its event" do
+    talk = talks_talks(:one)
+    talk.update_columns(slug: "talk-page", announced_on: nil)
+    talk.event.update_columns(announced_on: Date.new(2026, 9, 1))
+
+    get "/avo/resources/talks_talks/#{talk.to_param}"
+
+    assert_response :success
+    assert_select "[data-field-id='announced_on']", text: /2026-09-01/
+  end
 end

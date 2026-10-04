@@ -27,6 +27,12 @@ class Talks::Talk < ApplicationRecord
     Language::NAMES[language_code]
   end
 
+  # We announce talks in posts of their own, but a blank date means the talk
+  # was announced together with its event.
+  def announced_on
+    super || event&.announced_on
+  end
+
   def to_s
     title
   end
