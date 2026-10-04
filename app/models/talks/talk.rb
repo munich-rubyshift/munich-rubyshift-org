@@ -23,6 +23,11 @@ class Talks::Talk < ApplicationRecord
 
   validates :language_code, presence: true, inclusion: { in: Language::NAMES.keys, allow_blank: true }
 
+  validates :position, numericality: { only_integer: true, greater_than: 0 }, uniqueness: { scope: :events_event_id }
+  before_validation :append_to_event, if: -> { position.nil? }
+
+  scope :by_running_order, -> { order(:position) }
+
   def language
     Language::NAMES[language_code]
   end
@@ -35,5 +40,11 @@ class Talks::Talk < ApplicationRecord
 
   def to_s
     title
+  end
+
+  private
+
+  def append_to_event
+    self.position = Talks::Talk.where(events_event_id: events_event_id).where.not(id: id).maximum(:position).to_i + 1
   end
 end

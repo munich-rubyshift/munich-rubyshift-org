@@ -5,6 +5,7 @@ Talks::Talk_097ea9bd-b75f-4ee5-8ce8-935902d7faca:
   events_event_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
   kind: talk
   language_code: en
+  position: 2
   rubyevents_slug: ''
   slides_url: ''
   slug: munich-rubyshift-org-goes-live
@@ -15,6 +16,7 @@ Talks::Talk_2e0e8a82-1b67-4fc4-9e2a-7379f96661cf:
   events_event_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
   kind: talk
   language_code: en
+  position: 1
   rubyevents_slug: ''
   slides_url: ''
   slug: gems-are-overrated

@@ -16,6 +16,7 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
     field :title, as: :text, sortable: true
     field :rubyevents_slug, as: :text, sortable: true
     field :event, as: :belongs_to, **sortable(:by_start_date, on: :event)
+    field :position, as: :number, sortable: true, help: "Leave blank to add the talk after the event's last one."
     field :description, as: :textarea
     field :slides_url, as: :text, sortable: true
     field :kind, as: :select, sortable: true, options: KIND_OPTIONS, default: "talk"

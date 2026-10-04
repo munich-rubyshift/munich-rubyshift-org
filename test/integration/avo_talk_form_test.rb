@@ -56,4 +56,17 @@ class AvoTalkFormTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select "[data-field-id='announced_on']", text: /2026-09-01/
   end
+
+  test "a talk saved without a position goes last" do
+    event = events_events(:one)
+    event.update_columns(slug: "talk-event")
+    event.talks.update_all(position: 2)
+
+    post "/avo/resources/talks_talks", params: { "talks/talk" => {
+      title: "Appended", events_event_id: event.id, position: "", kind: "talk", language_code: "en"
+    } }
+
+    assert_response :redirect
+    assert_equal 3, Talks::Talk.find_by!(title: "Appended").position
+  end
 end
