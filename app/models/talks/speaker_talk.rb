@@ -7,6 +7,8 @@ class Talks::SpeakerTalk < ApplicationRecord
 
   string_fk :talks_talk_id, :entities_person_id
 
+  validates :speaker, uniqueness: { scope: :talks_talk_id }
+
   def to_s
     "\"#{talk}\" by #{speaker}"
   end

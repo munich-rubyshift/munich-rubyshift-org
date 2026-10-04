@@ -17,7 +17,7 @@
   <p>
     <strong>Speakers:</strong><br>
     <ul>
-      <% talk.speakers.each do |speaker| %>
+      <% talk.speakers.by_to_s.each do |speaker| %>
         <li><%= link_to speaker %></li>
       <% end %>
     </ul>
