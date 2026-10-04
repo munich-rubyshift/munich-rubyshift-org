@@ -17,7 +17,7 @@ class Talks::Talk < ApplicationRecord
     class_name: "Talks::AdditionalResource", foreign_key: :talks_talk_id, inverse_of: :talk
 
   has_many :speaker_talks, class_name: "Talks::SpeakerTalk", foreign_key: :talks_talk_id, inverse_of: :talk
-  has_many :speakers, class_name: "Entities::Person", through: :speaker_talks
+  has_many :speakers, class_name: "Entities::Person", through: :speaker_talks, inverse_of: :talks
 
   validates :title, presence: true
   validates :kind, presence: true, inclusion: { in: KINDS, allow_blank: true }
