@@ -95,6 +95,16 @@ class AvoIndexSortingTest < ActionDispatch::IntegrationTest
     assert_equal [ older, newer ], index_order("events_involvements", sort_by: :event, sort_direction: :asc)
   end
 
+  test "talks fall in event date order, newest first by default" do
+    events_events(:one).update_columns(kind: "meetup", start_date: Date.new(2017, 3, 8))
+    events_events(:two).update_columns(kind: "meetup", start_date: Date.new(2026, 9, 24))
+    talks_talks(:one).update_columns(slug: "older")
+    talks_talks(:two).update_columns(slug: "newer")
+
+    assert_equal %w[newer older], index_order("talks_talks")
+    assert_equal %w[older newer], index_order("talks_talks", sort_by: :event, sort_direction: :asc)
+  end
+
   private
 
   # The row links are where the index's order shows from the outside. "new" is
