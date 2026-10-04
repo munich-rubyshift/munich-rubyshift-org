@@ -1,7 +1,7 @@
 class Talks::Talk < ApplicationRecord
   include StringForeignKeys
   include Sluggable
-  friendly_id :title
+  friendly_id :slug_candidates
 
   # The kinds rubyevents knows, in their order.
   KINDS = %w[
@@ -19,6 +19,7 @@ class Talks::Talk < ApplicationRecord
   has_many :speaker_talks, class_name: "Talks::SpeakerTalk", foreign_key: :talks_talk_id, inverse_of: :talk
   has_many :speakers, class_name: "Entities::Person", through: :speaker_talks
 
+  validates :title, presence: true
   validates :kind, presence: true, inclusion: { in: KINDS, allow_blank: true }
 
   validates :language_code, presence: true, inclusion: { in: Language::NAMES.keys, allow_blank: true }
@@ -27,6 +28,14 @@ class Talks::Talk < ApplicationRecord
   before_validation :append_to_event, if: -> { position.nil? }
 
   scope :by_running_order, -> { order(:position) }
+
+  # Distinguish repeated titles by date
+  def slug_candidates
+    [
+      title,
+      ([ title, event.start_date ] if event&.start_date)
+    ].compact
+  end
 
   def language
     Language::NAMES[language_code]

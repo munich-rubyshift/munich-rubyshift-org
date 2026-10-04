@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_04_100400) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_04_100450) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -243,7 +243,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_04_100400) do
     t.string "rubyevents_slug"
     t.string "slides_url"
     t.string "slug"
-    t.string "title"
+    t.string "title", null: false
     t.index ["events_event_id", "position"], name: "index_talks_talks_on_events_event_id_and_position", unique: true
   end
 
