@@ -1,6 +1,30 @@
 require "test_helper"
 
 class Talks::TalkTest < ActiveSupport::TestCase
+  test "requires a title" do
+    talk = build_talk(title: "")
+
+    assert_not talk.valid?
+    assert_includes talk.errors[:title], "can't be blank"
+  end
+
+  test "is slugged after its title" do
+    talk = build_talk(title: "Gems are overrated")
+    talk.save!
+
+    assert_equal "gems-are-overrated", talk.slug
+  end
+
+  test "a repeated title is slugged with its event's date" do
+    events_events(:two).update_columns(start_date: Date.new(2025, 10, 16))
+    build_talk(title: "Lightning Talks", event: events_events(:one)).save!
+
+    talk = build_talk(title: "Lightning Talks", event: events_events(:two))
+    talk.save!
+
+    assert_equal "lightning-talks-2025-10-16", talk.slug
+  end
+
   test "requires a kind" do
     talk = build_talk(kind: nil)
 
