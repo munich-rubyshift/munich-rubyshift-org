@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_09_04_211642) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_04_100000) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -235,28 +235,14 @@ ActiveRecord::Schema[8.1].define(version: 2026_09_04_211642) do
 
   create_table "talks_talks", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.datetime "announced_at"
-    t.date "date"
     t.text "description"
     t.string "events_event_id", null: false
-    t.string "external_id"
-    t.boolean "external_player"
-    t.string "external_player_url"
     t.string "kind"
     t.string "language"
-    t.string "location"
-    t.string "original_title"
-    t.datetime "published_at"
-    t.string "raw_title"
-    t.string "removed"
     t.string "rubyevents_slug"
     t.string "slides_url"
     t.string "slug"
-    t.string "status"
-    t.time "time"
     t.string "title"
-    t.string "track"
-    t.string "video_id"
-    t.string "video_provider"
     t.index ["events_event_id"], name: "index_talks_talks_on_events_event_id"
   end
 
