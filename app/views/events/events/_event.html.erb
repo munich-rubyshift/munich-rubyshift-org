@@ -28,7 +28,7 @@
     <strong>Talks:</strong><br>
     <ul>
       <% event.talks.each do |talk| %>
-        <li><%= link_to talk %> by <%= talk.speakers.join(", ") %></li>
+        <li><%= link_to talk %> by <%= talk.speakers.by_to_s.join(", ") %></li>
       <% end %>
     </ul>
   </p>

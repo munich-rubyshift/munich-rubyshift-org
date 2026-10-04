@@ -166,6 +166,12 @@ class Talks::TalkTest < ActiveSupport::TestCase
     assert_equal [ first, second ], event.talks.reload.to_a
   end
 
+  test "finds the talks nobody is speaking at yet" do
+    talks_speaker_talks(:two).destroy!
+
+    assert_equal [ talks_talks(:two) ], Talks::Talk.without_speaker.to_a
+  end
+
   private
 
   def build_talk(**attributes)

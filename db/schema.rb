@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_04_100450) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_04_100500) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -230,7 +230,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_04_100450) do
     t.string "entities_person_id", null: false
     t.string "talks_talk_id", null: false
     t.index ["entities_person_id"], name: "index_talks_speaker_talks_on_entities_person_id"
-    t.index ["talks_talk_id"], name: "index_talks_speaker_talks_on_talks_talk_id"
+    t.index ["talks_talk_id", "entities_person_id"], name: "index_talks_speaker_talks_on_talk_and_person", unique: true
   end
 
   create_table "talks_talks", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|

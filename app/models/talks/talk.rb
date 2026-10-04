@@ -29,6 +29,10 @@ class Talks::Talk < ApplicationRecord
 
   scope :by_running_order, -> { order(:position) }
 
+  # rubyevents skips a talk without speakers, so these need a name before the
+  # export, or get exported with a "TODO" speaker.
+  scope :without_speaker, -> { where.missing(:speaker_talks) }
+
   # Distinguish repeated titles by date
   def slug_candidates
     [
