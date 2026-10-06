@@ -19,6 +19,11 @@ Parklife.application.routes do
   # get hidden_pages_path, crawl: true
   # get feed_path(format: :atom)
 
+  # TODO: enable once every rubyevents_slug and required field is filled in.
+  # Until then a strict export raises, which would fail the whole build and
+  # block deploys of unrelated changes.
+  # get rubyevents_export_path
+
   # Services typically allow a custom 404 page.
   # get '/404.html'
 end
