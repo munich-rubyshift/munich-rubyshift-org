@@ -1,11 +1,10 @@
-<% content_for :title, "Talk: #{@talks_talk.slug}" %>
+<% content_for :title, @talks_talk.title %>
 
 <%= render @talks_talk %>
 
-<% if defined?(Avo) %>
-  <p>
+<p class="page-actions">
+  <%= link_to "← All talks", talks_talks_path %>
+  <% if defined?(Avo) %>
     <%= link_to "✏️", avo.resources_talks_talk_path(@talks_talk), "up-follow": false %>
-  </p>
-<% end %>
-
-<%= link_to "Back to all talks", talks_talks_path %>
+  <% end %>
+</p>

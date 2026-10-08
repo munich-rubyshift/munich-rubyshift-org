@@ -1,47 +1,25 @@
-<article id="<%= dom_id person %>" class="entities---person" data-compiler="entities-person" up-data="<%= {  }.to_json %>">
-  <h2><%= person.name %><% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_person_path(person), "up-follow": false %><% end %></h2>
-
-  <% if person.rubyevents_slug.present? %>
-    <%= link_to "on Rubyevents", "https://www.rubyevents.org/profiles/#{person.rubyevents_slug}", target: "_blank", rel: "noopener noreferrer" %>
-  <% end %>
-
-  <% if person.github.present? %>
-    <%= link_to "on GitHub", "https://www.github.com/#{person.github}", target: "_blank", rel: "noopener noreferrer" %>
-  <% end %>
-
-  <% if person.website.present? %>
-    <%= link_to person.website, target: "_blank", rel: "noopener noreferrer" %>
-  <% end %>
-
-  <p>
-    <strong>Talks:</strong><br>
-    <ul>
-      <% person.talks.each do |talk| %>
-        <li><%= link_to talk %> at <%= talk.event %></li>
-      <% end %>
-    </ul>
-  </p>
-
-  <div class="entities---person--social-media">
-    <% if person.twitter.present? %>
-      <div><%= link_to "X", person.twitter, target: "_blank", rel: "noopener noreferrer" %></div>
-    <% end %>
-
-    <% if person.mastodon.present? %>
-      <div><%= link_to "Mastodon", person.mastodon, target: "_blank", rel: "noopener noreferrer" %></div>
-    <% end %>
-
-    <% if person.bluesky.present? %>
-      <div><%= link_to "Bluesky", person.bluesky, target: "_blank", rel: "noopener noreferrer" %></div>
-    <% end %>
-
-    <% if person.linkedin.present? %>
-      <div><%= link_to "Linkedin", person.linkedin, target: "_blank", rel: "noopener noreferrer" %></div>
-    <% end %>
-
-    <% if person.speakerdeck.present? %>
-      <div><%= link_to "Speakerdeck", person.speakerdeck, target: "_blank", rel: "noopener noreferrer" %></div>
-    <% end %>
+<article id="<%= dom_id person %>" class="entities---person origami-paper" data-compiler="entities-person" up-data="<%= {  }.to_json %>">
+  <div class="entities---person--header">
+    <span class="entities---person--avatar" aria-hidden="true"><%= initials %></span>
+    <h2 class="entities---person--name">
+      <%= link_to person.name, person %>
+      <% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_person_path(person), "up-follow": false %><% end %>
+    </h2>
   </div>
 
+  <% if person.talks.any? %>
+    <ul class="entities---person--talks">
+      <% person.talks.each do |talk| %>
+        <li><%= link_to talk, talk %> <span class="muted">at <%= link_to talk.event, talk.event %></span></li>
+      <% end %>
+    </ul>
+  <% end %>
+
+  <% if links.any? %>
+    <p class="entities---person--links">
+      <% links.each do |name, url| %>
+        <%= link_to name, url, target: "_blank", rel: "noopener noreferrer" %>
+      <% end %>
+    </p>
+  <% end %>
 </article>

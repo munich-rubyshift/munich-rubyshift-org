@@ -2,19 +2,19 @@
   display: flex;
   flex-flow: column nowrap;
   margin: 0;
-  min-height: 99.9vh;
-
-  .layout--header {
-    margin: 20px 0;
-  }
+  min-height: 100vh;
+  /* Full-bleed facet backgrounds must not cause horizontal scrolling */
+  overflow-x: clip;
 
   .layout--main {
-    margin: 0 0 40px 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: var(--content-width);
+    margin: 24px auto 64px;
+    padding: 0 var(--gutter);
   }
 
   .layout--footer {
     margin-top: auto;
-    margin-bottom: 20px;
   }
 }
-

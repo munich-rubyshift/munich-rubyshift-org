@@ -1,16 +1,26 @@
-<header class="header" data-compiler="header" up-data="<%= {  }.to_json %>">
-  <%= image_tag("munich_rubyshift.webp", alt: "Munich Rubyshift logo") %>
-  <div class="header--text">
-    <h1 class="header--title">Munich Rubyshift</h1>
-    <nav>
-      <%= link_to "Home", page_path("welcome") %>
-      <%= link_to "Events", events_events_path %>
-      <%= link_to "Talks", talks_talks_path %>
-      <%= link_to "Sponsors", entities_organizations_path %>
-      <%= link_to "Discord", "https://discord.gg/EKqHWmCxGZ", allow_other_hosts: true, target: "_blank" %>
-      <%= link_to "LinkedIn", "https://www.linkedin.com/groups/15477023", allow_other_hosts: true, target: "_blank" %>
-      <%= link_to "Meetup", "https://www.meetup.com/de-DE/munich-rubyshift-ruby-user-group/", allow_other_hosts: true, target: "_blank" %>
-      <%= link_to "GitHub", "https://github.com/munich-rubyshift/munich-rubyshift-org", allow_other_hosts: true, target: "_blank" %>
+<header class="header origami-facets" data-compiler="header" up-data="<%= {  }.to_json %>">
+  <div class="header--inner">
+    <%= link_to page_path("welcome"), class: "header--brand" do %>
+      <span class="header--logo"><%= image_tag("munich_rubyshift.webp", alt: "Munich Rubyshift logo") %></span>
+      <span class="header--text">
+        <span class="header--title">Munich Rubyshift</span>
+        <span class="header--tagline">Munich's Ruby meetup</span>
+      </span>
+    <% end %>
+
+    <nav class="header--nav" aria-label="Main">
+      <div class="header--links">
+        <%= nav_link "Home", page_path("welcome"), also: [ root_path ] %>
+        <%= nav_link "Events", events_events_path %>
+        <%= nav_link "Talks", talks_talks_path %>
+        <%= nav_link "Sponsors", entities_organizations_path %>
+      </div>
+      <div class="header--links header--links-external">
+        <%= link_to "Discord", "https://discord.gg/EKqHWmCxGZ", allow_other_hosts: true, target: "_blank" %>
+        <%= link_to "LinkedIn", "https://www.linkedin.com/groups/15477023", allow_other_hosts: true, target: "_blank" %>
+        <%= link_to "Meetup", "https://www.meetup.com/de-DE/munich-rubyshift-ruby-user-group/", allow_other_hosts: true, target: "_blank" %>
+        <%= link_to "GitHub", "https://github.com/munich-rubyshift/munich-rubyshift-org", allow_other_hosts: true, target: "_blank" %>
+      </div>
     </nav>
   </div>
 </header>

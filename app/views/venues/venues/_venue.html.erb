@@ -1,62 +1,47 @@
-<article id="<%= dom_id venue %>">
-  <p>
-    <strong>Slug:</strong>
-    <%= venue.slug %>
-  </p>
+<% events = venue.events.sort_by { |event| event.start_date || Date.new(0) }.reverse %>
+<% accessibility = { "Wheelchair accessible" => venue.accessibility_wheelchair, "Elevators" => venue.accessibility_elevators, "Accessible restrooms" => venue.accessibility_restrooms }.select { |_, available| available } %>
+
+<article id="<%= dom_id venue %>" class="venue-page">
+  <p class="venue-page--kicker">Venue</p>
+  <h1><%= venue.name %></h1>
+
+  <% if venue.address %>
+    <p class="lead"><%= venue.address %></p>
+  <% end %>
 
   <p>
-    <strong>Name:</strong>
-    <%= venue.name %>
+    <% if venue.openstreetmap_url %>
+      <%= link_to "OpenStreetMap", venue.openstreetmap_url, class: "button", target: "_blank", rel: "noopener noreferrer" %>
+      <%= link_to "Google Maps", venue.google_url, class: "button button-secondary", target: "_blank", rel: "noopener noreferrer" %>
+      <%= link_to "Apple Maps", venue.apple_url, class: "button button-secondary", target: "_blank", rel: "noopener noreferrer" %>
+    <% end %>
+    <% if venue.url.present? %>
+      <%= link_to "Website", venue.url, class: "button button-secondary", target: "_blank", rel: "noopener noreferrer" %>
+    <% end %>
   </p>
 
-  <p>
-    <strong>Rubyevents slug:</strong>
-    <%= venue.rubyevents_slug %>
-  </p>
+  <% if venue.description.present? %>
+    <%= simple_format(venue.description) %>
+  <% end %>
 
-  <p>
-    <strong>Description:</strong>
-    <%= venue.description %>
-  </p>
+  <% details = { "How to get in" => venue.instructions, "Public transport" => venue.nearby_public_transport, "Parking" => venue.nearby_parking, "Accessibility" => [ accessibility.keys.to_sentence.presence, venue.accessibility_notes.presence ].compact.join(". ") }.compact_blank %>
+  <% if details.any? %>
+    <dl class="facts">
+      <% details.each do |label, text| %>
+        <div>
+          <dt><%= label %></dt>
+          <dd><%= text %></dd>
+        </div>
+      <% end %>
+    </dl>
+  <% end %>
 
-  <p>
-    <strong>Url:</strong>
-    <%= venue.url %>
-  </p>
-
-  <p>
-    <strong>Instructions:</strong>
-    <%= venue.instructions %>
-  </p>
-
-  <p>
-    <strong>Accessibility wheelchair:</strong>
-    <%= venue.accessibility_wheelchair %>
-  </p>
-
-  <p>
-    <strong>Accessibility elevators:</strong>
-    <%= venue.accessibility_elevators %>
-  </p>
-
-  <p>
-    <strong>Accessibility restrooms:</strong>
-    <%= venue.accessibility_restrooms %>
-  </p>
-
-  <p>
-    <strong>Accessibility notes:</strong>
-    <%= venue.accessibility_notes %>
-  </p>
-
-  <p>
-    <strong>Nearby public transport:</strong>
-    <%= venue.nearby_public_transport %>
-  </p>
-
-  <p>
-    <strong>Nearby parking:</strong>
-    <%= venue.nearby_parking %>
-  </p>
-
+  <% if events.any? %>
+    <h2 class="section-title">Events here</h2>
+    <ul>
+      <% events.each do |event| %>
+        <li><%= link_to event_title(event), event %> <span class="muted">· <%= event_date(event) %></span></li>
+      <% end %>
+    </ul>
+  <% end %>
 </article>

@@ -1,0 +1,43 @@
+.talks---talk-card {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 24px 26px 20px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+
+  .talks---talk-card--title {
+    margin: 0 24px 6px 0;
+    font-size: 1.25rem;
+    line-height: 1.3;
+
+    a {
+      color: var(--text-bright);
+    }
+
+    a:hover {
+      color: var(--links);
+    }
+  }
+
+  .talks---talk-card--speakers {
+    margin: 0 0 10px;
+    font-weight: 700;
+  }
+
+  .talks---talk-card--description {
+    margin: 0 0 12px;
+  }
+
+  .talks---talk-card--event {
+    margin: auto 0 0;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+    font-size: 0.9rem;
+  }
+}
+
+.talks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}

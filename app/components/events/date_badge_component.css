@@ -1,0 +1,52 @@
+/* A faceted ruby hexagon */
+.events---date-badge {
+  --badge-width: 4.5rem;
+
+  flex: none;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: var(--badge-width);
+  aspect-ratio: 0.88;
+  box-sizing: border-box;
+  padding: 0;
+  background:
+    linear-gradient(120deg, rgb(255 255 255 / 0.14) 0 33%, transparent 33% 66%, rgb(0 0 0 / 0.22) 66%),
+    linear-gradient(200deg, transparent 0 50%, rgb(0 0 0 / 0.16) 50%),
+    linear-gradient(160deg, #ff5c73 0%, #d0142c 50%, #6d0816 100%);
+  color: #fff;
+  font-family: var(--font-display);
+  line-height: 1.05;
+  text-align: center;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  /* Override the inline code look of <time> from the theme */
+  border-radius: 0;
+  font-size: calc(var(--badge-width) / 4.5);
+}
+
+.events---date-badge--top {
+  font-size: 0.66em;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.events---date-badge--top:empty,
+.events---date-badge--bottom:empty {
+  display: none;
+}
+
+.events---date-badge--main {
+  font-size: 1.6em;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+
+.events---date-badge--bottom {
+  font-size: 0.68em;
+  font-weight: 700;
+  opacity: 0.8;
+}

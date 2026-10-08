@@ -1,0 +1,102 @@
+.events---event-card {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+  min-width: 0;
+
+  /* Past events get a graphite hexagon */
+  .events---date-badge {
+    --badge-width: 4rem;
+
+    background:
+      linear-gradient(120deg, rgb(255 255 255 / 0.08) 0 33%, transparent 33% 66%, rgb(0 0 0 / 0.2) 66%),
+      var(--badge-muted);
+  }
+
+  .events---event-card--body {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .events---event-card--title {
+    margin: 4px 0 4px;
+    font-size: 1.18rem;
+    overflow-wrap: anywhere;
+
+    a {
+      color: var(--text-bright);
+    }
+
+    a:hover {
+      color: var(--links);
+    }
+  }
+
+  .events---event-card--meta {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2px 10px;
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.92rem;
+
+    > span + span::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      margin: 0 10px 2px 0;
+      background: var(--crimson);
+      clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    }
+  }
+
+  .events---event-card--talks {
+    margin: 8px 0 0;
+    padding-left: 1.1rem;
+    font-size: 0.95rem;
+  }
+
+  .events---event-card--actions {
+    margin: 20px 0 0;
+  }
+}
+
+.events---event-card:hover .events---date-badge {
+  background:
+    linear-gradient(120deg, rgb(255 255 255 / 0.14) 0 33%, transparent 33% 66%, rgb(0 0 0 / 0.22) 66%),
+    linear-gradient(160deg, #ff5c73 0%, #d0142c 50%, #6d0816 100%);
+}
+
+.events---event-card-cancelled .events---event-card--title a {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+/* The next meetup gets a big faceted panel */
+.events---event-card-featured {
+  gap: 26px;
+  padding: 28px 30px;
+  border: 1px solid transparent;
+
+  .events---date-badge {
+    --badge-width: 5.75rem;
+
+    background:
+      linear-gradient(120deg, rgb(255 255 255 / 0.14) 0 33%, transparent 33% 66%, rgb(0 0 0 / 0.22) 66%),
+      linear-gradient(200deg, transparent 0 50%, rgb(0 0 0 / 0.16) 50%),
+      linear-gradient(160deg, #ff5c73 0%, #d0142c 50%, #6d0816 100%);
+  }
+
+  .events---event-card--title {
+    font-size: 1.7rem;
+  }
+
+  @media (max-width: 520px) {
+    padding: 20px 18px;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,362 @@
+/*
+ * Low-poly look, derived from the faceted lion logo:
+ * a triangle mesh in crimson and ruby, charcoal panels with cut corners
+ * and thin glowing crimson edges.
+ *
+ * The class names `.origami-facets` and `.origami-paper` are kept as the
+ * shared hooks for "faceted crimson surface" and "card".
+ */
+
+body {
+  position: relative;
+  background:
+    radial-gradient(ellipse 70% 420px at 85% 0, rgb(208 20 44 / 0.14), transparent 70%),
+    var(--background-body);
+}
+
+/* A faint triangle mesh behind the top of every page, fading out downwards */
+body::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0 0 auto;
+  height: 640px;
+  background: var(--mesh-subtle) center top / 1600px auto no-repeat;
+  mask-image: linear-gradient(#000 25%, transparent 95%);
+  pointer-events: none;
+}
+
+/* A crimson low-poly mesh: shaded triangles on top of a crimson-to-ruby gradient */
+.origami-facets {
+  background-color: var(--crimson-deep);
+  background-image:
+    var(--mesh),
+    radial-gradient(ellipse 60% 120% at 82% 10%, rgb(255 75 102 / 0.55), transparent 70%),
+    linear-gradient(118deg, var(--crimson-dark) 0%, var(--crimson-deep) 38%, var(--crimson) 78%, #e42a45 100%);
+  background-position: center;
+  background-size: cover, auto, auto;
+  color: #fff;
+}
+
+/* Charcoal panel with two cut corners and a thin crimson gradient edge */
+.origami-paper,
+.facts,
+.layout--main > article:not([class]),
+.layout--main > div[id] > article,
+.layout--main > ul[id] > li {
+  position: relative;
+  padding: 24px 28px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  border: 1px solid transparent;
+  background:
+    var(--mesh-subtle) right top / 900px auto no-repeat padding-box,
+    linear-gradient(170deg, var(--background-card-top), var(--background-card) 60%) padding-box,
+    var(--gradient-edge) border-box;
+  clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, var(--cut) 100%, 0 calc(100% - var(--cut)));
+  transition:
+    transform var(--animation-duration) ease,
+    background var(--animation-duration) linear;
+}
+
+/* Bright facet lines along the cut corners */
+.origami-paper::before,
+.facts::before,
+.layout--main > article:not([class])::before,
+.layout--main > div[id] > article::before,
+.layout--main > ul[id] > li::before,
+.origami-paper::after,
+.facts::after,
+.layout--main > article:not([class])::after,
+.layout--main > div[id] > article::after,
+.layout--main > ul[id] > li::after {
+  content: '';
+  position: absolute;
+  width: var(--cut);
+  height: var(--cut);
+  pointer-events: none;
+  background: linear-gradient(45deg, transparent calc(50% - 1.5px), var(--ruby) calc(50% - 1.5px) calc(50% + 1.5px), transparent calc(50% + 1.5px));
+}
+
+.origami-paper::before,
+.facts::before,
+.layout--main > article:not([class])::before,
+.layout--main > div[id] > article::before,
+.layout--main > ul[id] > li::before {
+  top: -1px;
+  right: -1px;
+}
+
+.origami-paper::after,
+.facts::after,
+.layout--main > article:not([class])::after,
+.layout--main > div[id] > article::after,
+.layout--main > ul[id] > li::after {
+  bottom: -1px;
+  left: -1px;
+  opacity: 0.55;
+}
+
+/* Lift and light up the whole edge on hover */
+.origami-paper:hover,
+.layout--main > ul[id] > li:hover,
+.layout--main > div[id] > article:hover {
+  transform: translateY(-3px);
+  background:
+    var(--mesh-subtle) right top / 900px auto no-repeat padding-box,
+    linear-gradient(170deg, var(--background-card-top), var(--background-card) 60%) padding-box,
+    var(--gradient-crimson) border-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .origami-paper:hover,
+  .layout--main > ul[id] > li:hover,
+  .layout--main > div[id] > article:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .origami-paper,
+  .facts,
+  .layout--main > article,
+  .layout--main > div[id] > article,
+  .layout--main > ul[id] > li {
+    padding: 18px 16px;
+  }
+}
+
+/* Index lists of records become a stack of panels */
+.layout--main > ul[id],
+.layout--main > div[id] {
+  list-style: none;
+  margin: 32px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+
+.layout--main > ul[id] > li > article {
+  margin-bottom: 8px;
+}
+
+/* "Show this …" link at the bottom of a card */
+.layout--main > ul[id] > li > p:last-child {
+  margin: 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.layout--main > ul[id] > li > p:last-child > a {
+  font-weight: 700;
+}
+
+.layout--main > ul[id] > li > p:last-child > a::after {
+  content: ' →';
+}
+
+/* Label / value rows: <p><strong>Label:</strong> value</p> */
+.layout--main article:not([class]) > p:has(> strong:first-child) {
+  margin: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.layout--main article:not([class]) > p:has(> strong:first-child) > strong:first-child {
+  color: var(--text-muted);
+  font-size: 0.75em;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.layout--main article:not([class]) > p:empty {
+  display: none;
+}
+
+.layout--main article:not([class]) > ul {
+  margin: 6px 0 10px;
+}
+
+@media (min-width: 640px) {
+  .layout--main article:not([class]) > p:has(> strong:first-child) {
+    padding-left: 12rem;
+    text-indent: -12rem;
+  }
+
+  .layout--main article:not([class]) > p:has(> strong:first-child) > strong:first-child {
+    display: inline-block;
+    width: 12rem;
+    text-indent: 0;
+  }
+
+  .layout--main article:not([class]) > p:has(> strong:first-child) > strong:first-child + br {
+    display: none;
+  }
+
+  .layout--main article:not([class]) > ul {
+    margin-left: 12rem;
+  }
+}
+
+/* Page titles get a faceted crimson bar */
+.layout--main h1 {
+  position: relative;
+  padding-bottom: 18px;
+  margin-bottom: 22px;
+}
+
+.layout--main h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 96px;
+  height: 7px;
+  background:
+    linear-gradient(60deg, transparent 0 34%, rgb(0 0 0 / 0.25) 34% 67%, transparent 67%),
+    var(--gradient-crimson);
+  clip-path: polygon(7px 0, 100% 0, calc(100% - 7px) 100%, 0 100%);
+}
+
+.layout--main article h2,
+.layout--main li h2 {
+  margin-top: 0;
+}
+
+/* Edit links (only shown when Avo is available) */
+.layout--main a[up-follow='false'] {
+  font-size: 0.6em;
+  vertical-align: middle;
+  opacity: 0.6;
+}
+
+.layout--main a[up-follow='false']:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Angled parallelogram buttons with a crimson gradient */
+.button {
+  display: inline-block;
+  padding: 11px 28px;
+  margin: 0 6px 10px 0;
+  background: var(--gradient-crimson);
+  color: var(--button-text);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  text-decoration: none;
+  clip-path: polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%);
+  transition:
+    transform var(--animation-duration) ease,
+    filter var(--animation-duration) linear;
+}
+
+.button:hover {
+  color: var(--button-text);
+  text-decoration: none;
+  transform: translateY(-2px);
+  filter: brightness(1.15) saturate(1.1);
+}
+
+.button-secondary {
+  background: var(--button-secondary);
+  color: var(--button-secondary-text);
+}
+
+.button-secondary:hover {
+  background: var(--button-secondary-hover);
+  color: var(--button-secondary-text);
+  filter: none;
+}
+
+.tag {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  padding: 2px 12px;
+  background: var(--gradient-crimson);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  clip-path: polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+}
+
+.tag-muted {
+  background: var(--background);
+  color: var(--text-muted);
+}
+
+.muted {
+  color: var(--text-muted);
+}
+
+/* Section headings: a ruby hexagon, the title and a fading crimson rule */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 56px;
+  font-size: 1.55rem;
+}
+
+.section-title::before {
+  content: '';
+  flex: none;
+  width: 18px;
+  height: 20px;
+  background:
+    linear-gradient(120deg, transparent 0 50%, rgb(0 0 0 / 0.3) 50%),
+    var(--gradient-crimson);
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--crimson), transparent);
+}
+
+.lead {
+  font-size: 1.18rem;
+  color: var(--text-main);
+}
+
+.page-actions {
+  margin-top: 40px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+/* A panel of key facts, e.g. date, time and venue */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 0 0 28px;
+
+  dt {
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  dd {
+    margin: 2px 0 0;
+    color: var(--text-bright);
+    font-weight: 600;
+  }
+}
+
+.layout--main li::marker {
+  color: var(--crimson);
+}

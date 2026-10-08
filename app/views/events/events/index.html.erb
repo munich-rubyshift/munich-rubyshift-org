@@ -1,8 +1,10 @@
 <% content_for :title, "Events" %>
 
+<% upcoming_events, past_events = @events_events.includes(:venue, talks: :speakers).partition { |event| event_upcoming?(event) } %>
+
 <h1>Events<% if defined?(Avo) %> <%= link_to "✏️", avo.resources_events_events_path, "up-follow": false %><% end %></h1>
 
-<p>
+<p class="lead">
   Our current meetup frequency is once every three months. Events usually take place
   on Thursday evening.
 </p>
@@ -12,13 +14,29 @@
   We intend to additionally provide an RSS feed on this website soon.
 </p>
 
-<ul id="events_events">
-  <% @events_events.each do |events_event| %>
-    <li>
-      <%= render events_event %>
-      <p>
-        <%= link_to "Show this event", events_event %>
-      </p>
-    </li>
+<div class="events-index">
+  <h2 class="section-title">Upcoming</h2>
+
+  <% if upcoming_events.any? %>
+    <div class="events-list events-list-upcoming">
+      <% upcoming_events.reverse.each do |event| %>
+        <%= render Events::EventCardComponent.new(event, featured: true) %>
+      <% end %>
+    </div>
+  <% else %>
+    <p class="muted">The next meetup hasn't been announced yet. Join us on Discord to hear about it first.</p>
   <% end %>
-</ul>
+
+  <h2 class="section-title">Past events</h2>
+
+  <% past_events.group_by { |event| event.start_date&.year }.each do |year, events| %>
+    <section class="events-list-year">
+      <h3 class="events-list-year--title"><%= year || "Undated" %></h3>
+      <div class="events-list">
+        <% events.each do |event| %>
+          <%= render Events::EventCardComponent.new(event) %>
+        <% end %>
+      </div>
+    </section>
+  <% end %>
+</div>

@@ -1,49 +1,97 @@
+/*
+ * Low-poly palette, taken from the faceted red lion logo.
+ * Dark first: charcoal surfaces with crimson-to-ruby facets.
+ * The light scheme below keeps the same crimson facets on light grey.
+ */
 :root {
-  --background-body: #fff;
-  --background: #efefef;
-  --background-alt: #f7f7f7;
-  --selection: #9e9e9e;
-  --text-main: #363636;
-  --text-bright: #000;
-  --text-muted: #70777f;
-  --links: #d10000;
-  --focus: #bf0000ab;
-  --border: #dbdbdb;
-  --code: #000;
-  --animation-duration: 0.1s;
-  --button-base: #d0cfcf;
-  --button-hover: #9b9b9b;
-  --scrollbar-thumb: rgb(170, 170, 170);
-  --scrollbar-thumb-hover: var(--button-hover);
-  --form-placeholder: #949494;
-  --form-text: #1d1d1d;
-  --variable: #39a33c;
-  --highlight: #ff0;
+  color-scheme: dark;
+
+  --ruby: #ff3d5a;
+  --crimson-light: #ff5c73;
+  --crimson: #d0142c;
+  --crimson-deep: #8e0c1f;
+  --crimson-dark: #4a0611;
+  --crimson-tint: #2a1418;
+  --ink: #0b090a;
+
+  /* Gradients and facet textures */
+  --gradient-crimson: linear-gradient(125deg, #ff4b66 0%, #d0142c 46%, #7d0a1b 100%);
+  --gradient-edge: linear-gradient(135deg, #ff4b66, rgb(208 20 44 / 0.35) 38%, rgb(208 20 44 / 0.08) 60%, #8e0c1f);
+  --gradient-night: linear-gradient(160deg, #1b0b10 0%, #2c0911 45%, #5c0816 100%);
+  --mesh: url("lowpoly-mesh.svg");
+  --mesh-subtle: url("lowpoly-mesh-subtle.svg");
+  --glow: 0 0 0 1px rgb(255 61 90 / 0.25), 0 18px 40px -18px rgb(255 61 90 / 0.55);
+
+  --font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+  --font-display: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --content-width: 960px;
+  --gutter: 20px;
+  --radius: 0;
+  --cut: 18px;
+
+  --background-body: #0e0b0d;
+  --background: #1d171a;
+  --background-alt: #151114;
+  --background-card: #171215;
+  --background-card-top: #1f171b;
+  --selection: #8e0c1f;
+  --text-main: #d8d0d3;
+  --text-bright: #ffffff;
+  --text-muted: #998c91;
+  --links: #ff5c73;
+  --links-hover: #ff96a5;
+  --focus: #ff3d5a99;
+  --border: #2d2428;
+  --code: #ffb0bb;
+  --animation-duration: 0.18s;
+  --button-base: #d0142c;
+  --button-hover: #ff3d5a;
+  --button-text: #fff;
+  --button-secondary: #2a1c21;
+  --button-secondary-hover: #3a242b;
+  --button-secondary-text: #ff8597;
+  --badge-muted: linear-gradient(160deg, #3a2e33 0%, #231b1f 100%);
+  --scrollbar-thumb: #3a2e33;
+  --scrollbar-thumb-hover: var(--crimson);
+  --form-placeholder: #8a7d82;
+  --form-text: #fff;
+  --variable: #8bd18e;
+  --highlight: #c9a227;
   --select-arrow: url("select-arrow.svg");
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background-body: #202b38;
-    --background: #161f27;
-    --background-alt: #1a242f;
-    --selection: #1c76c5;
-    --text-main: #dbdbdb;
-    --text-bright: #fff;
-    --text-muted: #a9b1ba;
-    --links: #ff4141;
-    --focus: #bf0000ab;
-    --border: #526980;
-    --code: #ffbe85;
-    --animation-duration: 0.1s;
-    --button-base: #0c151c;
-    --button-hover: #040a0f;
-    --scrollbar-thumb: var(--button-hover);
-    --scrollbar-thumb-hover: rgb(0, 0, 0);
-    --form-placeholder: #a9a9a9;
-    --form-text: #fff;
-    --variable: #d941e2;
-    --highlight: #efdb43;
-    --select-arrow: url("select-arrow.svg");
+    color-scheme: light;
+
+    --crimson-tint: #fbe3e7;
+    --gradient-edge: linear-gradient(135deg, #ff4b66, rgb(208 20 44 / 0.22) 38%, rgb(208 20 44 / 0.06) 60%, #b3122a);
+    --glow: 0 0 0 1px rgb(208 20 44 / 0.18), 0 18px 36px -18px rgb(140 10 30 / 0.45);
+
+    --mesh-subtle: url("lowpoly-mesh-faint.svg");
+
+    --background-body: #ebe9ea;
+    --background: #dfdbdd;
+    --background-alt: #f5f4f4;
+    --background-card: #ffffff;
+    --background-card-top: #fbf7f8;
+    --selection: #ffc2cb;
+    --text-main: #2e272a;
+    --text-bright: #120d10;
+    --text-muted: #6c6267;
+    --links: #c2122a;
+    --links-hover: #7d0a1b;
+    --focus: #d0142c99;
+    --border: #d5cfd2;
+    --code: #8e0c1f;
+    --button-secondary: #f7dce1;
+    --button-secondary-hover: #f1c6ce;
+    --button-secondary-text: #b3122a;
+    --badge-muted: linear-gradient(160deg, #4a3d42 0%, #261d21 100%);
+    --scrollbar-thumb: #c4bcc0;
+    --form-placeholder: #8f858a;
+    --form-text: #120d10;
+    --variable: #2f7d32;
+    --highlight: #ffe58a;
   }
 }
