@@ -1,34 +1,37 @@
 .footer {
-  background: var(--crimson-dark);
-  color: rgb(255 255 255 / 0.8);
-  /* Folded top edge, mirroring the header */
-  clip-path: polygon(0 18px, 38% 0, 100% 24px, 100% 100%, 0 100%);
-  padding: 48px 0 28px;
-  font-size: 0.9rem;
+  padding: 0 0 36px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
 
+  /* The hairline stays within the content column */
   .footer--inner {
-    max-width: var(--content-width);
+    width: min(100% - 2 * var(--gutter), var(--content-width) - 2 * var(--gutter));
     margin: 0 auto;
-    padding: 0 var(--gutter);
+    padding: 24px 0 0;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 16px 24px;
+    gap: 14px 24px;
+    border-top: 1px solid var(--hairline);
   }
 
   .footer--brand {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
+    letter-spacing: 0.03em;
   }
 
   .footer--logo {
-    width: 32px;
-    height: 32px;
+    width: 22px;
+    height: 22px;
+    padding: 2px;
+    box-sizing: border-box;
+    background: var(--seal);
+    border-radius: 2px;
     object-fit: cover;
     object-position: center 30%;
-    clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
   }
 
   nav {
@@ -38,10 +41,10 @@
   }
 
   a {
-    color: #fff;
+    color: var(--text-muted);
   }
 
   a:hover {
-    color: #fff;
+    color: var(--links);
   }
 }

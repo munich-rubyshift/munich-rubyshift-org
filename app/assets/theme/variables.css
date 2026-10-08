@@ -1,75 +1,96 @@
 :root {
-  /* Origami palette, taken from the folded-paper lion logo */
+  /* Washi palette: off-white paper, sumi ink and the crimson of the lion logo as a hanko seal */
   --crimson: #b3121f;
-  --crimson-deep: #7f0a14;
+  --crimson-deep: #8c0d18;
   --crimson-dark: #5c0710;
   --crimson-light: #d8323d;
-  --crimson-tint: #fbe9ea;
-  --paper: #fffdf9;
-  --paper-fold: #e3d6c6;
+  --crimson-tint: #f6e4e1;
+  --paper: #fbf8f1;
+  --paper-fold: #f7f3ea;
+  --crease: rgb(120 96 64 / 0.13);
+  --ink: #26221f;
+  --seal: var(--crimson);
+  --seal-text: #fbf8f1;
+  --hairline: #ddd4c4;
+  --hairline-strong: #b9ad99;
+  /* Faint fibres and a few long creases, drawn on the page background */
+  --washi-texture:
+    linear-gradient(117deg, transparent 0 31%, rgb(120 96 64 / 0.05) 31% calc(31% + 1px), transparent calc(31% + 1px) 100%),
+    linear-gradient(63deg, transparent 0 72%, rgb(120 96 64 / 0.045) 72% calc(72% + 1px), rgb(255 255 255 / 0.25) calc(72% + 1px) calc(72% + 3px), transparent calc(72% + 3px) 100%),
+    repeating-linear-gradient(103deg, transparent 0 7px, rgb(120 96 64 / 0.018) 7px 8px, transparent 8px 19px),
+    repeating-linear-gradient(-14deg, transparent 0 13px, rgb(120 96 64 / 0.014) 13px 14px, transparent 14px 31px);
 
   --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
-  --font-display: 'Avenir Next', 'Montserrat', 'Segoe UI', 'Ubuntu', system-ui, sans-serif;
-  --content-width: 920px;
+  --font-display: 'Iowan Old Style', 'Palatino Linotype', 'Palatino', 'Book Antiqua', 'URW Palladio L', 'P052', Georgia, 'Noto Serif', serif;
+  --content-width: 880px;
   --gutter: 20px;
-  --radius: 3px;
-  --fold-size: 28px;
-  --shadow-paper: 0 1px 2px rgb(60 20 20 / 0.08), 0 8px 24px -12px rgb(60 20 20 / 0.25);
+  --radius: 2px;
 
-  --background-body: #f6f1ea;
-  --background: #efe8de;
+  --background-body: #f5f1e8;
+  --background: #ece6d9;
   --background-alt: var(--paper);
   --background-card: var(--paper);
-  --selection: #f3b7bb;
-  --text-main: #3a3232;
-  --text-bright: #1d1515;
-  --text-muted: #7a6d68;
+  --selection: #f0c9c4;
+  --text-main: #3b3632;
+  --text-bright: var(--ink);
+  --text-muted: #857b70;
   --links: var(--crimson);
   --links-hover: var(--crimson-deep);
-  --focus: #b3121f99;
-  --border: #e2d8cb;
+  --focus: #b3121f80;
+  --border: var(--hairline);
   --code: var(--crimson-deep);
   --animation-duration: 0.15s;
   --button-base: var(--crimson);
   --button-hover: var(--crimson-deep);
-  --button-text: #fff;
-  --scrollbar-thumb: #cdbfb0;
+  --button-text: #fbf8f1;
+  --scrollbar-thumb: #cfc5b4;
   --scrollbar-thumb-hover: var(--crimson-light);
-  --form-placeholder: #9a8f88;
-  --form-text: #1d1515;
+  --form-placeholder: #9a9086;
+  --form-text: var(--ink);
   --variable: #2f7d32;
-  --highlight: #ffe58a;
+  --highlight: #f6e3a1;
   --select-arrow: url("select-arrow.svg");
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --crimson-tint: #3a1418;
-    --paper: #241b1b;
-    --paper-fold: #3a2c2b;
-    --shadow-paper: 0 1px 2px rgb(0 0 0 / 0.4), 0 10px 28px -14px rgb(0 0 0 / 0.8);
+    /* Sumi: warm ink black with paper-coloured text */
+    --crimson-tint: #3a1a19;
+    --paper: #201c19;
+    --paper-fold: #1d1916;
+    --crease: rgb(0 0 0 / 0.28);
+    --ink: #f1eadc;
+    --seal: #c4202c;
+    --seal-text: #f6efe2;
+    --hairline: #3a332d;
+    --hairline-strong: #5e554b;
+    --washi-texture:
+      linear-gradient(117deg, transparent 0 31%, rgb(255 240 220 / 0.035) 31% calc(31% + 1px), transparent calc(31% + 1px) 100%),
+      linear-gradient(63deg, transparent 0 72%, rgb(0 0 0 / 0.25) 72% calc(72% + 1px), rgb(255 240 220 / 0.02) calc(72% + 1px) calc(72% + 3px), transparent calc(72% + 3px) 100%),
+      repeating-linear-gradient(103deg, transparent 0 7px, rgb(255 240 220 / 0.012) 7px 8px, transparent 8px 19px),
+      repeating-linear-gradient(-14deg, transparent 0 13px, rgb(255 240 220 / 0.01) 13px 14px, transparent 14px 31px);
 
-    --background-body: #151010;
-    --background: #2b2120;
-    --background-alt: #1d1616;
+    --background-body: #161311;
+    --background: #26211d;
+    --background-alt: #1d1916;
     --background-card: var(--paper);
-    --selection: #7f0a14;
-    --text-main: #ddd3cf;
-    --text-bright: #fff7f4;
-    --text-muted: #a99a95;
-    --links: #ff6b72;
-    --links-hover: #ff9ba0;
-    --focus: #ff6b7299;
-    --border: #3d302e;
-    --code: #ffb3a8;
-    --button-base: var(--crimson);
-    --button-hover: var(--crimson-light);
-    --button-text: #fff;
-    --scrollbar-thumb: #3d302e;
-    --scrollbar-thumb-hover: var(--crimson);
-    --form-placeholder: #8f817c;
-    --form-text: #fff7f4;
+    --selection: #6b1a1d;
+    --text-main: #d9d0c2;
+    --text-bright: var(--ink);
+    --text-muted: #9c9083;
+    --links: #ec5f63;
+    --links-hover: #f59a99;
+    --focus: #ec5f6399;
+    --border: var(--hairline);
+    --code: #f0b2a6;
+    --button-base: var(--seal);
+    --button-hover: #d8323d;
+    --button-text: #f6efe2;
+    --scrollbar-thumb: #3a332d;
+    --scrollbar-thumb-hover: var(--seal);
+    --form-placeholder: #8a7f74;
+    --form-text: var(--ink);
     --variable: #8bd18e;
-    --highlight: #c9a227;
+    --highlight: #8a6d1c;
   }
 }

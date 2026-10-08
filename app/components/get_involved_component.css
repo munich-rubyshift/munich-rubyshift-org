@@ -2,25 +2,28 @@
   .get-involved--grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 24px;
+    gap: 20px;
   }
 
   .get-involved--tile {
     display: flex;
     flex-flow: column nowrap;
-    border-bottom: 4px solid var(--crimson);
 
     h3 {
-      margin: 0 0 6px;
+      margin: 0 0 8px;
+      font-size: 1.2rem;
+      font-weight: 500;
     }
 
     p {
-      margin: 0 0 14px;
+      margin: 0 0 16px;
     }
 
     a {
       margin-top: auto;
-      font-weight: 700;
+      font-size: 0.92rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
     }
   }
 }

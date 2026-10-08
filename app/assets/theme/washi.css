@@ -1,0 +1,275 @@
+/*
+ * Washi look: calm Japanese paper, hairline rules, lots of whitespace and the
+ * crimson of the lion logo used sparingly, like a hanko seal.
+ *
+ * The shared class names `.origami-paper` and `.origami-facets` are kept from
+ * proposal A so markup and tests stay the same.
+ */
+
+/* A quiet panel: a sheet of paper with a red seal in its corner */
+.origami-facets {
+  position: relative;
+  background-color: var(--background-card);
+  background-image:
+    linear-gradient(102deg, transparent 0 70%, var(--crease) 80% calc(80% + 1px), var(--paper-fold) calc(80% + 1px) 100%);
+  border: 1px solid var(--hairline);
+  outline: 1px solid var(--hairline);
+  outline-offset: 5px;
+}
+
+/* A flat sheet of paper with a hairline edge and a single soft crease */
+.origami-paper,
+.layout--main > article:not([class]),
+.layout--main > div[id] > article,
+.layout--main > ul[id] > li {
+  position: relative;
+  background-color: var(--background-card);
+  background-image:
+    linear-gradient(102deg, transparent 0 78%, var(--crease) 84% calc(84% + 1px), var(--paper-fold) calc(84% + 1px) 100%);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 26px 30px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+  .origami-paper,
+  .layout--main > article,
+  .layout--main > div[id] > article,
+  .layout--main > ul[id] > li {
+    padding: 20px 18px;
+  }
+}
+
+/* Index lists of records become a quiet stack of sheets */
+.layout--main > ul[id],
+.layout--main > div[id] {
+  list-style: none;
+  margin: 36px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+
+.layout--main > ul[id] > li > article {
+  margin-bottom: 8px;
+}
+
+/* "Show this …" link at the bottom of a card */
+.layout--main > ul[id] > li > p:last-child {
+  margin: 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--hairline);
+}
+
+.layout--main > ul[id] > li > p:last-child > a::after {
+  content: ' →';
+}
+
+/* Label / value rows: <p><strong>Label:</strong> value</p> */
+.layout--main article:not([class]) > p:has(> strong:first-child) {
+  margin: 0;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.layout--main article:not([class]) > p:has(> strong:first-child) > strong:first-child {
+  color: var(--text-muted);
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.layout--main article:not([class]) > p:empty {
+  display: none;
+}
+
+.layout--main article:not([class]) > ul {
+  margin: 6px 0 10px;
+}
+
+@media (min-width: 640px) {
+  .layout--main article:not([class]) > p:has(> strong:first-child) {
+    padding-left: 12rem;
+    text-indent: -12rem;
+  }
+
+  .layout--main article:not([class]) > p:has(> strong:first-child) > strong:first-child {
+    display: inline-block;
+    width: 12rem;
+    text-indent: 0;
+  }
+
+  .layout--main article:not([class]) > p:has(> strong:first-child) > strong:first-child + br {
+    display: none;
+  }
+
+  .layout--main article:not([class]) > ul {
+    margin-left: 12rem;
+  }
+}
+
+/* Page titles: a red seal dot followed by a short hairline */
+.layout--main h1 {
+  position: relative;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+}
+
+.layout--main h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+  height: 8px;
+  background:
+    radial-gradient(circle at 4px 50%, var(--seal) 0 3.5px, transparent 4px) no-repeat,
+    linear-gradient(var(--hairline-strong), var(--hairline-strong)) 16px 50% / 56px 1px no-repeat;
+}
+
+.layout--main article h2:not(.section-title),
+.layout--main li h2 {
+  margin-top: 0;
+}
+
+/* Edit links (only shown when Avo is available) */
+.layout--main a[up-follow='false'] {
+  font-size: 0.6em;
+  vertical-align: middle;
+  opacity: 0.6;
+}
+
+.layout--main a[up-follow='false']:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Buttons: a flat red seal, or a hairline outline */
+.button {
+  display: inline-block;
+  padding: 9px 22px;
+  margin: 0 8px 8px 0;
+  background: var(--button-base);
+  border: 1px solid var(--button-base);
+  border-radius: var(--radius);
+  color: var(--button-text);
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition:
+    background-color var(--animation-duration) linear,
+    border-color var(--animation-duration) linear,
+    color var(--animation-duration) linear;
+}
+
+.button:hover {
+  background: var(--button-hover);
+  border-color: var(--button-hover);
+  color: var(--button-text);
+  text-decoration: none;
+}
+
+.button-secondary {
+  background: transparent;
+  border-color: var(--hairline-strong);
+  color: var(--text-bright);
+}
+
+.button-secondary:hover {
+  background: transparent;
+  border-color: var(--links);
+  color: var(--links);
+}
+
+.tag {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  padding: 1px 8px;
+  border: 1px solid currentcolor;
+  border-radius: var(--radius);
+  color: var(--links);
+  font-family: var(--font-body);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.tag-muted {
+  color: var(--text-muted);
+}
+
+.muted {
+  color: var(--text-muted);
+}
+
+/* Section headings: a red dot, the title, then a hairline to the edge */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 56px;
+  margin-bottom: 20px;
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.section-title::before {
+  content: '';
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--seal);
+}
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--hairline);
+}
+
+.lead {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--text-main);
+}
+
+.page-actions {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--hairline);
+}
+
+/* Key facts, e.g. date, time and venue, between two hairlines */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 18px 24px;
+  margin: 0 0 32px;
+  padding: 20px 0;
+  border-top: 1px solid var(--hairline-strong);
+  border-bottom: 1px solid var(--hairline);
+
+  dt {
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  dd {
+    margin: 4px 0 0;
+    color: var(--text-bright);
+    font-family: var(--font-display);
+    font-size: 1.08rem;
+  }
+}

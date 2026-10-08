@@ -2,14 +2,10 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
-  gap: 18px;
-  padding: 16px 0;
-  border-bottom: 1px solid var(--border);
+  gap: 22px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--hairline);
   min-width: 0;
-
-  .events---date-badge {
-    background: var(--background);
-  }
 
   .events---event-card--body {
     min-width: 0;
@@ -17,8 +13,9 @@
   }
 
   .events---event-card--title {
-    margin: 2px 0 4px;
-    font-size: 1.15rem;
+    margin: 2px 0 6px;
+    font-size: 1.2rem;
+    font-weight: 500;
     overflow-wrap: anywhere;
 
     a {
@@ -33,20 +30,24 @@
   .events---event-card--meta {
     display: flex;
     flex-flow: row wrap;
-    gap: 2px 16px;
+    gap: 2px 18px;
     margin: 0;
     color: var(--text-muted);
-    font-size: 0.92rem;
+    font-size: 0.9rem;
   }
 
   .events---event-card--talks {
-    margin: 8px 0 0;
+    margin: 10px 0 0;
     padding-left: 1.1rem;
     font-size: 0.95rem;
+
+    li::marker {
+      color: var(--hairline-strong);
+    }
   }
 
   .events---event-card--actions {
-    margin: 18px 0 0;
+    margin: 22px 0 0;
   }
 }
 
@@ -55,26 +56,42 @@
   color: var(--text-muted);
 }
 
-/* The next meetup gets a big paper sheet */
+/* The next meetup gets a whole sheet of paper */
 .events---event-card-featured {
-  padding: 26px 28px;
-  border: 0;
-  border-left: 4px solid var(--crimson);
+  gap: 28px;
+  padding: 30px 32px;
 
   .events---date-badge {
     width: 5.5rem;
+    padding-right: 18px;
   }
 
   .events---date-badge--main {
-    font-size: 2.3rem;
+    font-size: 2.6rem;
   }
 
   .events---event-card--title {
-    font-size: 1.6rem;
+    font-size: 1.65rem;
   }
 
   @media (max-width: 520px) {
-    padding: 18px 16px;
+    padding: 22px 18px;
     flex-direction: column;
+    gap: 14px;
+
+    .events---date-badge {
+      flex-flow: row nowrap;
+      align-items: baseline;
+      gap: 8px;
+      width: auto;
+      padding: 0 0 10px;
+      border-right: 0;
+      border-bottom: 1px solid var(--hairline);
+    }
+
+    .events---date-badge--main {
+      order: -1;
+      font-size: 2rem;
+    }
   }
 }

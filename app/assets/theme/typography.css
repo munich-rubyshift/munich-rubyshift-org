@@ -1,14 +1,21 @@
 h1 {
-  font-size: 2.4em;
+  font-size: 2.5em;
+  font-weight: 500;
   margin-top: 0;
   line-height: 1.15;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.005em;
 }
 
 h1,
 h2,
 h3 {
   font-family: var(--font-display);
+}
+
+h2,
+h3 {
+  font-weight: 600;
+  letter-spacing: 0.005em;
 }
 
 h1,
@@ -31,9 +38,6 @@ strong {
   color: var(--text-bright);
 }
 
-h1,
-h2,
-h3,
 h4,
 h5,
 h6,
@@ -53,10 +57,10 @@ q::after {
 
 blockquote,
 q {
-  border-left: 4px solid var(--crimson);
-  background: var(--crimson-tint);
+  border-left: 2px solid var(--crimson);
   margin: 1.5em 0;
-  padding: 0.5em 1em;
+  padding: 0.25em 1.25em;
+  font-family: var(--font-display);
   font-style: italic;
 }
 

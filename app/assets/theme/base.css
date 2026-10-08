@@ -10,7 +10,9 @@ body {
   padding: 0;
   word-wrap: break-word;
   color: var(--text-main);
-  background: var(--background-body);
+  background-color: var(--background-body);
+  background-image: var(--washi-texture);
+  background-attachment: fixed;
   text-rendering: optimizeLegibility;
 }
 

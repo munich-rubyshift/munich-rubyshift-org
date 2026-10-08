@@ -10,6 +10,7 @@ starting point and make adjustments.
 - Source files downloaded from: https://github.com/kognise/water.css/tree/master/src
 - License: [MIT](https://github.com/kognise/water.css/blob/master/LICENSE.md)
 
-On top of it, `variables.css` defines the crimson "origami" palette taken from
-the logo and `origami.css` adds the folded-paper patterns (faceted backgrounds,
-dog-eared cards, label/value rows) used across the site.
+On top of it, `variables.css` defines the "washi" palette (off-white paper,
+sumi ink and the crimson of the logo as a hanko seal, with a warm ink-black dark
+mode) and `washi.css` adds the shared patterns (hairline paper cards, section
+titles, buttons, label/value rows) used across the site.

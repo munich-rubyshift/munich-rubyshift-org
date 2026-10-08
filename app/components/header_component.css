@@ -1,37 +1,38 @@
 .header {
-  color: #fff;
-  /* Folded bottom edge */
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 28px), 62% 100%, 0 calc(100% - 14px));
-  padding: 28px 0 56px;
+  padding: 26px 0 0;
 
+  /* The hairline stays within the content column */
   .header--inner {
-    max-width: var(--content-width);
+    width: min(100% - 2 * var(--gutter), var(--content-width) - 2 * var(--gutter));
     margin: 0 auto;
-    padding: 0 var(--gutter);
+    padding: 0 0 22px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 24px;
+    gap: 18px 24px;
+    border-bottom: 1px solid var(--hairline);
   }
 
   .header--brand {
     display: flex;
     align-items: center;
-    gap: 18px;
-    color: #fff;
+    gap: 14px;
+    color: var(--text-bright);
     text-decoration: none;
   }
 
+  /* The lion as a small square hanko seal */
   .header--logo {
     flex: none;
     display: block;
-    width: 84px;
-    height: 84px;
-    padding: 4px;
-    background: #fff;
-    /* Diamond-ish, cut-corner frame */
-    clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
+    width: 46px;
+    height: 46px;
+    padding: 3px;
+    box-sizing: border-box;
+    background: var(--seal);
+    border-radius: 3px;
+    transform: rotate(-3deg);
     transition: transform var(--animation-duration) ease;
 
     img {
@@ -40,74 +41,92 @@
       height: 100%;
       object-fit: cover;
       object-position: center 30%;
-      clip-path: polygon(11px 0, 100% 0, 100% calc(100% - 11px), calc(100% - 11px) 100%, 0 100%, 0 11px);
+      border-radius: 1px;
     }
   }
 
   .header--brand:hover .header--logo {
-    transform: rotate(-4deg) scale(1.04);
+    transform: rotate(0deg);
   }
 
   .header--text {
     display: flex;
     flex-flow: column nowrap;
+    gap: 2px;
   }
 
   .header--title {
     font-family: var(--font-display);
-    font-size: 2rem;
-    font-weight: 800;
-    letter-spacing: -0.01em;
+    font-size: 1.45rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
     line-height: 1.1;
-    text-shadow: 0 2px 0 rgb(0 0 0 / 0.15);
   }
 
   .header--tagline {
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.14em;
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
     text-transform: uppercase;
-    opacity: 0.85;
   }
 
   .header--nav {
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-end;
-    gap: 8px;
+    gap: 6px;
   }
 
   .header--links {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    gap: 4px;
+    gap: 4px 26px;
 
     a {
-      color: #fff;
-      font-weight: 600;
-      padding: 6px 14px;
+      position: relative;
+      color: var(--text-bright);
+      font-size: 0.95rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      padding: 4px 0 6px;
       text-decoration: none;
-      /* Paper tab with a folded corner */
-      clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
-      transition: background-color var(--animation-duration) linear, color var(--animation-duration) linear;
+      transition: color var(--animation-duration) linear;
     }
 
     a:hover {
-      background: rgb(255 255 255 / 0.16);
+      color: var(--links);
     }
 
+    /* A small red seal dot under the current section */
     a.header--link-current {
-      background: #fff;
-      color: var(--crimson);
+      color: var(--links);
+    }
+
+    a.header--link-current::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -3px;
+      width: 5px;
+      height: 5px;
+      margin-left: -2.5px;
+      border-radius: 50%;
+      background: var(--seal);
     }
   }
 
-  .header--links-external a {
-    font-size: 0.85rem;
-    font-weight: 500;
-    padding: 3px 10px;
-    opacity: 0.9;
+  .header--links-external {
+    gap: 2px 18px;
+
+    a {
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      padding: 0;
+    }
   }
 
   .header--links-external a::after {
@@ -123,25 +142,28 @@
 
     .header--links {
       justify-content: flex-start;
+      gap: 4px 22px;
     }
 
-    .header--links a:first-child {
-      margin-left: -14px;
-    }
-
-    .header--links-external a:first-child {
-      margin-left: -10px;
+    .header--links-external {
+      gap: 2px 16px;
     }
   }
 
   @media (max-width: 420px) {
+    padding-top: 20px;
+
     .header--logo {
-      width: 64px;
-      height: 64px;
+      width: 40px;
+      height: 40px;
     }
 
     .header--title {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
+    }
+
+    .header--links {
+      gap: 4px 18px;
     }
   }
 }

@@ -10,8 +10,7 @@
 }
 
 .organization-card {
-  padding: 24px;
-  border-top: 4px solid var(--crimson);
+  padding: 26px 28px;
   min-width: 0;
   overflow-wrap: anywhere;
 
@@ -34,6 +33,7 @@
     padding: 6px;
     box-sizing: border-box;
     background: #fff;
+    border: 1px solid var(--hairline);
 
     img {
       max-height: 100%;
@@ -42,6 +42,7 @@
 
   .organization-card--name {
     margin: 0;
+    font-weight: 500;
 
     a {
       color: var(--text-bright);
@@ -51,9 +52,9 @@
   .organization-card--label {
     margin: 18px 0 4px;
     color: var(--text-muted);
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
   }
 
@@ -63,35 +64,42 @@
   }
 }
 
-/* Big folded call to action */
+/* A quiet call to action, with the lion seal pressed into the corner */
 .call-out {
-  margin-top: 48px;
-  padding: 28px 32px;
-  color: #fff;
-  clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 0 100%);
+  margin: 56px 6px 6px;
+  padding: 32px 36px;
+  padding-right: max(36px, 22%);
 
   h2 {
     margin-top: 0;
-    color: #fff;
+    font-weight: 500;
   }
 
-  .button {
-    background: #fff;
-    color: var(--crimson);
+  p:last-child {
+    margin-bottom: 0;
   }
 
-  .button:hover {
-    background: var(--crimson-tint);
-    color: var(--crimson-deep);
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    width: 64px;
+    height: 64px;
+    margin-top: -32px;
+    box-sizing: border-box;
+    border: 4px solid var(--seal);
+    border-radius: 4px;
+    background: var(--seal) url("../images/munich_rubyshift.webp") center 30% / cover no-repeat;
+    transform: rotate(-6deg);
+    opacity: 0.92;
   }
 
-  .button-secondary {
-    background: rgb(255 255 255 / 0.16);
-    color: #fff;
-  }
+  @media (max-width: 640px) {
+    padding: 24px 20px;
 
-  .button-secondary:hover {
-    background: rgb(255 255 255 / 0.28);
-    color: #fff;
+    &::after {
+      display: none;
+    }
   }
 }
