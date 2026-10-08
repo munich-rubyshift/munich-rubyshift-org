@@ -6,27 +6,43 @@
   .entities---person--header {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 16px;
   }
 
-  /* Initials on a folded crimson diamond */
+  /* Initials on a crimson Bauhaus circle */
   .entities---person--avatar {
     flex: none;
     display: grid;
     place-items: center;
-    width: 52px;
-    height: 52px;
-    color: #fff;
+    width: 56px;
+    height: 56px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: var(--line-width) solid var(--line);
+    background: var(--crimson);
+    color: var(--on-block);
     font-family: var(--font-display);
+    font-size: 1.15rem;
     font-weight: 800;
     letter-spacing: 0.04em;
-    background: linear-gradient(135deg, var(--crimson-light) 0 50%, var(--crimson-deep) 50% 100%);
-    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    box-shadow: 3px 3px 0 var(--line);
+  }
+
+  &:nth-child(3n + 2) .entities---person--avatar {
+    background: var(--text-bright);
+    color: var(--background-body);
+    box-shadow: 3px 3px 0 var(--crimson);
+  }
+
+  &:nth-child(3n) .entities---person--avatar {
+    background: var(--mustard);
+    color: var(--ink);
   }
 
   .entities---person--name {
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    line-height: 1;
 
     a {
       color: var(--text-bright);
@@ -34,30 +50,40 @@
 
     a:hover {
       color: var(--links);
+      text-decoration: none;
     }
   }
 
   .entities---person--talks {
-    margin: 14px 0 0;
+    margin: 16px 0 0;
     padding-left: 1.1rem;
+
+    li::marker {
+      color: var(--crimson);
+    }
   }
 
   .entities---person--links {
     display: flex;
     flex-flow: row wrap;
-    gap: 6px;
-    margin: 16px 0 0;
+    gap: 8px;
+    margin: 18px 0 0;
 
     a {
-      padding: 2px 10px;
-      background: var(--crimson-tint);
+      padding: 3px 10px 2px;
+      border: 2px solid var(--line);
+      color: var(--text-bright);
+      font-family: var(--font-display);
       font-size: 0.85rem;
-      font-weight: 600;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
       text-decoration: none;
     }
 
     a:hover {
-      background: var(--paper-fold);
+      background: var(--text-bright);
+      color: var(--background-card);
     }
   }
 }
@@ -65,5 +91,5 @@
 .people-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 24px;
+  gap: 28px;
 }

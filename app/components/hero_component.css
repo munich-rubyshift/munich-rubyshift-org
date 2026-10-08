@@ -1,27 +1,33 @@
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
   align-items: center;
-  gap: 32px;
-  margin: 8px 0 24px;
+  gap: 40px;
+  margin: 16px 0 24px;
 
+  /* A small ink label, like a sticker on a poster */
   .hero--kicker {
-    margin: 0 0 10px;
-    color: var(--links);
-    font-size: 0.85rem;
+    display: inline-block;
+    margin: 0 0 18px;
+    padding: 4px 10px 3px;
+    background: var(--text-bright);
+    color: var(--background-body);
+    font-family: var(--font-display);
+    font-size: 0.9rem;
     font-weight: 700;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
   }
 
   .hero--title {
-    margin: 0 0 18px;
+    margin: 0 0 22px;
     padding: 0;
-    font-size: clamp(2rem, 5vw, 3.1rem);
-    line-height: 1.08;
+    font-size: clamp(2.6rem, 7.2vw, 4.9rem);
+    line-height: 0.92;
+    letter-spacing: -0.005em;
 
     span {
-      color: var(--links);
+      color: var(--crimson);
     }
   }
 
@@ -31,64 +37,98 @@
   }
 
   .hero--lead {
+    max-width: 34em;
     font-size: 1.15rem;
-    margin: 0 0 22px;
+    margin: 0 0 26px;
   }
 
   .hero--actions {
     margin: 0;
   }
 
-  /* Paper sheets folded behind the lion */
+  /* Bauhaus composition behind the lion: circle, half circle, folded triangle */
   .hero--art {
     position: relative;
     aspect-ratio: 1;
     width: 100%;
-    max-width: 340px;
+    max-width: 360px;
     justify-self: center;
+  }
+
+  /* A strip of ink stripes in the corner */
+  .hero--art::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 2%;
+    width: 30%;
+    height: 14%;
+    background: repeating-linear-gradient(90deg, var(--line) 0 6px, transparent 6px 14px);
+  }
+
+  /* A small mustard dot */
+  .hero--art::after {
+    content: '';
+    position: absolute;
+    right: 6%;
+    bottom: 10%;
+    width: 13%;
+    height: 13%;
+    border-radius: 50%;
+    background: var(--mustard);
+    border: var(--line-width) solid var(--line);
   }
 
   .hero--fold {
     position: absolute;
-    inset: 12%;
   }
 
+  /* The big crimson sun */
   .hero--fold-1 {
-    background: linear-gradient(135deg, var(--crimson-light) 0 50%, var(--crimson) 50% 100%);
-    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-    transform: rotate(8deg) scale(1.22);
+    inset: 4% 4% 10% 8%;
+    border-radius: 50%;
+    background: var(--crimson);
   }
 
+  /* An ink half circle at the bottom */
   .hero--fold-2 {
-    background: linear-gradient(45deg, var(--crimson-deep) 0 50%, var(--crimson-dark) 50% 100%);
-    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-    transform: rotate(-14deg) scale(1.05);
-    opacity: 0.9;
+    left: 0;
+    bottom: 0;
+    width: 52%;
+    height: 26%;
+    border-radius: 999px 999px 0 0;
+    background: var(--line);
   }
 
+  /* A folded paper triangle: two flat halves */
   .hero--fold-3 {
-    background: var(--paper-fold);
+    left: 0;
+    top: 0;
+    width: 34%;
+    height: 34%;
+    background: linear-gradient(45deg, var(--crimson-deep) 0 50%, var(--line) 50% 100%);
     clip-path: polygon(0 0, 100% 0, 0 100%);
-    inset: 4% auto auto 4%;
-    width: 30%;
-    height: 30%;
   }
 
   .hero--logo {
     position: absolute;
-    inset: 22%;
-    width: 56%;
+    inset: 24% 24% 20% 26%;
+    width: 50%;
     height: 56%;
     object-fit: cover;
     object-position: center 30%;
-    border: 5px solid #fff;
+    background: #fff;
+    border: var(--line-width) solid var(--line);
     box-sizing: border-box;
-    clip-path: polygon(16% 0, 100% 0, 100% 84%, 84% 100%, 0 100%, 0 16%);
-    transition: transform 0.3s ease;
+    box-shadow: var(--shadow-hard);
+    transition:
+      transform var(--animation-duration) ease,
+      box-shadow var(--animation-duration) ease;
   }
 
   .hero--art:hover .hero--logo {
-    transform: rotate(-4deg) scale(1.04);
+    transform: translate(3px, 3px);
+    box-shadow: 3px 3px 0 var(--shadow-color);
   }
 
   @media (max-width: 720px) {
@@ -102,5 +142,5 @@
 }
 
 .hero--next .section-title {
-  margin-top: 24px;
+  margin-top: 40px;
 }

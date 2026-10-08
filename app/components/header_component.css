@@ -1,8 +1,22 @@
 .header {
-  color: #fff;
-  /* Folded bottom edge */
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 28px), 62% 100%, 0 calc(100% - 14px));
-  padding: 28px 0 56px;
+  position: relative;
+  background: var(--header-background);
+  color: var(--on-block);
+  padding: 26px 0 28px;
+  /* Thick printed band under the bar */
+  border-bottom: 10px solid var(--header-accent);
+  margin-bottom: 14px;
+
+  /* A row of folded paper triangles hanging off the band */
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 16px;
+    background: conic-gradient(from -45deg at 50% 100%, var(--header-accent) 90deg, transparent 0) 0 0 / 32px 16px repeat-x;
+  }
 
   .header--inner {
     max-width: var(--content-width);
@@ -18,21 +32,23 @@
   .header--brand {
     display: flex;
     align-items: center;
-    gap: 18px;
-    color: #fff;
+    gap: 20px;
+    color: var(--on-block);
     text-decoration: none;
   }
 
+  /* Logo in a thick bordered square with a hard shadow */
   .header--logo {
     flex: none;
     display: block;
-    width: 84px;
-    height: 84px;
-    padding: 4px;
+    width: 80px;
+    height: 80px;
     background: #fff;
-    /* Diamond-ish, cut-corner frame */
-    clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
-    transition: transform var(--animation-duration) ease;
+    border: var(--line-width) solid var(--on-block);
+    box-shadow: 5px 5px 0 var(--header-accent);
+    transition:
+      transform var(--animation-duration) ease,
+      box-shadow var(--animation-duration) ease;
 
     img {
       display: block;
@@ -40,82 +56,110 @@
       height: 100%;
       object-fit: cover;
       object-position: center 30%;
-      clip-path: polygon(11px 0, 100% 0, 100% calc(100% - 11px), calc(100% - 11px) 100%, 0 100%, 0 11px);
     }
   }
 
   .header--brand:hover .header--logo {
-    transform: rotate(-4deg) scale(1.04);
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0 var(--header-accent);
   }
 
   .header--text {
     display: flex;
     flex-flow: column nowrap;
+    gap: 6px;
   }
 
   .header--title {
     font-family: var(--font-display);
-    font-size: 2rem;
+    font-stretch: condensed;
+    font-size: 2.5rem;
     font-weight: 800;
-    letter-spacing: -0.01em;
-    line-height: 1.1;
-    text-shadow: 0 2px 0 rgb(0 0 0 / 0.15);
+    letter-spacing: 0.01em;
+    line-height: 0.9;
+    text-transform: uppercase;
   }
 
   .header--tagline {
+    align-self: flex-start;
+    padding: 2px 8px 1px;
+    background: var(--header-accent);
+    color: var(--header-accent-text);
+    font-family: var(--font-display);
     font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.14em;
+    font-weight: 700;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
-    opacity: 0.85;
   }
 
   .header--nav {
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-end;
-    gap: 8px;
+    gap: 10px;
   }
 
   .header--links {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    gap: 4px;
+    gap: 6px;
 
     a {
-      color: #fff;
-      font-weight: 600;
-      padding: 6px 14px;
+      color: var(--on-block);
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 5px 12px 4px;
+      border: 2px solid transparent;
       text-decoration: none;
-      /* Paper tab with a folded corner */
-      clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
-      transition: background-color var(--animation-duration) linear, color var(--animation-duration) linear;
+      transition:
+        background-color var(--animation-duration) linear,
+        color var(--animation-duration) linear,
+        border-color var(--animation-duration) linear;
     }
 
     a:hover {
-      background: rgb(255 255 255 / 0.16);
+      border-color: var(--on-block);
     }
 
     a.header--link-current {
-      background: #fff;
-      color: var(--crimson);
+      background: var(--on-block);
+      border-color: var(--on-block);
+      color: var(--header-background);
+      box-shadow: 3px 3px 0 var(--header-accent);
     }
   }
 
-  .header--links-external a {
-    font-size: 0.85rem;
-    font-weight: 500;
-    padding: 3px 10px;
-    opacity: 0.9;
+  .header--links-external {
+    gap: 2px 16px;
+
+    a {
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      padding: 0;
+      border: 0;
+      opacity: 0.8;
+    }
+
+    a:hover {
+      opacity: 1;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
+
+    a::after {
+      content: ' \2197\FE0E';
+      font-size: 0.9em;
+    }
   }
 
-  .header--links-external a::after {
-    content: ' \2197\FE0E';
-    font-size: 0.8em;
-  }
-
-  @media (max-width: 720px) {
+  @media (max-width: 760px) {
     .header--nav {
       align-items: flex-start;
       width: 100%;
@@ -125,23 +169,28 @@
       justify-content: flex-start;
     }
 
-    .header--links a:first-child {
+    .header--links:not(.header--links-external) a:first-child {
       margin-left: -14px;
-    }
-
-    .header--links-external a:first-child {
-      margin-left: -10px;
     }
   }
 
   @media (max-width: 420px) {
     .header--logo {
-      width: 64px;
-      height: 64px;
+      width: 60px;
+      height: 60px;
     }
 
     .header--title {
-      font-size: 1.5rem;
+      font-size: 1.85rem;
+    }
+
+    .header--links:not(.header--links-external) a {
+      font-size: 1rem;
+      padding: 4px 9px 3px;
+    }
+
+    .header--links:not(.header--links-external) a:first-child {
+      margin-left: -11px;
     }
   }
 }

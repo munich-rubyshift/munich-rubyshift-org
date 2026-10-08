@@ -10,6 +10,8 @@ starting point and make adjustments.
 - Source files downloaded from: https://github.com/kognise/water.css/tree/master/src
 - License: [MIT](https://github.com/kognise/water.css/blob/master/LICENSE.md)
 
-On top of it, `variables.css` defines the crimson "origami" palette taken from
-the logo and `origami.css` adds the folded-paper patterns (faceted backgrounds,
-dog-eared cards, label/value rows) used across the site.
+On top of it, `variables.css` defines the "poster" palette (crimson from the
+logo, ink and cream, plus a touch of mustard) and `poster.css` adds the shared
+screen-print patterns: outlined cards with hard offset shadows
+(`.origami-paper`), solid colour blocks (`.origami-facets`), chunky buttons,
+tags, section titles and label/value rows used across the site.

@@ -2,14 +2,10 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
-  gap: 18px;
-  padding: 16px 0;
-  border-bottom: 1px solid var(--border);
+  gap: 22px;
+  padding: 20px 0;
+  border-bottom: 2px solid var(--line);
   min-width: 0;
-
-  .events---date-badge {
-    background: var(--background);
-  }
 
   .events---event-card--body {
     min-width: 0;
@@ -17,8 +13,9 @@
   }
 
   .events---event-card--title {
-    margin: 2px 0 4px;
-    font-size: 1.15rem;
+    margin: 0 0 6px;
+    font-size: 1.5rem;
+    line-height: 1.05;
     overflow-wrap: anywhere;
 
     a {
@@ -27,54 +24,93 @@
 
     a:hover {
       color: var(--links);
+      text-decoration: none;
     }
   }
 
   .events---event-card--meta {
     display: flex;
     flex-flow: row wrap;
-    gap: 2px 16px;
+    gap: 2px 0;
     margin: 0;
     color: var(--text-muted);
     font-size: 0.92rem;
+    font-weight: 600;
+
+    > span + span::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      margin: 0 10px;
+      vertical-align: middle;
+      background: var(--crimson);
+    }
+
+    /* On narrow screens the facts stack up as a square-bulleted list */
+    @media (max-width: 520px) {
+      flex-direction: column;
+
+      > span::before,
+      > span + span::before {
+        content: '';
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        margin: 0 10px 0 0;
+        vertical-align: middle;
+        background: var(--crimson);
+      }
+    }
   }
 
   .events---event-card--talks {
-    margin: 8px 0 0;
+    margin: 10px 0 0;
     padding-left: 1.1rem;
     font-size: 0.95rem;
+
+    li::marker {
+      color: var(--crimson);
+    }
   }
 
   .events---event-card--actions {
-    margin: 18px 0 0;
+    margin: 22px 0 0;
   }
 }
 
 .events---event-card-cancelled .events---event-card--title a {
   text-decoration: line-through;
+  text-decoration-thickness: 3px;
   color: var(--text-muted);
 }
 
-/* The next meetup gets a big paper sheet */
+/* The next meetup gets a big poster card with a crimson top band */
 .events---event-card-featured {
-  padding: 26px 28px;
-  border: 0;
-  border-left: 4px solid var(--crimson);
+  padding: 40px 30px 22px;
+  border: var(--line-width) solid var(--line);
+  box-shadow: inset 0 14px 0 var(--crimson), var(--shadow-hard);
 
   .events---date-badge {
-    width: 5.5rem;
+    width: 6rem;
   }
 
   .events---date-badge--main {
-    font-size: 2.3rem;
+    font-size: 3rem;
   }
 
   .events---event-card--title {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
   }
 
   @media (max-width: 520px) {
-    padding: 18px 16px;
+    padding: 32px 16px 10px;
+    box-shadow: inset 0 12px 0 var(--crimson), var(--shadow-hard-small);
     flex-direction: column;
+
+    .events---event-card--title {
+      font-size: 1.7rem;
+    }
   }
 }

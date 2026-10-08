@@ -1,55 +1,84 @@
-/* A small folded paper calendar sheet */
+/* A ticket stub: month band, a big day number and a perforated year strip */
 .events---date-badge {
+  --notch-size: 12px;
+
   flex: none;
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
-  width: 4.5rem;
-  padding: 0 0 6px;
+  align-items: stretch;
+  width: 4.75rem;
+  position: relative;
   background: var(--background-card);
   color: var(--text-bright);
+  border: var(--line-width) solid var(--line);
+  box-shadow: var(--shadow-hard-small);
   font-family: var(--font-display);
-  line-height: 1.1;
+  font-stretch: condensed;
+  line-height: 1;
   text-align: center;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
-  filter: drop-shadow(0 1px 1px rgb(60 20 20 / 0.12));
+  text-transform: uppercase;
   /* Override the inline code look of <time> from the theme */
   border-radius: 0;
   font-size: 1rem;
-  position: relative;
-}
-
-.events---date-badge::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 12px;
-  height: 12px;
-  background: var(--paper-fold);
-  clip-path: polygon(0 0, 100% 0, 0 100%);
+  padding: 0;
 }
 
 .events---date-badge--top {
-  align-self: stretch;
-  padding: 3px 0;
+  padding: 4px 0 3px;
   background: var(--crimson);
-  color: #fff;
-  font-size: 0.72rem;
+  color: var(--on-block);
+  border-bottom: var(--line-width) solid var(--line);
+  font-size: 0.85rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0.16em;
   min-height: 1em;
 }
 
 .events---date-badge--main {
-  padding-top: 4px;
-  font-size: 1.75rem;
+  padding: 6px 0 4px;
+  font-size: 2.1rem;
   font-weight: 800;
 }
 
+/* Perforation with half-circle notches on both sides */
 .events---date-badge--bottom {
+  position: relative;
+  padding: 5px 0 5px;
+  border-top: 2px dashed var(--line);
   color: var(--text-muted);
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.events---date-badge--bottom::before,
+.events---date-badge--bottom::after {
+  content: '';
+  position: absolute;
+  top: calc(var(--notch-size) / -2 - 1px);
+  width: var(--notch-size);
+  height: var(--notch-size);
+  border-radius: 50%;
+  background: var(--notch-background, var(--background-body));
+  border: var(--line-width) solid transparent;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+}
+
+/* Only the half of the ring that bites into the stub is drawn */
+.events---date-badge--bottom::before {
+  left: calc(var(--notch-size) / -2 - var(--line-width) / 2);
+  border-top-color: var(--line);
+  border-right-color: var(--line);
+}
+
+.events---date-badge--bottom::after {
+  right: calc(var(--notch-size) / -2 - var(--line-width) / 2);
+  border-bottom-color: var(--line);
+  border-left-color: var(--line);
+}
+
+.events---date-badge--bottom:empty {
+  display: none;
 }

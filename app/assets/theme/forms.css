@@ -30,7 +30,7 @@ select {
   margin-right: 6px;
   margin-bottom: 6px;
   padding: 10px;
-  border: none;
+  border: 2px solid var(--line);
   border-radius: var(--radius);
   outline: none;
 }
@@ -41,10 +41,14 @@ input[type='reset'],
 input[type='button'] {
   background-color: var(--button-base);
   color: var(--button-text);
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   padding-right: 30px;
   padding-left: 30px;
-  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%);
+  border-width: var(--line-width);
+  box-shadow: var(--shadow-hard-small);
 }
 
 button:hover,
@@ -124,7 +128,8 @@ input:focus,
 select:focus,
 button:focus,
 textarea:focus {
-  box-shadow: 0 0 0 2px var(--focus);
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
 }
 
 input[type='checkbox']:active,
@@ -134,7 +139,7 @@ input[type='reset']:active,
 input[type='button']:active,
 input[type='range']:active,
 button:active {
-  transform: translateY(2px);
+  transform: translate(3px, 3px);
 }
 
 input:disabled,
@@ -150,7 +155,7 @@ textarea:disabled {
 }
 
 fieldset {
-  border: 1px var(--focus) solid;
+  border: 2px var(--line) solid;
   border-radius: var(--radius);
   margin: 0;
   margin-bottom: 12px;

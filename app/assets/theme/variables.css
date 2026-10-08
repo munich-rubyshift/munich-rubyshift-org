@@ -1,74 +1,92 @@
 :root {
-  /* Origami palette, taken from the folded-paper lion logo */
-  --crimson: #b3121f;
-  --crimson-deep: #7f0a14;
-  --crimson-dark: #5c0710;
-  --crimson-light: #d8323d;
-  --crimson-tint: #fbe9ea;
-  --paper: #fffdf9;
-  --paper-fold: #e3d6c6;
+  /* Poster palette: screen-printed crimson (from the lion logo), ink and cream */
+  --crimson: #c1121f;
+  --crimson-deep: #8e0c16;
+  --crimson-dark: #6a0811;
+  --crimson-light: #e0323e;
+  --crimson-tint: #f6d9d3;
+  --ink: #141111;
+  --cream: #f4ecdc;
+  --mustard: #f2b705;
+  --paper: #fffaf0;
+  --paper-fold: #e6d9bf;
+
+  /* Lines, hard offset shadows and the colours drawn on solid crimson/ink blocks */
+  --line: var(--ink);
+  --line-width: 3px;
+  --shadow-color: var(--ink);
+  --shadow-hard: 6px 6px 0 var(--shadow-color);
+  --shadow-hard-small: 4px 4px 0 var(--shadow-color);
+  --on-block: #fff8ea;
+  --header-background: var(--ink);
+  --header-accent: var(--crimson);
+  --header-accent-text: var(--on-block);
 
   --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
-  --font-display: 'Avenir Next', 'Montserrat', 'Segoe UI', 'Ubuntu', system-ui, sans-serif;
-  --content-width: 920px;
+  /* Heavy condensed poster type from fonts that ship with the OS (no font downloads) */
+  --font-display: 'Helvetica Neue Condensed', 'HelveticaNeue-CondensedBlack', 'Arial Narrow', 'Roboto Condensed', 'Oswald', 'Liberation Sans Narrow', 'Nimbus Sans Narrow', 'DejaVu Sans Condensed', Impact, 'Arial Black', sans-serif;
+  --content-width: 960px;
   --gutter: 20px;
-  --radius: 3px;
-  --fold-size: 28px;
-  --shadow-paper: 0 1px 2px rgb(60 20 20 / 0.08), 0 8px 24px -12px rgb(60 20 20 / 0.25);
+  --radius: 0;
 
-  --background-body: #f6f1ea;
-  --background: #efe8de;
+  --background-body: var(--cream);
+  --background: #e9dec7;
   --background-alt: var(--paper);
   --background-card: var(--paper);
-  --selection: #f3b7bb;
-  --text-main: #3a3232;
-  --text-bright: #1d1515;
-  --text-muted: #7a6d68;
+  --selection: var(--mustard);
+  --text-main: #2a2424;
+  --text-bright: var(--ink);
+  --text-muted: #6b5f57;
   --links: var(--crimson);
   --links-hover: var(--crimson-deep);
-  --focus: #b3121f99;
-  --border: #e2d8cb;
+  --focus: var(--mustard);
+  --border: #cdbfa3;
   --code: var(--crimson-deep);
-  --animation-duration: 0.15s;
+  --animation-duration: 0.12s;
   --button-base: var(--crimson);
   --button-hover: var(--crimson-deep);
-  --button-text: #fff;
-  --scrollbar-thumb: #cdbfb0;
-  --scrollbar-thumb-hover: var(--crimson-light);
-  --form-placeholder: #9a8f88;
-  --form-text: #1d1515;
+  --button-text: #fff8ea;
+  --scrollbar-thumb: var(--ink);
+  --scrollbar-thumb-hover: var(--crimson);
+  --form-placeholder: #8d8076;
+  --form-text: var(--ink);
   --variable: #2f7d32;
-  --highlight: #ffe58a;
+  --highlight: var(--mustard);
   --select-arrow: url("select-arrow.svg");
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --crimson-tint: #3a1418;
-    --paper: #241b1b;
-    --paper-fold: #3a2c2b;
-    --shadow-paper: 0 1px 2px rgb(0 0 0 / 0.4), 0 10px 28px -14px rgb(0 0 0 / 0.8);
+    --crimson: #d4202d;
+    --crimson-light: #ff4b55;
+    --crimson-tint: #3b1316;
+    --paper: #1f1a19;
+    --paper-fold: #3a302c;
 
-    --background-body: #151010;
-    --background: #2b2120;
-    --background-alt: #1d1616;
+    --line: var(--cream);
+    --shadow-color: var(--crimson);
+    --header-background: var(--crimson);
+    --header-accent: var(--cream);
+    --header-accent-text: var(--crimson-deep);
+
+    --background-body: #110e0e;
+    --background: #2a2321;
+    --background-alt: #1a1615;
     --background-card: var(--paper);
-    --selection: #7f0a14;
-    --text-main: #ddd3cf;
-    --text-bright: #fff7f4;
-    --text-muted: #a99a95;
-    --links: #ff6b72;
+    --selection: var(--crimson-deep);
+    --text-main: #e6dccb;
+    --text-bright: var(--cream);
+    --text-muted: #a99d8e;
+    --links: #ff5c64;
     --links-hover: #ff9ba0;
-    --focus: #ff6b7299;
-    --border: #3d302e;
+    --border: #4a3f3a;
     --code: #ffb3a8;
     --button-base: var(--crimson);
-    --button-hover: var(--crimson-light);
-    --button-text: #fff;
-    --scrollbar-thumb: #3d302e;
+    --button-hover: var(--crimson-deep);
+    --scrollbar-thumb: #4a3f3a;
     --scrollbar-thumb-hover: var(--crimson);
     --form-placeholder: #8f817c;
-    --form-text: #fff7f4;
+    --form-text: var(--cream);
     --variable: #8bd18e;
     --highlight: #c9a227;
   }

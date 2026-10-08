@@ -1,14 +1,28 @@
 h1 {
-  font-size: 2.4em;
+  font-size: clamp(2.4rem, 6vw, 3.8rem);
   margin-top: 0;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
+  line-height: 0.95;
+  letter-spacing: -0.01em;
 }
 
+h2 {
+  font-size: 1.9rem;
+  line-height: 1.05;
+}
+
+h3 {
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+/* Heavy condensed poster headings */
 h1,
 h2,
 h3 {
   font-family: var(--font-display);
+  font-stretch: condensed;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 h1,
@@ -53,8 +67,8 @@ q::after {
 
 blockquote,
 q {
-  border-left: 4px solid var(--crimson);
-  background: var(--crimson-tint);
+  border-left: 8px solid var(--crimson);
+  background: var(--background-card);
   margin: 1.5em 0;
   padding: 0.5em 1em;
   font-style: italic;
@@ -87,8 +101,7 @@ a[href^='sms\:']::before {
 
 mark {
   background-color: var(--highlight);
-  border-radius: 2px;
-  padding: 0 2px 0 2px;
+  padding: 0 3px;
   color: #000;
 }
 

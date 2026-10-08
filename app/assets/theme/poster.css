@@ -1,0 +1,300 @@
+/*
+ * Poster look: flat screen-printed colours, thick ink outlines, hard offset
+ * shadows and Bauhaus shapes (circles, squares and folded triangles).
+ * The class names `.origami-facets` and `.origami-paper` are kept as the
+ * shared hooks for "solid colour block" and "card".
+ */
+
+/* A solid, flat crimson block */
+.origami-facets {
+  background-color: var(--crimson);
+  color: var(--on-block);
+}
+
+/* Cards: outlined sheets with a hard offset shadow */
+.origami-paper,
+.layout--main > article:not([class]),
+.layout--main > div[id] > article,
+.layout--main > ul[id] > li {
+  --notch-background: var(--background-card);
+
+  position: relative;
+  background: var(--background-card);
+  border: var(--line-width) solid var(--line);
+  box-shadow: var(--shadow-hard);
+  padding: 24px 28px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+  .origami-paper,
+  .layout--main > article:not([class]),
+  .layout--main > div[id] > article,
+  .layout--main > ul[id] > li {
+    padding: 18px 16px;
+    box-shadow: var(--shadow-hard-small);
+  }
+}
+
+/* Index lists of records become a stack of cards */
+.layout--main > ul[id],
+.layout--main > div[id] {
+  list-style: none;
+  margin: 32px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 28px;
+}
+
+.layout--main > ul[id] > li > article {
+  margin-bottom: 8px;
+}
+
+/* "Show this …" link at the bottom of a card */
+.layout--main > ul[id] > li > p:last-child {
+  margin: 0;
+  padding-top: 14px;
+  border-top: 2px solid var(--line);
+}
+
+.layout--main > ul[id] > li > p:last-child > a {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.layout--main > ul[id] > li > p:last-child > a::after {
+  content: ' →';
+}
+
+/* Label / value rows: <p><strong>Label:</strong> value</p> */
+.layout--main article:not([class]) > p:has(> strong:first-child) {
+  margin: 0;
+  padding: 8px 0;
+  border-bottom: 2px solid var(--border);
+}
+
+.layout--main article:not([class]) > p:has(> strong:first-child) > strong:first-child {
+  color: var(--links);
+  font-family: var(--font-display);
+  font-size: 0.85em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.layout--main article:not([class]) > p:empty {
+  display: none;
+}
+
+.layout--main article:not([class]) > ul {
+  margin: 6px 0 10px;
+}
+
+@media (min-width: 640px) {
+  .layout--main article:not([class]) > p:has(> strong:first-child) {
+    padding-left: 12rem;
+    text-indent: -12rem;
+  }
+
+  .layout--main article:not([class]) > p:has(> strong:first-child) > strong:first-child {
+    display: inline-block;
+    width: 12rem;
+    text-indent: 0;
+  }
+
+  .layout--main article:not([class]) > p:has(> strong:first-child) > strong:first-child + br {
+    display: none;
+  }
+
+  .layout--main article:not([class]) > ul {
+    margin-left: 12rem;
+  }
+}
+
+/* Page titles: a crimson bar and an ink square underneath */
+.layout--main h1 {
+  position: relative;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+}
+
+.layout--main h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 112px;
+  height: 10px;
+  background: linear-gradient(90deg, var(--crimson) 0 84px, transparent 84px 92px, var(--line) 92px 100%);
+}
+
+.layout--main article h2,
+.layout--main li h2 {
+  margin-top: 0;
+}
+
+/* Edit links (only shown when Avo is available) */
+.layout--main a[up-follow='false'] {
+  font-size: 0.5em;
+  vertical-align: middle;
+  opacity: 0.6;
+}
+
+.layout--main a[up-follow='false']:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Chunky poster buttons that press down when hovered */
+.button {
+  display: inline-block;
+  padding: 10px 22px 9px;
+  margin: 0 12px 12px 0;
+  background: var(--button-base);
+  color: var(--button-text);
+  border: var(--line-width) solid var(--line);
+  box-shadow: var(--shadow-hard-small);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition:
+    transform var(--animation-duration) ease,
+    box-shadow var(--animation-duration) ease,
+    background-color var(--animation-duration) linear;
+}
+
+.button:hover {
+  background: var(--button-hover);
+  color: var(--button-text);
+  text-decoration: none;
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--shadow-color);
+}
+
+.button:active {
+  transform: translate(4px, 4px);
+  box-shadow: 0 0 0 var(--shadow-color);
+}
+
+.button-secondary {
+  background: var(--background-card);
+  color: var(--text-bright);
+}
+
+.button-secondary:hover {
+  background: var(--mustard);
+  color: var(--ink);
+}
+
+.tag {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  padding: 2px 8px 1px;
+  background: var(--text-bright);
+  color: var(--background-body);
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.tag-muted {
+  background: transparent;
+  color: var(--text-muted);
+  box-shadow: inset 0 0 0 2px var(--text-muted);
+}
+
+.muted {
+  color: var(--text-muted);
+}
+
+/* Section headings: a crimson dot, the title and a thick rule to the edge */
+.section-title,
+.layout--main .section-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 56px;
+  margin-bottom: 22px;
+  font-size: 1.9rem;
+}
+
+.section-title::before {
+  content: '';
+  flex: none;
+  width: 0.62em;
+  height: 0.62em;
+  border-radius: 50%;
+  background: var(--crimson);
+}
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  min-width: 24px;
+  height: var(--line-width);
+  background: var(--line);
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: var(--text-main);
+}
+
+.page-actions {
+  margin-top: 44px;
+  padding-top: 20px;
+  border-top: var(--line-width) solid var(--line);
+}
+
+/* A box of key facts, e.g. date, time and venue, ruled like a poster info table */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--line-width);
+  margin: 0 0 32px;
+  padding: 0;
+  background: var(--line);
+  border: var(--line-width) solid var(--line);
+  box-shadow: var(--shadow-hard);
+
+  > div {
+    padding: 14px 18px 16px;
+    background: var(--background-card);
+  }
+
+  dt {
+    color: var(--links);
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  dd {
+    margin: 2px 0 0;
+    color: var(--text-bright);
+    font-weight: 600;
+  }
+}
+
+/* "All events →" style links after a list */
+.talks-grid + p,
+.hero--next > p:last-child {
+  margin-top: 28px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
