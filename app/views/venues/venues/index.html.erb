@@ -1,20 +1,15 @@
 <% content_for :title, "Venues" %>
 
-<h1>Venues</h1>
+<h1>Venues<% if defined?(Avo) %> <%= link_to "✏️", avo.resources_venues_venues_path, "up-follow": false %><% end %></h1>
 
-<% if defined?(Avo) %>
-  <p>
-    <%= link_to "✏️", avo.resources_venues_venues_path, "up-follow": false %>
-  </p>
-<% end %>
+<p class="lead">All the places that hosted a Munich Rubyshift event.</p>
 
-<ul id="venues_venues">
-  <% @venues_venues.each do |venues_venue| %>
-    <li>
-      <%= render venues_venue %>
-      <p>
-        <%= link_to "Show this venue", venues_venue %>
-      </p>
+<ul class="venues-list">
+  <% @venues_venues.includes(:events, address: :city).sort_by { |venue| venue.name.to_s.downcase }.each do |venues_venue| %>
+    <li id="<%= dom_id venues_venue %>">
+      <%= link_to venues_venue.name, venues_venue, class: "venues-list--name" %>
+      <% if venues_venue.address %><span class="muted"><%= venues_venue.address %></span><% end %>
+      <span class="tag tag-muted"><%= pluralize(venues_venue.events.size, "event") %></span>
     </li>
   <% end %>
 </ul>

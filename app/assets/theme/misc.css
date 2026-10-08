@@ -55,12 +55,12 @@ tbody tr:nth-child(even) button:hover {
 
 ::-webkit-scrollbar-track {
   background: var(--background);
-  border-radius: 6px;
+  border-radius: var(--radius);
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--scrollbar-thumb);
-  border-radius: 6px;
+  border-radius: var(--radius);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -79,7 +79,7 @@ details {
   background-color: var(--background-alt);
   padding: 10px 10px 0;
   margin: 1em 0;
-  border-radius: 6px;
+  border-radius: var(--radius);
   overflow: hidden;
 }
 
@@ -121,7 +121,7 @@ dialog {
   background-color: var(--background-alt);
   color: var(--text-main);
   border: none;
-  border-radius: 6px;
+  border-radius: var(--radius);
   border-color: var(--border);
   padding: 10px 30px;
 }
@@ -139,12 +139,4 @@ dialog::backdrop {
   backdrop-filter: blur(4px);
 }
 
-footer {
-  border-top: 1px solid var(--border);
-  padding-top: 10px;
-  color: var(--text-muted);
-}
 
-body > footer {
-  margin-top: 40px;
-}

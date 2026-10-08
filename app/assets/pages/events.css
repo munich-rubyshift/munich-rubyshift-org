@@ -1,0 +1,62 @@
+.events-list-upcoming {
+  display: grid;
+  gap: 24px;
+}
+
+.events-list-year {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 0 24px;
+  border-top: 2px solid var(--text-bright);
+  margin-top: 8px;
+
+  .events-list-year--title {
+    margin: 14px 0 0;
+    font-size: 1.6rem;
+    color: var(--links);
+  }
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+
+    .events-list-year--title {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.events-list > .events---event-card:last-child {
+  border-bottom: 0;
+}
+
+/* Event detail page */
+.event-page {
+  .event-page--header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    gap: 22px;
+    margin-bottom: 28px;
+
+    .events---date-badge {
+      width: 6rem;
+      background: var(--background-card);
+    }
+
+    .events---date-badge--main {
+      font-size: 2.6rem;
+    }
+
+    h1 {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 520px) {
+      flex-direction: column;
+    }
+  }
+
+  .event-page--description {
+    overflow-wrap: anywhere;
+  }
+}

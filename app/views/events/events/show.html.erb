@@ -1,11 +1,10 @@
-<% content_for :title, "Event: #{@events_event.slug}" %>
+<% content_for :title, "#{event_title(@events_event)} · #{event_date(@events_event)}" %>
 
 <%= render @events_event %>
 
-<% if defined?(Avo) %>
-  <p>
+<p class="page-actions">
+  <%= link_to "← All events", events_events_path %>
+  <% if defined?(Avo) %>
     <%= link_to "✏️", avo.resources_events_event_path(@events_event), "up-follow": false %>
-  </p>
-<% end %>
-
-<%= link_to "Back to all events", events_events_path %>
+  <% end %>
+</p>

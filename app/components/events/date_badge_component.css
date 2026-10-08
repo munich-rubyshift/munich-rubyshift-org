@@ -1,0 +1,55 @@
+/* A small folded paper calendar sheet */
+.events---date-badge {
+  flex: none;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 4.5rem;
+  padding: 0 0 6px;
+  background: var(--background-card);
+  color: var(--text-bright);
+  font-family: var(--font-display);
+  line-height: 1.1;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
+  filter: drop-shadow(0 1px 1px rgb(60 20 20 / 0.12));
+  /* Override the inline code look of <time> from the theme */
+  border-radius: 0;
+  font-size: 1rem;
+  position: relative;
+}
+
+.events---date-badge::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  background: var(--paper-fold);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.events---date-badge--top {
+  align-self: stretch;
+  padding: 3px 0;
+  background: var(--crimson);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  min-height: 1em;
+}
+
+.events---date-badge--main {
+  padding-top: 4px;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.events---date-badge--bottom {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+}

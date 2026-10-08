@@ -1,20 +1,27 @@
-<% content_for :title, "Organizations" %>
+<% content_for :title, "Sponsors" %>
 
 <h1>Sponsors<% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_organizations_path, "up-follow": false %><% end %></h1>
 
-<p>
-  We are always looking for meetup hosts.
-  If you have an office space or equivalent venue in Munich and want to host our next meetup,
-  please reach out to us via LinkedIn or Discord.
+<p class="lead">
+  Our meetups are only possible thanks to companies that open their doors,
+  and provide food and drinks. Thank you!
 </p>
 
-<ul id="entities_organizations">
+<div class="organizations-grid">
   <% @entities_organizations.each do |entities_organization| %>
-    <li>
-      <%= render entities_organization %>
-      <p>
-        <%= link_to "Show this organization", entities_organization %>
-      </p>
-    </li>
+    <%= render entities_organization %>
   <% end %>
-</ul>
+</div>
+
+<aside class="call-out origami-facets">
+  <h2>Host our next meetup</h2>
+  <p>
+    We are always looking for meetup hosts.
+    If you have an office space or equivalent venue in Munich and want to host our next meetup,
+    please reach out to us via LinkedIn or Discord.
+  </p>
+  <p>
+    <%= link_to "Contact us on Discord", "https://discord.gg/EKqHWmCxGZ", class: "button", target: "_blank", rel: "noopener noreferrer" %>
+    <%= link_to "LinkedIn", "https://www.linkedin.com/groups/15477023", class: "button button-secondary", target: "_blank", rel: "noopener noreferrer" %>
+  </p>
+</aside>

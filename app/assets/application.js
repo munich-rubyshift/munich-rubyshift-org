@@ -1,4 +1,5 @@
 import "./theme"
 import "./unpoly"
 import "./components"
+import "./pages"
 import "./rouge"

@@ -1,0 +1,80 @@
+.events---event-card {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+  min-width: 0;
+
+  .events---date-badge {
+    background: var(--background);
+  }
+
+  .events---event-card--body {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .events---event-card--title {
+    margin: 2px 0 4px;
+    font-size: 1.15rem;
+    overflow-wrap: anywhere;
+
+    a {
+      color: var(--text-bright);
+    }
+
+    a:hover {
+      color: var(--links);
+    }
+  }
+
+  .events---event-card--meta {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2px 16px;
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.92rem;
+  }
+
+  .events---event-card--talks {
+    margin: 8px 0 0;
+    padding-left: 1.1rem;
+    font-size: 0.95rem;
+  }
+
+  .events---event-card--actions {
+    margin: 18px 0 0;
+  }
+}
+
+.events---event-card-cancelled .events---event-card--title a {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+/* The next meetup gets a big paper sheet */
+.events---event-card-featured {
+  padding: 26px 28px;
+  border: 0;
+  border-left: 4px solid var(--crimson);
+
+  .events---date-badge {
+    width: 5.5rem;
+  }
+
+  .events---date-badge--main {
+    font-size: 2.3rem;
+  }
+
+  .events---event-card--title {
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 520px) {
+    padding: 18px 16px;
+    flex-direction: column;
+  }
+}

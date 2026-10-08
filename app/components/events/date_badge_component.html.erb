@@ -1,0 +1,5 @@
+<%= content_tag(date ? :time : :span, class: "events---date-badge", datetime: date&.iso8601) do %>
+  <span class="events---date-badge--top"><%= top %></span>
+  <span class="events---date-badge--main"><%= main %></span>
+  <span class="events---date-badge--bottom"><%= bottom %></span>
+<% end %>

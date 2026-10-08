@@ -1,0 +1,20 @@
+<section class="get-involved" data-compiler="get-involved" up-data="<%= {  }.to_json %>">
+  <h2 class="section-title">Get involved</h2>
+  <div class="get-involved--grid">
+    <div class="get-involved--tile origami-paper">
+      <h3>Give a talk</h3>
+      <p>Our call for proposals is always open. First-time speakers are very welcome!</p>
+      <%= link_to "About talks →", talks_talks_path %>
+    </div>
+    <div class="get-involved--tile origami-paper">
+      <h3>Host a meetup</h3>
+      <p>Got an office in Munich with room for a crowd? We'd love to visit you.</p>
+      <%= link_to "Become a sponsor →", entities_organizations_path %>
+    </div>
+    <div class="get-involved--tile origami-paper">
+      <h3>Join the community</h3>
+      <p>Chat with fellow Rubyists and hear about new events first.</p>
+      <%= link_to "Join Discord →", HeroComponent::DISCORD_URL, target: "_blank", rel: "noopener noreferrer" %>
+    </div>
+  </div>
+</section>
