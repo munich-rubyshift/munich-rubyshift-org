@@ -1,0 +1,35 @@
+<article id="<%= dom_id event %>" class="<%= css_classes %>" data-compiler="events-event-card" up-data="<%= {  }.to_json %>">
+  <%= render Events::DateBadgeComponent.new(event.start_date, precision: event.date_precision.presence || "day") %>
+
+  <div class="events---event-card--body">
+    <h3 class="events---event-card--title">
+      <%= link_to event_title(event), event %>
+      <% if event.cancelled? %><span class="tag tag-muted">Cancelled</span><% end %>
+      <% if event.kind.present? && event.kind != "meetup" %><span class="tag"><%= event.kind.humanize %></span><% end %>
+    </h3>
+
+    <p class="events---event-card--meta">
+      <span><%= event_date(event) %></span>
+      <% if (time_range = event_time_range(event)) %><span><%= time_range %></span><% end %>
+      <% if event.venue %><span><%= link_to event.venue, event.venue %></span><% end %>
+      <% if event.online? %><span>Online</span><% end %>
+    </p>
+
+    <% if talks.any? %>
+      <ul class="events---event-card--talks">
+        <% talks.each do |talk| %>
+          <li><%= link_to talk, talk %><% if talk.speakers.any? %> <span class="muted">by <%= safe_join(talk.speakers.map { |speaker| link_to(speaker, speaker) }, ", ") %></span><% end %></li>
+        <% end %>
+      </ul>
+    <% end %>
+
+    <% if featured? %>
+      <p class="events---event-card--actions">
+        <%= link_to "Event details", event, class: "button" %>
+        <% if event.tickets_url.present? %>
+          <%= link_to "RSVP", event.tickets_url, class: "button button-secondary", target: "_blank", rel: "noopener noreferrer" %>
+        <% end %>
+      </p>
+    <% end %>
+  </div>
+</article>

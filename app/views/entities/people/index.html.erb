@@ -1,8 +1,10 @@
-<% content_for :title, "People" %>
+<% content_for :title, "Speakers" %>
 
-<h1>Speakers <% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_people_path, "up-follow": false %><% end %></h1>
+<h1>Speakers<% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_people_path, "up-follow": false %><% end %></h1>
 
-<div id="entities_people">
+<p class="lead">The people who shared their knowledge at our meetups. Thank you!</p>
+
+<div class="people-grid">
   <% @entities_people.each do |entities_person| %>
     <%= render Entities::PersonComponent.new(entities_person) %>
   <% end %>

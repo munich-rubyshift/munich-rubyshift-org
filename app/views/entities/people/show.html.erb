@@ -1,5 +1,19 @@
-<% content_for :title, "Person: #{@entities_person}" %>
+<% content_for :title, @entities_person.name %>
+<% involvements = Events::Involvement.where(entity: @entities_person).includes(:event).sort_by { |involvement| involvement.event.start_date || Date.new(0) }.reverse %>
 
-<%= render Entities::PersonComponent.new(@entities_person) %>
+<div class="person-page">
+  <%= render Entities::PersonComponent.new(@entities_person) %>
+</div>
 
-<%= link_to "Back to all speakers", entities_people_path %>
+<% if involvements.any? %>
+  <h2 class="section-title">Helped out at</h2>
+  <ul>
+    <% involvements.each do |involvement| %>
+      <li><%= link_to involvement.event, involvement.event %> <span class="muted">as <%= involvement.role %></span></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<p class="page-actions">
+  <%= link_to "← All speakers", entities_people_path %>
+</p>

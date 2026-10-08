@@ -1,49 +1,93 @@
 :root {
-  --background-body: #fff;
-  --background: #efefef;
-  --background-alt: #f7f7f7;
-  --selection: #9e9e9e;
-  --text-main: #363636;
-  --text-bright: #000;
-  --text-muted: #70777f;
-  --links: #d10000;
-  --focus: #bf0000ab;
-  --border: #dbdbdb;
-  --code: #000;
-  --animation-duration: 0.1s;
-  --button-base: #d0cfcf;
-  --button-hover: #9b9b9b;
-  --scrollbar-thumb: rgb(170, 170, 170);
-  --scrollbar-thumb-hover: var(--button-hover);
-  --form-placeholder: #949494;
-  --form-text: #1d1d1d;
-  --variable: #39a33c;
-  --highlight: #ff0;
+  /* Poster palette: screen-printed crimson (from the lion logo), ink and cream */
+  --crimson: #c1121f;
+  --crimson-deep: #8e0c16;
+  --crimson-dark: #6a0811;
+  --crimson-light: #e0323e;
+  --crimson-tint: #f6d9d3;
+  --ink: #141111;
+  --cream: #f4ecdc;
+  --mustard: #f2b705;
+  --paper: #fffaf0;
+  --paper-fold: #e6d9bf;
+
+  /* Lines, hard offset shadows and the colours drawn on solid crimson/ink blocks */
+  --line: var(--ink);
+  --line-width: 3px;
+  --shadow-color: var(--ink);
+  --shadow-hard: 6px 6px 0 var(--shadow-color);
+  --shadow-hard-small: 4px 4px 0 var(--shadow-color);
+  --on-block: #fff8ea;
+  --header-background: var(--ink);
+  --header-accent: var(--crimson);
+  --header-accent-text: var(--on-block);
+
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+  /* Heavy condensed poster type from fonts that ship with the OS (no font downloads) */
+  --font-display: 'Helvetica Neue Condensed', 'HelveticaNeue-CondensedBlack', 'Arial Narrow', 'Roboto Condensed', 'Oswald', 'Liberation Sans Narrow', 'Nimbus Sans Narrow', 'DejaVu Sans Condensed', Impact, 'Arial Black', sans-serif;
+  --content-width: 960px;
+  --gutter: 20px;
+  --radius: 0;
+
+  --background-body: var(--cream);
+  --background: #e9dec7;
+  --background-alt: var(--paper);
+  --background-card: var(--paper);
+  --selection: var(--mustard);
+  --text-main: #2a2424;
+  --text-bright: var(--ink);
+  --text-muted: #6b5f57;
+  --links: var(--crimson);
+  --links-hover: var(--crimson-deep);
+  --focus: var(--mustard);
+  --border: #cdbfa3;
+  --code: var(--crimson-deep);
+  --animation-duration: 0.12s;
+  --button-base: var(--crimson);
+  --button-hover: var(--crimson-deep);
+  --button-text: #fff8ea;
+  --scrollbar-thumb: var(--ink);
+  --scrollbar-thumb-hover: var(--crimson);
+  --form-placeholder: #8d8076;
+  --form-text: var(--ink);
+  --variable: #2f7d32;
+  --highlight: var(--mustard);
   --select-arrow: url("select-arrow.svg");
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-body: #202b38;
-    --background: #161f27;
-    --background-alt: #1a242f;
-    --selection: #1c76c5;
-    --text-main: #dbdbdb;
-    --text-bright: #fff;
-    --text-muted: #a9b1ba;
-    --links: #ff4141;
-    --focus: #bf0000ab;
-    --border: #526980;
-    --code: #ffbe85;
-    --animation-duration: 0.1s;
-    --button-base: #0c151c;
-    --button-hover: #040a0f;
-    --scrollbar-thumb: var(--button-hover);
-    --scrollbar-thumb-hover: rgb(0, 0, 0);
-    --form-placeholder: #a9a9a9;
-    --form-text: #fff;
-    --variable: #d941e2;
-    --highlight: #efdb43;
-    --select-arrow: url("select-arrow.svg");
+    --crimson: #d4202d;
+    --crimson-light: #ff4b55;
+    --crimson-tint: #3b1316;
+    --paper: #1f1a19;
+    --paper-fold: #3a302c;
+
+    --line: var(--cream);
+    --shadow-color: var(--crimson);
+    --header-background: var(--crimson);
+    --header-accent: var(--cream);
+    --header-accent-text: var(--crimson-deep);
+
+    --background-body: #110e0e;
+    --background: #2a2321;
+    --background-alt: #1a1615;
+    --background-card: var(--paper);
+    --selection: var(--crimson-deep);
+    --text-main: #e6dccb;
+    --text-bright: var(--cream);
+    --text-muted: #a99d8e;
+    --links: #ff5c64;
+    --links-hover: #ff9ba0;
+    --border: #4a3f3a;
+    --code: #ffb3a8;
+    --button-base: var(--crimson);
+    --button-hover: var(--crimson-deep);
+    --scrollbar-thumb: #4a3f3a;
+    --scrollbar-thumb-hover: var(--crimson);
+    --form-placeholder: #8f817c;
+    --form-text: var(--cream);
+    --variable: #8bd18e;
+    --highlight: #c9a227;
   }
 }

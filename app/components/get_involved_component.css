@@ -1,0 +1,67 @@
+.get-involved {
+  .get-involved--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 28px;
+  }
+
+  .get-involved--tile {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 84px;
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 1.6rem;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    a {
+      margin-top: auto;
+      font-family: var(--font-display);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+  }
+
+  /* Each tile carries one Bauhaus shape: circle, triangle, square */
+  .get-involved--tile::before {
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 26px;
+    width: 46px;
+    height: 46px;
+    box-sizing: border-box;
+  }
+
+  .get-involved--tile:nth-child(3n + 1)::before {
+    border-radius: 50%;
+    background: var(--crimson);
+  }
+
+  .get-involved--tile:nth-child(3n + 2)::before {
+    background: var(--text-bright);
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  }
+
+  .get-involved--tile:nth-child(3n)::before {
+    background: var(--mustard);
+    border: var(--line-width) solid var(--line);
+  }
+
+  @media (max-width: 640px) {
+    .get-involved--tile {
+      padding-top: 76px;
+    }
+
+    .get-involved--tile::before {
+      left: 16px;
+      top: 18px;
+    }
+  }
+}

@@ -1,0 +1,155 @@
+.organizations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.organizations-grid-single {
+  grid-template-columns: minmax(0, 640px);
+}
+
+.organization-card {
+  padding: 36px 24px 24px;
+  box-shadow: inset 0 12px 0 var(--crimson), var(--shadow-hard);
+  min-width: 0;
+  overflow-wrap: anywhere;
+
+  .organization-card--header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .organization-card--logo {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    padding: 6px;
+    box-sizing: border-box;
+    background: #fff;
+    border: var(--line-width) solid var(--line);
+
+    img {
+      max-height: 100%;
+    }
+  }
+
+  .organization-card--name {
+    margin: 0;
+    font-size: 1.7rem;
+    line-height: 1;
+
+    a {
+      color: var(--text-bright);
+    }
+  }
+
+  .organization-card--label {
+    margin: 20px 0 6px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--line);
+    color: var(--links);
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  ul {
+    margin: 0 0 16px;
+    padding-left: 1.1rem;
+  }
+}
+
+/* Big poster call to action with a Bauhaus sun and a folded triangle */
+.call-out {
+  position: relative;
+  overflow: hidden;
+  margin-top: 56px;
+  padding: 32px 36px;
+  padding-right: max(36px, 28%);
+  border: var(--line-width) solid var(--line);
+  box-shadow: 8px 8px 0 var(--line);
+
+  &::before {
+    content: '';
+    position: absolute;
+    right: -60px;
+    top: -60px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: var(--ink);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 110px;
+    background: linear-gradient(45deg, var(--mustard) 0 50%, #d39b00 50% 100%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  h2 {
+    margin-top: 0;
+    font-size: 2.6rem;
+    line-height: 0.95;
+    color: var(--on-block);
+  }
+
+  .button {
+    background: var(--on-block);
+    color: var(--ink);
+    border-color: var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+  }
+
+  .button:hover {
+    background: var(--mustard);
+    color: var(--ink);
+    box-shadow: 2px 2px 0 var(--ink);
+  }
+
+  .button-secondary {
+    background: var(--crimson-deep);
+    color: var(--on-block);
+  }
+
+  .button-secondary:hover {
+    background: var(--ink);
+    color: var(--on-block);
+  }
+
+  @media (max-width: 640px) {
+    padding: 24px 18px;
+    padding-right: 18px;
+
+    &::before {
+      width: 140px;
+      height: 140px;
+      right: -50px;
+      top: -50px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      padding-right: 70px;
+    }
+  }
+}

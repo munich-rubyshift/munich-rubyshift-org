@@ -1,172 +1,96 @@
-<article id="<%= dom_id event %>">
-  <p>
-    <strong>Slug:</strong>
-    <%= event.slug %>
-  </p>
+<% sponsorships = event.sponsor_tiers.flat_map { |tier| tier.organizations.map { |organization| [ organization, tier ] } } %>
+<% links = { "Meetup" => event.meetup, "Website" => event.website, "YouTube" => event.youtube, "Luma" => event.luma, "GitHub" => event.github, "Mastodon" => event.mastodon }.compact_blank %>
 
-  <p>
-    <strong>Title:</strong>
-    <%= event.title %>
-  </p>
+<article id="<%= dom_id event %>" class="event-page">
+  <header class="event-page--header">
+    <%= render Events::DateBadgeComponent.new(event.start_date, precision: event.date_precision.presence || "day") %>
+    <div>
+      <h1>
+        <%= event_title(event) %>
+        <% if event.cancelled? %><span class="tag tag-muted">Cancelled</span><% end %>
+        <% if event.status == "postponed" %><span class="tag tag-muted">Postponed</span><% end %>
+      </h1>
+      <% if event.tickets_url.present? || links.any? %>
+        <p>
+          <% if event.tickets_url.present? %>
+            <%= link_to event_upcoming?(event) ? "RSVP" : "Event page", event.tickets_url, class: "button", target: "_blank", rel: "noopener noreferrer" %>
+          <% end %>
+          <% links.each do |name, url| %>
+            <%= link_to name, url, class: "button button-secondary", target: "_blank", rel: "noopener noreferrer" %>
+          <% end %>
+        </p>
+      <% end %>
+    </div>
+  </header>
 
-  <p>
-    <strong>Rubyevents slug:</strong>
-    <%= event.rubyevents_slug %>
-  </p>
+  <dl class="facts">
+    <div>
+      <dt>Date</dt>
+      <dd><%= event_date(event) %></dd>
+    </div>
+    <% if (time_range = event_time_range(event)) %>
+      <div>
+        <dt>Time</dt>
+        <dd><%= time_range %></dd>
+      </div>
+    <% end %>
+    <% if event.venue %>
+      <div>
+        <dt>Venue</dt>
+        <dd>
+          <%= link_to event.venue, event.venue %>
+          <% if event.venue.address %><br><span class="muted"><%= event.venue.address %></span><% end %>
+        </dd>
+      </div>
+    <% end %>
+    <% if event.attendance_mode.present? && event.attendance_mode != "in_person" %>
+      <div>
+        <dt>Attendance</dt>
+        <dd><%= event.attendance_mode.humanize %></dd>
+      </div>
+    <% end %>
+    <% if event.participants.any? %>
+      <div>
+        <dt>Participants</dt>
+        <dd><%= event.participants.count %></dd>
+      </div>
+    <% end %>
+  </dl>
 
-  <p>
-    <strong>Venue:</strong>
-    <%= link_to event.venue if event.venue %>
-  </p>
-
-  <p>
-    <strong>Participants:</strong>
-    <%= event.participants.count %>
-  </p>
-
-  <p>
-    <strong>Talks:</strong><br>
-    <ul>
+  <% if event.talks.any? %>
+    <h2 class="section-title">Talks</h2>
+    <ul class="event-page--talks">
       <% event.talks.each do |talk| %>
-        <li><%= link_to talk %> by <%= talk.speakers.join(", ") %></li>
+        <li>
+          <%= link_to talk, talk %>
+          <% if talk.speakers.any? %><span class="muted">by <%= safe_join(talk.speakers.map { |speaker| link_to(speaker, speaker) }, ", ") %></span><% end %>
+        </li>
       <% end %>
     </ul>
-  </p>
+  <% end %>
 
-  <p>
-    <strong>Sponsors:</strong><br>
+  <% if event.description.present? %>
+    <h2 class="section-title">About this event</h2>
+    <div class="event-page--description">
+      <%= simple_format(event.description) %>
+    </div>
+  <% end %>
+
+  <% if sponsorships.any? %>
+    <h2 class="section-title">Sponsors</h2>
     <ul>
-      <% event.sponsor_tiers.each do |sponsor_tier| %>
-        <% sponsor_tier.organizations.each do |organization| %>
-          <li><%= link_to organization %> (<%= sponsor_tier %>)</li>
-        <% end %>
+      <% sponsorships.each do |organization, tier| %>
+        <li><%= link_to organization, organization %> <span class="muted">(<%= tier %>)</span></li>
       <% end %>
     </ul>
-  </p>
+  <% end %>
 
-  <p>
-    <strong>Description:</strong>
-    <%= event.description %>
-  </p>
-
-  <p>
-    <strong>Kind:</strong>
-    <%= event.kind %>
-  </p>
-
-  <p>
-    <strong>Attendance mode:</strong>
-    <%= event.attendance_mode %>
-  </p>
-
-  <p>
-    <strong>Status:</strong>
-    <%= event.status %>
-  </p>
-
-  <p>
-    <strong>Last edition:</strong>
-    <%= event.last_edition %>
-  </p>
-
-  <p>
-    <strong>Start date:</strong>
-    <%= event.start_date %>
-  </p>
-
-  <p>
-    <strong>Start time:</strong>
-    <%= event.start_time %>
-  </p>
-
-  <p>
-    <strong>End date:</strong>
-    <%= event.end_date %>
-  </p>
-
-  <p>
-    <strong>End time:</strong>
-    <%= event.end_time %>
-  </p>
-
-  <p>
-    <strong>Published at:</strong>
-    <%= event.published_at %>
-  </p>
-
-  <p>
-    <strong>Announced on:</strong>
-    <%= event.announced_on %>
-  </p>
-
-  <p>
-    <strong>Date precision:</strong>
-    <%= event.date_precision %>
-  </p>
-
-  <p>
-    <strong>Channel:</strong>
-    <%= event.channel_id %>
-  </p>
-
-  <p>
-    <strong>Playlist:</strong>
-    <%= event.playlist %>
-  </p>
-
-  <p>
-    <strong>Website:</strong>
-    <%= event.website %>
-  </p>
-
-  <p>
-    <strong>Twitter:</strong>
-    <%= event.twitter %>
-  </p>
-
-  <p>
-    <strong>Mastodon:</strong>
-    <%= event.mastodon %>
-  </p>
-
-  <p>
-    <strong>Github:</strong>
-    <%= event.github %>
-  </p>
-
-  <p>
-    <strong>Meetup:</strong>
-    <%= event.meetup %>
-  </p>
-
-  <p>
-    <strong>Luma:</strong>
-    <%= event.luma %>
-  </p>
-
-  <p>
-    <strong>Youtube:</strong>
-    <%= event.youtube %>
-  </p>
-
-  <p>
-    <strong>Tickets url:</strong>
-    <%= event.tickets_url %>
-  </p>
-
-  <p>
-    <strong>Banner background:</strong>
-    <%= event.banner_background %>
-  </p>
-
-  <p>
-    <strong>Featured background:</strong>
-    <%= event.featured_background %>
-  </p>
-
-  <p>
-    <strong>Featured color:</strong>
-    <%= event.featured_color %>
-  </p>
-
+  <% if event.involvements.any? %>
+    <h2 class="section-title">Thanks to</h2>
+    <ul>
+      <% event.involvements.includes(:entity).group_by(&:role).each do |role, involvements| %>
+        <li><%= role %>: <%= safe_join(involvements.map { |involvement| link_to(involvement.entity, involvement.entity) }, ", ") %></li>
+      <% end %>
+    </ul>
+  <% end %>
 </article>

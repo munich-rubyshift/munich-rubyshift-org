@@ -1,11 +1,10 @@
-<% content_for :title, "Venue: #{@venues_venue.slug}" %>
+<% content_for :title, @venues_venue.name %>
 
 <%= render @venues_venue %>
 
-<% if defined?(Avo) %>
-  <p>
+<p class="page-actions">
+  <%= link_to "← All venues", venues_venues_path %>
+  <% if defined?(Avo) %>
     <%= link_to "✏️", avo.resources_venues_venue_path(@venues_venue), "up-follow": false %>
-  </p>
-<% end %>
-
-<%= link_to "Back to all venues", venues_venues_path %>
+  <% end %>
+</p>

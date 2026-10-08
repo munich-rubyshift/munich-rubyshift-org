@@ -1,0 +1,68 @@
+.events-list-upcoming {
+  display: grid;
+  gap: 32px;
+}
+
+/* Past years: a giant crimson year number next to the list */
+.events-list-year {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 0 28px;
+  border-top: 6px solid var(--line);
+  margin-top: 12px;
+
+  .events-list-year--title {
+    margin: 12px 0 0;
+    font-size: 3.2rem;
+    line-height: 0.9;
+    color: var(--crimson);
+  }
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+
+    .events-list-year--title {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.events-list > .events---event-card:last-child {
+  border-bottom: 0;
+}
+
+/* Event detail page */
+.event-page {
+  .event-page--header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    gap: 22px;
+    margin-bottom: 28px;
+
+    .events---date-badge {
+      width: 6.5rem;
+      box-shadow: var(--shadow-hard);
+    }
+
+    .events---date-badge--main {
+      font-size: 3.4rem;
+    }
+
+    h1 {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 520px) {
+      flex-direction: column;
+    }
+  }
+
+  .event-page--talks li::marker {
+    color: var(--crimson);
+  }
+
+  .event-page--description {
+    overflow-wrap: anywhere;
+  }
+}

@@ -1,7 +1,95 @@
-.entities---person {}
+.entities---person {
+  padding: 22px 24px;
+  min-width: 0;
+  overflow-wrap: anywhere;
 
-.entities---person--social-media {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 0.5rem;
+  .entities---person--header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* Initials on a crimson Bauhaus circle */
+  .entities---person--avatar {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: var(--line-width) solid var(--line);
+    background: var(--crimson);
+    color: var(--on-block);
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    box-shadow: 3px 3px 0 var(--line);
+  }
+
+  &:nth-child(3n + 2) .entities---person--avatar {
+    background: var(--text-bright);
+    color: var(--background-body);
+    box-shadow: 3px 3px 0 var(--crimson);
+  }
+
+  &:nth-child(3n) .entities---person--avatar {
+    background: var(--mustard);
+    color: var(--ink);
+  }
+
+  .entities---person--name {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1;
+
+    a {
+      color: var(--text-bright);
+    }
+
+    a:hover {
+      color: var(--links);
+      text-decoration: none;
+    }
+  }
+
+  .entities---person--talks {
+    margin: 16px 0 0;
+    padding-left: 1.1rem;
+
+    li::marker {
+      color: var(--crimson);
+    }
+  }
+
+  .entities---person--links {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px;
+    margin: 18px 0 0;
+
+    a {
+      padding: 3px 10px 2px;
+      border: 2px solid var(--line);
+      color: var(--text-bright);
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background: var(--text-bright);
+      color: var(--background-card);
+    }
+  }
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 28px;
 }

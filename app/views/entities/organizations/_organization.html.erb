@@ -1,51 +1,32 @@
-<article id="<%= dom_id organization %>">
-  <p>
-    <strong>Slug:</strong>
-    <%= organization.slug %>
-  </p>
+<% sponsor_tiers = organization.sponsor_tiers.includes(:event).sort_by { |tier| tier.event.start_date || Date.new(0) }.reverse %>
 
-  <p>
-    <strong>Name:</strong>
-    <%= organization.name %>
-  </p>
+<article id="<%= dom_id organization %>" class="organization-card origami-paper">
+  <div class="organization-card--header">
+    <% if organization.logo_url.present? %>
+      <span class="organization-card--logo" style="<%= "background: #{organization.logo_background}" if organization.logo_background.to_s.match?(/\A#\h{3,8}\z/) %>">
+        <%= image_tag organization.logo_url, alt: "#{organization.name} logo" %>
+      </span>
+    <% end %>
+    <div>
+      <h2 class="organization-card--name"><%= link_to organization.name, organization %></h2>
+      <% if organization.main_location.present? %><p class="muted"><%= organization.main_location %></p><% end %>
+    </div>
+  </div>
 
-  <p>
-    <strong>Rubyevents slug:</strong>
-    <%= organization.rubyevents_slug %>
-  </p>
+  <% if organization.description.present? %>
+    <%= simple_format(organization.description) %>
+  <% end %>
 
-  <p>
-    <strong>Sponsored events:</strong><br>
+  <% if sponsor_tiers.any? %>
+    <p class="organization-card--label">Supported</p>
     <ul>
-      <% organization.sponsor_tiers.each do |sponsor_tier| %>
-        <li><%= link_to sponsor_tier.event %> (<%= sponsor_tier %>)</li>
+      <% sponsor_tiers.each do |sponsor_tier| %>
+        <li><%= link_to sponsor_tier.event, sponsor_tier.event %> <span class="muted">· <%= sponsor_tier %></span></li>
       <% end %>
     </ul>
-  </p>
+  <% end %>
 
-  <p>
-    <strong>Description:</strong>
-    <%= organization.description %>
-  </p>
-
-  <p>
-    <strong>Website:</strong>
-    <%= organization.website %>
-  </p>
-
-  <p>
-    <strong>Logo background:</strong>
-    <%= organization.logo_background %>
-  </p>
-
-  <p>
-    <strong>Logo url:</strong>
-    <%= organization.logo_url %>
-  </p>
-
-  <p>
-    <strong>Main location:</strong>
-    <%= organization.main_location %>
-  </p>
-
+  <% if organization.website.present? %>
+    <p><%= link_to "Visit website", organization.website, class: "button button-secondary", target: "_blank", rel: "noopener noreferrer" %></p>
+  <% end %>
 </article>
