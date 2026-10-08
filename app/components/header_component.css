@@ -1,26 +1,169 @@
 .header {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  gap: 20px;
+  padding: 26px 0 0;
 
-  img {
-    height: 100px;
+  /* The hairline stays within the content column */
+  .header--inner {
+    width: min(100% - 2 * var(--gutter), var(--content-width) - 2 * var(--gutter));
+    margin: 0 auto;
+    padding: 0 0 22px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px 24px;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  .header--brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: var(--text-bright);
+    text-decoration: none;
+  }
+
+  /* The lion as a small square hanko seal */
+  .header--logo {
+    flex: none;
+    display: block;
+    width: 46px;
+    height: 46px;
+    padding: 3px;
+    box-sizing: border-box;
+    background: var(--seal);
+    border-radius: 3px;
+    transform: rotate(-3deg);
+    transition: transform var(--animation-duration) ease;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 30%;
+      border-radius: 1px;
+    }
+  }
+
+  .header--brand:hover .header--logo {
+    transform: rotate(0deg);
   }
 
   .header--text {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    gap: 2px;
+  }
 
-    .header--title {
-      margin: 0;
+  .header--title {
+    font-family: var(--font-display);
+    font-size: 1.45rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 1.1;
+  }
+
+  .header--tagline {
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  .header--nav {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    gap: 6px;
+  }
+
+  .header--links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    gap: 4px 26px;
+
+    a {
+      position: relative;
+      color: var(--text-bright);
+      font-size: 0.95rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      padding: 4px 0 6px;
+      text-decoration: none;
+      transition: color var(--animation-duration) linear;
     }
 
-    nav {
-      display: flex;
-      flex-flow: row wrap;
-      gap: 20px;
+    a:hover {
+      color: var(--links);
+    }
+
+    /* A small red seal dot under the current section */
+    a.header--link-current {
+      color: var(--links);
+    }
+
+    a.header--link-current::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -3px;
+      width: 5px;
+      height: 5px;
+      margin-left: -2.5px;
+      border-radius: 50%;
+      background: var(--seal);
+    }
+  }
+
+  .header--links-external {
+    gap: 2px 18px;
+
+    a {
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      padding: 0;
+    }
+  }
+
+  .header--links-external a::after {
+    content: ' \2197\FE0E';
+    font-size: 0.8em;
+  }
+
+  @media (max-width: 720px) {
+    .header--nav {
+      align-items: flex-start;
+      width: 100%;
+    }
+
+    .header--links {
+      justify-content: flex-start;
+      gap: 4px 22px;
+    }
+
+    .header--links-external {
+      gap: 2px 16px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    padding-top: 20px;
+
+    .header--logo {
+      width: 40px;
+      height: 40px;
+    }
+
+    .header--title {
+      font-size: 1.3rem;
+    }
+
+    .header--links {
+      gap: 4px 18px;
     }
   }
 }

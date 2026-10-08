@@ -1,0 +1,105 @@
+.organizations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.organizations-grid-single {
+  grid-template-columns: minmax(0, 640px);
+}
+
+.organization-card {
+  padding: 26px 28px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+
+  .organization-card--header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .organization-card--logo {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    padding: 6px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid var(--hairline);
+
+    img {
+      max-height: 100%;
+    }
+  }
+
+  .organization-card--name {
+    margin: 0;
+    font-weight: 500;
+
+    a {
+      color: var(--text-bright);
+    }
+  }
+
+  .organization-card--label {
+    margin: 18px 0 4px;
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  ul {
+    margin: 0 0 16px;
+    padding-left: 1.1rem;
+  }
+}
+
+/* A quiet call to action, with the lion seal pressed into the corner */
+.call-out {
+  margin: 56px 6px 6px;
+  padding: 32px 36px;
+  padding-right: max(36px, 22%);
+
+  h2 {
+    margin-top: 0;
+    font-weight: 500;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    width: 64px;
+    height: 64px;
+    margin-top: -32px;
+    box-sizing: border-box;
+    border: 4px solid var(--seal);
+    border-radius: 4px;
+    background: var(--seal) url("../images/munich_rubyshift.webp") center 30% / cover no-repeat;
+    transform: rotate(-6deg);
+    opacity: 0.92;
+  }
+
+  @media (max-width: 640px) {
+    padding: 24px 20px;
+
+    &::after {
+      display: none;
+    }
+  }
+}

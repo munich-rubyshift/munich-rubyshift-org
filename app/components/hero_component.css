@@ -1,0 +1,120 @@
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 48px;
+  margin: 8px 0 24px;
+
+  .hero--kicker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 18px;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+  }
+
+  .hero--kicker::before {
+    content: '';
+    width: 28px;
+    height: 1px;
+    background: var(--seal);
+  }
+
+  .hero--title {
+    margin: 0 0 22px;
+    padding: 0;
+    font-size: clamp(2.1rem, 5vw, 3.2rem);
+    font-weight: 400;
+    line-height: 1.12;
+
+    span {
+      color: var(--links);
+      font-style: italic;
+    }
+  }
+
+  /* No underline mark, the hero has its own art */
+  .hero--title::after {
+    display: none;
+  }
+
+  .hero--lead {
+    font-size: 1.12rem;
+    line-height: 1.65;
+    margin: 0 0 28px;
+    max-width: 34em;
+  }
+
+  .hero--actions {
+    margin: 0;
+  }
+
+  /* The lion as a large seal, a pale sun behind it and a hairline frame */
+  .hero--art {
+    position: relative;
+    aspect-ratio: 1;
+    width: 100%;
+    max-width: 300px;
+    justify-self: center;
+  }
+
+  .hero--fold {
+    position: absolute;
+  }
+
+  .hero--fold-1 {
+    inset: 0;
+    border-radius: 50%;
+    background: var(--crimson-tint);
+    opacity: 0.8;
+  }
+
+  /* One long crease across the sheet */
+  .hero--fold-2 {
+    inset: -4%;
+    background: linear-gradient(118deg, transparent 0 calc(50% - 0.5px), var(--hairline-strong) calc(50% - 0.5px) calc(50% + 0.5px), transparent calc(50% + 0.5px) 100%);
+    opacity: 0.45;
+  }
+
+  .hero--fold-3 {
+    inset: 18% 14% 14% 18%;
+    border: 1px solid var(--hairline-strong);
+  }
+
+  .hero--logo {
+    position: absolute;
+    inset: 22% 22% 22% 22%;
+    width: 56%;
+    height: 56%;
+    padding: 7px;
+    box-sizing: border-box;
+    background: var(--seal);
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center 30%;
+    transform: rotate(-4deg);
+    transition: transform 0.4s ease;
+  }
+
+  .hero--art:hover .hero--logo {
+    transform: rotate(0deg);
+  }
+
+  @media (max-width: 720px) {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+
+    /* The header already shows the logo on small screens */
+    .hero--art {
+      display: none;
+    }
+  }
+}
+
+.hero--next .section-title {
+  margin-top: 40px;
+}

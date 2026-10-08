@@ -31,7 +31,7 @@ select {
   margin-bottom: 6px;
   padding: 10px;
   border: none;
-  border-radius: 6px;
+  border-radius: var(--radius);
   outline: none;
 }
 
@@ -40,8 +40,11 @@ input[type='submit'],
 input[type='reset'],
 input[type='button'] {
   background-color: var(--button-base);
+  color: var(--button-text);
+  font-weight: 600;
   padding-right: 30px;
   padding-left: 30px;
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%);
 }
 
 button:hover,
@@ -148,7 +151,7 @@ textarea:disabled {
 
 fieldset {
   border: 1px var(--focus) solid;
-  border-radius: 6px;
+  border-radius: var(--radius);
   margin: 0;
   margin-bottom: 12px;
   padding: 10px;

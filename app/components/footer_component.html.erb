@@ -1,9 +1,15 @@
 <footer class="footer" data-compiler="footer" up-data="<%= {  }.to_json %>">
-  <nav>
-    <%= link_to "Imprint", page_path("imprint") %>
-    <% if Rails.env.development? %>
-      <%= link_to "Lookbook", lookbook_path, "up-follow": false %>
-      <%= link_to "Jasmine", jasmine_index_path, "up-follow": false %>
-    <% end %>
-  </nav>
+  <div class="footer--inner">
+    <div class="footer--brand">
+      <%= image_tag("munich_rubyshift.webp", alt: "", class: "footer--logo") %>
+      <span>Munich Rubyshift · Munich's Ruby meetup</span>
+    </div>
+    <nav aria-label="Footer">
+      <%= link_to "Imprint", page_path("imprint") %>
+      <% if Rails.env.development? %>
+        <%= link_to "Lookbook", lookbook_path, "up-follow": false %>
+        <%= link_to "Jasmine", jasmine_index_path, "up-follow": false %>
+      <% end %>
+    </nav>
+  </div>
 </footer>

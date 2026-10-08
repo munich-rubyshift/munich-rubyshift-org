@@ -1,0 +1,79 @@
+.events-list-upcoming {
+  display: grid;
+  gap: 24px;
+}
+
+.events-list-year {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 0 24px;
+  border-top: 1px solid var(--hairline-strong);
+  margin-top: 8px;
+
+  .events-list-year--title {
+    margin: 18px 0 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+  }
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+
+    .events-list-year--title {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.events-list > .events---event-card:last-child {
+  border-bottom: 0;
+}
+
+/* Event detail page */
+.event-page {
+  .event-page--header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    gap: 22px;
+    margin-bottom: 28px;
+
+    .events---date-badge {
+      width: 6rem;
+      padding-right: 20px;
+    }
+
+    .events---date-badge--main {
+      font-size: 3rem;
+    }
+
+    h1 {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 520px) {
+      flex-direction: column;
+      gap: 14px;
+
+      .events---date-badge {
+        flex-flow: row nowrap;
+        align-items: baseline;
+        gap: 8px;
+        width: auto;
+        padding: 0;
+        border-right: 0;
+      }
+
+      .events---date-badge--main {
+        order: -1;
+        font-size: 2.2rem;
+      }
+    }
+  }
+
+  .event-page--description {
+    overflow-wrap: anywhere;
+  }
+}

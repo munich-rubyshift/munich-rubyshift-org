@@ -1,0 +1,17 @@
+<article id="<%= dom_id talk %>" class="talks---talk-card origami-paper" data-compiler="talks-talk-card" up-data="<%= {  }.to_json %>">
+  <h3 class="talks---talk-card--title"><%= link_to talk, talk %></h3>
+
+  <% if talk.speakers.any? %>
+    <p class="talks---talk-card--speakers">
+      <%= safe_join(talk.speakers.map { |speaker| link_to(speaker, speaker) }, ", ") %>
+    </p>
+  <% end %>
+
+  <% if talk.description.present? %>
+    <p class="talks---talk-card--description"><%= truncate(talk.description, length: 220, separator: " ") %></p>
+  <% end %>
+
+  <p class="talks---talk-card--event muted">
+    <%= link_to talk.event, talk.event %> · <%= event_date(talk.event) %>
+  </p>
+</article>

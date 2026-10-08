@@ -1,126 +1,41 @@
-<article id="<%= dom_id talk %>">
-  <p>
-    <strong>Slug:</strong>
-    <%= talk.slug %>
+<% resources = { "Slides" => talk.slides_url, "Video" => talk.external_player_url.presence || (talk.video_id.presence && talk.video_provider == "youtube" && "https://www.youtube.com/watch?v=#{talk.video_id}") }.compact_blank %>
+
+<article id="<%= dom_id talk %>" class="talk-page">
+  <p class="talk-page--kicker">
+    <%= link_to talk.event, talk.event %> · <%= event_date(talk.event) %>
   </p>
 
-  <p>
-    <strong>Title:</strong>
-    <%= talk.title %>
-  </p>
+  <h1><%= talk.title %></h1>
 
-  <p>
-    <strong>Rubyevents slug:</strong>
-    <%= talk.rubyevents_slug %>
-  </p>
+  <% if talk.speakers.any? %>
+    <p class="talk-page--speakers">
+      by <%= safe_join(talk.speakers.map { |speaker| link_to(speaker, speaker) }, ", ") %>
+    </p>
+  <% end %>
 
-  <p>
-    <strong>Speakers:</strong><br>
-    <ul>
-      <% talk.speakers.each do |speaker| %>
-        <li><%= link_to speaker %></li>
+  <% if resources.any? || talk.additional_resources.any? %>
+    <p>
+      <% resources.each do |name, url| %>
+        <%= link_to name, url, class: "button", target: "_blank", rel: "noopener noreferrer" %>
       <% end %>
-    </ul>
-  </p>
+      <% talk.additional_resources.each do |resource| %>
+        <%= link_to resource.name, resource.url, class: "button button-secondary", target: "_blank", rel: "noopener noreferrer" %>
+      <% end %>
+    </p>
+  <% end %>
 
-  <p>
-    <strong>Event:</strong>
-    <%= link_to talk.event %>
-  </p>
+  <% if talk.description.present? %>
+    <div class="talk-page--description">
+      <%= simple_format(talk.description) %>
+    </div>
+  <% end %>
 
-  <p>
-    <strong>Description:</strong>
-    <%= talk.description %>
-  </p>
-
-  <p>
-    <strong>Raw title:</strong>
-    <%= talk.raw_title %>
-  </p>
-
-  <p>
-    <strong>Original title:</strong>
-    <%= talk.original_title %>
-  </p>
-
-  <p>
-    <strong>Slides url:</strong>
-    <%= talk.slides_url %>
-  </p>
-
-  <p>
-    <strong>External:</strong>
-    <%= talk.external_id %>
-  </p>
-
-  <p>
-    <strong>Kind:</strong>
-    <%= talk.kind %>
-  </p>
-
-  <p>
-    <strong>Status:</strong>
-    <%= talk.status %>
-  </p>
-
-  <p>
-    <strong>Date:</strong>
-    <%= talk.date %>
-  </p>
-
-  <p>
-    <strong>Time:</strong>
-    <%= talk.time %>
-  </p>
-
-  <p>
-    <strong>Published at:</strong>
-    <%= talk.published_at %>
-  </p>
-
-  <p>
-    <strong>Announced at:</strong>
-    <%= talk.announced_at %>
-  </p>
-
-  <p>
-    <strong>Removed:</strong>
-    <%= talk.removed %>
-  </p>
-
-  <p>
-    <strong>Location:</strong>
-    <%= talk.location %>
-  </p>
-
-  <p>
-    <strong>Video provider:</strong>
-    <%= talk.video_provider %>
-  </p>
-
-  <p>
-    <strong>Video:</strong>
-    <%= talk.video_id %>
-  </p>
-
-  <p>
-    <strong>External player:</strong>
-    <%= talk.external_player %>
-  </p>
-
-  <p>
-    <strong>External player url:</strong>
-    <%= talk.external_player_url %>
-  </p>
-
-  <p>
-    <strong>Track:</strong>
-    <%= talk.track %>
-  </p>
-
-  <p>
-    <strong>Language:</strong>
-    <%= talk.language %>
-  </p>
-
+  <% if talk.speakers.any? %>
+    <h2 class="section-title"><%= "Speaker".pluralize(talk.speakers.size) %></h2>
+    <div class="people-grid">
+      <% talk.speakers.each do |speaker| %>
+        <%= render Entities::PersonComponent.new(speaker) %>
+      <% end %>
+    </div>
+  <% end %>
 </article>

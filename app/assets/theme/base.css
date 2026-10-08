@@ -4,14 +4,15 @@ html {
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
-  line-height: 1.4;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 10px;
+  font-family: var(--font-body);
+  line-height: 1.55;
+  margin: 0;
+  padding: 0;
   word-wrap: break-word;
   color: var(--text-main);
-  background: var(--background-body);
+  background-color: var(--background-body);
+  background-image: var(--washi-texture);
+  background-attachment: fixed;
   text-rendering: optimizeLegibility;
 }
 

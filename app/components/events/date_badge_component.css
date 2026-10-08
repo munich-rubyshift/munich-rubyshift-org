@@ -1,0 +1,43 @@
+/* A minimal vertical date: month, a red day number and the year */
+.events---date-badge {
+  flex: none;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-sizing: border-box;
+  width: 4.5rem;
+  padding: 2px 12px 4px 0;
+  border-right: 1px solid var(--hairline);
+  background: none;
+  color: var(--text-bright);
+  font-family: var(--font-display);
+  line-height: 1.1;
+  text-align: center;
+  /* Override the inline code look of <time> from the theme */
+  border-radius: 0;
+  font-size: 1rem;
+}
+
+.events---date-badge--top {
+  min-height: 1em;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.events---date-badge--main {
+  padding: 2px 0 1px;
+  color: var(--links);
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.events---date-badge--bottom {
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+}
