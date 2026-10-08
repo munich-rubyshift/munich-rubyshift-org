@@ -1,10 +1,30 @@
 .header {
+  position: relative;
   color: #fff;
-  /* Folded bottom edge */
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 28px), 62% 100%, 0 calc(100% - 14px));
-  padding: 28px 0 56px;
+  /* Night sky of dark crimson facets, glowing ruby towards the right */
+  background-color: #12070a;
+  background-image:
+    var(--mesh),
+    radial-gradient(ellipse 45% 140% at 78% 0%, rgb(255 61 90 / 0.5), transparent 70%),
+    linear-gradient(100deg, #0d0709 0%, #2a0710 45%, #7d0a1b 100%);
+  background-size: 1600px auto, auto, auto;
+  background-position: center top;
+  /* Jagged low-poly bottom edge */
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 26px), 81% 100%, 47% calc(100% - 18px), 18% 100%, 0 calc(100% - 10px));
+  padding: 26px 0 58px;
+
+  /* Thin ruby seam along the jagged edge */
+  &::after {
+    content: '';
+    position: absolute;
+    inset: auto 0 0;
+    height: 30px;
+    background: linear-gradient(90deg, var(--crimson-deep), var(--ruby) 50%, var(--crimson));
+    clip-path: polygon(0 calc(100% - 13px), 18% calc(100% - 3px), 47% calc(100% - 21px), 81% calc(100% - 3px), 100% calc(100% - 29px), 100% calc(100% - 26px), 81% 100%, 47% calc(100% - 18px), 18% 100%, 0 calc(100% - 10px));
+  }
 
   .header--inner {
+    position: relative;
     max-width: var(--content-width);
     margin: 0 auto;
     padding: 0 var(--gutter);
@@ -23,16 +43,17 @@
     text-decoration: none;
   }
 
+  /* Logo framed in a hexagon */
   .header--logo {
     flex: none;
     display: block;
-    width: 84px;
-    height: 84px;
+    width: 78px;
+    height: 90px;
     padding: 4px;
-    background: #fff;
-    /* Diamond-ish, cut-corner frame */
-    clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
-    transition: transform var(--animation-duration) ease;
+    box-sizing: border-box;
+    background: linear-gradient(160deg, #fff 0%, #ffb3bf 35%, var(--ruby) 70%, var(--crimson-deep) 100%);
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    transition: transform 0.25s ease;
 
     img {
       display: block;
@@ -40,12 +61,12 @@
       height: 100%;
       object-fit: cover;
       object-position: center 30%;
-      clip-path: polygon(11px 0, 100% 0, 100% calc(100% - 11px), calc(100% - 11px) 100%, 0 100%, 0 11px);
+      clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     }
   }
 
   .header--brand:hover .header--logo {
-    transform: rotate(-4deg) scale(1.04);
+    transform: rotate(-6deg) scale(1.05);
   }
 
   .header--text {
@@ -56,18 +77,18 @@
   .header--title {
     font-family: var(--font-display);
     font-size: 2rem;
-    font-weight: 800;
-    letter-spacing: -0.01em;
-    line-height: 1.1;
-    text-shadow: 0 2px 0 rgb(0 0 0 / 0.15);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1.05;
   }
 
   .header--tagline {
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.14em;
+    margin-top: 4px;
+    color: #ff9aa9;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
     text-transform: uppercase;
-    opacity: 0.85;
   }
 
   .header--nav {
@@ -85,29 +106,37 @@
 
     a {
       color: #fff;
-      font-weight: 600;
-      padding: 6px 14px;
+      font-family: var(--font-display);
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      padding: 7px 18px;
       text-decoration: none;
-      /* Paper tab with a folded corner */
-      clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+      clip-path: polygon(9px 0, 100% 0, calc(100% - 9px) 100%, 0 100%);
       transition: background-color var(--animation-duration) linear, color var(--animation-duration) linear;
     }
 
     a:hover {
-      background: rgb(255 255 255 / 0.16);
+      background-color: rgb(255 255 255 / 0.12);
     }
 
+    /* Current page: crimson gradient chip */
     a.header--link-current {
-      background: #fff;
-      color: var(--crimson);
+      background: linear-gradient(125deg, #ff5c73 0%, #e01a35 50%, #a50e24 100%);
+      color: #fff;
     }
   }
 
   .header--links-external a {
-    font-size: 0.85rem;
-    font-weight: 500;
-    padding: 3px 10px;
-    opacity: 0.9;
+    color: rgb(255 255 255 / 0.75);
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 3px 12px;
+  }
+
+  .header--links-external a:hover {
+    color: #fff;
   }
 
   .header--links-external a::after {
@@ -126,22 +155,45 @@
     }
 
     .header--links a:first-child {
-      margin-left: -14px;
+      margin-left: -9px;
     }
 
     .header--links-external a:first-child {
-      margin-left: -10px;
+      margin-left: -12px;
     }
   }
 
   @media (max-width: 420px) {
     .header--logo {
-      width: 64px;
-      height: 64px;
+      width: 60px;
+      height: 70px;
     }
 
     .header--title {
-      font-size: 1.5rem;
+      font-size: 1.55rem;
     }
+
+    .header--links a {
+      padding: 7px 14px;
+    }
+
+    .header--links-external a {
+      padding: 3px 8px;
+    }
+
+    .header--links-external a:first-child {
+      margin-left: -8px;
+    }
+  }
+}
+
+/* On the home page the header flows straight into the hero */
+.layout:has(.hero) .header {
+  background: none;
+  clip-path: none;
+  padding-bottom: 8px;
+
+  &::after {
+    display: none;
   }
 }

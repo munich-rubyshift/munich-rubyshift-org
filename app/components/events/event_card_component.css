@@ -2,13 +2,18 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
-  gap: 18px;
+  gap: 20px;
   padding: 16px 0;
   border-bottom: 1px solid var(--border);
   min-width: 0;
 
+  /* Past events get a graphite hexagon */
   .events---date-badge {
-    background: var(--background);
+    --badge-width: 4rem;
+
+    background:
+      linear-gradient(120deg, rgb(255 255 255 / 0.08) 0 33%, transparent 33% 66%, rgb(0 0 0 / 0.2) 66%),
+      var(--badge-muted);
   }
 
   .events---event-card--body {
@@ -17,8 +22,8 @@
   }
 
   .events---event-card--title {
-    margin: 2px 0 4px;
-    font-size: 1.15rem;
+    margin: 4px 0 4px;
+    font-size: 1.18rem;
     overflow-wrap: anywhere;
 
     a {
@@ -33,10 +38,20 @@
   .events---event-card--meta {
     display: flex;
     flex-flow: row wrap;
-    gap: 2px 16px;
+    gap: 2px 10px;
     margin: 0;
     color: var(--text-muted);
     font-size: 0.92rem;
+
+    > span + span::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      margin: 0 10px 2px 0;
+      background: var(--crimson);
+      clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    }
   }
 
   .events---event-card--talks {
@@ -46,8 +61,14 @@
   }
 
   .events---event-card--actions {
-    margin: 18px 0 0;
+    margin: 20px 0 0;
   }
+}
+
+.events---event-card:hover .events---date-badge {
+  background:
+    linear-gradient(120deg, rgb(255 255 255 / 0.14) 0 33%, transparent 33% 66%, rgb(0 0 0 / 0.22) 66%),
+    linear-gradient(160deg, #ff5c73 0%, #d0142c 50%, #6d0816 100%);
 }
 
 .events---event-card-cancelled .events---event-card--title a {
@@ -55,26 +76,27 @@
   color: var(--text-muted);
 }
 
-/* The next meetup gets a big paper sheet */
+/* The next meetup gets a big faceted panel */
 .events---event-card-featured {
-  padding: 26px 28px;
-  border: 0;
-  border-left: 4px solid var(--crimson);
+  gap: 26px;
+  padding: 28px 30px;
+  border: 1px solid transparent;
 
   .events---date-badge {
-    width: 5.5rem;
-  }
+    --badge-width: 5.75rem;
 
-  .events---date-badge--main {
-    font-size: 2.3rem;
+    background:
+      linear-gradient(120deg, rgb(255 255 255 / 0.14) 0 33%, transparent 33% 66%, rgb(0 0 0 / 0.22) 66%),
+      linear-gradient(200deg, transparent 0 50%, rgb(0 0 0 / 0.16) 50%),
+      linear-gradient(160deg, #ff5c73 0%, #d0142c 50%, #6d0816 100%);
   }
 
   .events---event-card--title {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   @media (max-width: 520px) {
-    padding: 18px 16px;
+    padding: 20px 18px;
     flex-direction: column;
   }
 }

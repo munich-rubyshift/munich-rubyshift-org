@@ -1,75 +1,97 @@
+/*
+ * Low-poly palette, taken from the faceted red lion logo.
+ * Dark first: charcoal surfaces with crimson-to-ruby facets.
+ * The light scheme below keeps the same crimson facets on light grey.
+ */
 :root {
-  /* Origami palette, taken from the folded-paper lion logo */
-  --crimson: #b3121f;
-  --crimson-deep: #7f0a14;
-  --crimson-dark: #5c0710;
-  --crimson-light: #d8323d;
-  --crimson-tint: #fbe9ea;
-  --paper: #fffdf9;
-  --paper-fold: #e3d6c6;
+  color-scheme: dark;
 
-  --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
-  --font-display: 'Avenir Next', 'Montserrat', 'Segoe UI', 'Ubuntu', system-ui, sans-serif;
-  --content-width: 920px;
+  --ruby: #ff3d5a;
+  --crimson-light: #ff5c73;
+  --crimson: #d0142c;
+  --crimson-deep: #8e0c1f;
+  --crimson-dark: #4a0611;
+  --crimson-tint: #2a1418;
+  --ink: #0b090a;
+
+  /* Gradients and facet textures */
+  --gradient-crimson: linear-gradient(125deg, #ff4b66 0%, #d0142c 46%, #7d0a1b 100%);
+  --gradient-edge: linear-gradient(135deg, #ff4b66, rgb(208 20 44 / 0.35) 38%, rgb(208 20 44 / 0.08) 60%, #8e0c1f);
+  --gradient-night: linear-gradient(160deg, #1b0b10 0%, #2c0911 45%, #5c0816 100%);
+  --mesh: url("lowpoly-mesh.svg");
+  --mesh-subtle: url("lowpoly-mesh-subtle.svg");
+  --glow: 0 0 0 1px rgb(255 61 90 / 0.25), 0 18px 40px -18px rgb(255 61 90 / 0.55);
+
+  --font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+  --font-display: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --content-width: 960px;
   --gutter: 20px;
-  --radius: 3px;
-  --fold-size: 28px;
-  --shadow-paper: 0 1px 2px rgb(60 20 20 / 0.08), 0 8px 24px -12px rgb(60 20 20 / 0.25);
+  --radius: 0;
+  --cut: 18px;
 
-  --background-body: #f6f1ea;
-  --background: #efe8de;
-  --background-alt: var(--paper);
-  --background-card: var(--paper);
-  --selection: #f3b7bb;
-  --text-main: #3a3232;
-  --text-bright: #1d1515;
-  --text-muted: #7a6d68;
-  --links: var(--crimson);
-  --links-hover: var(--crimson-deep);
-  --focus: #b3121f99;
-  --border: #e2d8cb;
-  --code: var(--crimson-deep);
-  --animation-duration: 0.15s;
-  --button-base: var(--crimson);
-  --button-hover: var(--crimson-deep);
+  --background-body: #0e0b0d;
+  --background: #1d171a;
+  --background-alt: #151114;
+  --background-card: #171215;
+  --background-card-top: #1f171b;
+  --selection: #8e0c1f;
+  --text-main: #d8d0d3;
+  --text-bright: #ffffff;
+  --text-muted: #998c91;
+  --links: #ff5c73;
+  --links-hover: #ff96a5;
+  --focus: #ff3d5a99;
+  --border: #2d2428;
+  --code: #ffb0bb;
+  --animation-duration: 0.18s;
+  --button-base: #d0142c;
+  --button-hover: #ff3d5a;
   --button-text: #fff;
-  --scrollbar-thumb: #cdbfb0;
-  --scrollbar-thumb-hover: var(--crimson-light);
-  --form-placeholder: #9a8f88;
-  --form-text: #1d1515;
-  --variable: #2f7d32;
-  --highlight: #ffe58a;
+  --button-secondary: #2a1c21;
+  --button-secondary-hover: #3a242b;
+  --button-secondary-text: #ff8597;
+  --badge-muted: linear-gradient(160deg, #3a2e33 0%, #231b1f 100%);
+  --scrollbar-thumb: #3a2e33;
+  --scrollbar-thumb-hover: var(--crimson);
+  --form-placeholder: #8a7d82;
+  --form-text: #fff;
+  --variable: #8bd18e;
+  --highlight: #c9a227;
   --select-arrow: url("select-arrow.svg");
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --crimson-tint: #3a1418;
-    --paper: #241b1b;
-    --paper-fold: #3a2c2b;
-    --shadow-paper: 0 1px 2px rgb(0 0 0 / 0.4), 0 10px 28px -14px rgb(0 0 0 / 0.8);
+    color-scheme: light;
 
-    --background-body: #151010;
-    --background: #2b2120;
-    --background-alt: #1d1616;
-    --background-card: var(--paper);
-    --selection: #7f0a14;
-    --text-main: #ddd3cf;
-    --text-bright: #fff7f4;
-    --text-muted: #a99a95;
-    --links: #ff6b72;
-    --links-hover: #ff9ba0;
-    --focus: #ff6b7299;
-    --border: #3d302e;
-    --code: #ffb3a8;
-    --button-base: var(--crimson);
-    --button-hover: var(--crimson-light);
-    --button-text: #fff;
-    --scrollbar-thumb: #3d302e;
-    --scrollbar-thumb-hover: var(--crimson);
-    --form-placeholder: #8f817c;
-    --form-text: #fff7f4;
-    --variable: #8bd18e;
-    --highlight: #c9a227;
+    --crimson-tint: #fbe3e7;
+    --gradient-edge: linear-gradient(135deg, #ff4b66, rgb(208 20 44 / 0.22) 38%, rgb(208 20 44 / 0.06) 60%, #b3122a);
+    --glow: 0 0 0 1px rgb(208 20 44 / 0.18), 0 18px 36px -18px rgb(140 10 30 / 0.45);
+
+    --mesh-subtle: url("lowpoly-mesh-faint.svg");
+
+    --background-body: #ebe9ea;
+    --background: #dfdbdd;
+    --background-alt: #f5f4f4;
+    --background-card: #ffffff;
+    --background-card-top: #fbf7f8;
+    --selection: #ffc2cb;
+    --text-main: #2e272a;
+    --text-bright: #120d10;
+    --text-muted: #6c6267;
+    --links: #c2122a;
+    --links-hover: #7d0a1b;
+    --focus: #d0142c99;
+    --border: #d5cfd2;
+    --code: #8e0c1f;
+    --button-secondary: #f7dce1;
+    --button-secondary-hover: #f1c6ce;
+    --button-secondary-text: #b3122a;
+    --badge-muted: linear-gradient(160deg, #4a3d42 0%, #261d21 100%);
+    --scrollbar-thumb: #c4bcc0;
+    --form-placeholder: #8f858a;
+    --form-text: #120d10;
+    --variable: #2f7d32;
+    --highlight: #ffe58a;
   }
 }

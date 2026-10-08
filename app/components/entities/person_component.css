@@ -9,19 +9,21 @@
     gap: 14px;
   }
 
-  /* Initials on a folded crimson diamond */
+  /* Initials on a faceted ruby hexagon */
   .entities---person--avatar {
     flex: none;
     display: grid;
     place-items: center;
-    width: 52px;
-    height: 52px;
+    width: 50px;
+    height: 56px;
     color: #fff;
     font-family: var(--font-display);
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    background: linear-gradient(135deg, var(--crimson-light) 0 50%, var(--crimson-deep) 50% 100%);
-    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    background:
+      linear-gradient(120deg, rgb(255 255 255 / 0.14) 0 33%, transparent 33% 66%, rgb(0 0 0 / 0.22) 66%),
+      linear-gradient(160deg, #ff5c73 0%, #d0142c 50%, #6d0816 100%);
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   }
 
   .entities---person--name {
@@ -49,15 +51,17 @@
     margin: 16px 0 0;
 
     a {
-      padding: 2px 10px;
-      background: var(--crimson-tint);
-      font-size: 0.85rem;
-      font-weight: 600;
+      padding: 3px 14px;
+      background: var(--button-secondary);
+      color: var(--button-secondary-text);
+      font-size: 0.82rem;
+      font-weight: 700;
       text-decoration: none;
+      clip-path: polygon(7px 0, 100% 0, calc(100% - 7px) 100%, 0 100%);
     }
 
     a:hover {
-      background: var(--paper-fold);
+      background: var(--button-secondary-hover);
     }
   }
 }

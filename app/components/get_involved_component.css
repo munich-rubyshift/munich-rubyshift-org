@@ -8,10 +8,24 @@
   .get-involved--tile {
     display: flex;
     flex-flow: column nowrap;
-    border-bottom: 4px solid var(--crimson);
+    padding-top: 30px;
 
     h3 {
       margin: 0 0 6px;
+      font-size: 1.3rem;
+    }
+
+    /* Small faceted shard above the title */
+    h3::before {
+      content: '';
+      display: block;
+      width: 30px;
+      height: 26px;
+      margin-bottom: 14px;
+      background:
+        linear-gradient(118deg, transparent 0 50%, rgb(0 0 0 / 0.3) 50%),
+        var(--gradient-crimson);
+      clip-path: polygon(50% 0, 100% 100%, 0 100%);
     }
 
     p {
@@ -20,7 +34,7 @@
 
     a {
       margin-top: auto;
-      font-weight: 700;
+      font-weight: 800;
     }
   }
 }

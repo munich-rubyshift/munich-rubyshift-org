@@ -3,6 +3,8 @@
   flex-flow: column nowrap;
   margin: 0;
   min-height: 100vh;
+  /* Full-bleed facet backgrounds must not cause horizontal scrolling */
+  overflow-x: clip;
 
   .layout--main {
     box-sizing: border-box;

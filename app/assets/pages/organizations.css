@@ -10,8 +10,7 @@
 }
 
 .organization-card {
-  padding: 24px;
-  border-top: 4px solid var(--crimson);
+  padding: 26px;
   min-width: 0;
   overflow-wrap: anywhere;
 
@@ -34,6 +33,7 @@
     padding: 6px;
     box-sizing: border-box;
     background: #fff;
+    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
 
     img {
       max-height: 100%;
@@ -51,9 +51,9 @@
   .organization-card--label {
     margin: 18px 0 4px;
     color: var(--text-muted);
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
   }
 
@@ -63,12 +63,12 @@
   }
 }
 
-/* Big folded call to action */
+/* Big faceted call to action */
 .call-out {
-  margin-top: 48px;
-  padding: 28px 32px;
-  color: #fff;
-  clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 0 100%);
+  margin-top: 56px;
+  padding: 34px 36px;
+  color: rgb(255 255 255 / 0.85);
+  clip-path: polygon(0 0, calc(100% - 32px) 0, 100% 32px, 100% 100%, 32px 100%, 0 calc(100% - 32px));
 
   h2 {
     margin-top: 0;
@@ -81,7 +81,6 @@
   }
 
   .button:hover {
-    background: var(--crimson-tint);
     color: var(--crimson-deep);
   }
 

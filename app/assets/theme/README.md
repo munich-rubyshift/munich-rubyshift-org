@@ -10,6 +10,8 @@ starting point and make adjustments.
 - Source files downloaded from: https://github.com/kognise/water.css/tree/master/src
 - License: [MIT](https://github.com/kognise/water.css/blob/master/LICENSE.md)
 
-On top of it, `variables.css` defines the crimson "origami" palette taken from
-the logo and `origami.css` adds the folded-paper patterns (faceted backgrounds,
-dog-eared cards, label/value rows) used across the site.
+On top of it, `variables.css` defines the dark-first crimson "low-poly" palette
+taken from the faceted lion logo and `lowpoly.css` adds the shared patterns
+(triangle mesh backgrounds, cut-corner cards, parallelogram buttons, label/value
+rows) used across the site. The triangle meshes (`lowpoly-mesh*.svg`) only
+contain black and ruby shading, so the colors underneath come from CSS.

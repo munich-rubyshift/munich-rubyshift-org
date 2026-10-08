@@ -1,9 +1,16 @@
 .footer {
-  background: var(--crimson-dark);
-  color: rgb(255 255 255 / 0.8);
-  /* Folded top edge, mirroring the header */
-  clip-path: polygon(0 18px, 38% 0, 100% 24px, 100% 100%, 0 100%);
-  padding: 48px 0 28px;
+  position: relative;
+  color: rgb(255 255 255 / 0.72);
+  background-color: #0b0608;
+  background-image:
+    var(--mesh),
+    radial-gradient(ellipse 50% 160% at 20% 100%, rgb(208 20 44 / 0.45), transparent 70%),
+    linear-gradient(100deg, #3a0611 0%, #16070b 55%, #0b0608 100%);
+  background-size: 1600px auto, auto, auto;
+  background-position: center bottom;
+  /* Jagged low-poly top edge, mirroring the header */
+  clip-path: polygon(0 22px, 24% 0, 53% 26px, 79% 4px, 100% 20px, 100% 100%, 0 100%);
+  padding: 56px 0 30px;
   font-size: 0.9rem;
 
   .footer--inner {
@@ -21,14 +28,15 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    font-weight: 600;
   }
 
   .footer--logo {
     width: 32px;
-    height: 32px;
+    height: 37px;
     object-fit: cover;
     object-position: center 30%;
-    clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   }
 
   nav {
@@ -39,9 +47,10 @@
 
   a {
     color: #fff;
+    font-weight: 700;
   }
 
   a:hover {
-    color: #fff;
+    color: #ff9aa9;
   }
 }

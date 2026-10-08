@@ -1,8 +1,7 @@
 .talks---talk-card {
   display: flex;
   flex-flow: column nowrap;
-  padding: 22px 24px 18px;
-  border-top: 4px solid var(--crimson);
+  padding: 24px 26px 20px;
   min-width: 0;
   overflow-wrap: anywhere;
 
@@ -22,7 +21,7 @@
 
   .talks---talk-card--speakers {
     margin: 0 0 10px;
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .talks---talk-card--description {
@@ -32,7 +31,7 @@
   .talks---talk-card--event {
     margin: auto 0 0;
     padding-top: 10px;
-    border-top: 1px dashed var(--border);
+    border-top: 1px solid var(--border);
     font-size: 0.9rem;
   }
 }
