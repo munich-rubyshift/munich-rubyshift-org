@@ -1,0 +1,34 @@
+<section class="hero" data-compiler="hero" up-data="<%= {  }.to_json %>">
+  <div class="hero--text">
+    <p class="hero--kicker">Ruby user group · Munich</p>
+    <h1 class="hero--title">Learn, share and hang out with fellow <span>Rubyists</span>.</h1>
+    <p class="hero--lead">
+      Munich Rubyshift is Munich's Ruby meetup. Every three months we get together for talks,
+      food, drinks and good conversations — beginners and veterans alike.
+    </p>
+    <p class="hero--actions">
+      <%= link_to "Join us on Discord", DISCORD_URL, class: "button", target: "_blank", rel: "noopener noreferrer" %>
+      <%= link_to "Follow on Meetup", MEETUP_URL, class: "button button-secondary", target: "_blank", rel: "noopener noreferrer" %>
+    </p>
+  </div>
+
+  <div class="hero--art" aria-hidden="true">
+    <span class="hero--fold hero--fold-1"></span>
+    <span class="hero--fold hero--fold-2"></span>
+    <span class="hero--fold hero--fold-3"></span>
+    <%= image_tag "munich_rubyshift.webp", alt: "", class: "hero--logo" %>
+  </div>
+</section>
+
+<section class="hero--next">
+  <h2 class="section-title"><%= next_event ? "Next meetup" : "Latest meetup" %></h2>
+  <% if next_event %>
+    <%= render Events::EventCardComponent.new(next_event, featured: true) %>
+  <% else %>
+    <p class="muted">The next meetup hasn't been announced yet. Join us on Discord to hear about it first.</p>
+    <% if last_event %>
+      <%= render Events::EventCardComponent.new(last_event) %>
+    <% end %>
+  <% end %>
+  <p><%= link_to "All events →", events_events_path %></p>
+</section>

@@ -1,0 +1,2 @@
+class GetInvolvedComponent < ApplicationComponent
+end

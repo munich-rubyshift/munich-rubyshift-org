@@ -1,11 +1,12 @@
-<% content_for :title, "Organization: #{@entities_organization.slug}" %>
+<% content_for :title, @entities_organization.name %>
 
-<%= render @entities_organization %>
+<div class="organizations-grid organizations-grid-single">
+  <%= render @entities_organization %>
+</div>
 
-<% if defined?(Avo) %>
-  <p>
+<p class="page-actions">
+  <%= link_to "← All sponsors", entities_organizations_path %>
+  <% if defined?(Avo) %>
     <%= link_to "✏️", avo.resources_entities_organization_path(@entities_organization), "up-follow": false %>
-  </p>
-<% end %>
-
-<%= link_to "Back to all organizations", entities_organizations_path %>
+  <% end %>
+</p>

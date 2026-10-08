@@ -2,19 +2,19 @@
 
 <h1>Talks<% if defined?(Avo) %> <%= link_to "✏️", avo.resources_talks_talks_path, "up-follow": false %><% end %></h1>
 
-<p>
+<p class="lead">
   Our "call for proposals" (CFP) is always open. If you want to give a talk at
   one of our next meetups, contact us via Discord or LinkedIn or open a PR on
   our GitHub repo.
 </p>
 
-<ul id="talks_talks">
-  <% @talks_talks.each do |talks_talk| %>
-    <li>
-      <%= render talks_talk %>
-      <p>
-        <%= link_to "Show this talk", talks_talk %>
-      </p>
-    </li>
+<p>
+  <%= link_to "Propose a talk on Discord", "https://discord.gg/EKqHWmCxGZ", class: "button", target: "_blank", rel: "noopener noreferrer" %>
+  <%= link_to "Meet our speakers", entities_people_path, class: "button button-secondary" %>
+</p>
+
+<div class="talks-grid">
+  <% @talks_talks.includes(:speakers, :event).sort_by { |talk| talk.event.start_date || Date.new(0) }.reverse_each do |talks_talk| %>
+    <%= render Talks::TalkCardComponent.new(talks_talk) %>
   <% end %>
-</ul>
+</div>

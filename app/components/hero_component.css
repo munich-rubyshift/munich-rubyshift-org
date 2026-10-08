@@ -1,0 +1,106 @@
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 32px;
+  margin: 8px 0 24px;
+
+  .hero--kicker {
+    margin: 0 0 10px;
+    color: var(--links);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .hero--title {
+    margin: 0 0 18px;
+    padding: 0;
+    font-size: clamp(2rem, 5vw, 3.1rem);
+    line-height: 1.08;
+
+    span {
+      color: var(--links);
+    }
+  }
+
+  /* No underline mark, the hero has its own art */
+  .hero--title::after {
+    display: none;
+  }
+
+  .hero--lead {
+    font-size: 1.15rem;
+    margin: 0 0 22px;
+  }
+
+  .hero--actions {
+    margin: 0;
+  }
+
+  /* Paper sheets folded behind the lion */
+  .hero--art {
+    position: relative;
+    aspect-ratio: 1;
+    width: 100%;
+    max-width: 340px;
+    justify-self: center;
+  }
+
+  .hero--fold {
+    position: absolute;
+    inset: 12%;
+  }
+
+  .hero--fold-1 {
+    background: linear-gradient(135deg, var(--crimson-light) 0 50%, var(--crimson) 50% 100%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    transform: rotate(8deg) scale(1.22);
+  }
+
+  .hero--fold-2 {
+    background: linear-gradient(45deg, var(--crimson-deep) 0 50%, var(--crimson-dark) 50% 100%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    transform: rotate(-14deg) scale(1.05);
+    opacity: 0.9;
+  }
+
+  .hero--fold-3 {
+    background: var(--paper-fold);
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    inset: 4% auto auto 4%;
+    width: 30%;
+    height: 30%;
+  }
+
+  .hero--logo {
+    position: absolute;
+    inset: 22%;
+    width: 56%;
+    height: 56%;
+    object-fit: cover;
+    object-position: center 30%;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    clip-path: polygon(16% 0, 100% 0, 100% 84%, 84% 100%, 0 100%, 0 16%);
+    transition: transform 0.3s ease;
+  }
+
+  .hero--art:hover .hero--logo {
+    transform: rotate(-4deg) scale(1.04);
+  }
+
+  @media (max-width: 720px) {
+    grid-template-columns: 1fr;
+
+    /* The header already shows the logo on small screens */
+    .hero--art {
+      display: none;
+    }
+  }
+}
+
+.hero--next .section-title {
+  margin-top: 24px;
+}

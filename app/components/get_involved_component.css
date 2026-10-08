@@ -1,0 +1,26 @@
+.get-involved {
+  .get-involved--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+  }
+
+  .get-involved--tile {
+    display: flex;
+    flex-flow: column nowrap;
+    border-bottom: 4px solid var(--crimson);
+
+    h3 {
+      margin: 0 0 6px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    a {
+      margin-top: auto;
+      font-weight: 700;
+    }
+  }
+}
