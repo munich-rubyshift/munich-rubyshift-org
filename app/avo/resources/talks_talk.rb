@@ -31,7 +31,7 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
       format_form_using: -> { record.read_attribute(:announced_on) },
       placeholder: -> { record.event&.announced_on&.iso8601 }
 
-    field :speakers, as: :has_many, through: :speaker_talks, scope: -> { query.by_to_s }
+    field :speakers, as: :has_many, through: :speaker_talks, scope: -> { query.by_to_s }, attach_scope: -> { query.by_to_s }
     field :additional_resources, as: :has_many
   end
 end
