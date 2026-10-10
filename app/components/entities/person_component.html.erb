@@ -5,12 +5,12 @@
     <%= link_to "on Rubyevents", "https://www.rubyevents.org/profiles/#{person.rubyevents_slug}", target: "_blank", rel: "noopener noreferrer" %>
   <% end %>
 
-  <% if person.github.present? %>
-    <%= link_to "on GitHub", "https://www.github.com/#{person.github}", target: "_blank", rel: "noopener noreferrer" %>
+  <% if person.github_url %>
+    <%= link_to "GitHub", person.github_url, target: "_blank", rel: "noopener noreferrer" %>
   <% end %>
 
   <% if person.website.present? %>
-    <%= link_to person.website, target: "_blank", rel: "noopener noreferrer" %>
+    <%= link_to person.website, person.website, target: "_blank", rel: "noopener noreferrer" %>
   <% end %>
 
   <p>
@@ -23,24 +23,24 @@
   </p>
 
   <div class="entities---person--social-media">
-    <% if person.twitter.present? %>
-      <div><%= link_to "X", person.twitter, target: "_blank", rel: "noopener noreferrer" %></div>
+    <% if person.twitter_url %>
+      <div><%= link_to "X", person.twitter_url, target: "_blank", rel: "noopener noreferrer" %></div>
     <% end %>
 
-    <% if person.mastodon.present? %>
-      <div><%= link_to "Mastodon", person.mastodon, target: "_blank", rel: "noopener noreferrer" %></div>
+    <% if person.mastodon_url %>
+      <div><%= link_to "Mastodon", person.mastodon_url, target: "_blank", rel: "noopener noreferrer" %></div>
     <% end %>
 
-    <% if person.bluesky.present? %>
-      <div><%= link_to "Bluesky", person.bluesky, target: "_blank", rel: "noopener noreferrer" %></div>
+    <% if person.bluesky_url %>
+      <div><%= link_to "Bluesky", person.bluesky_url, target: "_blank", rel: "noopener noreferrer" %></div>
     <% end %>
 
-    <% if person.linkedin.present? %>
-      <div><%= link_to "Linkedin", person.linkedin, target: "_blank", rel: "noopener noreferrer" %></div>
+    <% if person.linkedin_url %>
+      <div><%= link_to "Linkedin", person.linkedin_url, target: "_blank", rel: "noopener noreferrer" %></div>
     <% end %>
 
-    <% if person.speakerdeck.present? %>
-      <div><%= link_to "Speakerdeck", person.speakerdeck, target: "_blank", rel: "noopener noreferrer" %></div>
+    <% if person.speakerdeck_url %>
+      <div><%= link_to "Speakerdeck", person.speakerdeck_url, target: "_blank", rel: "noopener noreferrer" %></div>
     <% end %>
   </div>
 
