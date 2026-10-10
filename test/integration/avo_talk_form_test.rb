@@ -115,6 +115,19 @@ class AvoTalkFormTest < ActionDispatch::IntegrationTest
     assert_includes talk.speakers.reload, person
   end
 
+  test "the attach speaker dropdown lists people by name" do
+    talk = talks_talks(:one)
+    talk.update_columns(slug: "talk-page")
+    [ "Zoe", "anna", "Bob" ].each { |name| Entities::Person.create!(name: name) }
+
+    get "/avo/resources/talks_talks/talk-page/speakers/new"
+
+    assert_response :success
+    names = css_select("select[name='fields[related_id]'] option[value]").reject { |option| option["value"].blank? }.map(&:text)
+    assert_equal names.sort_by { |name| [ name.downcase, name ] }, names
+    assert_operator names.index("anna"), :<, names.index("Zoe")
+  end
+
   test "attaching a speaker twice reports an error" do
     talk = talks_talks(:one)
     talk.update_columns(slug: "talk-page")
