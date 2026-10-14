@@ -34,17 +34,6 @@
   </p>
 
   <p>
-    <strong>Sponsors:</strong><br>
-    <ul>
-      <% event.sponsor_tiers.each do |sponsor_tier| %>
-        <% sponsor_tier.organizations.each do |organization| %>
-          <li><%= link_to organization %> (<%= sponsor_tier %>)</li>
-        <% end %>
-      <% end %>
-    </ul>
-  </p>
-
-  <p>
     <strong>Description:</strong>
     <%= event.description %>
   </p>

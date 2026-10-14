@@ -42,6 +42,8 @@ class Events::Event < ApplicationRecord
   scope :by_start_date, -> { order(:start_date, :start_time) }
   scope :by_end_date, -> { order(:end_date, :end_time) }
 
+  scope :not_cancelled, -> { where(status: nil).or(where.not(status: "cancelled")) }
+
   def slug_candidates
     [
       ([ kind, start_date ] if start_date),

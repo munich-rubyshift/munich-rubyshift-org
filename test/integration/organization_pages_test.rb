@@ -17,4 +17,13 @@ class OrganizationPagesTest < ActionDispatch::IntegrationTest
     assert_equal "Crewmeister GmbH", response.parsed_body["legal_name"]
     assert_not response.parsed_body.key?("internal_notes")
   end
+
+  test "an organization links to its website" do
+    entities_organizations(:one).update_columns(slug: "makandra", website: "https://makandra.de")
+
+    get "/organizations/makandra"
+
+    assert_response :success
+    assert_select "article a[href='https://makandra.de'][target='_blank']", text: "https://makandra.de"
+  end
 end
