@@ -1,10 +1,7 @@
 ---
 Entities::Organization_e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e:
   id: e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e
-  description: ''
-  logo_background: ''
   logo_url: ''
-  main_location: ''
   name: Freeletics
   slug: freeletics
   website: ''
