@@ -1,7 +1,212 @@
 ---
+Entities::Organization_06503e41-194a-4ed1-b440-c301f73e6a6f:
+  id: 06503e41-194a-4ed1-b440-c301f73e6a6f
+  internal_notes: ''
+  legal_name: Thoughtworks Deutschland GmbH
+  logo_url: ''
+  name: Thoughtworks
+  slug: thoughtworks
+  website: https://www.thoughtworks.com
+Entities::Organization_0e78b5fd-dfc3-41fa-b6ce-473d7bd8662d:
+  id: 0e78b5fd-dfc3-41fa-b6ce-473d7bd8662d
+  internal_notes: "Acquired by:\r\n- \"Sphera\" in 2022"
+  legal_name: riskmethods GmbH
+  logo_url: ''
+  name: riskmethods
+  slug: riskmethods
+  website: https://www.riskmethods.net
+Entities::Organization_15e5eebf-a915-40dc-b982-fcce3f1352b4:
+  id: 15e5eebf-a915-40dc-b982-fcce3f1352b4
+  internal_notes: ''
+  legal_name: Demodesk GmbH
+  logo_url: ''
+  name: Demodesk
+  slug: demodesk
+  website: https://demodesk.ai
+Entities::Organization_1f653476-5efe-415e-9dcb-6c58e3e522e2:
+  id: 1f653476-5efe-415e-9dcb-6c58e3e522e2
+  internal_notes: "Previous names:\r\n- \"ARRI Media GmbH\" until 2022\r\n\r\nContact:\r\n-
+    Sascha\r\n"
+  legal_name: Media Services GmbH
+  logo_url: ''
+  name: PHAROS – The Post Group
+  slug: pharos-the-post-group
+  website: https://www.pharos.de
+Entities::Organization_23ddd95b-ca87-43e5-b69b-7c71322891e5:
+  id: 23ddd95b-ca87-43e5-b69b-7c71322891e5
+  internal_notes: "Now:\r\n- \"Averest Consulting GmbH\" since 2026"
+  legal_name: metoda GmbH
+  logo_url: ''
+  name: Metoda
+  slug: metoda
+  website: https://www.metoda.com
+Entities::Organization_24f50cbf-5c1b-498b-abc6-b6978e29f7b1:
+  id: 24f50cbf-5c1b-498b-abc6-b6978e29f7b1
+  internal_notes: "Acquired by:\r\n- Research In Motion (2011)\r\n\r\nDefunct."
+  legal_name: Scoreloop AG
+  logo_url: ''
+  name: Scoreloop
+  slug: scoreloop
+  website: http://www.scoreloop.com
+Entities::Organization_28c84185-622b-4f11-a5fc-c6246e1c758e:
+  id: 28c84185-622b-4f11-a5fc-c6246e1c758e
+  legal_name: Experteer GmbH
+  name: Experteer
+  slug: experteer
+  website: https://www.experteer.de
+Entities::Organization_29832b05-4ea1-4fc3-8cb2-a992acc590de:
+  id: 29832b05-4ea1-4fc3-8cb2-a992acc590de
+  legal_name: JetBrains GmbH
+  name: JetBrains
+  slug: jetbrains
+  website: https://www.jetbrains.com
+Entities::Organization_3d5d1da4-6acb-43d9-b326-58831e238dea:
+  id: 3d5d1da4-6acb-43d9-b326-58831e238dea
+  internal_notes: ''
+  legal_name: makandra GmbH
+  logo_url: ''
+  name: makandra
+  slug: makandra
+  website: https://makandra.de/en
+Entities::Organization_42f4efab-41f2-4d1f-8539-8c94cacf38da:
+  id: 42f4efab-41f2-4d1f-8539-8c94cacf38da
+  internal_notes: ''
+  legal_name: FORMER 03 GmbH
+  logo_url: ''
+  name: FORMER 03
+  slug: former-03
+  website: https://www.former03.de
+Entities::Organization_482c6c95-e2bb-41f5-bdc6-13b0c2c0ce23:
+  id: 482c6c95-e2bb-41f5-bdc6-13b0c2c0ce23
+  internal_notes: ''
+  legal_name: ATOSS Aloud GmbH
+  logo_url: ''
+  name: Crewmeister
+  slug: crewmeister
+  website: https://crewmeister.com
+Entities::Organization_5bc2ceda-e94c-49d4-ade5-a97664619255:
+  id: 5bc2ceda-e94c-49d4-ade5-a97664619255
+  internal_notes: "Future names:\r\n- \"Geek Space 9 GmbH\" since 2019\r\n- \"Turing
+    42 GmbH\" since 2024"
+  legal_name: IT:Agenten GmbH
+  logo_url: ''
+  name: IT:Agenten
+  slug: it-agenten
+  website: http://www.it-agenten.com
+Entities::Organization_5da9b18f-3bf2-48ec-a257-34b02f249538:
+  id: 5da9b18f-3bf2-48ec-a257-34b02f249538
+  internal_notes: ''
+  legal_name: flobbymedia
+  logo_url: ''
+  name: flobbymedia
+  slug: flobbymedia
+  website: http://www.flobbymedia.de
+Entities::Organization_5e2d7b62-b642-4ae7-a17e-8554c0df5d71:
+  id: 5e2d7b62-b642-4ae7-a17e-8554c0df5d71
+  internal_notes: "Previously:\r\n- \"xbAV AG\" until 2021\r\n- \"xbAV GmbH\" until
+    2016"
+  legal_name: Xempus AG
+  logo_url: ''
+  name: Xempus
+  slug: xempus
+  website: https://www.xempus.com
+Entities::Organization_65b5f3be-9689-443d-9fa4-b64f41532260:
+  id: 65b5f3be-9689-443d-9fa4-b64f41532260
+  legal_name: gutefrage.net GmbH
+  name: gutefrage.net
+  slug: gutefrage-net
+  website: https://www.gutefrage.net
+Entities::Organization_69afe894-6800-4d58-9134-24c34a03838e:
+  id: 69afe894-6800-4d58-9134-24c34a03838e
+  internal_notes: ''
+  legal_name: Hubert Burda Media Holding KG
+  logo_url: ''
+  name: Hubert Burda Media
+  slug: hubert-burda-media
+  website: https://www.burda.com
+Entities::Organization_6b430862-a19c-42b7-9472-f52d73e407b9:
+  id: 6b430862-a19c-42b7-9472-f52d73e407b9
+  internal_notes: "Now:\r\n- \"FG Management GmbH\" since 2025"
+  legal_name: Fidor Bank AG
+  logo_url: ''
+  name: Fidor Bank
+  slug: fidor-bank
+  website: https://www.fidor.de
+Entities::Organization_70c17eee-86a3-4c9b-9a07-98e59ef59a1f:
+  id: 70c17eee-86a3-4c9b-9a07-98e59ef59a1f
+  legal_name: Shore GmbH
+  name: Shore
+  slug: shore
+  website: https://www.shore.com
+Entities::Organization_8210e0a0-31b9-4b43-a64e-b3f2c4c2b215:
+  id: 8210e0a0-31b9-4b43-a64e-b3f2c4c2b215
+  legal_name: Lanes & Planes GmbH
+  name: Lanes & Planes
+  slug: lanes-planes
+  website: https://www.lanes-planes.com
+Entities::Organization_942d4f0e-c013-470c-b4e1-312e0d600391:
+  id: 942d4f0e-c013-470c-b4e1-312e0d600391
+  internal_notes: "Now\r\n- \"Deel Engage\" (subsidiary of \"Deel, Inc.\") since 2024"
+  legal_name: Zavvy GmbH
+  logo_url: ''
+  name: Zavvy
+  slug: zavvy
+  website: https://www.zavvy.io
+Entities::Organization_a91b7551-fc1f-4f48-a1e7-d15a6b83c24d:
+  id: a91b7551-fc1f-4f48-a1e7-d15a6b83c24d
+  internal_notes: ''
+  legal_name: Cospired GmbH
+  logo_url: ''
+  name: Cospired
+  slug: cospired
+  website: https://cospired.com
+Entities::Organization_a986ef8b-165f-43c4-b571-3097c2651cca:
+  id: a986ef8b-165f-43c4-b571-3097c2651cca
+  internal_notes: ''
+  legal_name: Workday GmbH
+  logo_url: ''
+  name: Workday
+  slug: workday
+  website: https://www.workday.com
+Entities::Organization_b10441a8-73dd-4d7c-ba06-45e366a3b294:
+  id: b10441a8-73dd-4d7c-ba06-45e366a3b294
+  internal_notes: ''
+  legal_name: Le Wagon GmbH
+  logo_url: ''
+  name: LeWagon
+  slug: lewagon
+  website: https://www.lewagon.com
+Entities::Organization_b48e8393-66ef-4fd1-911c-75ec5ae29305:
+  id: b48e8393-66ef-4fd1-911c-75ec5ae29305
+  legal_name: Workpath GmbH
+  name: Workpath
+  slug: workpath
+  website: https://www.workpath.com
+Entities::Organization_c24e58ea-48ee-4ccc-92f1-98a0c2cdb4f7:
+  id: c24e58ea-48ee-4ccc-92f1-98a0c2cdb4f7
+  legal_name: DataCo GmbH
+  name: DataGuard
+  slug: dataguard
+  website: https://www.dataguard.com
+Entities::Organization_e5be2a27-e487-4ecb-9c0b-b4da4fee1de2:
+  id: e5be2a27-e487-4ecb-9c0b-b4da4fee1de2
+  legal_name: codecentric AG
+  name: codecentric
+  slug: codecentric
+  website: https://www.codecentric.de
 Entities::Organization_e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e:
   id: e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e
+  legal_name: Freeletics GmbH
   logo_url: ''
   name: Freeletics
   slug: freeletics
-  website: ''
+  website: https://www.freeletics.com
+Entities::Organization_f227be6b-03c8-4bb8-ada2-08b1f26b0fef:
+  id: f227be6b-03c8-4bb8-ada2-08b1f26b0fef
+  internal_notes: "Previously:\r\n- \"XING SE\" until 2019\r\n- \"XING Events GmbH\"
+    was a subsidiary until 2022"
+  legal_name: New Work SE
+  logo_url: ''
+  name: New Work
+  slug: new-work
+  website: https://www.new-work.se
