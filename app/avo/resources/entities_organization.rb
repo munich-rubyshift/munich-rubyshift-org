@@ -17,5 +17,6 @@ class Avo::Resources::EntitiesOrganization < Avo::BaseResource
     field :logo_background, as: :text, sortable: true
     field :logo_url, as: :text, sortable: true
     field :main_location, as: :text, sortable: true
+    field :venues, as: :has_many, attach_scope: -> { query.by_to_s }
   end
 end
