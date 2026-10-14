@@ -7,6 +7,14 @@ class Entities::Organization < ApplicationRecord
 
   has_many :venues, class_name: "Venues::Venue", foreign_key: :entities_organization_id, inverse_of: :organization
 
+  has_many :hosted_events, -> { not_cancelled }, through: :venues, source: :events
+
+  scope :meetup_hosts, -> {
+    joins(:hosted_events)
+      .group(:id)
+      .order(Arel.sql("MAX(events_events.start_date) DESC NULLS LAST, LOWER(entities_organizations.name), entities_organizations.id"))
+  }
+
   # The brand changes less often than the legal name, so it makes the steadier URL.
   def slug_candidates
     [ name, legal_name ]

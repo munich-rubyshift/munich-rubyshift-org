@@ -203,6 +203,15 @@ class Events::EventTest < ActiveSupport::TestCase
     assert_equal [ evening, morning, earlier ], events.by_start_date.reverse_order.to_a
   end
 
+  test "is not cancelled without a status" do
+    without_status = build_event(status: nil).tap(&:save!)
+    scheduled = build_event(status: "scheduled").tap(&:save!)
+    cancelled = build_event(status: "cancelled").tap(&:save!)
+    not_cancelled = Events::Event.where(id: [ without_status, scheduled, cancelled ]).not_cancelled
+
+    assert_equal [ without_status, scheduled ].to_set, not_cancelled.to_set
+  end
+
   test "reads as its kind and start date like its slug" do
     event = build_event(kind: "meetup", title: "Ruby User Group Meetup", start_date: Date.new(2026, 12, 31))
 

@@ -26,6 +26,7 @@ Rails.application.routes.draw do
     resources :organizations
     resources :people
   end
+  resources :hosts, only: [ :index ]
   namespace :venues, path: "" do
     resources :venues
   end

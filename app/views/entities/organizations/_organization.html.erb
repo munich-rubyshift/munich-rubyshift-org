@@ -20,10 +20,10 @@
   </p>
 
   <p>
-    <strong>Sponsored events:</strong><br>
+    <strong>Hosted events:</strong><br>
     <ul>
-      <% organization.sponsor_tiers.each do |sponsor_tier| %>
-        <li><%= link_to sponsor_tier.event %> (<%= sponsor_tier %>)</li>
+      <% organization.hosted_events.by_start_date.reverse_order.includes(:venue).each do |event| %>
+        <li><%= link_to event %> at <%= link_to event.venue %></li>
       <% end %>
     </ul>
   </p>
@@ -35,7 +35,7 @@
 
   <p>
     <strong>Website:</strong>
-    <%= organization.website %>
+    <%= link_to organization.website, organization.website, target: "_blank", rel: "noopener noreferrer" if organization.website.present? %>
   </p>
 
   <p>
