@@ -18,4 +18,18 @@ class AvoOrganizationPageTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_equal [ "Freeletics Office", "Freeletics Office 2" ], css_select("td[data-field-id='name']").map { |cell| cell.text.squish }.sort
   end
+
+  test "an organization shows where rubyevents.org would have it" do
+    entities_organizations(:one).update_columns(slug: "pharos", name: "PHAROS – Die Größte")
+
+    get "/avo/resources/entities_organizations/pharos/edit"
+
+    assert_response :success
+    assert_match(/their slug derives from this value: pharos-die-grosste/, response.body)
+
+    get "/avo/resources/entities_organizations/pharos"
+
+    assert_response :success
+    assert_select "a[href='https://www.rubyevents.org/organizations/pharos-die-grosste'][target='_blank']"
+  end
 end

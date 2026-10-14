@@ -3,7 +3,6 @@
 one:
   slug: MyString
   name: MyString
-  rubyevents_slug: MyString
   description: MyText
   website: MyString
   logo_background: MyString
@@ -13,7 +12,6 @@ one:
 two:
   slug: MyString
   name: MyString
-  rubyevents_slug: MyString
   description: MyText
   website: MyString
   logo_background: MyString
