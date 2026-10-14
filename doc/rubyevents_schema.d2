@@ -176,6 +176,8 @@ schedules: {
   }
 }
 
+# Besides the actual sponsors records, each event's venue organization is to be
+# exported as a sponsor in a "Meetup Host" tier (see venues.venues.organization_id).
 sponsors: {
   sponsor_tiers: {
     shape: sql_table
@@ -325,6 +327,9 @@ venues: {
     # the pin comes with the address; a venue always has one
     address_id: "integer" {constraint: foreign_key}
     map_id: "integer" {constraint: foreign_key}
+    # ours, not upstream's: the company whose office it is. To be exported as a
+    # "Meetup Host" sponsor of each event held there.
+    organization_id: "integer" {constraint: foreign_key}
     accessibility_wheelchair: boolean
     accessibility_elevators: boolean
     accessibility_restrooms: boolean

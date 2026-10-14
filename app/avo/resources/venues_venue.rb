@@ -26,5 +26,6 @@ class Avo::Resources::VenuesVenue < Avo::BaseResource
     field :nearby_parking, as: :textarea
     field :address, as: :belongs_to, **sortable(:by_to_s, on: :address)
     field :map, as: :belongs_to, **sortable(:by_to_s, on: :map)
+    field :organization, as: :belongs_to, **sortable(:by_to_s, on: :organization), attach_scope: -> { query.by_to_s }
   end
 end
