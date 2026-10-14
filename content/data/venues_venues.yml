@@ -6,6 +6,7 @@ Venues::Venue_00ab037e-02fc-41f7-88c3-3d5147c1bb5f:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 69afe894-6800-4d58-9134-24c34a03838e
   instructions: ''
   locations_address_id: 87cf3aa0-21d6-48f8-8c8c-0169d9e3be81
   name: Burda Bootcamp
@@ -13,7 +14,7 @@ Venues::Venue_00ab037e-02fc-41f7-88c3-3d5147c1bb5f:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: burda-bootcamp
-  url: ''
+  url: https://www.burda.com/de/marken/burda-bootcamp/
 Venues::Venue_053190c9-9e62-484e-abf4-374d6e69d475:
   id: '053190c9-9e62-484e-abf4-374d6e69d475'
   accessibility_elevators: 0
@@ -21,6 +22,7 @@ Venues::Venue_053190c9-9e62-484e-abf4-374d6e69d475:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 5e2d7b62-b642-4ae7-a17e-8554c0df5d71
   instructions: ''
   locations_address_id: 0e1fb7ca-b03a-40b9-94c0-775585371919
   name: xbAV Office
@@ -36,6 +38,7 @@ Venues::Venue_05a33493-04bf-4272-9325-d3e40bcd1f6e:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 3d5d1da4-6acb-43d9-b326-58831e238dea
   instructions: ''
   locations_address_id: ce312dce-0d8a-4a65-8c49-8716f396a1f3
   name: makandra Office
@@ -51,6 +54,7 @@ Venues::Venue_08636c17-b994-421c-abc6-c14be18e2502:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: f227be6b-03c8-4bb8-ada2-08b1f26b0fef
   instructions: ''
   locations_address_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
   name: Xing EVENTS Office
@@ -66,6 +70,7 @@ Venues::Venue_12f15b05-65ee-431d-b691-51486c2be216:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 942d4f0e-c013-470c-b4e1-312e0d600391
   instructions: ''
   locations_address_id: 6bf8f3b2-7dcf-419b-88fd-15789f0a21a4
   name: Zavvy Office
@@ -81,6 +86,7 @@ Venues::Venue_1347f7fd-3908-4c46-9325-f7f514394170:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 06503e41-194a-4ed1-b440-c301f73e6a6f
   instructions: ''
   locations_address_id: 91fcd7a0-9f33-43d1-ab35-39111c44d308
   name: ThoughtWorks Office
@@ -96,6 +102,7 @@ Venues::Venue_215487ed-a371-488f-b43f-3caffbbdf0d0:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 24f50cbf-5c1b-498b-abc6-b6978e29f7b1
   instructions: ''
   locations_address_id: 7ee6fa75-f78f-41db-83bd-972d07231d29
   name: Scoreloop Office
@@ -111,6 +118,7 @@ Venues::Venue_23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: c24e58ea-48ee-4ccc-92f1-98a0c2cdb4f7
   instructions: ''
   locations_address_id: 3f35d020-4ee5-49af-8307-1ed67c77eadc
   name: DataGuard Office
@@ -141,6 +149,7 @@ Venues::Venue_31e5c809-fba0-4198-8858-a0054501d792:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 65b5f3be-9689-443d-9fa4-b64f41532260
   instructions: ''
   locations_address_id: 16d4466b-429f-47c5-bcbd-ad142314371f
   name: gutefrage Office
@@ -156,6 +165,7 @@ Venues::Venue_3236f853-c433-46ee-a6e4-070b99a632fb:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 1f653476-5efe-415e-9dcb-6c58e3e522e2
   instructions: ''
   locations_address_id: cdf044dc-7abf-436a-96de-596b9ed7f71c
   name: PHAROS Office
@@ -171,6 +181,7 @@ Venues::Venue_3b908116-7311-4923-b840-ed89760170f8:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 0e78b5fd-dfc3-41fa-b6ce-473d7bd8662d
   instructions: ''
   locations_address_id: eb96f61f-5059-4c2c-b7f6-5361a1241c16
   name: riskmethods Office 2
@@ -186,6 +197,7 @@ Venues::Venue_4199ada8-92e2-4074-90a3-5c5dbd97f399:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: e5be2a27-e487-4ecb-9c0b-b4da4fee1de2
   instructions: ''
   locations_address_id: a2b3bfc0-9fa5-4a08-a546-7d15ad158735
   name: codecentric Office
@@ -201,6 +213,7 @@ Venues::Venue_4615cc6d-19f4-4d57-bbe7-482e41344db1:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e
   instructions: ''
   locations_address_id: 0b5ec8e1-007f-4510-8d0d-ff4b87cb3b18
   name: Freeletics Office
@@ -216,6 +229,7 @@ Venues::Venue_4f816bec-c6ce-4776-947f-fa6551d18108:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 42f4efab-41f2-4d1f-8539-8c94cacf38da
   instructions: ''
   locations_address_id: 581c789e-6408-4f1d-8a23-43ae147b210b
   name: Former 03 Office
@@ -231,6 +245,7 @@ Venues::Venue_522de6d8-fb07-4a30-ab14-b7c8987ab943:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 1f653476-5efe-415e-9dcb-6c58e3e522e2
   instructions: ''
   locations_address_id: cdf044dc-7abf-436a-96de-596b9ed7f71c
   name: ARRI Media Office
@@ -246,6 +261,7 @@ Venues::Venue_581db90f-7dcd-416b-aa34-6b06b93060ac:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e
   instructions: ''
   locations_address_id: b67de432-baa6-472d-b97f-6da7f18e8b19
   name: Freeletics Office 2
@@ -261,6 +277,7 @@ Venues::Venue_59fc696b-609c-4177-9afa-669185fb0dd7:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: a986ef8b-165f-43c4-b571-3097c2651cca
   instructions: ''
   locations_address_id: af20a4ff-1f6f-4384-970c-e33898c1ac00
   name: Workday Office
@@ -276,6 +293,7 @@ Venues::Venue_6309bbae-cd76-4b93-bfa7-7b1fb076177b:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 28c84185-622b-4f11-a5fc-c6246e1c758e
   instructions: ''
   locations_address_id: 5947ec85-23be-4a0d-a2c8-ce15d4b01d79
   name: Experteer Office
@@ -306,6 +324,7 @@ Venues::Venue_63b14137-3cdb-4f1a-88bc-860c5e4f2223:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: b10441a8-73dd-4d7c-ba06-45e366a3b294
   instructions: ''
   locations_address_id: f7fe8226-b68a-4ec5-b626-1bcf94ce185a
   name: Le Wagon Munich Coding Bootcamp
@@ -321,6 +340,7 @@ Venues::Venue_65fca0f2-adb6-4a50-b344-8771745bee01:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 5e2d7b62-b642-4ae7-a17e-8554c0df5d71
   instructions: ''
   locations_address_id: 69484e6d-af88-490c-b9b9-ab961209ce10
   name: Xempus Office
@@ -336,6 +356,7 @@ Venues::Venue_69821224-9122-4f4f-afa2-ea45b4356aa1:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 5da9b18f-3bf2-48ec-a257-34b02f249538
   instructions: ''
   locations_address_id: e0ae990d-b61a-4bc9-8f25-c920fb2e8d2b
   name: Flobby Media Office
@@ -351,6 +372,7 @@ Venues::Venue_7ccf4041-03b7-452a-a7f1-efa5d22e96d4:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 15e5eebf-a915-40dc-b982-fcce3f1352b4
   instructions: ''
   locations_address_id: 13ef6a8f-3ee9-41ab-bddb-115e01d59278
   name: Demodesk Office
@@ -381,6 +403,7 @@ Venues::Venue_87befe94-27c4-488a-b3e3-d7874d97b1a7:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 23ddd95b-ca87-43e5-b69b-7c71322891e5
   instructions: ''
   locations_address_id: ab12dea4-bf3e-421b-a51c-099f3c18bf3e
   name: Metoda Office
@@ -396,6 +419,7 @@ Venues::Venue_8b93680b-2148-4486-93fc-9abadd022492:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: b48e8393-66ef-4fd1-911c-75ec5ae29305
   instructions: ''
   locations_address_id: 9b3512a5-95c8-4eb6-a276-29c0bf5fd66f
   name: Workpath Office
@@ -411,6 +435,7 @@ Venues::Venue_8fd97a9c-10f1-4e65-a8c2-fd14c54a963a:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 5bc2ceda-e94c-49d4-ade5-a97664619255
   instructions: ''
   locations_address_id: 7742024b-8219-4ae6-8917-5a9690f313dc
   name: IT:Agenten Office
@@ -426,6 +451,7 @@ Venues::Venue_90a84792-1569-45c1-9c35-9e3a708e75c4:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 6b430862-a19c-42b7-9472-f52d73e407b9
   instructions: ''
   locations_address_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
   name: Fidor Bank Office
@@ -456,6 +482,7 @@ Venues::Venue_a2c660d1-f70d-4cf5-8dba-f0edaf6f177f:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 29832b05-4ea1-4fc3-8cb2-a992acc590de
   instructions: ''
   locations_address_id: 56c87d8f-ae59-4c6b-a5c7-e0a4f44b1a71
   name: JetBrains Office 2
@@ -471,6 +498,7 @@ Venues::Venue_acac167f-0957-4586-bcca-7ffa3ed8f06a:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 70c17eee-86a3-4c9b-9a07-98e59ef59a1f
   instructions: ''
   locations_address_id: 7a2d5886-0641-4104-8c8b-0cd62265fe5a
   name: Shore Office
@@ -486,6 +514,7 @@ Venues::Venue_c7e45563-ce0e-46c7-9805-77b86851eda6:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 8210e0a0-31b9-4b43-a64e-b3f2c4c2b215
   instructions: ''
   locations_address_id: 764b4ed9-7c3b-4364-b946-c6d49c915329
   name: Lanes & Planes Office
@@ -501,6 +530,7 @@ Venues::Venue_ca9606cd-d8e0-4c53-8f0f-ee59fda172f4:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: c24e58ea-48ee-4ccc-92f1-98a0c2cdb4f7
   instructions: ''
   locations_address_id: 9b3512a5-95c8-4eb6-a276-29c0bf5fd66f
   name: DataGuard Office 2
@@ -531,6 +561,7 @@ Venues::Venue_dbfcbc47-b465-4ef7-9d4c-285208def0d1:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: f227be6b-03c8-4bb8-ada2-08b1f26b0fef
   instructions: ''
   locations_address_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
   name: New Work Office
@@ -546,6 +577,7 @@ Venues::Venue_e06fb1e7-d75b-4347-bef5-ab4b83b44d37:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 482c6c95-e2bb-41f5-bdc6-13b0c2c0ce23
   instructions: ''
   locations_address_id: 4814051f-7359-4e0e-9015-b970baacef5e
   name: crewmeister Office
@@ -561,6 +593,7 @@ Venues::Venue_e1cb528f-44ee-4d93-b715-74a738d89c56:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: a91b7551-fc1f-4f48-a1e7-d15a6b83c24d
   instructions: ''
   locations_address_id: 9dac9d5e-1951-48e5-b771-fce25fad6942
   name: Cospired Office
@@ -576,6 +609,7 @@ Venues::Venue_f1d0f5b6-c721-4dd0-a632-8acec6cbcd60:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 0e78b5fd-dfc3-41fa-b6ce-473d7bd8662d
   instructions: ''
   locations_address_id: 7731351b-56ab-4725-851c-bda6bba0c3a5
   name: riskmethods Office
@@ -591,6 +625,7 @@ Venues::Venue_f6bb5d43-abdf-464f-ab91-b68855b122c2:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   description: ''
+  entities_organization_id: 29832b05-4ea1-4fc3-8cb2-a992acc590de
   instructions: ''
   locations_address_id: 84287654-9b30-432f-9930-caa933469041
   name: JetBrains Office
