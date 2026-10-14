@@ -3,17 +3,11 @@
 one:
   slug: MyString
   name: MyString
-  description: MyText
   website: MyString
-  logo_background: MyString
   logo_url: MyString
-  main_location: MyString
 
 two:
   slug: MyString
   name: MyString
-  description: MyText
   website: MyString
-  logo_background: MyString
   logo_url: MyString
-  main_location: MyString
