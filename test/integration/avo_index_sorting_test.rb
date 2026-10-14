@@ -105,6 +105,13 @@ class AvoIndexSortingTest < ActionDispatch::IntegrationTest
     assert_equal %w[older newer], index_order("talks_talks", sort_by: :event, sort_direction: :asc)
   end
 
+  test "organizations fall in slug order by default, ignoring the case of their names" do
+    entities_organizations(:one).update_columns(slug: "freeletics", name: "Freeletics")
+    entities_organizations(:two).update_columns(slug: "codecentric", name: "codecentric")
+
+    assert_equal %w[codecentric freeletics], index_order("entities_organizations")
+  end
+
   private
 
   # The row links are where the index's order shows from the outside. "new" is
