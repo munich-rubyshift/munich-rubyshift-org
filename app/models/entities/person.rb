@@ -1,3 +1,5 @@
+require "open-uri"
+
 class Entities::Person < ApplicationRecord
   include Sluggable
   include StoredImage
@@ -15,7 +17,21 @@ class Entities::Person < ApplicationRecord
   # We store handles like rubyevents does, except for Mastodon, where only the
   # full URL names the server.
   def github_url
-    "https://github.com/#{github_username}" if github_username.present?
+    "#{Rails.configuration.x.github_url}/#{github_username}" if github_username.present?
+  end
+
+  # 460px is the size GitHub shows on profile pages.
+  def github_avatar_url
+    "#{github_url}.png?size=460" if github_url
+  end
+
+  # Downloads the profile picture from GitHub and makes it the avatar, so the
+  # static site doesn't depend on GitHub. Returns false if the avatar couldn't
+  # be saved, and raises if the download fails.
+  def mirror_github_avatar
+    URI.parse(github_avatar_url).open do |image|
+      update(avatar: { io: image, filename: "#{github_username}.png", content_type: image.content_type })
+    end
   end
 
   def twitter_url

@@ -40,3 +40,40 @@ module StorageTestHelper
     Rack::Test::UploadedFile.new(file, Marcel::MimeType.for(file, name: fixture), original_filename: filename)
   end
 end
+
+# Points config.x.github_url at a local server that answers like github.com:
+# anna's profile picture redirects to test/fixtures/files/image.png, anyone
+# else's is not found.
+module GithubTestHelper
+  extend ActiveSupport::Concern
+
+  APP = ->(env) do
+    case env["PATH_INFO"]
+    when "/anna.png"
+      [ 302, { "location" => "http://#{env["HTTP_HOST"]}/avatars/anna" }, [] ]
+    when "/avatars/anna"
+      [ 200, { "content-type" => "image/png" }, [ Rails.root.join("test/fixtures/files/image.png").binread ] ]
+    else
+      [ 404, { "content-type" => "text/plain" }, [ "Not Found" ] ]
+    end
+  end
+
+  def self.url
+    @url ||= begin
+      require "capybara"
+      server = Capybara::Server.new(APP).boot
+      "http://#{server.host}:#{server.port}"
+    end
+  end
+
+  included do
+    setup do
+      @original_github_url = Rails.configuration.x.github_url
+      Rails.configuration.x.github_url = GithubTestHelper.url
+    end
+
+    teardown do
+      Rails.configuration.x.github_url = @original_github_url
+    end
+  end
+end

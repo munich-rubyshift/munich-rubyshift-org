@@ -48,5 +48,8 @@ module MunichRubyshiftOrg
     config.view_component.generate.locale = true
     config.view_component.previews.default_layout = "component_preview"
     config.asset_path = "/assets"
+
+    # Tests point this at a local server, to mirror avatars without GitHub.
+    config.x.github_url = "https://github.com"
   end
 end

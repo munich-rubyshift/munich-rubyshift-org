@@ -44,7 +44,8 @@ To add or remove an image:
 - Run `git -C content/storage switch main`, as `git submodule update`
   leaves the submodule on a detached HEAD.
 - Upload or remove it in Avo, on the person's or organization's edit page.
-  This only works with the submodule checked out.
+  This only works with the submodule checked out. For a person with a
+  GitHub username, "Mirror" on their page copies their GitHub avatar.
 - Commit and push the change in `content/storage`.
 - Then commit the changed `content/data` YAML together with the
   submodule's new commit (`git add content/data content/storage`) in this
