@@ -66,6 +66,17 @@ class Events::Event < ApplicationRecord
     !online? && !cancelled?
   end
 
+  # A CFP that opens today, for an event that can still take proposals. Its
+  # blank close date implies the day before the event. Leaves the CFP out
+  # rather than getting in the way of saving the event.
+  def build_default_cfp
+    return if cancelled?
+    return if start_date && start_date <= Date.current
+
+    cfp = cfps.build(name: Events::CFP::DEFAULT_NAME, open_date: Date.current)
+    cfps.delete(cfp) unless cfp.valid?
+  end
+
   # Often the title is too generic, so mimic the slug.
   def to_s
     [ kind&.humanize, start_date&.iso8601 ].compact_blank.join(" ")
