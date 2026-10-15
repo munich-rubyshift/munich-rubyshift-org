@@ -199,6 +199,15 @@ Rails.application.config.to_prepare do
       format_display_using: -> { link_to value, main_app.polymorphic_path(record), "data-turbo": false }
     }.freeze
 
+    # For a model's `has_stored_image`.
+    IMAGE_FIELD_OPTIONS = {
+      as: :file,
+      is_image: true,
+      accept: StoredImage::CONTENT_TYPES.join(","),
+      help: "#{StoredImage::FORMATS}, at most #{StoredImage::MAX_SIZE / 1.megabyte} MB. " \
+        "Changing it needs content/storage checked out, see the README."
+    }.freeze
+
     # Sort a column by one of the model's scopes, or with `on:` by a scope
     # of an association's model.
     def sortable(scope, on: nil)

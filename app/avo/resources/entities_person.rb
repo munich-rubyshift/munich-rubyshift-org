@@ -1,6 +1,6 @@
 class Avo::Resources::EntitiesPerson < Avo::BaseResource
   # self.includes = []
-  # self.attachments = []
+  self.attachments = [ :avatar ]
   self.model_class = ::Entities::Person
   self.translation_key = "activerecord.models.#{model_class.model_name.i18n_key}"
   # self.search = {
@@ -11,6 +11,7 @@ class Avo::Resources::EntitiesPerson < Avo::BaseResource
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :name, as: :text, sortable: true
+    field :avatar, **IMAGE_FIELD_OPTIONS
     field :rubyevents_slug, as: :text, sortable: true
     field :github_username, as: :text, sortable: true
     field :twitter_username, as: :text, sortable: true

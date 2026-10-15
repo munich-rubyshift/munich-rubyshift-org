@@ -1,6 +1,9 @@
 class Entities::Person < ApplicationRecord
   include Sluggable
+  include StoredImage
   friendly_id :name
+
+  has_stored_image :avatar
 
   has_many :participations, class_name: "Events::Participation", foreign_key: :entities_person_id, inverse_of: :person
   has_many :events, through: :participations, class_name: "Events::Event"

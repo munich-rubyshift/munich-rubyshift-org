@@ -1,0 +1,15 @@
+<%# Avo's own styles, extended for our fields. %>
+<style>
+  /* Avo shows an image at its own size, as wide as the field allows. */
+  .field-wrapper:is([data-field-id="avatar"], [data-field-id="logo"]) img {
+    width: 115px;
+    height: 115px;
+    object-fit: contain;
+  }
+
+  /* Cut out like on GitHub. */
+  .field-wrapper[data-field-id="avatar"] img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+</style>

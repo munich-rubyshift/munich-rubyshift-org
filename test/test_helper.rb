@@ -34,4 +34,9 @@ module StorageTestHelper
   def check_out_storage
     FileUtils.touch(File.join(ActiveStorage::Blob.service.root, ".git"))
   end
+
+  def image_upload(fixture = "image.png", filename: fixture)
+    file = file_fixture(fixture)
+    Rack::Test::UploadedFile.new(file, Marcel::MimeType.for(file, name: fixture), original_filename: filename)
+  end
 end

@@ -1,6 +1,8 @@
 require "test_helper"
 
 class AvoOrganizationPageTest < ActionDispatch::IntegrationTest
+  include StorageTestHelper
+
   test "an organization page lists its venues" do
     organization = entities_organizations(:one)
     organization.update_columns(slug: "freeletics")
@@ -31,5 +33,16 @@ class AvoOrganizationPageTest < ActionDispatch::IntegrationTest
 
     assert_response :success
     assert_select "a[href='https://www.rubyevents.org/organizations/pharos-die-grosste'][target='_blank']"
+  end
+
+  test "uploading a logo attaches it to the organization" do
+    check_out_storage
+    organization = entities_organizations(:one)
+    organization.update_columns(slug: "acme")
+
+    patch "/avo/resources/entities_organizations/acme", params: { "entities/organization" => { logo: image_upload } }
+
+    assert_response :redirect
+    assert_equal "acme-logo.png", organization.reload.logo.filename.to_s
   end
 end
