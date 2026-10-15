@@ -8,6 +8,7 @@ class Entities::PersonTest < ActiveSupport::TestCase
     )
 
     assert_equal "https://github.com/triskweline", person.github_url
+    assert_equal "https://github.com/triskweline.png?size=460", person.github_avatar_url
     assert_equal "https://x.com/triskweline", person.twitter_url
     assert_equal "https://bsky.app/profile/hschne", person.bluesky_url
     assert_equal "https://www.linkedin.com/in/triskweline", person.linkedin_url
@@ -19,6 +20,7 @@ class Entities::PersonTest < ActiveSupport::TestCase
     person = Entities::Person.new(github_username: "", twitter_username: "", bluesky_handle: "", linkedin_username: "", speakerdeck_username: "", mastodon: "")
 
     assert_nil person.github_url
+    assert_nil person.github_avatar_url
     assert_nil person.twitter_url
     assert_nil person.bluesky_url
     assert_nil person.linkedin_url

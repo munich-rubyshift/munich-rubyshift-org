@@ -237,6 +237,15 @@ Rails.application.config.to_prepare do
     def sort_by_param
       get_field(default_sort_column)&.sortable.is_a?(Proc) ? default_sort_column : super
     end
+
+    private
+
+    # Avo builds the index table from the root and main-panel fields only, so a
+    # named panel would drop its columns from the table. Group the record views
+    # and leave the index flat.
+    def grouped(name, &block)
+      view.index? ? yield : panel(name, &block)
+    end
   end
 
   class Avo::Fields::DateField

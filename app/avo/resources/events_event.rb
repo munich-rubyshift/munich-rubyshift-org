@@ -60,13 +60,6 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
 
   private
 
-  # Avo builds the index table from the root and main-panel fields only, so a
-  # named panel would drop its columns from the table. Group the record views
-  # and leave the index flat.
-  def grouped(name, &block)
-    view.index? ? yield : panel(name, &block)
-  end
-
   # An event falls back to its series for blank values (Events::SeriesDefaults),
   # but the form is supposed to show the event's own value. The fallback value
   # is shown as a placeholder.
