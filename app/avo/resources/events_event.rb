@@ -60,10 +60,16 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :published_at, as: :date_time, sortable: true
     field :announced_on, as: :date, sortable: true
     field :last_edition, as: :boolean, sortable: true
+
+    field :cfps, as: :has_many
   end
 
+  # A new event comes with a CFP for convenience.
   def fill_record(...)
-    super.tap { |record| record.end_date ||= record.start_date }
+    super.tap do |record|
+      record.end_date ||= record.start_date
+      record.build_default_cfp if record.new_record?
+    end
   end
 
   private

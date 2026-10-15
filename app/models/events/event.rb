@@ -17,7 +17,7 @@ class Events::Event < ApplicationRecord
   has_many :participations, class_name: "Events::Participation", foreign_key: :events_event_id, inverse_of: :event
   has_many :participants, through: :participations, source: :person, class_name: "Entities::Person"
 
-  has_many :cfps, class_name: "Events::CFP", foreign_key: :events_event_id, inverse_of: :event
+  has_many :cfps, -> { by_open_date }, class_name: "Events::CFP", foreign_key: :events_event_id, inverse_of: :event
 
   has_many :involvements, class_name: "Events::Involvement", foreign_key: :events_event_id, inverse_of: :event
 
@@ -64,6 +64,17 @@ class Events::Event < ApplicationRecord
   # Only an event people can actually show up to needs a venue.
   def venue_required?
     !online? && !cancelled?
+  end
+
+  # A CFP that opens today, for an event that can still take proposals. Its
+  # blank close date implies the day before the event, so an event starting
+  # today or earlier fails the CFP's validation. Leaves an invalid CFP out
+  # rather than getting in the way of saving the event.
+  def build_default_cfp
+    return if cancelled?
+
+    cfp = cfps.build(name: Events::CFP::DEFAULT_NAME, open_date: Date.current)
+    cfps.delete(cfp) unless cfp.valid?
   end
 
   # Often the title is too generic, so mimic the slug.
