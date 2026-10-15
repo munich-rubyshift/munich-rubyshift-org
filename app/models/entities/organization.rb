@@ -1,6 +1,9 @@
 class Entities::Organization < ApplicationRecord
   include Sluggable
+  include StoredImage
   friendly_id :slug_candidates
+
+  has_stored_image :logo
 
   has_many :sponsorships, class_name: "Sponsors::Sponsorship", foreign_key: :entities_organization_id, inverse_of: :organization
   has_many :sponsor_tiers, class_name: "Sponsors::SponsorTier", through: :sponsorships
