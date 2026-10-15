@@ -16,8 +16,10 @@ class Entities::Person < ApplicationRecord
 
   # We store handles like rubyevents does, except for Mastodon, where only the
   # full URL names the server.
+  GITHUB_URL = "https://github.com".freeze
+
   def github_url
-    "#{Rails.configuration.x.github_url}/#{github_username}" if github_username.present?
+    "#{GITHUB_URL}/#{github_username}" if github_username.present?
   end
 
   # 460px is the size GitHub shows on profile pages.

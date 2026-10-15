@@ -4,6 +4,11 @@ class Entities::PersonGithubAvatarTest < ActiveSupport::TestCase
   include StorageTestHelper
   include GithubTestHelper
 
+  setup do
+    stub_github_avatar("anna")
+    stub_unknown_github_user("nobody")
+  end
+
   test "mirrors the avatar from GitHub" do
     check_out_storage
     person = Entities::Person.create!(name: "Anna Smith", github_username: "anna")

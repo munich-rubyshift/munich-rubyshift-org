@@ -7,13 +7,15 @@ class AvoPersonGithubAvatarTest < ActionDispatch::IntegrationTest
   setup do
     @person = entities_people(:one)
     @person.update_columns(slug: "anna", github_username: "anna")
+    stub_github_avatar("anna")
+    stub_unknown_github_user("nobody")
   end
 
   test "a person page previews their GitHub avatar next to a mirror button" do
     get "/avo/resources/entities_people/anna"
 
     assert_response :success
-    assert_select "[data-field-id='github_avatar_url'] img[src='#{GithubTestHelper.url}/anna.png?size=460']"
+    assert_select "[data-field-id='github_avatar_url'] img[src='https://github.com/anna.png?size=460']"
     assert_select "[data-field-id='github_avatar_url'] a[href*='action_id=Avo::Actions::MirrorGithubAvatar']", text: "Mirror"
   end
 

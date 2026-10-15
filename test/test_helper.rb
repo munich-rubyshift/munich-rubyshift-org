@@ -1,6 +1,10 @@
 ENV["RAILS_ENV"] ||= "test"
 require_relative "../config/environment"
 require "rails/test_help"
+require "webmock/minitest"
+
+# System tests drive a browser through a local server.
+WebMock.disable_net_connect!(allow_localhost: true)
 
 module ActiveSupport
   class TestCase
@@ -41,40 +45,15 @@ module StorageTestHelper
   end
 end
 
-# Points config.x.github_url at a local server that answers like github.com:
-# anna's profile picture redirects to test/fixtures/files/image.png, anyone
-# else's is not found.
+# Answers like github.com, where a profile picture redirects to the image.
 module GithubTestHelper
-  extend ActiveSupport::Concern
-
-  APP = ->(env) do
-    case env["PATH_INFO"]
-    when "/anna.png"
-      [ 302, { "location" => "http://#{env["HTTP_HOST"]}/avatars/anna" }, [] ]
-    when "/avatars/anna"
-      [ 200, { "content-type" => "image/png" }, [ Rails.root.join("test/fixtures/files/image.png").binread ] ]
-    else
-      [ 404, { "content-type" => "text/plain" }, [ "Not Found" ] ]
-    end
+  def stub_github_avatar(username)
+    image_url = "https://avatars.githubusercontent.com/#{username}"
+    stub_request(:get, "https://github.com/#{username}.png?size=460").to_return(status: 302, headers: { "Location" => image_url })
+    stub_request(:get, image_url).to_return(body: file_fixture("image.png").binread, headers: { "Content-Type" => "image/png" })
   end
 
-  def self.url
-    @url ||= begin
-      require "capybara"
-      Capybara.server = :puma, { Silent: true }
-      server = Capybara::Server.new(APP).boot
-      "http://#{server.host}:#{server.port}"
-    end
-  end
-
-  included do
-    setup do
-      @original_github_url = Rails.configuration.x.github_url
-      Rails.configuration.x.github_url = GithubTestHelper.url
-    end
-
-    teardown do
-      Rails.configuration.x.github_url = @original_github_url
-    end
+  def stub_unknown_github_user(username)
+    stub_request(:get, "https://github.com/#{username}.png?size=460").to_return(status: 404, body: "Not Found")
   end
 end
