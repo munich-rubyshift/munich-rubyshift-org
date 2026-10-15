@@ -7,9 +7,27 @@
     object-fit: contain;
   }
 
-  /* Cut out like on GitHub. */
-  .field-wrapper[data-field-id="avatar"] img {
+  /* Cut out like on GitHub, on the record's page and in the index table. */
+  :is(.field-wrapper, td)[data-field-id="avatar"] img,
+  .github-avatar img {
+    aspect-ratio: 1;
     border-radius: 50%;
     object-fit: cover;
+  }
+
+  .github-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  /* Avo centers fields vertically, which offsets those next to a taller one. */
+  [data-component="Avo::RowComponent"] > .field-wrapper {
+    align-items: flex-start;
+  }
+
+  [data-component="Avo::RowComponent"] > .field-wrapper [data-slot="value"] > div {
+    align-self: flex-start;
   }
 </style>

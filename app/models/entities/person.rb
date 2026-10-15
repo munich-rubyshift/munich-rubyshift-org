@@ -1,3 +1,5 @@
+require "open-uri"
+
 class Entities::Person < ApplicationRecord
   include Sluggable
   include StoredImage
@@ -14,8 +16,20 @@ class Entities::Person < ApplicationRecord
 
   # We store handles like rubyevents does, except for Mastodon, where only the
   # full URL names the server.
+  GITHUB_URL = "https://github.com".freeze
+
   def github_url
-    "https://github.com/#{github_username}" if github_username.present?
+    "#{GITHUB_URL}/#{github_username}" if github_username.present?
+  end
+
+  def github_avatar_url
+    "#{github_url}.png?size=460" if github_url
+  end
+
+  def mirror_github_avatar!
+    URI.parse(github_avatar_url).open do |image|
+      update(avatar: { io: image, filename: "#{github_username}.png", content_type: image.content_type })
+    end
   end
 
   def twitter_url
