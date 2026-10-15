@@ -226,15 +226,8 @@ events: {
     meetup: string
     luma: string
     guild: string
-    vimeo: string
     # ours alone, not in SeriesSchema and not exportable
     discord: string
-    # flattened from the YAML's youtube_channels array; a channels table is
-    # a later step, once a series really needs more than one
-    youtube_channel_id: string
-    youtube_channel_name: string
-    youtube_channel_handle: string
-    playlist_matcher: string
   }
   # No series_aliases: we always point at the canonical rubyevents record.
   events: {
@@ -264,8 +257,6 @@ events: {
     location: string
     # required, except for online or cancelled events; forbidden when online
     venue_id: "integer" {constraint: foreign_key}
-    channel_id: string
-    playlist: string
     website: string
     original_website: string
     twitter: string
@@ -273,7 +264,6 @@ events: {
     github: string
     meetup: string
     luma: string
-    youtube: string
     tickets_url: string
     banner_background: string
     featured_background: string

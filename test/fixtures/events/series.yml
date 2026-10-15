@@ -21,12 +21,7 @@ one:
   meetup: MyString
   luma: MyString
   guild: MyString
-  vimeo: MyString
   discord: MyString
-  youtube_channel_id: MyString
-  youtube_channel_name: MyString
-  youtube_channel_handle: MyString
-  playlist_matcher: MyString
 
 two:
   slug: MyString
@@ -49,9 +44,4 @@ two:
   meetup: MyString
   luma: MyString
   guild: MyString
-  vimeo: MyString
   discord: MyString
-  youtube_channel_id: MyString
-  youtube_channel_name: MyString
-  youtube_channel_handle: MyString
-  playlist_matcher: MyString

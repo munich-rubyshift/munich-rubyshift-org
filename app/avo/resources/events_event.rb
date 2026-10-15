@@ -41,10 +41,6 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
       field :description, as: :textarea
     end
 
-    field :channel_id, as: :text, sortable: true
-    field :playlist, as: :text, sortable: true
-    field :youtube, as: :text, sortable: true
-
     field :series, as: :belongs_to, **sortable(:by_to_s, on: :series), default: -> { ::Events::Series.first }
     field :website, as: :text, sortable: true, **series_default_options(:website)
     field :twitter, as: :text, sortable: true, **series_default_options(:twitter)
