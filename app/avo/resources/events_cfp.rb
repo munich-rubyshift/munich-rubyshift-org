@@ -13,7 +13,12 @@ class Avo::Resources::EventsCFP < Avo::BaseResource
     field :name, as: :text, sortable: true, default: ::Events::CFP::DEFAULT_NAME
     field :external_url, as: :text, sortable: true
     field :open_date, as: :date, sortable: true
-    field :close_date, as: :date, sortable: true
+    # Like a talk's announcement date: the form shows the CFP's own date, so
+    # saving doesn't store the implied one.
+    field :close_date, as: :date, sortable: true,
+      help: "Leave blank to close the day before the event.",
+      format_form_using: -> { record.read_attribute(:close_date) },
+      placeholder: -> { record.event&.start_date&.prev_day&.iso8601 }
     field :event, as: :belongs_to, **sortable(:by_start_date, on: :event)
   end
 end

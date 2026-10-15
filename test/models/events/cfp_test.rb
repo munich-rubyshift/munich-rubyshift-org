@@ -40,4 +40,48 @@ class Events::CFPTest < ActiveSupport::TestCase
 
     assert cfp.valid?, cfp.errors.full_messages.to_sentence
   end
+
+  test "closes the day before its event without a close date" do
+    cfp = Events::CFP.new(event: @event)
+
+    assert_equal Date.new(2026, 11, 11), cfp.close_date
+    assert_nil cfp.read_attribute(:close_date)
+  end
+
+  test "keeps a close date of its own" do
+    assert_equal Date.new(2026, 11, 1), Events::CFP.new(event: @event, close_date: "2026-11-01").close_date
+  end
+
+  test "follows its event to a new date" do
+    cfp = Events::CFP.create!(event: @event, name: "Call for Proposals")
+    @event.update_columns(start_date: "2026-12-03", end_date: "2026-12-03")
+
+    assert_equal Date.new(2026, 12, 2), cfp.reload.close_date
+  end
+
+  test "stays open-ended for an undated event" do
+    @event.update_columns(start_date: nil, end_date: nil)
+
+    assert_nil Events::CFP.new(event: @event).close_date
+  end
+
+  test "may close the day it opens" do
+    cfp = Events::CFP.new(event: @event, name: "Call for Proposals", open_date: "2026-11-11")
+
+    assert cfp.valid?, cfp.errors.full_messages.to_sentence
+  end
+
+  test "can't close before it opens" do
+    cfp = Events::CFP.new(event: @event, name: "Call for Proposals", open_date: "2026-11-05", close_date: "2026-11-04")
+
+    assert_not cfp.valid?
+    assert_includes cfp.errors[:close_date], "can't be before the open date"
+  end
+
+  test "can't open after the day before its event without a close date" do
+    cfp = Events::CFP.new(event: @event, name: "Call for Proposals", open_date: "2026-11-12")
+
+    assert_not cfp.valid?
+    assert_includes cfp.errors[:close_date], "defaults to the day before the event, which is before the open date"
+  end
 end

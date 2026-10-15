@@ -294,6 +294,8 @@ events: {
     # Events::CFP#url resolves.
     external_url: string
     open_date: date
+    # Blank means "the day before the event", which Events::CFP#close_date
+    # resolves. Upstream reads a blank close date as "always open".
     close_date: date
   }
   # Organising roles. One row per (event, entity, role) - upstream's shape, not
