@@ -12,9 +12,16 @@ class Events::CFP < ApplicationRecord
   validates :name, presence: true, uniqueness: { scope: :events_event_id, case_sensitive: false }
   validate :closes_after_it_opens
 
+  scope :by_open_date, -> { order(:open_date, :name) }
+
   # A blank close date closes the CFP the day before its event.
   def close_date
     super || event&.start_date&.prev_day
+  end
+
+  # A CFP yet to open counts as open, too.
+  def closed?
+    close_date.present? && close_date.before?(Date.current)
   end
 
   # Most CFPs have the same name, so prepend the event's slug, which is unique.
