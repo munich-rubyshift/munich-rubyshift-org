@@ -2,15 +2,15 @@
 module StoredImage
   extend ActiveSupport::Concern
 
-  # The image types we take, with the extension each one gets.
+  # The image types we take, with the extension each one gets. No SVG: opened
+  # on its own, an SVG runs its scripts with our site as their origin.
   EXTENSIONS = {
     "image/png" => "png",
     "image/jpeg" => "jpg",
     "image/gif" => "gif",
-    "image/webp" => "webp",
-    "image/svg+xml" => "svg"
+    "image/webp" => "webp"
   }.freeze
-  FORMATS = "PNG, JPEG, GIF, WebP or SVG".freeze
+  FORMATS = "PNG, JPEG, GIF or WebP".freeze
   MAX_SIZE = 2.megabytes
 
   class_methods do

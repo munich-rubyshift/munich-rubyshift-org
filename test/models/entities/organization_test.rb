@@ -6,9 +6,9 @@ class Entities::OrganizationTest < ActiveSupport::TestCase
   test "names its logo after the organization" do
     check_out_storage
 
-    acme = Entities::Organization.create!(name: "Acme", logo: image_upload("image.svg"))
+    acme = Entities::Organization.create!(name: "Acme", logo: image_upload)
 
-    assert_equal "acme-logo.svg", acme.reload.logo.filename.to_s
+    assert_equal "acme-logo.png", acme.reload.logo.filename.to_s
   end
 
   test "the slug follows the brand" do

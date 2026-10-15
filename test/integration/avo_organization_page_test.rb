@@ -40,9 +40,9 @@ class AvoOrganizationPageTest < ActionDispatch::IntegrationTest
     organization = entities_organizations(:one)
     organization.update_columns(slug: "acme")
 
-    patch "/avo/resources/entities_organizations/acme", params: { "entities/organization" => { logo: image_upload("image.svg") } }
+    patch "/avo/resources/entities_organizations/acme", params: { "entities/organization" => { logo: image_upload } }
 
     assert_response :redirect
-    assert_equal "acme-logo.svg", organization.reload.logo.filename.to_s
+    assert_equal "acme-logo.png", organization.reload.logo.filename.to_s
   end
 end

@@ -10,10 +10,12 @@ class StoredImageTest < ActiveSupport::TestCase
     assert Entities::Person.new(name: "Anna", avatar: image_upload).valid?
   end
 
-  test "takes an SVG" do
+  test "rejects an SVG" do
     check_out_storage
+    person = Entities::Person.new(name: "Anna", avatar: image_upload("image.svg"))
 
-    assert Entities::Person.new(name: "Anna", avatar: image_upload("image.svg")).valid?
+    assert_not person.valid?
+    assert_includes person.errors[:avatar], "must be a PNG, JPEG, GIF or WebP image"
   end
 
   test "rejects a file that isn't an image" do
@@ -21,7 +23,7 @@ class StoredImageTest < ActiveSupport::TestCase
     person = Entities::Person.new(name: "Anna", avatar: { io: StringIO.new("Just some notes"), filename: "notes.txt" })
 
     assert_not person.valid?
-    assert_includes person.errors[:avatar], "must be a PNG, JPEG, GIF, WebP or SVG image"
+    assert_includes person.errors[:avatar], "must be a PNG, JPEG, GIF or WebP image"
   end
 
   test "rejects an image over 2 MB" do
@@ -44,9 +46,9 @@ class StoredImageTest < ActiveSupport::TestCase
   test "names the image by its type" do
     check_out_storage
 
-    person = Entities::Person.create!(name: "Anna", avatar: image_upload("image.svg", filename: "logo.png"))
+    person = Entities::Person.create!(name: "Anna", avatar: image_upload("image.gif", filename: "photo.png"))
 
-    assert_equal "anna-avatar.svg", person.reload.avatar.filename.to_s
+    assert_equal "anna-avatar.gif", person.reload.avatar.filename.to_s
   end
 
   test "can't be added while the storage isn't checked out" do
@@ -80,9 +82,9 @@ class StoredImageTest < ActiveSupport::TestCase
     check_out_storage
     person = Entities::Person.create!(name: "Anna", avatar: image_upload)
 
-    person.update!(avatar: image_upload("image.svg"))
+    person.update!(avatar: image_upload("image.gif"))
 
-    assert_equal "anna-avatar.svg", person.reload.avatar.filename.to_s
+    assert_equal "anna-avatar.gif", person.reload.avatar.filename.to_s
   end
 
   test "leaves the record editable without the storage" do
