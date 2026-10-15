@@ -67,11 +67,11 @@ class Events::Event < ApplicationRecord
   end
 
   # A CFP that opens today, for an event that can still take proposals. Its
-  # blank close date implies the day before the event. Leaves the CFP out
+  # blank close date implies the day before the event, so an event starting
+  # today or earlier fails the CFP's validation. Leaves an invalid CFP out
   # rather than getting in the way of saving the event.
   def build_default_cfp
     return if cancelled?
-    return if start_date && start_date <= Date.current
 
     cfp = cfps.build(name: Events::CFP::DEFAULT_NAME, open_date: Date.current)
     cfps.delete(cfp) unless cfp.valid?
