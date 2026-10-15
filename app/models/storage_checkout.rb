@@ -3,6 +3,7 @@
 # record the change in content/data, but leave git unaware of the file itself.
 module StorageCheckout
   class NotCheckedOut < StandardError; end
+  class FileMissing < StandardError; end
 
   # A checked-out submodule holds a `.git` file, one that was never checked out
   # is an empty directory.
@@ -16,6 +17,10 @@ module StorageCheckout
 
   def self.not_checked_out_message
     "#{relative_root} isn't checked out, run `git submodule update --init #{relative_root}` first"
+  end
+
+  def self.file_missing_message(filename)
+    "#{filename} is missing from #{relative_root}, run `git submodule update` to check out the files this commit expects"
   end
 
   def self.relative_root

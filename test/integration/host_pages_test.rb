@@ -1,6 +1,8 @@
 require "test_helper"
 
 class HostPagesTest < ActionDispatch::IntegrationTest
+  include StorageTestHelper
+
   setup do
     @freeletics = Entities::Organization.create!(name: "Freeletics", legal_name: "Freeletics GmbH")
     @makandra = Entities::Organization.create!(name: "makandra", legal_name: "makandra GmbH")
@@ -12,6 +14,15 @@ class HostPagesTest < ActionDispatch::IntegrationTest
     @newer = event_at(new_office, "2026-04-23")
     event_at(new_office, "2020-04-15", status: "cancelled")
     event_at(venue("makandra Office", @makandra), "2026-01-22")
+  end
+
+  test "the hosts page shows their logos" do
+    check_out_storage
+    @freeletics.update!(logo: image_upload("image.svg"))
+
+    get "/hosts"
+
+    assert_select "img.stored-image[src*='freeletics-logo.svg']"
   end
 
   test "the menu leads to the hosts" do
