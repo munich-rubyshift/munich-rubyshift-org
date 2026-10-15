@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_15_125619) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_15_131509) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -133,7 +133,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_125619) do
     t.string "mastodon"
     t.string "meetup"
     t.string "name"
-    t.string "original_website"
     t.string "rubyevents_slug"
     t.string "slug"
     t.string "twitter_username"
