@@ -1,6 +1,6 @@
 class Entities::OrganizationsController < ApplicationController
   def index
-    @entities_organizations = Entities::Organization.all
+    @entities_organizations = Entities::Organization.with_attached_logo
   end
 
   def show

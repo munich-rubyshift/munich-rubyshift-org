@@ -33,4 +33,9 @@
     <%= link_to organization.website, organization.website, target: "_blank", rel: "noopener noreferrer" if organization.website.present? %>
   </p>
 
+  <p>
+    <strong>Logo:</strong>
+    <%= render StoredImageComponent.new(organization.logo, height: 48) %>
+  </p>
+
 </article>
