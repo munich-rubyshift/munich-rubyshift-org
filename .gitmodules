@@ -1,0 +1,3 @@
+[submodule "content/storage"]
+	path = content/storage
+	url = ../rubyshift-storage.git
