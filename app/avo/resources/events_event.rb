@@ -49,10 +49,6 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :meetup, as: :text, sortable: true, **series_default_options(:meetup)
     field :luma, as: :text, sortable: true, **series_default_options(:luma)
 
-    field :banner_background, as: :text, sortable: true
-    field :featured_background, as: :text, sortable: true
-    field :featured_color, as: :text, sortable: true
-
     field :published_at, as: :date_time, sortable: true
     field :announced_on, as: :date, sortable: true
     field :last_edition, as: :boolean, sortable: true
