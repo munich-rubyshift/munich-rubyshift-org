@@ -2,15 +2,12 @@
 Events::Event_01839f7a-6117-4811-97fa-bb15c798556d:
   id: '01839f7a-6117-4811-97fa-bb15c798556d'
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "# Talks\r\n\r\nMarina - Testing database migrations with snapshots\r\n\r\nMichael
     - Docker based development environments at Experteer"
   end_date: '2017-03-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -30,7 +27,6 @@ Events::Event_01839f7a-6117-4811-97fa-bb15c798556d:
 Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
   id: 05de9889-ca65-4996-a339-09b05a9097fd
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "This time we will have again very interesting speakers and topics.\r\nWe
     sincerly hopy you will join us for this cool event.\r\n\r\nIntroduction to ArangoDB\r\n\r\nArangoDB
@@ -57,8 +53,6 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
   end_date: '2013-09-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -78,15 +72,12 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
 Events::Event_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
   id: 0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "\U0001F3A4 Pavlo – To Rails or not to Rails? Way to go\r\n\r\nOne
     slot is still open. Got a talk prepared? Talk to us!"
   end_date: '2019-11-13'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -106,7 +97,6 @@ Events::Event_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
 Events::Event_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
   id: 0ca4de01-0994-4c1f-a277-68b7edd8a87a
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nI wish you all happy 2025 -- I hope you're
     having great holidays with your loved ones!\r\n\r\nAfter a rather slow year 2024
@@ -129,8 +119,6 @@ Events::Event_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
   end_date: '2025-01-16'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -150,15 +138,12 @@ Events::Event_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
 Events::Event_11b7a50f-1889-41e6-91bc-53d19cd66d70:
   id: 11b7a50f-1889-41e6-91bc-53d19cd66d70
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Mario Fernández – TDD for Containers with ServerSpec\r\n\r\nThere
     is one talk slot left. Want to prepare a talk? Let us know!"
   end_date: '2018-05-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -178,7 +163,6 @@ Events::Event_11b7a50f-1889-41e6-91bc-53d19cd66d70:
 Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
   id: 137da0d0-aa0f-4fc0-84de-933aae3c47de
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Join us for our February Meetup!\r\n\r\nWe have\r\n\r\n• Marco Otte-Witte:
     Rails backends with Ember.js front ends\r\n\r\n... and we could use another 1
@@ -186,8 +170,6 @@ Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
   end_date: '2015-02-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -207,7 +189,6 @@ Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
 Events::Event_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
   id: 13cf2eb5-4055-4ae5-be56-c18eb875f5bc
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "We have a full line up planned for this meetup, so: buckle up!\r\n\r\nTalks:\r\n\r\n×
     Marina Petrova – One App Fits All: Single vs. Multi Tenancy\r\n× Lucas Dohmen
@@ -216,8 +197,6 @@ Events::Event_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
   end_date: '2018-03-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -237,15 +216,12 @@ Events::Event_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
 Events::Event_1573831b-d7d7-497c-b0b0-74772ea7a891:
   id: 1573831b-d7d7-497c-b0b0-74772ea7a891
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Mario Fernandez - Ruby on Rails in mid-sized companies\r\n\r\nJason
     Franklin - TBD\r\n\r\nCarsten - Asset Pipeline and modern Frontend Development"
   end_date: '2016-02-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -265,15 +241,12 @@ Events::Event_1573831b-d7d7-497c-b0b0-74772ea7a891:
 Events::Event_159e036d-87af-4d9b-bbc4-a2adf07f48e1:
   id: 159e036d-87af-4d9b-bbc4-a2adf07f48e1
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Talks:\r\n\r\nJames Edward Gray II : Objects, no really.\r\n\r\nPeter
     Schrammel: After 10 years of ruby"
   end_date: '2015-07-22'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -293,15 +266,12 @@ Events::Event_159e036d-87af-4d9b-bbc4-a2adf07f48e1:
 Events::Event_1bd4fee4-ef7b-4050-9932-c657a72151c5:
   id: 1bd4fee4-ef7b-4050-9932-c657a72151c5
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Florian Gilcher: »Not Omakase – Padrino«\r\n\r\nPeter Schrammel: MRuby
     - a short introduction"
   end_date: '2016-01-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -321,7 +291,6 @@ Events::Event_1bd4fee4-ef7b-4050-9932-c657a72151c5:
 Events::Event_1cbe4b7d-9dca-4673-a7f0-7d7133a213f7:
   id: 1cbe4b7d-9dca-4673-a7f0-7d7133a213f7
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Monica – Off the Rails: alternatives in the wild\r\n\r\nPeter – Building
     an Agent Framework\r\n\r\nWe're actively searching for speakers! Want to become
@@ -329,8 +298,6 @@ Events::Event_1cbe4b7d-9dca-4673-a7f0-7d7133a213f7:
   end_date: '2017-02-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -350,7 +317,6 @@ Events::Event_1cbe4b7d-9dca-4673-a7f0-7d7133a213f7:
 Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
   id: 1d63997d-ac93-4cfb-8046-ebed6b6dec89
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "We're looking for more speakers for the July Meetup!\r\n\r\n• NEW
     Jakub Nieznalski (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/111527782/)
@@ -361,8 +327,6 @@ Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
   end_date: '2014-07-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -382,15 +346,12 @@ Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
 Events::Event_24295c0d-0811-42c4-a837-68311abd1a63:
   id: 24295c0d-0811-42c4-a837-68311abd1a63
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "• Omar Qunsul – Using Database replicas in Rails using octopus gem\r\n\r\n•
     Hendrik – Exploring web functionality and APIs interactively with pry/REPL"
   end_date: '2017-01-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -410,14 +371,11 @@ Events::Event_24295c0d-0811-42c4-a837-68311abd1a63:
 Events::Event_26873fee-6a38-4179-8b79-b800be48163d:
   id: 26873fee-6a38-4179-8b79-b800be48163d
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: ''
   end_date: '2013-11-30'
   end_time: '2000-01-01 14:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: hackathon
   last_edition: 0
@@ -436,7 +394,6 @@ Events::Event_26873fee-6a38-4179-8b79-b800be48163d:
 Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
   id: 2a94bfd1-b358-439f-81ea-c5f6a4075d8e
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "It's not Rails all the way down. We will have Ben Bachhuber over who
     will talk about:\r\n\r\n· Hanami in production - One year later\r\n\r\nIn our
@@ -445,8 +402,6 @@ Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
   end_date: '2018-06-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -466,7 +421,6 @@ Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
 Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
   id: 31dfb46b-8e9e-4941-92e9-d429d53f6eaa
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nthe year is coming to an end – which
     means, it's almost time for the first Meetup of 2024!\r\n\r\nJust like in 2023,
@@ -492,8 +446,6 @@ Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
   end_date: '2024-01-11'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -513,7 +465,6 @@ Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
 Events::Event_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
   id: 373c99ee-c1f2-4550-8e54-3575fa1c14cc
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Two talks lined up for Wednesday:\r\n\r\n\U0001F3A4 Marina: Keep calm
     and monitor your app with Elastic Stack APM\r\n\U0001F3A4 Austin: Our Kafka Journey
@@ -521,8 +472,6 @@ Events::Event_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
   end_date: '2019-03-13'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -542,7 +491,6 @@ Events::Event_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
 Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
   id: 382bfc98-b62a-479c-882b-d8bc3beadfae
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Hi,\r\n\r\nwe have again assembled wonderful speakers and topics -\r\nplease
     join us and have fun together.\r\n\r\n'Fast and furious. Slow and functional'
@@ -560,8 +508,6 @@ Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
   end_date: '2013-11-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -581,7 +527,6 @@ Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
 Events::Event_388f3a35-88ab-4c17-b911-ef743b26ab87:
   id: 388f3a35-88ab-4c17-b911-ef743b26ab87
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "We will have a Database themed meetup, with:\r\n\r\n    Marius Nünnerich
     – Introducing CockroachDB & TiDB\r\n    Omar Qunsul - Adding Graphs to Redis We're
@@ -589,8 +534,6 @@ Events::Event_388f3a35-88ab-4c17-b911-ef743b26ab87:
   end_date: '2017-12-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -610,7 +553,6 @@ Events::Event_388f3a35-88ab-4c17-b911-ef743b26ab87:
 Events::Event_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
   id: 38fe34a2-f5c1-46a4-92dc-29a27d80ff96
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nthe leaves are turning brown again, so
     it's high time for this year's November edition of our meetup!\r\n\r\nThis time,
@@ -632,8 +574,6 @@ Events::Event_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
   end_date: '2023-11-09'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -653,7 +593,6 @@ Events::Event_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
 Events::Event_39f6c39c-523a-4f7e-bbae-54ef7574250b:
   id: 39f6c39c-523a-4f7e-bbae-54ef7574250b
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "• Sebastian Cohnen (StormForger) - Load Testing with 1,000,000 Users\r\n\r\n•
     Jannis Hübl - Measure your side project web-performance without spending shit**loads
@@ -662,8 +601,6 @@ Events::Event_39f6c39c-523a-4f7e-bbae-54ef7574250b:
   end_date: '2017-07-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -683,15 +620,12 @@ Events::Event_39f6c39c-523a-4f7e-bbae-54ef7574250b:
 Events::Event_3b6374f6-81eb-4da7-9e6b-ab99549b69db:
   id: 3b6374f6-81eb-4da7-9e6b-ab99549b69db
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "C. Eigel: Metaprogramming in Ruby\r\n\r\nSebastian Schulze : Padrino
     and Ruby News of the Week\r\n\r\nPeter Schrammel: ActionCable"
   end_date: '2015-11-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -711,7 +645,6 @@ Events::Event_3b6374f6-81eb-4da7-9e6b-ab99549b69db:
 Events::Event_3c718b66-d23e-48d4-bc5f-a8430392ca94:
   id: 3c718b66-d23e-48d4-bc5f-a8430392ca94
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "August will be our traditional Beergarden Meetup!\r\nWe will meet
     at Park Café Sophienstraße – everybody is welcome. Rest assured, the beer garden
@@ -719,8 +652,6 @@ Events::Event_3c718b66-d23e-48d4-bc5f-a8430392ca94:
   end_date: '2019-08-14'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -740,7 +671,6 @@ Events::Event_3c718b66-d23e-48d4-bc5f-a8430392ca94:
 Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
   id: 3da697ff-0994-4966-a445-1d2b0bfa0a55
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Join us for our December Meetup @experteer!\r\n\r\n• \"Onboarding
     new developers successfully\" with Ilya Krasnov\r\n\r\n• \"Logging - it seems
@@ -749,8 +679,6 @@ Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
   end_date: '2014-12-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -770,7 +698,6 @@ Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
 Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
   id: 4078ef3a-7555-429d-9a49-2d7a0fb65e01
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "# Talks:\r\n\r\nVishnu – Alexa on Rails\r\n\r\nDmitry Kulikov – RSpec
     vs. Tests\r\n\r\nThere will be Drinks and Pizza, courtesy of Experteer! <3\r\n\r\nGot
@@ -778,8 +705,6 @@ Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
   end_date: '2018-02-21'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -799,14 +724,11 @@ Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
 Events::Event_4ab85760-fd58-428f-bdf3-0b0f97e4930a:
   id: 4ab85760-fd58-428f-bdf3-0b0f97e4930a
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "< Our traditional Biergarten-Meetup >"
   end_date: '2017-08-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -826,7 +748,6 @@ Events::Event_4ab85760-fd58-428f-bdf3-0b0f97e4930a:
 Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
   id: 4b2f97a8-d845-475d-8fea-b1f796ab99ad
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Join us for our May Meetup at the Experteer office!\r\n\r\n(please
     make your way to the 5th floor!)\r\n\r\n• MathiasH will briefly introduce us to
@@ -838,8 +759,6 @@ Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
   end_date: '2014-05-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -859,7 +778,6 @@ Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
 Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
   id: 4b3a7ec3-b6be-40c5-a307-1e560be7fdf3
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Rubyists,\r\n\r\nI am happy to announce our meetup in September!\r\n\r\nThe
     meetup will take place on \"PHAROS - The Post Group\" at 18:30. Here a big thanks
@@ -874,8 +792,6 @@ Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
   end_date: '2026-09-24'
   end_time: '2000-01-01 19:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -895,7 +811,6 @@ Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
 Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
   id: 4c25b554-503a-485c-b562-bbf75ec6f1b4
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nit's time for 2022 Episode 2.\r\n\r\nDATE
     & LOCATION\r\n\r\nDate and Time: September 8, from 19:00 CEST\r\nLocation: Workpath
@@ -921,8 +836,6 @@ Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
   end_date: '2022-09-08'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -942,7 +855,6 @@ Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
 Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
   id: 4ef3c58d-c767-4e65-a36b-21383e9d2b8e
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "«Our traditional Biergarten-Meetup in August»\r\n\r\nAs tradition
     has it, we will meet at Park Café for refreshing drinks. There will be no talks,
@@ -951,8 +863,6 @@ Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
   end_date: '2018-08-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -972,7 +882,6 @@ Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
 Events::Event_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
   id: 4f32d5b3-03fd-42fa-bacf-c544b11ac6bd
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "\U0001F5F2 Lightning Talks\r\n\r\nRuby Coding - My pitfall with String#split
     by Uli\r\n\r\nWe're actively searching for speakers! Want to become one? Ping
@@ -980,8 +889,6 @@ Events::Event_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
   end_date: '2020-01-08'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1001,7 +908,6 @@ Events::Event_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
 Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
   id: 502aa3dd-a00b-4234-82f7-63f085564b54
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "We're going to get together, talk and work on some learning projects.\r\n\r\nWhether
     you're working on a project or just want to work through some tutorials and share
@@ -1012,8 +918,6 @@ Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
   end_date: '2013-12-10'
   end_time: '2000-01-01 18:45:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: hackathon
   last_edition: 0
@@ -1033,7 +937,6 @@ Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
 Events::Event_5120ef88-e9ee-49c7-8d67-5a6190d3fa63:
   id: 5120ef88-e9ee-49c7-8d67-5a6190d3fa63
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "\U0001F3A4 Sri Vishnu – Work from anywhere with just any terminal.\r\n\r\n
     \   Tools that will enable you to connect to a work machine that is in any network
@@ -1048,8 +951,6 @@ Events::Event_5120ef88-e9ee-49c7-8d67-5a6190d3fa63:
   end_date: '2019-04-10'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1069,7 +970,6 @@ Events::Event_5120ef88-e9ee-49c7-8d67-5a6190d3fa63:
 Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
   id: 51e602d3-0a7f-4842-8257-ba514e5969dd
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Miguel Regedor : Different programming paragdims with ruby\r\n\r\nSebastian
     Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/):
@@ -1077,8 +977,6 @@ Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
   end_date: '2015-05-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1098,7 +996,6 @@ Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
 Events::Event_53be3fcb-a991-4780-a53e-111ad902bb66:
   id: 53be3fcb-a991-4780-a53e-111ad902bb66
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "\U0001F3A4 Anastasia Chicu — Agile Testing Days Recap: 3 ideas I brought
     back from the greaTEST conference\r\n\r\n\U0001F3A4 Oliver Prater — Async migrations
@@ -1106,8 +1003,6 @@ Events::Event_53be3fcb-a991-4780-a53e-111ad902bb66:
   end_date: '2018-12-12'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1127,7 +1022,6 @@ Events::Event_53be3fcb-a991-4780-a53e-111ad902bb66:
 Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
   id: 55840eb2-652e-4c96-85f0-d8e8f4de320a
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Join us for our June Meetup @jetbrains (https://twitter.com/jetbrains)!\r\n\r\n•
     robertj (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/76890822/)
@@ -1139,8 +1033,6 @@ Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
   end_date: '2014-06-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1160,15 +1052,12 @@ Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
 Events::Event_59158906-28a1-4838-944a-529ba1fb889c:
   id: 59158906-28a1-4838-944a-529ba1fb889c
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: 'Munich Rubyshift: Beer Garden Meetup. Just a relaxed get-together
     at Park Café near Stachus. Come by, chat along!'
   end_date: '2016-08-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1188,7 +1077,6 @@ Events::Event_59158906-28a1-4838-944a-529ba1fb889c:
 Events::Event_5c39c74b-af9f-47a4-a840-7daca41a559f:
   id: 5c39c74b-af9f-47a4-a840-7daca41a559f
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nsummer is coming – and so is our July
     meetup!\r\n\r\nWe're still looking for a location for the next meetup, as well
@@ -1203,8 +1091,6 @@ Events::Event_5c39c74b-af9f-47a4-a840-7daca41a559f:
   end_date: '2023-07-13'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1224,7 +1110,6 @@ Events::Event_5c39c74b-af9f-47a4-a840-7daca41a559f:
 Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
   id: 5c659335-1a76-4e74-8341-e5bed8907f8c
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Ken Alex Fassone - 5 Things I wish my grandfather told me about ActiveRecord
     and Postgres\r\n\r\n<> - This slot is still open! Comment below if you want to
@@ -1233,8 +1118,6 @@ Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
   end_date: '2017-06-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1254,7 +1137,6 @@ Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
 Events::Event_5e8801b8-b30c-49d7-b13f-63060e40667a:
   id: 5e8801b8-b30c-49d7-b13f-63060e40667a
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nit's time for our 2nd gathering of the
     year!\r\n\r\nIn the March 2024 edition of our Ruby Meetup, DataGuard will welcome
@@ -1270,8 +1152,6 @@ Events::Event_5e8801b8-b30c-49d7-b13f-63060e40667a:
   end_date: '2024-03-14'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1291,15 +1171,12 @@ Events::Event_5e8801b8-b30c-49d7-b13f-63060e40667a:
 Events::Event_5ec4c4c6-643b-40e8-b01f-f5396c2323dd:
   id: 5ec4c4c6-643b-40e8-b01f-f5396c2323dd
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Talks\r\n\r\n• Mario Fernandez - Managing Pull Requests with YAI (You
     Are It)\r\n\r\n• Henning Koch – Stress and burnout in open source"
   end_date: '2017-04-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1319,7 +1196,6 @@ Events::Event_5ec4c4c6-643b-40e8-b01f-f5396c2323dd:
 Events::Event_60f568f0-6f60-4e53-9e04-e9ffaebb1e06:
   id: 60f568f0-6f60-4e53-9e04-e9ffaebb1e06
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Henning Koch (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/164361092/):
     \"Testing Ruby gems against multiple versions of everything\"\r\n\r\nPhillip O
@@ -1328,8 +1204,6 @@ Events::Event_60f568f0-6f60-4e53-9e04-e9ffaebb1e06:
   end_date: '2016-10-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1349,15 +1223,12 @@ Events::Event_60f568f0-6f60-4e53-9e04-e9ffaebb1e06:
 Events::Event_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
   id: 6fa5571a-9a88-428f-afb6-9a0c07e1f9e3
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: This time we're meeting at Augustiner Keller, in an informal environment
     to chat with fellow Ruby Hackers, enjoy sun and great weather!
   end_date: '2013-08-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1377,7 +1248,6 @@ Events::Event_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
 Events::Event_71a42ab5-d65d-4686-9bf6-7238a6719d66:
   id: 71a42ab5-d65d-4686-9bf6-7238a6719d66
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Our next meetup will be especially fun!\r\n\r\nEvery attendee has
     an option to hold a lightning talk (5 minutes) during the user group. If you absolutely
@@ -1417,8 +1287,6 @@ Events::Event_71a42ab5-d65d-4686-9bf6-7238a6719d66:
   end_date: '2013-07-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1438,7 +1306,6 @@ Events::Event_71a42ab5-d65d-4686-9bf6-7238a6719d66:
 Events::Event_721e3030-460f-48ae-a545-cf81cb327b67:
   id: 721e3030-460f-48ae-a545-cf81cb327b67
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Let's go to the Biergarten for the August Meetup!\r\n\r\nFind us at
     a table near the children's playground. In case of rain, there is room indoors.
@@ -1446,8 +1313,6 @@ Events::Event_721e3030-460f-48ae-a545-cf81cb327b67:
   end_date: '2014-08-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1467,7 +1332,6 @@ Events::Event_721e3030-460f-48ae-a545-cf81cb327b67:
 Events::Event_74ad1707-f344-4743-916f-c5c2a89c27bd:
   id: 74ad1707-f344-4743-916f-c5c2a89c27bd
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "We've got 2 speakers:\r\n\r\nMarco Otto-Witte (https://twitter.com/marcoow):
     Software Engineer and Consultant from Munich. Has strong background in web development
@@ -1487,8 +1351,6 @@ Events::Event_74ad1707-f344-4743-916f-c5c2a89c27bd:
   end_date: '2014-01-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1508,7 +1370,6 @@ Events::Event_74ad1707-f344-4743-916f-c5c2a89c27bd:
 Events::Event_764df804-c67c-4803-84b3-4221968642fb:
   id: 764df804-c67c-4803-84b3-4221968642fb
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "We have drinks, food, and a great line-up of talks:\r\n\r\nMathias
     Huber: \"Exercism.io\"\r\nA fun web community for practicing Ruby and other languages
@@ -1525,8 +1386,6 @@ Events::Event_764df804-c67c-4803-84b3-4221968642fb:
   end_date: '2014-02-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1546,7 +1405,6 @@ Events::Event_764df804-c67c-4803-84b3-4221968642fb:
 Events::Event_7756b666-da89-4f60-9947-cbb5d3110256:
   id: 7756b666-da89-4f60-9947-cbb5d3110256
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nI don't know about you, but I think it's
     high time that we meet again!\r\n\r\nThe first meetup in almost 2 years has been
@@ -1577,8 +1435,6 @@ Events::Event_7756b666-da89-4f60-9947-cbb5d3110256:
   end_date: '2022-07-14'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1598,7 +1454,6 @@ Events::Event_7756b666-da89-4f60-9947-cbb5d3110256:
 Events::Event_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
   id: 7a93d6c3-8e39-4198-9d5e-d4030159d42b
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Sadiksha Gautam (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/185560512/):
     RailsConf 2016\r\n\r\nMonica Giambitto (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/121525572/):
@@ -1607,8 +1462,6 @@ Events::Event_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
   end_date: '2016-05-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1628,14 +1481,11 @@ Events::Event_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
 Events::Event_7c40a4f1-fc58-46e7-8c96-53d3e07d5f88:
   id: 7c40a4f1-fc58-46e7-8c96-53d3e07d5f88
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: We're actively searching for speakers! Want to become one? Ping us!
   end_date: '2019-05-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1654,7 +1504,6 @@ Events::Event_7c40a4f1-fc58-46e7-8c96-53d3e07d5f88:
 Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
   id: 7deebf5f-7d41-4658-b871-b12968ec0f25
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Rubyistas!\r\n\r\nBe prepared for interesting stuff!\r\n\r\n\"Ultimate
     guide to convincing people for using better tech\"\r\n\r\nOleksandr Petrov\r\nConvincing
@@ -1667,8 +1516,6 @@ Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
   end_date: '2013-10-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1688,7 +1535,6 @@ Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
 Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
   id: 7e676004-2eb5-412a-85c5-ac137f22e7d7
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Talks:\r\n\r\n\U0001F5D3️ Uli Ramminger – GDS - General Data Structure
     - a universal, composable data structure, used to store any kind of data.\r\n\r\n⚡
@@ -1697,8 +1543,6 @@ Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
   end_date: '2018-09-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1718,7 +1562,6 @@ Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
 Events::Event_7f01acc2-0480-41c2-810e-6b7ede0d927e:
   id: 7f01acc2-0480-41c2-810e-6b7ede0d927e
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Doors: 7pm at Fidor Bank AG.\r\n\r\nWe'll have two talks\r\n\r\nHendrik
     - Scenic: Versioned database views for Rails\r\nHenning - Crashcourse: Metaprogramming
@@ -1726,8 +1569,6 @@ Events::Event_7f01acc2-0480-41c2-810e-6b7ede0d927e:
   end_date: '2017-10-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1747,15 +1588,12 @@ Events::Event_7f01acc2-0480-41c2-810e-6b7ede0d927e:
 Events::Event_7f464932-1471-4932-9732-d79d20c32844:
   id: 7f464932-1471-4932-9732-d79d20c32844
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Mario Fernandez - Recap of the FullStack Fest Anastasia\r\n\r\nChicu
     - Agile testing at XING\r\n\r\nOmar Qunsul - \"how to improve Rails translations\""
   end_date: '2016-09-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1775,7 +1613,6 @@ Events::Event_7f464932-1471-4932-9732-d79d20c32844:
 Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
   id: 81289cc1-6ab1-408c-9f39-dde415b27a20
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Join us for our \"Back to School\" edition in September ;-)\r\n\r\nHenning
     Koch ‏@triskweline (https://twitter.com/triskweline) from @makandra_com (https://twitter.com/makandra_com)
@@ -1785,8 +1622,6 @@ Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
   end_date: '2014-09-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1806,7 +1641,6 @@ Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
 Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
   id: 881f5ab6-f105-4900-a67a-1752ac42874d
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Sebastian Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/)
     is giving a talk on deployment.\r\n\r\nPeter Schrammel (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/98486932/)
@@ -1814,8 +1648,6 @@ Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
   end_date: '2015-03-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1835,7 +1667,6 @@ Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
 Events::Event_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
   id: 88b1d1f2-0d79-4bc8-98b4-692410dd4d8d
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/)
     : DIY Ruby Framework\r\n\r\nDino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/)
@@ -1843,8 +1674,6 @@ Events::Event_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
   end_date: '2015-10-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1864,15 +1693,12 @@ Events::Event_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
 Events::Event_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
   id: 8fc8ef78-6750-414e-9b64-f3dee9a2e926
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Henning Koch: \"Modern frontends without Javascript\"\r\n\r\nWe're
     actively searching for speakers! Want to become one? Ping us!"
   end_date: '2016-07-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1892,7 +1718,6 @@ Events::Event_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
 Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
   id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Talks:\r\n\r\nAnna — »A user manual to working better with a tester«\r\n\r\nThomas
     & Flo: — »Migrate a Rails-Backend to a Service«\r\n\r\nPizza and beverages are
@@ -1900,8 +1725,6 @@ Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
   end_date: '2018-04-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1921,7 +1744,6 @@ Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
 Events::Event_969902ff-c7e8-48e5-8d0e-f64c85568e63:
   id: 969902ff-c7e8-48e5-8d0e-f64c85568e63
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nSummer's coming and so is our July meetup!\r\n\r\nWe're
     looking for a company to provide a location and food & drinks -- so if your company
@@ -1952,8 +1774,6 @@ Events::Event_969902ff-c7e8-48e5-8d0e-f64c85568e63:
   end_date: '2025-07-17'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -1973,7 +1793,6 @@ Events::Event_969902ff-c7e8-48e5-8d0e-f64c85568e63:
 Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
   id: 988d2d1a-5277-4155-87b6-98e25500d5de
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nafter a pleasant start to our meetup
     year 2025, let's get ready for episode 2!\r\n\r\nThe meetup will take place at
@@ -1994,8 +1813,6 @@ Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
   end_date: '2025-03-20'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2015,7 +1832,6 @@ Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
 Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
   id: a25cb714-cc6a-4e13-adae-69f1f42f1901
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "The venue will be open at 7pm, talks will start at 7:30pm. We have
     two talks lined up:\r\n\r\nJannis Hübl (https://twitter.com/jannishuebl) – Orchparty:
@@ -2026,8 +1842,6 @@ Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
   end_date: '2017-11-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2047,7 +1861,6 @@ Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
 Events::Event_a2cad908-ac6a-4757-92b5-23360594d899:
   id: a2cad908-ac6a-4757-92b5-23360594d899
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Jason Franklin – Mobile Development @XING\r\n\r\nFlorin Oltean - Introduction
     to MRuby\r\n\r\nNiko Noll - Pimp your REST API Docs with Swagger\r\n\r\nWe're
@@ -2055,8 +1868,6 @@ Events::Event_a2cad908-ac6a-4757-92b5-23360594d899:
   end_date: '2017-05-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2076,15 +1887,12 @@ Events::Event_a2cad908-ac6a-4757-92b5-23360594d899:
 Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
   id: a30e173e-4659-4cae-915b-13d81f8e8fc3
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Peter: ActionCable\r\n\r\nSebastian: Ruby News\r\n\r\nMichael, Pau,
     Phillip: Refugees on Rails @ Munich"
   end_date: '2015-12-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2104,7 +1912,6 @@ Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
 Events::Event_a4070744-c531-4689-941a-d8ebdccdfbe8:
   id: a4070744-c531-4689-941a-d8ebdccdfbe8
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "\U0001F3A4 Oliver Prater: Interacting with Kubernetes via Ruby\r\n\U0001F3A4
     Aron Wolf: Refactoring service and query objects in Rails\r\n\r\nWe're always
@@ -2112,8 +1919,6 @@ Events::Event_a4070744-c531-4689-941a-d8ebdccdfbe8:
   end_date: '2020-02-12'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2133,14 +1938,11 @@ Events::Event_a4070744-c531-4689-941a-d8ebdccdfbe8:
 Events::Event_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
   id: a6f30940-39ab-4e6e-9bb1-bf94d61070f5
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: This time a drinkup! It will take place at any weather (we can go inside).
   end_date: '2015-08-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2160,7 +1962,6 @@ Events::Event_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
 Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
   id: aa0190f0-4e61-4234-a914-fe39d0c25a76
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "\U0001F3A4 Austin Moore: Deep dive into the internals of ActiveSupport::Callbacks\r\n\r\n\U0001F3A4
     Oliver Prater: The nitty gritty details of ActiveRecord::Associations::Association#target
@@ -2169,8 +1970,6 @@ Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
   end_date: '2019-09-11'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2190,7 +1989,6 @@ Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
 Events::Event_aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb:
   id: aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "αλεx π (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/43533372/):
     \"Computer Science 101: Things every programmer should know\"\r\n\r\nWe're actively
@@ -2198,8 +1996,6 @@ Events::Event_aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb:
   end_date: '2016-11-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2219,15 +2015,12 @@ Events::Event_aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb:
 Events::Event_ab5a4682-4a75-46dd-bc91-4af39d48df23:
   id: ab5a4682-4a75-46dd-bc91-4af39d48df23
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Start your new Ruby year with our January Meetup!\r\n\r\nTalks:\r\n\r\n•
     Peter Schrammel: \"Zookeeper in your rails stack\"\r\n\r\n• Oleg: \"A Rukuli bot\""
   end_date: '2015-01-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2247,14 +2040,11 @@ Events::Event_ab5a4682-4a75-46dd-bc91-4af39d48df23:
 Events::Event_ab6dc247-9323-4567-8589-fb1953cde773:
   id: ab6dc247-9323-4567-8589-fb1953cde773
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: We're actively searching for speakers! Want to become one? Ping us!
   end_date: '2015-09-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2274,7 +2064,6 @@ Events::Event_ab6dc247-9323-4567-8589-fb1953cde773:
 Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
   id: ac48d30d-2724-434c-815e-6853b1f10109
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "\U0001F3A4 Jan Krutisch – Updating Dependencies sucks, so let's do
     more of that\r\n\r\nI would like to tell you about Depfu and why we believe in
@@ -2286,8 +2075,6 @@ Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
   end_date: '2018-10-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2307,7 +2094,6 @@ Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
 Events::Event_adea8129-c6f0-48b1-b764-296c09336343:
   id: adea8129-c6f0-48b1-b764-296c09336343
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nwere closing in on Episode 2 of 2023's
     meetups!\r\n\r\nThis time, we'll visit Zavvy, who will host the meetup and also
@@ -2334,8 +2120,6 @@ Events::Event_adea8129-c6f0-48b1-b764-296c09336343:
   end_date: '2023-03-09'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2355,7 +2139,6 @@ Events::Event_adea8129-c6f0-48b1-b764-296c09336343:
 Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
   id: b4664359-c1e2-4611-a19e-b8e5cf1d8344
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Join us for our April Meetup!\r\n\r\nWe have at least two talks:\r\n\r\nRobert
     Kuzelj: \"Groovy's closures and the differences to Ruby\"\r\n\r\nDaniel Sudmann:
@@ -2364,8 +2147,6 @@ Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
   end_date: '2014-04-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2385,14 +2166,11 @@ Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
 Events::Event_b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5:
   id: b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: We're actively searching for speakers! Want to become one? Ping us!
   end_date: '2020-05-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2411,7 +2189,6 @@ Events::Event_b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5:
 Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
   id: bb626d8b-beff-4d94-b095-d3a73a369ebb
   attendance_mode: online
-  banner_background: ''
   date_precision: day
   description: "Hi everyone! Next week will be our first online meetup!\r\n\r\nWe're
     open for quick ad-hoc lightning talks – please get in touch with Bascht if you
@@ -2421,8 +2198,6 @@ Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
   end_date: '2020-04-15'
   end_time: '2000-01-01 18:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2441,7 +2216,6 @@ Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
 Events::Event_bd09e5ca-d692-409c-8944-d966c2a175e0:
   id: bd09e5ca-d692-409c-8944-d966c2a175e0
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nwill be nice to see you all again on
     16.10.\r\n\r\nThe meetup will take place at Lanes & Planes GmbH and the food is
@@ -2465,8 +2239,6 @@ Events::Event_bd09e5ca-d692-409c-8944-d966c2a175e0:
   end_date: '2025-10-16'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2486,7 +2258,6 @@ Events::Event_bd09e5ca-d692-409c-8944-d966c2a175e0:
 Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
   id: bfa2ec55-241f-4129-a1bf-92dfa03c543c
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nthe September edition of our meetup is
     coming!\r\n\r\nBefore diving into the details, let me start with an apology: On
@@ -2521,8 +2292,6 @@ Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
   end_date: '2023-09-14'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2542,7 +2311,6 @@ Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
 Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
   id: c0bcaf27-90cd-4bd8-b8f3-145a42b79c90
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "⚡ Talk by Peter on the new JIT compiler in Ruby 2.6.0\r\n⚡ Talk bei
     Uli on the updates in GDS 0.8.0\r\n\r\nWe have one more talk slot open. Want to
@@ -2550,8 +2318,6 @@ Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
   end_date: '2019-01-09'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2571,14 +2337,11 @@ Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
 Events::Event_c3faa100-3977-4073-82a8-0ec4625773ea:
   id: c3faa100-3977-4073-82a8-0ec4625773ea
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: Hack evening with fellow Rubyists on interesting and exciting projects.
   end_date: '2013-07-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: hackathon
   last_edition: 0
@@ -2598,15 +2361,12 @@ Events::Event_c3faa100-3977-4073-82a8-0ec4625773ea:
 Events::Event_c7b6e7a9-20e6-45a0-b56b-d10841ff38f4:
   id: c7b6e7a9-20e6-45a0-b56b-d10841ff38f4
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: No talks but just a merry meetup at the Christmas Market near Sendlinger
     Tor!
   end_date: '2019-12-11'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2626,14 +2386,11 @@ Events::Event_c7b6e7a9-20e6-45a0-b56b-d10841ff38f4:
 Events::Event_c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e:
   id: c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: We're actively searching for speakers! Want to become one? Ping us!
   end_date: '2018-11-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2652,7 +2409,6 @@ Events::Event_c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e:
 Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
   id: c8a5aa43-7139-44ce-8b2f-53a6c508de2e
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "First Talk: Dmitry Kulikov – I18n in Rails\r\n\r\nAlso, as it's January,
     this will be our traditional RubyKaraoke Meetup: At about ~10:30pm we will go
@@ -2662,8 +2418,6 @@ Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
   end_date: '2018-01-24'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2683,7 +2437,6 @@ Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
 Events::Event_c92a903b-d40f-478d-a7d6-457d362bd906:
   id: c92a903b-d40f-478d-a7d6-457d362bd906
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nWinter's Coming -- and so is the November
     Meetup!\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: November 10, from 19:00 CEST\r\nLocation:
@@ -2697,8 +2450,6 @@ Events::Event_c92a903b-d40f-478d-a7d6-457d362bd906:
   end_date: '2022-11-10'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2718,7 +2469,6 @@ Events::Event_c92a903b-d40f-478d-a7d6-457d362bd906:
 Events::Event_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:
   id: cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "\U0001F3A4 Kivanc Semen und Ference Brose – Ruby in Legal Tech: An
     Evening at DataGuard\r\n\r\nThe leading legal tech company DataGuard invites you
@@ -2735,8 +2485,6 @@ Events::Event_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:
   end_date: '2019-06-12'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2756,15 +2504,12 @@ Events::Event_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:
 Events::Event_d03d7342-973f-4746-b70e-85309f34ae40:
   id: d03d7342-973f-4746-b70e-85309f34ae40
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Adnan Husein: Mruby + Nginx\r\n\r\nPeter Schrammel: Micro or not to
     micro?"
   end_date: '2017-09-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2784,7 +2529,6 @@ Events::Event_d03d7342-973f-4746-b70e-85309f34ae40:
 Events::Event_d096f26c-e4d6-4441-891c-728724a7c26a:
   id: d096f26c-e4d6-4441-891c-728724a7c26a
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nas winter finally seems to be leaving
     Munich for good, it's time for our May meetup!\r\n\r\nThis upcoming meetup will
@@ -2801,8 +2545,6 @@ Events::Event_d096f26c-e4d6-4441-891c-728724a7c26a:
   end_date: '2023-05-11'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2822,7 +2564,6 @@ Events::Event_d096f26c-e4d6-4441-891c-728724a7c26a:
 Events::Event_d09e00e9-b43f-49d8-b211-9d09abfc482a:
   id: d09e00e9-b43f-49d8-b211-9d09abfc482a
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Carola Boettcher: How to build native Android Apps with the ruboto
     framework\r\n\r\nhttps://twitter.com/carolaboettcher\r\n\r\nSebastian Burkhard:
@@ -2832,8 +2573,6 @@ Events::Event_d09e00e9-b43f-49d8-b211-9d09abfc482a:
   end_date: '2014-03-12'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2853,7 +2592,6 @@ Events::Event_d09e00e9-b43f-49d8-b211-9d09abfc482a:
 Events::Event_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
   id: d9055efc-3ba9-41d3-a013-57a1f5d352c6
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "• Dmitry Gritsay – »Building the fastest application server«\r\n\r\nThe
     presentation will tell about some dark corners of MRI, building native extensions
@@ -2864,8 +2602,6 @@ Events::Event_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
   end_date: '2016-12-14'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2885,14 +2621,11 @@ Events::Event_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
 Events::Event_da4b79dd-3013-476b-8fa3-96e7666e56a9:
   id: da4b79dd-3013-476b-8fa3-96e7666e56a9
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: We're actively searching for speakers! Want to become one? Ping us!
   end_date: '2020-06-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2911,7 +2644,6 @@ Events::Event_da4b79dd-3013-476b-8fa3-96e7666e56a9:
 Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
   id: dde2695f-80c5-48a6-a450-ad8b5948c1db
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Hi,\r\n\r\nthis time we will have a Christmas themed meetup together\r\nwith
     the kind people over from the Munich Riak user group (https://www.meetup.com/Riak-Munchen/events/151356762/).\r\n\r\nThis
@@ -2924,8 +2656,6 @@ Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
   end_date: '2013-12-11'
   end_time: '2000-01-01 19:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2945,7 +2675,6 @@ Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
 Events::Event_de01ca60-b027-46c8-9735-c6447c68d575:
   id: de01ca60-b027-46c8-9735-c6447c68d575
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Sadiksha Gautam (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/185560512/)
     : Speeding up Rails\r\n\r\nMario Fernandez (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/66445692)
@@ -2953,8 +2682,6 @@ Events::Event_de01ca60-b027-46c8-9735-c6447c68d575:
   end_date: '2016-04-13'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -2974,7 +2701,6 @@ Events::Event_de01ca60-b027-46c8-9735-c6447c68d575:
 Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
   id: e0cc630a-9b72-4f95-badd-f14e16595224
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Hi everyone! We are hosted at xbAV and will have two talks lined up
     for Wednesday night:\r\n\r\n\U0001F3A4 Karol Lewcio – 1, 1, 2, 3… different ways
@@ -2983,8 +2709,6 @@ Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
   end_date: '2020-03-11'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3004,7 +2728,6 @@ Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
 Events::Event_e0e0c374-65e9-4652-9b0e-22011412a820:
   id: e0e0c374-65e9-4652-9b0e-22011412a820
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Rubyists,\r\n\r\nour first Meetup in 2026 will take place on
     January 22nd in AUGSBURG !!!\r\n\r\nAfter opening its gates at Rails World 2025
@@ -3046,8 +2769,6 @@ Events::Event_e0e0c374-65e9-4652-9b0e-22011412a820:
   end_date: '2026-01-22'
   end_time: '2000-01-01 19:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3067,7 +2788,6 @@ Events::Event_e0e0c374-65e9-4652-9b0e-22011412a820:
 Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
   id: e1b18b13-48e8-4aa0-b9c3-cf01423d46d4
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Talks\r\n\r\n• Marc G. – Banking with ruby\r\n\r\n• Ute Mayer – A
     journey into code\r\n\r\n• Alberto Mazaira – How to kill a project\r\n\r\n• Lucas
@@ -3075,8 +2795,6 @@ Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
   end_date: '2016-03-09'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3096,7 +2814,6 @@ Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
 Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
   id: e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nthe year is coming to an end – which
     means, it's almost time for the first Meetup of 2023!\r\n\r\nThis time, our friends
@@ -3120,8 +2837,6 @@ Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
   end_date: '2023-01-12'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3141,7 +2856,6 @@ Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
 Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
   id: e3c9dfd3-52c3-4813-95e9-a940a1add48f
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "John Poulin: Hackin' Rails - An overview of RoR Security\r\n\r\nMarcus
     Lankenau: Phoenix for Rails devs\r\n\r\nSri Vishnu: Run any feature branch on
@@ -3149,8 +2863,6 @@ Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
   end_date: '2016-06-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3170,7 +2882,6 @@ Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
 Events::Event_e56124e4-1e66-411c-a794-41ea348d7504:
   id: e56124e4-1e66-411c-a794-41ea348d7504
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "!!!! We moved the meetup by one week (soccer you know) !!!\r\n\r\nPeter:
     How I teach my daughter ruby\r\n\r\nUI Mate: Easily create a dynamic UI in your
@@ -3178,8 +2889,6 @@ Events::Event_e56124e4-1e66-411c-a794-41ea348d7504:
   end_date: '2018-07-18'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3199,7 +2908,6 @@ Events::Event_e56124e4-1e66-411c-a794-41ea348d7504:
 Events::Event_e5763033-391b-4207-b889-682d099694e3:
   id: e5763033-391b-4207-b889-682d099694e3
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Torsten Ruger : Salama - a ruby virtual machine in 100% ruby\r\n\r\nJannis
     Hübl (https://www.meetup.com/messages/t/mg1_mnm?convo_id=189340257864957952) :
@@ -3207,8 +2915,6 @@ Events::Event_e5763033-391b-4207-b889-682d099694e3:
   end_date: '2015-06-10'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3228,7 +2934,6 @@ Events::Event_e5763033-391b-4207-b889-682d099694e3:
 Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Rubyists,\r\n\r\nthe spring is coming closer and so our next
     meetup in April!\r\n\r\nThe meetup will take place on Freeletics at 18:30. Here
@@ -3267,8 +2972,6 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   end_date: '2026-04-23'
   end_time: '2000-01-01 19:30:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3288,15 +2991,12 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
 Events::Event_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
   id: e9ca82f3-5d65-40f9-8552-1a5a594f6e80
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "1. public, protected, private\r\n\r\n2. \"fixing the net\" a preview
     of an OS project\r\n"
   end_date: '2015-04-08'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3316,7 +3016,6 @@ Events::Event_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
 Events::Event_eb7f7b54-12a9-431d-b16f-a866624c3ee7:
   id: eb7f7b54-12a9-431d-b16f-a866624c3ee7
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Our first talk is already set, there is one slot left!\r\n\r\n\U0001F3A4
     Rubèn Suet – »Object Modelling with Git«\r\nThis talk is to share my experience
@@ -3334,8 +3033,6 @@ Events::Event_eb7f7b54-12a9-431d-b16f-a866624c3ee7:
   end_date: '2019-02-13'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3355,7 +3052,6 @@ Events::Event_eb7f7b54-12a9-431d-b16f-a866624c3ee7:
 Events::Event_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
   id: ed3a7637-6b92-4d45-bf95-56fba2a9d13a
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "\U0001F3A4 Uli Ramminger –Gds Data Validation - a new data validation
     library providing a rule-based schema definition language.\r\n\r\nWe're actively
@@ -3363,8 +3059,6 @@ Events::Event_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
   end_date: '2019-07-10'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3384,7 +3078,6 @@ Events::Event_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
 Events::Event_f5c1edc4-ae63-43f2-96ee-c484496986ab:
   id: f5c1edc4-ae63-43f2-96ee-c484496986ab
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "Dear Munich Rubyists,\r\n\r\nafter the cancelled May meetup (sorry
     again!), it's time for 2024's summer edition for our meetup!\r\n\r\nFor our July
@@ -3399,8 +3092,6 @@ Events::Event_f5c1edc4-ae63-43f2-96ee-c484496986ab:
   end_date: '2024-07-11'
   end_time: '2000-01-01 20:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0
@@ -3419,7 +3110,6 @@ Events::Event_f5c1edc4-ae63-43f2-96ee-c484496986ab:
 Events::Event_f9870540-7983-496c-9541-80c13c9d4120:
   id: f9870540-7983-496c-9541-80c13c9d4120
   attendance_mode: in_person
-  banner_background: ''
   date_precision: day
   description: "\U0001F3A4 Pascal Wengerter: Fullstack Web Development in pure Ruby
     with Matestack::Ui::Core\r\n\r\nBored of ERB files or the REST+SPA overkill? Have
@@ -3430,8 +3120,6 @@ Events::Event_f9870540-7983-496c-9541-80c13c9d4120:
   end_date: '2019-10-09'
   end_time: '2000-01-01 19:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
-  featured_background: ''
-  featured_color: ''
   github: ''
   kind: meetup
   last_edition: 0

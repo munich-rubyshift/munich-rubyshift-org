@@ -25,9 +25,6 @@ one:
   meetup: MyString
   luma: MyString
   tickets_url: MyString
-  banner_background: MyString
-  featured_background: MyString
-  featured_color: MyString
 
 two:
   series: two
@@ -54,6 +51,3 @@ two:
   meetup: MyString
   luma: MyString
   tickets_url: MyString
-  banner_background: MyString
-  featured_background: MyString
-  featured_color: MyString

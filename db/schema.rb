@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_15_120055) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_15_122011) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -72,14 +72,11 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_120055) do
   create_table "events_events", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.date "announced_on"
     t.string "attendance_mode", null: false
-    t.string "banner_background"
     t.string "date_precision"
     t.text "description"
     t.date "end_date"
     t.time "end_time"
     t.string "events_series_id", null: false
-    t.string "featured_background"
-    t.string "featured_color"
     t.string "github"
     t.string "kind"
     t.boolean "last_edition"
