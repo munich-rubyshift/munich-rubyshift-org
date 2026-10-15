@@ -14,7 +14,7 @@ Venues::Venue_00ab037e-02fc-41f7-88c3-3d5147c1bb5f:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: burda-bootcamp
-  url: https://www.burda.com/de/marken/burda-bootcamp/
+  website: https://www.burda.com/de/marken/burda-bootcamp/
 Venues::Venue_053190c9-9e62-484e-abf4-374d6e69d475:
   id: '053190c9-9e62-484e-abf4-374d6e69d475'
   accessibility_elevators: 0
@@ -30,7 +30,7 @@ Venues::Venue_053190c9-9e62-484e-abf4-374d6e69d475:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: xbav-office
-  url: ''
+  website: ''
 Venues::Venue_05a33493-04bf-4272-9325-d3e40bcd1f6e:
   id: 05a33493-04bf-4272-9325-d3e40bcd1f6e
   accessibility_elevators: 0
@@ -46,7 +46,7 @@ Venues::Venue_05a33493-04bf-4272-9325-d3e40bcd1f6e:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: makandra-office
-  url: ''
+  website: ''
 Venues::Venue_08636c17-b994-421c-abc6-c14be18e2502:
   id: '08636c17-b994-421c-abc6-c14be18e2502'
   accessibility_elevators: 0
@@ -62,7 +62,7 @@ Venues::Venue_08636c17-b994-421c-abc6-c14be18e2502:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: xing-events-office
-  url: ''
+  website: ''
 Venues::Venue_12f15b05-65ee-431d-b691-51486c2be216:
   id: 12f15b05-65ee-431d-b691-51486c2be216
   accessibility_elevators: 0
@@ -78,7 +78,7 @@ Venues::Venue_12f15b05-65ee-431d-b691-51486c2be216:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: zavvy-office
-  url: ''
+  website: ''
 Venues::Venue_1347f7fd-3908-4c46-9325-f7f514394170:
   id: 1347f7fd-3908-4c46-9325-f7f514394170
   accessibility_elevators: 0
@@ -94,7 +94,7 @@ Venues::Venue_1347f7fd-3908-4c46-9325-f7f514394170:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: thoughtworks-office
-  url: ''
+  website: ''
 Venues::Venue_215487ed-a371-488f-b43f-3caffbbdf0d0:
   id: 215487ed-a371-488f-b43f-3caffbbdf0d0
   accessibility_elevators: 0
@@ -110,7 +110,7 @@ Venues::Venue_215487ed-a371-488f-b43f-3caffbbdf0d0:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: scoreloop-office
-  url: ''
+  website: ''
 Venues::Venue_23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2:
   id: 23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2
   accessibility_elevators: 0
@@ -126,7 +126,7 @@ Venues::Venue_23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: dataguard-office
-  url: ''
+  website: ''
 Venues::Venue_266215c5-41cf-49b6-b688-566b2d98fd48:
   id: 266215c5-41cf-49b6-b688-566b2d98fd48
   accessibility_elevators: 0
@@ -141,7 +141,7 @@ Venues::Venue_266215c5-41cf-49b6-b688-566b2d98fd48:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: hofbraeukeller
-  url: ''
+  website: ''
 Venues::Venue_31e5c809-fba0-4198-8858-a0054501d792:
   id: 31e5c809-fba0-4198-8858-a0054501d792
   accessibility_elevators: 0
@@ -157,7 +157,7 @@ Venues::Venue_31e5c809-fba0-4198-8858-a0054501d792:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: gutefrage-office
-  url: ''
+  website: ''
 Venues::Venue_3236f853-c433-46ee-a6e4-070b99a632fb:
   id: 3236f853-c433-46ee-a6e4-070b99a632fb
   accessibility_elevators: 0
@@ -173,7 +173,7 @@ Venues::Venue_3236f853-c433-46ee-a6e4-070b99a632fb:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: pharos-office
-  url: ''
+  website: ''
 Venues::Venue_3b908116-7311-4923-b840-ed89760170f8:
   id: 3b908116-7311-4923-b840-ed89760170f8
   accessibility_elevators: 0
@@ -189,7 +189,7 @@ Venues::Venue_3b908116-7311-4923-b840-ed89760170f8:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: riskmethods-office-2
-  url: ''
+  website: ''
 Venues::Venue_4199ada8-92e2-4074-90a3-5c5dbd97f399:
   id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
   accessibility_elevators: 0
@@ -205,7 +205,7 @@ Venues::Venue_4199ada8-92e2-4074-90a3-5c5dbd97f399:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: codecentric-office
-  url: ''
+  website: ''
 Venues::Venue_4615cc6d-19f4-4d57-bbe7-482e41344db1:
   id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   accessibility_elevators: 0
@@ -221,7 +221,7 @@ Venues::Venue_4615cc6d-19f4-4d57-bbe7-482e41344db1:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: freeletics-office
-  url: ''
+  website: ''
 Venues::Venue_4f816bec-c6ce-4776-947f-fa6551d18108:
   id: 4f816bec-c6ce-4776-947f-fa6551d18108
   accessibility_elevators: 0
@@ -237,7 +237,7 @@ Venues::Venue_4f816bec-c6ce-4776-947f-fa6551d18108:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: former-03-office
-  url: ''
+  website: ''
 Venues::Venue_522de6d8-fb07-4a30-ab14-b7c8987ab943:
   id: 522de6d8-fb07-4a30-ab14-b7c8987ab943
   accessibility_elevators: 0
@@ -253,7 +253,7 @@ Venues::Venue_522de6d8-fb07-4a30-ab14-b7c8987ab943:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: arri-media-office
-  url: ''
+  website: ''
 Venues::Venue_581db90f-7dcd-416b-aa34-6b06b93060ac:
   id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   accessibility_elevators: 0
@@ -269,7 +269,7 @@ Venues::Venue_581db90f-7dcd-416b-aa34-6b06b93060ac:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: freeletics-office-2
-  url: ''
+  website: ''
 Venues::Venue_59fc696b-609c-4177-9afa-669185fb0dd7:
   id: 59fc696b-609c-4177-9afa-669185fb0dd7
   accessibility_elevators: 0
@@ -285,7 +285,7 @@ Venues::Venue_59fc696b-609c-4177-9afa-669185fb0dd7:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: workday-office
-  url: ''
+  website: ''
 Venues::Venue_6309bbae-cd76-4b93-bfa7-7b1fb076177b:
   id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   accessibility_elevators: 0
@@ -301,7 +301,7 @@ Venues::Venue_6309bbae-cd76-4b93-bfa7-7b1fb076177b:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: experteer-office
-  url: ''
+  website: ''
 Venues::Venue_6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f:
   id: 6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f
   accessibility_elevators: 0
@@ -316,7 +316,7 @@ Venues::Venue_6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: hamburgerei-eins
-  url: ''
+  website: ''
 Venues::Venue_63b14137-3cdb-4f1a-88bc-860c5e4f2223:
   id: 63b14137-3cdb-4f1a-88bc-860c5e4f2223
   accessibility_elevators: 0
@@ -332,7 +332,7 @@ Venues::Venue_63b14137-3cdb-4f1a-88bc-860c5e4f2223:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: le-wagon-munich-coding-bootcamp
-  url: ''
+  website: ''
 Venues::Venue_65fca0f2-adb6-4a50-b344-8771745bee01:
   id: 65fca0f2-adb6-4a50-b344-8771745bee01
   accessibility_elevators: 0
@@ -348,7 +348,7 @@ Venues::Venue_65fca0f2-adb6-4a50-b344-8771745bee01:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: xempus-office
-  url: ''
+  website: ''
 Venues::Venue_69821224-9122-4f4f-afa2-ea45b4356aa1:
   id: 69821224-9122-4f4f-afa2-ea45b4356aa1
   accessibility_elevators: 0
@@ -364,7 +364,7 @@ Venues::Venue_69821224-9122-4f4f-afa2-ea45b4356aa1:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: flobby-media-office
-  url: ''
+  website: ''
 Venues::Venue_7ccf4041-03b7-452a-a7f1-efa5d22e96d4:
   id: 7ccf4041-03b7-452a-a7f1-efa5d22e96d4
   accessibility_elevators: 0
@@ -380,7 +380,7 @@ Venues::Venue_7ccf4041-03b7-452a-a7f1-efa5d22e96d4:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: demodesk-office
-  url: ''
+  website: ''
 Venues::Venue_876c3466-782e-40c3-a3c0-b08779b6cbdb:
   id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   accessibility_elevators: 0
@@ -395,7 +395,7 @@ Venues::Venue_876c3466-782e-40c3-a3c0-b08779b6cbdb:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: park-cafe
-  url: ''
+  website: ''
 Venues::Venue_87befe94-27c4-488a-b3e3-d7874d97b1a7:
   id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   accessibility_elevators: 0
@@ -411,7 +411,7 @@ Venues::Venue_87befe94-27c4-488a-b3e3-d7874d97b1a7:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: metoda-office
-  url: ''
+  website: ''
 Venues::Venue_8b93680b-2148-4486-93fc-9abadd022492:
   id: 8b93680b-2148-4486-93fc-9abadd022492
   accessibility_elevators: 0
@@ -427,7 +427,7 @@ Venues::Venue_8b93680b-2148-4486-93fc-9abadd022492:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: workpath-office
-  url: ''
+  website: ''
 Venues::Venue_8fd97a9c-10f1-4e65-a8c2-fd14c54a963a:
   id: 8fd97a9c-10f1-4e65-a8c2-fd14c54a963a
   accessibility_elevators: 0
@@ -443,7 +443,7 @@ Venues::Venue_8fd97a9c-10f1-4e65-a8c2-fd14c54a963a:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: it-agenten-office
-  url: ''
+  website: ''
 Venues::Venue_90a84792-1569-45c1-9c35-9e3a708e75c4:
   id: 90a84792-1569-45c1-9c35-9e3a708e75c4
   accessibility_elevators: 0
@@ -459,7 +459,7 @@ Venues::Venue_90a84792-1569-45c1-9c35-9e3a708e75c4:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: fidor-bank-office
-  url: ''
+  website: ''
 Venues::Venue_92b5edb8-2adb-4ab7-9f06-017d2f0e64c4:
   id: 92b5edb8-2adb-4ab7-9f06-017d2f0e64c4
   accessibility_elevators: 0
@@ -474,7 +474,7 @@ Venues::Venue_92b5edb8-2adb-4ab7-9f06-017d2f0e64c4:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: christkindlmarkt-am-sendlinger-tor
-  url: ''
+  website: ''
 Venues::Venue_a2c660d1-f70d-4cf5-8dba-f0edaf6f177f:
   id: a2c660d1-f70d-4cf5-8dba-f0edaf6f177f
   accessibility_elevators: 0
@@ -490,7 +490,7 @@ Venues::Venue_a2c660d1-f70d-4cf5-8dba-f0edaf6f177f:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: jetbrains-office-2
-  url: ''
+  website: ''
 Venues::Venue_acac167f-0957-4586-bcca-7ffa3ed8f06a:
   id: acac167f-0957-4586-bcca-7ffa3ed8f06a
   accessibility_elevators: 0
@@ -506,7 +506,7 @@ Venues::Venue_acac167f-0957-4586-bcca-7ffa3ed8f06a:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: shore-office
-  url: ''
+  website: ''
 Venues::Venue_c7e45563-ce0e-46c7-9805-77b86851eda6:
   id: c7e45563-ce0e-46c7-9805-77b86851eda6
   accessibility_elevators: 0
@@ -522,7 +522,7 @@ Venues::Venue_c7e45563-ce0e-46c7-9805-77b86851eda6:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: lanes-planes-office
-  url: ''
+  website: ''
 Venues::Venue_ca9606cd-d8e0-4c53-8f0f-ee59fda172f4:
   id: ca9606cd-d8e0-4c53-8f0f-ee59fda172f4
   accessibility_elevators: 0
@@ -538,7 +538,7 @@ Venues::Venue_ca9606cd-d8e0-4c53-8f0f-ee59fda172f4:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: dataguard-office-2
-  url: ''
+  website: ''
 Venues::Venue_d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6:
   id: d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6
   accessibility_elevators: 0
@@ -553,7 +553,7 @@ Venues::Venue_d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: augustiner-keller
-  url: ''
+  website: ''
 Venues::Venue_dbfcbc47-b465-4ef7-9d4c-285208def0d1:
   id: dbfcbc47-b465-4ef7-9d4c-285208def0d1
   accessibility_elevators: 0
@@ -569,7 +569,7 @@ Venues::Venue_dbfcbc47-b465-4ef7-9d4c-285208def0d1:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: new-work-office
-  url: ''
+  website: ''
 Venues::Venue_e06fb1e7-d75b-4347-bef5-ab4b83b44d37:
   id: e06fb1e7-d75b-4347-bef5-ab4b83b44d37
   accessibility_elevators: 0
@@ -585,7 +585,7 @@ Venues::Venue_e06fb1e7-d75b-4347-bef5-ab4b83b44d37:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: crewmeister-office
-  url: ''
+  website: ''
 Venues::Venue_e1cb528f-44ee-4d93-b715-74a738d89c56:
   id: e1cb528f-44ee-4d93-b715-74a738d89c56
   accessibility_elevators: 0
@@ -601,7 +601,7 @@ Venues::Venue_e1cb528f-44ee-4d93-b715-74a738d89c56:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: cospired-office
-  url: ''
+  website: ''
 Venues::Venue_f1d0f5b6-c721-4dd0-a632-8acec6cbcd60:
   id: f1d0f5b6-c721-4dd0-a632-8acec6cbcd60
   accessibility_elevators: 0
@@ -617,7 +617,7 @@ Venues::Venue_f1d0f5b6-c721-4dd0-a632-8acec6cbcd60:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: riskmethods-office
-  url: ''
+  website: ''
 Venues::Venue_f6bb5d43-abdf-464f-ab91-b68855b122c2:
   id: f6bb5d43-abdf-464f-ab91-b68855b122c2
   accessibility_elevators: 0
@@ -633,4 +633,4 @@ Venues::Venue_f6bb5d43-abdf-464f-ab91-b68855b122c2:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: jetbrains-office
-  url: ''
+  website: ''

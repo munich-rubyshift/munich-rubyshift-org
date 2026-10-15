@@ -3,7 +3,7 @@ json.data do
     json.extract! entities_person, :id
     json.type "people"
     json.attributes do
-      json.extract! entities_person, :slug, :name, :rubyevents_slug, :github, :twitter, :website, :mastodon, :bluesky, :linkedin, :speakerdeck
+      json.extract! entities_person, :slug, :name, :rubyevents_slug, :github_username, :twitter_username, :website, :mastodon, :bluesky_handle, :linkedin_username, :speakerdeck_username
     end
     json.relationships do
       json.talks do

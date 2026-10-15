@@ -6,13 +6,13 @@ speakers: {
     id: "integer" {constraint: primary_key}
     name: string
     slug: string
-    github: string
-    twitter: string
+    github_username: string
+    twitter_username: string
     website: string
     mastodon: string
-    bluesky: string
-    linkedin: string
-    speakerdeck: string
+    bluesky_handle: string
+    linkedin_username: string
+    speakerdeck_username: string
     canonical_slug: string
   }
   speaker_aliases: {
@@ -217,10 +217,10 @@ events: {
     language_code: string
     website: string
     original_website: string
-    twitter: string
+    twitter_username: string
     facebook: string
     mastodon: string
-    bsky: string
+    bluesky_handle: string
     github: string
     linkedin: string
     meetup: string
@@ -259,7 +259,7 @@ events: {
     venue_id: "integer" {constraint: foreign_key}
     website: string
     original_website: string
-    twitter: string
+    twitter_username: string
     mastodon: string
     github: string
     meetup: string
@@ -310,7 +310,7 @@ venues: {
     name: string
     description: string
     instructions: string
-    url: string
+    website: string
     # the pin comes with the address; a venue always has one
     address_id: "integer" {constraint: foreign_key}
     map_id: "integer" {constraint: foreign_key}

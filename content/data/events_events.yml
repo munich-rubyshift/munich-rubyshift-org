@@ -21,7 +21,7 @@ Events::Event_01839f7a-6117-4811-97fa-bb15c798556d:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/237533183/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
@@ -66,7 +66,7 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/124636572/
   title: The big Ruby & Database shootout!
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
   website: ''
 Events::Event_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
@@ -91,7 +91,7 @@ Events::Event_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/264688734/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
   website: ''
 Events::Event_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
@@ -132,7 +132,7 @@ Events::Event_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/301843343/
   title: Ruby Meetup January 2025
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   website: ''
 Events::Event_11b7a50f-1889-41e6-91bc-53d19cd66d70:
@@ -157,7 +157,7 @@ Events::Event_11b7a50f-1889-41e6-91bc-53d19cd66d70:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760914/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
@@ -183,7 +183,7 @@ Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/219853849/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
@@ -210,7 +210,7 @@ Events::Event_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/247415805/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: '053190c9-9e62-484e-abf4-374d6e69d475'
   website: ''
 Events::Event_1573831b-d7d7-497c-b0b0-74772ea7a891:
@@ -235,7 +235,7 @@ Events::Event_1573831b-d7d7-497c-b0b0-74772ea7a891:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/227859964/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
   website: ''
 Events::Event_159e036d-87af-4d9b-bbc4-a2adf07f48e1:
@@ -260,7 +260,7 @@ Events::Event_159e036d-87af-4d9b-bbc4-a2adf07f48e1:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711164/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_1bd4fee4-ef7b-4050-9932-c657a72151c5:
@@ -285,7 +285,7 @@ Events::Event_1bd4fee4-ef7b-4050-9932-c657a72151c5:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/226343522/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_1cbe4b7d-9dca-4673-a7f0-7d7133a213f7:
@@ -311,7 +311,7 @@ Events::Event_1cbe4b7d-9dca-4673-a7f0-7d7133a213f7:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/236523282/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
@@ -340,7 +340,7 @@ Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/183070712/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
   website: ''
 Events::Event_24295c0d-0811-42c4-a837-68311abd1a63:
@@ -365,7 +365,7 @@ Events::Event_24295c0d-0811-42c4-a837-68311abd1a63:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/236243014/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_26873fee-6a38-4179-8b79-b800be48163d:
@@ -389,7 +389,7 @@ Events::Event_26873fee-6a38-4179-8b79-b800be48163d:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/152792582/
   title: Rails Girls
-  twitter: ''
+  twitter_username: ''
   website: ''
 Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
   id: 2a94bfd1-b358-439f-81ea-c5f6a4075d8e
@@ -415,7 +415,7 @@ Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760916/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
   website: ''
 Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
@@ -459,7 +459,7 @@ Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/298001922/
   title: Ruby Meetup January 2024
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   website: ''
 Events::Event_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
@@ -485,7 +485,7 @@ Events::Event_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/258785567/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: '053190c9-9e62-484e-abf4-374d6e69d475'
   website: ''
 Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
@@ -521,7 +521,7 @@ Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/140944592/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
   website: ''
 Events::Event_388f3a35-88ab-4c17-b911-ef743b26ab87:
@@ -547,7 +547,7 @@ Events::Event_388f3a35-88ab-4c17-b911-ef743b26ab87:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/244245195/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   website: ''
 Events::Event_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
@@ -587,7 +587,7 @@ Events::Event_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/296645729/
   title: Ruby Meetup November 2023
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
   website: ''
 Events::Event_39f6c39c-523a-4f7e-bbae-54ef7574250b:
@@ -614,7 +614,7 @@ Events::Event_39f6c39c-523a-4f7e-bbae-54ef7574250b:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/238534113/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 522de6d8-fb07-4a30-ab14-b7c8987ab943
   website: ''
 Events::Event_3b6374f6-81eb-4da7-9e6b-ab99549b69db:
@@ -639,7 +639,7 @@ Events::Event_3b6374f6-81eb-4da7-9e6b-ab99549b69db:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/226159319/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   website: ''
 Events::Event_3c718b66-d23e-48d4-bc5f-a8430392ca94:
@@ -665,7 +665,7 @@ Events::Event_3c718b66-d23e-48d4-bc5f-a8430392ca94:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/262005861/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   website: ''
 Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
@@ -692,7 +692,7 @@ Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/214247962/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
@@ -718,7 +718,7 @@ Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/246512326/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_4ab85760-fd58-428f-bdf3-0b0f97e4930a:
@@ -742,7 +742,7 @@ Events::Event_4ab85760-fd58-428f-bdf3-0b0f97e4930a:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/241315663/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   website: ''
 Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
@@ -772,7 +772,7 @@ Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/176392412/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
@@ -805,7 +805,7 @@ Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/315466557/?eventOrigin=group_events_list
   title: Ruby Meetup September 2026
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 3236f853-c433-46ee-a6e4-070b99a632fb
   website: ''
 Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
@@ -849,7 +849,7 @@ Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/286993418/
   title: Ruby Meetup September 2022
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 8b93680b-2148-4486-93fc-9abadd022492
   website: ''
 Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
@@ -876,7 +876,7 @@ Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760921/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   website: ''
 Events::Event_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
@@ -902,7 +902,7 @@ Events::Event_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/267360270/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
@@ -931,7 +931,7 @@ Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/152792572/
   title: Rails Girls Hack and Play
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 69821224-9122-4f4f-afa2-ea45b4356aa1
   website: ''
 Events::Event_5120ef88-e9ee-49c7-8d67-5a6190d3fa63:
@@ -964,7 +964,7 @@ Events::Event_5120ef88-e9ee-49c7-8d67-5a6190d3fa63:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/260272989/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
@@ -990,7 +990,7 @@ Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221456141/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: acac167f-0957-4586-bcca-7ffa3ed8f06a
   website: ''
 Events::Event_53be3fcb-a991-4780-a53e-111ad902bb66:
@@ -1016,7 +1016,7 @@ Events::Event_53be3fcb-a991-4780-a53e-111ad902bb66:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/255062411/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   website: ''
 Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
@@ -1046,7 +1046,7 @@ Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/182433562/?eventOrigin=group_events_list
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: f6bb5d43-abdf-464f-ab91-b68855b122c2
   website: ''
 Events::Event_59158906-28a1-4838-944a-529ba1fb889c:
@@ -1071,7 +1071,7 @@ Events::Event_59158906-28a1-4838-944a-529ba1fb889c:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/231711879/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   website: ''
 Events::Event_5c39c74b-af9f-47a4-a840-7daca41a559f:
@@ -1104,7 +1104,7 @@ Events::Event_5c39c74b-af9f-47a4-a840-7daca41a559f:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/293720315/
   title: Ruby Meetup July 2023
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
@@ -1131,7 +1131,7 @@ Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/238446253/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_5e8801b8-b30c-49d7-b13f-63060e40667a:
@@ -1165,7 +1165,7 @@ Events::Event_5e8801b8-b30c-49d7-b13f-63060e40667a:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/299201679/
   title: Ruby Meetup March 2024
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: ca9606cd-d8e0-4c53-8f0f-ee59fda172f4
   website: ''
 Events::Event_5ec4c4c6-643b-40e8-b01f-f5396c2323dd:
@@ -1190,7 +1190,7 @@ Events::Event_5ec4c4c6-643b-40e8-b01f-f5396c2323dd:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/237650225/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 00ab037e-02fc-41f7-88c3-3d5147c1bb5f
   website: ''
 Events::Event_60f568f0-6f60-4e53-9e04-e9ffaebb1e06:
@@ -1217,7 +1217,7 @@ Events::Event_60f568f0-6f60-4e53-9e04-e9ffaebb1e06:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345816/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 59fc696b-609c-4177-9afa-669185fb0dd7
   website: ''
 Events::Event_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
@@ -1242,7 +1242,7 @@ Events::Event_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/124636722/
   title: August Biergarten Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6
   website: ''
 Events::Event_71a42ab5-d65d-4686-9bf6-7238a6719d66:
@@ -1300,7 +1300,7 @@ Events::Event_71a42ab5-d65d-4686-9bf6-7238a6719d66:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/124418592/
   title: The big bad Gems presentation Marathon
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: f6bb5d43-abdf-464f-ab91-b68855b122c2
   website: ''
 Events::Event_721e3030-460f-48ae-a545-cf81cb327b67:
@@ -1326,7 +1326,7 @@ Events::Event_721e3030-460f-48ae-a545-cf81cb327b67:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/188259742/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 266215c5-41cf-49b6-b688-566b2d98fd48
   website: ''
 Events::Event_74ad1707-f344-4743-916f-c5c2a89c27bd:
@@ -1364,7 +1364,7 @@ Events::Event_74ad1707-f344-4743-916f-c5c2a89c27bd:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/152038022/
   title: January Meetup - Ruby off Rails
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
   website: ''
 Events::Event_764df804-c67c-4803-84b3-4221968642fb:
@@ -1399,7 +1399,7 @@ Events::Event_764df804-c67c-4803-84b3-4221968642fb:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/159162612/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 215487ed-a371-488f-b43f-3caffbbdf0d0
   website: ''
 Events::Event_7756b666-da89-4f60-9947-cbb5d3110256:
@@ -1448,7 +1448,7 @@ Events::Event_7756b666-da89-4f60-9947-cbb5d3110256:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/285945003/
   title: Ruby Meetup - RELAUNCH!
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2
   website: ''
 Events::Event_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
@@ -1475,7 +1475,7 @@ Events::Event_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345780/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_7c40a4f1-fc58-46e7-8c96-53d3e07d5f88:
@@ -1499,7 +1499,7 @@ Events::Event_7c40a4f1-fc58-46e7-8c96-53d3e07d5f88:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/260535724/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   website: ''
 Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
   id: 7deebf5f-7d41-4658-b871-b12968ec0f25
@@ -1529,7 +1529,7 @@ Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/137766352/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: e1cb528f-44ee-4d93-b715-74a738d89c56
   website: ''
 Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
@@ -1556,7 +1556,7 @@ Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/250536142/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 1347f7fd-3908-4c46-9325-f7f514394170
   website: ''
 Events::Event_7f01acc2-0480-41c2-810e-6b7ede0d927e:
@@ -1582,7 +1582,7 @@ Events::Event_7f01acc2-0480-41c2-810e-6b7ede0d927e:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/243355940/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 90a84792-1569-45c1-9c35-9e3a708e75c4
   website: ''
 Events::Event_7f464932-1471-4932-9732-d79d20c32844:
@@ -1607,7 +1607,7 @@ Events::Event_7f464932-1471-4932-9732-d79d20c32844:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345811/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
@@ -1635,7 +1635,7 @@ Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/188259462/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
@@ -1661,7 +1661,7 @@ Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/203972372/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
@@ -1687,7 +1687,7 @@ Events::Event_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711190/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
@@ -1712,7 +1712,7 @@ Events::Event_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/231711877/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: f1d0f5b6-c721-4dd0-a632-8acec6cbcd60
   website: ''
 Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
@@ -1738,7 +1738,7 @@ Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248733771/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: e06fb1e7-d75b-4347-bef5-ab4b83b44d37
   website: ''
 Events::Event_969902ff-c7e8-48e5-8d0e-f64c85568e63:
@@ -1787,7 +1787,7 @@ Events::Event_969902ff-c7e8-48e5-8d0e-f64c85568e63:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/308137751/
   title: Ruby Meetup July 2025
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: c7e45563-ce0e-46c7-9805-77b86851eda6
   website: ''
 Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
@@ -1826,7 +1826,7 @@ Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/306159513/
   title: Ruby Meetup March 2025
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
@@ -1855,7 +1855,7 @@ Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/244141903/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   website: ''
 Events::Event_a2cad908-ac6a-4757-92b5-23360594d899:
@@ -1881,7 +1881,7 @@ Events::Event_a2cad908-ac6a-4757-92b5-23360594d899:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/237650227/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
   website: ''
 Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
@@ -1906,7 +1906,7 @@ Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/226291420/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_a4070744-c531-4689-941a-d8ebdccdfbe8:
@@ -1932,7 +1932,7 @@ Events::Event_a4070744-c531-4689-941a-d8ebdccdfbe8:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/268082288/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 7ccf4041-03b7-452a-a7f1-efa5d22e96d4
   website: ''
 Events::Event_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
@@ -1956,7 +1956,7 @@ Events::Event_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711177/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   website: ''
 Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
@@ -1983,7 +1983,7 @@ Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/262005874/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
   website: ''
 Events::Event_aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb:
@@ -2009,7 +2009,7 @@ Events::Event_aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345823/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_ab5a4682-4a75-46dd-bc91-4af39d48df23:
@@ -2034,7 +2034,7 @@ Events::Event_ab5a4682-4a75-46dd-bc91-4af39d48df23:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/216676492/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
   website: ''
 Events::Event_ab6dc247-9323-4567-8589-fb1953cde773:
@@ -2058,7 +2058,7 @@ Events::Event_ab6dc247-9323-4567-8589-fb1953cde773:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711184/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f
   website: ''
 Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
@@ -2088,7 +2088,7 @@ Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/250536144/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: '053190c9-9e62-484e-abf4-374d6e69d475'
   website: ''
 Events::Event_adea8129-c6f0-48b1-b764-296c09336343:
@@ -2133,7 +2133,7 @@ Events::Event_adea8129-c6f0-48b1-b764-296c09336343:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/291687413/
   title: Ruby Meetup March 2023
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 12f15b05-65ee-431d-b691-51486c2be216
   website: ''
 Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
@@ -2160,7 +2160,7 @@ Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/171028112/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
   website: ''
 Events::Event_b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5:
@@ -2184,7 +2184,7 @@ Events::Event_b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/270509881/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   website: ''
 Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
   id: bb626d8b-beff-4d94-b095-d3a73a369ebb
@@ -2211,7 +2211,7 @@ Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/269643042/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   website: ''
 Events::Event_bd09e5ca-d692-409c-8944-d966c2a175e0:
   id: bd09e5ca-d692-409c-8944-d966c2a175e0
@@ -2252,7 +2252,7 @@ Events::Event_bd09e5ca-d692-409c-8944-d966c2a175e0:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/310392682/
   title: Ruby Meetup October 2025
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: c7e45563-ce0e-46c7-9805-77b86851eda6
   website: ''
 Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
@@ -2305,7 +2305,7 @@ Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/295448929/
   title: Ruby Meetup September 2023
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 63b14137-3cdb-4f1a-88bc-860c5e4f2223
   website: ''
 Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
@@ -2331,7 +2331,7 @@ Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/255062412/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_c3faa100-3977-4073-82a8-0ec4625773ea:
@@ -2355,7 +2355,7 @@ Events::Event_c3faa100-3977-4073-82a8-0ec4625773ea:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/125381152/
   title: Ruby Hackathon
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_c7b6e7a9-20e6-45a0-b56b-d10841ff38f4:
@@ -2380,7 +2380,7 @@ Events::Event_c7b6e7a9-20e6-45a0-b56b-d10841ff38f4:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/266829008/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 92b5edb8-2adb-4ab7-9f06-017d2f0e64c4
   website: ''
 Events::Event_c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e:
@@ -2404,7 +2404,7 @@ Events::Event_c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/255062409/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   website: ''
 Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
   id: c8a5aa43-7139-44ce-8b2f-53a6c508de2e
@@ -2431,7 +2431,7 @@ Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/246244986/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_c92a903b-d40f-478d-a7d6-457d362bd906:
@@ -2463,7 +2463,7 @@ Events::Event_c92a903b-d40f-478d-a7d6-457d362bd906:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/288656327/
   title: Ruby Meetup November 2022
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
   website: ''
 Events::Event_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:
@@ -2498,7 +2498,7 @@ Events::Event_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/261130049/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2
   website: ''
 Events::Event_d03d7342-973f-4746-b70e-85309f34ae40:
@@ -2523,7 +2523,7 @@ Events::Event_d03d7342-973f-4746-b70e-85309f34ae40:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/242248319/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_d096f26c-e4d6-4441-891c-728724a7c26a:
@@ -2558,7 +2558,7 @@ Events::Event_d096f26c-e4d6-4441-891c-728724a7c26a:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/292979878/
   title: Ruby Meetup May 2023
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: a2c660d1-f70d-4cf5-8dba-f0edaf6f177f
   website: ''
 Events::Event_d09e00e9-b43f-49d8-b211-9d09abfc482a:
@@ -2586,7 +2586,7 @@ Events::Event_d09e00e9-b43f-49d8-b211-9d09abfc482a:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/157576062/
   title: Ruby Closures & Android Apps with Ruby
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 4f816bec-c6ce-4776-947f-fa6551d18108
   website: ''
 Events::Event_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
@@ -2615,7 +2615,7 @@ Events::Event_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345827/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   website: ''
 Events::Event_da4b79dd-3013-476b-8fa3-96e7666e56a9:
@@ -2639,7 +2639,7 @@ Events::Event_da4b79dd-3013-476b-8fa3-96e7666e56a9:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/271084351/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   website: ''
 Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
   id: dde2695f-80c5-48a6-a450-ad8b5948c1db
@@ -2669,7 +2669,7 @@ Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/150475432/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 8fd97a9c-10f1-4e65-a8c2-fd14c54a963a
   website: ''
 Events::Event_de01ca60-b027-46c8-9735-c6447c68d575:
@@ -2695,7 +2695,7 @@ Events::Event_de01ca60-b027-46c8-9735-c6447c68d575:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/228149476/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
   website: ''
 Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
@@ -2722,7 +2722,7 @@ Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/267986885/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
   website: ''
 Events::Event_e0e0c374-65e9-4652-9b0e-22011412a820:
@@ -2782,7 +2782,7 @@ Events::Event_e0e0c374-65e9-4652-9b0e-22011412a820:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/312376792/
   title: Ruby Meetup January 2026
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 05a33493-04bf-4272-9325-d3e40bcd1f6e
   website: ''
 Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
@@ -2808,7 +2808,7 @@ Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/228149468/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 90a84792-1569-45c1-9c35-9e3a708e75c4
   website: ''
 Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
@@ -2850,7 +2850,7 @@ Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/290480070/
   title: Ruby Meetup January 2023
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   website: ''
 Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
@@ -2876,7 +2876,7 @@ Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345803/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_e56124e4-1e66-411c-a794-41ea348d7504:
@@ -2902,7 +2902,7 @@ Events::Event_e56124e4-1e66-411c-a794-41ea348d7504:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760918/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_e5763033-391b-4207-b889-682d099694e3:
@@ -2928,7 +2928,7 @@ Events::Event_e5763033-391b-4207-b889-682d099694e3:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221465143/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
 Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
@@ -2985,7 +2985,7 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/313838183/
   title: Ruby Meetup April 2026
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   website: ''
 Events::Event_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
@@ -3010,7 +3010,7 @@ Events::Event_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/220922391/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   website: ''
 Events::Event_eb7f7b54-12a9-431d-b16f-a866624c3ee7:
@@ -3046,7 +3046,7 @@ Events::Event_eb7f7b54-12a9-431d-b16f-a866624c3ee7:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/257993524/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: dbfcbc47-b465-4ef7-9d4c-285208def0d1
   website: ''
 Events::Event_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
@@ -3072,7 +3072,7 @@ Events::Event_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/262094188/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 3b908116-7311-4923-b840-ed89760170f8
   website: ''
 Events::Event_f5c1edc4-ae63-43f2-96ee-c484496986ab:
@@ -3105,7 +3105,7 @@ Events::Event_f5c1edc4-ae63-43f2-96ee-c484496986ab:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/301144567/
   title: Ruby Meetup July 2024
-  twitter: ''
+  twitter_username: ''
   website: ''
 Events::Event_f9870540-7983-496c-9541-80c13c9d4120:
   id: f9870540-7983-496c-9541-80c13c9d4120
@@ -3133,6 +3133,6 @@ Events::Event_f9870540-7983-496c-9541-80c13c9d4120:
   status: scheduled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/264549511/
   title: Ruby User Group Meetup
-  twitter: ''
+  twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''

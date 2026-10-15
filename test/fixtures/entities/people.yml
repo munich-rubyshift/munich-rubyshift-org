@@ -4,22 +4,22 @@ one:
   slug: MyString
   name: MyString
   rubyevents_slug: MyString
-  github: MyString
-  twitter: MyString
+  github_username: MyString
+  twitter_username: MyString
   website: MyString
   mastodon: MyString
-  bluesky: MyString
-  linkedin: MyString
-  speakerdeck: MyString
+  bluesky_handle: MyString
+  linkedin_username: MyString
+  speakerdeck_username: MyString
 
 two:
   slug: MyString
   name: MyString
   rubyevents_slug: MyString
-  github: MyString
-  twitter: MyString
+  github_username: MyString
+  twitter_username: MyString
   website: MyString
   mastodon: MyString
-  bluesky: MyString
-  linkedin: MyString
-  speakerdeck: MyString
+  bluesky_handle: MyString
+  linkedin_username: MyString
+  speakerdeck_username: MyString

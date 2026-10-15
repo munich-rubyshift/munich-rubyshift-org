@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_15_122011) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_15_125404) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -47,15 +47,15 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_122011) do
   end
 
   create_table "entities_people", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
-    t.string "bluesky"
-    t.string "github"
-    t.string "linkedin"
+    t.string "bluesky_handle"
+    t.string "github_username"
+    t.string "linkedin_username"
     t.string "mastodon"
     t.string "name"
     t.string "rubyevents_slug"
     t.string "slug"
-    t.string "speakerdeck"
-    t.string "twitter"
+    t.string "speakerdeck_username"
+    t.string "twitter_username"
     t.string "website"
   end
 
@@ -91,7 +91,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_122011) do
     t.string "status"
     t.string "tickets_url"
     t.string "title"
-    t.string "twitter"
+    t.string "twitter_username"
     t.string "venues_venue_id"
     t.string "website"
     t.index ["events_series_id"], name: "index_events_events_on_events_series_id"
@@ -116,7 +116,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_122011) do
   end
 
   create_table "events_series", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
-    t.string "bsky"
+    t.string "bluesky_handle"
     t.string "default_country_code"
     t.text "description"
     t.string "discord"
@@ -135,7 +135,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_122011) do
     t.string "original_website"
     t.string "rubyevents_slug"
     t.string "slug"
-    t.string "twitter"
+    t.string "twitter_username"
     t.string "website"
   end
 
@@ -249,7 +249,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_122011) do
     t.text "nearby_public_transport"
     t.string "rubyevents_slug"
     t.string "slug"
-    t.string "url"
+    t.string "website"
     t.index ["entities_organization_id"], name: "index_venues_venues_on_entities_organization_id"
     t.index ["locations_address_id"], name: "index_venues_venues_on_locations_address_id"
     t.index ["locations_map_id"], name: "index_venues_venues_on_locations_map_id"

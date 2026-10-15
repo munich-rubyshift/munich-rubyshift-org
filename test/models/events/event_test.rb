@@ -222,6 +222,15 @@ class Events::EventTest < ActiveSupport::TestCase
     assert_equal "Meetup", build_event(kind: "meetup", title: "Ruby User Group Meetup").to_s
   end
 
+  test "reads each inherited value from its series when its own is blank" do
+    Events::SeriesDefaults::INHERITED.each do |attribute|
+      @series[attribute] = "From the series"
+      event = build_event(attribute => "")
+
+      assert_equal "From the series", event.public_send(attribute), attribute
+    end
+  end
+
   private
 
   def build_event(**attributes)

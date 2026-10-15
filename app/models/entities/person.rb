@@ -12,11 +12,11 @@ class Entities::Person < ApplicationRecord
   # We store handles like rubyevents does, except for Mastodon, where only the
   # full URL names the server.
   def github_url
-    "https://github.com/#{github}" if github.present?
+    "https://github.com/#{github_username}" if github_username.present?
   end
 
   def twitter_url
-    "https://x.com/#{twitter}" if twitter.present?
+    "https://x.com/#{twitter_username}" if twitter_username.present?
   end
 
   def mastodon_url
@@ -24,15 +24,15 @@ class Entities::Person < ApplicationRecord
   end
 
   def bluesky_url
-    "https://bsky.app/profile/#{bluesky}" if bluesky.present?
+    "https://bsky.app/profile/#{bluesky_handle}" if bluesky_handle.present?
   end
 
   def linkedin_url
-    "https://www.linkedin.com/in/#{linkedin}" if linkedin.present?
+    "https://www.linkedin.com/in/#{linkedin_username}" if linkedin_username.present?
   end
 
   def speakerdeck_url
-    "https://speakerdeck.com/#{speakerdeck}" if speakerdeck.present?
+    "https://speakerdeck.com/#{speakerdeck_username}" if speakerdeck_username.present?
   end
 
   def to_s

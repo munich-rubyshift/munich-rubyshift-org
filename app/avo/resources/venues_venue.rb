@@ -16,7 +16,7 @@ class Avo::Resources::VenuesVenue < Avo::BaseResource
     field :name, as: :text, sortable: true
     field :rubyevents_slug, as: :text, sortable: true
     field :description, as: :textarea
-    field :url, as: :text, sortable: true
+    field :website, as: :text, sortable: true
     field :instructions, as: :textarea
     field :accessibility_wheelchair, as: :boolean, sortable: true
     field :accessibility_elevators, as: :boolean, sortable: true
