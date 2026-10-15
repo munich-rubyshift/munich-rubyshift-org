@@ -60,6 +60,8 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :published_at, as: :date_time, sortable: true
     field :announced_on, as: :date, sortable: true
     field :last_edition, as: :boolean, sortable: true
+
+    field :cfps, as: :has_many
   end
 
   def fill_record(...)
