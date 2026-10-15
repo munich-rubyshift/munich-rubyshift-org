@@ -61,6 +61,7 @@ module GithubTestHelper
   def self.url
     @url ||= begin
       require "capybara"
+      Capybara.server = :puma, { Silent: true }
       server = Capybara::Server.new(APP).boot
       "http://#{server.host}:#{server.port}"
     end
