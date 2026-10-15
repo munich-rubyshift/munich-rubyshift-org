@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_14_135540) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_15_120055) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -73,7 +73,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_14_135540) do
     t.date "announced_on"
     t.string "attendance_mode", null: false
     t.string "banner_background"
-    t.string "channel_id"
     t.string "date_precision"
     t.text "description"
     t.date "end_date"
@@ -87,7 +86,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_14_135540) do
     t.string "luma"
     t.string "mastodon"
     t.string "meetup"
-    t.string "playlist"
     t.datetime "published_at"
     t.string "rubyevents_slug"
     t.string "slug"
@@ -99,7 +97,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_14_135540) do
     t.string "twitter"
     t.string "venues_venue_id"
     t.string "website"
-    t.string "youtube"
     t.index ["events_series_id"], name: "index_events_events_on_events_series_id"
     t.index ["venues_venue_id"], name: "index_events_events_on_venues_venue_id"
   end
@@ -139,15 +136,10 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_14_135540) do
     t.string "meetup"
     t.string "name"
     t.string "original_website"
-    t.string "playlist_matcher"
     t.string "rubyevents_slug"
     t.string "slug"
     t.string "twitter"
-    t.string "vimeo"
     t.string "website"
-    t.string "youtube_channel_handle"
-    t.string "youtube_channel_id"
-    t.string "youtube_channel_name"
   end
 
   create_table "friendly_id_slugs", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|

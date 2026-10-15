@@ -29,11 +29,6 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
     field :meetup, as: :text, sortable: true
     field :luma, as: :text, sortable: true
     field :guild, as: :text, sortable: true
-    field :vimeo, as: :text, sortable: true
     field :discord, as: :text, sortable: true
-    field :youtube_channel_id, as: :text, sortable: true
-    field :youtube_channel_name, as: :text, sortable: true
-    field :youtube_channel_handle, as: :text, sortable: true
-    field :playlist_matcher, as: :text, sortable: true
   end
 end

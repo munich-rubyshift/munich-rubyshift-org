@@ -18,15 +18,12 @@ one:
   published_at: 2026-04-23 20:55:51
   announced_on: 2026-04-23
   date_precision: MyString
-  channel_id: MyString
-  playlist: MyString
   website: MyString
   twitter: MyString
   mastodon: MyString
   github: MyString
   meetup: MyString
   luma: MyString
-  youtube: MyString
   tickets_url: MyString
   banner_background: MyString
   featured_background: MyString
@@ -50,15 +47,12 @@ two:
   published_at: 2026-04-23 20:55:51
   announced_on: 2026-04-23
   date_precision: MyString
-  channel_id: MyString
-  playlist: MyString
   website: MyString
   twitter: MyString
   mastodon: MyString
   github: MyString
   meetup: MyString
   luma: MyString
-  youtube: MyString
   tickets_url: MyString
   banner_background: MyString
   featured_background: MyString
