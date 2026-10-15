@@ -19,5 +19,6 @@ class Avo::Resources::EntitiesPerson < Avo::BaseResource
     field :bluesky_handle, as: :text, sortable: true
     field :linkedin_username, as: :text, sortable: true
     field :speakerdeck_username, as: :text, sortable: true
+    field :meetup_id, as: :text, sortable: true, name: "Meetup user ID"
   end
 end
