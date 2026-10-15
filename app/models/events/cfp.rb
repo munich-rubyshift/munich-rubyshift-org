@@ -9,11 +9,12 @@ class Events::CFP < ApplicationRecord
 
   string_fk :events_event_id
 
-  validates :name, presence: true
+  validates :name, presence: true, uniqueness: { scope: :events_event_id, case_sensitive: false }
 
-  # Most CFPs have the same name, so prepend the event name for better slugs.
+  # Most CFPs have the same name, so prepend the event's slug, which is unique.
+  # Avo builds a new event's CFP before saving the event, so wait for its slug.
   def slug_candidates
-    [ [ event&.title, name ] ]
+    [ [ event.slug, name ] ] if event&.slug
   end
 
   def url
