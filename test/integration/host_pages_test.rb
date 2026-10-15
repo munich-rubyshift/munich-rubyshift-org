@@ -18,11 +18,11 @@ class HostPagesTest < ActionDispatch::IntegrationTest
 
   test "the hosts page shows their logos" do
     check_out_storage
-    @freeletics.update!(logo: image_upload("image.svg"))
+    @freeletics.update!(logo: image_upload)
 
     get "/hosts"
 
-    assert_select "img.stored-image[src*='freeletics-logo.svg']"
+    assert_select "img.stored-image[src*='freeletics-logo.png']"
   end
 
   test "the menu leads to the hosts" do
