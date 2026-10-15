@@ -25,7 +25,7 @@ class Events::CFP < ApplicationRecord
 
   # A CFP yet to open counts as open, too.
   def closed?
-    close_date.present? && close_date.before?(Date.current)
+    close_date&.past?
   end
 
   # Most CFPs have the same name, so prepend the event's slug, which is unique.
