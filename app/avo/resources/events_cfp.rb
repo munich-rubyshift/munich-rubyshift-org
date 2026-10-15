@@ -18,7 +18,7 @@ class Avo::Resources::EventsCFP < Avo::BaseResource
     field :close_date, as: :date, sortable: true,
       help: "Leave blank to close the day before the event.",
       format_form_using: -> { record.read_attribute(:close_date) },
-      placeholder: -> { record.event&.start_date&.prev_day&.iso8601 }
+      placeholder: -> { record.implied_close_date&.iso8601 }
     field :event, as: :belongs_to, **sortable(:by_start_date, on: :event)
   end
 end

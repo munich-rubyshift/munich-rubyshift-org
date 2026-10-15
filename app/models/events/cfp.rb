@@ -16,7 +16,11 @@ class Events::CFP < ApplicationRecord
 
   # A blank close date closes the CFP the day before its event.
   def close_date
-    super || event&.start_date&.prev_day
+    super || implied_close_date
+  end
+
+  def implied_close_date
+    event&.start_date&.prev_day
   end
 
   # A CFP yet to open counts as open, too.
