@@ -16,6 +16,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v7
+      with:
+        submodules: true
+
+      # Without its files, the build would publish placeholders instead.
+    - name: Require the storage submodule
+      run: test -e content/storage/.git || { echo "content/storage isn't checked out"; exit 1; }
+
     - uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
