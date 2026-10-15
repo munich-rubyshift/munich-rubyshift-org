@@ -12,12 +12,12 @@ class Avo::Resources::EntitiesPerson < Avo::BaseResource
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :name, as: :text, sortable: true
     field :rubyevents_slug, as: :text, sortable: true
-    field :github, as: :text, sortable: true
-    field :twitter, as: :text, sortable: true
+    field :github_username, as: :text, sortable: true
+    field :twitter_username, as: :text, sortable: true
     field :website, as: :text, sortable: true
     field :mastodon, as: :text, sortable: true
-    field :bluesky, as: :text, sortable: true
-    field :linkedin, as: :text, sortable: true
-    field :speakerdeck, as: :text, sortable: true
+    field :bluesky_handle, as: :text, sortable: true
+    field :linkedin_username, as: :text, sortable: true
+    field :speakerdeck_username, as: :text, sortable: true
   end
 end

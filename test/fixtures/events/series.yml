@@ -12,10 +12,10 @@ one:
   language_code: en
   website: MyString
   original_website: MyString
-  twitter: MyString
+  twitter_username: MyString
   facebook: MyString
   mastodon: MyString
-  bsky: MyString
+  bluesky_handle: MyString
   github: MyString
   linkedin: MyString
   meetup: MyString
@@ -35,10 +35,10 @@ two:
   language_code: en
   website: MyString
   original_website: MyString
-  twitter: MyString
+  twitter_username: MyString
   facebook: MyString
   mastodon: MyString
-  bsky: MyString
+  bluesky_handle: MyString
   github: MyString
   linkedin: MyString
   meetup: MyString

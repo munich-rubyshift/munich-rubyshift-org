@@ -19,7 +19,7 @@ one:
   announced_on: 2026-04-23
   date_precision: MyString
   website: MyString
-  twitter: MyString
+  twitter_username: MyString
   mastodon: MyString
   github: MyString
   meetup: MyString
@@ -45,7 +45,7 @@ two:
   announced_on: 2026-04-23
   date_precision: MyString
   website: MyString
-  twitter: MyString
+  twitter_username: MyString
   mastodon: MyString
   github: MyString
   meetup: MyString

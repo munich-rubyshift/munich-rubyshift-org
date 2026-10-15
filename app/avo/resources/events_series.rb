@@ -20,10 +20,10 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
     field :language_code, as: :select, name: "Language", sortable: true, options: ::Language::NAMES.invert, include_blank: true
     field :website, as: :text, sortable: true
     field :original_website, as: :text, sortable: true
-    field :twitter, as: :text, sortable: true
+    field :twitter_username, as: :text, sortable: true
     field :facebook, as: :text, sortable: true
     field :mastodon, as: :text, sortable: true
-    field :bsky, as: :text, sortable: true
+    field :bluesky_handle, as: :text, sortable: true
     field :github, as: :text, sortable: true
     field :linkedin, as: :text, sortable: true
     field :meetup, as: :text, sortable: true

@@ -3,8 +3,8 @@ require "test_helper"
 class Entities::PersonTest < ActiveSupport::TestCase
   test "links each handle to its profile" do
     person = Entities::Person.new(
-      github: "triskweline", twitter: "triskweline", bluesky: "hschne",
-      linkedin: "triskweline", speakerdeck: "triskweline", mastodon: "https://ruby.social/@hschne"
+      github_username: "triskweline", twitter_username: "triskweline", bluesky_handle: "hschne",
+      linkedin_username: "triskweline", speakerdeck_username: "triskweline", mastodon: "https://ruby.social/@hschne"
     )
 
     assert_equal "https://github.com/triskweline", person.github_url
@@ -16,7 +16,7 @@ class Entities::PersonTest < ActiveSupport::TestCase
   end
 
   test "has no profile link without a handle" do
-    person = Entities::Person.new(github: "", twitter: "", bluesky: "", linkedin: "", speakerdeck: "", mastodon: "")
+    person = Entities::Person.new(github_username: "", twitter_username: "", bluesky_handle: "", linkedin_username: "", speakerdeck_username: "", mastodon: "")
 
     assert_nil person.github_url
     assert_nil person.twitter_url

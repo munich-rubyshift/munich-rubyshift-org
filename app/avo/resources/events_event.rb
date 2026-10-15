@@ -43,7 +43,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
 
     field :series, as: :belongs_to, **sortable(:by_to_s, on: :series), default: -> { ::Events::Series.first }
     field :website, as: :text, sortable: true, **series_default_options(:website)
-    field :twitter, as: :text, sortable: true, **series_default_options(:twitter)
+    field :twitter_username, as: :text, sortable: true, **series_default_options(:twitter_username)
     field :mastodon, as: :text, sortable: true, **series_default_options(:mastodon)
     field :github, as: :text, sortable: true, **series_default_options(:github)
     field :meetup, as: :text, sortable: true, **series_default_options(:meetup)

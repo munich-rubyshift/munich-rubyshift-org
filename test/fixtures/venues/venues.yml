@@ -6,7 +6,7 @@ one:
   name: MyString
   rubyevents_slug: MyString
   description: MyText
-  url: MyString
+  website: MyString
   instructions: MyText
   accessibility_wheelchair: false
   accessibility_elevators: false
@@ -22,7 +22,7 @@ two:
   name: MyString
   rubyevents_slug: MyString
   description: MyText
-  url: MyString
+  website: MyString
   instructions: MyText
   accessibility_wheelchair: false
   accessibility_elevators: false
