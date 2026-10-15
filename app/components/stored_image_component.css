@@ -1,0 +1,8 @@
+.stored-image {
+  vertical-align: middle;
+}
+
+.stored-image--placeholder {
+  display: inline-block;
+  background: lightgray;
+}

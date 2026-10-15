@@ -1,5 +1,5 @@
 <article id="<%= dom_id person %>" class="entities---person" data-compiler="entities-person" up-data="<%= {  }.to_json %>">
-  <h2><%= person.name %><% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_person_path(person), "up-follow": false %><% end %></h2>
+  <h2><%= render StoredImageComponent.new(person.avatar, height: 64) %> <%= person.name %><% if defined?(Avo) %> <%= link_to "✏️", avo.resources_entities_person_path(person), "up-follow": false %><% end %></h2>
 
   <% if person.rubyevents_slug.present? %>
     <%= link_to "on Rubyevents", "https://www.rubyevents.org/profiles/#{person.rubyevents_slug}", target: "_blank", rel: "noopener noreferrer" %>

@@ -34,8 +34,8 @@
   </p>
 
   <p>
-    <strong>Logo url:</strong>
-    <%= organization.logo_url %>
+    <strong>Logo:</strong>
+    <%= render StoredImageComponent.new(organization.logo, height: 48) %>
   </p>
 
 </article>

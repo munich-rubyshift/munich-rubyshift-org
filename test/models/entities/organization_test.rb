@@ -1,6 +1,16 @@
 require "test_helper"
 
 class Entities::OrganizationTest < ActiveSupport::TestCase
+  include StorageTestHelper
+
+  test "names its logo after the organization" do
+    check_out_storage
+
+    acme = Entities::Organization.create!(name: "Acme", logo: image_upload)
+
+    assert_equal "acme-logo.png", acme.reload.logo.filename.to_s
+  end
+
   test "the slug follows the brand" do
     organization = Entities::Organization.create!(name: "Freeletics", legal_name: "Freeletics GmbH")
 
