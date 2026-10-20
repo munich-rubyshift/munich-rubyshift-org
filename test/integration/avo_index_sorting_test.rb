@@ -112,6 +112,13 @@ class AvoIndexSortingTest < ActionDispatch::IntegrationTest
     assert_equal %w[codecentric freeletics], index_order("entities_organizations")
   end
 
+  test "people fall in slug order by default" do
+    entities_people(:one).update_columns(slug: "zoe")
+    entities_people(:two).update_columns(slug: "anna")
+
+    assert_equal %w[anna zoe], index_order("entities_people")
+  end
+
   private
 
   # The row links are where the index's order shows from the outside. "new" is
