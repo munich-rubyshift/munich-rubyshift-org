@@ -4,6 +4,15 @@ require "test_helper"
 # finds unless the resource says otherwise, so a model owning none of those
 # columns was headed by its UUID. These check the record reads as itself.
 class AvoRecordLabelsTest < ActionDispatch::IntegrationTest
+  test "UUIDs are abbreviated to the first 2 characters on index screens" do
+    person = entities_people(:one)
+
+    get "/avo/resources/entities_people"
+
+    assert_response :success
+    assert_select "span[title=?]", person.id, text: "##{person.id.first(2)}"
+  end
+
   test "a belongs_to column prints the record rather than its id" do
     coordinates = locations_addresses(:one).coordinates
     coordinates.update!(latitude: 48.118196, longitude: 11.602731)
