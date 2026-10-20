@@ -190,7 +190,7 @@ Rails.application.config.to_prepare do
     # The procs run through Avo::ExecutionContext, which `instance_exec`s them, so
     # `value`, `record` and `main_app` resolve at call time, not from here.
     ID_FIELD_OPTIONS = {
-      format_index_using: -> { content_tag(:span, "#", title: value) }
+      format_index_using: -> { content_tag(:span, "##{value.to_s.first(2)}", title: value) }
     }.freeze
 
     SLUG_FIELD_OPTIONS = {
