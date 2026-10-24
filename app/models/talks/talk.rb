@@ -1,5 +1,6 @@
 class Talks::Talk < ApplicationRecord
   include NormalizedStrings
+  include LongFormText
   include Sluggable
   friendly_id :slug_candidates
 
@@ -11,7 +12,9 @@ class Talks::Talk < ApplicationRecord
 
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :talks
 
-  normalized_strings :events_event_id, :description, :kind, :language_code, :rubyevents_slug, :slides_url, :title
+  normalized_strings :events_event_id, :kind, :language_code, :rubyevents_slug, :slides_url, :title
+
+  long_form_text :description
 
   has_many :additional_resources, -> { order(:kind, :name) },
     class_name: "Talks::AdditionalResource", foreign_key: :talks_talk_id, inverse_of: :talk
