@@ -36,7 +36,6 @@ class LongFormText::MarkdownTest < ActiveSupport::TestCase
       "Ruby | Rails" => "a table (write a literal | as \\|) on line 1",
       "Term\n: definition" => "a definition list (a line starting with :) on line 1",
       "Costs $$5$$" => "math (text between $$) on line 1",
-      "Paragraph\n{: .class}" => "an attribute list ({: …}) on line 1",
       "### Deep" => "a heading below level 2 (###) on line 1",
       "[mail](mailto:a@example.com)" => "a link that isn't a valid http(s) URL on line 1",
       "<https://example.com/\u00AD>" => "a link that isn't a valid http(s) URL on line 1",
@@ -52,6 +51,20 @@ class LongFormText::MarkdownTest < ActiveSupport::TestCase
 
   test "accepts an escaped ampersand in a link" do
     assert_empty problems("[a](https://example.com/?a=1&amp;b=2)")
+  end
+
+  test "treats kramdown's own syntax as plain text" do
+    {
+      "{::options header_offset=\"-1\" /}\n\n# Big" => "<p>{::options header_offset=\"-1\" /}</p>\n\n<h1>Big</h1>\n",
+      "Paragraph\n{: .class}" => "<p>Paragraph\n{: .class}</p>\n",
+      "Paragraph\n{: title=\"Title\"}" => "<p>Paragraph\n{: title=\"Title\"}</p>\n",
+      "A *span*{: .x} here" => "<p>A <em>span</em>{: .x} here</p>\n",
+      "{:ref: .cls}" => "<p>{:ref: .cls}</p>\n",
+      "{::comment}hidden{:/}" => "<p>{::comment}hidden{:/}</p>\n"
+    }.each do |text, html|
+      assert_empty problems(text), text
+      assert_equal html, LongFormText::Markdown.new(text).to_html, text
+    end
   end
 
   test "names the same problem once per line" do

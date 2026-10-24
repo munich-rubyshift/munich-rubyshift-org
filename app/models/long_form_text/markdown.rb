@@ -3,7 +3,7 @@
 # code, lists, and two levels of headings.
 class LongFormText::Markdown
   OPTIONS = {
-    input: "GFM",
+    input: "PlainGFM",
     # A single line break is a space, as in CommonMark.
     hard_wrap: false,
     auto_ids: false,
@@ -59,8 +59,6 @@ class LongFormText::Markdown
   def problem_with(element, in_link:)
     if !ALLOWED.include?(element.type)
       FORBIDDEN.fetch(element.type) { element.type.to_s.humanize(capitalize: false) }
-    elsif element.attr.except("href", "title").any?
-      "an attribute list ({: …})"
     elsif element.type == :header && element.options[:level] > MAX_HEADING_LEVEL
       "a heading below level #{MAX_HEADING_LEVEL} (###)"
     elsif element.type == :a && !web_url?(element.attr["href"])
