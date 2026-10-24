@@ -66,6 +66,15 @@ class Events::Event < ApplicationRecord
     !online? && !cancelled?
   end
 
+  def build_default_cfp
+    return if cancelled?
+
+    cfp = cfps.build(name: Events::CFP::DEFAULT_NAME, open_date: Date.current)
+
+    # An invalid default CFP mustn't prevent event creation. Delete it silently.
+    cfps.delete(cfp) unless cfp.valid?
+  end
+
   # Often the title is too generic, so mimic the slug.
   def to_s
     [ kind&.humanize, start_date&.iso8601 ].compact_blank.join(" ")
