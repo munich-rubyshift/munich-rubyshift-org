@@ -21,8 +21,12 @@ class Events::CFP < ApplicationRecord
     event&.start_date&.prev_day
   end
 
+  # FriendlyId sets slugs `before_validation` and simply skips if this is `nil`.
+  # We validate twice:
+  # - During `Event#build_default_cfp` where the event has no slug yet.
+  # - During the event's association autosave, where the event already has a slug.
   def slug_candidates
-    [ [ event&.slug, name ] ]
+    [ [ event.slug, name ] ] if event&.slug
   end
 
   def url
