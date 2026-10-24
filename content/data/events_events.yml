@@ -1895,7 +1895,7 @@ Events::Event_764df804-c67c-4803-84b3-4221968642fb:
     Dennis Herr (TUM, experteer.com): "Experella-Proxy, a load balancing reverse proxy"\
     Service-oriented architectures can be quite tricky to handle. Routing logic is hard to setup or modify and often needs to be configured in a low-level programming language. So we decided to build a load balancing reverse proxy in Ruby. The presentation will cover motivation & requirements to build a reverse proxy, simple use cases, an introduction to Experella-Proxy and features to aim for.
 
-    After the talks you are invited to help yourself to some more drinks, socialize, and talk about the conferences you will be attending this year (you can find some at <http://rubyconferences.org­>)
+    After the talks you are invited to help yourself to some more drinks, socialize, and talk about the conferences you will be attending this year (you can find some at <http://rubyconferences.org>­)
   description_original: "We have drinks, food, and a great line-up of talks:\r\n\r\nMathias
     Huber: \"Exercism.io\"\r\nA fun web community for practicing Ruby and other languages
     with feedback from your peers.\r\n\r\nChristian Mager (HiQ5.com): \"NANUQ3 CloudCMS\"\r\nA
