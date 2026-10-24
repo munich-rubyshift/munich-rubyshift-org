@@ -10,6 +10,16 @@ class Events::CFP < ApplicationRecord
   string_fk :events_event_id
 
   validates :name, presence: true, uniqueness: { scope: :events_event_id, case_sensitive: false }
+  validate :closes_after_it_opens
+
+  # A blank close date closes the CFP the day before its event.
+  def close_date
+    super || implied_close_date
+  end
+
+  def implied_close_date
+    event&.start_date&.prev_day
+  end
 
   def slug_candidates
     [ [ event&.slug, name ] ]
@@ -33,5 +43,19 @@ class Events::CFP < ApplicationRecord
 
   def to_s
     name
+  end
+
+  private
+
+  # Counts the implied close date too, so moving the event to an earlier date
+  # can turn a CFP invalid.
+  def closes_after_it_opens
+    return unless open_date && close_date && close_date < open_date
+
+    if read_attribute(:close_date)
+      errors.add(:close_date, "can't be before the open date")
+    else
+      errors.add(:close_date, "defaults to the day before the event, which is before the open date")
+    end
   end
 end

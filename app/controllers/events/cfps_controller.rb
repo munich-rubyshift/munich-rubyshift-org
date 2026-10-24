@@ -1,6 +1,6 @@
 class Events::CFPsController < ApplicationController
   def index
-    @events_cfps = Events::CFP.all
+    @events_cfps = Events::CFP.includes(:event)
   end
 
   def show
