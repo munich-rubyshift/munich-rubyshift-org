@@ -5,7 +5,7 @@
 <ul id="sponsors_sponsorships">
   <% @sponsors_sponsorships.each do |sponsors_sponsorship| %>
     <li>
-      <%= render sponsors_sponsorship %>
+      <%= render sponsors_sponsorship, heading_offset: 1 %>
       <p>
         <%= link_to "Show this sponsorship", sponsors_sponsorship %>
       </p>

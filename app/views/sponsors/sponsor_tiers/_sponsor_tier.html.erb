@@ -1,3 +1,4 @@
+<%# locals: (sponsor_tier:, heading_offset: 0) -%>
 <article id="<%= dom_id sponsor_tier %>">
   <p>
     <strong>Slug:</strong>
@@ -28,10 +29,10 @@
     </ul>
   </p>
 
-  <p>
+  <div>
     <strong>Description:</strong>
-    <%= sponsor_tier.description %>
-  </p>
+    <%= render_long_form_text(sponsor_tier.description, heading_offset:) %>
+  </div>
 
   <p>
     <strong>Level:</strong>

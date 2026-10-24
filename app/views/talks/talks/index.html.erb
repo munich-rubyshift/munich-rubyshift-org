@@ -11,7 +11,7 @@
 <ul id="talks_talks">
   <% @talks_talks.each do |talks_talk| %>
     <li>
-      <%= render talks_talk %>
+      <%= render talks_talk, heading_offset: 1 %>
       <p>
         <%= link_to "Show this talk", talks_talk %>
       </p>

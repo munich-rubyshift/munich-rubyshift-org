@@ -59,6 +59,21 @@ class LongFormText::MarkdownTest < ActiveSupport::TestCase
       problems("http://a.example and http://b.example\n\nhttp://c.example")
   end
 
+  test "renders headings at the level they're written, unless told to move them down" do
+    markdown = LongFormText::Markdown.new("# Agenda\n\n## Talk 1")
+
+    assert_equal "<h1>Agenda</h1>\n\n<h2>Talk 1</h2>\n", markdown.to_html
+    assert_equal "<h2>Agenda</h2>\n\n<h3>Talk 1</h3>\n", markdown.to_html(heading_offset: 1)
+  end
+
+  test "ending a line with a backslash renders as a regular line break" do
+    assert_equal "<p>wrapped\nline<br />\nbroken</p>\n", LongFormText::Markdown.new("wrapped\nline\\\nbroken").to_html
+  end
+
+  test "renders quotes, dashes and dots as typed" do
+    assert_equal "<p>\"Quoted\" -- and...</p>\n", LongFormText::Markdown.new("\"Quoted\" -- and...").to_html
+  end
+
   private
 
   def problems(text)
