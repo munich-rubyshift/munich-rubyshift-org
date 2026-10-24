@@ -8,6 +8,15 @@ module MarkdownHelper
     ).to_html.html_safe
   end
 
+  # The validation keeps anything else out of a long text, but data loaded
+  # from content/data skips it.
+  def render_long_form_text(text, heading_offset: 0)
+    return unless text
+
+    html = LongFormText::Markdown.new(text).to_html(heading_offset:)
+    sanitize(html, tags: LongFormText::Markdown::TAGS, attributes: %w[href title])
+  end
+
   def pages_image_tag(path, **kwargs)
     image_tag "pages/#{@page.slug}/#{path}", **kwargs
   end

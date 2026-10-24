@@ -1,3 +1,4 @@
+<%# locals: (series:, heading_offset: 0) -%>
 <article id="<%= dom_id series %>">
   <p>
     <strong>Slug:</strong>
@@ -14,10 +15,10 @@
     <%= series.rubyevents_slug %>
   </p>
 
-  <p>
+  <div>
     <strong>Description:</strong>
-    <%= series.description %>
-  </p>
+    <%= render_long_form_text(series.description, heading_offset:) %>
+  </div>
 
   <p>
     <strong>Kind:</strong>

@@ -1,3 +1,4 @@
+<%# locals: (event:, heading_offset: 0) -%>
 <article id="<%= dom_id event %>">
   <p>
     <strong>Slug:</strong>
@@ -39,10 +40,10 @@
     </p>
   <% end %>
 
-  <p>
+  <div>
     <strong>Description:</strong>
-    <%= event.description %>
-  </p>
+    <%= render_long_form_text(event.description, heading_offset:) %>
+  </div>
 
   <p>
     <strong>Kind:</strong>

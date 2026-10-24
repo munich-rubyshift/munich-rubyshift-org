@@ -11,7 +11,7 @@
 <ul id="sponsors_sponsor_tiers">
   <% @sponsors_sponsor_tiers.each do |sponsors_sponsor_tier| %>
     <li>
-      <%= render sponsors_sponsor_tier %>
+      <%= render sponsors_sponsor_tier, heading_offset: 1 %>
       <p>
         <%= link_to "Show this sponsor tier", sponsors_sponsor_tier %>
       </p>

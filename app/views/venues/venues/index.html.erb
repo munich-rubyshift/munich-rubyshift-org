@@ -11,7 +11,7 @@
 <ul id="venues_venues">
   <% @venues_venues.each do |venues_venue| %>
     <li>
-      <%= render venues_venue %>
+      <%= render venues_venue, heading_offset: 1 %>
       <p>
         <%= link_to "Show this venue", venues_venue %>
       </p>

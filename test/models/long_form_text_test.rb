@@ -23,6 +23,12 @@ class LongFormTextTest < ActiveSupport::TestCase
     assert_nil talk.description
   end
 
+  test "ending a line with two spaces doesn't render as a line break, as the spaces don't get stored" do
+    talk = Talks::Talk.new(description: "one  \ntwo")
+
+    assert_equal "<p>one\ntwo</p>\n", LongFormText::Markdown.new(talk.description).to_html
+  end
+
   test "a long text must stick to our Markdown subset" do
     talk = talks_talks(:one)
     talk.description = "Intro\n\n    indented"

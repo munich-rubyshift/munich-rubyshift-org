@@ -16,6 +16,9 @@ class LongFormText::Markdown
 
   MAX_HEADING_LEVEL = 2
 
+  # The HTML that the allowed elements render to, at any heading offset.
+  TAGS = %w[p br a strong em code ul ol li h1 h2 h3 h4 h5 h6].freeze
+
   # How an author most likely typed an element we don't allow.
   FORBIDDEN = {
     blockquote: "a block quote (a line starting with >)",
@@ -37,6 +40,10 @@ class LongFormText::Markdown
   # Each problem names what isn't allowed, and on which line.
   def problems
     problems_in(@document.root).uniq
+  end
+
+  def to_html(heading_offset: 0)
+    Kramdown::Converter::Html.convert(@document.root, @document.options.merge(header_offset: heading_offset)).first
   end
 
   private

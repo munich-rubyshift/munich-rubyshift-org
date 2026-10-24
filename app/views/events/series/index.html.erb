@@ -11,7 +11,7 @@
 <ul id="events_series">
   <% @events_series.each do |events_series| %>
     <li>
-      <%= render events_series %>
+      <%= render events_series, heading_offset: 1 %>
       <p>
         <%= link_to "Show this series", events_series %>
       </p>
