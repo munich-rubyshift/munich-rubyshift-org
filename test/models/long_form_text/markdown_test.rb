@@ -39,7 +39,8 @@ class LongFormText::MarkdownTest < ActiveSupport::TestCase
       "Paragraph\n{: .class}" => "an attribute list ({: …}) on line 1",
       "Paragraph\n{: title=\"Title\"}" => "an attribute list ({: …}) on line 1",
       "### Deep" => "a heading below level 2 (###) on line 1",
-      "[mail](mailto:a@example.com)" => "a link that isn't http(s) on line 1",
+      "[mail](mailto:a@example.com)" => "a link that isn't a valid http(s) URL on line 1",
+      "<https://example.com/­>" => "a link that isn't a valid http(s) URL on line 1",
       "See\nhttps://example.com" => "a bare URL (write it as <https://…>) on line 1"
     }.each do |text, problem|
       assert_equal [ problem ], problems(text), text

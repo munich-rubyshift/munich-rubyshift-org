@@ -65,11 +65,18 @@ class LongFormText::Markdown
       "an attribute list ({: …})"
     elsif element.type == :header && element.options[:level] > MAX_HEADING_LEVEL
       "a heading below level #{MAX_HEADING_LEVEL} (###)"
-    elsif element.type == :a && !element.attr["href"].match?(%r{\Ahttps?://})
-      "a link that isn't http(s)"
+    elsif element.type == :a && !web_url?(element.attr["href"])
+      "a link that isn't a valid http(s) URL"
     elsif element.type == :text && !in_link && element.value.match?(%r{https?://})
       "a bare URL (write it as <https://…>)"
     end
+  end
+
+  # Parklife's crawler parses every link of a page too, and would stop at an invalid one.
+  def web_url?(href)
+    URI.parse(href).is_a?(URI::HTTP)
+  rescue URI::InvalidURIError
+    false
   end
 
   # A link's href and title come from [text](href "title"), any other attribute from {: …}.
