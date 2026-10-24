@@ -14,10 +14,10 @@
     <%= series.rubyevents_slug %>
   </p>
 
-  <p>
+  <div>
     <strong>Description:</strong>
-    <%= series.description %>
-  </p>
+    <%= render_long_form_text series.description %>
+  </div>
 
   <p>
     <strong>Kind:</strong>

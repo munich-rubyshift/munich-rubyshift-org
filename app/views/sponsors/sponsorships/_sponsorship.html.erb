@@ -24,10 +24,10 @@
     <%= link_to sponsorship.sponsor_tier %>
   </p>
 
-  <p>
+  <div>
     <strong>Description:</strong>
-    <%= sponsorship.description %>
-  </p>
+    <%= render_long_form_text sponsorship.description %>
+  </div>
 
   <p>
     <strong>Website:</strong>

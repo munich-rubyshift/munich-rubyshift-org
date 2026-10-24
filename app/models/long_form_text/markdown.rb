@@ -39,6 +39,11 @@ class LongFormText::Markdown
     problems_in(@document.root).uniq
   end
 
+  # Unless a page has headings of its own, a text's "#" becomes an <h2>.
+  def to_html(heading_offset: 1)
+    Kramdown::Converter::Html.convert(@document.root, @document.options.merge(header_offset: heading_offset)).first
+  end
+
   private
 
   def problems_in(element, line: nil, in_link: false)
