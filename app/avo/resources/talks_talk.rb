@@ -22,6 +22,7 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
     field :kind, as: :select, sortable: true, options: KIND_OPTIONS, default: "talk"
     field :title, as: :text, sortable: true
     field :description, as: :textarea
+    field :description_original, as: :textarea, only_on: :show
     field :slides_url, as: :text, sortable: true
     field :language_code, as: :select, name: "Language", sortable: true, options: ::Language::NAMES.invert, default: "en"
     # Like an event's series defaults: the form shows the talk's own date, so

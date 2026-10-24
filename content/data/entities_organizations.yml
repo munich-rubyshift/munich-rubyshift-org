@@ -9,6 +9,7 @@ Entities::Organization_06503e41-194a-4ed1-b440-c301f73e6a6f:
 Entities::Organization_0e78b5fd-dfc3-41fa-b6ce-473d7bd8662d:
   id: 0e78b5fd-dfc3-41fa-b6ce-473d7bd8662d
   internal_notes: "Acquired by:\r\n- \"Sphera\" in 2022"
+  internal_notes_original: "Acquired by:\r\n- \"Sphera\" in 2022"
   legal_name: riskmethods GmbH
   name: riskmethods
   slug: riskmethods
@@ -24,6 +25,8 @@ Entities::Organization_1f653476-5efe-415e-9dcb-6c58e3e522e2:
   id: 1f653476-5efe-415e-9dcb-6c58e3e522e2
   internal_notes: "Previous names:\r\n- \"ARRI Media GmbH\" until 2022\r\n\r\nContact:\r\n-
     Sascha\r\n"
+  internal_notes_original: "Previous names:\r\n- \"ARRI Media GmbH\" until 2022\r\n\r\nContact:\r\n-
+    Sascha\r\n"
   legal_name: Media Services GmbH
   name: PHAROS – The Post Group
   slug: pharos-the-post-group
@@ -31,6 +34,7 @@ Entities::Organization_1f653476-5efe-415e-9dcb-6c58e3e522e2:
 Entities::Organization_23ddd95b-ca87-43e5-b69b-7c71322891e5:
   id: 23ddd95b-ca87-43e5-b69b-7c71322891e5
   internal_notes: "Now:\r\n- \"Averest Consulting GmbH\" since 2026"
+  internal_notes_original: "Now:\r\n- \"Averest Consulting GmbH\" since 2026"
   legal_name: metoda GmbH
   name: Metoda
   slug: metoda
@@ -38,6 +42,7 @@ Entities::Organization_23ddd95b-ca87-43e5-b69b-7c71322891e5:
 Entities::Organization_24f50cbf-5c1b-498b-abc6-b6978e29f7b1:
   id: 24f50cbf-5c1b-498b-abc6-b6978e29f7b1
   internal_notes: "Acquired by:\r\n- Research In Motion (2011)\r\n\r\nDefunct."
+  internal_notes_original: "Acquired by:\r\n- Research In Motion (2011)\r\n\r\nDefunct."
   legal_name: Scoreloop AG
   name: Scoreloop
   slug: scoreloop
@@ -79,6 +84,8 @@ Entities::Organization_5bc2ceda-e94c-49d4-ade5-a97664619255:
   id: 5bc2ceda-e94c-49d4-ade5-a97664619255
   internal_notes: "Future names:\r\n- \"Geek Space 9 GmbH\" since 2019\r\n- \"Turing
     42 GmbH\" since 2024"
+  internal_notes_original: "Future names:\r\n- \"Geek Space 9 GmbH\" since 2019\r\n-
+    \"Turing 42 GmbH\" since 2024"
   legal_name: IT:Agenten GmbH
   name: IT:Agenten
   slug: it-agenten
@@ -94,6 +101,8 @@ Entities::Organization_5e2d7b62-b642-4ae7-a17e-8554c0df5d71:
   id: 5e2d7b62-b642-4ae7-a17e-8554c0df5d71
   internal_notes: "Previously:\r\n- \"xbAV AG\" until 2021\r\n- \"xbAV GmbH\" until
     2016"
+  internal_notes_original: "Previously:\r\n- \"xbAV AG\" until 2021\r\n- \"xbAV GmbH\"
+    until 2016"
   legal_name: Xempus AG
   name: Xempus
   slug: xempus
@@ -114,6 +123,7 @@ Entities::Organization_69afe894-6800-4d58-9134-24c34a03838e:
 Entities::Organization_6b430862-a19c-42b7-9472-f52d73e407b9:
   id: 6b430862-a19c-42b7-9472-f52d73e407b9
   internal_notes: "Now:\r\n- \"FG Management GmbH\" since 2025"
+  internal_notes_original: "Now:\r\n- \"FG Management GmbH\" since 2025"
   legal_name: Fidor Bank AG
   name: Fidor Bank
   slug: fidor-bank
@@ -133,6 +143,8 @@ Entities::Organization_8210e0a0-31b9-4b43-a64e-b3f2c4c2b215:
 Entities::Organization_942d4f0e-c013-470c-b4e1-312e0d600391:
   id: 942d4f0e-c013-470c-b4e1-312e0d600391
   internal_notes: "Now\r\n- \"Deel Engage\" (subsidiary of \"Deel, Inc.\") since 2024"
+  internal_notes_original: "Now\r\n- \"Deel Engage\" (subsidiary of \"Deel, Inc.\")
+    since 2024"
   legal_name: Zavvy GmbH
   name: Zavvy
   slug: zavvy
@@ -186,6 +198,8 @@ Entities::Organization_f227be6b-03c8-4bb8-ada2-08b1f26b0fef:
   id: f227be6b-03c8-4bb8-ada2-08b1f26b0fef
   internal_notes: "Previously:\r\n- \"XING SE\" until 2019\r\n- \"XING Events GmbH\"
     was a subsidiary until 2022"
+  internal_notes_original: "Previously:\r\n- \"XING SE\" until 2019\r\n- \"XING Events
+    GmbH\" was a subsidiary until 2022"
   legal_name: New Work SE
   name: New Work
   slug: new-work

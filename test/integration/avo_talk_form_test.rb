@@ -57,6 +57,20 @@ class AvoTalkFormTest < ActionDispatch::IntegrationTest
     assert_select "[data-field-id='announced_on']", text: /2026-09-01/
   end
 
+  test "a talk page shows the original description, but the form can't change it" do
+    talk = talks_talks(:one)
+    talk.update_columns(slug: "talk-page", description_original: "As first entered")
+
+    get "/avo/resources/talks_talks/talk-page"
+
+    assert_select "[data-field-id='description_original']", text: /As first entered/
+
+    get "/avo/resources/talks_talks/talk-page/edit"
+
+    assert_response :success
+    assert_select "[name='talks/talk[description_original]']", count: 0
+  end
+
   test "a talk saved without a position goes last" do
     event = events_events(:one)
     event.update_columns(slug: "talk-event")

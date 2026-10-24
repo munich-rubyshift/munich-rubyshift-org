@@ -22,6 +22,7 @@ class Avo::Resources::EntitiesOrganization < Avo::BaseResource
     field :website, as: :text, sortable: true, help: "This is the primary matching criterium for rubyevents.org."
     field :logo, **IMAGE_FIELD_OPTIONS
     field :internal_notes, as: :textarea, help: "Only shown here, e.g. renamings and acquisitions."
+    field :internal_notes_original, as: :textarea, only_on: :show
     field :venues, as: :has_many, attach_scope: -> { query.by_to_s }
   end
 end

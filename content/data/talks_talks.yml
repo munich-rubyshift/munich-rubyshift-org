@@ -36,6 +36,8 @@ Talks::Talk_05825d7d-5638-4e7a-ac6d-67082dc62978:
   id: '05825d7d-5638-4e7a-ac6d-67082dc62978'
   description: A new data validation library providing a rule-based schema definition
     language.
+  description_original: A new data validation library providing a rule-based schema
+    definition language.
   events_event_id: ed3a7637-6b92-4d45-bf95-56fba2a9d13a
   kind: talk
   language_code: en
@@ -48,6 +50,15 @@ Talks::Talk_097ea9bd-b75f-4ee5-8ce8-935902d7faca:
   id: '097ea9bd-b75f-4ee5-8ce8-935902d7faca'
   description: "In this demo-heavy \"talk & deploy\" I do a classic Ruby on Rails
     speedrun. How fast can you get from an empty git repo to a deployed website?\r\n\r\nHowever,
+    nothing is as it seems. While frantically switching between slides and code editor,
+    I will reveal and explain my two new gems and will use them to turn a new Ruby
+    on Rails project into a very weird static site generator.\r\n\r\nWe'll create
+    the initial DB tables and add some records ... wait, what? Database tables? In
+    a static site generator??? Yes, you heard me right!\r\n\r\nAfterwards, we'll have
+    our tiny release party! At least, if the internet connection is stable. Wish me
+    luck!"
+  description_original: "In this demo-heavy \"talk & deploy\" I do a classic Ruby
+    on Rails speedrun. How fast can you get from an empty git repo to a deployed website?\r\n\r\nHowever,
     nothing is as it seems. While frantically switching between slides and code editor,
     I will reveal and explain my two new gems and will use them to turn a new Ruby
     on Rails project into a very weird static site generator.\r\n\r\nWe'll create
@@ -100,6 +111,8 @@ Talks::Talk_0baedc3a-758f-4742-b0e1-58d52ed302c5:
   id: 0baedc3a-758f-4742-b0e1-58d52ed302c5
   description: "…when ActionController::Parameters and proxy_body_size are failing
     you."
+  description_original: "…when ActionController::Parameters and proxy_body_size are
+    failing you."
   events_event_id: eb7f7b54-12a9-431d-b16f-a866624c3ee7
   kind: talk
   language_code: en
@@ -112,6 +125,8 @@ Talks::Talk_0c79461e-af02-492b-86f6-96a5bde70457:
   id: 0c79461e-af02-492b-86f6-96a5bde70457
   description: 'The tools to write your own DSL: define_method, method_missing, singleton
     classes, send, instance_variable_get/set, etc.'
+  description_original: 'The tools to write your own DSL: define_method, method_missing,
+    singleton classes, send, instance_variable_get/set, etc.'
   events_event_id: 7f01acc2-0480-41c2-810e-6b7ede0d927e
   kind: talk
   language_code: en
@@ -123,6 +138,10 @@ Talks::Talk_0c79461e-af02-492b-86f6-96a5bde70457:
 Talks::Talk_11da4abe-4e82-465d-b269-4d7e0f926985:
   id: 11da4abe-4e82-465d-b269-4d7e0f926985
   description: Bored of ERB files or the REST+SPA overkill? Have we got something
+    for you! With Matestack, we aim to bring component-based, declarative views to
+    Rails. Learn how to write less code and create interactive user interfaces in
+    pure Ruby.
+  description_original: Bored of ERB files or the REST+SPA overkill? Have we got something
     for you! With Matestack, we aim to bring component-based, declarative views to
     Rails. Learn how to write less code and create interactive user interfaces in
     pure Ruby.
@@ -138,6 +157,9 @@ Talks::Talk_128c40bd-3e03-4544-900b-89eefbae10c9:
   id: 128c40bd-3e03-4544-900b-89eefbae10c9
   description: The presentation will tell about some dark corners of MRI, building
     native extensions and about an attempt to beat Unicorn/Passenger/Puma in performance.
+  description_original: The presentation will tell about some dark corners of MRI,
+    building native extensions and about an attempt to beat Unicorn/Passenger/Puma
+    in performance.
   events_event_id: d9055efc-3ba9-41d3-a013-57a1f5d352c6
   kind: talk
   language_code: en
@@ -149,6 +171,10 @@ Talks::Talk_128c40bd-3e03-4544-900b-89eefbae10c9:
 Talks::Talk_146b5416-fc17-4680-b2b2-138993cae8e9:
   id: 146b5416-fc17-4680-b2b2-138993cae8e9
   description: LLM-based agents present unique challenges in terms of validation.
+    The indeterminacy of their outputs makes it impossible to use traditional deterministic
+    assertions. This talk presents the rspec-agents plugin that uses simulated conversations
+    along with rubric-based checks to evaluate the performance of these agents.
+  description_original: LLM-based agents present unique challenges in terms of validation.
     The indeterminacy of their outputs makes it impossible to use traditional deterministic
     assertions. This talk presents the rspec-agents plugin that uses simulated conversations
     along with rubric-based checks to evaluate the performance of these agents.
@@ -188,6 +214,10 @@ Talks::Talk_16913986-986a-4552-94bc-99633d60acec:
     updates more often. But also have a discussion about how everyone is dealing with
     keeping their app up-to-date and other maintenance tasks as part of their development
     process.
+  description_original: I would like to tell you about Depfu and why we believe in
+    doing dependency updates more often. But also have a discussion about how everyone
+    is dealing with keeping their app up-to-date and other maintenance tasks as part
+    of their development process.
   events_event_id: ac48d30d-2724-434c-815e-6853b1f10109
   kind: talk
   language_code: en
@@ -201,6 +231,9 @@ Talks::Talk_17cf5da1-03e0-4454-8196-d5517c9b341f:
   description: Discover the truth about monoliths vs microservices! Debunk myths,
     uncover real architectural differences, and learn strategies to fix the real problems
     — not just follow trends.
+  description_original: Discover the truth about monoliths vs microservices! Debunk
+    myths, uncover real architectural differences, and learn strategies to fix the
+    real problems — not just follow trends.
   events_event_id: bd09e5ca-d692-409c-8944-d966c2a175e0
   kind: talk
   language_code: en
@@ -212,6 +245,8 @@ Talks::Talk_17cf5da1-03e0-4454-8196-d5517c9b341f:
 Talks::Talk_1a467f09-5199-4a9c-9386-187e5f5be1e6:
   id: 1a467f09-5199-4a9c-9386-187e5f5be1e6
   description: "About our speaker\r\nKhaled Muamar is a Backend Engineer at Freeletics."
+  description_original: "About our speaker\r\nKhaled Muamar is a Backend Engineer
+    at Freeletics."
   events_event_id: 31dfb46b-8e9e-4941-92e9-d429d53f6eaa
   kind: talk
   language_code: en
@@ -223,6 +258,8 @@ Talks::Talk_1a467f09-5199-4a9c-9386-187e5f5be1e6:
 Talks::Talk_1a8eb291-370d-4e45-926e-7f2971d9e59a:
   id: 1a8eb291-370d-4e45-926e-7f2971d9e59a
   description: A universal, composable data structure, used to store any kind of data.
+  description_original: A universal, composable data structure, used to store any
+    kind of data.
   events_event_id: 7e676004-2eb5-412a-85c5-ac137f22e7d7
   kind: talk
   language_code: en
@@ -234,6 +271,7 @@ Talks::Talk_1a8eb291-370d-4e45-926e-7f2971d9e59a:
 Talks::Talk_1b375139-cd89-418b-9ba4-246ab45b2ea8:
   id: 1b375139-cd89-418b-9ba4-246ab45b2ea8
   description: Introducing https://www.resetthenet.org/
+  description_original: Introducing https://www.resetthenet.org/
   events_event_id: 4b2f97a8-d845-475d-8fea-b1f796ab99ad
   kind: talk
   language_code: en
@@ -245,6 +283,8 @@ Talks::Talk_1b375139-cd89-418b-9ba4-246ab45b2ea8:
 Talks::Talk_1b572842-d568-46a1-ad86-63ac3084f3ac:
   id: 1b572842-d568-46a1-ad86-63ac3084f3ac
   description: "A collaborative platform\r\n\r\nMob Programming; Globally & Continually."
+  description_original: "A collaborative platform\r\n\r\nMob Programming; Globally
+    & Continually."
   events_event_id: d096f26c-e4d6-4441-891c-728724a7c26a
   kind: talk
   language_code: en
@@ -261,6 +301,14 @@ Talks::Talk_1dfc1478-b22e-4ffb-aee7-e8e2a111a44a:
     diagrams from the presentation that show the current state, the goal state, and
     the state during migration to the photos.\r\n\r\nThe link that explains the gotcha's
     around transactions with multiple databases is https://guillermoap.medium.com/rails-multiple-databases-gotchas-a9fddbd5f545\r\n\r\nThe
+    post from Tenderlove that I referenced: https://tenderlovemaking.com/2011/10/20/connection-management-in-activerecord.html\r\n\r\nA
+    more playful blog post on the topic with a fourth dimensional database is https://www.thegreatcodeadventure.com/managing-multiple-databases-in-a-single-rails-application/"
+  description_original: "How we used Active Record with multiple databases to migrate
+    a single-tenant application to a multi-tenant world.\r\n\r\nAbout our speaker\r\nOliver
+    Prater is a Software Engineer at Xempus.\r\n\r\nResources\r\nI added the three
+    architecture diagrams from the presentation that show the current state, the goal
+    state, and the state during migration to the photos.\r\n\r\nThe link that explains
+    the gotcha's around transactions with multiple databases is https://guillermoap.medium.com/rails-multiple-databases-gotchas-a9fddbd5f545\r\n\r\nThe
     post from Tenderlove that I referenced: https://tenderlovemaking.com/2011/10/20/connection-management-in-activerecord.html\r\n\r\nA
     more playful blog post on the topic with a fourth dimensional database is https://www.thegreatcodeadventure.com/managing-multiple-databases-in-a-single-rails-application/"
   events_event_id: 38fe34a2-f5c1-46a4-92dc-29a27d80ff96
@@ -296,6 +344,8 @@ Talks::Talk_21f62cf1-00f2-42ff-94e0-737280083246:
 Talks::Talk_2313f5c7-b740-4083-9b06-a41a673562b1:
   id: 2313f5c7-b740-4083-9b06-a41a673562b1
   description: How Anna benchmarked declarative and imperative solutions in Ruby.
+  description_original: How Anna benchmarked declarative and imperative solutions
+    in Ruby.
   events_event_id: 382bfc98-b62a-479c-882b-d8bc3beadfae
   kind: talk
   language_code: en
@@ -314,6 +364,15 @@ Talks::Talk_267c5564-f7af-4012-b24e-c695ea98a4a0:
     on his experience as an entrepreneur and how the idea for a technology-based approach
     to data protection came about.\r\nFerence Brose looks behind the curtain of the
     platform and explains how DataGuard's technology works and what role Ruby plays."
+  description_original: "The leading legal tech company DataGuard invites you to get
+    to know the machine learning supported platform (reference number at the European
+    Patent Office: Q0144EP). Founder and managing director Kivanc Semen and Ference
+    Brose will give exciting insights and look forward to discussion and exchange
+    with the guests. Food and drinks will of course be provided.\r\n\r\nKivanc Semen
+    reports on his experience as an entrepreneur and how the idea for a technology-based
+    approach to data protection came about.\r\nFerence Brose looks behind the curtain
+    of the platform and explains how DataGuard's technology works and what role Ruby
+    plays."
   events_event_id: cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40
   kind: talk
   language_code: en
@@ -347,6 +406,8 @@ Talks::Talk_2a9b8ba2-894c-4993-a5e6-2e6c210fbc07:
 Talks::Talk_2c048e14-fadf-4e16-938b-1082db17f831:
   id: 2c048e14-fadf-4e16-938b-1082db17f831
   description: "Note: This talk will be held remotely\r\n\r\nAbout our speaker\r\nLuca
+    Guidi is a Backend Architect at Toptal and the creator of the Hanami framework."
+  description_original: "Note: This talk will be held remotely\r\n\r\nAbout our speaker\r\nLuca
     Guidi is a Backend Architect at Toptal and the creator of the Hanami framework."
   events_event_id: adea8129-c6f0-48b1-b764-296c09336343
   kind: talk
@@ -390,6 +451,16 @@ Talks::Talk_2e0e8a82-1b67-4fc4-9e2a-7379f96661cf:
     examples of how some well-known gems can be boiled down to a single file that
     you can copy-paste to any new project. We'll also look at the limits of this approach,
     and when you actually should reach for that Gem."
+  description_original: "When I started working with Ruby, I embraced its rich ecosystem.
+    My Gemfile for any new project immediately grew longer than Gandalf's beard. Unfortunately,
+    using Gems comes with downsides. On the practical side, pulling in third-party
+    libraries exposes your app to supply-chain attacks that are increasingly common.
+    However, what's even worse is that most Gems are pure bloatware. They add thousands
+    of lines of code you'll never need, and churn constantly.\r\nThe alternative,
+    obviously, is to build everything from scratch. In this talk, we'll look at some
+    examples of how some well-known gems can be boiled down to a single file that
+    you can copy-paste to any new project. We'll also look at the limits of this approach,
+    and when you actually should reach for that Gem."
   events_event_id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
   kind: talk
   language_code: en
@@ -414,6 +485,9 @@ Talks::Talk_2eaa42d3-2d7e-430d-8572-e7b3c7408b1f:
   description: The books that I mentioned were 'Explore It! Reduce Risk and Increase
     Confidence with Exploratory Testing' by Elisabeth Hendrickson and 'Lessons Learned
     in Software Testing' by Bret Pettichord, Cem Kaner, and James Marcus Bach
+  description_original: The books that I mentioned were 'Explore It! Reduce Risk and
+    Increase Confidence with Exploratory Testing' by Elisabeth Hendrickson and 'Lessons
+    Learned in Software Testing' by Bret Pettichord, Cem Kaner, and James Marcus Bach
   events_event_id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
   kind: talk
   language_code: en
@@ -491,6 +565,7 @@ Talks::Talk_384f558c-4c20-4bc0-b027-a02a67d31ff7:
 Talks::Talk_3f2b5395-4d0f-4174-b90b-7cb69b482578:
   id: 3f2b5395-4d0f-4174-b90b-7cb69b482578
   description: Let me tell you about Solr, CRDTs, and Authentication
+  description_original: Let me tell you about Solr, CRDTs, and Authentication
   events_event_id: dde2695f-80c5-48a6-a450-ad8b5948c1db
   kind: talk
   language_code: en
@@ -521,6 +596,14 @@ Talks::Talk_407ce9e5-f3d7-40ee-84e1-386737f901fb:
     a seasoned Rails developer from Vienna who believes good code is boring — in the
     best way. At railscraft.de, he helps teams modernize legacy Rails apps with clean
     architecture, sharp tools, and zero-nonsense pragmatism."
+  description_original: "Complex data filtering in Rails often leads us down a rabbit
+    hole of custom scopes, service objects, and Arel acrobatics. But what if we let
+    the database do what it’s best at? In this talk, you’ll see how SQL views paired
+    with plain ActiveRecord and Ransack can turn messy logic into elegant, powerful
+    queries — without giving up the Rails way.\r\n\r\nAbout our speaker\r\nClemens
+    Helm is a seasoned Rails developer from Vienna who believes good code is boring
+    — in the best way. At railscraft.de, he helps teams modernize legacy Rails apps
+    with clean architecture, sharp tools, and zero-nonsense pragmatism."
   events_event_id: 969902ff-c7e8-48e5-8d0e-f64c85568e63
   kind: talk
   language_code: en
@@ -533,6 +616,8 @@ Talks::Talk_4125c70a-c773-4c6c-90d6-7bd26005f297:
   id: 4125c70a-c773-4c6c-90d6-7bd26005f297
   description: An introduction about Hotwire Native. A tool from 37signal to convert
     your fullstack Rails application into a mobile app.
+  description_original: An introduction about Hotwire Native. A tool from 37signal
+    to convert your fullstack Rails application into a mobile app.
   events_event_id: 969902ff-c7e8-48e5-8d0e-f64c85568e63
   kind: talk
   language_code: en
@@ -633,6 +718,8 @@ Talks::Talk_4db036a0-1808-46a7-bab5-0dbc47b258b1:
   id: 4db036a0-1808-46a7-bab5-0dbc47b258b1
   description: A fun web community for practicing Ruby and other languages with feedback
     from your peers.
+  description_original: A fun web community for practicing Ruby and other languages
+    with feedback from your peers.
   events_event_id: 764df804-c67c-4803-84b3-4221968642fb
   kind: talk
   language_code: en
@@ -655,6 +742,8 @@ Talks::Talk_4dc4745b-5291-41bc-b1bf-d96cbd29d0a4:
 Talks::Talk_4de2c45c-875f-4ce5-923a-79223e1da733:
   id: 4de2c45c-875f-4ce5-923a-79223e1da733
   description: Concepts and Architectural Insights from Frontend JavaScript Frameworks
+  description_original: Concepts and Architectural Insights from Frontend JavaScript
+    Frameworks
   events_event_id: 2a94bfd1-b358-439f-81ea-c5f6a4075d8e
   kind: talk
   language_code: en
@@ -668,6 +757,20 @@ Talks::Talk_51bd6f16-ef3a-4204-a7d4-def58766620b:
   description: "Resources:\r\n\r\nUdemy Complete Elasticsearch Masterclass with Logstash
     and Kibana (Tipp: it should cost around 11 euro, if not, wait- they find a reason
     for discounts every couple of weeks ;) ): https://www.udemy.com/complete-elasticsearch-masterclass-with-kibana-and-logstash/learn/v4/overview\r\n\r\nThe
+    History of Monitoring Tools: https://www.sumologic.com/blog/devops/monitoring-tools-history/\r\nEtsy
+    Introducing StaatsD: https://codeascraft.com/2011/02/15/measure-anything-measure-everything/\r\n\r\nUsing
+    APM to Monitor Data-First Apps: https://dzone.com/articles/using-apm-to-monitor-data-first-apps\r\n\r\nRuby
+    APM Agent: https://www.elastic.co/guide/en/apm/agent/ruby/2.x/getting-started-rails.html\r\nLogstashLogger
+    gem: https://github.com/dwbutler/logstash-logger\r\n\r\nMonitoring Applications
+    with Elasticsearch and Elastic APM: https://www.elastic.co/blog/monitoring-applications-with-elasticsearch-and-elastic-apm\r\nObservability
+    with Elastic Stack: https://www.elastic.co/blog/observability-with-the-elastic-stack\r\nMonitoring
+    and Observability: https://medium.com/@copyconstruct/monitoring-and-observability-8417d1952e1c\r\n\r\nObservability
+    Twitter: https://blog.twitter.com/engineering/en_us/a/2013/observability-at-twitter.html\r\nTwitter
+    technical overview Part 1: https://blog.twitter.com/engineering/en_us/a/2016/observability-at-twitter-technical-overview-part-i.html\r\nTwitter
+    technical overview Part 2: https://blog.twitter.com/engineering/en_us/a/2016/observability-at-twitter-technical-overview-part-ii.html"
+  description_original: "Resources:\r\n\r\nUdemy Complete Elasticsearch Masterclass
+    with Logstash and Kibana (Tipp: it should cost around 11 euro, if not, wait- they
+    find a reason for discounts every couple of weeks ;) ): https://www.udemy.com/complete-elasticsearch-masterclass-with-kibana-and-logstash/learn/v4/overview\r\n\r\nThe
     History of Monitoring Tools: https://www.sumologic.com/blog/devops/monitoring-tools-history/\r\nEtsy
     Introducing StaatsD: https://codeascraft.com/2011/02/15/measure-anything-measure-everything/\r\n\r\nUsing
     APM to Monitor Data-First Apps: https://dzone.com/articles/using-apm-to-monitor-data-first-apps\r\n\r\nRuby
@@ -725,6 +828,9 @@ Talks::Talk_580a8ede-49f9-4a30-b50c-6175315672e6:
   description: "A introduction and a demo to Riak and its Ruby bindings.\r\n\r\nPhil
     is your local and friendly ruby and javascript coder, working for his company
     Cospired."
+  description_original: "A introduction and a demo to Riak and its Ruby bindings.\r\n\r\nPhil
+    is your local and friendly ruby and javascript coder, working for his company
+    Cospired."
   events_event_id: 05de9889-ca65-4996-a339-09b05a9097fd
   kind: talk
   language_code: en
@@ -739,6 +845,11 @@ Talks::Talk_59e2015e-aff3-4551-911f-0af4b04af2c0:
     and how easy it is to repack and create your own framework on rack or sinatra.\r\n\r\nA
     detailed step-by-step what to do, possible problems and benefits, as at least
     as I see it. I would like if somebody told me all all this few years ago."
+  description_original: "A talk on how much Rails is just a pack of various popular
+    modules and how easy it is to repack and create your own framework on rack or
+    sinatra.\r\n\r\nA detailed step-by-step what to do, possible problems and benefits,
+    as at least as I see it. I would like if somebody told me all all this few years
+    ago."
   events_event_id: 88b1d1f2-0d79-4bc8-98b4-692410dd4d8d
   kind: talk
   language_code: en
@@ -764,6 +875,13 @@ Talks::Talk_5a82d66a-1ded-4fe4-a739-c05f2c5f432b:
     across when starting a new project. While it's pretty much a solved problem in
     classic Rails applications (see devise etc.) things are not as simple when it
     comes to client side MVC frameworks. Ember.SimpleAuth is a library for Ember.js
+    that tries to solve most problems.\r\n\r\nAbout the speaker: Software Engineer
+    and Consultant from Munich. Has strong background in web development with Ruby
+    on Rails as well as JavaScript, iOS etc."
+  description_original: "Authentication is usually one of the first things everybody
+    comes across when starting a new project. While it's pretty much a solved problem
+    in classic Rails applications (see devise etc.) things are not as simple when
+    it comes to client side MVC frameworks. Ember.SimpleAuth is a library for Ember.js
     that tries to solve most problems.\r\n\r\nAbout the speaker: Software Engineer
     and Consultant from Munich. Has strong background in web development with Ruby
     on Rails as well as JavaScript, iOS etc."
@@ -838,6 +956,13 @@ Talks::Talk_68b54ead-d2f6-4402-927f-116158d94c34:
     as a growing startup trying to apply modern methodologies and a bit of common
     sense. Some learnings that felt surprising, what worked for them, and what didn't.\r\n\r\nAbout
     our speaker\r\n\r\nPavel Grachev is a Team Lead at Workpath."
+  description_original: "Feasibility studies, refinements, QA, Continuous Delivery
+    — everyone of us knows how the SDLC works, we know best practices and we listen
+    to cool smart people speaking at conferences.\r\nPavel will share some bits of
+    Workpath's journey as a growing startup trying to apply modern methodologies and
+    a bit of common sense. Some learnings that felt surprising, what worked for them,
+    and what didn't.\r\n\r\nAbout our speaker\r\n\r\nPavel Grachev is a Team Lead
+    at Workpath."
   events_event_id: 4c25b554-503a-485c-b562-bbf75ec6f1b4
   kind: talk
   language_code: en
@@ -905,6 +1030,8 @@ Talks::Talk_6c9a1229-137c-4093-ad42-2eeea473a84c:
   id: 6c9a1229-137c-4093-ad42-2eeea473a84c
   description: Lessons learned writing fast, stable and maintainable feature specs
     (acceptance tests).
+  description_original: Lessons learned writing fast, stable and maintainable feature
+    specs (acceptance tests).
   events_event_id: 60f568f0-6f60-4e53-9e04-e9ffaebb1e06
   kind: talk
   language_code: en
@@ -949,6 +1076,7 @@ Talks::Talk_74715536-db2a-4f45-8482-848a21f9c070:
 Talks::Talk_74dd66ab-4aef-4101-b28b-b7c34642c7c2:
   id: 74dd66ab-4aef-4101-b28b-b7c34642c7c2
   description: Understanding node and JS for ruby developers
+  description_original: Understanding node and JS for ruby developers
   events_event_id: 88b1d1f2-0d79-4bc8-98b4-692410dd4d8d
   kind: talk
   language_code: en
@@ -964,6 +1092,11 @@ Talks::Talk_7780ebc3-23d9-46cc-a1eb-63a74a4eb462:
     both Backend Rubyists and Frontend React/Vue people reasonably happy? Let's find
     out together.\r\n\r\nAbout our speaker\r\nClemens Kofler is a Director of Engineering
     at DataGuard."
+  description_original: "Can we strike a balance between the simplicity of a Rails
+    Monolith and the flexibility that a Single Page Application? And can we do so
+    while keeping both Backend Rubyists and Frontend React/Vue people reasonably happy?
+    Let's find out together.\r\n\r\nAbout our speaker\r\nClemens Kofler is a Director
+    of Engineering at DataGuard."
   events_event_id: 31dfb46b-8e9e-4941-92e9-d429d53f6eaa
   kind: talk
   language_code: en
@@ -987,6 +1120,8 @@ Talks::Talk_7a6b643d-0ef7-477f-a8e1-d06bf28a406a:
 Talks::Talk_7a966b5f-0936-4020-91fb-b13ce2537e8d:
   id: 7a966b5f-0936-4020-91fb-b13ce2537e8d
   description: A dive in ruby and gems configuration and what rvm does to help you
+  description_original: A dive in ruby and gems configuration and what rvm does to
+    help you
   events_event_id: dde2695f-80c5-48a6-a450-ad8b5948c1db
   kind: talk
   language_code: en
@@ -1002,6 +1137,11 @@ Talks::Talk_7c32bde0-94d9-4bab-8e08-a183b6852753:
     to read the diff and sign off on it. This talk is about reviewing less and understanding
     more: a workflow where pull requests contain no surprises and every diff I read
     is worth my time.'
+  description_original: 'Coding agents made work trivial to start and hard to finish.
+    The bottleneck has moved to the one resource that didn''t scale: an experienced
+    human who has to read the diff and sign off on it. This talk is about reviewing
+    less and understanding more: a workflow where pull requests contain no surprises
+    and every diff I read is worth my time.'
   events_event_id: 4b3a7ec3-b6be-40c5-a307-1e560be7fdf3
   kind: talk
   language_code: en
@@ -1013,6 +1153,10 @@ Talks::Talk_7c32bde0-94d9-4bab-8e08-a183b6852753:
 Talks::Talk_8060ca97-2b0e-44e0-828a-c8af943eb489:
   id: 8060ca97-2b0e-44e0-828a-c8af943eb489
   description: "All you might need is internet and any terminal to work.\r\n\r\nTools
+    that will enable you to connect to a work machine that is in any network and work
+    with it wherever you are. You might just be able to work your entire day with
+    just your phone or tablet."
+  description_original: "All you might need is internet and any terminal to work.\r\n\r\nTools
     that will enable you to connect to a work machine that is in any network and work
     with it wherever you are. You might just be able to work your entire day with
     just your phone or tablet."
@@ -1028,6 +1172,8 @@ Talks::Talk_8486f2b9-c258-4ff9-a1c4-b3ffcf97e3c2:
   id: 8486f2b9-c258-4ff9-a1c4-b3ffcf97e3c2
   description: 'Some resource: http://guides.rubyonrails.org/i18n.html See: 6 Customize
     your I18n Setup'
+  description_original: 'Some resource: http://guides.rubyonrails.org/i18n.html See:
+    6 Customize your I18n Setup'
   events_event_id: 7f464932-1471-4932-9732-d79d20c32844
   kind: talk
   language_code: en
@@ -1050,6 +1196,7 @@ Talks::Talk_851b3308-fa95-4f8c-9ea0-976f44db0577:
 Talks::Talk_85388e55-f0a1-4710-9c06-0439854ad35b:
   id: 85388e55-f0a1-4710-9c06-0439854ad35b
   description: Talk by Michael, Pau, Phillip
+  description_original: Talk by Michael, Pau, Phillip
   events_event_id: a30e173e-4659-4cae-915b-13d81f8e8fc3
   kind: talk
   language_code: en
@@ -1076,6 +1223,12 @@ Talks::Talk_8801813b-06fa-4362-940e-2c93a2e3cc58:
     been working at JetBrains for almost 5 years for now and during all this time
     I've been involved in development of Ruby-on-Rails IDE. The main goal of our team
     is to help Ruby programmers code more effective and improve the quality of code."
+  description_original: "This talk covers main concepts of document-oriented data
+    model, pros and contras considering MongoDB and how to use this database together
+    with Ruby-on-Rails\r\n\r\nI've been working at JetBrains for almost 5 years for
+    now and during all this time I've been involved in development of Ruby-on-Rails
+    IDE. The main goal of our team is to help Ruby programmers code more effective
+    and improve the quality of code."
   events_event_id: 05de9889-ca65-4996-a339-09b05a9097fd
   kind: talk
   language_code: en
@@ -1100,6 +1253,9 @@ Talks::Talk_8b00f67b-d82e-4efe-82fc-722fdf2a112c:
   description: Convincing people is generally hard. Convincing people about something
     they're opposed to is even harder. Learn a couple of tricks on how to win friends
     and influence people in the industry
+  description_original: Convincing people is generally hard. Convincing people about
+    something they're opposed to is even harder. Learn a couple of tricks on how to
+    win friends and influence people in the industry
   events_event_id: 7deebf5f-7d41-4658-b871-b12968ec0f25
   kind: talk
   language_code: en
@@ -1133,6 +1289,8 @@ Talks::Talk_8f69d24e-898d-4bdc-8542-8b7483c88bdf:
 Talks::Talk_90c3f42e-8794-4ccb-b463-28159ccb57c3:
   id: 90c3f42e-8794-4ccb-b463-28159ccb57c3
   description: Ruby visibility and when to use which one and how to break them.
+  description_original: Ruby visibility and when to use which one and how to break
+    them.
   events_event_id: e9ca82f3-5d65-40f9-8552-1a5a594f6e80
   kind: talk
   language_code: en
@@ -1200,6 +1358,8 @@ Talks::Talk_96ed6674-e225-42f8-9465-c5d96eb3201a:
   id: 96ed6674-e225-42f8-9465-c5d96eb3201a
   description: "Here is the link to Alexa-rails gem. Take a look and feel free to
     contribute :)\r\n\r\nhttps://github.com/tsrivishnu/alexa-rails"
+  description_original: "Here is the link to Alexa-rails gem. Take a look and feel
+    free to contribute :)\r\n\r\nhttps://github.com/tsrivishnu/alexa-rails"
   events_event_id: 4078ef3a-7555-429d-9a49-2d7a0fb65e01
   kind: talk
   language_code: en
@@ -1215,6 +1375,11 @@ Talks::Talk_98227dd4-c0a8-44e0-a2f4-9ab0ce794d32:
     Ruby-specific patterns. In the discussion part you are invited to talk about your
     favourite pattern or your least favourite pattern, antipatterns, enterprise patterns,
     maybe why you don't like patterns ...
+  description_original: I'll give a digest of Russ Olsen's 2007 book "Design Patterns
+    in Ruby". It applies 14 of the 23 "Gang of Four" patterns to Ruby and suggests
+    3 additional Ruby-specific patterns. In the discussion part you are invited to
+    talk about your favourite pattern or your least favourite pattern, antipatterns,
+    enterprise patterns, maybe why you don't like patterns ...
   events_event_id: 382bfc98-b62a-479c-882b-d8bc3beadfae
   kind: talk
   language_code: en
@@ -1227,6 +1392,8 @@ Talks::Talk_99637776-415d-43a8-ab45-9c1a80d46a13:
   id: 99637776-415d-43a8-ab45-9c1a80d46a13
   description: How to easily integrate Svelte, React, Vue or your custom widgets in
     your workflow
+  description_original: How to easily integrate Svelte, React, Vue or your custom
+    widgets in your workflow
   events_event_id: cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40
   kind: talk
   language_code: en
@@ -1250,6 +1417,9 @@ Talks::Talk_9ad74d81-29df-486b-9350-d84f2a188731:
   id: 9ad74d81-29df-486b-9350-d84f2a188731
   description: This talk will give everyone who didn't make it to Ruby Conf Portugal
     a chance to get an overview over the most interesting topics of the conferences
+    and compare it to other Ruby conferences.
+  description_original: This talk will give everyone who didn't make it to Ruby Conf
+    Portugal a chance to get an overview over the most interesting topics of the conferences
     and compare it to other Ruby conferences.
   events_event_id: d9055efc-3ba9-41d3-a013-57a1f5d352c6
   kind: talk
@@ -1302,6 +1472,14 @@ Talks::Talk_a1b8139a-74c3-47b1-9763-a7a011e0caf8:
     best practices/standards and we would like to show you how we kept things simple
     and made it very easy to achieve all these goals.\r\n\r\nAbout our speaker\r\nSri
     Vishnu Totakura is the CTO of Zavvy."
+  description_original: "Zavvy has grown from a simple Rails app to a huge suite of
+    B2B applications all served with a single Rails app with ~150 API endpoints, models
+    and presenters with a complex inter-connection between apps. As a startup speed
+    of release is crucial, quality is not a tradeoff, security with complex authenticate
+    and authorization logic is a must. This has not been easy but we are proud of
+    what we setup as our best practices/standards and we would like to show you how
+    we kept things simple and made it very easy to achieve all these goals.\r\n\r\nAbout
+    our speaker\r\nSri Vishnu Totakura is the CTO of Zavvy."
   events_event_id: adea8129-c6f0-48b1-b764-296c09336343
   kind: talk
   language_code: en
@@ -1315,6 +1493,9 @@ Talks::Talk_a24669ec-c4dc-4d9a-a71f-7d2b42f21e3e:
   description: "This will be a beginner-friendly talk on the topic of Neural Networks
     and how to connect them with Ruby/Rails.\r\n\r\nAbout our speaker\r\nBruno Brunckhorst
     is a Program Manager & Data Scientist at Le Wagon in Munich."
+  description_original: "This will be a beginner-friendly talk on the topic of Neural
+    Networks and how to connect them with Ruby/Rails.\r\n\r\nAbout our speaker\r\nBruno
+    Brunckhorst is a Program Manager & Data Scientist at Le Wagon in Munich."
   events_event_id: bfa2ec55-241f-4129-a1bf-92dfa03c543c
   kind: talk
   language_code: en
@@ -1340,6 +1521,10 @@ Talks::Talk_a5f16049-71e4-4517-bfb4-231ecef61981:
     and native threads but poor startup time and large memory overhead. But how can
     JRuby really help you in a project, especially when you deal with large corporations
     that live in the Java world.
+  description_original: JRuby is often portrayed as the Ruby with brilliant Garbage
+    Collection and native threads but poor startup time and large memory overhead.
+    But how can JRuby really help you in a project, especially when you deal with
+    large corporations that live in the Java world.
   events_event_id: 382bfc98-b62a-479c-882b-d8bc3beadfae
   kind: talk
   language_code: en
@@ -1421,6 +1606,10 @@ Talks::Talk_acc4a2ed-c10c-4c3f-b57e-55768c536a4f:
     of a software developer. I came across countless method names and commit messages
     that had been all but descriptive. My talk will raise awareness of this topic
     with horrible and funny real-life examples and tips for everyday work.
+  description_original: Naming things - basically simple, yet one of the most difficult
+    tasks of a software developer. I came across countless method names and commit
+    messages that had been all but descriptive. My talk will raise awareness of this
+    topic with horrible and funny real-life examples and tips for everyday work.
   events_event_id: 5120ef88-e9ee-49c7-8d67-5a6190d3fa63
   kind: talk
   language_code: en
@@ -1444,6 +1633,8 @@ Talks::Talk_b16b5ce4-cd82-4a01-a0c9-ff2c8645c958:
   id: b16b5ce4-cd82-4a01-a0c9-ff2c8645c958
   description: "About our speaker\r\nKhaled Muamar is a Senior Backend Developer at
     Freeletics."
+  description_original: "About our speaker\r\nKhaled Muamar is a Senior Backend Developer
+    at Freeletics."
   events_event_id: e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd
   kind: talk
   language_code: en
@@ -1498,6 +1689,17 @@ Talks::Talk_b5eed5e5-c25d-44ee-a8aa-6c137e3bb1eb:
     of the software. He has implemented and led projects in the performance optimization
     area as a senior software engineer. Recently he has moved to Dresden, Germany
     and is looking forward to meeting new people."
+  description_original: "At the time of product launch, our most important API endpoint
+    was taking around 5 seconds in production. It wasn’t related to tech-stack or
+    a particular database/cloud issue nor did we have very bad code quality or any
+    N+1 query issues. Instead, it turned out to be the cumulative result of small
+    mistakes in some services. In this talk, we will see how we arrive at those mistakes,
+    and how you can avoid them earlier on in the development process.\r\n\r\nAbout
+    our speaker\r\nRaounak has been working with Ruby for the past 5 years, and actively
+    contributing to the Ruby community since 2018. This time has made him focus more
+    on the performance of the software. He has implemented and led projects in the
+    performance optimization area as a senior software engineer. Recently he has moved
+    to Dresden, Germany and is looking forward to meeting new people."
   events_event_id: 7756b666-da89-4f60-9947-cbb5d3110256
   kind: talk
   language_code: en
@@ -1525,6 +1727,12 @@ Talks::Talk_b787ca16-bf35-4ccb-bf50-c9000c5feda9:
     Ruby. The presentation will cover motivation & requirements to build a reverse
     proxy, simple use cases, an introduction to Experella-Proxy and features to aim
     for.
+  description_original: Service-oriented architectures can be quite tricky to handle.
+    Routing logic is hard to setup or modify and often needs to be configured in a
+    low-level programming language. So we decided to build a load balancing reverse
+    proxy in Ruby. The presentation will cover motivation & requirements to build
+    a reverse proxy, simple use cases, an introduction to Experella-Proxy and features
+    to aim for.
   events_event_id: 764df804-c67c-4803-84b3-4221968642fb
   kind: talk
   language_code: en
@@ -1547,6 +1755,8 @@ Talks::Talk_bc805f0e-6705-4688-afbe-57c9b72fa7e1:
 Talks::Talk_bcb9145f-07d6-44e0-a5fa-56a9be3efe3a:
   id: bcb9145f-07d6-44e0-a5fa-56a9be3efe3a
   description: "About our speaker\r\nOmar Qunsul is a Backend Engineer at GitLab."
+  description_original: "About our speaker\r\nOmar Qunsul is a Backend Engineer at
+    GitLab."
   events_event_id: d096f26c-e4d6-4441-891c-728724a7c26a
   kind: talk
   language_code: en
@@ -1574,6 +1784,12 @@ Talks::Talk_bed9c408-dbfc-4969-b9d1-00b12415731b:
     codebase against multiple dependency sets, without breaking development flow.
     I would also show how to use CI services like TravisCI to simplify contributions
     for developers who are less experienced with complex testing setups."
+  description_original: "Gem authors often need to stay compatible with different
+    dependency sets. E.g. we must support multiple versions of Ruby, various releases
+    of Rails, different types of databases.\r\n\r\nIn this talk I would show how to
+    test a single codebase against multiple dependency sets, without breaking development
+    flow. I would also show how to use CI services like TravisCI to simplify contributions
+    for developers who are less experienced with complex testing setups."
   events_event_id: 60f568f0-6f60-4e53-9e04-e9ffaebb1e06
   kind: talk
   language_code: en
@@ -1596,6 +1812,7 @@ Talks::Talk_c0fc6558-4de3-44cf-9f38-b85fa7152998:
 Talks::Talk_c1c9b370-d09d-4feb-987a-6c8eefeebc48:
   id: c1c9b370-d09d-4feb-987a-6c8eefeebc48
   description: "Slides:\r\nhttp://bit.ly/2jSkBXO"
+  description_original: "Slides:\r\nhttp://bit.ly/2jSkBXO"
   events_event_id: 388f3a35-88ab-4c17-b911-ef743b26ab87
   kind: talk
   language_code: en
@@ -1618,6 +1835,17 @@ Talks::Talk_c35dc3ab-976c-4048-b4a4-44ac4072da6a:
 Talks::Talk_c4554c01-65ff-4d67-8050-771c527618ae:
   id: c4554c01-65ff-4d67-8050-771c527618ae
   description: "ArangoDB is an open source NoSQL database which is not narrow-mindedly
+    focused on horizontal scalability. Instead, ArangoDB aims to offer developers
+    great flexibility and ease-of-use. The database is suitable for use cases which
+    are difficult to implement with most traditional relational databases and also
+    many of the other NoSQL databases.\r\n\r\nI’m a member of the core team of the
+    NoSQL database project ArangoDB where I work on the graph functionality, tools
+    for the Ruby community to use the database and Foxx. Furthermore I contribute
+    to various open source projects like hacken.in (http://hacken.in/) (an event calender
+    for nerds in my hometown written in Rails) and projects related to ArangoDB. You
+    can find me listening or speaking at our local usergroups for Ruby, JavaScript,
+    NoSQL and (as a coach for) Rails Girls."
+  description_original: "ArangoDB is an open source NoSQL database which is not narrow-mindedly
     focused on horizontal scalability. Instead, ArangoDB aims to offer developers
     great flexibility and ease-of-use. The database is suitable for use cases which
     are difficult to implement with most traditional relational databases and also
@@ -1651,6 +1879,9 @@ Talks::Talk_c943bb3f-c7a0-4c24-a982-26909e336905:
   id: c943bb3f-c7a0-4c24-a982-26909e336905
   description: 'A project of mine (in alpha) state: Fixing-the-net. The idea and vision
     of privacy and a server side application framework. Beware: this is nearly vaporware...'
+  description_original: 'A project of mine (in alpha) state: Fixing-the-net. The idea
+    and vision of privacy and a server side application framework. Beware: this is
+    nearly vaporware...'
   events_event_id: e9ca82f3-5d65-40f9-8552-1a5a594f6e80
   kind: talk
   language_code: en
@@ -1667,6 +1898,13 @@ Talks::Talk_c988cd6b-6402-41b7-ae92-461457afbb3a:
     as quickly as possible, improving the fidelity and speed of review. DataGuard's
     road to adoption of Review Apps began with an open source alternative to Heroku,
     moving on to using Humanitec, a full-fledged platform orchestrator.\r\n\r\nAbout
+    our speaker\r\n\r\nBogdans Laidins is a Lead Engineer at DataGuard."
+  description_original: "Review Apps provide a fully functional preview of feature
+    branch changes, creating an ephemeral environment for your merge requests. This
+    allows designers, product owners, QA and other stakeholders to get involved in
+    the feedback process as quickly as possible, improving the fidelity and speed
+    of review. DataGuard's road to adoption of Review Apps began with an open source
+    alternative to Heroku, moving on to using Humanitec, a full-fledged platform orchestrator.\r\n\r\nAbout
     our speaker\r\n\r\nBogdans Laidins is a Lead Engineer at DataGuard."
   events_event_id: 4c25b554-503a-485c-b562-bbf75ec6f1b4
   kind: talk
@@ -1707,6 +1945,13 @@ Talks::Talk_cdc2f9d9-b29f-4e6a-8b77-fdec980e63e5:
     in Git are working, then it's a good talk to remember all the process. If you
     didn't pay attention to know it, then this talk can be very interesting to see
     together what are these great benefits that Git is providing to us.
+  description_original: This talk is to share my experience learning how Git works
+    behind the scenes. How it tracks the files, how it stores inside Git with Objects,
+    what happens when we are creating a new branch. Everyone who uses Git can attend
+    and understand the Talk, so the scope it's not just for Rubyists. If you know
+    how all objects in Git are working, then it's a good talk to remember all the
+    process. If you didn't pay attention to know it, then this talk can be very interesting
+    to see together what are these great benefits that Git is providing to us.
   events_event_id: eb7f7b54-12a9-431d-b16f-a866624c3ee7
   kind: talk
   language_code: en
@@ -1730,6 +1975,8 @@ Talks::Talk_d4b99e9d-2f68-4667-8474-e11016d0eecf:
   id: d4b99e9d-2f68-4667-8474-e11016d0eecf
   description: About integer and floating point arithmetic, trying to cover how to
     work with numbers from processor, memory and user perspective.
+  description_original: About integer and floating point arithmetic, trying to cover
+    how to work with numbers from processor, memory and user perspective.
   events_event_id: aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb
   kind: talk
   language_code: en
@@ -1741,6 +1988,7 @@ Talks::Talk_d4b99e9d-2f68-4667-8474-e11016d0eecf:
 Talks::Talk_d5ff0cf2-f7c1-4e70-8db9-1f04e4c695b0:
   id: d5ff0cf2-f7c1-4e70-8db9-1f04e4c695b0
   description: 3 ideas I brought back from the greaTEST conference
+  description_original: 3 ideas I brought back from the greaTEST conference
   events_event_id: 53be3fcb-a991-4780-a53e-111ad902bb66
   kind: talk
   language_code: en
@@ -1761,6 +2009,25 @@ Talks::Talk_d80ef2eb-a057-486d-af62-d5441713f3f0:
     not even have on your radar.\r\nThis talk will help you decide whether adopting
     hypermedia makes sense for your project, especially if your experience is mostly
     with SPAs. We will address questions frontend developers typically have:\r\n-
+    Is it possible to achieve the same responsiveness that users have come to expect
+    from SPAs?\r\n- How would dynamic forms with dependent fields and inline validation
+    work without extensive JavaScript?\r\n- Can server-side rendering manage intricate
+    UI interactions, such as multi-step modals, optimistic rendering, and client-side
+    state preservation?\r\n- Where does state go when I don't have components on the
+    client?\r\nAfter ten years of building both hypermedia apps and SPAs, I'm eager
+    to share what works and what doesn't. I hope that by the end of my talk you'll
+    know all the trade-offs to decide when hypermedia can simplify your stack, and
+    when an SPA remains the better fit."
+  description_original: "Hypermedia frameworks like htmx or Unpoly are positioning
+    themselves as simpler alternatives to single-page applications. Yet many of us
+    recall earlier server-rendered experiences as slow, cumbersome and limited. But
+    just as modern React is unrecognizable from its early days, hypermedia frameworks
+    have improved radically over the last decade. Today's server-rendered approaches
+    effectively handle UI problems traditionally thought to require extensive client-side
+    scripting. At the same time, hypermedia apps have some surprising limitations
+    that you might not even have on your radar.\r\nThis talk will help you decide
+    whether adopting hypermedia makes sense for your project, especially if your experience
+    is mostly with SPAs. We will address questions frontend developers typically have:\r\n-
     Is it possible to achieve the same responsiveness that users have come to expect
     from SPAs?\r\n- How would dynamic forms with dependent fields and inline validation
     work without extensive JavaScript?\r\n- Can server-side rendering manage intricate
@@ -1859,6 +2126,8 @@ Talks::Talk_e703e70e-fce2-4fa6-a403-6de3a1f2096e:
 Talks::Talk_e750104f-7de3-4263-9d78-cf631835fb09:
   id: e750104f-7de3-4263-9d78-cf631835fb09
   description: "About our speaker\r\nOliver Prater is a Software Engineer at Xempus."
+  description_original: "About our speaker\r\nOliver Prater is a Software Engineer
+    at Xempus."
   events_event_id: c92a903b-d40f-478d-a7d6-457d362bd906
   kind: talk
   language_code: en
@@ -1870,6 +2139,7 @@ Talks::Talk_e750104f-7de3-4263-9d78-cf631835fb09:
 Talks::Talk_e8c7cf35-a3d5-4bc9-b569-2442b2675f15:
   id: e8c7cf35-a3d5-4bc9-b569-2442b2675f15
   description: A CMS (http://www.nanuq3.com) developed in Ruby on Rails.
+  description_original: A CMS (http://www.nanuq3.com) developed in Ruby on Rails.
   events_event_id: 764df804-c67c-4803-84b3-4221968642fb
   kind: talk
   language_code: en
@@ -1936,6 +2206,7 @@ Talks::Talk_f0cd3268-7728-45b1-a91d-f87b914bc4a1:
 Talks::Talk_f10595f8-4c75-4642-bbd9-3fca36a0dfbb:
   id: f10595f8-4c75-4642-bbd9-3fca36a0dfbb
   description: You won’t look at your tests the same way ever again.
+  description_original: You won’t look at your tests the same way ever again.
   events_event_id: a25cb714-cc6a-4e13-adae-69f1f42f1901
   kind: talk
   language_code: en
@@ -1948,6 +2219,8 @@ Talks::Talk_f30c8587-0565-4cae-9c1d-09fe4ca44fad:
   id: f30c8587-0565-4cae-9c1d-09fe4ca44fad
   description: xbAV is just starting to use Kafka. We'd like to share some of the
     pitfalls we've run into so far, so you can avoid them.
+  description_original: xbAV is just starting to use Kafka. We'd like to share some
+    of the pitfalls we've run into so far, so you can avoid them.
   events_event_id: ac48d30d-2724-434c-815e-6853b1f10109
   kind: talk
   language_code: en
@@ -1959,6 +2232,7 @@ Talks::Talk_f30c8587-0565-4cae-9c1d-09fe4ca44fad:
 Talks::Talk_f36d5bc1-92d3-4384-9acd-2e01a820e5ca:
   id: f36d5bc1-92d3-4384-9acd-2e01a820e5ca
   description: Thomas & Flo
+  description_original: Thomas & Flo
   events_event_id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
   kind: talk
   language_code: en
@@ -2032,6 +2306,14 @@ Talks::Talk_fbe6a73f-c172-4cd8-919d-3f3e582e63b0:
     also impressed by the performance of Node.js, and new approaches for client-server
     architectures. I blog at http://thinkingonthinking.com and am working currently
     on a book \"Developing Web Applications with Backbone.js\"."
+  description_original: "We've got Ruby 2 since some months, Ruby 2.1 just released,
+    and a bunch of legacy code bases require some older Ruby versions... that can
+    quickly become a mess. In this talk, I want to explore some part of the Ruby ecosystem
+    that deals with infrastructure: Chef and Vagrant.\r\n\r\nAbout the speaker: I
+    am very much interested in all things Unix, and good OOP (often in Ruby). I am
+    also impressed by the performance of Node.js, and new approaches for client-server
+    architectures. I blog at http://thinkingonthinking.com and am working currently
+    on a book \"Developing Web Applications with Backbone.js\"."
   events_event_id: 74ad1707-f344-4743-916f-c5c2a89c27bd
   kind: talk
   language_code: en
@@ -2056,6 +2338,9 @@ Talks::Talk_fe721d00-3e78-485b-8223-b142327bfd41:
   description: "About our speaker\r\nDmytro Khmelenko is a Software Engineer at Shopify.
     He's also the author of the book \"Unlock the Code: The Ultimate Guide to Advancing
     from Junior to Senior Software Engineer in 7 Actionable Steps\" (https://www.amazon.com/dp/B098LNMFCJ)."
+  description_original: "About our speaker\r\nDmytro Khmelenko is a Software Engineer
+    at Shopify. He's also the author of the book \"Unlock the Code: The Ultimate Guide
+    to Advancing from Junior to Senior Software Engineer in 7 Actionable Steps\" (https://www.amazon.com/dp/B098LNMFCJ)."
   events_event_id: e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd
   kind: talk
   language_code: en
@@ -2068,6 +2353,8 @@ Talks::Talk_ffb09204-e934-4daa-8ef1-8e51ab98b613:
   id: ffb09204-e934-4daa-8ef1-8e51ab98b613
   description: "About our speaker\r\nKhaled Muamar is a Senior Software Engineer at
     Freeletics."
+  description_original: "About our speaker\r\nKhaled Muamar is a Senior Software Engineer
+    at Freeletics."
   events_event_id: 0ca4de01-0994-4c1f-a277-68b7edd8a87a
   kind: talk
   language_code: en
