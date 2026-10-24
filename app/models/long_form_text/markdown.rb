@@ -7,6 +7,8 @@ class LongFormText::Markdown
     # A single line break is a space, as in CommonMark.
     hard_wrap: false,
     auto_ids: false,
+    # The page's own title is the <h1>, so a text's "#" becomes an <h2>.
+    header_offset: 1,
     # Keep quotes, dashes and dots as typed.
     smart_quotes: %w[apos apos quot quot],
     typographic_symbols: { hellip: "...", mdash: "---", ndash: "--", laquo: "<<", raquo: ">>", laquo_space: "<< ", raquo_space: " >>" }
@@ -39,9 +41,8 @@ class LongFormText::Markdown
     problems_in(@document.root).uniq
   end
 
-  # Unless a page has headings of its own, a text's "#" becomes an <h2>.
-  def to_html(heading_offset: 1)
-    Kramdown::Converter::Html.convert(@document.root, @document.options.merge(header_offset: heading_offset)).first
+  def to_html
+    @document.to_html
   end
 
   private
