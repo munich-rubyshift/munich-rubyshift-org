@@ -14,7 +14,7 @@ class Avo::Resources::SponsorsSponsorship < Avo::BaseResource
     field :rubyevents_slug, as: :text, sortable: true
     field :organization, as: :belongs_to, **sortable(:by_to_s, on: :organization)
     field :sponsor_tier, as: :belongs_to, **sortable(:by_to_s, on: :sponsor_tier)
-    field :description, as: :textarea
+    field :description, **LONG_FORM_TEXT_FIELD_OPTIONS
     field :website, as: :text, sortable: true
     field :logo_url, as: :text, sortable: true
     field :badge, as: :text, sortable: true

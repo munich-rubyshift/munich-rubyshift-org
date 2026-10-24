@@ -13,7 +13,7 @@ class Avo::Resources::SponsorsSponsorTier < Avo::BaseResource
     field :name, as: :text, sortable: true
     field :rubyevents_slug, as: :text, sortable: true
     field :event, as: :belongs_to, **sortable(:by_start_date, on: :event)
-    field :description, as: :textarea
+    field :description, **LONG_FORM_TEXT_FIELD_OPTIONS
     field :level, as: :number, sortable: true
   end
 end

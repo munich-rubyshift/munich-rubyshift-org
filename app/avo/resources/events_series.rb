@@ -12,7 +12,7 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :name, as: :text, sortable: true
     field :rubyevents_slug, as: :text, sortable: true
-    field :description, as: :textarea
+    field :description, **LONG_FORM_TEXT_FIELD_OPTIONS
     field :kind, as: :select, sortable: true, options: ::Events::Series::KINDS.index_by(&:humanize), include_blank: true
     field :frequency, as: :select, sortable: true, options: ::Events::Series::FREQUENCIES.index_by(&:humanize), include_blank: true
     field :ended, as: :boolean, sortable: true
