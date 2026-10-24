@@ -15,15 +15,15 @@ class Avo::Resources::VenuesVenue < Avo::BaseResource
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :name, as: :text, sortable: true
     field :rubyevents_slug, as: :text, sortable: true
-    field :description, as: :textarea
+    field :description, **LONG_FORM_TEXT_FIELD_OPTIONS
     field :website, as: :text, sortable: true
-    field :instructions, as: :textarea
+    field :instructions, **LONG_FORM_TEXT_FIELD_OPTIONS
     field :accessibility_wheelchair, as: :boolean, sortable: true
     field :accessibility_elevators, as: :boolean, sortable: true
     field :accessibility_restrooms, as: :boolean, sortable: true
-    field :accessibility_notes, as: :textarea
-    field :nearby_public_transport, as: :textarea
-    field :nearby_parking, as: :textarea
+    field :accessibility_notes, **LONG_FORM_TEXT_FIELD_OPTIONS
+    field :nearby_public_transport, **LONG_FORM_TEXT_FIELD_OPTIONS
+    field :nearby_parking, **LONG_FORM_TEXT_FIELD_OPTIONS
     field :address, as: :belongs_to, **sortable(:by_to_s, on: :address)
     field :map, as: :belongs_to, **sortable(:by_to_s, on: :map)
     field :organization, as: :belongs_to, **sortable(:by_to_s, on: :organization), attach_scope: -> { query.by_to_s }

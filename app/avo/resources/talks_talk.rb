@@ -21,7 +21,7 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
     field :position, as: :number, sortable: true, help: "Leave blank to add the talk after the event's last one."
     field :kind, as: :select, sortable: true, options: KIND_OPTIONS, default: "talk"
     field :title, as: :text, sortable: true
-    field :description, as: :textarea
+    field :description, **LONG_FORM_TEXT_FIELD_OPTIONS
     field :description_original, as: :textarea, only_on: :show
     field :slides_url, as: :text, sortable: true
     field :language_code, as: :select, name: "Language", sortable: true, options: ::Language::NAMES.invert, default: "en"
