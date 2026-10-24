@@ -236,7 +236,7 @@ Talks::Talk_17cf5da1-03e0-4454-8196-d5517c9b341f:
 Talks::Talk_1a467f09-5199-4a9c-9386-187e5f5be1e6:
   id: 1a467f09-5199-4a9c-9386-187e5f5be1e6
   description: |-
-    About our speaker
+    About our speaker\
     Khaled Muamar is a Backend Engineer at Freeletics.
   description_original: "About our speaker\r\nKhaled Muamar is a Backend Engineer
     at Freeletics."
@@ -263,7 +263,7 @@ Talks::Talk_1a8eb291-370d-4e45-926e-7f2971d9e59a:
   title: GDS - General Data Structure
 Talks::Talk_1b375139-cd89-418b-9ba4-246ab45b2ea8:
   id: 1b375139-cd89-418b-9ba4-246ab45b2ea8
-  description: Introducing https://www.resetthenet.org/
+  description: Introducing <https://www.resetthenet.org/>
   description_original: Introducing https://www.resetthenet.org/
   events_event_id: 4b2f97a8-d845-475d-8fea-b1f796ab99ad
   kind: talk
@@ -294,17 +294,17 @@ Talks::Talk_1dfc1478-b22e-4ffb-aee7-e8e2a111a44a:
   description: |-
     How we used Active Record with multiple databases to migrate a single-tenant application to a multi-tenant world.
 
-    About our speaker
+    About our speaker\
     Oliver Prater is a Software Engineer at Xempus.
 
-    Resources
+    Resources\
     I added the three architecture diagrams from the presentation that show the current state, the goal state, and the state during migration to the photos.
 
-    The link that explains the gotcha's around transactions with multiple databases is https://guillermoap.medium.com/rails-multiple-databases-gotchas-a9fddbd5f545
+    The link that explains the gotcha's around transactions with multiple databases is <https://guillermoap.medium.com/rails-multiple-databases-gotchas-a9fddbd5f545>
 
-    The post from Tenderlove that I referenced: https://tenderlovemaking.com/2011/10/20/connection-management-in-activerecord.html
+    The post from Tenderlove that I referenced: <https://tenderlovemaking.com/2011/10/20/connection-management-in-activerecord.html>
 
-    A more playful blog post on the topic with a fourth dimensional database is https://www.thegreatcodeadventure.com/managing-multiple-databases-in-a-single-rails-application/
+    A more playful blog post on the topic with a fourth dimensional database is <https://www.thegreatcodeadventure.com/managing-multiple-databases-in-a-single-rails-application/>
   description_original: "How we used Active Record with multiple databases to migrate
     a single-tenant application to a multi-tenant world.\r\n\r\nAbout our speaker\r\nOliver
     Prater is a Software Engineer at Xempus.\r\n\r\nResources\r\nI added the three
@@ -360,6 +360,7 @@ Talks::Talk_267c5564-f7af-4012-b24e-c695ea98a4a0:
     The leading legal tech company DataGuard invites you to get to know the machine learning supported platform (reference number at the European Patent Office: Q0144EP). Founder and managing director Kivanc Semen and Ference Brose will give exciting insights and look forward to discussion and exchange with the guests. Food and drinks will of course be provided.
 
     Kivanc Semen reports on his experience as an entrepreneur and how the idea for a technology-based approach to data protection came about.
+
     Ference Brose looks behind the curtain of the platform and explains how DataGuard's technology works and what role Ruby plays.
   description_original: "The leading legal tech company DataGuard invites you to get
     to know the machine learning supported platform (reference number at the European
@@ -403,7 +404,7 @@ Talks::Talk_2c048e14-fadf-4e16-938b-1082db17f831:
   description: |-
     Note: This talk will be held remotely
 
-    About our speaker
+    About our speaker\
     Luca Guidi is a Backend Architect at Toptal and the creator of the Hanami framework.
   description_original: "Note: This talk will be held remotely\r\n\r\nAbout our speaker\r\nLuca
     Guidi is a Backend Architect at Toptal and the creator of the Hanami framework."
@@ -439,6 +440,7 @@ Talks::Talk_2e0e8a82-1b67-4fc4-9e2a-7379f96661cf:
   id: 2e0e8a82-1b67-4fc4-9e2a-7379f96661cf
   description: |-
     When I started working with Ruby, I embraced its rich ecosystem. My Gemfile for any new project immediately grew longer than Gandalf's beard. Unfortunately, using Gems comes with downsides. On the practical side, pulling in third-party libraries exposes your app to supply-chain attacks that are increasingly common. However, what's even worse is that most Gems are pure bloatware. They add thousands of lines of code you'll never need, and churn constantly.
+
     The alternative, obviously, is to build everything from scratch. In this talk, we'll look at some examples of how some well-known gems can be boiled down to a single file that you can copy-paste to any new project. We'll also look at the limits of this approach, and when you actually should reach for that Gem.
   description_original: "When I started working with Ruby, I embraced its rich ecosystem.
     My Gemfile for any new project immediately grew longer than Gandalf's beard. Unfortunately,
@@ -572,7 +574,7 @@ Talks::Talk_407ce9e5-f3d7-40ee-84e1-386737f901fb:
   description: |-
     Complex data filtering in Rails often leads us down a rabbit hole of custom scopes, service objects, and Arel acrobatics. But what if we let the database do what it’s best at? In this talk, you’ll see how SQL views paired with plain ActiveRecord and Ransack can turn messy logic into elegant, powerful queries — without giving up the Rails way.
 
-    About our speaker
+    About our speaker\
     Clemens Helm is a seasoned Rails developer from Vienna who believes good code is boring — in the best way. At railscraft.de, he helps teams modernize legacy Rails apps with clean architecture, sharp tools, and zero-nonsense pragmatism.
   description_original: "Complex data filtering in Rails often leads us down a rabbit
     hole of custom scopes, service objects, and Arel acrobatics. But what if we let
@@ -726,23 +728,23 @@ Talks::Talk_51bd6f16-ef3a-4204-a7d4-def58766620b:
   description: |-
     Resources:
 
-    Udemy Complete Elasticsearch Masterclass with Logstash and Kibana (Tipp: it should cost around 11 euro, if not, wait- they find a reason for discounts every couple of weeks ;) ): https://www.udemy.com/complete-elasticsearch-masterclass-with-kibana-and-logstash/learn/v4/overview
+    Udemy Complete Elasticsearch Masterclass with Logstash and Kibana (Tipp: it should cost around 11 euro, if not, wait- they find a reason for discounts every couple of weeks ;) ): <https://www.udemy.com/complete-elasticsearch-masterclass-with-kibana-and-logstash/learn/v4/overview>
 
-    The History of Monitoring Tools: https://www.sumologic.com/blog/devops/monitoring-tools-history/
-    Etsy Introducing StaatsD: https://codeascraft.com/2011/02/15/measure-anything-measure-everything/
+    The History of Monitoring Tools: <https://www.sumologic.com/blog/devops/monitoring-tools-history/>\
+    Etsy Introducing StaatsD: <https://codeascraft.com/2011/02/15/measure-anything-measure-everything/>
 
-    Using APM to Monitor Data-First Apps: https://dzone.com/articles/using-apm-to-monitor-data-first-apps
+    Using APM to Monitor Data-First Apps: <https://dzone.com/articles/using-apm-to-monitor-data-first-apps>
 
-    Ruby APM Agent: https://www.elastic.co/guide/en/apm/agent/ruby/2.x/getting-started-rails.html
-    LogstashLogger gem: https://github.com/dwbutler/logstash-logger
+    Ruby APM Agent: <https://www.elastic.co/guide/en/apm/agent/ruby/2.x/getting-started-rails.html>\
+    LogstashLogger gem: <https://github.com/dwbutler/logstash-logger>
 
-    Monitoring Applications with Elasticsearch and Elastic APM: https://www.elastic.co/blog/monitoring-applications-with-elasticsearch-and-elastic-apm
-    Observability with Elastic Stack: https://www.elastic.co/blog/observability-with-the-elastic-stack
-    Monitoring and Observability: https://medium.com/@copyconstruct/monitoring-and-observability-8417d1952e1c
+    Monitoring Applications with Elasticsearch and Elastic APM: <https://www.elastic.co/blog/monitoring-applications-with-elasticsearch-and-elastic-apm>\
+    Observability with Elastic Stack: <https://www.elastic.co/blog/observability-with-the-elastic-stack>\
+    Monitoring and Observability: <https://medium.com/@copyconstruct/monitoring-and-observability-8417d1952e1c>
 
-    Observability Twitter: https://blog.twitter.com/engineering/en_us/a/2013/observability-at-twitter.html
-    Twitter technical overview Part 1: https://blog.twitter.com/engineering/en_us/a/2016/observability-at-twitter-technical-overview-part-i.html
-    Twitter technical overview Part 2: https://blog.twitter.com/engineering/en_us/a/2016/observability-at-twitter-technical-overview-part-ii.html
+    Observability Twitter: <https://blog.twitter.com/engineering/en_us/a/2013/observability-at-twitter.html>\
+    Twitter technical overview Part 1: <https://blog.twitter.com/engineering/en_us/a/2016/observability-at-twitter-technical-overview-part-i.html>\
+    Twitter technical overview Part 2: <https://blog.twitter.com/engineering/en_us/a/2016/observability-at-twitter-technical-overview-part-ii.html>
   description_original: "Resources:\r\n\r\nUdemy Complete Elasticsearch Masterclass
     with Logstash and Kibana (Tipp: it should cost around 11 euro, if not, wait- they
     find a reason for discounts every couple of weeks ;) ): https://www.udemy.com/complete-elasticsearch-masterclass-with-kibana-and-logstash/learn/v4/overview\r\n\r\nThe
@@ -916,6 +918,7 @@ Talks::Talk_68b54ead-d2f6-4402-927f-116158d94c34:
   id: 68b54ead-d2f6-4402-927f-116158d94c34
   description: |-
     Feasibility studies, refinements, QA, Continuous Delivery — everyone of us knows how the SDLC works, we know best practices and we listen to cool smart people speaking at conferences.
+
     Pavel will share some bits of Workpath's journey as a growing startup trying to apply modern methodologies and a bit of common sense. Some learnings that felt surprising, what worked for them, and what didn't.
 
     About our speaker
@@ -1047,7 +1050,7 @@ Talks::Talk_7780ebc3-23d9-46cc-a1eb-63a74a4eb462:
   description: |-
     Can we strike a balance between the simplicity of a Rails Monolith and the flexibility that a Single Page Application? And can we do so while keeping both Backend Rubyists and Frontend React/Vue people reasonably happy? Let's find out together.
 
-    About our speaker
+    About our speaker\
     Clemens Kofler is a Director of Engineering at DataGuard.
   description_original: "Can we strike a balance between the simplicity of a Rails
     Monolith and the flexibility that a Single Page Application? And can we do so
@@ -1126,7 +1129,7 @@ Talks::Talk_8060ca97-2b0e-44e0-828a-c8af943eb489:
   title: Work from anywhere
 Talks::Talk_8486f2b9-c258-4ff9-a1c4-b3ffcf97e3c2:
   id: 8486f2b9-c258-4ff9-a1c4-b3ffcf97e3c2
-  description: 'Some resource: http://guides.rubyonrails.org/i18n.html See: 6 Customize
+  description: 'Some resource: <http://guides.rubyonrails.org/i18n.html> See: 6 Customize
     your I18n Setup'
   description_original: 'Some resource: http://guides.rubyonrails.org/i18n.html See:
     6 Customize your I18n Setup'
@@ -1304,7 +1307,7 @@ Talks::Talk_96ed6674-e225-42f8-9465-c5d96eb3201a:
   description: |-
     Here is the link to Alexa-rails gem. Take a look and feel free to contribute :)
 
-    https://github.com/tsrivishnu/alexa-rails
+    <https://github.com/tsrivishnu/alexa-rails>
   description_original: "Here is the link to Alexa-rails gem. Take a look and feel
     free to contribute :)\r\n\r\nhttps://github.com/tsrivishnu/alexa-rails"
   events_event_id: 4078ef3a-7555-429d-9a49-2d7a0fb65e01
@@ -1410,7 +1413,7 @@ Talks::Talk_a1b8139a-74c3-47b1-9763-a7a011e0caf8:
   description: |-
     Zavvy has grown from a simple Rails app to a huge suite of B2B applications all served with a single Rails app with ~150 API endpoints, models and presenters with a complex inter-connection between apps. As a startup speed of release is crucial, quality is not a tradeoff, security with complex authenticate and authorization logic is a must. This has not been easy but we are proud of what we setup as our best practices/standards and we would like to show you how we kept things simple and made it very easy to achieve all these goals.
 
-    About our speaker
+    About our speaker\
     Sri Vishnu Totakura is the CTO of Zavvy.
   description_original: "Zavvy has grown from a simple Rails app to a huge suite of
     B2B applications all served with a single Rails app with ~150 API endpoints, models
@@ -1433,7 +1436,7 @@ Talks::Talk_a24669ec-c4dc-4d9a-a71f-7d2b42f21e3e:
   description: |-
     This will be a beginner-friendly talk on the topic of Neural Networks and how to connect them with Ruby/Rails.
 
-    About our speaker
+    About our speaker\
     Bruno Brunckhorst is a Program Manager & Data Scientist at Le Wagon in Munich.
   description_original: "This will be a beginner-friendly talk on the topic of Neural
     Networks and how to connect them with Ruby/Rails.\r\n\r\nAbout our speaker\r\nBruno
@@ -1566,7 +1569,7 @@ Talks::Talk_ace7065d-368b-4d5d-b2a7-f655539b6ed2:
 Talks::Talk_b16b5ce4-cd82-4a01-a0c9-ff2c8645c958:
   id: b16b5ce4-cd82-4a01-a0c9-ff2c8645c958
   description: |-
-    About our speaker
+    About our speaker\
     Khaled Muamar is a Senior Backend Developer at Freeletics.
   description_original: "About our speaker\r\nKhaled Muamar is a Senior Backend Developer
     at Freeletics."
@@ -1613,7 +1616,7 @@ Talks::Talk_b5eed5e5-c25d-44ee-a8aa-6c137e3bb1eb:
   description: |-
     At the time of product launch, our most important API endpoint was taking around 5 seconds in production. It wasn’t related to tech-stack or a particular database/cloud issue nor did we have very bad code quality or any N+1 query issues. Instead, it turned out to be the cumulative result of small mistakes in some services. In this talk, we will see how we arrive at those mistakes, and how you can avoid them earlier on in the development process.
 
-    About our speaker
+    About our speaker\
     Raounak has been working with Ruby for the past 5 years, and actively contributing to the Ruby community since 2018. This time has made him focus more on the performance of the software. He has implemented and led projects in the performance optimization area as a senior software engineer. Recently he has moved to Dresden, Germany and is looking forward to meeting new people.
   description_original: "At the time of product launch, our most important API endpoint
     was taking around 5 seconds in production. It wasn’t related to tech-stack or
@@ -1679,7 +1682,7 @@ Talks::Talk_bc805f0e-6705-4688-afbe-57c9b72fa7e1:
 Talks::Talk_bcb9145f-07d6-44e0-a5fa-56a9be3efe3a:
   id: bcb9145f-07d6-44e0-a5fa-56a9be3efe3a
   description: |-
-    About our speaker
+    About our speaker\
     Omar Qunsul is a Backend Engineer at GitLab.
   description_original: "About our speaker\r\nOmar Qunsul is a Backend Engineer at
     GitLab."
@@ -1734,8 +1737,8 @@ Talks::Talk_c0fc6558-4de3-44cf-9f38-b85fa7152998:
 Talks::Talk_c1c9b370-d09d-4feb-987a-6c8eefeebc48:
   id: c1c9b370-d09d-4feb-987a-6c8eefeebc48
   description: |-
-    Slides:
-    http://bit.ly/2jSkBXO
+    Slides:\
+    <http://bit.ly/2jSkBXO>
   description_original: "Slides:\r\nhttp://bit.ly/2jSkBXO"
   events_event_id: 388f3a35-88ab-4c17-b911-ef743b26ab87
   kind: talk
@@ -1760,7 +1763,7 @@ Talks::Talk_c4554c01-65ff-4d67-8050-771c527618ae:
   description: |-
     ArangoDB is an open source NoSQL database which is not narrow-mindedly focused on horizontal scalability. Instead, ArangoDB aims to offer developers great flexibility and ease-of-use. The database is suitable for use cases which are difficult to implement with most traditional relational databases and also many of the other NoSQL databases.
 
-    I’m a member of the core team of the NoSQL database project ArangoDB where I work on the graph functionality, tools for the Ruby community to use the database and Foxx. Furthermore I contribute to various open source projects like hacken.in (http://hacken.in/) (an event calender for nerds in my hometown written in Rails) and projects related to ArangoDB. You can find me listening or speaking at our local usergroups for Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls.
+    I’m a member of the core team of the NoSQL database project ArangoDB where I work on the graph functionality, tools for the Ruby community to use the database and Foxx. Furthermore I contribute to various open source projects like hacken.in (<http://hacken.in/>) (an event calender for nerds in my hometown written in Rails) and projects related to ArangoDB. You can find me listening or speaking at our local usergroups for Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls.
   description_original: "ArangoDB is an open source NoSQL database which is not narrow-mindedly
     focused on horizontal scalability. Instead, ArangoDB aims to offer developers
     great flexibility and ease-of-use. The database is suitable for use cases which
@@ -1912,11 +1915,13 @@ Talks::Talk_d80ef2eb-a057-486d-af62-d5441713f3f0:
   id: d80ef2eb-a057-486d-af62-d5441713f3f0
   description: |-
     Hypermedia frameworks like htmx or Unpoly are positioning themselves as simpler alternatives to single-page applications. Yet many of us recall earlier server-rendered experiences as slow, cumbersome and limited. But just as modern React is unrecognizable from its early days, hypermedia frameworks have improved radically over the last decade. Today's server-rendered approaches effectively handle UI problems traditionally thought to require extensive client-side scripting. At the same time, hypermedia apps have some surprising limitations that you might not even have on your radar.
+
     This talk will help you decide whether adopting hypermedia makes sense for your project, especially if your experience is mostly with SPAs. We will address questions frontend developers typically have:
     - Is it possible to achieve the same responsiveness that users have come to expect from SPAs?
     - How would dynamic forms with dependent fields and inline validation work without extensive JavaScript?
     - Can server-side rendering manage intricate UI interactions, such as multi-step modals, optimistic rendering, and client-side state preservation?
     - Where does state go when I don't have components on the client?
+
     After ten years of building both hypermedia apps and SPAs, I'm eager to share what works and what doesn't. I hope that by the end of my talk you'll know all the trade-offs to decide when hypermedia can simplify your stack, and when an SPA remains the better fit.
   description_original: "Hypermedia frameworks like htmx or Unpoly are positioning
     themselves as simpler alternatives to single-page applications. Yet many of us
@@ -2019,7 +2024,7 @@ Talks::Talk_e703e70e-fce2-4fa6-a403-6de3a1f2096e:
 Talks::Talk_e750104f-7de3-4263-9d78-cf631835fb09:
   id: e750104f-7de3-4263-9d78-cf631835fb09
   description: |-
-    About our speaker
+    About our speaker\
     Oliver Prater is a Software Engineer at Xempus.
   description_original: "About our speaker\r\nOliver Prater is a Software Engineer
     at Xempus."
@@ -2033,7 +2038,7 @@ Talks::Talk_e750104f-7de3-4263-9d78-cf631835fb09:
   title: Reasoning about code and configuration
 Talks::Talk_e8c7cf35-a3d5-4bc9-b569-2442b2675f15:
   id: e8c7cf35-a3d5-4bc9-b569-2442b2675f15
-  description: A CMS (http://www.nanuq3.com) developed in Ruby on Rails.
+  description: A CMS (<http://www.nanuq3.com>) developed in Ruby on Rails.
   description_original: A CMS (http://www.nanuq3.com) developed in Ruby on Rails.
   events_event_id: 764df804-c67c-4803-84b3-4221968642fb
   kind: talk
@@ -2186,7 +2191,7 @@ Talks::Talk_fbe6a73f-c172-4cd8-919d-3f3e582e63b0:
   description: |-
     We've got Ruby 2 since some months, Ruby 2.1 just released, and a bunch of legacy code bases require some older Ruby versions... that can quickly become a mess. In this talk, I want to explore some part of the Ruby ecosystem that deals with infrastructure: Chef and Vagrant.
 
-    About the speaker: I am very much interested in all things Unix, and good OOP (often in Ruby). I am also impressed by the performance of Node.js, and new approaches for client-server architectures. I blog at http://thinkingonthinking.com and am working currently on a book "Developing Web Applications with Backbone.js".
+    About the speaker: I am very much interested in all things Unix, and good OOP (often in Ruby). I am also impressed by the performance of Node.js, and new approaches for client-server architectures. I blog at <http://thinkingonthinking.com> and am working currently on a book "Developing Web Applications with Backbone.js".
   description_original: "We've got Ruby 2 since some months, Ruby 2.1 just released,
     and a bunch of legacy code bases require some older Ruby versions... that can
     quickly become a mess. In this talk, I want to explore some part of the Ruby ecosystem
@@ -2216,8 +2221,8 @@ Talks::Talk_fdebb11d-a914-4ac8-8205-6517fd058022:
 Talks::Talk_fe721d00-3e78-485b-8223-b142327bfd41:
   id: fe721d00-3e78-485b-8223-b142327bfd41
   description: |-
-    About our speaker
-    Dmytro Khmelenko is a Software Engineer at Shopify. He's also the author of the book "Unlock the Code: The Ultimate Guide to Advancing from Junior to Senior Software Engineer in 7 Actionable Steps" (https://www.amazon.com/dp/B098LNMFCJ).
+    About our speaker\
+    Dmytro Khmelenko is a Software Engineer at Shopify. He's also the author of the book "Unlock the Code: The Ultimate Guide to Advancing from Junior to Senior Software Engineer in 7 Actionable Steps" (<https://www.amazon.com/dp/B098LNMFCJ>).
   description_original: "About our speaker\r\nDmytro Khmelenko is a Software Engineer
     at Shopify. He's also the author of the book \"Unlock the Code: The Ultimate Guide
     to Advancing from Junior to Senior Software Engineer in 7 Actionable Steps\" (https://www.amazon.com/dp/B098LNMFCJ)."
@@ -2232,7 +2237,7 @@ Talks::Talk_fe721d00-3e78-485b-8223-b142327bfd41:
 Talks::Talk_ffb09204-e934-4daa-8ef1-8e51ab98b613:
   id: ffb09204-e934-4daa-8ef1-8e51ab98b613
   description: |-
-    About our speaker
+    About our speaker\
     Khaled Muamar is a Senior Software Engineer at Freeletics.
   description_original: "About our speaker\r\nKhaled Muamar is a Senior Software Engineer
     at Freeletics."
