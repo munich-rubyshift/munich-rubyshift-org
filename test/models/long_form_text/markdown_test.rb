@@ -33,15 +33,17 @@ class LongFormText::MarkdownTest < ActiveSupport::TestCase
       "---" => "a horizontal rule (a line of ---, *** or ___) on line 1",
       "a <span>b</span>" => "HTML (write a literal < as \\<) on line 1",
       "![logo](https://example.com/logo.png)" => "an image on line 1",
-      "| a | b |\n|---|---|\n| 1 | 2 |" => "a table (lines with |) on line 1",
+      "Ruby | Rails" => "a table (write a literal | as \\|) on line 1",
       "Term\n: definition" => "a definition list (a line starting with :) on line 1",
       "Costs $$5$$" => "math (text between $$) on line 1",
       "Paragraph\n{: .class}" => "an attribute list ({: …}) on line 1",
       "Paragraph\n{: title=\"Title\"}" => "an attribute list ({: …}) on line 1",
       "### Deep" => "a heading below level 2 (###) on line 1",
       "[mail](mailto:a@example.com)" => "a link that isn't a valid http(s) URL on line 1",
-      "<https://example.com/­>" => "a link that isn't a valid http(s) URL on line 1",
-      "See\nhttps://example.com" => "a bare URL (write it as <https://…>) on line 1"
+      "<https://example.com/\u00AD>" => "a link that isn't a valid http(s) URL on line 1",
+      "[no host](https://)" => "a link that isn't a valid http(s) URL on line 1",
+      "See\nhttps://example.com" => "a bare URL (write it as <https://…>) on line 1",
+      "See HTTPS://example.com" => "a bare URL (write it as <https://…>) on line 1"
     }.each do |text, problem|
       assert_equal [ problem ], problems(text), text
     end

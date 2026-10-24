@@ -28,7 +28,7 @@ class LongFormText::Markdown
     html_element: "HTML (write a literal < as \\<)",
     img: "an image",
     math: "math (text between $$)",
-    table: "a table (lines with |)",
+    table: "a table (write a literal | as \\|)",
     xml_comment: "an HTML comment"
   }.freeze
 
@@ -38,10 +38,10 @@ class LongFormText::Markdown
 
   # Each problem names what isn't allowed, and where it can, on which line.
   def problems
-    problems = problems_in(@document.root)
+    found = problems_in(@document.root)
     # kramdown applies them to the whole text, and keeps them out of its tree.
-    problems << "kramdown options ({::options …})" if @document.root.options[:options].any?
-    problems.uniq
+    found << "kramdown options ({::options …})" if @document.root.options[:options].any?
+    found.uniq
   end
 
   def to_html
@@ -67,14 +67,15 @@ class LongFormText::Markdown
       "a heading below level #{MAX_HEADING_LEVEL} (###)"
     elsif element.type == :a && !web_url?(element.attr["href"])
       "a link that isn't a valid http(s) URL"
-    elsif element.type == :text && !in_link && element.value.match?(%r{https?://})
+    elsif element.type == :text && !in_link && element.value.match?(%r{https?://}i)
       "a bare URL (write it as <https://…>)"
     end
   end
 
   # Parklife's crawler parses every link of a page too, and would stop at an invalid one.
   def web_url?(href)
-    URI.parse(href).is_a?(URI::HTTP)
+    uri = URI.parse(href)
+    uri.is_a?(URI::HTTP) && uri.host.present?
   rescue URI::InvalidURIError
     false
   end
