@@ -18,6 +18,9 @@ class LongFormText::Markdown
 
   MAX_HEADING_LEVEL = 2
 
+  # The HTML that the allowed elements render to, with "#" and "##" as <h2> and <h3>.
+  TAGS = %w[p br a strong em code ul ol li h2 h3].freeze
+
   # How an author most likely typed an element we don't allow.
   FORBIDDEN = {
     blockquote: "a block quote (a line starting with >)",

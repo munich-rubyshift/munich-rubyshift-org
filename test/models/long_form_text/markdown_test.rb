@@ -58,10 +58,10 @@ class LongFormText::MarkdownTest < ActiveSupport::TestCase
       problems("http://a.example and http://b.example\n\nhttp://c.example")
   end
 
-  test "renders headings below the page's own, single line breaks as spaces, and characters as typed" do
-    html = LongFormText::Markdown.new("# Agenda\n\n## Talk 1\n\n\"Quoted\" -- and...\nwrapped").to_html
+  test "renders headings below the page's own, line breaks only after a backslash, and characters as typed" do
+    html = LongFormText::Markdown.new("# Agenda\n\n## Talk 1\n\n\"Quoted\" -- and...\nwrapped\\\nbroken").to_html
 
-    assert_equal "<h2>Agenda</h2>\n\n<h3>Talk 1</h3>\n\n<p>\"Quoted\" -- and...\nwrapped</p>\n", html
+    assert_equal "<h2>Agenda</h2>\n\n<h3>Talk 1</h3>\n\n<p>\"Quoted\" -- and...\nwrapped<br />\nbroken</p>\n", html
   end
 
   private
