@@ -3,8 +3,12 @@ Events::Event_01839f7a-6117-4811-97fa-bb15c798556d:
   id: '01839f7a-6117-4811-97fa-bb15c798556d'
   attendance_mode: in_person
   date_precision: day
-  description: "# Talks\r\n\r\nMarina - Testing database migrations with snapshots\r\n\r\nMichael
-    - Docker based development environments at Experteer"
+  description: |-
+    # Talks
+
+    Marina - Testing database migrations with snapshots
+
+    Michael - Docker based development environments at Experteer
   description_original: "# Talks\r\n\r\nMarina - Testing database migrations with
     snapshots\r\n\r\nMichael - Docker based development environments at Experteer"
   end_date: '2017-03-08'
@@ -30,28 +34,33 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
   id: 05de9889-ca65-4996-a339-09b05a9097fd
   attendance_mode: in_person
   date_precision: day
-  description: "This time we will have again very interesting speakers and topics.\r\nWe
-    sincerly hopy you will join us for this cool event.\r\n\r\nIntroduction to ArangoDB\r\n\r\nArangoDB
-    is an open source NoSQL database which is not narrow-mindedly focused on horizontal
-    scalability. Instead, ArangoDB aims to offer developers great flexibility and
-    ease-of-use. The database is suitable for use cases which are difficult to implement
-    with most traditional relational databases and also many of the other NoSQL databases.\r\n\r\nBy
-    Lucas Dohmen @moonbeamlabs\r\n\r\nI’m a member of the core team of the NoSQL database
-    project ArangoDB where I work on the graph functionality, tools for the Ruby community
-    to use the database and Foxx. Furthermore I contribute to various open source
-    projects like hacken.in (http://hacken.in/) (an event calender for nerds in my
-    hometown written in Rails) and projects related to ArangoDB. You can find me listening
-    or speaking at our local usergroups for Ruby, JavaScript, NoSQL and (as a coach
-    for) Rails Girls.\r\n\r\nHow to look like a model: MongoDB for Rails projects\r\n\r\nThis
-    talk covers main concepts of document-oriented data model, pros and contras considering
-    MongoDB and how to use this database together with Ruby-on-Rails\r\n\r\nBy Anna
-    Bulenkova @povergo\r\n\r\nI've been working at JetBrains for almost 5 years for
-    now and during all this time I've been involved in development of Ruby-on-Rails
-    IDE. The main goal of our team is to help Ruby programmers code more effective
-    and improve the quality of code.\r\n\r\nPUT Knowledge BUCKET Brain KEY Riak\r\n\r\nA
-    introduction and a demo to Riak and its Ruby bindings.\r\n\r\nPhillipp Fehre @ischi\r\n\r\nPhil
-    is your local and friendly ruby and javascript coder, working for his company
-    Cospired."
+  description: |-
+    This time we will have again very interesting speakers and topics.
+    We sincerly hopy you will join us for this cool event.
+
+    Introduction to ArangoDB
+
+    ArangoDB is an open source NoSQL database which is not narrow-mindedly focused on horizontal scalability. Instead, ArangoDB aims to offer developers great flexibility and ease-of-use. The database is suitable for use cases which are difficult to implement with most traditional relational databases and also many of the other NoSQL databases.
+
+    By Lucas Dohmen @moonbeamlabs
+
+    I’m a member of the core team of the NoSQL database project ArangoDB where I work on the graph functionality, tools for the Ruby community to use the database and Foxx. Furthermore I contribute to various open source projects like hacken.in (http://hacken.in/) (an event calender for nerds in my hometown written in Rails) and projects related to ArangoDB. You can find me listening or speaking at our local usergroups for Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls.
+
+    How to look like a model: MongoDB for Rails projects
+
+    This talk covers main concepts of document-oriented data model, pros and contras considering MongoDB and how to use this database together with Ruby-on-Rails
+
+    By Anna Bulenkova @povergo
+
+    I've been working at JetBrains for almost 5 years for now and during all this time I've been involved in development of Ruby-on-Rails IDE. The main goal of our team is to help Ruby programmers code more effective and improve the quality of code.
+
+    PUT Knowledge BUCKET Brain KEY Riak
+
+    A introduction and a demo to Riak and its Ruby bindings.
+
+    Phillipp Fehre @ischi
+
+    Phil is your local and friendly ruby and javascript coder, working for his company Cospired.
   description_original: "This time we will have again very interesting speakers and
     topics.\r\nWe sincerly hopy you will join us for this cool event.\r\n\r\nIntroduction
     to ArangoDB\r\n\r\nArangoDB is an open source NoSQL database which is not narrow-mindedly
@@ -98,8 +107,8 @@ Events::Event_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
   id: 0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6
   attendance_mode: in_person
   date_precision: day
-  description: "\U0001F3A4 Pavlo – To Rails or not to Rails? Way to go\r\n\r\nOne
-    slot is still open. Got a talk prepared? Talk to us!"
+  description: "\U0001F3A4 Pavlo – To Rails or not to Rails? Way to go\n\nOne slot
+    is still open. Got a talk prepared? Talk to us!"
   description_original: "\U0001F3A4 Pavlo – To Rails or not to Rails? Way to go\r\n\r\nOne
     slot is still open. Got a talk prepared? Talk to us!"
   end_date: '2019-11-13'
@@ -125,24 +134,39 @@ Events::Event_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
   id: 0ca4de01-0994-4c1f-a277-68b7edd8a87a
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nI wish you all happy 2025 -- I hope you're
-    having great holidays with your loved ones!\r\n\r\nAfter a rather slow year 2024
-    in terms of meetups, let's revive this in 2025, shall we? :-)\r\n\r\nLike last
-    year, our friends from Freeletics have agreed to host the first meetup of the
-    new year with location and snacks & drinks. They'll also have a talk lined up
-    and you'll find the speaker and topic as soon as it's finalized here in the event
-    notes. If you're up for a talk yourself, let me know -- there's always room for
-    a second one, especially after the longer break that we just had!\r\n\r\nAt this
-    time, I'm also still looking for 1-2 talks. Maybe from you? ;-) Get in touch!\r\n\r\nDATE
-    & LOCATION\r\n\r\nDate and Time: January 16, from 19:00 CEST\r\nLocation: Freeletics
-    GmbH, Berg-Am-Laim-Strasse 111, 81673 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome
-    & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Talk 1 incl.
-    Q&A: \"How a 502 Error led us to cut resource usage by over 30%\", Khaled Muamar,
-    Senior Software Engineer @ Freeletics\r\n    Talk 2 incl. Q&A: TBD\r\n    Food
-    & Drinks (sponsored by Freeltics), Socializing (open end/as long as the location
-    permits)\r\n\r\nTALKS\r\n\r\nTalk 1: How a 502 Error led us to cut resource usage
-    by over 30%\r\nAbout our speaker\r\nKhaled Muamar is a Senior Software Engineer
-    at Freeletics.\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou? ;-)"
+  description: |-
+    Dear Munich Rubyists,
+
+    I wish you all happy 2025 -- I hope you're having great holidays with your loved ones!
+
+    After a rather slow year 2024 in terms of meetups, let's revive this in 2025, shall we? :-)
+
+    Like last year, our friends from Freeletics have agreed to host the first meetup of the new year with location and snacks & drinks. They'll also have a talk lined up and you'll find the speaker and topic as soon as it's finalized here in the event notes. If you're up for a talk yourself, let me know -- there's always room for a second one, especially after the longer break that we just had!
+
+    At this time, I'm also still looking for 1-2 talks. Maybe from you? ;-) Get in touch!
+
+    DATE & LOCATION
+
+    Date and Time: January 16, from 19:00 CEST
+    Location: Freeletics GmbH, Berg-Am-Laim-Strasse 111, 81673 Munich
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Talk 1 incl. Q&A: "How a 502 Error led us to cut resource usage by over 30%", Khaled Muamar, Senior Software Engineer @ Freeletics
+        Talk 2 incl. Q&A: TBD
+        Food & Drinks (sponsored by Freeltics), Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: How a 502 Error led us to cut resource usage by over 30%
+    About our speaker
+    Khaled Muamar is a Senior Software Engineer at Freeletics.
+
+    Talk 2: TBD
+    About our speaker
+    You? ;-)
   description_original: "Dear Munich Rubyists,\r\n\r\nI wish you all happy 2025 --
     I hope you're having great holidays with your loved ones!\r\n\r\nAfter a rather
     slow year 2024 in terms of meetups, let's revive this in 2025, shall we? :-)\r\n\r\nLike
@@ -184,8 +208,10 @@ Events::Event_11b7a50f-1889-41e6-91bc-53d19cd66d70:
   id: 11b7a50f-1889-41e6-91bc-53d19cd66d70
   attendance_mode: in_person
   date_precision: day
-  description: "Mario Fernández – TDD for Containers with ServerSpec\r\n\r\nThere
-    is one talk slot left. Want to prepare a talk? Let us know!"
+  description: |-
+    Mario Fernández – TDD for Containers with ServerSpec
+
+    There is one talk slot left. Want to prepare a talk? Let us know!
   description_original: "Mario Fernández – TDD for Containers with ServerSpec\r\n\r\nThere
     is one talk slot left. Want to prepare a talk? Let us know!"
   end_date: '2018-05-09'
@@ -211,9 +237,14 @@ Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
   id: 137da0d0-aa0f-4fc0-84de-933aae3c47de
   attendance_mode: in_person
   date_precision: day
-  description: "Join us for our February Meetup!\r\n\r\nWe have\r\n\r\n• Marco Otte-Witte:
-    Rails backends with Ember.js front ends\r\n\r\n... and we could use another 1
-    or 2 talks :-)"
+  description: |-
+    Join us for our February Meetup!
+
+    We have
+
+    • Marco Otte-Witte: Rails backends with Ember.js front ends
+
+    ... and we could use another 1 or 2 talks :-)
   description_original: "Join us for our February Meetup!\r\n\r\nWe have\r\n\r\n•
     Marco Otte-Witte: Rails backends with Ember.js front ends\r\n\r\n... and we could
     use another 1 or 2 talks :-)"
@@ -240,10 +271,15 @@ Events::Event_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
   id: 13cf2eb5-4055-4ae5-be56-c18eb875f5bc
   attendance_mode: in_person
   date_precision: day
-  description: "We have a full line up planned for this meetup, so: buckle up!\r\n\r\nTalks:\r\n\r\n×
-    Marina Petrova – One App Fits All: Single vs. Multi Tenancy\r\n× Lucas Dohmen
-    – Halunke, or: How and why I built a programming language\r\n\r\nPizza and drinks
-    are taken care of. Doors at 7pm. We're looking forward to y'all!"
+  description: |-
+    We have a full line up planned for this meetup, so: buckle up!
+
+    Talks:
+
+    × Marina Petrova – One App Fits All: Single vs. Multi Tenancy
+    × Lucas Dohmen – Halunke, or: How and why I built a programming language
+
+    Pizza and drinks are taken care of. Doors at 7pm. We're looking forward to y'all!
   description_original: "We have a full line up planned for this meetup, so: buckle
     up!\r\n\r\nTalks:\r\n\r\n× Marina Petrova – One App Fits All: Single vs. Multi
     Tenancy\r\n× Lucas Dohmen – Halunke, or: How and why I built a programming language\r\n\r\nPizza
@@ -271,8 +307,12 @@ Events::Event_1573831b-d7d7-497c-b0b0-74772ea7a891:
   id: 1573831b-d7d7-497c-b0b0-74772ea7a891
   attendance_mode: in_person
   date_precision: day
-  description: "Mario Fernandez - Ruby on Rails in mid-sized companies\r\n\r\nJason
-    Franklin - TBD\r\n\r\nCarsten - Asset Pipeline and modern Frontend Development"
+  description: |-
+    Mario Fernandez - Ruby on Rails in mid-sized companies
+
+    Jason Franklin - TBD
+
+    Carsten - Asset Pipeline and modern Frontend Development
   description_original: "Mario Fernandez - Ruby on Rails in mid-sized companies\r\n\r\nJason
     Franklin - TBD\r\n\r\nCarsten - Asset Pipeline and modern Frontend Development"
   end_date: '2016-02-10'
@@ -298,8 +338,12 @@ Events::Event_159e036d-87af-4d9b-bbc4-a2adf07f48e1:
   id: 159e036d-87af-4d9b-bbc4-a2adf07f48e1
   attendance_mode: in_person
   date_precision: day
-  description: "Talks:\r\n\r\nJames Edward Gray II : Objects, no really.\r\n\r\nPeter
-    Schrammel: After 10 years of ruby"
+  description: |-
+    Talks:
+
+    James Edward Gray II : Objects, no really.
+
+    Peter Schrammel: After 10 years of ruby
   description_original: "Talks:\r\n\r\nJames Edward Gray II : Objects, no really.\r\n\r\nPeter
     Schrammel: After 10 years of ruby"
   end_date: '2015-07-22'
@@ -325,8 +369,10 @@ Events::Event_1bd4fee4-ef7b-4050-9932-c657a72151c5:
   id: 1bd4fee4-ef7b-4050-9932-c657a72151c5
   attendance_mode: in_person
   date_precision: day
-  description: "Florian Gilcher: »Not Omakase – Padrino«\r\n\r\nPeter Schrammel: MRuby
-    - a short introduction"
+  description: |-
+    Florian Gilcher: »Not Omakase – Padrino«
+
+    Peter Schrammel: MRuby - a short introduction
   description_original: "Florian Gilcher: »Not Omakase – Padrino«\r\n\r\nPeter Schrammel:
     MRuby - a short introduction"
   end_date: '2016-01-13'
@@ -352,9 +398,12 @@ Events::Event_1cbe4b7d-9dca-4673-a7f0-7d7133a213f7:
   id: 1cbe4b7d-9dca-4673-a7f0-7d7133a213f7
   attendance_mode: in_person
   date_precision: day
-  description: "Monica – Off the Rails: alternatives in the wild\r\n\r\nPeter – Building
-    an Agent Framework\r\n\r\nWe're actively searching for speakers! Want to become
-    one? Ping us!"
+  description: |-
+    Monica – Off the Rails: alternatives in the wild
+
+    Peter – Building an Agent Framework
+
+    We're actively searching for speakers! Want to become one? Ping us!
   description_original: "Monica – Off the Rails: alternatives in the wild\r\n\r\nPeter
     – Building an Agent Framework\r\n\r\nWe're actively searching for speakers! Want
     to become one? Ping us!"
@@ -381,12 +430,14 @@ Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
   id: 1d63997d-ac93-4cfb-8046-ebed6b6dec89
   attendance_mode: in_person
   date_precision: day
-  description: "We're looking for more speakers for the July Meetup!\r\n\r\n• NEW
-    Jakub Nieznalski (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/111527782/)
-    on TDD and code quality.\r\n\r\n• You can win a year's subsciption to @LinuxMagazin
-    (https://twitter.com/linuxmagazin) (German or English edition)!\r\n\r\n• CANCELLED
-    robertj (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/76890822/)
-    will talk about the deployment tool Capistrano 3"
+  description: |-
+    We're looking for more speakers for the July Meetup!
+
+    • NEW Jakub Nieznalski (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/111527782/) on TDD and code quality.
+
+    • You can win a year's subsciption to @LinuxMagazin (https://twitter.com/linuxmagazin) (German or English edition)!
+
+    • CANCELLED robertj (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/76890822/) will talk about the deployment tool Capistrano 3
   description_original: "We're looking for more speakers for the July Meetup!\r\n\r\n•
     NEW Jakub Nieznalski (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/111527782/)
     on TDD and code quality.\r\n\r\n• You can win a year's subsciption to @LinuxMagazin
@@ -416,8 +467,10 @@ Events::Event_24295c0d-0811-42c4-a837-68311abd1a63:
   id: 24295c0d-0811-42c4-a837-68311abd1a63
   attendance_mode: in_person
   date_precision: day
-  description: "• Omar Qunsul – Using Database replicas in Rails using octopus gem\r\n\r\n•
-    Hendrik – Exploring web functionality and APIs interactively with pry/REPL"
+  description: |-
+    • Omar Qunsul – Using Database replicas in Rails using octopus gem
+
+    • Hendrik – Exploring web functionality and APIs interactively with pry/REPL
   description_original: "• Omar Qunsul – Using Database replicas in Rails using octopus
     gem\r\n\r\n• Hendrik – Exploring web functionality and APIs interactively with
     pry/REPL"
@@ -444,7 +497,6 @@ Events::Event_26873fee-6a38-4179-8b79-b800be48163d:
   id: 26873fee-6a38-4179-8b79-b800be48163d
   attendance_mode: in_person
   date_precision: day
-  description: ''
   end_date: '2013-11-30'
   end_time: '2000-01-01 14:00:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
@@ -467,10 +519,14 @@ Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
   id: 2a94bfd1-b358-439f-81ea-c5f6a4075d8e
   attendance_mode: in_person
   date_precision: day
-  description: "It's not Rails all the way down. We will have Ben Bachhuber over who
-    will talk about:\r\n\r\n· Hanami in production - One year later\r\n\r\nIn our
-    second talk Niko will take us on a journey through JavaScript land with his talk:\r\n\r\n·
-    learnings.js - Concepts and Architectural Insights from FrontEnd JavaScript Frameworks."
+  description: |-
+    It's not Rails all the way down. We will have Ben Bachhuber over who will talk about:
+
+    · Hanami in production - One year later
+
+    In our second talk Niko will take us on a journey through JavaScript land with his talk:
+
+    · learnings.js - Concepts and Architectural Insights from FrontEnd JavaScript Frameworks.
   description_original: "It's not Rails all the way down. We will have Ben Bachhuber
     over who will talk about:\r\n\r\n· Hanami in production - One year later\r\n\r\nIn
     our second talk Niko will take us on a journey through JavaScript land with his
@@ -499,27 +555,37 @@ Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
   id: 31dfb46b-8e9e-4941-92e9-d429d53f6eaa
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nthe year is coming to an end – which
-    means, it's almost time for the first Meetup of 2024!\r\n\r\nJust like in 2023,
-    our friends from Freeletics will be the hosts of the year's frist meetup! One
-    of the talks will be given by yours truly -- I'll talk about simplifying our overall
-    backend/frontend setups using InertiaJS. The 2nd talk is currently TBD -- we might
-    have one from our hosts themselves, but if you do have something ready to go,
-    please get in touch. :-)\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: January
-    11, from 19:00 CEST\r\nLocation: Freeletics GmbH, Berg-Am-Laim-Strasse 111, 81673
-    Munich\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n    Location/Food &
-    Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: Clemens Kofler: \"Inertia -- The
-    healthy middleground between a Rails Monolith and a Single Page Application?\"\r\n
-    \   Break\r\n    Talk 2 incl. Q&A: Khaled Muamar: \"Intuitive Client Errors Driven
-    by Backend\"\r\n    Food & Drinks (sponsored by Freeletics), Socializing (open
-    end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: \"Inertia --
-    The healthy middleground between a Rails Monolith and a Single Page Application?\"\r\nCan
-    we strike a balance between the simplicity of a Rails Monolith and the flexibility
-    that a Single Page Application? And can we do so while keeping both Backend Rubyists
-    and Frontend React/Vue people reasonably happy? Let's find out together.\r\nAbout
-    our speaker\r\nClemens Kofler is a Director of Engineering at DataGuard.\r\n\r\nTalk
-    2: \"Intuitive Client Errors Driven by Backend\"\r\nAbout our speaker\r\nKhaled
-    Muamar is a Backend Engineer at Freeletics."
+  description: |-
+    Dear Munich Rubyists,
+
+    the year is coming to an end – which means, it's almost time for the first Meetup of 2024!
+
+    Just like in 2023, our friends from Freeletics will be the hosts of the year's frist meetup! One of the talks will be given by yours truly -- I'll talk about simplifying our overall backend/frontend setups using InertiaJS. The 2nd talk is currently TBD -- we might have one from our hosts themselves, but if you do have something ready to go, please get in touch. :-)
+
+    DATE & LOCATION
+
+    Date and Time: January 11, from 19:00 CEST
+    Location: Freeletics GmbH, Berg-Am-Laim-Strasse 111, 81673 Munich
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Talk 1 incl. Q&A: Clemens Kofler: "Inertia -- The healthy middleground between a Rails Monolith and a Single Page Application?"
+        Break
+        Talk 2 incl. Q&A: Khaled Muamar: "Intuitive Client Errors Driven by Backend"
+        Food & Drinks (sponsored by Freeletics), Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: "Inertia -- The healthy middleground between a Rails Monolith and a Single Page Application?"
+    Can we strike a balance between the simplicity of a Rails Monolith and the flexibility that a Single Page Application? And can we do so while keeping both Backend Rubyists and Frontend React/Vue people reasonably happy? Let's find out together.
+    About our speaker
+    Clemens Kofler is a Director of Engineering at DataGuard.
+
+    Talk 2: "Intuitive Client Errors Driven by Backend"
+    About our speaker
+    Khaled Muamar is a Backend Engineer at Freeletics.
   description_original: "Dear Munich Rubyists,\r\n\r\nthe year is coming to an end
     – which means, it's almost time for the first Meetup of 2024!\r\n\r\nJust like
     in 2023, our friends from Freeletics will be the hosts of the year's frist meetup!
@@ -564,9 +630,9 @@ Events::Event_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
   id: 373c99ee-c1f2-4550-8e54-3575fa1c14cc
   attendance_mode: in_person
   date_precision: day
-  description: "Two talks lined up for Wednesday:\r\n\r\n\U0001F3A4 Marina: Keep calm
-    and monitor your app with Elastic Stack APM\r\n\U0001F3A4 Austin: Our Kafka Journey
-    – Lessons learned Pt. II\r\n\r\nThere will be Pizza and drinks."
+  description: "Two talks lined up for Wednesday:\n\n\U0001F3A4 Marina: Keep calm
+    and monitor your app with Elastic Stack APM\n\U0001F3A4 Austin: Our Kafka Journey
+    – Lessons learned Pt. II\n\nThere will be Pizza and drinks."
   description_original: "Two talks lined up for Wednesday:\r\n\r\n\U0001F3A4 Marina:
     Keep calm and monitor your app with Elastic Stack APM\r\n\U0001F3A4 Austin: Our
     Kafka Journey – Lessons learned Pt. II\r\n\r\nThere will be Pizza and drinks."
@@ -593,19 +659,20 @@ Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
   id: 382bfc98-b62a-479c-882b-d8bc3beadfae
   attendance_mode: in_person
   date_precision: day
-  description: "Hi,\r\n\r\nwe have again assembled wonderful speakers and topics -\r\nplease
-    join us and have fun together.\r\n\r\n'Fast and furious. Slow and functional'
-    Anna BulenkovaHow Anna benchmarked declarative and imperative solutions in Ruby.\r\n\r\nJRuby:
-    the business perspectiveLeif GensertJRuby is often portrayed as the Ruby with
-    brilliant Garbage Collection and native threads but poor startup time and large
-    memory overhead. But how can JRuby really help you in a project, especially when
-    you deal with large corporations that live in the Java world.\r\n\r\nDesign Patterns
-    - A Ruby PerspectiveMathias Huber\r\nI'll give a digest of Russ Olsen's 2007 book
-    \"Design Patterns in Ruby\". It applies 14 of the 23 \"Gang of Four\" patterns
-    to Ruby and suggests 3 additional Ruby-specific patterns. In the discussion part
-    you are invited to talk about your favourite pattern or your least favourite pattern,
-    antipatterns, enterprise patterns, maybe why you don't like patterns ...\r\n\r\nciao
-    robertj & alex"
+  description: |-
+    Hi,
+
+    we have again assembled wonderful speakers and topics -
+    please join us and have fun together.
+
+    'Fast and furious. Slow and functional' Anna BulenkovaHow Anna benchmarked declarative and imperative solutions in Ruby.
+
+    JRuby: the business perspectiveLeif GensertJRuby is often portrayed as the Ruby with brilliant Garbage Collection and native threads but poor startup time and large memory overhead. But how can JRuby really help you in a project, especially when you deal with large corporations that live in the Java world.
+
+    Design Patterns - A Ruby PerspectiveMathias Huber
+    I'll give a digest of Russ Olsen's 2007 book "Design Patterns in Ruby". It applies 14 of the 23 "Gang of Four" patterns to Ruby and suggests 3 additional Ruby-specific patterns. In the discussion part you are invited to talk about your favourite pattern or your least favourite pattern, antipatterns, enterprise patterns, maybe why you don't like patterns ...
+
+    ciao robertj & alex
   description_original: "Hi,\r\n\r\nwe have again assembled wonderful speakers and
     topics -\r\nplease join us and have fun together.\r\n\r\n'Fast and furious. Slow
     and functional' Anna BulenkovaHow Anna benchmarked declarative and imperative
@@ -642,9 +709,11 @@ Events::Event_388f3a35-88ab-4c17-b911-ef743b26ab87:
   id: 388f3a35-88ab-4c17-b911-ef743b26ab87
   attendance_mode: in_person
   date_precision: day
-  description: "We will have a Database themed meetup, with:\r\n\r\n    Marius Nünnerich
-    – Introducing CockroachDB & TiDB\r\n    Omar Qunsul - Adding Graphs to Redis We're
-    always searching for speakers! Want to speak at our December meetup? Let us know.\r\n"
+  description: |-
+    We will have a Database themed meetup, with:
+
+        Marius Nünnerich – Introducing CockroachDB & TiDB
+        Omar Qunsul - Adding Graphs to Redis We're always searching for speakers! Want to speak at our December meetup? Let us know.
   description_original: "We will have a Database themed meetup, with:\r\n\r\n    Marius
     Nünnerich – Introducing CockroachDB & TiDB\r\n    Omar Qunsul - Adding Graphs
     to Redis We're always searching for speakers! Want to speak at our December meetup?
@@ -672,23 +741,42 @@ Events::Event_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
   id: 38fe34a2-f5c1-46a4-92dc-29a27d80ff96
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nthe leaves are turning brown again, so
-    it's high time for this year's November edition of our meetup!\r\n\r\nThis time,
-    or friends from Xempus will be our hosts for location, food & drinks again. They'll
-    also have their own Oliver Prater share their experiences about migrating from
-    a single to multi tenant app.\r\n\r\nI'm also looking for an optional 2nd speaker
-    to give a short(er) talk in addition to the main talk => let me know if you're
-    interested or know someone who might be interested.\r\n\r\nDATE & LOCATION\r\n\r\nDate
-    and Time: November 9, from 19:00 CEST (doors open; talks start at 19:30)\r\n\r\nLocation:
-    Xempus AG, Arnulfstrasse 126, 80636 Munich, Germany\r\n\r\nAGENDA\r\n\r\n    Welcome
-    & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Food & Drinks
-    (sponsored by Xempus)\r\n    Talk 1 incl. Q&A: Using Multiple Databases for Data
-    Migrations (Oliver Prater, Xempus)\r\n    Break\r\n    Talk 2 incl. Q&A: TBD\r\n
-    \   Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
-    1: Oliver Prater: Using Multiple Databases for Data Migrations\r\nHow we used
-    Active Record with multiple databases to migrate a single-tenant application to
-    a multi-tenant world.\r\nAbout our speaker\r\nOliver Prater is a Software Engineer
-    at Xempus.\r\n\r\nTalk 2: TBD\r\n\r\nAbout our speaker\r\nYou? :-)"
+  description: |-
+    Dear Munich Rubyists,
+
+    the leaves are turning brown again, so it's high time for this year's November edition of our meetup!
+
+    This time, or friends from Xempus will be our hosts for location, food & drinks again. They'll also have their own Oliver Prater share their experiences about migrating from a single to multi tenant app.
+
+    I'm also looking for an optional 2nd speaker to give a short(er) talk in addition to the main talk => let me know if you're interested or know someone who might be interested.
+
+    DATE & LOCATION
+
+    Date and Time: November 9, from 19:00 CEST (doors open; talks start at 19:30)
+
+    Location: Xempus AG, Arnulfstrasse 126, 80636 Munich, Germany
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Food & Drinks (sponsored by Xempus)
+        Talk 1 incl. Q&A: Using Multiple Databases for Data Migrations (Oliver Prater, Xempus)
+        Break
+        Talk 2 incl. Q&A: TBD
+        Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: Oliver Prater: Using Multiple Databases for Data Migrations
+    How we used Active Record with multiple databases to migrate a single-tenant application to a multi-tenant world.
+    About our speaker
+    Oliver Prater is a Software Engineer at Xempus.
+
+    Talk 2: TBD
+
+    About our speaker
+    You? :-)
   description_original: "Dear Munich Rubyists,\r\n\r\nthe leaves are turning brown
     again, so it's high time for this year's November edition of our meetup!\r\n\r\nThis
     time, or friends from Xempus will be our hosts for location, food & drinks again.
@@ -729,10 +817,12 @@ Events::Event_39f6c39c-523a-4f7e-bbae-54ef7574250b:
   id: 39f6c39c-523a-4f7e-bbae-54ef7574250b
   attendance_mode: in_person
   date_precision: day
-  description: "• Sebastian Cohnen (StormForger) - Load Testing with 1,000,000 Users\r\n\r\n•
-    Jannis Hübl - Measure your side project web-performance without spending shit**loads
-    of money\r\n\r\nWe're always searching for speakers! Want to give a talk at our
-    next meetup? Comment below or send a message to Bascht (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/)!"
+  description: |-
+    • Sebastian Cohnen (StormForger) - Load Testing with 1,000,000 Users
+
+    • Jannis Hübl - Measure your side project web-performance without spending shit**loads of money
+
+    We're always searching for speakers! Want to give a talk at our next meetup? Comment below or send a message to Bascht (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/)!
   description_original: "• Sebastian Cohnen (StormForger) - Load Testing with 1,000,000
     Users\r\n\r\n• Jannis Hübl - Measure your side project web-performance without
     spending shit**loads of money\r\n\r\nWe're always searching for speakers! Want
@@ -760,8 +850,12 @@ Events::Event_3b6374f6-81eb-4da7-9e6b-ab99549b69db:
   id: 3b6374f6-81eb-4da7-9e6b-ab99549b69db
   attendance_mode: in_person
   date_precision: day
-  description: "C. Eigel: Metaprogramming in Ruby\r\n\r\nSebastian Schulze : Padrino
-    and Ruby News of the Week\r\n\r\nPeter Schrammel: ActionCable"
+  description: |-
+    C. Eigel: Metaprogramming in Ruby
+
+    Sebastian Schulze : Padrino and Ruby News of the Week
+
+    Peter Schrammel: ActionCable
   description_original: "C. Eigel: Metaprogramming in Ruby\r\n\r\nSebastian Schulze
     : Padrino and Ruby News of the Week\r\n\r\nPeter Schrammel: ActionCable"
   end_date: '2015-11-11'
@@ -787,9 +881,9 @@ Events::Event_3c718b66-d23e-48d4-bc5f-a8430392ca94:
   id: 3c718b66-d23e-48d4-bc5f-a8430392ca94
   attendance_mode: in_person
   date_precision: day
-  description: "August will be our traditional Beergarden Meetup!\r\nWe will meet
-    at Park Café Sophienstraße – everybody is welcome. Rest assured, the beer garden
-    will also serve pretty tasty non-alcoholic beverages!"
+  description: |-
+    August will be our traditional Beergarden Meetup!
+    We will meet at Park Café Sophienstraße – everybody is welcome. Rest assured, the beer garden will also serve pretty tasty non-alcoholic beverages!
   description_original: "August will be our traditional Beergarden Meetup!\r\nWe will
     meet at Park Café Sophienstraße – everybody is welcome. Rest assured, the beer
     garden will also serve pretty tasty non-alcoholic beverages!"
@@ -816,10 +910,16 @@ Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
   id: 3da697ff-0994-4966-a445-1d2b0bfa0a55
   attendance_mode: in_person
   date_precision: day
-  description: "Join us for our December Meetup @experteer!\r\n\r\n• \"Onboarding
-    new developers successfully\" with Ilya Krasnov\r\n\r\n• \"Logging - it seems
-    so simple\" with Peter Schrammel\r\n\r\n• \"2014 in Ruby\" with MathiasH\r\n\r\n•
-    making plans for 2015 with everybody"
+  description: |-
+    Join us for our December Meetup @experteer!
+
+    • "Onboarding new developers successfully" with Ilya Krasnov
+
+    • "Logging - it seems so simple" with Peter Schrammel
+
+    • "2014 in Ruby" with MathiasH
+
+    • making plans for 2015 with everybody
   description_original: "Join us for our December Meetup @experteer!\r\n\r\n• \"Onboarding
     new developers successfully\" with Ilya Krasnov\r\n\r\n• \"Logging - it seems
     so simple\" with Peter Schrammel\r\n\r\n• \"2014 in Ruby\" with MathiasH\r\n\r\n•
@@ -847,9 +947,16 @@ Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
   id: 4078ef3a-7555-429d-9a49-2d7a0fb65e01
   attendance_mode: in_person
   date_precision: day
-  description: "# Talks:\r\n\r\nVishnu – Alexa on Rails\r\n\r\nDmitry Kulikov – RSpec
-    vs. Tests\r\n\r\nThere will be Drinks and Pizza, courtesy of Experteer! <3\r\n\r\nGot
-    an idea for a talk? Let us know!"
+  description: |-
+    # Talks:
+
+    Vishnu – Alexa on Rails
+
+    Dmitry Kulikov – RSpec vs. Tests
+
+    There will be Drinks and Pizza, courtesy of Experteer! <3
+
+    Got an idea for a talk? Let us know!
   description_original: "# Talks:\r\n\r\nVishnu – Alexa on Rails\r\n\r\nDmitry Kulikov
     – RSpec vs. Tests\r\n\r\nThere will be Drinks and Pizza, courtesy of Experteer!
     <3\r\n\r\nGot an idea for a talk? Let us know!"
@@ -901,13 +1008,18 @@ Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
   id: 4b2f97a8-d845-475d-8fea-b1f796ab99ad
   attendance_mode: in_person
   date_precision: day
-  description: "Join us for our May Meetup at the Experteer office!\r\n\r\n(please
-    make your way to the 5th floor!)\r\n\r\n• MathiasH will briefly introduce us to
-    http://ResetTheNet.org\r\n\r\n• This would be a good opportunity to talk about
-    anything related to crypto and privacy.\r\n\r\n• We're still looking for further
-    speakers, don't be shy :-)\r\n\r\n• Furthermore, you are invited to bring your
-    favourite Ruby or programming book and tell us a bit about it. Let's have a little
-    book club session!"
+  description: |-
+    Join us for our May Meetup at the Experteer office!
+
+    (please make your way to the 5th floor!)
+
+    • MathiasH will briefly introduce us to http://ResetTheNet.org
+
+    • This would be a good opportunity to talk about anything related to crypto and privacy.
+
+    • We're still looking for further speakers, don't be shy :-)
+
+    • Furthermore, you are invited to bring your favourite Ruby or programming book and tell us a bit about it. Let's have a little book club session!
   description_original: "Join us for our May Meetup at the Experteer office!\r\n\r\n(please
     make your way to the 5th floor!)\r\n\r\n• MathiasH will briefly introduce us to
     http://ResetTheNet.org\r\n\r\n• This would be a good opportunity to talk about
@@ -938,16 +1050,33 @@ Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
   id: 4b3a7ec3-b6be-40c5-a307-1e560be7fdf3
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Rubyists,\r\n\r\nI am happy to announce our meetup in September!\r\n\r\nThe
-    meetup will take place on \"PHAROS - The Post Group\" at 18:30. Here a big thanks
-    to Sascha to be our contact person!\r\n\r\nLooking forward to see you all in September!\r\n\r\nDiscord
-    group: https://discord.gg/EKqHWmCxGZ\r\n\r\nCALL FOR SPEAKERS:\r\n\r\n    We are
-    still looking for a second talk. Please contact me if you have something in mind.\r\n\r\nDATE
-    & LOCATION\r\n\r\nDate and Time: September 24nd 2026, 18:30 CEST\r\nLocation:
-    PHAROS - The Post Group\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n    Location/Food
-    & Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: to be announced\r\n    Talk 2 incl.
-    Q&A: conntact us if you want to give it.\r\n    Food & Drinks, Socializing (open
-    end/as long as the location permits)\r\n"
+  description: |-
+    Dear Rubyists,
+
+    I am happy to announce our meetup in September!
+
+    The meetup will take place on "PHAROS - The Post Group" at 18:30. Here a big thanks to Sascha to be our contact person!
+
+    Looking forward to see you all in September!
+
+    Discord group: https://discord.gg/EKqHWmCxGZ
+
+    CALL FOR SPEAKERS:
+
+        We are still looking for a second talk. Please contact me if you have something in mind.
+
+    DATE & LOCATION
+
+    Date and Time: September 24nd 2026, 18:30 CEST
+    Location: PHAROS - The Post Group
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Talk 1 incl. Q&A: to be announced
+        Talk 2 incl. Q&A: conntact us if you want to give it.
+        Food & Drinks, Socializing (open end/as long as the location permits)
   description_original: "Dear Rubyists,\r\n\r\nI am happy to announce our meetup in
     September!\r\n\r\nThe meetup will take place on \"PHAROS - The Post Group\" at
     18:30. Here a big thanks to Sascha to be our contact person!\r\n\r\nLooking forward
@@ -982,27 +1111,35 @@ Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
   id: 4c25b554-503a-485c-b562-bbf75ec6f1b4
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nit's time for 2022 Episode 2.\r\n\r\nDATE
-    & LOCATION\r\n\r\nDate and Time: September 8, from 19:00 CEST\r\nLocation: Workpath
-    Office, Nymphenburger Straße 86, 80636 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome
-    & Announcements (10')\r\n    Location/Food & Drinks Sponsor Slot (5')\r\n    Talk
-    1 incl. Q&A: Pavel Grachev: \"Three Things we do well at Workpath\"\r\n    Talk
-    2 incl. Q&A: Bogdans Laidins: \"Bringing Confidence with Review Apps\"\r\n    Food
-    & Drinks (sponsored by Workpath), Socializing (open end/as long as the location
-    permits)\r\n\r\nTALKS\r\nTalk 1: Three Things we do well at Workpath\r\nFeasibility
-    studies, refinements, QA, Continuous Delivery — everyone of us knows how the SDLC
-    works, we know best practices and we listen to cool smart people speaking at conferences.\r\nPavel
-    will share some bits of Workpath's journey as a growing startup trying to apply
-    modern methodologies and a bit of common sense. Some learnings that felt surprising,
-    what worked for them, and what didn't.\r\nAbout our speaker\r\nPavel Grachev is
-    a Team Lead at Workpath.\r\n\r\nTalk 2: Bringing Confidence with Review Apps\r\nReview
-    Apps provide a fully functional preview of feature branch changes, creating an
-    ephemeral environment for your merge requests. This allows designers, product
-    owners, QA and other stakeholders to get involved in the feedback process as quickly
-    as possible, improving the fidelity and speed of review. DataGuard's road to adoption
-    of Review Apps began with an open source alternative to Heroku, moving on to using
-    Humanitec, a full-fledged platform orchestrator.\r\nAbout our speaker\r\nBogdans
-    Laidins is a Lead Engineer at DataGuard."
+  description: |-
+    Dear Munich Rubyists,
+
+    it's time for 2022 Episode 2.
+
+    DATE & LOCATION
+
+    Date and Time: September 8, from 19:00 CEST
+    Location: Workpath Office, Nymphenburger Straße 86, 80636 Munich
+
+    AGENDA
+
+        Welcome & Announcements (10')
+        Location/Food & Drinks Sponsor Slot (5')
+        Talk 1 incl. Q&A: Pavel Grachev: "Three Things we do well at Workpath"
+        Talk 2 incl. Q&A: Bogdans Laidins: "Bringing Confidence with Review Apps"
+        Food & Drinks (sponsored by Workpath), Socializing (open end/as long as the location permits)
+
+    TALKS
+    Talk 1: Three Things we do well at Workpath
+    Feasibility studies, refinements, QA, Continuous Delivery — everyone of us knows how the SDLC works, we know best practices and we listen to cool smart people speaking at conferences.
+    Pavel will share some bits of Workpath's journey as a growing startup trying to apply modern methodologies and a bit of common sense. Some learnings that felt surprising, what worked for them, and what didn't.
+    About our speaker
+    Pavel Grachev is a Team Lead at Workpath.
+
+    Talk 2: Bringing Confidence with Review Apps
+    Review Apps provide a fully functional preview of feature branch changes, creating an ephemeral environment for your merge requests. This allows designers, product owners, QA and other stakeholders to get involved in the feedback process as quickly as possible, improving the fidelity and speed of review. DataGuard's road to adoption of Review Apps began with an open source alternative to Heroku, moving on to using Humanitec, a full-fledged platform orchestrator.
+    About our speaker
+    Bogdans Laidins is a Lead Engineer at DataGuard.
   description_original: "Dear Munich Rubyists,\r\n\r\nit's time for 2022 Episode 2.\r\n\r\nDATE
     & LOCATION\r\n\r\nDate and Time: September 8, from 19:00 CEST\r\nLocation: Workpath
     Office, Nymphenburger Straße 86, 80636 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome
@@ -1047,10 +1184,10 @@ Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
   id: 4ef3c58d-c767-4e65-a36b-21383e9d2b8e
   attendance_mode: in_person
   date_precision: day
-  description: "«Our traditional Biergarten-Meetup in August»\r\n\r\nAs tradition
-    has it, we will meet at Park Café for refreshing drinks. There will be no talks,
-    but time for socialising and your stories. :-) We will be there from 7pm on, open
-    end. If you cannot find us, send a tweet our way."
+  description: |-
+    «Our traditional Biergarten-Meetup in August»
+
+    As tradition has it, we will meet at Park Café for refreshing drinks. There will be no talks, but time for socialising and your stories. :-) We will be there from 7pm on, open end. If you cannot find us, send a tweet our way.
   description_original: "«Our traditional Biergarten-Meetup in August»\r\n\r\nAs tradition
     has it, we will meet at Park Café for refreshing drinks. There will be no talks,
     but time for socialising and your stories. :-) We will be there from 7pm on, open
@@ -1078,9 +1215,8 @@ Events::Event_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
   id: 4f32d5b3-03fd-42fa-bacf-c544b11ac6bd
   attendance_mode: in_person
   date_precision: day
-  description: "\U0001F5F2 Lightning Talks\r\n\r\nRuby Coding - My pitfall with String#split
-    by Uli\r\n\r\nWe're actively searching for speakers! Want to become one? Ping
-    us!"
+  description: "\U0001F5F2 Lightning Talks\n\nRuby Coding - My pitfall with String#split
+    by Uli\n\nWe're actively searching for speakers! Want to become one? Ping us!"
   description_original: "\U0001F5F2 Lightning Talks\r\n\r\nRuby Coding - My pitfall
     with String#split by Uli\r\n\r\nWe're actively searching for speakers! Want to
     become one? Ping us!"
@@ -1107,12 +1243,14 @@ Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
   id: 502aa3dd-a00b-4234-82f7-63f085564b54
   attendance_mode: in_person
   date_precision: day
-  description: "We're going to get together, talk and work on some learning projects.\r\n\r\nWhether
-    you're working on a project or just want to work through some tutorials and share
-    ideas, come along.\r\n\r\nProject groups welcome. Some coaches will be on hand
-    to help with trouble shooting and guidance :)\r\n\r\nDrinks will be available
-    at Flobby Media for a fee of €1 per drink, and there will just be a couple of
-    snacks, such as chips, carrot sticks, salzstengel"
+  description: |-
+    We're going to get together, talk and work on some learning projects.
+
+    Whether you're working on a project or just want to work through some tutorials and share ideas, come along.
+
+    Project groups welcome. Some coaches will be on hand to help with trouble shooting and guidance :)
+
+    Drinks will be available at Flobby Media for a fee of €1 per drink, and there will just be a couple of snacks, such as chips, carrot sticks, salzstengel
   description_original: "We're going to get together, talk and work on some learning
     projects.\r\n\r\nWhether you're working on a project or just want to work through
     some tutorials and share ideas, come along.\r\n\r\nProject groups welcome. Some
@@ -1142,16 +1280,15 @@ Events::Event_5120ef88-e9ee-49c7-8d67-5a6190d3fa63:
   id: 5120ef88-e9ee-49c7-8d67-5a6190d3fa63
   attendance_mode: in_person
   date_precision: day
-  description: "\U0001F3A4 Sri Vishnu – Work from anywhere with just any terminal.\r\n\r\n
+  description: "\U0001F3A4 Sri Vishnu – Work from anywhere with just any terminal.\n\n
     \   Tools that will enable you to connect to a work machine that is in any network
     and work with it wherever you are. You might just be able to work your entire
-    day with just your phone or tablet.\r\n\r\n\U0001F3A4 Benjamin Wolf – Conjuring
-    Demons - The Power of the True Name\r\n\r\nNaming things - basically simple, yet
-    one of the most difficult tasks of a software developer. I came across countless
-    method names and commit messages that had been all but descriptive. My talk will
-    raise awareness of this topic with horrible and funny real-life examples and tips
-    for everyday work.\r\n\r\nWe're actively searching for speakers! Want to become
-    one? Ping us!"
+    day with just your phone or tablet.\n\n\U0001F3A4 Benjamin Wolf – Conjuring Demons
+    - The Power of the True Name\n\nNaming things - basically simple, yet one of the
+    most difficult tasks of a software developer. I came across countless method names
+    and commit messages that had been all but descriptive. My talk will raise awareness
+    of this topic with horrible and funny real-life examples and tips for everyday
+    work.\n\nWe're actively searching for speakers! Want to become one? Ping us!"
   description_original: "\U0001F3A4 Sri Vishnu – Work from anywhere with just any
     terminal.\r\n\r\n    Tools that will enable you to connect to a work machine that
     is in any network and work with it wherever you are. You might just be able to
@@ -1185,9 +1322,10 @@ Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
   id: 51e602d3-0a7f-4842-8257-ba514e5969dd
   attendance_mode: in_person
   date_precision: day
-  description: "Miguel Regedor : Different programming paragdims with ruby\r\n\r\nSebastian
-    Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/):
-    Gerrit"
+  description: |-
+    Miguel Regedor : Different programming paragdims with ruby
+
+    Sebastian Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/): Gerrit
   description_original: "Miguel Regedor : Different programming paragdims with ruby\r\n\r\nSebastian
     Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/):
     Gerrit"
@@ -1215,7 +1353,7 @@ Events::Event_53be3fcb-a991-4780-a53e-111ad902bb66:
   attendance_mode: in_person
   date_precision: day
   description: "\U0001F3A4 Anastasia Chicu — Agile Testing Days Recap: 3 ideas I brought
-    back from the greaTEST conference\r\n\r\n\U0001F3A4 Oliver Prater — Async migrations
+    back from the greaTEST conference\n\n\U0001F3A4 Oliver Prater — Async migrations
     on Kubernetes"
   description_original: "\U0001F3A4 Anastasia Chicu — Agile Testing Days Recap: 3
     ideas I brought back from the greaTEST conference\r\n\r\n\U0001F3A4 Oliver Prater
@@ -1243,13 +1381,14 @@ Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
   id: 55840eb2-652e-4c96-85f0-d8e8f4de320a
   attendance_mode: in_person
   date_precision: day
-  description: "Join us for our June Meetup @jetbrains (https://twitter.com/jetbrains)!\r\n\r\n•
-    robertj (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/76890822/)
-    will talk about the deployment tool Capistrano 3 [rescheduled to July!]\r\n\r\n•
-    Bibek Shrestha (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/84316572/)
-    will talk about container virtualization with Docker\r\n\r\n• Shota Bakuradze
-    (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/14411411) will
-    tell us what's new in Ruby 2.1.0"
+  description: |-
+    Join us for our June Meetup @jetbrains (https://twitter.com/jetbrains)!
+
+    • robertj (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/76890822/) will talk about the deployment tool Capistrano 3 [rescheduled to July!]
+
+    • Bibek Shrestha (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/84316572/) will talk about container virtualization with Docker
+
+    • Shota Bakuradze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/14411411) will tell us what's new in Ruby 2.1.0
   description_original: "Join us for our June Meetup @jetbrains (https://twitter.com/jetbrains)!\r\n\r\n•
     robertj (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/76890822/)
     will talk about the deployment tool Capistrano 3 [rescheduled to July!]\r\n\r\n•
@@ -1307,16 +1446,37 @@ Events::Event_5c39c74b-af9f-47a4-a840-7daca41a559f:
   id: 5c39c74b-af9f-47a4-a840-7daca41a559f
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nsummer is coming – and so is our July
-    meetup!\r\n\r\nWe're still looking for a location for the next meetup, as well
-    as speakers – so if you want to host and/or give a talk, please get in touch!\r\n\r\nDATE
-    & LOCATION\r\n\r\nDate and Time: July 13, from 19:00 CEST\r\nLocation: Experteer
-    GmbH, Lenbachplatz 3 (6th floor), 80333 Munich, Germany\r\n\r\nAGENDA\r\n\r\n
-    \   Welcome & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Food
-    & Drinks (sponsored by Experteer GmbH)\r\n    Talk 1 incl. Q&A: TBD\r\n    Break\r\n
-    \   Talk 2 incl. Q&A: TBD\r\n    Socializing (open end/as long as the location
-    permits)\r\n\r\nTALKS\r\n\r\nTalk 1: TBD\r\nAbout our speaker\r\nYou? :-)\r\n\r\nTalk
-    2: TBD\r\nAbout our speaker\r\nYou? :-)"
+  description: |-
+    Dear Munich Rubyists,
+
+    summer is coming – and so is our July meetup!
+
+    We're still looking for a location for the next meetup, as well as speakers – so if you want to host and/or give a talk, please get in touch!
+
+    DATE & LOCATION
+
+    Date and Time: July 13, from 19:00 CEST
+    Location: Experteer GmbH, Lenbachplatz 3 (6th floor), 80333 Munich, Germany
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Food & Drinks (sponsored by Experteer GmbH)
+        Talk 1 incl. Q&A: TBD
+        Break
+        Talk 2 incl. Q&A: TBD
+        Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: TBD
+    About our speaker
+    You? :-)
+
+    Talk 2: TBD
+    About our speaker
+    You? :-)
   description_original: "Dear Munich Rubyists,\r\n\r\nsummer is coming – and so is
     our July meetup!\r\n\r\nWe're still looking for a location for the next meetup,
     as well as speakers – so if you want to host and/or give a talk, please get in
@@ -1350,10 +1510,12 @@ Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
   id: 5c659335-1a76-4e74-8341-e5bed8907f8c
   attendance_mode: in_person
   date_precision: day
-  description: "Ken Alex Fassone - 5 Things I wish my grandfather told me about ActiveRecord
-    and Postgres\r\n\r\n<> - This slot is still open! Comment below if you want to
-    give a small talk!\r\n\r\nWe're always searching for speakers! Want to become
-    one? Ping us!"
+  description: |-
+    Ken Alex Fassone - 5 Things I wish my grandfather told me about ActiveRecord and Postgres
+
+    <> - This slot is still open! Comment below if you want to give a small talk!
+
+    We're always searching for speakers! Want to become one? Ping us!
   description_original: "Ken Alex Fassone - 5 Things I wish my grandfather told me
     about ActiveRecord and Postgres\r\n\r\n<> - This slot is still open! Comment below
     if you want to give a small talk!\r\n\r\nWe're always searching for speakers!
@@ -1381,17 +1543,37 @@ Events::Event_5e8801b8-b30c-49d7-b13f-63060e40667a:
   id: 5e8801b8-b30c-49d7-b13f-63060e40667a
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nit's time for our 2nd gathering of the
-    year!\r\n\r\nIn the March 2024 edition of our Ruby Meetup, DataGuard will welcome
-    us at their new office and will, as is custom, also sponsor food & drinks!\r\n\r\nAt
-    this time, we're still looking for 1-2 talks. Maybe from you? ;-) Get in touch!\r\n\r\nDATE
-    & LOCATION\r\n\r\nDate and Time: March 14, from 19:00 CEST\r\nLocation: DataGuard
-    (DataCo GmbH), Nymphenburger Str. 86, 80636 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome
-    & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Talk 1 incl.
-    Q&A: TBD\r\n    Talk 2 incl. Q&A: TBD\r\n    Food & Drinks (sponsored by DataGuard),
-    Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
-    1: TBD\r\nAbout our speaker\r\nYou? ;-)\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou?
-    ;-)"
+  description: |-
+    Dear Munich Rubyists,
+
+    it's time for our 2nd gathering of the year!
+
+    In the March 2024 edition of our Ruby Meetup, DataGuard will welcome us at their new office and will, as is custom, also sponsor food & drinks!
+
+    At this time, we're still looking for 1-2 talks. Maybe from you? ;-) Get in touch!
+
+    DATE & LOCATION
+
+    Date and Time: March 14, from 19:00 CEST
+    Location: DataGuard (DataCo GmbH), Nymphenburger Str. 86, 80636 Munich
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Talk 1 incl. Q&A: TBD
+        Talk 2 incl. Q&A: TBD
+        Food & Drinks (sponsored by DataGuard), Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: TBD
+    About our speaker
+    You? ;-)
+
+    Talk 2: TBD
+    About our speaker
+    You? ;-)
   description_original: "Dear Munich Rubyists,\r\n\r\nit's time for our 2nd gathering
     of the year!\r\n\r\nIn the March 2024 edition of our Ruby Meetup, DataGuard will
     welcome us at their new office and will, as is custom, also sponsor food & drinks!\r\n\r\nAt
@@ -1426,8 +1608,12 @@ Events::Event_5ec4c4c6-643b-40e8-b01f-f5396c2323dd:
   id: 5ec4c4c6-643b-40e8-b01f-f5396c2323dd
   attendance_mode: in_person
   date_precision: day
-  description: "Talks\r\n\r\n• Mario Fernandez - Managing Pull Requests with YAI (You
-    Are It)\r\n\r\n• Henning Koch – Stress and burnout in open source"
+  description: |-
+    Talks
+
+    • Mario Fernandez - Managing Pull Requests with YAI (You Are It)
+
+    • Henning Koch – Stress and burnout in open source
   description_original: "Talks\r\n\r\n• Mario Fernandez - Managing Pull Requests with
     YAI (You Are It)\r\n\r\n• Henning Koch – Stress and burnout in open source"
   end_date: '2017-04-12'
@@ -1453,10 +1639,10 @@ Events::Event_60f568f0-6f60-4e53-9e04-e9ffaebb1e06:
   id: 60f568f0-6f60-4e53-9e04-e9ffaebb1e06
   attendance_mode: in_person
   date_precision: day
-  description: "Henning Koch (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/164361092/):
-    \"Testing Ruby gems against multiple versions of everything\"\r\n\r\nPhillip O
-    (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/100664/):
-    \"Making feature specs fun again\""
+  description: |-
+    Henning Koch (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/164361092/): "Testing Ruby gems against multiple versions of everything"
+
+    Phillip O (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/100664/): "Making feature specs fun again"
   description_original: "Henning Koch (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/164361092/):
     \"Testing Ruby gems against multiple versions of everything\"\r\n\r\nPhillip O
     (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/100664/):
@@ -1511,41 +1697,35 @@ Events::Event_71a42ab5-d65d-4686-9bf6-7238a6719d66:
   id: 71a42ab5-d65d-4686-9bf6-7238a6719d66
   attendance_mode: in_person
   date_precision: day
-  description: "Our next meetup will be especially fun!\r\n\r\nEvery attendee has
-    an option to hold a lightning talk (5 minutes) during the user group. If you absolutely
-    can not (do not want) to give a talk, you can opt-out, just let us know. If you
-    need any help, to select a gem, find enough information, prepare slides, test-drive
-    the talk, or anything else talk-related let us know, we'll willingly help you
-    out! Remember, it's just 5 minutes, and trust us - it will be just great!\r\n\r\nSpeaking
-    publicly is always good for you. You can learn so many things while preparing
-    for a (even for a short) talk. Talk delivery skills are also extremely important
-    for professionals. Practicing it will bring you to absolutely new level of communication
-    with your peers.\r\n\r\nThe Gem you are speaking about has to start with a alphabetic
-    letter that is assigned to you (the speakers) randomly. The attendees of our last
-    meetup already have one assigned.\r\n\r\nIf you don't have one yet ping us we
-    will assign one to you.\r\n\r\nLets define some rules:\r\n\r\nIf your Gem is a
-    lesser known Gem (less than 1million downloads on Rubygems.org) make a high level
-    introduction to it. If you speak about a well known Gem like eg JSON 1.8.0 tell
-    us about one particular interesting internal aspect (remember you have max 5min)
-    If you want to make it easy for yourself and create your own Gem we expect you
-    to explain to us the process of creating your own Gems. If you want to make it
-    very easy for you and simply fork a Gem on Github you will have to make presentation
-    about Git and Github and the process of forking ;-) OR\r\nYou will have to make
-    a presentation about why and what exactly you have changed in your fork and why
-    a pull request didn't cut the mustard. So we expect some serious meat here ;-)
-    At the end of all the talks we will do a voting MSDRGPS (München sucht den Ruby
-    Gems Presentation Superstar) and the top 3 speakers will get a RubyMine License
-    (or Upgrade) sponsored by JetBrains.\r\n\r\nPlease send me the name of the Gem
-    you will talk about until Monday, July 1st so we can put the list of speakers
-    and topics on our website.\r\n\r\nSend your actual presentation up until Monday,
-    July 8th in PDF form or MP4 (if its some screen cast).\r\n\r\nWe will prepare
-    all presentations on single computer so we do not waste time for connecting and
-    disconnecting different hardware.\r\n\r\nWe absolute prefer presentations about
-    lesser known Gems and internals of well known Gems. For the other categories we
-    will only allow one presentation each (first come, first serve).\r\n\r\nThis might
-    be a longer evening, therefore we will start our talks and our introduction round
-    at 19:30. please be in time and we will make sure that pizza and beverages are
-    there at 19:00.\r\n\r\nLooking forward to this event\r\n\r\nAlex & Robert"
+  description: |-
+    Our next meetup will be especially fun!
+
+    Every attendee has an option to hold a lightning talk (5 minutes) during the user group. If you absolutely can not (do not want) to give a talk, you can opt-out, just let us know. If you need any help, to select a gem, find enough information, prepare slides, test-drive the talk, or anything else talk-related let us know, we'll willingly help you out! Remember, it's just 5 minutes, and trust us - it will be just great!
+
+    Speaking publicly is always good for you. You can learn so many things while preparing for a (even for a short) talk. Talk delivery skills are also extremely important for professionals. Practicing it will bring you to absolutely new level of communication with your peers.
+
+    The Gem you are speaking about has to start with a alphabetic letter that is assigned to you (the speakers) randomly. The attendees of our last meetup already have one assigned.
+
+    If you don't have one yet ping us we will assign one to you.
+
+    Lets define some rules:
+
+    If your Gem is a lesser known Gem (less than 1million downloads on Rubygems.org) make a high level introduction to it. If you speak about a well known Gem like eg JSON 1.8.0 tell us about one particular interesting internal aspect (remember you have max 5min) If you want to make it easy for yourself and create your own Gem we expect you to explain to us the process of creating your own Gems. If you want to make it very easy for you and simply fork a Gem on Github you will have to make presentation about Git and Github and the process of forking ;-) OR
+    You will have to make a presentation about why and what exactly you have changed in your fork and why a pull request didn't cut the mustard. So we expect some serious meat here ;-) At the end of all the talks we will do a voting MSDRGPS (München sucht den Ruby Gems Presentation Superstar) and the top 3 speakers will get a RubyMine License (or Upgrade) sponsored by JetBrains.
+
+    Please send me the name of the Gem you will talk about until Monday, July 1st so we can put the list of speakers and topics on our website.
+
+    Send your actual presentation up until Monday, July 8th in PDF form or MP4 (if its some screen cast).
+
+    We will prepare all presentations on single computer so we do not waste time for connecting and disconnecting different hardware.
+
+    We absolute prefer presentations about lesser known Gems and internals of well known Gems. For the other categories we will only allow one presentation each (first come, first serve).
+
+    This might be a longer evening, therefore we will start our talks and our introduction round at 19:30. please be in time and we will make sure that pizza and beverages are there at 19:00.
+
+    Looking forward to this event
+
+    Alex & Robert
   description_original: "Our next meetup will be especially fun!\r\n\r\nEvery attendee
     has an option to hold a lightning talk (5 minutes) during the user group. If you
     absolutely can not (do not want) to give a talk, you can opt-out, just let us
@@ -1604,9 +1784,10 @@ Events::Event_721e3030-460f-48ae-a545-cf81cb327b67:
   id: 721e3030-460f-48ae-a545-cf81cb327b67
   attendance_mode: in_person
   date_precision: day
-  description: "Let's go to the Biergarten for the August Meetup!\r\n\r\nFind us at
-    a table near the children's playground. In case of rain, there is room indoors.
-    Enjoy!"
+  description: |-
+    Let's go to the Biergarten for the August Meetup!
+
+    Find us at a table near the children's playground. In case of rain, there is room indoors. Enjoy!
   description_original: "Let's go to the Biergarten for the August Meetup!\r\n\r\nFind
     us at a table near the children's playground. In case of rain, there is room indoors.
     Enjoy!"
@@ -1633,21 +1814,16 @@ Events::Event_74ad1707-f344-4743-916f-c5c2a89c27bd:
   id: 74ad1707-f344-4743-916f-c5c2a89c27bd
   attendance_mode: in_person
   date_precision: day
-  description: "We've got 2 speakers:\r\n\r\nMarco Otto-Witte (https://twitter.com/marcoow):
-    Software Engineer and Consultant from Munich. Has strong background in web development
-    with Ruby on Rails as well as JavaScript, iOS etc.\r\n\r\nTalk Description: Authentication
-    is usually one of the first things everybody comes across when starting a new
-    project. While it's pretty much a solved problem in classic Rails applications
-    (see devise etc.) things are not as simple when it comes to client side MVC frameworks.
-    Ember.SimpleAuth is a library for Ember.js that tries to solve most problems.\r\n\r\nPatrick
-    Mulder (https://twitter.com/mulpat): I am very much interested in all things Unix,
-    and good OOP (often in Ruby). I am also impressed by the performance of Node.js,
-    and new approaches for client-server architectures. I blog at http://thinkingonthinking.com
-    and am working currently on a book \"Developing Web Applications with Backbone.js\".\r\n\r\nTalk
-    Description: We've got Ruby 2 since some months, Ruby 2.1 just released, and a
-    bunch of legacy code bases require some older Ruby versions... that can quickly
-    become a mess. In this talk, I want to explore some part of the Ruby ecosystem
-    that deals with infrastructure: Chef and Vagrant."
+  description: |-
+    We've got 2 speakers:
+
+    Marco Otto-Witte (https://twitter.com/marcoow): Software Engineer and Consultant from Munich. Has strong background in web development with Ruby on Rails as well as JavaScript, iOS etc.
+
+    Talk Description: Authentication is usually one of the first things everybody comes across when starting a new project. While it's pretty much a solved problem in classic Rails applications (see devise etc.) things are not as simple when it comes to client side MVC frameworks. Ember.SimpleAuth is a library for Ember.js that tries to solve most problems.
+
+    Patrick Mulder (https://twitter.com/mulpat): I am very much interested in all things Unix, and good OOP (often in Ruby). I am also impressed by the performance of Node.js, and new approaches for client-server architectures. I blog at http://thinkingonthinking.com and am working currently on a book "Developing Web Applications with Backbone.js".
+
+    Talk Description: We've got Ruby 2 since some months, Ruby 2.1 just released, and a bunch of legacy code bases require some older Ruby versions... that can quickly become a mess. In this talk, I want to explore some part of the Ruby ecosystem that deals with infrastructure: Chef and Vagrant.
   description_original: "We've got 2 speakers:\r\n\r\nMarco Otto-Witte (https://twitter.com/marcoow):
     Software Engineer and Consultant from Munich. Has strong background in web development
     with Ruby on Rails as well as JavaScript, iOS etc.\r\n\r\nTalk Description: Authentication
@@ -1686,18 +1862,19 @@ Events::Event_764df804-c67c-4803-84b3-4221968642fb:
   id: 764df804-c67c-4803-84b3-4221968642fb
   attendance_mode: in_person
   date_precision: day
-  description: "We have drinks, food, and a great line-up of talks:\r\n\r\nMathias
-    Huber: \"Exercism.io\"\r\nA fun web community for practicing Ruby and other languages
-    with feedback from your peers.\r\n\r\nChristian Mager (HiQ5.com): \"NANUQ3 CloudCMS\"\r\nA
-    CMS (http://www.nanuq3.com) developed in Ruby on Rails.\r\n\r\nDennis Herr (TUM,
-    experteer.com): \"Experella-Proxy, a load balancing reverse proxy\"\r\nService-oriented
-    architectures can be quite tricky to handle. Routing logic is hard to setup or
-    modify and often needs to be configured in a low-level programming language. So
-    we decided to build a load balancing reverse proxy in Ruby. The presentation will
-    cover motivation & requirements to build a reverse proxy, simple use cases, an
-    introduction to Experella-Proxy and features to aim for.\r\n\r\nAfter the talks
-    you are invited to help yourself to some more drinks, socialize, and talk about
-    the conferences you will be attending this year (you can find some at http://rubyconferences.org­)"
+  description: |-
+    We have drinks, food, and a great line-up of talks:
+
+    Mathias Huber: "Exercism.io"
+    A fun web community for practicing Ruby and other languages with feedback from your peers.
+
+    Christian Mager (HiQ5.com): "NANUQ3 CloudCMS"
+    A CMS (http://www.nanuq3.com) developed in Ruby on Rails.
+
+    Dennis Herr (TUM, experteer.com): "Experella-Proxy, a load balancing reverse proxy"
+    Service-oriented architectures can be quite tricky to handle. Routing logic is hard to setup or modify and often needs to be configured in a low-level programming language. So we decided to build a load balancing reverse proxy in Ruby. The presentation will cover motivation & requirements to build a reverse proxy, simple use cases, an introduction to Experella-Proxy and features to aim for.
+
+    After the talks you are invited to help yourself to some more drinks, socialize, and talk about the conferences you will be attending this year (you can find some at http://rubyconferences.org­)
   description_original: "We have drinks, food, and a great line-up of talks:\r\n\r\nMathias
     Huber: \"Exercism.io\"\r\nA fun web community for practicing Ruby and other languages
     with feedback from your peers.\r\n\r\nChristian Mager (HiQ5.com): \"NANUQ3 CloudCMS\"\r\nA
@@ -1733,32 +1910,38 @@ Events::Event_7756b666-da89-4f60-9947-cbb5d3110256:
   id: 7756b666-da89-4f60-9947-cbb5d3110256
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nI don't know about you, but I think it's
-    high time that we meet again!\r\n\r\nThe first meetup in almost 2 years has been
-    tentatively scheduled for July 14. (I've moved it from the 2nd Wednesday to the
-    2nd Thursday of the month, because several people in the past have mentioned that
-    Wednesday isn't ideal.)\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: July 14,
-    from 19:00 CEST\r\nLocation: DataGuard Office (5th Floor), Dachauer Str. 65, 80335
-    Munich\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements (10')\r\n    Location/Food
-    & Drinks Sponsor Slot (5')\r\n    Raounak Sharma: How we reduced its public API's
-    response time by 86% (45')\r\n    Talk incl. Q&A (15‘, intended for 1st time/inexperienced
-    speaker)\r\n    Food & Drinks (sponsored by DataGuard), Socializing (open end/as
-    long as the location permits)\r\n\r\nTALKS\r\nTalk 1: How we reduced its public
-    API's response time by 86%\r\nAt the time of product launch, our most important
-    API endpoint was taking around 5 seconds in production. It wasn’t related to tech-stack
-    or a particular database/cloud issue nor did we have very bad code quality or
-    any N+1 query issues. Instead, it turned out to be the cumulative result of small
-    mistakes in some services. In this talk, we will see how we arrive at those mistakes,
-    and how you can avoid them earlier on in the development process.\r\n\r\nAbout
-    our speaker\r\nRaounak has been working with Ruby for the past 5 years, and actively
-    contributing to the Ruby community since 2018. This time has made him focus more
-    on the performance of the software. He has implemented and led projects in the
-    performance optimization area as a senior software engineer. Recently he has moved
-    to Dresden, Germany and is looking forward to meeting new people.\r\n\r\nTalk
-    2: TBD\r\nWe'd still love to have another shorter slot (15 minutes), specifically
-    intended for 1st time/inexperienced speakers who want to take to the stage for
-    a shorter topic.\r\n\r\nAbout our speaker\r\nMaybe you? If you have an idea yourself
-    for anything Ruby or at least Ruby-related, get in touch!"
+  description: |-
+    Dear Munich Rubyists,
+
+    I don't know about you, but I think it's high time that we meet again!
+
+    The first meetup in almost 2 years has been tentatively scheduled for July 14. (I've moved it from the 2nd Wednesday to the 2nd Thursday of the month, because several people in the past have mentioned that Wednesday isn't ideal.)
+
+    DATE & LOCATION
+
+    Date and Time: July 14, from 19:00 CEST
+    Location: DataGuard Office (5th Floor), Dachauer Str. 65, 80335 Munich
+
+    AGENDA
+
+        Welcome & Announcements (10')
+        Location/Food & Drinks Sponsor Slot (5')
+        Raounak Sharma: How we reduced its public API's response time by 86% (45')
+        Talk incl. Q&A (15‘, intended for 1st time/inexperienced speaker)
+        Food & Drinks (sponsored by DataGuard), Socializing (open end/as long as the location permits)
+
+    TALKS
+    Talk 1: How we reduced its public API's response time by 86%
+    At the time of product launch, our most important API endpoint was taking around 5 seconds in production. It wasn’t related to tech-stack or a particular database/cloud issue nor did we have very bad code quality or any N+1 query issues. Instead, it turned out to be the cumulative result of small mistakes in some services. In this talk, we will see how we arrive at those mistakes, and how you can avoid them earlier on in the development process.
+
+    About our speaker
+    Raounak has been working with Ruby for the past 5 years, and actively contributing to the Ruby community since 2018. This time has made him focus more on the performance of the software. He has implemented and led projects in the performance optimization area as a senior software engineer. Recently he has moved to Dresden, Germany and is looking forward to meeting new people.
+
+    Talk 2: TBD
+    We'd still love to have another shorter slot (15 minutes), specifically intended for 1st time/inexperienced speakers who want to take to the stage for a shorter topic.
+
+    About our speaker
+    Maybe you? If you have an idea yourself for anything Ruby or at least Ruby-related, get in touch!
   description_original: "Dear Munich Rubyists,\r\n\r\nI don't know about you, but
     I think it's high time that we meet again!\r\n\r\nThe first meetup in almost 2
     years has been tentatively scheduled for July 14. (I've moved it from the 2nd
@@ -1809,10 +1992,12 @@ Events::Event_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
   id: 7a93d6c3-8e39-4198-9d5e-d4030159d42b
   attendance_mode: in_person
   date_precision: day
-  description: "Sadiksha Gautam (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/185560512/):
-    RailsConf 2016\r\n\r\nMonica Giambitto (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/121525572/):
-    Effective Testing or how to sleep when you are on call\r\n\r\n(Peter Schrammel:
-    ruby on the command line)"
+  description: |-
+    Sadiksha Gautam (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/185560512/): RailsConf 2016
+
+    Monica Giambitto (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/121525572/): Effective Testing or how to sleep when you are on call
+
+    (Peter Schrammel: ruby on the command line)
   description_original: "Sadiksha Gautam (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/185560512/):
     RailsConf 2016\r\n\r\nMonica Giambitto (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/121525572/):
     Effective Testing or how to sleep when you are on call\r\n\r\n(Peter Schrammel:
@@ -1865,14 +2050,20 @@ Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
   id: 7deebf5f-7d41-4658-b871-b12968ec0f25
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Rubyistas!\r\n\r\nBe prepared for interesting stuff!\r\n\r\n\"Ultimate
-    guide to convincing people for using better tech\"\r\n\r\nOleksandr Petrov\r\nConvincing
-    people is generally hard. Convincing people about something they're opposed to
-    is even harder. Learn a couple of tricks on how to win friends and influence people
-    in the industry\r\n\r\nWe are still looking for some speakers (also lightning
-    talks).\r\nStep forward - Fame and fortune will be yours.\r\n\r\nBecause of some
-    difficulties we had to change the place where meetup occurs, now it's Roßmarkt
-    6, 80331, München. We're still on for the meeting though!"
+  description: |-
+    Dear Rubyistas!
+
+    Be prepared for interesting stuff!
+
+    "Ultimate guide to convincing people for using better tech"
+
+    Oleksandr Petrov
+    Convincing people is generally hard. Convincing people about something they're opposed to is even harder. Learn a couple of tricks on how to win friends and influence people in the industry
+
+    We are still looking for some speakers (also lightning talks).
+    Step forward - Fame and fortune will be yours.
+
+    Because of some difficulties we had to change the place where meetup occurs, now it's Roßmarkt 6, 80331, München. We're still on for the meeting though!
   description_original: "Dear Rubyistas!\r\n\r\nBe prepared for interesting stuff!\r\n\r\n\"Ultimate
     guide to convincing people for using better tech\"\r\n\r\nOleksandr Petrov\r\nConvincing
     people is generally hard. Convincing people about something they're opposed to
@@ -1904,10 +2095,10 @@ Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
   id: 7e676004-2eb5-412a-85c5-ac137f22e7d7
   attendance_mode: in_person
   date_precision: day
-  description: "Talks:\r\n\r\n\U0001F5D3️ Uli Ramminger – GDS - General Data Structure
-    - a universal, composable data structure, used to store any kind of data.\r\n\r\n⚡
-    Lightning Talks\r\n\r\nWe will have a slot for spontaneous Lightning Talks. This
-    is your chance to shine. 5 Minutes of fame and glory. Slides are optional."
+  description: "Talks:\n\n\U0001F5D3️ Uli Ramminger – GDS - General Data Structure
+    - a universal, composable data structure, used to store any kind of data.\n\n⚡
+    Lightning Talks\n\nWe will have a slot for spontaneous Lightning Talks. This is
+    your chance to shine. 5 Minutes of fame and glory. Slides are optional."
   description_original: "Talks:\r\n\r\n\U0001F5D3️ Uli Ramminger – GDS - General Data
     Structure - a universal, composable data structure, used to store any kind of
     data.\r\n\r\n⚡ Lightning Talks\r\n\r\nWe will have a slot for spontaneous Lightning
@@ -1935,9 +2126,15 @@ Events::Event_7f01acc2-0480-41c2-810e-6b7ede0d927e:
   id: 7f01acc2-0480-41c2-810e-6b7ede0d927e
   attendance_mode: in_person
   date_precision: day
-  description: "Doors: 7pm at Fidor Bank AG.\r\n\r\nWe'll have two talks\r\n\r\nHendrik
-    - Scenic: Versioned database views for Rails\r\nHenning - Crashcourse: Metaprogramming
-    in Ruby\r\n\r\nand pizza + drinks. Lookings forward to y'all!"
+  description: |-
+    Doors: 7pm at Fidor Bank AG.
+
+    We'll have two talks
+
+    Hendrik - Scenic: Versioned database views for Rails
+    Henning - Crashcourse: Metaprogramming in Ruby
+
+    and pizza + drinks. Lookings forward to y'all!
   description_original: "Doors: 7pm at Fidor Bank AG.\r\n\r\nWe'll have two talks\r\n\r\nHendrik
     - Scenic: Versioned database views for Rails\r\nHenning - Crashcourse: Metaprogramming
     in Ruby\r\n\r\nand pizza + drinks. Lookings forward to y'all!"
@@ -1964,8 +2161,12 @@ Events::Event_7f464932-1471-4932-9732-d79d20c32844:
   id: 7f464932-1471-4932-9732-d79d20c32844
   attendance_mode: in_person
   date_precision: day
-  description: "Mario Fernandez - Recap of the FullStack Fest Anastasia\r\n\r\nChicu
-    - Agile testing at XING\r\n\r\nOmar Qunsul - \"how to improve Rails translations\""
+  description: |-
+    Mario Fernandez - Recap of the FullStack Fest Anastasia
+
+    Chicu - Agile testing at XING
+
+    Omar Qunsul - "how to improve Rails translations"
   description_original: "Mario Fernandez - Recap of the FullStack Fest Anastasia\r\n\r\nChicu
     - Agile testing at XING\r\n\r\nOmar Qunsul - \"how to improve Rails translations\""
   end_date: '2016-09-14'
@@ -1991,11 +2192,12 @@ Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
   id: 81289cc1-6ab1-408c-9f39-dde415b27a20
   attendance_mode: in_person
   date_precision: day
-  description: "Join us for our \"Back to School\" edition in September ;-)\r\n\r\nHenning
-    Koch ‏@triskweline (https://twitter.com/triskweline) from @makandra_com (https://twitter.com/makandra_com)
-    will discuss scaling monolithic Rails applications.\r\n\r\nAndreas Eger from @experteer
-    (https://twitter.com/experteer) will talk about codeqa (https://github.com/experteer/codeqa)
-    and using Rubocop as a reformatter."
+  description: |-
+    Join us for our "Back to School" edition in September ;-)
+
+    Henning Koch ‏@triskweline (https://twitter.com/triskweline) from @makandra_com (https://twitter.com/makandra_com) will discuss scaling monolithic Rails applications.
+
+    Andreas Eger from @experteer (https://twitter.com/experteer) will talk about codeqa (https://github.com/experteer/codeqa) and using Rubocop as a reformatter.
   description_original: "Join us for our \"Back to School\" edition in September ;-)\r\n\r\nHenning
     Koch ‏@triskweline (https://twitter.com/triskweline) from @makandra_com (https://twitter.com/makandra_com)
     will discuss scaling monolithic Rails applications.\r\n\r\nAndreas Eger from @experteer
@@ -2024,9 +2226,10 @@ Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
   id: 881f5ab6-f105-4900-a67a-1752ac42874d
   attendance_mode: in_person
   date_precision: day
-  description: "Sebastian Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/)
-    is giving a talk on deployment.\r\n\r\nPeter Schrammel (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/98486932/)
-    will talk about websocket-rails."
+  description: |-
+    Sebastian Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/) is giving a talk on deployment.
+
+    Peter Schrammel (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/98486932/) will talk about websocket-rails.
   description_original: "Sebastian Schulze (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/31318442/)
     is giving a talk on deployment.\r\n\r\nPeter Schrammel (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/98486932/)
     will talk about websocket-rails."
@@ -2053,9 +2256,10 @@ Events::Event_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
   id: 88b1d1f2-0d79-4bc8-98b4-692410dd4d8d
   attendance_mode: in_person
   date_precision: day
-  description: "Dino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/)
-    : DIY Ruby Framework\r\n\r\nDino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/)
-    : CoffeeScript, the right and easy way"
+  description: |-
+    Dino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/) : DIY Ruby Framework
+
+    Dino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/) : CoffeeScript, the right and easy way
   description_original: "Dino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/)
     : DIY Ruby Framework\r\n\r\nDino Reic (https://www.meetup.com/de/Munich-Rubyshift-Ruby-User-Group/members/39412472/)
     : CoffeeScript, the right and easy way"
@@ -2082,8 +2286,10 @@ Events::Event_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
   id: 8fc8ef78-6750-414e-9b64-f3dee9a2e926
   attendance_mode: in_person
   date_precision: day
-  description: "Henning Koch: \"Modern frontends without Javascript\"\r\n\r\nWe're
-    actively searching for speakers! Want to become one? Ping us!"
+  description: |-
+    Henning Koch: "Modern frontends without Javascript"
+
+    We're actively searching for speakers! Want to become one? Ping us!
   description_original: "Henning Koch: \"Modern frontends without Javascript\"\r\n\r\nWe're
     actively searching for speakers! Want to become one? Ping us!"
   end_date: '2016-07-13'
@@ -2109,9 +2315,14 @@ Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
   id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
   attendance_mode: in_person
   date_precision: day
-  description: "Talks:\r\n\r\nAnna — »A user manual to working better with a tester«\r\n\r\nThomas
-    & Flo: — »Migrate a Rails-Backend to a Service«\r\n\r\nPizza and beverages are
-    taken care of. We're looking forward to y'all!"
+  description: |-
+    Talks:
+
+    Anna — »A user manual to working better with a tester«
+
+    Thomas & Flo: — »Migrate a Rails-Backend to a Service«
+
+    Pizza and beverages are taken care of. We're looking forward to y'all!
   description_original: "Talks:\r\n\r\nAnna — »A user manual to working better with
     a tester«\r\n\r\nThomas & Flo: — »Migrate a Rails-Backend to a Service«\r\n\r\nPizza
     and beverages are taken care of. We're looking forward to y'all!"
@@ -2138,32 +2349,41 @@ Events::Event_969902ff-c7e8-48e5-8d0e-f64c85568e63:
   id: 969902ff-c7e8-48e5-8d0e-f64c85568e63
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nSummer's coming and so is our July meetup!\r\n\r\nWe're
-    looking for a company to provide a location and food & drinks -- so if your company
-    wants to host this edition of our meetup, please get in touch. We're also looking
-    for 1 or 2 speakers -- so if you're up for a talk or know somebody who is, please
-    let me know.\r\n\r\nOn a personal note: As I've said before, this event will be
-    the last one that I'm organizing. It's time to pass on the baton to someone who's
-    still (more) active in the Ruby ecosystem -- so if you're willing to step up,
-    drop me a line or talk to me at the meetup.\r\n\r\nLooking forward to seeing you
-    all in July!\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: July 17, from 19:00
-    CEST\r\nLocation: Lanes & Planes GmbH, Kap West, Friedenheimer Bruecke 16, 80639
-    Munich\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n    Location/Food &
-    Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: Aron Wolf: \"Hotwire Native\"\r\n
-    \   Talk 2 incl. Q&A: Clemens Helm: \"Using database views in Rails and why you
-    should (or shouldn't) do it\"\r\n    Food & Drinks (sponsored by TBD), Socializing
-    (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: Aron Wolf:
-    \"Hotwire Native\"\r\nAn introduction about Hotwire Native. A tool from 37signal
-    to convert your fullstack Rails application into a mobile app.\r\nAbout our speaker\r\nhttps://www.meetup.com/members/264213499\r\n\r\nTalk
-    2: Clemens Helm: \"Using database views in Rails and why you should (or shouldn't)
-    do it\"\r\nComplex data filtering in Rails often leads us down a rabbit hole of
-    custom scopes, service objects, and Arel acrobatics. But what if we let the database
-    do what it’s best at? In this talk, you’ll see how SQL views paired with plain
-    ActiveRecord and Ransack can turn messy logic into elegant, powerful queries —
-    without giving up the Rails way.\r\nAbout our speaker\r\nClemens Helm is a seasoned
-    Rails developer from Vienna who believes good code is boring — in the best way.
-    At railscraft.de, he helps teams modernize legacy Rails apps with clean architecture,
-    sharp tools, and zero-nonsense pragmatism."
+  description: |-
+    Dear Munich Rubyists,
+
+    Summer's coming and so is our July meetup!
+
+    We're looking for a company to provide a location and food & drinks -- so if your company wants to host this edition of our meetup, please get in touch. We're also looking for 1 or 2 speakers -- so if you're up for a talk or know somebody who is, please let me know.
+
+    On a personal note: As I've said before, this event will be the last one that I'm organizing. It's time to pass on the baton to someone who's still (more) active in the Ruby ecosystem -- so if you're willing to step up, drop me a line or talk to me at the meetup.
+
+    Looking forward to seeing you all in July!
+
+    DATE & LOCATION
+
+    Date and Time: July 17, from 19:00 CEST
+    Location: Lanes & Planes GmbH, Kap West, Friedenheimer Bruecke 16, 80639 Munich
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Talk 1 incl. Q&A: Aron Wolf: "Hotwire Native"
+        Talk 2 incl. Q&A: Clemens Helm: "Using database views in Rails and why you should (or shouldn't) do it"
+        Food & Drinks (sponsored by TBD), Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: Aron Wolf: "Hotwire Native"
+    An introduction about Hotwire Native. A tool from 37signal to convert your fullstack Rails application into a mobile app.
+    About our speaker
+    https://www.meetup.com/members/264213499
+
+    Talk 2: Clemens Helm: "Using database views in Rails and why you should (or shouldn't) do it"
+    Complex data filtering in Rails often leads us down a rabbit hole of custom scopes, service objects, and Arel acrobatics. But what if we let the database do what it’s best at? In this talk, you’ll see how SQL views paired with plain ActiveRecord and Ransack can turn messy logic into elegant, powerful queries — without giving up the Rails way.
+    About our speaker
+    Clemens Helm is a seasoned Rails developer from Vienna who believes good code is boring — in the best way. At railscraft.de, he helps teams modernize legacy Rails apps with clean architecture, sharp tools, and zero-nonsense pragmatism.
   description_original: "Dear Munich Rubyists,\r\n\r\nSummer's coming and so is our
     July meetup!\r\n\r\nWe're looking for a company to provide a location and food
     & drinks -- so if your company wants to host this edition of our meetup, please
@@ -2214,22 +2434,37 @@ Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
   id: 988d2d1a-5277-4155-87b6-98e25500d5de
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nafter a pleasant start to our meetup
-    year 2025, let's get ready for episode 2!\r\n\r\nThe meetup will take place at
-    metoda GmbH who will also take care of food & drinks.\r\n\r\nHenning Koch will
-    be talking about API design and walking the line between perfectionism and development
-    speed. Additionally, we'd of course still have room for another speaker who might
-    want to give a shorter talk. If that sounds like something for you, let me know!
-    :-)\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: March 20, from 19:00 CEST\r\nLocation:
-    metoda GmbH, Bayerstrasse 69, 80335 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome &
-    Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A:
-    \"API Design & Perfectionism: Keeping momentum when obsessing over details\",
-    Henning Koch, Head of Engineering @ makandra GmbH\r\n    Talk 2 incl. Q&A: TBD\r\n
-    \   Food & Drinks (sponsored by TBD), Socializing (open end/as long as the location
-    permits)\r\n\r\nTALKS\r\n\r\nTalk 1: API Design & Perfectionism: Keeping momentum
-    when obsessing over details\r\nAbout our speaker\r\nHenning Koch is Head of Engineering
-    at makandra GmbH and author and co-author of several popular open source libraries
-    and tools.\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou? ;-)"
+  description: |-
+    Dear Munich Rubyists,
+
+    after a pleasant start to our meetup year 2025, let's get ready for episode 2!
+
+    The meetup will take place at metoda GmbH who will also take care of food & drinks.
+
+    Henning Koch will be talking about API design and walking the line between perfectionism and development speed. Additionally, we'd of course still have room for another speaker who might want to give a shorter talk. If that sounds like something for you, let me know! :-)
+
+    DATE & LOCATION
+
+    Date and Time: March 20, from 19:00 CEST
+    Location: metoda GmbH, Bayerstrasse 69, 80335 Munich
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Talk 1 incl. Q&A: "API Design & Perfectionism: Keeping momentum when obsessing over details", Henning Koch, Head of Engineering @ makandra GmbH
+        Talk 2 incl. Q&A: TBD
+        Food & Drinks (sponsored by TBD), Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: API Design & Perfectionism: Keeping momentum when obsessing over details
+    About our speaker
+    Henning Koch is Head of Engineering at makandra GmbH and author and co-author of several popular open source libraries and tools.
+
+    Talk 2: TBD
+    About our speaker
+    You? ;-)
   description_original: "Dear Munich Rubyists,\r\n\r\nafter a pleasant start to our
     meetup year 2025, let's get ready for episode 2!\r\n\r\nThe meetup will take place
     at metoda GmbH who will also take care of food & drinks.\r\n\r\nHenning Koch will
@@ -2269,12 +2504,12 @@ Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
   id: a25cb714-cc6a-4e13-adae-69f1f42f1901
   attendance_mode: in_person
   date_precision: day
-  description: "The venue will be open at 7pm, talks will start at 7:30pm. We have
-    two talks lined up:\r\n\r\nJannis Hübl (https://twitter.com/jannishuebl) – Orchparty:
-    program your orchestration config Jan Stępień (https://twitter.com/janstepien)
-    – Property-based testing: You won’t look at your tests the same way ever again.
-    The next U-Bahn station near Freeletics is Maillingerstraße.\r\n\r\nWe're always
-    searching for speakers! Want to become one? Ping us!"
+  description: |-
+    The venue will be open at 7pm, talks will start at 7:30pm. We have two talks lined up:
+
+    Jannis Hübl (https://twitter.com/jannishuebl) – Orchparty: program your orchestration config Jan Stępień (https://twitter.com/janstepien) – Property-based testing: You won’t look at your tests the same way ever again. The next U-Bahn station near Freeletics is Maillingerstraße.
+
+    We're always searching for speakers! Want to become one? Ping us!
   description_original: "The venue will be open at 7pm, talks will start at 7:30pm.
     We have two talks lined up:\r\n\r\nJannis Hübl (https://twitter.com/jannishuebl)
     – Orchparty: program your orchestration config Jan Stępień (https://twitter.com/janstepien)
@@ -2304,9 +2539,14 @@ Events::Event_a2cad908-ac6a-4757-92b5-23360594d899:
   id: a2cad908-ac6a-4757-92b5-23360594d899
   attendance_mode: in_person
   date_precision: day
-  description: "Jason Franklin – Mobile Development @XING\r\n\r\nFlorin Oltean - Introduction
-    to MRuby\r\n\r\nNiko Noll - Pimp your REST API Docs with Swagger\r\n\r\nWe're
-    actively searching for speakers! Want to become one? Ping us!"
+  description: |-
+    Jason Franklin – Mobile Development @XING
+
+    Florin Oltean - Introduction to MRuby
+
+    Niko Noll - Pimp your REST API Docs with Swagger
+
+    We're actively searching for speakers! Want to become one? Ping us!
   description_original: "Jason Franklin – Mobile Development @XING\r\n\r\nFlorin Oltean
     - Introduction to MRuby\r\n\r\nNiko Noll - Pimp your REST API Docs with Swagger\r\n\r\nWe're
     actively searching for speakers! Want to become one? Ping us!"
@@ -2333,8 +2573,12 @@ Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
   id: a30e173e-4659-4cae-915b-13d81f8e8fc3
   attendance_mode: in_person
   date_precision: day
-  description: "Peter: ActionCable\r\n\r\nSebastian: Ruby News\r\n\r\nMichael, Pau,
-    Phillip: Refugees on Rails @ Munich"
+  description: |-
+    Peter: ActionCable
+
+    Sebastian: Ruby News
+
+    Michael, Pau, Phillip: Refugees on Rails @ Munich
   description_original: "Peter: ActionCable\r\n\r\nSebastian: Ruby News\r\n\r\nMichael,
     Pau, Phillip: Refugees on Rails @ Munich"
   end_date: '2015-12-09'
@@ -2360,9 +2604,9 @@ Events::Event_a4070744-c531-4689-941a-d8ebdccdfbe8:
   id: a4070744-c531-4689-941a-d8ebdccdfbe8
   attendance_mode: in_person
   date_precision: day
-  description: "\U0001F3A4 Oliver Prater: Interacting with Kubernetes via Ruby\r\n\U0001F3A4
-    Aron Wolf: Refactoring service and query objects in Rails\r\n\r\nWe're always
-    searching for speakers! Want to give a talk at our next meetup? Get in touch!"
+  description: "\U0001F3A4 Oliver Prater: Interacting with Kubernetes via Ruby\n\U0001F3A4
+    Aron Wolf: Refactoring service and query objects in Rails\n\nWe're always searching
+    for speakers! Want to give a talk at our next meetup? Get in touch!"
   description_original: "\U0001F3A4 Oliver Prater: Interacting with Kubernetes via
     Ruby\r\n\U0001F3A4 Aron Wolf: Refactoring service and query objects in Rails\r\n\r\nWe're
     always searching for speakers! Want to give a talk at our next meetup? Get in
@@ -2416,10 +2660,10 @@ Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
   id: aa0190f0-4e61-4234-a914-fe39d0c25a76
   attendance_mode: in_person
   date_precision: day
-  description: "\U0001F3A4 Austin Moore: Deep dive into the internals of ActiveSupport::Callbacks\r\n\r\n\U0001F3A4
+  description: "\U0001F3A4 Austin Moore: Deep dive into the internals of ActiveSupport::Callbacks\n\n\U0001F3A4
     Oliver Prater: The nitty gritty details of ActiveRecord::Associations::Association#target
-    and\r\nActiveRecord::AutosaveAssociation\r\n\r\nPlease note: xbAV has a new office
-    near Donnersbergerbrücke, see address below. If you get lost, contact @bascht"
+    and\nActiveRecord::AutosaveAssociation\n\nPlease note: xbAV has a new office near
+    Donnersbergerbrücke, see address below. If you get lost, contact @bascht"
   description_original: "\U0001F3A4 Austin Moore: Deep dive into the internals of
     ActiveSupport::Callbacks\r\n\r\n\U0001F3A4 Oliver Prater: The nitty gritty details
     of ActiveRecord::Associations::Association#target and\r\nActiveRecord::AutosaveAssociation\r\n\r\nPlease
@@ -2448,9 +2692,10 @@ Events::Event_aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb:
   id: aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb
   attendance_mode: in_person
   date_precision: day
-  description: "αλεx π (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/43533372/):
-    \"Computer Science 101: Things every programmer should know\"\r\n\r\nWe're actively
-    searching for speakers! Want to become one? Ping us!"
+  description: |-
+    αλεx π (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/43533372/): "Computer Science 101: Things every programmer should know"
+
+    We're actively searching for speakers! Want to become one? Ping us!
   description_original: "αλεx π (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/43533372/):
     \"Computer Science 101: Things every programmer should know\"\r\n\r\nWe're actively
     searching for speakers! Want to become one? Ping us!"
@@ -2477,8 +2722,14 @@ Events::Event_ab5a4682-4a75-46dd-bc91-4af39d48df23:
   id: ab5a4682-4a75-46dd-bc91-4af39d48df23
   attendance_mode: in_person
   date_precision: day
-  description: "Start your new Ruby year with our January Meetup!\r\n\r\nTalks:\r\n\r\n•
-    Peter Schrammel: \"Zookeeper in your rails stack\"\r\n\r\n• Oleg: \"A Rukuli bot\""
+  description: |-
+    Start your new Ruby year with our January Meetup!
+
+    Talks:
+
+    • Peter Schrammel: "Zookeeper in your rails stack"
+
+    • Oleg: "A Rukuli bot"
   description_original: "Start your new Ruby year with our January Meetup!\r\n\r\nTalks:\r\n\r\n•
     Peter Schrammel: \"Zookeeper in your rails stack\"\r\n\r\n• Oleg: \"A Rukuli bot\""
   end_date: '2015-01-14'
@@ -2531,12 +2782,12 @@ Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
   attendance_mode: in_person
   date_precision: day
   description: "\U0001F3A4 Jan Krutisch – Updating Dependencies sucks, so let's do
-    more of that\r\n\r\nI would like to tell you about Depfu and why we believe in
-    doing dependency updates more often. But also have a discussion about how everyone
-    is dealing with keeping their app up-to-date and other maintenance tasks as part
-    of their development process.\r\n\r\n\U0001F3A4 Austin Moore – Ruby + Kafka: The
-    Devil is in Details\r\n\r\nxbAV is just starting to use Kafka. We'd like to share
-    some of the pitfalls we've run into so far, so you can avoid them."
+    more of that\n\nI would like to tell you about Depfu and why we believe in doing
+    dependency updates more often. But also have a discussion about how everyone is
+    dealing with keeping their app up-to-date and other maintenance tasks as part
+    of their development process.\n\n\U0001F3A4 Austin Moore – Ruby + Kafka: The Devil
+    is in Details\n\nxbAV is just starting to use Kafka. We'd like to share some of
+    the pitfalls we've run into so far, so you can avoid them."
   description_original: "\U0001F3A4 Jan Krutisch – Updating Dependencies sucks, so
     let's do more of that\r\n\r\nI would like to tell you about Depfu and why we believe
     in doing dependency updates more often. But also have a discussion about how everyone
@@ -2567,28 +2818,41 @@ Events::Event_adea8129-c6f0-48b1-b764-296c09336343:
   id: adea8129-c6f0-48b1-b764-296c09336343
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nwere closing in on Episode 2 of 2023's
-    meetups!\r\n\r\nThis time, we'll visit Zavvy, who will host the meetup and also
-    give one of the talks of the evening. We'll also have Hanami's creator Luca Guidi
-    joining us from remote as a special guest to give us a tour of Hanami 2.0.\r\n\r\nDATE
-    & LOCATION\r\n\r\nDate and Time: March 9, from 19:00 CEST\r\nLocation: Zavvy GmbH
-    (@Mindspace), Herzogspitalstraße 24, 80331 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome
-    & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Food & Drinks
-    (sponsored by Zavvy)\r\n    Talk 1 incl. Q&A: Luca Guidi: \"Hanami 2.0: a framework
-    for a new Ruby era\"\r\n    Break\r\n    Talk 2 incl. Q&A: Sri Vishnu Totakura:
-    \"Best practices we employ for a scalable Rails app\"\r\n    Socializing (open
-    end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: \"Hanami 2.0:
-    a framework a new Ruby era\"\r\nNote: This talk will be held remotely\r\n\r\nAbout
-    our speaker\r\nLuca Guidi is a Backend Architect at Toptal and the creator of
-    the Hanami framework.\r\n\r\nTalk 2: \"Best practices we employ for a scalable
-    Rails app\"\r\nZavvy has grown from a simple Rails app to a huge suite of B2B
-    applications all served with a single Rails app with ~150 API endpoints, models
-    and presenters with a complex inter-connection between apps. As a startup speed
-    of release is crucial, quality is not a tradeoff, security with complex authenticate
-    and authorization logic is a must. This has not been easy but we are proud of
-    what we setup as our best practices/standards and we would like to show you how
-    we kept things simple and made it very easy to achieve all these goals.\r\n\r\nAbout
-    our speaker\r\nSri Vishnu Totakura is the CTO of Zavvy."
+  description: |-
+    Dear Munich Rubyists,
+
+    were closing in on Episode 2 of 2023's meetups!
+
+    This time, we'll visit Zavvy, who will host the meetup and also give one of the talks of the evening. We'll also have Hanami's creator Luca Guidi joining us from remote as a special guest to give us a tour of Hanami 2.0.
+
+    DATE & LOCATION
+
+    Date and Time: March 9, from 19:00 CEST
+    Location: Zavvy GmbH (@Mindspace), Herzogspitalstraße 24, 80331 Munich
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Food & Drinks (sponsored by Zavvy)
+        Talk 1 incl. Q&A: Luca Guidi: "Hanami 2.0: a framework for a new Ruby era"
+        Break
+        Talk 2 incl. Q&A: Sri Vishnu Totakura: "Best practices we employ for a scalable Rails app"
+        Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: "Hanami 2.0: a framework a new Ruby era"
+    Note: This talk will be held remotely
+
+    About our speaker
+    Luca Guidi is a Backend Architect at Toptal and the creator of the Hanami framework.
+
+    Talk 2: "Best practices we employ for a scalable Rails app"
+    Zavvy has grown from a simple Rails app to a huge suite of B2B applications all served with a single Rails app with ~150 API endpoints, models and presenters with a complex inter-connection between apps. As a startup speed of release is crucial, quality is not a tradeoff, security with complex authenticate and authorization logic is a must. This has not been easy but we are proud of what we setup as our best practices/standards and we would like to show you how we kept things simple and made it very easy to achieve all these goals.
+
+    About our speaker
+    Sri Vishnu Totakura is the CTO of Zavvy.
   description_original: "Dear Munich Rubyists,\r\n\r\nwere closing in on Episode 2
     of 2023's meetups!\r\n\r\nThis time, we'll visit Zavvy, who will host the meetup
     and also give one of the talks of the evening. We'll also have Hanami's creator
@@ -2634,10 +2898,16 @@ Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
   id: b4664359-c1e2-4611-a19e-b8e5cf1d8344
   attendance_mode: in_person
   date_precision: day
-  description: "Join us for our April Meetup!\r\n\r\nWe have at least two talks:\r\n\r\nRobert
-    Kuzelj: \"Groovy's closures and the differences to Ruby\"\r\n\r\nDaniel Sudmann:
-    \"Blobsterix, a transcoding binary large object server\"\r\n\r\nBig thanks to
-    Codecentric for hosting!"
+  description: |-
+    Join us for our April Meetup!
+
+    We have at least two talks:
+
+    Robert Kuzelj: "Groovy's closures and the differences to Ruby"
+
+    Daniel Sudmann: "Blobsterix, a transcoding binary large object server"
+
+    Big thanks to Codecentric for hosting!
   description_original: "Join us for our April Meetup!\r\n\r\nWe have at least two
     talks:\r\n\r\nRobert Kuzelj: \"Groovy's closures and the differences to Ruby\"\r\n\r\nDaniel
     Sudmann: \"Blobsterix, a transcoding binary large object server\"\r\n\r\nBig thanks
@@ -2690,11 +2960,14 @@ Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
   id: bb626d8b-beff-4d94-b095-d3a73a369ebb
   attendance_mode: online
   date_precision: day
-  description: "Hi everyone! Next week will be our first online meetup!\r\n\r\nWe're
-    open for quick ad-hoc lightning talks – please get in touch with Bascht if you
-    want to present something. :-)\r\n\r\nIf you want to test your Audio / Video Setup
-    or suggest a talk / topic:\r\n\r\nBascht will be on Jitsi on Wednesday, April
-    8th at 7pm CEST."
+  description: |-
+    Hi everyone! Next week will be our first online meetup!
+
+    We're open for quick ad-hoc lightning talks – please get in touch with Bascht if you want to present something. :-)
+
+    If you want to test your Audio / Video Setup or suggest a talk / topic:
+
+    Bascht will be on Jitsi on Wednesday, April 8th at 7pm CEST.
   description_original: "Hi everyone! Next week will be our first online meetup!\r\n\r\nWe're
     open for quick ad-hoc lightning talks – please get in touch with Bascht if you
     want to present something. :-)\r\n\r\nIf you want to test your Audio / Video Setup
@@ -2722,25 +2995,42 @@ Events::Event_bd09e5ca-d692-409c-8944-d966c2a175e0:
   id: bd09e5ca-d692-409c-8944-d966c2a175e0
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nwill be nice to see you all again on
-    16.10.\r\n\r\nThe meetup will take place at Lanes & Planes GmbH and the food is
-    sponsored by Ruby Central.\r\n\r\nWe have two interesting talks. One from Chikahiro
-    \"Is the monolith a problem?\" and another from Klaus - \"A resource-oriented
-    file structure for Rails\".\r\n\r\nOn a personal note: This is the first event
-    that I am organizing since I took over the group from Clemens. If anyone wants
-    to help organize it or become a co-organizer of the group, please contact me.\r\n\r\nDiscord
-    group: https://discord.gg/EKqHWmCxGZ\r\n\r\nLooking forward to seeing you all
-    in October!\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: October 16, from 19:00
-    CEST\r\nLocation: Lanes & Planes\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n
-    \   Location/Food & Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: Chikahiro: \"Is
-    the monolith a problem?\"\r\n    Talk 2 incl. Q&A: Klaus: Lightning Talk - \"A
-    resource-oriented file structure for Rails\"\r\n    Food & Drinks (sponsored by
-    Ruby Central), Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
-    1: Chikahiro: \"Is the monolith a problem?\"\r\nDiscover the truth about monoliths
-    vs microservices! Debunk myths, uncover real architectural differences, and learn
-    strategies to fix the real problems — not just follow trends.\r\nAbout our speaker
-    https://www.linkedin.com/in/chikahiro\r\n\r\nTalk 2: Klaus: Lightning Talk - \"A
-    resource-oriented file structure for Rails\"\r\nAbout the speaker https://www.linkedin.com/in/klaus-weidinger-a37a27332/"
+  description: |-
+    Dear Munich Rubyists,
+
+    will be nice to see you all again on 16.10.
+
+    The meetup will take place at Lanes & Planes GmbH and the food is sponsored by Ruby Central.
+
+    We have two interesting talks. One from Chikahiro "Is the monolith a problem?" and another from Klaus - "A resource-oriented file structure for Rails".
+
+    On a personal note: This is the first event that I am organizing since I took over the group from Clemens. If anyone wants to help organize it or become a co-organizer of the group, please contact me.
+
+    Discord group: https://discord.gg/EKqHWmCxGZ
+
+    Looking forward to seeing you all in October!
+
+    DATE & LOCATION
+
+    Date and Time: October 16, from 19:00 CEST
+    Location: Lanes & Planes
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Talk 1 incl. Q&A: Chikahiro: "Is the monolith a problem?"
+        Talk 2 incl. Q&A: Klaus: Lightning Talk - "A resource-oriented file structure for Rails"
+        Food & Drinks (sponsored by Ruby Central), Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: Chikahiro: "Is the monolith a problem?"
+    Discover the truth about monoliths vs microservices! Debunk myths, uncover real architectural differences, and learn strategies to fix the real problems — not just follow trends.
+    About our speaker https://www.linkedin.com/in/chikahiro
+
+    Talk 2: Klaus: Lightning Talk - "A resource-oriented file structure for Rails"
+    About the speaker https://www.linkedin.com/in/klaus-weidinger-a37a27332/
   description_original: "Dear Munich Rubyists,\r\n\r\nwill be nice to see you all
     again on 16.10.\r\n\r\nThe meetup will take place at Lanes & Planes GmbH and the
     food is sponsored by Ruby Central.\r\n\r\nWe have two interesting talks. One from
@@ -2783,36 +3073,58 @@ Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
   id: bfa2ec55-241f-4129-a1bf-92dfa03c543c
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nthe September edition of our meetup is
-    coming!\r\n\r\nBefore diving into the details, let me start with an apology: On
-    fairly short notice, I unfortunately couldn't attend the last meetup at our friends
-    from Experteer due to a family-related issue. This unfortunately coincided with
-    a meetup where we had no talk lined up, so I couldn't even give the backup talk
-    that I had prepared. From what I heard from our host Valentin, it was still a
-    nice meetup with interesting conversations -- but I'm still sorry that the meetup
-    didn't go as planned.\r\n\r\nAnyway, back to the topic at hand: The September
-    meetup!\r\n\r\nThis time, Le Wagon Munich will be our host for location, food
-    & drinks and they'll also have their own Bruno Brunckhorst give a talk about using
-    Neural Networks with Ruby/Rails.\r\n\r\nI'm also looking for an optional 2nd speaker
-    to give a short(er) talk in addition to the main talk => let me know if you're
-    interested or know someone who might be interested.\r\n\r\nDATE & LOCATION\r\n\r\nDate
-    and Time: September 14, from 19:00 CEST\r\n\r\nLocation: Le Wagon Munich, Balanstrasse
-    73, building 21A, 4th floor, 81541 Munich, Germany\r\n\r\nAs the neue Balan campus
-    is quite extensive, here some tips to make sure everyone gets here without issues:\r\n\r\nThe
-    easiest way to locate us is to pop the location in Google Maps, the pin is very
-    accurate.\r\n\r\nWhen coming by U-Bahn (Karl Preis Platz) take the entrance onto
-    the campus from Claudius Keller Straße. after 150meters, you will find Haus 21A
-    on your left hand side.\r\n\r\nFor those arriving by car, there is a large parking
-    garage located on campus, by the northern entrance (St. Martin Straße 112).\r\n\r\nAGENDA\r\n\r\n
-    \   Welcome & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Food
-    & Drinks (sponsored by Le Wagon)\r\n    Talk 1 incl. Q&A: Rails Unwired: Neural
-    Networks in Ruby (Bruno Brunckhorst, Program Manager & Data Scientist @ Le Wagon)\r\n
-    \   Break\r\n    Talk 2 incl. Q&A: TBD\r\n    Socializing (open end/as long as
-    the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: Rails Unwired: Neural Networks
-    in Ruby\r\n\r\nThis will be a beginner-friendly talk on the topic of Neural Networks
-    and how to connect them with Ruby/Rails.\r\n\r\nAbout our speaker\r\n\r\nBruno
-    Brunckhorst is a Program Manager & Data Scientist at Le Wagon in Munich.\r\n\r\nTalk
-    2: TBD\r\n\r\nAbout our speaker\r\n\r\nYou? :-)"
+  description: |-
+    Dear Munich Rubyists,
+
+    the September edition of our meetup is coming!
+
+    Before diving into the details, let me start with an apology: On fairly short notice, I unfortunately couldn't attend the last meetup at our friends from Experteer due to a family-related issue. This unfortunately coincided with a meetup where we had no talk lined up, so I couldn't even give the backup talk that I had prepared. From what I heard from our host Valentin, it was still a nice meetup with interesting conversations -- but I'm still sorry that the meetup didn't go as planned.
+
+    Anyway, back to the topic at hand: The September meetup!
+
+    This time, Le Wagon Munich will be our host for location, food & drinks and they'll also have their own Bruno Brunckhorst give a talk about using Neural Networks with Ruby/Rails.
+
+    I'm also looking for an optional 2nd speaker to give a short(er) talk in addition to the main talk => let me know if you're interested or know someone who might be interested.
+
+    DATE & LOCATION
+
+    Date and Time: September 14, from 19:00 CEST
+
+    Location: Le Wagon Munich, Balanstrasse 73, building 21A, 4th floor, 81541 Munich, Germany
+
+    As the neue Balan campus is quite extensive, here some tips to make sure everyone gets here without issues:
+
+    The easiest way to locate us is to pop the location in Google Maps, the pin is very accurate.
+
+    When coming by U-Bahn (Karl Preis Platz) take the entrance onto the campus from Claudius Keller Straße. after 150meters, you will find Haus 21A on your left hand side.
+
+    For those arriving by car, there is a large parking garage located on campus, by the northern entrance (St. Martin Straße 112).
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Food & Drinks (sponsored by Le Wagon)
+        Talk 1 incl. Q&A: Rails Unwired: Neural Networks in Ruby (Bruno Brunckhorst, Program Manager & Data Scientist @ Le Wagon)
+        Break
+        Talk 2 incl. Q&A: TBD
+        Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: Rails Unwired: Neural Networks in Ruby
+
+    This will be a beginner-friendly talk on the topic of Neural Networks and how to connect them with Ruby/Rails.
+
+    About our speaker
+
+    Bruno Brunckhorst is a Program Manager & Data Scientist at Le Wagon in Munich.
+
+    Talk 2: TBD
+
+    About our speaker
+
+    You? :-)
   description_original: "Dear Munich Rubyists,\r\n\r\nthe September edition of our
     meetup is coming!\r\n\r\nBefore diving into the details, let me start with an
     apology: On fairly short notice, I unfortunately couldn't attend the last meetup
@@ -2866,9 +3178,11 @@ Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
   id: c0bcaf27-90cd-4bd8-b8f3-145a42b79c90
   attendance_mode: in_person
   date_precision: day
-  description: "⚡ Talk by Peter on the new JIT compiler in Ruby 2.6.0\r\n⚡ Talk bei
-    Uli on the updates in GDS 0.8.0\r\n\r\nWe have one more talk slot open. Want to
-    jump in? Talk to us!"
+  description: |-
+    ⚡ Talk by Peter on the new JIT compiler in Ruby 2.6.0
+    ⚡ Talk bei Uli on the updates in GDS 0.8.0
+
+    We have one more talk slot open. Want to jump in? Talk to us!
   description_original: "⚡ Talk by Peter on the new JIT compiler in Ruby 2.6.0\r\n⚡
     Talk bei Uli on the updates in GDS 0.8.0\r\n\r\nWe have one more talk slot open.
     Want to jump in? Talk to us!"
@@ -2973,11 +3287,12 @@ Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
   id: c8a5aa43-7139-44ce-8b2f-53a6c508de2e
   attendance_mode: in_person
   date_precision: day
-  description: "First Talk: Dmitry Kulikov – I18n in Rails\r\n\r\nAlso, as it's January,
-    this will be our traditional RubyKaraoke Meetup: At about ~10:30pm we will go
-    to Ratchada near Hauptbahnhof for some Ruby Karaoke! http://www.ratchada.de/karaoke/\r\n\r\nThere
-    is still one slot open for a short talk. Leave a comment or ping us on Twitter
-    if you want to prepare something!"
+  description: |-
+    First Talk: Dmitry Kulikov – I18n in Rails
+
+    Also, as it's January, this will be our traditional RubyKaraoke Meetup: At about ~10:30pm we will go to Ratchada near Hauptbahnhof for some Ruby Karaoke! http://www.ratchada.de/karaoke/
+
+    There is still one slot open for a short talk. Leave a comment or ping us on Twitter if you want to prepare something!
   description_original: "First Talk: Dmitry Kulikov – I18n in Rails\r\n\r\nAlso, as
     it's January, this will be our traditional RubyKaraoke Meetup: At about ~10:30pm
     we will go to Ratchada near Hauptbahnhof for some Ruby Karaoke! http://www.ratchada.de/karaoke/\r\n\r\nThere
@@ -3006,15 +3321,31 @@ Events::Event_c92a903b-d40f-478d-a7d6-457d362bd906:
   id: c92a903b-d40f-478d-a7d6-457d362bd906
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nWinter's Coming -- and so is the November
-    Meetup!\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: November 10, from 19:00 CEST\r\nLocation:
-    Xempus AG, Arnulfstrasse 126, 80636 München\r\n\r\nAGENDA\r\n\r\n    Welcome &
-    Announcements (10')\r\n    Location/Food & Drinks Sponsor Slot (5')\r\n    Talk
-    1 incl. Q&A: Oliver Prater: \"Reasoning about code and configuration\"\r\n    Talk
-    2 incl. Q&A: TBD\r\n    Food & Drinks (sponsored by Xempus), Socializing (open
-    end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk 1: \"Reasoning about
-    code and configuration\"\r\nAbout our speaker\r\nOliver Prater is a Software Engineer
-    at Xempus.\r\n\r\nTalk 2: TBD"
+  description: |-
+    Dear Munich Rubyists,
+
+    Winter's Coming -- and so is the November Meetup!
+
+    DATE & LOCATION
+
+    Date and Time: November 10, from 19:00 CEST
+    Location: Xempus AG, Arnulfstrasse 126, 80636 München
+
+    AGENDA
+
+        Welcome & Announcements (10')
+        Location/Food & Drinks Sponsor Slot (5')
+        Talk 1 incl. Q&A: Oliver Prater: "Reasoning about code and configuration"
+        Talk 2 incl. Q&A: TBD
+        Food & Drinks (sponsored by Xempus), Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: "Reasoning about code and configuration"
+    About our speaker
+    Oliver Prater is a Software Engineer at Xempus.
+
+    Talk 2: TBD
   description_original: "Dear Munich Rubyists,\r\n\r\nWinter's Coming -- and so is
     the November Meetup!\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: November 10,
     from 19:00 CEST\r\nLocation: Xempus AG, Arnulfstrasse 126, 80636 München\r\n\r\nAGENDA\r\n\r\n
@@ -3048,17 +3379,16 @@ Events::Event_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:
   attendance_mode: in_person
   date_precision: day
   description: "\U0001F3A4 Kivanc Semen und Ference Brose – Ruby in Legal Tech: An
-    Evening at DataGuard\r\n\r\nThe leading legal tech company DataGuard invites you
-    to get to know the machine learning supported platform (reference number at the
-    European Patent Office: Q0144EP). Founder and managing director Kivanc Semen and
-    Ference Brose will give exciting insights and look forward to discussion and exchange
-    with the guests. Food and drinks will of course be provided.\r\n\r\nKivanc Semen
-    reports on his experience as an entrepreneur and how the idea for a technology-based
-    approach to data protection came about.\r\nFerence Brose looks behind the curtain
-    of the platform and explains how DataGuard's technology works and what role Ruby
-    plays.\r\n\r\n\U0001F3A4 Dino Reic – Pure JS components in Ruby/Rails server-rendered
-    pages\r\n\r\nHow to easily integrate Svelte, React, Vue or your custom widgets
-    in your workflow\""
+    Evening at DataGuard\n\nThe leading legal tech company DataGuard invites you to
+    get to know the machine learning supported platform (reference number at the European
+    Patent Office: Q0144EP). Founder and managing director Kivanc Semen and Ference
+    Brose will give exciting insights and look forward to discussion and exchange
+    with the guests. Food and drinks will of course be provided.\n\nKivanc Semen reports
+    on his experience as an entrepreneur and how the idea for a technology-based approach
+    to data protection came about.\nFerence Brose looks behind the curtain of the
+    platform and explains how DataGuard's technology works and what role Ruby plays.\n\n\U0001F3A4
+    Dino Reic – Pure JS components in Ruby/Rails server-rendered pages\n\nHow to easily
+    integrate Svelte, React, Vue or your custom widgets in your workflow\""
   description_original: "\U0001F3A4 Kivanc Semen und Ference Brose – Ruby in Legal
     Tech: An Evening at DataGuard\r\n\r\nThe leading legal tech company DataGuard
     invites you to get to know the machine learning supported platform (reference
@@ -3094,8 +3424,10 @@ Events::Event_d03d7342-973f-4746-b70e-85309f34ae40:
   id: d03d7342-973f-4746-b70e-85309f34ae40
   attendance_mode: in_person
   date_precision: day
-  description: "Adnan Husein: Mruby + Nginx\r\n\r\nPeter Schrammel: Micro or not to
-    micro?"
+  description: |-
+    Adnan Husein: Mruby + Nginx
+
+    Peter Schrammel: Micro or not to micro?
   description_original: "Adnan Husein: Mruby + Nginx\r\n\r\nPeter Schrammel: Micro
     or not to micro?"
   end_date: '2017-09-13'
@@ -3121,18 +3453,38 @@ Events::Event_d096f26c-e4d6-4441-891c-728724a7c26a:
   id: d096f26c-e4d6-4441-891c-728724a7c26a
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nas winter finally seems to be leaving
-    Munich for good, it's time for our May meetup!\r\n\r\nThis upcoming meetup will
-    be hosted by JetBrains in their Munich office. We're still looking for speakers,
-    so if you want to give a talk, please get in touch.\r\n\r\nDATE & LOCATION\r\n\r\nDate
-    and Time: May 11, from 19:00 CEST\r\nLocation: JetBrains GmbH, Christoph-Rapparini-Bogen
-    23, 80639 Munich, Germany\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n
-    \   Location/Food & Drinks Sponsor Slot\r\n    Food & Drinks (sponsored by JetBrains)\r\n
-    \   Talk 1 incl. Q&A: \"Database decomposition at GitLab.com\" – Omar Qunsul\r\n
-    \   Break\r\n    Talk 2 incl. Q&A: TBD\r\n    Socializing (open end/as long as
-    the location permits)\r\n\r\nTALKS\r\n\r\n**Talk 1: Database decomposition at
-    GitLab.com**\r\nAbout our speaker\r\nOmar Qunsul is a Backend Engineer at GitLab.\r\n\r\nTalk
-    2: TBD\r\n\r\nAbout our speaker\r\nYou? :-)"
+  description: |-
+    Dear Munich Rubyists,
+
+    as winter finally seems to be leaving Munich for good, it's time for our May meetup!
+
+    This upcoming meetup will be hosted by JetBrains in their Munich office. We're still looking for speakers, so if you want to give a talk, please get in touch.
+
+    DATE & LOCATION
+
+    Date and Time: May 11, from 19:00 CEST
+    Location: JetBrains GmbH, Christoph-Rapparini-Bogen 23, 80639 Munich, Germany
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Food & Drinks (sponsored by JetBrains)
+        Talk 1 incl. Q&A: "Database decomposition at GitLab.com" – Omar Qunsul
+        Break
+        Talk 2 incl. Q&A: TBD
+        Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    **Talk 1: Database decomposition at GitLab.com**
+    About our speaker
+    Omar Qunsul is a Backend Engineer at GitLab.
+
+    Talk 2: TBD
+
+    About our speaker
+    You? :-)
   description_original: "Dear Munich Rubyists,\r\n\r\nas winter finally seems to be
     leaving Munich for good, it's time for our May meetup!\r\n\r\nThis upcoming meetup
     will be hosted by JetBrains in their Munich office. We're still looking for speakers,
@@ -3168,11 +3520,14 @@ Events::Event_d09e00e9-b43f-49d8-b211-9d09abfc482a:
   id: d09e00e9-b43f-49d8-b211-9d09abfc482a
   attendance_mode: in_person
   date_precision: day
-  description: "Carola Boettcher: How to build native Android Apps with the ruboto
-    framework\r\n\r\nhttps://twitter.com/carolaboettcher\r\n\r\nSebastian Burkhard:
-    How to Make Excel-Files with Ruby http://hasclass.com (http://hasclass.com/)\r\n\r\n[unconfirmed]
-    Tom from Experteer: Bulldozer, an tool for css and javascript monitoring http://www.experteer.de
-    (http://www.experteer.de/)"
+  description: |-
+    Carola Boettcher: How to build native Android Apps with the ruboto framework
+
+    https://twitter.com/carolaboettcher
+
+    Sebastian Burkhard: How to Make Excel-Files with Ruby http://hasclass.com (http://hasclass.com/)
+
+    [unconfirmed] Tom from Experteer: Bulldozer, an tool for css and javascript monitoring http://www.experteer.de (http://www.experteer.de/)
   description_original: "Carola Boettcher: How to build native Android Apps with the
     ruboto framework\r\n\r\nhttps://twitter.com/carolaboettcher\r\n\r\nSebastian Burkhard:
     How to Make Excel-Files with Ruby http://hasclass.com (http://hasclass.com/)\r\n\r\n[unconfirmed]
@@ -3201,12 +3556,14 @@ Events::Event_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
   id: d9055efc-3ba9-41d3-a013-57a1f5d352c6
   attendance_mode: in_person
   date_precision: day
-  description: "• Dmitry Gritsay – »Building the fastest application server«\r\n\r\nThe
-    presentation will tell about some dark corners of MRI, building native extensions
-    and about an attempt to beat Unicorn/Passenger/Puma in performance.\r\n\r\n• Kuba
-    Kuźma – »Ruby Conf Portugal '16 - Recap«\r\n\r\nThis talk will give everyone who
-    didn't make it to Ruby Conf Portugal a chance to get an overview over the most
-    interesting topics of the conferences and compare it to other Ruby conferences."
+  description: |-
+    • Dmitry Gritsay – »Building the fastest application server«
+
+    The presentation will tell about some dark corners of MRI, building native extensions and about an attempt to beat Unicorn/Passenger/Puma in performance.
+
+    • Kuba Kuźma – »Ruby Conf Portugal '16 - Recap«
+
+    This talk will give everyone who didn't make it to Ruby Conf Portugal a chance to get an overview over the most interesting topics of the conferences and compare it to other Ruby conferences.
   description_original: "• Dmitry Gritsay – »Building the fastest application server«\r\n\r\nThe
     presentation will tell about some dark corners of MRI, building native extensions
     and about an attempt to beat Unicorn/Passenger/Puma in performance.\r\n\r\n• Kuba
@@ -3261,14 +3618,21 @@ Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
   id: dde2695f-80c5-48a6-a450-ad8b5948c1db
   attendance_mode: in_person
   date_precision: day
-  description: "Hi,\r\n\r\nthis time we will have a Christmas themed meetup together\r\nwith
-    the kind people over from the Munich Riak user group (https://www.meetup.com/Riak-Munchen/events/151356762/).\r\n\r\nThis
-    will be a family event - so bring your kids if you want to.\r\n\r\nAnd we will
-    have to short talks by\r\n\r\n• Michal Papis (https://twitter.com/mpapis) will
-    be Talking about \"rvm wrappers\" a dive in ruby and gems configuration and what
-    rvm does to help you\r\n\r\n• Philipp Fehre (https://github.com/sideshowcoder)
-    will be talking about Riak 2.0 CRDTs and more\r\n\r\nWe are looking forward to
-    see you"
+  description: |-
+    Hi,
+
+    this time we will have a Christmas themed meetup together
+    with the kind people over from the Munich Riak user group (https://www.meetup.com/Riak-Munchen/events/151356762/).
+
+    This will be a family event - so bring your kids if you want to.
+
+    And we will have to short talks by
+
+    • Michal Papis (https://twitter.com/mpapis) will be Talking about "rvm wrappers" a dive in ruby and gems configuration and what rvm does to help you
+
+    • Philipp Fehre (https://github.com/sideshowcoder) will be talking about Riak 2.0 CRDTs and more
+
+    We are looking forward to see you
   description_original: "Hi,\r\n\r\nthis time we will have a Christmas themed meetup
     together\r\nwith the kind people over from the Munich Riak user group (https://www.meetup.com/Riak-Munchen/events/151356762/).\r\n\r\nThis
     will be a family event - so bring your kids if you want to.\r\n\r\nAnd we will
@@ -3300,9 +3664,12 @@ Events::Event_de01ca60-b027-46c8-9735-c6447c68d575:
   id: de01ca60-b027-46c8-9735-c6447c68d575
   attendance_mode: in_person
   date_precision: day
-  description: "Sadiksha Gautam (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/185560512/)
-    : Speeding up Rails\r\n\r\nMario Fernandez (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/66445692)
-    : RuboCop (Lightning Talk)\r\n\r\n(Peter Schrammel: Microservices @ metoda.com)"
+  description: |-
+    Sadiksha Gautam (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/185560512/) : Speeding up Rails
+
+    Mario Fernandez (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/66445692) : RuboCop (Lightning Talk)
+
+    (Peter Schrammel: Microservices @ metoda.com)
   description_original: "Sadiksha Gautam (https://www.meetup.com/de-DE/Munich-Rubyshift-Ruby-User-Group/members/185560512/)
     : Speeding up Rails\r\n\r\nMario Fernandez (https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/members/66445692)
     : RuboCop (Lightning Talk)\r\n\r\n(Peter Schrammel: Microservices @ metoda.com)"
@@ -3330,8 +3697,8 @@ Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
   attendance_mode: in_person
   date_precision: day
   description: "Hi everyone! We are hosted at xbAV and will have two talks lined up
-    for Wednesday night:\r\n\r\n\U0001F3A4 Karol Lewcio – 1, 1, 2, 3… different ways
-    to Fibonacci\r\n\U0001F3A4 Pavlo Masko – To Rails or not to Rails? Way to go.\r\n\r\nFood
+    for Wednesday night:\n\n\U0001F3A4 Karol Lewcio – 1, 1, 2, 3… different ways to
+    Fibonacci\n\U0001F3A4 Pavlo Masko – To Rails or not to Rails? Way to go.\n\nFood
     and drinks will be provided – we are looking forward to y'all!"
   description_original: "Hi everyone! We are hosted at xbAV and will have two talks
     lined up for Wednesday night:\r\n\r\n\U0001F3A4 Karol Lewcio – 1, 1, 2, 3… different
@@ -3360,43 +3727,54 @@ Events::Event_e0e0c374-65e9-4652-9b0e-22011412a820:
   id: e0e0c374-65e9-4652-9b0e-22011412a820
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Rubyists,\r\n\r\nour first Meetup in 2026 will take place on
-    January 22nd in AUGSBURG !!!\r\n\r\nAfter opening its gates at Rails World 2025
-    in Amsterdam, the Ruby embassy (a \"fun bureaucratic activity\") is opening a
-    branch office at our local Meetup group. Take a photo, fill out your application
-    forms, grab your Ruby passport and start collecting stamps.\r\n\r\nThe Ruby embassy
-    will also issue passports at our future Meetups, although potentially with less
-    bureaucracy (i.e. less fun).\r\n\r\nMore details about the Ruby passport: https://therubypassport.notion.site\r\n\r\nAfter
-    food & drinks we'll switch over to some talks.\r\n\r\nCALL FOR SPEAKERS:\r\n\r\n
-    \   We are still looking for a second talk. Please contact me if you have something
-    in mind.\r\n\r\nLooking forward to seeing you all in January!\r\n\r\nDiscord group:
-    https://discord.gg/EKqHWmCxGZ]\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time: January
-    22nd 2026, 18:30 CEST\r\nLocation: AUGSBURG !!! @makandra\r\n\r\nAGENDA\r\n\r\n
-    \   Welcome & Announcements\r\n    18:30 - 19:15 CEST: Office hours of the Ruby
-    embassy (Außenstelle Augsburg)\r\n    Apply for your Ruby passport and become
-    an \"official\" member of the Ruby community\r\n    Food & Drinks (thanks to makandra)\r\n
-    \   Talk 1 incl. Q&A: Henning Koch: \"Limits of Hypermedia\"\r\n    Talk 2 incl.
-    Q&A: Call for Speakers is OPEN\r\n    Socializing (open end/as long as the location
-    permits)\r\n\r\nTALKS\r\n\r\nTalk 1: Henning Koch: \"Limits of Hypermedia\"\r\nHypermedia
-    frameworks like htmx or Unpoly are positioning themselves as simpler alternatives
-    to single-page applications. Yet many of us recall earlier server-rendered experiences
-    as slow, cumbersome and limited. But just as modern React is unrecognizable from
-    its early days, hypermedia frameworks have improved radically over the last decade.
-    Today's server-rendered approaches effectively handle UI problems traditionally
-    thought to require extensive client-side scripting. At the same time, hypermedia
-    apps have some surprising limitations that you might not even have on your radar.\r\nThis
-    talk will help you decide whether adopting hypermedia makes sense for your project,
-    especially if your experience is mostly with SPAs. We will address questions frontend
-    developers typically have:\r\n- Is it possible to achieve the same responsiveness
-    that users have come to expect from SPAs?\r\n- How would dynamic forms with dependent
-    fields and inline validation work without extensive JavaScript?\r\n- Can server-side
-    rendering manage intricate UI interactions, such as multi-step modals, optimistic
-    rendering, and client-side state preservation?\r\n- Where does state go when I
-    don't have components on the client?\r\nAfter ten years of building both hypermedia
-    apps and SPAs, I'm eager to share what works and what doesn't. I hope that by
-    the end of my talk you'll know all the trade-offs to decide when hypermedia can
-    simplify your stack, and when an SPA remains the better fit.\r\n\r\nAbout our
-    speaker https://www.linkedin.com/in/triskweline/"
+  description: |-
+    Dear Rubyists,
+
+    our first Meetup in 2026 will take place on January 22nd in AUGSBURG !!!
+
+    After opening its gates at Rails World 2025 in Amsterdam, the Ruby embassy (a "fun bureaucratic activity") is opening a branch office at our local Meetup group. Take a photo, fill out your application forms, grab your Ruby passport and start collecting stamps.
+
+    The Ruby embassy will also issue passports at our future Meetups, although potentially with less bureaucracy (i.e. less fun).
+
+    More details about the Ruby passport: https://therubypassport.notion.site
+
+    After food & drinks we'll switch over to some talks.
+
+    CALL FOR SPEAKERS:
+
+        We are still looking for a second talk. Please contact me if you have something in mind.
+
+    Looking forward to seeing you all in January!
+
+    Discord group: https://discord.gg/EKqHWmCxGZ]
+
+    DATE & LOCATION
+
+    Date and Time: January 22nd 2026, 18:30 CEST
+    Location: AUGSBURG !!! @makandra
+
+    AGENDA
+
+        Welcome & Announcements
+        18:30 - 19:15 CEST: Office hours of the Ruby embassy (Außenstelle Augsburg)
+        Apply for your Ruby passport and become an "official" member of the Ruby community
+        Food & Drinks (thanks to makandra)
+        Talk 1 incl. Q&A: Henning Koch: "Limits of Hypermedia"
+        Talk 2 incl. Q&A: Call for Speakers is OPEN
+        Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: Henning Koch: "Limits of Hypermedia"
+    Hypermedia frameworks like htmx or Unpoly are positioning themselves as simpler alternatives to single-page applications. Yet many of us recall earlier server-rendered experiences as slow, cumbersome and limited. But just as modern React is unrecognizable from its early days, hypermedia frameworks have improved radically over the last decade. Today's server-rendered approaches effectively handle UI problems traditionally thought to require extensive client-side scripting. At the same time, hypermedia apps have some surprising limitations that you might not even have on your radar.
+    This talk will help you decide whether adopting hypermedia makes sense for your project, especially if your experience is mostly with SPAs. We will address questions frontend developers typically have:
+    - Is it possible to achieve the same responsiveness that users have come to expect from SPAs?
+    - How would dynamic forms with dependent fields and inline validation work without extensive JavaScript?
+    - Can server-side rendering manage intricate UI interactions, such as multi-step modals, optimistic rendering, and client-side state preservation?
+    - Where does state go when I don't have components on the client?
+    After ten years of building both hypermedia apps and SPAs, I'm eager to share what works and what doesn't. I hope that by the end of my talk you'll know all the trade-offs to decide when hypermedia can simplify your stack, and when an SPA remains the better fit.
+
+    About our speaker https://www.linkedin.com/in/triskweline/
   description_original: "Dear Rubyists,\r\n\r\nour first Meetup in 2026 will take
     place on January 22nd in AUGSBURG !!!\r\n\r\nAfter opening its gates at Rails
     World 2025 in Amsterdam, the Ruby embassy (a \"fun bureaucratic activity\") is
@@ -3458,9 +3836,16 @@ Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
   id: e1b18b13-48e8-4aa0-b9c3-cf01423d46d4
   attendance_mode: in_person
   date_precision: day
-  description: "Talks\r\n\r\n• Marc G. – Banking with ruby\r\n\r\n• Ute Mayer – A
-    journey into code\r\n\r\n• Alberto Mazaira – How to kill a project\r\n\r\n• Lucas
-    Dohmen – Codegolfing"
+  description: |-
+    Talks
+
+    • Marc G. – Banking with ruby
+
+    • Ute Mayer – A journey into code
+
+    • Alberto Mazaira – How to kill a project
+
+    • Lucas Dohmen – Codegolfing
   description_original: "Talks\r\n\r\n• Marc G. – Banking with ruby\r\n\r\n• Ute Mayer
     – A journey into code\r\n\r\n• Alberto Mazaira – How to kill a project\r\n\r\n•
     Lucas Dohmen – Codegolfing"
@@ -3487,25 +3872,38 @@ Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
   id: e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nthe year is coming to an end – which
-    means, it's almost time for the first Meetup of 2023!\r\n\r\nThis time, our friends
-    from Freeletics will be the hosts, who will also give one of the talks of the
-    evening. (If you're interested in giving the other talk or know someone who would
-    be interested, please get in touch!)\r\n\r\nAlso, at request of several people,
-    we'll bring back the Ruby News segment – I'll give you a handful of my picks of
-    the most relevant things that happened in the world of Ruby since the previous
-    meetup. Let's see how it goes. ;-)\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time:
-    January 12, from 19:00 CEST\r\nLocation: Freeletics GmbH, Berg-Am-Laim-Strasse
-    111, 81673 Munich\r\n\r\nAGENDA\r\n\r\n    Welcome & Announcements\r\n    Location/Food
-    & Drinks Sponsor Slot\r\n    Talk 1 incl. Q&A: Khaled Muamar: \"Moving from Rails
-    Secret to Environment Variables\"\r\n    Break / Ruby News\r\n    Talk 2 incl.
-    Q&A: Dmytro Khmelenko: \"Type Management in Ruby\"\r\n    Food & Drinks (sponsored
-    by Freeletics), Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
-    1: \"Moving from Rails Secret to Environment Variables\"\r\nAbout our speaker\r\nKhaled
-    Muamar is a Senior Backend Developer at Freeletics.\r\n\r\nTalk 2: \"Type Management
-    in Ruby\"\r\nAbout our speaker\r\nDmytro Khmelenko is a Software Engineer at Shopify.
-    He's also the author of the book \"Unlock the Code: The Ultimate Guide to Advancing
-    from Junior to Senior Software Engineer in 7 Actionable Steps\" (https://www.amazon.com/dp/B098LNMFCJ)."
+  description: |-
+    Dear Munich Rubyists,
+
+    the year is coming to an end – which means, it's almost time for the first Meetup of 2023!
+
+    This time, our friends from Freeletics will be the hosts, who will also give one of the talks of the evening. (If you're interested in giving the other talk or know someone who would be interested, please get in touch!)
+
+    Also, at request of several people, we'll bring back the Ruby News segment – I'll give you a handful of my picks of the most relevant things that happened in the world of Ruby since the previous meetup. Let's see how it goes. ;-)
+
+    DATE & LOCATION
+
+    Date and Time: January 12, from 19:00 CEST
+    Location: Freeletics GmbH, Berg-Am-Laim-Strasse 111, 81673 Munich
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Talk 1 incl. Q&A: Khaled Muamar: "Moving from Rails Secret to Environment Variables"
+        Break / Ruby News
+        Talk 2 incl. Q&A: Dmytro Khmelenko: "Type Management in Ruby"
+        Food & Drinks (sponsored by Freeletics), Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: "Moving from Rails Secret to Environment Variables"
+    About our speaker
+    Khaled Muamar is a Senior Backend Developer at Freeletics.
+
+    Talk 2: "Type Management in Ruby"
+    About our speaker
+    Dmytro Khmelenko is a Software Engineer at Shopify. He's also the author of the book "Unlock the Code: The Ultimate Guide to Advancing from Junior to Senior Software Engineer in 7 Actionable Steps" (https://www.amazon.com/dp/B098LNMFCJ).
   description_original: "Dear Munich Rubyists,\r\n\r\nthe year is coming to an end
     – which means, it's almost time for the first Meetup of 2023!\r\n\r\nThis time,
     our friends from Freeletics will be the hosts, who will also give one of the talks
@@ -3548,9 +3946,12 @@ Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
   id: e3c9dfd3-52c3-4813-95e9-a940a1add48f
   attendance_mode: in_person
   date_precision: day
-  description: "John Poulin: Hackin' Rails - An overview of RoR Security\r\n\r\nMarcus
-    Lankenau: Phoenix for Rails devs\r\n\r\nSri Vishnu: Run any feature branch on
-    the product manager's machine"
+  description: |-
+    John Poulin: Hackin' Rails - An overview of RoR Security
+
+    Marcus Lankenau: Phoenix for Rails devs
+
+    Sri Vishnu: Run any feature branch on the product manager's machine
   description_original: "John Poulin: Hackin' Rails - An overview of RoR Security\r\n\r\nMarcus
     Lankenau: Phoenix for Rails devs\r\n\r\nSri Vishnu: Run any feature branch on
     the product manager's machine"
@@ -3577,9 +3978,12 @@ Events::Event_e56124e4-1e66-411c-a794-41ea348d7504:
   id: e56124e4-1e66-411c-a794-41ea348d7504
   attendance_mode: in_person
   date_precision: day
-  description: "!!!! We moved the meetup by one week (soccer you know) !!!\r\n\r\nPeter:
-    How I teach my daughter ruby\r\n\r\nUI Mate: Easily create a dynamic UI in your
-    rails app much faster than ever before!"
+  description: |-
+    !!!! We moved the meetup by one week (soccer you know) !!!
+
+    Peter: How I teach my daughter ruby
+
+    UI Mate: Easily create a dynamic UI in your rails app much faster than ever before!
   description_original: "!!!! We moved the meetup by one week (soccer you know) !!!\r\n\r\nPeter:
     How I teach my daughter ruby\r\n\r\nUI Mate: Easily create a dynamic UI in your
     rails app much faster than ever before!"
@@ -3606,9 +4010,10 @@ Events::Event_e5763033-391b-4207-b889-682d099694e3:
   id: e5763033-391b-4207-b889-682d099694e3
   attendance_mode: in_person
   date_precision: day
-  description: "Torsten Ruger : Salama - a ruby virtual machine in 100% ruby\r\n\r\nJannis
-    Hübl (https://www.meetup.com/messages/t/mg1_mnm?convo_id=189340257864957952) :
-    An introduction to opal"
+  description: |-
+    Torsten Ruger : Salama - a ruby virtual machine in 100% ruby
+
+    Jannis Hübl (https://www.meetup.com/messages/t/mg1_mnm?convo_id=189340257864957952) : An introduction to opal
   description_original: "Torsten Ruger : Salama - a ruby virtual machine in 100% ruby\r\n\r\nJannis
     Hübl (https://www.meetup.com/messages/t/mg1_mnm?convo_id=189340257864957952) :
     An introduction to opal"
@@ -3635,40 +4040,53 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Rubyists,\r\n\r\nthe spring is coming closer and so our next
-    meetup in April!\r\n\r\nThe meetup will take place on Freeletics at 18:30. Here
-    a big thanks to Khaled to be our contact person!\r\n\r\nLooking forward to see
-    you all in April!\r\n\r\nDiscord group: https://discord.gg/EKqHWmCxGZ\r\n\r\nCALL
-    FOR SPEAKERS:\r\n\r\n    We are still looking for a second talk. Please contact
-    me if you have something in mind.\r\n\r\nDATE & LOCATION\r\n\r\nDate and Time:
-    April 23nd 2026, 19:00 CEST\r\nLocation: Freeletics\r\n\r\nAGENDA\r\n\r\n    Welcome
-    & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Talk 1 incl.
-    Q&A: Hans Schnedlitz; \"Gems Are Overrated: or How I Learned to Stop Worrying
-    and Love Copy-Pasting\"\r\n    Talk 2 incl. Q&A: Klaus Weidinger: \"munich-rubyshift.org
-    goes live!\"\r\n    How I Learned to Stop Worrying and Love Copy-Pasting\"\r\n
-    \   Food & Drinks (sponsored by TBD), Socializing (open end/as long as the location
-    permits)\r\n\r\nTALKS\r\n\r\nTalk 1 Hans Schnedlitz: \"Gems Are Overrated: or
-    How I Learned to Stop Worrying and Love Copy-Pasting\"\r\nWhen I started working
-    with Ruby, I embraced its rich ecosystem. My Gemfile for any new project immediately
-    grew longer than Gandalf's beard. Unfortunately, using Gems comes with downsides.
-    On the practical side, pulling in third-party libraries exposes your app to supply-chain
-    attacks that are increasingly common. However, what's even worse is that most
-    Gems are pure bloatware. They add thousands of lines of code you'll never need,
-    and churn constantly.\r\nThe alternative, obviously, is to build everything from
-    scratch. In this talk, we'll look at some examples of how some well-known gems
-    can be boiled down to a single file that you can copy-paste to any new project.
-    We'll also look at the limits of this approach, and when you actually should reach
-    for that Gem.\r\n\r\nAbout our speaker https://www.linkedin.com/in/hschne\r\n\r\nTalk
-    2 Klaus Weidinger: \"munich-rubyshift.org goes live!\"\r\nIn this demo-heavy \"talk
-    & deploy\" I do a classic Ruby on Rails speedrun. How fast can you get from an
-    empty git repo to a deployed website?\r\n\r\nHowever, nothing is as it seems.
-    While frantically switching between slides and code editor, I will reveal and
-    explain my two new gems and will use them to turn a new Ruby on Rails project
-    into a very weird static site generator.\r\n\r\nWe'll create the initial DB tables
-    and add some records ... wait, what? Database tables? In a static site generator???
-    Yes, you heard me right!\r\n\r\nAfterwards, we'll have our tiny release party!
-    At least, if the internet connection is stable. Wish me luck!\r\n\r\nAbout the
-    speaker https://www.linkedin.com/in/klaus-weidinger-a37a27332/"
+  description: |-
+    Dear Rubyists,
+
+    the spring is coming closer and so our next meetup in April!
+
+    The meetup will take place on Freeletics at 18:30. Here a big thanks to Khaled to be our contact person!
+
+    Looking forward to see you all in April!
+
+    Discord group: https://discord.gg/EKqHWmCxGZ
+
+    CALL FOR SPEAKERS:
+
+        We are still looking for a second talk. Please contact me if you have something in mind.
+
+    DATE & LOCATION
+
+    Date and Time: April 23nd 2026, 19:00 CEST
+    Location: Freeletics
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Talk 1 incl. Q&A: Hans Schnedlitz; "Gems Are Overrated: or How I Learned to Stop Worrying and Love Copy-Pasting"
+        Talk 2 incl. Q&A: Klaus Weidinger: "munich-rubyshift.org goes live!"
+        How I Learned to Stop Worrying and Love Copy-Pasting"
+        Food & Drinks (sponsored by TBD), Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1 Hans Schnedlitz: "Gems Are Overrated: or How I Learned to Stop Worrying and Love Copy-Pasting"
+    When I started working with Ruby, I embraced its rich ecosystem. My Gemfile for any new project immediately grew longer than Gandalf's beard. Unfortunately, using Gems comes with downsides. On the practical side, pulling in third-party libraries exposes your app to supply-chain attacks that are increasingly common. However, what's even worse is that most Gems are pure bloatware. They add thousands of lines of code you'll never need, and churn constantly.
+    The alternative, obviously, is to build everything from scratch. In this talk, we'll look at some examples of how some well-known gems can be boiled down to a single file that you can copy-paste to any new project. We'll also look at the limits of this approach, and when you actually should reach for that Gem.
+
+    About our speaker https://www.linkedin.com/in/hschne
+
+    Talk 2 Klaus Weidinger: "munich-rubyshift.org goes live!"
+    In this demo-heavy "talk & deploy" I do a classic Ruby on Rails speedrun. How fast can you get from an empty git repo to a deployed website?
+
+    However, nothing is as it seems. While frantically switching between slides and code editor, I will reveal and explain my two new gems and will use them to turn a new Ruby on Rails project into a very weird static site generator.
+
+    We'll create the initial DB tables and add some records ... wait, what? Database tables? In a static site generator??? Yes, you heard me right!
+
+    Afterwards, we'll have our tiny release party! At least, if the internet connection is stable. Wish me luck!
+
+    About the speaker https://www.linkedin.com/in/klaus-weidinger-a37a27332/
   description_original: "Dear Rubyists,\r\n\r\nthe spring is coming closer and so
     our next meetup in April!\r\n\r\nThe meetup will take place on Freeletics at 18:30.
     Here a big thanks to Khaled to be our contact person!\r\n\r\nLooking forward to
@@ -3726,8 +4144,10 @@ Events::Event_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
   id: e9ca82f3-5d65-40f9-8552-1a5a594f6e80
   attendance_mode: in_person
   date_precision: day
-  description: "1. public, protected, private\r\n\r\n2. \"fixing the net\" a preview
-    of an OS project\r\n"
+  description: |-
+    1. public, protected, private
+
+    2. "fixing the net" a preview of an OS project
   description_original: "1. public, protected, private\r\n\r\n2. \"fixing the net\"
     a preview of an OS project\r\n"
   end_date: '2015-04-08'
@@ -3753,19 +4173,18 @@ Events::Event_eb7f7b54-12a9-431d-b16f-a866624c3ee7:
   id: eb7f7b54-12a9-431d-b16f-a866624c3ee7
   attendance_mode: in_person
   date_precision: day
-  description: "Our first talk is already set, there is one slot left!\r\n\r\n\U0001F3A4
-    Rubèn Suet – »Object Modelling with Git«\r\nThis talk is to share my experience
+  description: "Our first talk is already set, there is one slot left!\n\n\U0001F3A4
+    Rubèn Suet – »Object Modelling with Git«\nThis talk is to share my experience
     learning how Git works behind the scenes. How it tracks the files, how it stores
     inside Git with Objects, what happens when we are creating a new branch. Everyone
     who uses Git can attend and understand the Talk, so the scope it's not just for
     Rubyists. If you know how all objects in Git are working, then it's a good talk
     to remember all the process. If you didn't pay attention to know it, then this
     talk can be very interesting to see together what are these great benefits that
-    Git is providing to us.\r\n\r\n\U0001F3A4 Oliver Prater – »Large JSON-Data Imports«\r\n…when
-    ActionController::Parameters and proxy_body_size are failing you.\r\n\r\n\U0001F3A4
-    Nils Gemeinhardt: Find unused code in your (rails) project.\r\n\r\nWhy should
-    I care about unused code? Which tools are out there to find it and how good are
-    they?"
+    Git is providing to us.\n\n\U0001F3A4 Oliver Prater – »Large JSON-Data Imports«\n…when
+    ActionController::Parameters and proxy_body_size are failing you.\n\n\U0001F3A4
+    Nils Gemeinhardt: Find unused code in your (rails) project.\n\nWhy should I care
+    about unused code? Which tools are out there to find it and how good are they?"
   description_original: "Our first talk is already set, there is one slot left!\r\n\r\n\U0001F3A4
     Rubèn Suet – »Object Modelling with Git«\r\nThis talk is to share my experience
     learning how Git works behind the scenes. How it tracks the files, how it stores
@@ -3803,8 +4222,8 @@ Events::Event_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
   attendance_mode: in_person
   date_precision: day
   description: "\U0001F3A4 Uli Ramminger –Gds Data Validation - a new data validation
-    library providing a rule-based schema definition language.\r\n\r\nWe're actively
-    searching for speakers! Want to become one? Ping us!"
+    library providing a rule-based schema definition language.\n\nWe're actively searching
+    for speakers! Want to become one? Ping us!"
   description_original: "\U0001F3A4 Uli Ramminger –Gds Data Validation - a new data
     validation library providing a rule-based schema definition language.\r\n\r\nWe're
     actively searching for speakers! Want to become one? Ping us!"
@@ -3831,16 +4250,37 @@ Events::Event_f5c1edc4-ae63-43f2-96ee-c484496986ab:
   id: f5c1edc4-ae63-43f2-96ee-c484496986ab
   attendance_mode: in_person
   date_precision: day
-  description: "Dear Munich Rubyists,\r\n\r\nafter the cancelled May meetup (sorry
-    again!), it's time for 2024's summer edition for our meetup!\r\n\r\nFor our July
-    meetup, I'm still looking for a location as well as a sponsor for food & drinks!\r\n\r\nAt
-    this time, I'm also still looking for 1-2 talks. Maybe from you? ;-) Get in touch!\r\n\r\nDATE
-    & LOCATION\r\n\r\nDate and Time: July 11, from 19:00 CEST\r\nLocation: TBD\r\n\r\nAGENDA\r\n\r\n
-    \   Welcome & Announcements\r\n    Location/Food & Drinks Sponsor Slot\r\n    Talk
-    1 incl. Q&A: TBD\r\n    Talk 2 incl. Q&A: TBD\r\n    Food & Drinks (sponsored
-    by DataGuard), Socializing (open end/as long as the location permits)\r\n\r\nTALKS\r\n\r\nTalk
-    1: TBD\r\nAbout our speaker\r\nYou? ;-)\r\n\r\nTalk 2: TBD\r\nAbout our speaker\r\nYou?
-    ;-)"
+  description: |-
+    Dear Munich Rubyists,
+
+    after the cancelled May meetup (sorry again!), it's time for 2024's summer edition for our meetup!
+
+    For our July meetup, I'm still looking for a location as well as a sponsor for food & drinks!
+
+    At this time, I'm also still looking for 1-2 talks. Maybe from you? ;-) Get in touch!
+
+    DATE & LOCATION
+
+    Date and Time: July 11, from 19:00 CEST
+    Location: TBD
+
+    AGENDA
+
+        Welcome & Announcements
+        Location/Food & Drinks Sponsor Slot
+        Talk 1 incl. Q&A: TBD
+        Talk 2 incl. Q&A: TBD
+        Food & Drinks (sponsored by DataGuard), Socializing (open end/as long as the location permits)
+
+    TALKS
+
+    Talk 1: TBD
+    About our speaker
+    You? ;-)
+
+    Talk 2: TBD
+    About our speaker
+    You? ;-)
   description_original: "Dear Munich Rubyists,\r\n\r\nafter the cancelled May meetup
     (sorry again!), it's time for 2024's summer edition for our meetup!\r\n\r\nFor
     our July meetup, I'm still looking for a location as well as a sponsor for food
@@ -3874,11 +4314,11 @@ Events::Event_f9870540-7983-496c-9541-80c13c9d4120:
   attendance_mode: in_person
   date_precision: day
   description: "\U0001F3A4 Pascal Wengerter: Fullstack Web Development in pure Ruby
-    with Matestack::Ui::Core\r\n\r\nBored of ERB files or the REST+SPA overkill? Have
+    with Matestack::Ui::Core\n\nBored of ERB files or the REST+SPA overkill? Have
     we got something for you! With Matestack, we aim to bring component-based, declarative
     views to Rails. Learn how to write less code and create interactive user interfaces
-    in pure Ruby.\r\n\r\nWe're actively searching for speakers! Want to become one?
-    Ping us!"
+    in pure Ruby.\n\nWe're actively searching for speakers! Want to become one? Ping
+    us!"
   description_original: "\U0001F3A4 Pascal Wengerter: Fullstack Web Development in
     pure Ruby with Matestack::Ui::Core\r\n\r\nBored of ERB files or the REST+SPA overkill?
     Have we got something for you! With Matestack, we aim to bring component-based,

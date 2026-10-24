@@ -1,6 +1,7 @@
 class Entities::Organization < ApplicationRecord
   include Sluggable
   include StoredImage
+  include LongFormText
   friendly_id :slug_candidates
 
   has_stored_image :logo
@@ -11,6 +12,8 @@ class Entities::Organization < ApplicationRecord
   has_many :venues, class_name: "Venues::Venue", foreign_key: :entities_organization_id, inverse_of: :organization
 
   has_many :hosted_events, -> { not_cancelled }, through: :venues, source: :events
+
+  long_form_text :internal_notes
 
   scope :meetup_hosts, -> {
     joins(:hosted_events)

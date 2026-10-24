@@ -2,6 +2,7 @@ class Events::Event < ApplicationRecord
   include StringForeignKeys
   include Sluggable
   include Events::SeriesDefaults
+  include LongFormText
   friendly_id :slug_candidates
 
   KINDS = %w[conference meetup retreat hackathon event workshop].freeze
@@ -24,6 +25,8 @@ class Events::Event < ApplicationRecord
   has_many :talks, -> { by_running_order }, class_name: "Talks::Talk", foreign_key: :events_event_id, inverse_of: :event
 
   has_many :sponsor_tiers, class_name: "Sponsors::SponsorTier", foreign_key: :events_event_id, inverse_of: :event
+
+  long_form_text :description
 
   validates :kind, inclusion: { in: KINDS }, allow_blank: true
   validates :status, inclusion: { in: STATUSES }, allow_blank: true
