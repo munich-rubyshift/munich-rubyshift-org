@@ -37,12 +37,17 @@ class LongFormText::MarkdownTest < ActiveSupport::TestCase
       "Term\n: definition" => "a definition list (a line starting with :) on line 1",
       "Costs $$5$$" => "math (text between $$) on line 1",
       "Paragraph\n{: .class}" => "an attribute list ({: …}) on line 1",
+      "Paragraph\n{: title=\"Title\"}" => "an attribute list ({: …}) on line 1",
       "### Deep" => "a heading below level 2 (###) on line 1",
       "[mail](mailto:a@example.com)" => "a link that isn't http(s) on line 1",
       "See\nhttps://example.com" => "a bare URL (write it as <https://…>) on line 1"
     }.each do |text, problem|
       assert_equal [ problem ], problems(text), text
     end
+  end
+
+  test "names kramdown options, which would change how the whole text renders" do
+    assert_equal [ "kramdown options ({::options …})" ], problems("{::options header_offset=\"-1\" /}\n\n# Big")
   end
 
   test "names the same problem once per line" do

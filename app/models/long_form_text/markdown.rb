@@ -33,12 +33,15 @@ class LongFormText::Markdown
   }.freeze
 
   def initialize(text)
-    @document = Kramdown::Document.new(text.to_s, **OPTIONS)
+    @document = Kramdown::Document.new(text, **OPTIONS)
   end
 
-  # Each problem names what isn't allowed, and on which line.
+  # Each problem names what isn't allowed, and where it can, on which line.
   def problems
-    problems_in(@document.root).uniq
+    problems = problems_in(@document.root)
+    # kramdown applies them to the whole text, and keeps them out of its tree.
+    problems << "kramdown options ({::options …})" if @document.root.options[:options].any?
+    problems.uniq
   end
 
   def to_html
@@ -58,7 +61,7 @@ class LongFormText::Markdown
   def problem_with(element, in_link:)
     if !ALLOWED.include?(element.type)
       FORBIDDEN.fetch(element.type) { element.type.to_s.humanize(capitalize: false) }
-    elsif element.attr.except("href", "title").any?
+    elsif attribute_list?(element)
       "an attribute list ({: …})"
     elsif element.type == :header && element.options[:level] > MAX_HEADING_LEVEL
       "a heading below level #{MAX_HEADING_LEVEL} (###)"
@@ -67,5 +70,11 @@ class LongFormText::Markdown
     elsif element.type == :text && !in_link && element.value.match?(%r{https?://})
       "a bare URL (write it as <https://…>)"
     end
+  end
+
+  # A link's href and title come from [text](href "title"), any other attribute from {: …}.
+  def attribute_list?(element)
+    attributes = element.type == :a ? element.attr.except("href", "title") : element.attr
+    attributes.any?
   end
 end
