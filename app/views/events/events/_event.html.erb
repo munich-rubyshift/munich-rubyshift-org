@@ -33,6 +33,12 @@
     </ul>
   </p>
 
+  <% event.cfps.each do |cfp| %>
+    <p>
+      <%= link_to "CFP #{cfp.state}", cfp %>
+    </p>
+  <% end %>
+
   <p>
     <strong>Description:</strong>
     <%= event.description %>

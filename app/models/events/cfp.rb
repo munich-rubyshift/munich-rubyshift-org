@@ -12,6 +12,8 @@ class Events::CFP < ApplicationRecord
   validates :name, presence: true, uniqueness: { scope: :events_event_id, case_sensitive: false }
   validate :closes_after_it_opens
 
+  scope :by_open_date, -> { order(:open_date, :name) }
+
   # A blank close date closes the CFP the day before its event.
   def close_date
     super || implied_close_date
@@ -19,6 +21,16 @@ class Events::CFP < ApplicationRecord
 
   def implied_close_date
     event&.start_date&.prev_day
+  end
+
+  def state
+    if open_date&.future?
+      "upcoming"
+    elsif close_date&.past?
+      "closed"
+    else
+      "open"
+    end
   end
 
   # FriendlyId sets slugs `before_validation` and simply skips if this is `nil`.

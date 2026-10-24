@@ -84,4 +84,38 @@ class Events::CFPTest < ActiveSupport::TestCase
     assert_not cfp.valid?
     assert_includes cfp.errors[:close_date], "defaults to the day before the event, which is before the open date"
   end
+
+  test "is upcoming until it opens" do
+    cfp = Events::CFP.new(event: @event, open_date: "2026-11-05")
+
+    travel_to Date.new(2026, 11, 4)
+    assert_equal "upcoming", cfp.state
+
+    travel_to Date.new(2026, 11, 5)
+    assert_equal "open", cfp.state
+  end
+
+  test "is open through the day before its event without a close date" do
+    cfp = Events::CFP.new(event: @event, open_date: "2026-10-01")
+
+    travel_to Date.new(2026, 11, 11)
+    assert_equal "open", cfp.state
+
+    travel_to Date.new(2026, 11, 12)
+    assert_equal "closed", cfp.state
+  end
+
+  test "is closed after a close date of its own" do
+    cfp = Events::CFP.new(event: @event, open_date: "2026-10-01", close_date: "2026-10-31")
+
+    travel_to Date.new(2026, 11, 1)
+    assert_equal "closed", cfp.state
+  end
+
+  test "stays open without any dates" do
+    @event.update_columns(start_date: nil, end_date: nil)
+
+    travel_to Date.new(2030, 1, 1)
+    assert_equal "open", Events::CFP.new(event: @event).state
+  end
 end
