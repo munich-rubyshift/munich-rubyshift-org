@@ -9,11 +9,10 @@ class Events::CFP < ApplicationRecord
 
   string_fk :events_event_id
 
-  validates :name, presence: true
+  validates :name, presence: true, uniqueness: { scope: :events_event_id, case_sensitive: false }
 
-  # Most CFPs have the same name, so prepend the event name for better slugs.
   def slug_candidates
-    [ [ event&.title, name ] ]
+    [ [ event&.slug, name ] ]
   end
 
   def url
