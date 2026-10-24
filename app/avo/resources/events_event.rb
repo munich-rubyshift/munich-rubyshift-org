@@ -38,7 +38,8 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
 
     grouped "What?" do
       field :title, as: :text, sortable: true
-      field :description, as: :textarea
+      field :description, **LONG_FORM_TEXT_FIELD_OPTIONS
+      field :description_original, as: :textarea, only_on: :show
     end
 
     field :series, as: :belongs_to, **sortable(:by_to_s, on: :series), default: -> { ::Events::Series.first }

@@ -21,20 +21,20 @@
     </p>
   <% end %>
 
-  <p>
+  <div>
     <strong>Description:</strong>
-    <%= venue.description %>
-  </p>
+    <%= render_long_form_text venue.description %>
+  </div>
 
   <p>
     <strong>Website:</strong>
     <%= venue.website %>
   </p>
 
-  <p>
+  <div>
     <strong>Instructions:</strong>
-    <%= venue.instructions %>
-  </p>
+    <%= render_long_form_text venue.instructions %>
+  </div>
 
   <p>
     <strong>Accessibility wheelchair:</strong>
@@ -51,19 +51,19 @@
     <%= venue.accessibility_restrooms %>
   </p>
 
-  <p>
+  <div>
     <strong>Accessibility notes:</strong>
-    <%= venue.accessibility_notes %>
-  </p>
+    <%= render_long_form_text venue.accessibility_notes %>
+  </div>
 
-  <p>
+  <div>
     <strong>Nearby public transport:</strong>
-    <%= venue.nearby_public_transport %>
-  </p>
+    <%= render_long_form_text venue.nearby_public_transport %>
+  </div>
 
-  <p>
+  <div>
     <strong>Nearby parking:</strong>
-    <%= venue.nearby_parking %>
-  </p>
+    <%= render_long_form_text venue.nearby_parking %>
+  </div>
 
 </article>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_15_190514) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_24_111627) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -39,6 +39,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_190514) do
 
   create_table "entities_organizations", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.text "internal_notes"
+    t.text "internal_notes_original"
     t.string "legal_name"
     t.string "name"
     t.string "slug"
@@ -74,6 +75,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_190514) do
     t.string "attendance_mode", null: false
     t.string "date_precision"
     t.text "description"
+    t.text "description_original"
     t.date "end_date"
     t.time "end_time"
     t.string "events_series_id", null: false
@@ -222,6 +224,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_190514) do
   create_table "talks_talks", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.date "announced_on"
     t.text "description"
+    t.text "description_original"
     t.string "events_event_id", null: false
     t.string "kind", null: false
     t.string "language_code", null: false

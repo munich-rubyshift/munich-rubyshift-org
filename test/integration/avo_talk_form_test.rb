@@ -57,6 +57,34 @@ class AvoTalkFormTest < ActionDispatch::IntegrationTest
     assert_select "[data-field-id='announced_on']", text: /2026-09-01/
   end
 
+  test "a talk page shows the original description, but the form can't change it" do
+    talk = talks_talks(:one)
+    talk.update_columns(slug: "talk-page", description_original: "As first entered")
+
+    get "/avo/resources/talks_talks/talk-page"
+
+    assert_select "[data-field-id='description_original']", text: /As first entered/
+
+    get "/avo/resources/talks_talks/talk-page/edit"
+
+    assert_response :success
+    assert_select "[name='talks/talk[description_original]']", count: 0
+  end
+
+  test "a talk form explains the Markdown and rejects what it doesn't allow" do
+    talk = talks_talks(:one)
+    talk.update_columns(slug: "talk-form")
+
+    get "/avo/resources/talks_talks/talk-form/edit"
+
+    assert_select "[data-field-id='description']", text: /<https:\/\/…>.*a single line break is just a space/
+
+    patch "/avo/resources/talks_talks/talk-form", params: { "talks/talk" => { description: "Intro\r\n\r\n    indented" } }
+
+    assert_response :unprocessable_content
+    assert_match "contains a code block", response.body
+  end
+
   test "a talk saved without a position goes last" do
     event = events_events(:one)
     event.update_columns(slug: "talk-event")

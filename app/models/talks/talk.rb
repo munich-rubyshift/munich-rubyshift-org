@@ -1,6 +1,7 @@
 class Talks::Talk < ApplicationRecord
   include StringForeignKeys
   include Sluggable
+  include LongFormText
   friendly_id :slug_candidates
 
   # The kinds rubyevents knows, in their order.
@@ -18,6 +19,8 @@ class Talks::Talk < ApplicationRecord
 
   has_many :speaker_talks, class_name: "Talks::SpeakerTalk", foreign_key: :talks_talk_id, inverse_of: :talk
   has_many :speakers, class_name: "Entities::Person", through: :speaker_talks, inverse_of: :talks
+
+  long_form_text :description
 
   validates :title, presence: true
   validates :kind, presence: true, inclusion: { in: KINDS, allow_blank: true }

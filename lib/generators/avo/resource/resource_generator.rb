@@ -6,6 +6,7 @@ module Generators
       no_tasks do
         def field_string(name, type, options)
           return "field :slug, as: :text, **SLUG_FIELD_OPTIONS" if name.to_sym == :slug
+          return "field :#{name}, **LONG_FORM_TEXT_FIELD_OPTIONS" if type.to_s == "textarea"
           "field :#{name}, as: :#{type}#{options}"
         end
 

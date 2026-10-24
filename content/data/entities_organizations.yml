@@ -1,28 +1,35 @@
 ---
 Entities::Organization_06503e41-194a-4ed1-b440-c301f73e6a6f:
   id: 06503e41-194a-4ed1-b440-c301f73e6a6f
-  internal_notes: ''
   legal_name: Thoughtworks Deutschland GmbH
   name: Thoughtworks
   slug: thoughtworks
   website: https://www.thoughtworks.com
 Entities::Organization_0e78b5fd-dfc3-41fa-b6ce-473d7bd8662d:
   id: 0e78b5fd-dfc3-41fa-b6ce-473d7bd8662d
-  internal_notes: "Acquired by:\r\n- \"Sphera\" in 2022"
+  internal_notes: |-
+    Acquired by:
+    - "Sphera" in 2022
+  internal_notes_original: "Acquired by:\r\n- \"Sphera\" in 2022"
   legal_name: riskmethods GmbH
   name: riskmethods
   slug: riskmethods
   website: https://www.riskmethods.net
 Entities::Organization_15e5eebf-a915-40dc-b982-fcce3f1352b4:
   id: 15e5eebf-a915-40dc-b982-fcce3f1352b4
-  internal_notes: ''
   legal_name: Demodesk GmbH
   name: Demodesk
   slug: demodesk
   website: https://demodesk.ai
 Entities::Organization_1f653476-5efe-415e-9dcb-6c58e3e522e2:
   id: 1f653476-5efe-415e-9dcb-6c58e3e522e2
-  internal_notes: "Previous names:\r\n- \"ARRI Media GmbH\" until 2022\r\n\r\nContact:\r\n-
+  internal_notes: |-
+    Previous names:
+    - "ARRI Media GmbH" until 2022
+
+    Contact:
+    - Sascha
+  internal_notes_original: "Previous names:\r\n- \"ARRI Media GmbH\" until 2022\r\n\r\nContact:\r\n-
     Sascha\r\n"
   legal_name: Media Services GmbH
   name: PHAROS – The Post Group
@@ -30,14 +37,22 @@ Entities::Organization_1f653476-5efe-415e-9dcb-6c58e3e522e2:
   website: https://www.pharos.de
 Entities::Organization_23ddd95b-ca87-43e5-b69b-7c71322891e5:
   id: 23ddd95b-ca87-43e5-b69b-7c71322891e5
-  internal_notes: "Now:\r\n- \"Averest Consulting GmbH\" since 2026"
+  internal_notes: |-
+    Now:
+    - "Averest Consulting GmbH" since 2026
+  internal_notes_original: "Now:\r\n- \"Averest Consulting GmbH\" since 2026"
   legal_name: metoda GmbH
   name: Metoda
   slug: metoda
   website: https://www.metoda.com
 Entities::Organization_24f50cbf-5c1b-498b-abc6-b6978e29f7b1:
   id: 24f50cbf-5c1b-498b-abc6-b6978e29f7b1
-  internal_notes: "Acquired by:\r\n- Research In Motion (2011)\r\n\r\nDefunct."
+  internal_notes: |-
+    Acquired by:
+    - Research In Motion (2011)
+
+    Defunct.
+  internal_notes_original: "Acquired by:\r\n- Research In Motion (2011)\r\n\r\nDefunct."
   legal_name: Scoreloop AG
   name: Scoreloop
   slug: scoreloop
@@ -56,44 +71,48 @@ Entities::Organization_29832b05-4ea1-4fc3-8cb2-a992acc590de:
   website: https://www.jetbrains.com
 Entities::Organization_3d5d1da4-6acb-43d9-b326-58831e238dea:
   id: 3d5d1da4-6acb-43d9-b326-58831e238dea
-  internal_notes: ''
   legal_name: makandra GmbH
   name: makandra
   slug: makandra
   website: https://makandra.de/en
 Entities::Organization_42f4efab-41f2-4d1f-8539-8c94cacf38da:
   id: 42f4efab-41f2-4d1f-8539-8c94cacf38da
-  internal_notes: ''
   legal_name: FORMER 03 GmbH
   name: FORMER 03
   slug: former-03
   website: https://www.former03.de
 Entities::Organization_482c6c95-e2bb-41f5-bdc6-13b0c2c0ce23:
   id: 482c6c95-e2bb-41f5-bdc6-13b0c2c0ce23
-  internal_notes: ''
   legal_name: ATOSS Aloud GmbH
   name: Crewmeister
   slug: crewmeister
   website: https://crewmeister.com
 Entities::Organization_5bc2ceda-e94c-49d4-ade5-a97664619255:
   id: 5bc2ceda-e94c-49d4-ade5-a97664619255
-  internal_notes: "Future names:\r\n- \"Geek Space 9 GmbH\" since 2019\r\n- \"Turing
-    42 GmbH\" since 2024"
+  internal_notes: |-
+    Future names:
+    - "Geek Space 9 GmbH" since 2019
+    - "Turing 42 GmbH" since 2024
+  internal_notes_original: "Future names:\r\n- \"Geek Space 9 GmbH\" since 2019\r\n-
+    \"Turing 42 GmbH\" since 2024"
   legal_name: IT:Agenten GmbH
   name: IT:Agenten
   slug: it-agenten
   website: http://www.it-agenten.com
 Entities::Organization_5da9b18f-3bf2-48ec-a257-34b02f249538:
   id: 5da9b18f-3bf2-48ec-a257-34b02f249538
-  internal_notes: ''
   legal_name: flobbymedia
   name: flobbymedia
   slug: flobbymedia
   website: http://www.flobbymedia.de
 Entities::Organization_5e2d7b62-b642-4ae7-a17e-8554c0df5d71:
   id: 5e2d7b62-b642-4ae7-a17e-8554c0df5d71
-  internal_notes: "Previously:\r\n- \"xbAV AG\" until 2021\r\n- \"xbAV GmbH\" until
-    2016"
+  internal_notes: |-
+    Previously:
+    - "xbAV AG" until 2021
+    - "xbAV GmbH" until 2016
+  internal_notes_original: "Previously:\r\n- \"xbAV AG\" until 2021\r\n- \"xbAV GmbH\"
+    until 2016"
   legal_name: Xempus AG
   name: Xempus
   slug: xempus
@@ -106,14 +125,16 @@ Entities::Organization_65b5f3be-9689-443d-9fa4-b64f41532260:
   website: https://www.gutefrage.net
 Entities::Organization_69afe894-6800-4d58-9134-24c34a03838e:
   id: 69afe894-6800-4d58-9134-24c34a03838e
-  internal_notes: ''
   legal_name: Hubert Burda Media Holding KG
   name: Hubert Burda Media
   slug: hubert-burda-media
   website: https://www.burda.com
 Entities::Organization_6b430862-a19c-42b7-9472-f52d73e407b9:
   id: 6b430862-a19c-42b7-9472-f52d73e407b9
-  internal_notes: "Now:\r\n- \"FG Management GmbH\" since 2025"
+  internal_notes: |-
+    Now:
+    - "FG Management GmbH" since 2025
+  internal_notes_original: "Now:\r\n- \"FG Management GmbH\" since 2025"
   legal_name: Fidor Bank AG
   name: Fidor Bank
   slug: fidor-bank
@@ -132,28 +153,29 @@ Entities::Organization_8210e0a0-31b9-4b43-a64e-b3f2c4c2b215:
   website: https://www.lanes-planes.com
 Entities::Organization_942d4f0e-c013-470c-b4e1-312e0d600391:
   id: 942d4f0e-c013-470c-b4e1-312e0d600391
-  internal_notes: "Now\r\n- \"Deel Engage\" (subsidiary of \"Deel, Inc.\") since 2024"
+  internal_notes: |-
+    Now
+    - "Deel Engage" (subsidiary of "Deel, Inc.") since 2024
+  internal_notes_original: "Now\r\n- \"Deel Engage\" (subsidiary of \"Deel, Inc.\")
+    since 2024"
   legal_name: Zavvy GmbH
   name: Zavvy
   slug: zavvy
   website: https://www.zavvy.io
 Entities::Organization_a91b7551-fc1f-4f48-a1e7-d15a6b83c24d:
   id: a91b7551-fc1f-4f48-a1e7-d15a6b83c24d
-  internal_notes: ''
   legal_name: Cospired GmbH
   name: Cospired
   slug: cospired
   website: https://cospired.com
 Entities::Organization_a986ef8b-165f-43c4-b571-3097c2651cca:
   id: a986ef8b-165f-43c4-b571-3097c2651cca
-  internal_notes: ''
   legal_name: Workday GmbH
   name: Workday
   slug: workday
   website: https://www.workday.com
 Entities::Organization_b10441a8-73dd-4d7c-ba06-45e366a3b294:
   id: b10441a8-73dd-4d7c-ba06-45e366a3b294
-  internal_notes: ''
   legal_name: Le Wagon GmbH
   name: LeWagon
   slug: lewagon
@@ -184,8 +206,12 @@ Entities::Organization_e6c0f8d6-3458-4fe5-8371-1887bc2fdd0e:
   website: https://www.freeletics.com
 Entities::Organization_f227be6b-03c8-4bb8-ada2-08b1f26b0fef:
   id: f227be6b-03c8-4bb8-ada2-08b1f26b0fef
-  internal_notes: "Previously:\r\n- \"XING SE\" until 2019\r\n- \"XING Events GmbH\"
-    was a subsidiary until 2022"
+  internal_notes: |-
+    Previously:
+    - "XING SE" until 2019
+    - "XING Events GmbH" was a subsidiary until 2022
+  internal_notes_original: "Previously:\r\n- \"XING SE\" until 2019\r\n- \"XING Events
+    GmbH\" was a subsidiary until 2022"
   legal_name: New Work SE
   name: New Work
   slug: new-work

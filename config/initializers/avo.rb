@@ -208,6 +208,14 @@ Rails.application.config.to_prepare do
         "Changing it needs content/storage checked out, see the README."
     }.freeze
 
+    # For a model's `long_form_text`. Avo sanitizes the help as HTML.
+    LONG_FORM_TEXT_FIELD_OPTIONS = {
+      as: :textarea,
+      help: "Markdown: <code>**bold**</code>, <code>*italic*</code>, <code>`code`</code>, " \
+        "<code>[a link](https://…)</code> or <code>&lt;https://…&gt;</code>, lists, and <code>#</code> or <code>##</code> headings. " \
+        "A blank line starts a paragraph, a single line break is just a space: end a line with <code>\\</code> to keep it."
+    }.freeze
+
     # Sort a column by one of the model's scopes, or with `on:` by a scope
     # of an association's model.
     def sortable(scope, on: nil)

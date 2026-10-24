@@ -8,6 +8,16 @@ class EventPagesTest < ActionDispatch::IntegrationTest
     Events::CFP.delete_all
   end
 
+  test "an event's description renders its Markdown" do
+    @event.update_columns(description: "# Agenda\n\n- Welcome\n- Talk by [Anna](https://example.com)")
+
+    get "/events/meetup-2026-11-12"
+
+    assert_response :success
+    assert_select "article h2", text: "Agenda"
+    assert_select "article ul li a[href='https://example.com']", text: "Anna"
+  end
+
   test "the events link to each event's CFPs in the order they open" do
     Events::CFP.create!(event: @event, name: "Call for Workshops", open_date: "2026-10-15")
     Events::CFP.create!(event: @event, name: "Call for Lightning Talks", open_date: "2026-10-15")

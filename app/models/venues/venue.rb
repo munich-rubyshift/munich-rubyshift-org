@@ -2,6 +2,7 @@ class Venues::Venue < ApplicationRecord
   include StringForeignKeys
   include Locations::Mappable
   include Sluggable
+  include LongFormText
   friendly_id :name
 
   belongs_to :address, class_name: "::Locations::Address", foreign_key: :locations_address_id, inverse_of: :venues
@@ -13,6 +14,8 @@ class Venues::Venue < ApplicationRecord
   has_one :coordinates, through: :address
 
   has_many :events, class_name: "::Events::Event", foreign_key: :venues_venue_id, inverse_of: :venue
+
+  long_form_text :description, :instructions, :accessibility_notes, :nearby_public_transport, :nearby_parking
 
   def to_s
     name

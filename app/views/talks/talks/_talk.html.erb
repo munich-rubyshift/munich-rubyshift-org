@@ -33,10 +33,10 @@
     <%= talk.position %>
   </p>
 
-  <p>
+  <div>
     <strong>Description:</strong>
-    <%= talk.description %>
-  </p>
+    <%= render_long_form_text talk.description %>
+  </div>
 
   <p>
     <strong>Slides url:</strong>
