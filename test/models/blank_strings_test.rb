@@ -10,6 +10,13 @@ class BlankStringsTest < ActiveSupport::TestCase
       "These keep blank strings, which reach content/data as ''. Add them to `normalized_strings`"
   end
 
+  test "every string column stores line breaks as LF" do
+    kept = string_columns.select { |model, name| model.normalize_value_for(name, "a\r\nb").include?("\r") }
+
+    assert_empty kept.map { |model, name| "#{model.name}##{name}" },
+      "These keep CRLF, which reaches content/data as \\r\\n. Add them to `normalized_strings`"
+  end
+
   test "all models have a valid to_s method" do
     models.each { |model| assert_kind_of String, model.new.to_s, "#{model.name}#to_s" }
   end

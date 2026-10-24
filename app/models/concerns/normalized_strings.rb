@@ -3,7 +3,8 @@ module NormalizedStrings
 
   class_methods do
     def normalized_strings(*names)
-      normalizes(*names, with: ->(value) { value.presence })
+      # Normalize all CRLF to LF for a nicer representation in YAML.
+      normalizes(*names, with: ->(value) { value.gsub(/\r\n?/, "\n").presence })
     end
   end
 end
