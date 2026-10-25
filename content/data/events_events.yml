@@ -69,6 +69,30 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
   twitter_username: ''
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
   website: ''
+Events::Event_0be7ac1c-2c32-41f7-a028-b352713f5ae7:
+  id: 0be7ac1c-2c32-41f7-a028-b352713f5ae7
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2012-05-15'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2012-05-15
+  start_date: '2012-05-15'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup May 2012
+  twitter_username: ''
+  venues_venue_id: 67929c72-6c33-4bfd-a530-6a76a272ce47
+  website: ''
 Events::Event_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
   id: 0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6
   attendance_mode: in_person
@@ -418,6 +442,30 @@ Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
   twitter_username: ''
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
   website: ''
+Events::Event_2af376f0-1305-4985-bcbb-2e0faa8891a2:
+  id: 2af376f0-1305-4985-bcbb-2e0faa8891a2
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2012-06-05'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2012-06-05
+  start_date: '2012-06-05'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup June 2012
+  twitter_username: ''
+  venues_venue_id: 398a16cb-c67e-4b1e-87f6-2d7535a7c43c
+  website: ''
 Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
   id: 31dfb46b-8e9e-4941-92e9-d429d53f6eaa
   attendance_mode: in_person
@@ -720,6 +768,30 @@ Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
   title: Ruby User Group Meetup
   twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+Events::Event_49fede28-0d36-4444-b0a0-e4f1478fa41f:
+  id: 49fede28-0d36-4444-b0a0-e4f1478fa41f
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2013-05-08'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2013-05-08
+  start_date: '2013-05-08'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup May 2013
+  twitter_username: ''
+  venues_venue_id: 614a9910-a2f6-4991-b2c8-6c021c91d477
   website: ''
 Events::Event_4ab85760-fd58-428f-bdf3-0b0f97e4930a:
   id: 4ab85760-fd58-428f-bdf3-0b0f97e4930a
@@ -1610,6 +1682,30 @@ Events::Event_7f464932-1471-4932-9732-d79d20c32844:
   twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
+Events::Event_7f86600e-6d02-4330-ad23-202dea797ac6:
+  id: 7f86600e-6d02-4330-ad23-202dea797ac6
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2012-09-10'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2012-09-10
+  start_date: '2012-09-10'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup September 2012
+  twitter_username: ''
+  venues_venue_id: 875db3ec-232f-4ca5-99bf-7373a25d0681
+  website: ''
 Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
   id: 81289cc1-6ab1-408c-9f39-dde415b27a20
   attendance_mode: in_person
@@ -1637,6 +1733,30 @@ Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
   title: Ruby User Group Meetup
   twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+Events::Event_82ce5b60-d507-430e-9ce6-c6fedfbd67e2:
+  id: 82ce5b60-d507-430e-9ce6-c6fedfbd67e2
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2013-06-12'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2013-06-12
+  start_date: '2013-06-12'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup June 2013
+  twitter_username: ''
+  venues_venue_id: 1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3
   website: ''
 Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
   id: 881f5ab6-f105-4900-a67a-1752ac42874d
@@ -1714,6 +1834,30 @@ Events::Event_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
   title: Ruby User Group Meetup
   twitter_username: ''
   venues_venue_id: f1d0f5b6-c721-4dd0-a632-8acec6cbcd60
+  website: ''
+Events::Event_908a770a-7eb1-4009-80e7-6cd766185088:
+  id: 908a770a-7eb1-4009-80e7-6cd766185088
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2012-11-14'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2012-11-14
+  start_date: '2012-11-14'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup November 2013
+  twitter_username: ''
+  venues_venue_id: 875db3ec-232f-4ca5-99bf-7373a25d0681
   website: ''
 Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
   id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
@@ -1829,6 +1973,30 @@ Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
   twitter_username: ''
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   website: ''
+Events::Event_9f745689-c95c-4f7c-b64d-ca13963eb30a:
+  id: 9f745689-c95c-4f7c-b64d-ca13963eb30a
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2012-08-08'
+  end_time: '2000-01-01 21:30:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2012-08-08
+  start_date: '2012-08-08'
+  start_time: '2000-01-01 18:30:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup August 2012
+  twitter_username: ''
+  venues_venue_id: 4ae281e3-418c-4037-8eb3-de3c9b01e747
+  website: ''
 Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
   id: a25cb714-cc6a-4e13-adae-69f1f42f1901
   attendance_mode: in_person
@@ -1883,6 +2051,30 @@ Events::Event_a2cad908-ac6a-4757-92b5-23360594d899:
   title: Ruby User Group Meetup
   twitter_username: ''
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
+  website: ''
+Events::Event_a2f5f7db-1817-43b0-90d1-bb43496137b2:
+  id: a2f5f7db-1817-43b0-90d1-bb43496137b2
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2012-10-10'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2012-10-10
+  start_date: '2012-10-10'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup October 2012
+  twitter_username: ''
+  venues_venue_id: 875db3ec-232f-4ca5-99bf-7373a25d0681
   website: ''
 Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
   id: a30e173e-4659-4cae-915b-13d81f8e8fc3
@@ -1958,6 +2150,30 @@ Events::Event_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
   title: Ruby User Group Meetup
   twitter_username: ''
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
+  website: ''
+Events::Event_a7335843-e74b-4b3e-8cba-bebd4e9e13cc:
+  id: a7335843-e74b-4b3e-8cba-bebd4e9e13cc
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2013-02-16'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2013-02-16
+  start_date: '2013-02-16'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup February 2013
+  twitter_username: ''
+  venues_venue_id: 8578552d-0404-465a-bf8a-32a7d8120b21
   website: ''
 Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
   id: aa0190f0-4e61-4234-a914-fe39d0c25a76
@@ -2186,6 +2402,30 @@ Events::Event_b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5:
   title: Ruby User Group Meetup
   twitter_username: ''
   website: ''
+Events::Event_b92e9820-5ccc-4877-9fde-0414cb82bd15:
+  id: b92e9820-5ccc-4877-9fde-0414cb82bd15
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2013-03-13'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2013-03-13
+  start_date: '2013-03-13'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup March 2012
+  twitter_username: ''
+  venues_venue_id: 1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3
+  website: ''
 Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
   id: bb626d8b-beff-4d94-b095-d3a73a369ebb
   attendance_mode: online
@@ -2357,6 +2597,30 @@ Events::Event_c3faa100-3977-4073-82a8-0ec4625773ea:
   title: Ruby Hackathon
   twitter_username: ''
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
+  website: ''
+Events::Event_c6cf189c-648e-4ae7-abaa-a4761d9cd555:
+  id: c6cf189c-648e-4ae7-abaa-a4761d9cd555
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2013-04-10'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2013-04-10
+  start_date: '2013-04-10'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup April 2013
+  twitter_username: ''
+  venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
   website: ''
 Events::Event_c7b6e7a9-20e6-45a0-b56b-d10841ff38f4:
   id: c7b6e7a9-20e6-45a0-b56b-d10841ff38f4
@@ -2641,6 +2905,30 @@ Events::Event_da4b79dd-3013-476b-8fa3-96e7666e56a9:
   title: Ruby User Group Meetup
   twitter_username: ''
   website: ''
+Events::Event_dd5fbda7-f6ae-4732-8b39-539b4726b36a:
+  id: dd5fbda7-f6ae-4732-8b39-539b4726b36a
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2012-07-05'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2012-07-05
+  start_date: '2012-07-05'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup July 2012
+  twitter_username: ''
+  venues_venue_id: 4ae281e3-418c-4037-8eb3-de3c9b01e747
+  website: ''
 Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
   id: dde2695f-80c5-48a6-a450-ad8b5948c1db
   attendance_mode: in_person
@@ -2810,6 +3098,30 @@ Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
   title: Ruby User Group Meetup
   twitter_username: ''
   venues_venue_id: 90a84792-1569-45c1-9c35-9e3a708e75c4
+  website: ''
+Events::Event_e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97:
+  id: e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2012-12-12'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2012-12-12
+  start_date: '2012-12-12'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup December 2012
+  twitter_username: ''
+  venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   website: ''
 Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
   id: e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd
@@ -2987,6 +3299,30 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   title: Ruby Meetup April 2026
   twitter_username: ''
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
+  website: ''
+Events::Event_e890a30b-2555-4851-9a6e-7b29b16d29a9:
+  id: e890a30b-2555-4851-9a6e-7b29b16d29a9
+  attendance_mode: in_person
+  date_precision: day
+  description: ''
+  end_date: '2013-01-16'
+  end_time: '2000-01-01 21:00:00'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  github: ''
+  kind: meetup
+  last_edition: 0
+  luma: ''
+  mastodon: ''
+  meetup: ''
+  rubyevents_slug: ''
+  slug: meetup-2013-01-16
+  start_date: '2013-01-16'
+  start_time: '2000-01-01 18:00:00'
+  status: scheduled
+  tickets_url: ''
+  title: Ruby Meetup January 2013
+  twitter_username: ''
+  venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
   website: ''
 Events::Event_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
   id: e9ca82f3-5d65-40f9-8552-1a5a594f6e80

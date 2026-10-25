@@ -95,6 +95,22 @@ Venues::Venue_1347f7fd-3908-4c46-9325-f7f514394170:
   rubyevents_slug: ''
   slug: thoughtworks-office
   website: ''
+Venues::Venue_1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3:
+  id: 1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3
+  accessibility_elevators: 0
+  accessibility_notes: ''
+  accessibility_restrooms: 0
+  accessibility_wheelchair: 0
+  description: ''
+  entities_organization_id: c37e11f1-7b50-4f33-97eb-40afd96323f2
+  instructions: ''
+  locations_address_id: 7cd7fa76-d811-48ba-9f53-74bdb3d6b1c7
+  name: Propertybase Office
+  nearby_parking: ''
+  nearby_public_transport: ''
+  rubyevents_slug: ''
+  slug: propertybase-office
+  website: ''
 Venues::Venue_215487ed-a371-488f-b43f-3caffbbdf0d0:
   id: 215487ed-a371-488f-b43f-3caffbbdf0d0
   accessibility_elevators: 0
@@ -174,6 +190,21 @@ Venues::Venue_3236f853-c433-46ee-a6e4-070b99a632fb:
   rubyevents_slug: ''
   slug: pharos-office
   website: ''
+Venues::Venue_398a16cb-c67e-4b1e-87f6-2d7535a7c43c:
+  id: 398a16cb-c67e-4b1e-87f6-2d7535a7c43c
+  accessibility_elevators: 0
+  accessibility_notes: ''
+  accessibility_restrooms: 0
+  accessibility_wheelchair: 0
+  description: ''
+  instructions: ''
+  locations_address_id: 39a17af5-3643-4894-8fed-606bdb285935
+  name: Bar Niederlassung
+  nearby_parking: ''
+  nearby_public_transport: ''
+  rubyevents_slug: ''
+  slug: bar-niederlassung
+  website: http://niederlassung.org/about-2/lage/
 Venues::Venue_3b908116-7311-4923-b840-ed89760170f8:
   id: 3b908116-7311-4923-b840-ed89760170f8
   accessibility_elevators: 0
@@ -222,6 +253,21 @@ Venues::Venue_4615cc6d-19f4-4d57-bbe7-482e41344db1:
   rubyevents_slug: ''
   slug: freeletics-office
   website: ''
+Venues::Venue_4ae281e3-418c-4037-8eb3-de3c9b01e747:
+  id: 4ae281e3-418c-4037-8eb3-de3c9b01e747
+  accessibility_elevators: 0
+  accessibility_notes: ''
+  accessibility_restrooms: 0
+  accessibility_wheelchair: 0
+  description: https://www.facebook.com/coworkingmunich.de
+  instructions: ''
+  locations_address_id: e0ae990d-b61a-4bc9-8f25-c920fb2e8d2b
+  name: coworkingmunich
+  nearby_parking: ''
+  nearby_public_transport: ''
+  rubyevents_slug: ''
+  slug: coworkingmunich
+  website: http://www.coworkingmunich.de
 Venues::Venue_4f816bec-c6ce-4776-947f-fa6551d18108:
   id: 4f816bec-c6ce-4776-947f-fa6551d18108
   accessibility_elevators: 0
@@ -286,6 +332,22 @@ Venues::Venue_59fc696b-609c-4177-9afa-669185fb0dd7:
   rubyevents_slug: ''
   slug: workday-office
   website: ''
+Venues::Venue_614a9910-a2f6-4991-b2c8-6c021c91d477:
+  id: 614a9910-a2f6-4991-b2c8-6c021c91d477
+  accessibility_elevators: 0
+  accessibility_notes: ''
+  accessibility_restrooms: 0
+  accessibility_wheelchair: 0
+  description: ''
+  entities_organization_id: 3d5d1da4-6acb-43d9-b326-58831e238dea
+  instructions: ''
+  locations_address_id: f275e06f-ce99-4ceb-a4c4-82fc52897219
+  name: Trurnit Office
+  nearby_parking: ''
+  nearby_public_transport: ''
+  rubyevents_slug: ''
+  slug: trurnit-office
+  website: ''
 Venues::Venue_6309bbae-cd76-4b93-bfa7-7b1fb076177b:
   id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   accessibility_elevators: 0
@@ -349,6 +411,22 @@ Venues::Venue_65fca0f2-adb6-4a50-b344-8771745bee01:
   rubyevents_slug: ''
   slug: xempus-office
   website: ''
+Venues::Venue_67929c72-6c33-4bfd-a530-6a76a272ce47:
+  id: 67929c72-6c33-4bfd-a530-6a76a272ce47
+  accessibility_elevators: 0
+  accessibility_notes: ''
+  accessibility_restrooms: 0
+  accessibility_wheelchair: 0
+  description: ''
+  entities_organization_id: b790a3c7-0cfb-4920-a61c-3730f74a051e
+  instructions: ''
+  locations_address_id: ded64db2-95ab-4db5-bc19-3f7fdef35d52
+  name: Orceo Office
+  nearby_parking: ''
+  nearby_public_transport: ''
+  rubyevents_slug: ''
+  slug: orceo-office
+  website: ''
 Venues::Venue_69821224-9122-4f4f-afa2-ea45b4356aa1:
   id: 69821224-9122-4f4f-afa2-ea45b4356aa1
   accessibility_elevators: 0
@@ -380,6 +458,37 @@ Venues::Venue_7ccf4041-03b7-452a-a7f1-efa5d22e96d4:
   nearby_public_transport: ''
   rubyevents_slug: ''
   slug: demodesk-office
+  website: ''
+Venues::Venue_8578552d-0404-465a-bf8a-32a7d8120b21:
+  id: 8578552d-0404-465a-bf8a-32a7d8120b21
+  accessibility_elevators: 0
+  accessibility_notes: ''
+  accessibility_restrooms: 0
+  accessibility_wheelchair: 0
+  description: ''
+  instructions: ''
+  locations_address_id: 7619e363-a9f9-435d-ac83-67536d521e3d
+  name: Unknown
+  nearby_parking: ''
+  nearby_public_transport: ''
+  rubyevents_slug: ''
+  slug: unknown
+  website: ''
+Venues::Venue_875db3ec-232f-4ca5-99bf-7373a25d0681:
+  id: 875db3ec-232f-4ca5-99bf-7373a25d0681
+  accessibility_elevators: 0
+  accessibility_notes: ''
+  accessibility_restrooms: 0
+  accessibility_wheelchair: 0
+  description: ''
+  entities_organization_id: ab0a62a1-c61e-4a8c-a3d9-7f46a5e05c80
+  instructions: ''
+  locations_address_id: 3cc29857-b85b-4f36-9982-6ea55026e955
+  name: StyleFruits Office
+  nearby_parking: ''
+  nearby_public_transport: ''
+  rubyevents_slug: ''
+  slug: stylefruits-office
   website: ''
 Venues::Venue_876c3466-782e-40c3-a3c0-b08779b6cbdb:
   id: 876c3466-782e-40c3-a3c0-b08779b6cbdb

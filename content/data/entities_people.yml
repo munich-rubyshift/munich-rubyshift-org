@@ -59,6 +59,19 @@ Entities::Person_13af5a99-46b3-4c3d-9b2a-06c0f0e41f8e:
   speakerdeck_username: ''
   twitter_username: ''
   website: ''
+Entities::Person_18ae851a-ab48-493c-8812-a366f8c27e39:
+  id: 18ae851a-ab48-493c-8812-a366f8c27e39
+  bluesky_handle: ''
+  github_username: ''
+  linkedin_username: ''
+  mastodon: ''
+  meetup_id: ''
+  name: Matthias Marshall
+  rubyevents_slug: ''
+  slug: matthias-marshall
+  speakerdeck_username: ''
+  twitter_username: ''
+  website: ''
 Entities::Person_19f89964-dd55-4a73-b44e-c154c4da2ebd:
   id: 19f89964-dd55-4a73-b44e-c154c4da2ebd
   bluesky_handle: ''
@@ -68,6 +81,19 @@ Entities::Person_19f89964-dd55-4a73-b44e-c154c4da2ebd:
   name: Thomas Mayrhofer
   rubyevents_slug: ''
   slug: thomas-mayrhofer
+  speakerdeck_username: ''
+  twitter_username: ''
+  website: ''
+Entities::Person_1ccb618b-25da-4b1f-85f8-fd8ba044cefb:
+  id: 1ccb618b-25da-4b1f-85f8-fd8ba044cefb
+  bluesky_handle: ''
+  github_username: ''
+  linkedin_username: ''
+  mastodon: ''
+  meetup_id: ''
+  name: Alexander Reelsen
+  rubyevents_slug: ''
+  slug: alexander-reelsen
   speakerdeck_username: ''
   twitter_username: ''
   website: ''
@@ -167,6 +193,19 @@ Entities::Person_30572660-7e77-40b3-9e4b-eeedd6cbb06d:
   speakerdeck_username: ''
   twitter_username: ''
   website: ''
+Entities::Person_31de91f1-fe56-4a48-8df6-57ad93264866:
+  id: 31de91f1-fe56-4a48-8df6-57ad93264866
+  bluesky_handle: ''
+  github_username: ''
+  linkedin_username: ''
+  mastodon: ''
+  meetup_id: ''
+  name: Sara Regan
+  rubyevents_slug: ''
+  slug: sara-regan
+  speakerdeck_username: ''
+  twitter_username: ''
+  website: ''
 Entities::Person_37f33012-4119-4e7c-9e0c-9b820baa7239:
   id: 37f33012-4119-4e7c-9e0c-9b820baa7239
   bluesky_handle: ''
@@ -236,6 +275,19 @@ Entities::Person_4bfb0ea6-0180-4cd2-ab87-d947c1772e6d:
   name: Dennis Herr
   rubyevents_slug: ''
   slug: dennis-herr
+  speakerdeck_username: ''
+  twitter_username: ''
+  website: ''
+Entities::Person_4ffdbde5-2206-430f-8cf6-da9465dd9673:
+  id: 4ffdbde5-2206-430f-8cf6-da9465dd9673
+  bluesky_handle: ''
+  github_username: sck
+  linkedin_username: ''
+  mastodon: ''
+  meetup_id: ''
+  name: Sven C. Koehler
+  rubyevents_slug: ''
+  slug: sven-c-koehler
   speakerdeck_username: ''
   twitter_username: ''
   website: ''
@@ -470,13 +522,14 @@ Entities::Person_7f138414-a42e-40d2-9f6d-2a68ad233137:
 Entities::Person_804a798a-d2a1-457e-aaaf-55c28a4e1386:
   id: 804a798a-d2a1-457e-aaaf-55c28a4e1386
   bluesky_handle: ''
-  github_username: ''
+  github_username: ifesdjeen
   linkedin_username: ''
   mastodon: ''
+  meetup_id: ''
   name: Alex Petrov
   rubyevents_slug: ''
   slug: alex-petrov
-  speakerdeck_username: ''
+  speakerdeck_username: ifesdjeen
   twitter_username: ''
   website: ''
 Entities::Person_80c2a3bb-8e58-4f9b-9a0f-f7e8fcf7b5a3:
@@ -650,9 +703,10 @@ Entities::Person_9b8809be-21de-41d7-ac03-852128098118:
 Entities::Person_9deb364b-ca71-43c8-8013-60ea1833f681:
   id: 9deb364b-ca71-43c8-8013-60ea1833f681
   bluesky_handle: ''
-  github_username: ''
+  github_username: pschrammel
   linkedin_username: ''
   mastodon: ''
+  meetup_id: ''
   name: Peter Schrammel
   rubyevents_slug: ''
   slug: peter-schrammel
@@ -695,6 +749,19 @@ Entities::Person_a735dc3a-4ac7-4cab-ae59-588e93bc20aa:
   speakerdeck_username: ''
   twitter_username: ''
   website: ''
+Entities::Person_aa67af3b-dd60-4e61-99a0-3b2f9d4a0be5:
+  id: aa67af3b-dd60-4e61-99a0-3b2f9d4a0be5
+  bluesky_handle: ''
+  github_username: ''
+  linkedin_username: ''
+  mastodon: ''
+  meetup_id: ''
+  name: Christoph Engelhardt
+  rubyevents_slug: ''
+  slug: christoph-engelhardt
+  speakerdeck_username: ''
+  twitter_username: ''
+  website: ''
 Entities::Person_ac0fea81-c796-4f8c-9a5b-a496570a7e82:
   id: ac0fea81-c796-4f8c-9a5b-a496570a7e82
   bluesky_handle: ''
@@ -704,6 +771,19 @@ Entities::Person_ac0fea81-c796-4f8c-9a5b-a496570a7e82:
   name: Bogdans Laidins
   rubyevents_slug: ''
   slug: bogdans-laidins
+  speakerdeck_username: ''
+  twitter_username: ''
+  website: ''
+Entities::Person_ad73b8b9-1ce1-4c17-88de-68a7474282eb:
+  id: ad73b8b9-1ce1-4c17-88de-68a7474282eb
+  bluesky_handle: ''
+  github_username: ''
+  linkedin_username: ''
+  mastodon: ''
+  meetup_id: ''
+  name: Robert Curth
+  rubyevents_slug: ''
+  slug: robert-curth
   speakerdeck_username: ''
   twitter_username: ''
   website: ''
@@ -742,6 +822,19 @@ Entities::Person_b4d6756e-0310-474b-8ae7-450d1fa5ddf1:
   slug: carola-boettcher
   speakerdeck_username: ''
   twitter_username: carolaboettcher
+  website: ''
+Entities::Person_b76c5537-d23d-48dd-b52d-c5f9f26d3fba:
+  id: b76c5537-d23d-48dd-b52d-c5f9f26d3fba
+  bluesky_handle: ''
+  github_username: ''
+  linkedin_username: ''
+  mastodon: ''
+  meetup_id: ''
+  name: Konrad Merz
+  rubyevents_slug: ''
+  slug: konrad-merz
+  speakerdeck_username: ''
+  twitter_username: ''
   website: ''
 Entities::Person_b9777a49-45e1-490f-981e-c0d565e150cc:
   id: b9777a49-45e1-490f-981e-c0d565e150cc
@@ -827,6 +920,19 @@ Entities::Person_c22f0dcf-8e82-473a-bd08-71bc9b597927:
   speakerdeck_username: ''
   twitter_username: ''
   website: ''
+Entities::Person_c2c22851-ce44-40ff-bbab-9ad111350d68:
+  id: c2c22851-ce44-40ff-bbab-9ad111350d68
+  bluesky_handle: ''
+  github_username: ''
+  linkedin_username: ''
+  mastodon: ''
+  meetup_id: ''
+  name: Nikolay Sturm
+  rubyevents_slug: ''
+  slug: nikolay-sturm
+  speakerdeck_username: ''
+  twitter_username: ''
+  website: ''
 Entities::Person_c3e2b467-f25a-4af7-a924-81b996880be0:
   id: c3e2b467-f25a-4af7-a924-81b996880be0
   bluesky_handle: ''
@@ -866,9 +972,10 @@ Entities::Person_c6488593-54ea-4b7f-8afe-b1a9bc97e77c:
 Entities::Person_c6cfe4d7-3cf1-4e56-a245-c4bb74b2a7b9:
   id: c6cfe4d7-3cf1-4e56-a245-c4bb74b2a7b9
   bluesky_handle: ''
-  github_username: ''
+  github_username: jamuc
   linkedin_username: ''
   mastodon: ''
+  meetup_id: ''
   name: Jason Franklin
   rubyevents_slug: ''
   slug: jason-franklin
@@ -1040,6 +1147,19 @@ Entities::Person_ed73fe96-d736-4292-8402-bd1ab64c7442:
   name: Sven Ellis
   rubyevents_slug: ''
   slug: sven-ellis
+  speakerdeck_username: ''
+  twitter_username: ''
+  website: ''
+Entities::Person_ef65435d-5b05-4459-b2e6-46f8b710f9a7:
+  id: ef65435d-5b05-4459-b2e6-46f8b710f9a7
+  bluesky_handle: ''
+  github_username: mlammers
+  linkedin_username: ''
+  mastodon: ''
+  meetup_id: ''
+  name: Maikel Lammers
+  rubyevents_slug: ''
+  slug: maikel-lammers
   speakerdeck_username: ''
   twitter_username: ''
   website: ''

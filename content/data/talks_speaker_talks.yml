@@ -3,6 +3,10 @@ Talks::SpeakerTalk_02fc0002-7ff8-44d1-982b-d92cc737141f:
   id: 02fc0002-7ff8-44d1-982b-d92cc737141f
   entities_person_id: 9deb364b-ca71-43c8-8013-60ea1833f681
   talks_talk_id: c943bb3f-c7a0-4c24-a982-26909e336905
+Talks::SpeakerTalk_03a8d460-e593-4e33-8daa-0c9f572eac94:
+  id: 03a8d460-e593-4e33-8daa-0c9f572eac94
+  entities_person_id: 4ffdbde5-2206-430f-8cf6-da9465dd9673
+  talks_talk_id: 9a453fb0-67f6-423c-a5b5-c6e4ed346d37
 Talks::SpeakerTalk_03cc25f4-1e03-456b-bedd-a4c9b1100f55:
   id: 03cc25f4-1e03-456b-bedd-a4c9b1100f55
   entities_person_id: fcd48cfc-bd3e-4f3d-b15b-a706691be53b
@@ -31,6 +35,10 @@ Talks::SpeakerTalk_0bc3a3d3-fe45-4053-a7c1-ca3a222aa81f:
   id: 0bc3a3d3-fe45-4053-a7c1-ca3a222aa81f
   entities_person_id: 1316adf3-23e0-4c54-9ec0-3583184b241b
   talks_talk_id: a24669ec-c4dc-4d9a-a71f-7d2b42f21e3e
+Talks::SpeakerTalk_0f2a7bd7-bae2-47c0-be1e-eabbf5a62f56:
+  id: 0f2a7bd7-bae2-47c0-be1e-eabbf5a62f56
+  entities_person_id: 2c336893-8a87-4d3f-9736-6d38ccd8b701
+  talks_talk_id: 0e21bf6a-1ae7-4637-93a7-987e07152f6b
 Talks::SpeakerTalk_10d762f1-3faf-489b-bfc8-40b75299b6c6:
   id: 10d762f1-3faf-489b-bfc8-40b75299b6c6
   entities_person_id: c6cfe4d7-3cf1-4e56-a245-c4bb74b2a7b9
@@ -87,6 +95,10 @@ Talks::SpeakerTalk_205deb4a-f93c-41b7-892f-e8735c92fd53:
   id: 205deb4a-f93c-41b7-892f-e8735c92fd53
   entities_person_id: f14a4ac3-c4b3-41a2-9b16-6f7c8cd7e068
   talks_talk_id: 521c06bc-d018-4a8e-bcd1-ea42fbea8da9
+Talks::SpeakerTalk_22068532-2d86-4ea8-b1e1-199aba73cf0c:
+  id: 22068532-2d86-4ea8-b1e1-199aba73cf0c
+  entities_person_id: 31de91f1-fe56-4a48-8df6-57ad93264866
+  talks_talk_id: e85a1ec4-7f71-4f97-9fab-78148efef924
 Talks::SpeakerTalk_237b4ea4-517f-46d2-b550-88571cf1c69d:
   id: 237b4ea4-517f-46d2-b550-88571cf1c69d
   entities_person_id: e5efcb66-a3af-4f5e-a70c-86e605852cf8
@@ -103,6 +115,10 @@ Talks::SpeakerTalk_28101f5e-dfd5-47da-bce1-859e14040c36:
   id: 28101f5e-dfd5-47da-bce1-859e14040c36
   entities_person_id: 828da3f2-7af1-46ac-a730-3822206bb842
   talks_talk_id: fb1cb224-efb6-46e0-b542-1588d262312c
+Talks::SpeakerTalk_295d9c2b-f0af-4adc-b1e2-b37153f68830:
+  id: 295d9c2b-f0af-4adc-b1e2-b37153f68830
+  entities_person_id: 9deb364b-ca71-43c8-8013-60ea1833f681
+  talks_talk_id: a5b2875e-19ff-4cb4-9504-8f18bab7637e
 Talks::SpeakerTalk_2bb56186-5586-43ca-8fc8-a13ed64c6b7f:
   id: 2bb56186-5586-43ca-8fc8-a13ed64c6b7f
   entities_person_id: 6e450ab6-7b03-4f26-af3a-b62576cbcb90
@@ -135,6 +151,10 @@ Talks::SpeakerTalk_2e771fc0-2d2b-4c34-adea-b2206e6a4a95:
   id: 2e771fc0-2d2b-4c34-adea-b2206e6a4a95
   entities_person_id: 37f33012-4119-4e7c-9e0c-9b820baa7239
   talks_talk_id: 98227dd4-c0a8-44e0-a2f4-9ab0ce794d32
+Talks::SpeakerTalk_31db7234-a21c-4c6a-bfcb-ff0ade19003f:
+  id: 31db7234-a21c-4c6a-bfcb-ff0ade19003f
+  entities_person_id: 8c2fd5f0-3374-456d-ae41-2e536ad89a53
+  talks_talk_id: 85c643ea-7a35-4165-8641-419c96264bc6
 Talks::SpeakerTalk_32f11964-82f5-44df-9690-7deb2922eb58:
   id: 32f11964-82f5-44df-9690-7deb2922eb58
   entities_person_id: 13af5a99-46b3-4c3d-9b2a-06c0f0e41f8e
@@ -143,6 +163,10 @@ Talks::SpeakerTalk_35373424-199a-4ef8-9bb2-088a1eda4de1:
   id: 35373424-199a-4ef8-9bb2-088a1eda4de1
   entities_person_id: 856b0d94-1647-4223-9984-1452a870f8fd
   talks_talk_id: 6501c25d-17a3-430d-9282-f8e4d26a93b3
+Talks::SpeakerTalk_37c4705f-945c-4c78-8b8e-773b3f7f79bf:
+  id: 37c4705f-945c-4c78-8b8e-773b3f7f79bf
+  entities_person_id: 2c336893-8a87-4d3f-9736-6d38ccd8b701
+  talks_talk_id: 7746d6de-8604-46d4-aa1c-4b5d9dec39e6
 Talks::SpeakerTalk_39084283-375e-40aa-aae4-0d6d58b43684:
   id: 39084283-375e-40aa-aae4-0d6d58b43684
   entities_person_id: 679174d1-fc1c-49ab-92a2-76200d7536ab
@@ -155,6 +179,14 @@ Talks::SpeakerTalk_3a9b8edc-2337-4847-bbff-25889467d1e0:
   id: 3a9b8edc-2337-4847-bbff-25889467d1e0
   entities_person_id: 30572660-7e77-40b3-9e4b-eeedd6cbb06d
   talks_talk_id: 59e2015e-aff3-4551-911f-0af4b04af2c0
+Talks::SpeakerTalk_3be0e9df-74a5-43ca-a5dd-2c41fd0a5ec6:
+  id: 3be0e9df-74a5-43ca-a5dd-2c41fd0a5ec6
+  entities_person_id: 1ccb618b-25da-4b1f-85f8-fd8ba044cefb
+  talks_talk_id: 3597b4a3-322e-456a-ba36-8f0206978022
+Talks::SpeakerTalk_3bf918d0-9ec5-46fb-b889-86cf2d4fe952:
+  id: 3bf918d0-9ec5-46fb-b889-86cf2d4fe952
+  entities_person_id: c3e2b467-f25a-4af7-a924-81b996880be0
+  talks_talk_id: d64e633a-008e-486c-8a7b-b3e0816ce5aa
 Talks::SpeakerTalk_3e75f348-b8d6-4c71-b764-6c320c3ad8c3:
   id: 3e75f348-b8d6-4c71-b764-6c320c3ad8c3
   entities_person_id: 26c51849-0325-4097-a76a-03c7534f99ae
@@ -167,14 +199,26 @@ Talks::SpeakerTalk_43d4d5a3-48b2-416d-b5c8-f2745ebe38c6:
   id: 43d4d5a3-48b2-416d-b5c8-f2745ebe38c6
   entities_person_id: 2e5e388d-9beb-485b-b57d-4eb8eef8aa0a
   talks_talk_id: 7a966b5f-0936-4020-91fb-b13ce2537e8d
+Talks::SpeakerTalk_4441e26b-9206-4046-a6f4-e6f20911af65:
+  id: 4441e26b-9206-4046-a6f4-e6f20911af65
+  entities_person_id: 735d0553-cd7d-4dae-a81d-8626f2781e7a
+  talks_talk_id: e2c4ee95-9c1a-4e04-8197-039eddfbf65d
 Talks::SpeakerTalk_45ebe207-d49d-4cd8-a3b4-4453fa42511b:
   id: 45ebe207-d49d-4cd8-a3b4-4453fa42511b
   entities_person_id: 828da3f2-7af1-46ac-a730-3822206bb842
   talks_talk_id: d8fff928-de53-4e72-821e-ca49677fd36c
+Talks::SpeakerTalk_463e2f21-8c2c-4e57-8750-e8034e845174:
+  id: 463e2f21-8c2c-4e57-8750-e8034e845174
+  entities_person_id: aa67af3b-dd60-4e61-99a0-3b2f9d4a0be5
+  talks_talk_id: 61764fc2-c57a-4755-a7bb-7d13a89b6178
 Talks::SpeakerTalk_49d301d0-878b-457c-b9b1-d014d9b9545d:
   id: 49d301d0-878b-457c-b9b1-d014d9b9545d
   entities_person_id: e8079fd4-fbc0-47ef-94b7-f3570f85f063
   talks_talk_id: a973ce92-1ecb-4975-ad1e-fb9137252b8e
+Talks::SpeakerTalk_49ebe3ff-21ef-486d-a4ca-199f058bcada:
+  id: 49ebe3ff-21ef-486d-a4ca-199f058bcada
+  entities_person_id: c2c22851-ce44-40ff-bbab-9ad111350d68
+  talks_talk_id: 845ed8e5-d9de-45c8-abdc-8124fa8c9a84
 Talks::SpeakerTalk_4a423989-81fa-4e38-8245-d7aa8f88e6d5:
   id: 4a423989-81fa-4e38-8245-d7aa8f88e6d5
   entities_person_id: 55cb1b0a-cc30-4dc9-9225-55c295487964
@@ -199,6 +243,10 @@ Talks::SpeakerTalk_4fac8a68-f1b3-4a58-8261-cfb9ce4f2c20:
   id: 4fac8a68-f1b3-4a58-8261-cfb9ce4f2c20
   entities_person_id: 9deb364b-ca71-43c8-8013-60ea1833f681
   talks_talk_id: 90c3f42e-8794-4ccb-b463-28159ccb57c3
+Talks::SpeakerTalk_50d68204-1eac-421d-8877-749b23600745:
+  id: 50d68204-1eac-421d-8877-749b23600745
+  entities_person_id: c6cfe4d7-3cf1-4e56-a245-c4bb74b2a7b9
+  talks_talk_id: '0871f0ad-3a9f-4222-9c4f-d9345fbc9e1f'
 Talks::SpeakerTalk_512d2dda-5fcd-4af0-867c-2ed76f37c08c:
   id: 512d2dda-5fcd-4af0-867c-2ed76f37c08c
   entities_person_id: 828da3f2-7af1-46ac-a730-3822206bb842
@@ -215,6 +263,14 @@ Talks::SpeakerTalk_537f5d10-3e69-4016-8b9e-3a3c0a053258:
   id: 537f5d10-3e69-4016-8b9e-3a3c0a053258
   entities_person_id: 856b0d94-1647-4223-9984-1452a870f8fd
   talks_talk_id: 285c60a6-58da-4b43-aa3a-f329bf1a4765
+Talks::SpeakerTalk_544d28dc-888b-4dd9-9caa-467fe508b33b:
+  id: 544d28dc-888b-4dd9-9caa-467fe508b33b
+  entities_person_id: 9deb364b-ca71-43c8-8013-60ea1833f681
+  talks_talk_id: 112530c3-2471-4fc8-b09e-1948d0460f31
+Talks::SpeakerTalk_569d76a5-7899-48a0-8100-bd8631eca7ca:
+  id: 569d76a5-7899-48a0-8100-bd8631eca7ca
+  entities_person_id: 11f51d72-28d1-4d8b-88f0-11420fe4fdc1
+  talks_talk_id: a2a81399-1fe3-4f8e-8688-5ccf7eec90c4
 Talks::SpeakerTalk_56e2e541-d63f-4b00-bff6-e5c4614e5489:
   id: 56e2e541-d63f-4b00-bff6-e5c4614e5489
   entities_person_id: 828da3f2-7af1-46ac-a730-3822206bb842
@@ -239,6 +295,14 @@ Talks::SpeakerTalk_5fba80ba-920b-4793-ba2b-bd65526ae3b7:
   id: 5fba80ba-920b-4793-ba2b-bd65526ae3b7
   entities_person_id: d242e360-35fe-4df9-8d39-c114eeeaa577
   talks_talk_id: f62f6eee-97b9-4db7-89c1-37c51dc8b2d1
+Talks::SpeakerTalk_614c2aa9-b8b9-46a4-a131-723ae5470bcb:
+  id: 614c2aa9-b8b9-46a4-a131-723ae5470bcb
+  entities_person_id: 2c336893-8a87-4d3f-9736-6d38ccd8b701
+  talks_talk_id: 3aac65e7-3ce6-4787-a36b-7ad70b2f8567
+Talks::SpeakerTalk_62271571-4fd3-4a2d-b66d-4f9c37ab80e4:
+  id: 62271571-4fd3-4a2d-b66d-4f9c37ab80e4
+  entities_person_id: 11f51d72-28d1-4d8b-88f0-11420fe4fdc1
+  talks_talk_id: 7ed5c17b-07ed-489f-b2b9-6d5944059a54
 Talks::SpeakerTalk_62740785-feeb-439a-a540-fcde7abd647b:
   id: 62740785-feeb-439a-a540-fcde7abd647b
   entities_person_id: 828da3f2-7af1-46ac-a730-3822206bb842
@@ -251,6 +315,10 @@ Talks::SpeakerTalk_6406644e-388c-4269-8140-2efb7f5db2ef:
   id: 6406644e-388c-4269-8140-2efb7f5db2ef
   entities_person_id: 37f33012-4119-4e7c-9e0c-9b820baa7239
   talks_talk_id: 6160736b-4bb4-472a-862a-365c5d30bb74
+Talks::SpeakerTalk_656a6cef-954e-406b-a785-63f72a32450d:
+  id: 656a6cef-954e-406b-a785-63f72a32450d
+  entities_person_id: 18ae851a-ab48-493c-8812-a366f8c27e39
+  talks_talk_id: 3d62c716-e247-4afd-ae0a-a533b0f77f0b
 Talks::SpeakerTalk_65a07253-057e-4316-bda3-254b80c45a09:
   id: 65a07253-057e-4316-bda3-254b80c45a09
   entities_person_id: a6f26b39-39e1-4c79-a541-8d51587ee28a
@@ -271,6 +339,10 @@ Talks::SpeakerTalk_6d0cdb19-9d32-4ee3-a26b-0637444e07b2:
   id: 6d0cdb19-9d32-4ee3-a26b-0637444e07b2
   entities_person_id: 828da3f2-7af1-46ac-a730-3822206bb842
   talks_talk_id: 9dacb400-1a70-4f1d-957f-6aad6092e159
+Talks::SpeakerTalk_6e85df80-eabf-480e-ba91-4583750d6207:
+  id: 6e85df80-eabf-480e-ba91-4583750d6207
+  entities_person_id: 4450a880-1fa0-4128-920c-84c1772e0f26
+  talks_talk_id: c3d684ac-7741-497d-884d-de59e8ef7dc7
 Talks::SpeakerTalk_6fbf02e1-85af-4714-ada4-176179c23887:
   id: 6fbf02e1-85af-4714-ada4-176179c23887
   entities_person_id: 595da040-fa7b-4e58-9bf1-7c4c3c0edc05
@@ -279,10 +351,22 @@ Talks::SpeakerTalk_6ff44e8f-c3a2-4e0b-b599-0e2f688c39e2:
   id: 6ff44e8f-c3a2-4e0b-b599-0e2f688c39e2
   entities_person_id: 804a798a-d2a1-457e-aaaf-55c28a4e1386
   talks_talk_id: d4b99e9d-2f68-4667-8474-e11016d0eecf
+Talks::SpeakerTalk_71cbb342-1539-4492-a5c8-82255043fff9:
+  id: 71cbb342-1539-4492-a5c8-82255043fff9
+  entities_person_id: ef65435d-5b05-4459-b2e6-46f8b710f9a7
+  talks_talk_id: e338e7d3-76fa-4914-84bb-da5032ca2991
+Talks::SpeakerTalk_72404434-365b-4191-9727-97c713e5b3b6:
+  id: 72404434-365b-4191-9727-97c713e5b3b6
+  entities_person_id: b76c5537-d23d-48dd-b52d-c5f9f26d3fba
+  talks_talk_id: b9c93904-3263-4550-a6dc-cf1ec77171a9
 Talks::SpeakerTalk_74e39729-0adb-4023-b840-a61dd7670f25:
   id: 74e39729-0adb-4023-b840-a61dd7670f25
   entities_person_id: d9ceac70-4947-4769-8aba-2a7113513df5
   talks_talk_id: 6e92829a-dfc7-48f9-8c4c-e845a3b6f6f9
+Talks::SpeakerTalk_74e555d2-55eb-4779-87dc-7b5bf20bd821:
+  id: 74e555d2-55eb-4779-87dc-7b5bf20bd821
+  entities_person_id: 804a798a-d2a1-457e-aaaf-55c28a4e1386
+  talks_talk_id: 9d3056c6-8f85-4fb7-8f17-4238f8d72bc3
 Talks::SpeakerTalk_754eea33-e5be-4060-9a55-cc9e88e26d71:
   id: 754eea33-e5be-4060-9a55-cc9e88e26d71
   entities_person_id: d4e57109-f6ae-4209-90b5-b7f0ac3bbe9a
@@ -295,10 +379,18 @@ Talks::SpeakerTalk_76a9d7cd-0734-47c8-bea3-437d06050aa7:
   id: 76a9d7cd-0734-47c8-bea3-437d06050aa7
   entities_person_id: d4e57109-f6ae-4209-90b5-b7f0ac3bbe9a
   talks_talk_id: 0baedc3a-758f-4742-b0e1-58d52ed302c5
+Talks::SpeakerTalk_791add44-ae03-4500-bd93-3867142ba37e:
+  id: 791add44-ae03-4500-bd93-3867142ba37e
+  entities_person_id: c2c22851-ce44-40ff-bbab-9ad111350d68
+  talks_talk_id: e96945e9-67ef-44a0-9d23-6eda0473c549
 Talks::SpeakerTalk_7a34321f-1b9c-4f50-856f-96e30cdb36b0:
   id: 7a34321f-1b9c-4f50-856f-96e30cdb36b0
   entities_person_id: 54ea6e56-8ae3-4a08-93e4-c41e637fbf59
   talks_talk_id: d05e84a6-af8b-4128-91f1-b2e4d50ca418
+Talks::SpeakerTalk_7ee9263c-1c40-47f0-ba8b-cc5f7381844e:
+  id: 7ee9263c-1c40-47f0-ba8b-cc5f7381844e
+  entities_person_id: ad73b8b9-1ce1-4c17-88de-68a7474282eb
+  talks_talk_id: 4f430890-c356-4eae-b948-6988dc1d7eb8
 Talks::SpeakerTalk_806dd4df-07cc-460e-8763-fbfbb5b59c3f:
   id: 806dd4df-07cc-460e-8763-fbfbb5b59c3f
   entities_person_id: 828da3f2-7af1-46ac-a730-3822206bb842
@@ -363,6 +455,10 @@ Talks::SpeakerTalk_920c1853-9f89-44ae-8682-6f718036e1e7:
   id: 920c1853-9f89-44ae-8682-6f718036e1e7
   entities_person_id: 9deb364b-ca71-43c8-8013-60ea1833f681
   talks_talk_id: 37bf6a56-6cf0-4787-978d-9d38bd6107fa
+Talks::SpeakerTalk_93cbaee0-0381-4ffa-bb1d-2fd3818dd344:
+  id: 93cbaee0-0381-4ffa-bb1d-2fd3818dd344
+  entities_person_id: 9deb364b-ca71-43c8-8013-60ea1833f681
+  talks_talk_id: d1a10138-b2db-4a95-9a09-829b889edcd6
 Talks::SpeakerTalk_95349fdf-3ed4-41fc-91d6-4c5f481a2f7d:
   id: 95349fdf-3ed4-41fc-91d6-4c5f481a2f7d
   entities_person_id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
@@ -379,10 +475,22 @@ Talks::SpeakerTalk_9ae00010-f49d-45b6-a872-05b75891def3:
   id: 9ae00010-f49d-45b6-a872-05b75891def3
   entities_person_id: 0f963cef-9a4d-4231-b72d-78710ee0b7c1
   talks_talk_id: 0523a516-d6b5-4f4f-b8c3-53c54885a814
+Talks::SpeakerTalk_9c43d46e-4193-4077-8023-f5e09a31e02e:
+  id: 9c43d46e-4193-4077-8023-f5e09a31e02e
+  entities_person_id: 31de91f1-fe56-4a48-8df6-57ad93264866
+  talks_talk_id: b96f1438-2c38-4096-ba70-97b917f1921c
 Talks::SpeakerTalk_9ccef08b-a435-49f5-8c63-c2d85ee15b58:
   id: 9ccef08b-a435-49f5-8c63-c2d85ee15b58
   entities_person_id: ac0fea81-c796-4f8c-9a5b-a496570a7e82
   talks_talk_id: c988cd6b-6402-41b7-ae92-461457afbb3a
+Talks::SpeakerTalk_9d3fd8d9-a0f1-4de7-8543-889708962ea5:
+  id: 9d3fd8d9-a0f1-4de7-8543-889708962ea5
+  entities_person_id: b4d6756e-0310-474b-8ae7-450d1fa5ddf1
+  talks_talk_id: 4449e23c-17e4-4ff3-8621-f94447186291
+Talks::SpeakerTalk_9d5fa758-c167-4757-8295-eca5bf7406ee:
+  id: 9d5fa758-c167-4757-8295-eca5bf7406ee
+  entities_person_id: b4d6756e-0310-474b-8ae7-450d1fa5ddf1
+  talks_talk_id: 1a48ca31-9380-4bba-a719-dcd3146167f6
 Talks::SpeakerTalk_9dd78447-8f9d-4f79-ab5f-d3894860256f:
   id: 9dd78447-8f9d-4f79-ab5f-d3894860256f
   entities_person_id: 758bf906-19a7-406b-9e0a-87e1e2f276e9
@@ -399,6 +507,10 @@ Talks::SpeakerTalk_a0f44740-9235-4aac-aec7-b1e37cf3f1bb:
   id: a0f44740-9235-4aac-aec7-b1e37cf3f1bb
   entities_person_id: c20a75d4-5c6c-438a-bc47-09e83b3dcb15
   talks_talk_id: 851b3308-fa95-4f8c-9ea0-976f44db0577
+Talks::SpeakerTalk_a105cfe3-cda7-4c59-9690-1afa86dd4377:
+  id: a105cfe3-cda7-4c59-9690-1afa86dd4377
+  entities_person_id: 804a798a-d2a1-457e-aaaf-55c28a4e1386
+  talks_talk_id: 74762fe1-8442-4c35-8e35-90a7c573e5ef
 Talks::SpeakerTalk_a2724e16-5d09-484d-b9ee-db0a57a25ac7:
   id: a2724e16-5d09-484d-b9ee-db0a57a25ac7
   entities_person_id: f12d9a66-614c-4250-acad-b563017d36b8
@@ -455,6 +567,10 @@ Talks::SpeakerTalk_ab313523-ab6e-4bf5-8ca9-b885e0943375:
   id: ab313523-ab6e-4bf5-8ca9-b885e0943375
   entities_person_id: f874af55-ff39-4072-8c99-a42d27112a53
   talks_talk_id: ab5fd2cf-05ac-4453-b76f-6ca4ec172c3d
+Talks::SpeakerTalk_ac115b13-5bb6-487f-bb61-0b238a7bf071:
+  id: ac115b13-5bb6-487f-bb61-0b238a7bf071
+  entities_person_id: b76c5537-d23d-48dd-b52d-c5f9f26d3fba
+  talks_talk_id: 31b9c02b-23b8-4a83-a114-0d1334eb814a
 Talks::SpeakerTalk_ad9ba54b-6880-4506-9f0d-1e999e33070d:
   id: ad9ba54b-6880-4506-9f0d-1e999e33070d
   entities_person_id: 80c2a3bb-8e58-4f9b-9a0f-f7e8fcf7b5a3
@@ -479,6 +595,10 @@ Talks::SpeakerTalk_b33144da-c600-4f9f-9687-b82d20e4460b:
   id: b33144da-c600-4f9f-9687-b82d20e4460b
   entities_person_id: 97c571fd-2f66-4646-b410-2dbe18eef889
   talks_talk_id: 9c6dd1a4-197b-4cd9-b124-aff45b6d8257
+Talks::SpeakerTalk_b4d735c4-7bc5-4544-801a-e1c251bced52:
+  id: b4d735c4-7bc5-4544-801a-e1c251bced52
+  entities_person_id: 804a798a-d2a1-457e-aaaf-55c28a4e1386
+  talks_talk_id: b2da2286-d59c-46bc-86fd-253c700ff0ca
 Talks::SpeakerTalk_b55fc814-dea4-410c-9db6-1def499b01a6:
   id: b55fc814-dea4-410c-9db6-1def499b01a6
   entities_person_id: 828da3f2-7af1-46ac-a730-3822206bb842
@@ -507,6 +627,10 @@ Talks::SpeakerTalk_c1f26cbd-3bc9-47ac-bec0-e36f86f8161f:
   id: c1f26cbd-3bc9-47ac-bec0-e36f86f8161f
   entities_person_id: 13af5a99-46b3-4c3d-9b2a-06c0f0e41f8e
   talks_talk_id: 5348198c-14d4-4c3e-83fa-2497d6bf5c28
+Talks::SpeakerTalk_c419762e-ea5b-4aa9-8987-8fe1833adc38:
+  id: c419762e-ea5b-4aa9-8987-8fe1833adc38
+  entities_person_id: 9deb364b-ca71-43c8-8013-60ea1833f681
+  talks_talk_id: 0212d488-0ee2-415d-92fc-62d0d65ebbbc
 Talks::SpeakerTalk_c4d700e0-7e49-47dc-8bc6-658914a8a7ba:
   id: c4d700e0-7e49-47dc-8bc6-658914a8a7ba
   entities_person_id: d9ceac70-4947-4769-8aba-2a7113513df5
@@ -555,6 +679,10 @@ Talks::SpeakerTalk_d2cc2a1a-f50b-43aa-baf6-9e901cc49550:
   id: d2cc2a1a-f50b-43aa-baf6-9e901cc49550
   entities_person_id: e6d6a233-7afa-4da8-91d5-30d3682085e9
   talks_talk_id: d5ff0cf2-f7c1-4e70-8db9-1f04e4c695b0
+Talks::SpeakerTalk_d37087f6-5e80-4b51-895e-4e260cd966bb:
+  id: d37087f6-5e80-4b51-895e-4e260cd966bb
+  entities_person_id: 2c336893-8a87-4d3f-9736-6d38ccd8b701
+  talks_talk_id: 03f3f686-b308-487c-98ff-c01f0fb981b3
 Talks::SpeakerTalk_d3eea110-6c99-406d-8e37-d94bd2876fde:
   id: d3eea110-6c99-406d-8e37-d94bd2876fde
   entities_person_id: 8c2fd5f0-3374-456d-ae41-2e536ad89a53
@@ -567,6 +695,10 @@ Talks::SpeakerTalk_d7356de3-b117-4439-a354-465beaa45e33:
   id: d7356de3-b117-4439-a354-465beaa45e33
   entities_person_id: d4e57109-f6ae-4209-90b5-b7f0ac3bbe9a
   talks_talk_id: 1dfc1478-b22e-4ffb-aee7-e8e2a111a44a
+Talks::SpeakerTalk_d82e785e-9e28-4044-a69f-96dc6ee22144:
+  id: d82e785e-9e28-4044-a69f-96dc6ee22144
+  entities_person_id: 48659da9-f147-43bc-b70c-934afbf64b26
+  talks_talk_id: 4661104b-de78-43c8-abe1-411a8e4162a7
 Talks::SpeakerTalk_d87bfad0-3751-49fb-a10e-021b646ee0fe:
   id: d87bfad0-3751-49fb-a10e-021b646ee0fe
   entities_person_id: d9ceac70-4947-4769-8aba-2a7113513df5
@@ -599,6 +731,10 @@ Talks::SpeakerTalk_dfc7b44a-fb5f-44f4-9dcb-59122a40816e:
   id: dfc7b44a-fb5f-44f4-9dcb-59122a40816e
   entities_person_id: c1975494-2829-4b65-a834-2a569b857b8f
   talks_talk_id: 566af1b0-fcc1-414f-9038-7a2767b0497e
+Talks::SpeakerTalk_e258e80a-5a22-4030-9af8-33eb84666ebb:
+  id: e258e80a-5a22-4030-9af8-33eb84666ebb
+  entities_person_id: 856b0d94-1647-4223-9984-1452a870f8fd
+  talks_talk_id: 9ef229e8-935d-47c8-9e0a-7b568de4869c
 Talks::SpeakerTalk_e2e04a33-4ddb-4778-a1df-ad4c53858879:
   id: e2e04a33-4ddb-4778-a1df-ad4c53858879
   entities_person_id: 11f51d72-28d1-4d8b-88f0-11420fe4fdc1
@@ -635,6 +771,10 @@ Talks::SpeakerTalk_edd56107-7bed-40a8-91f0-87c35510b7f5:
   id: edd56107-7bed-40a8-91f0-87c35510b7f5
   entities_person_id: 9deb364b-ca71-43c8-8013-60ea1833f681
   talks_talk_id: b43e66c6-0c88-472b-8369-5b405e26f6ee
+Talks::SpeakerTalk_edd5854d-d290-4a79-94da-70272b078a08:
+  id: edd5854d-d290-4a79-94da-70272b078a08
+  entities_person_id: 8c2fd5f0-3374-456d-ae41-2e536ad89a53
+  talks_talk_id: 2b6d04f9-64f2-4034-aad2-63ede147d4db
 Talks::SpeakerTalk_ee651b4d-5f8f-44ba-97a4-0a1a56228ff3:
   id: ee651b4d-5f8f-44ba-97a4-0a1a56228ff3
   entities_person_id: be7881ab-6b7a-4eb2-947e-082f4ede9d0e
@@ -655,6 +795,10 @@ Talks::SpeakerTalk_f5886398-7b0d-4a3b-84f7-5b5a12635de7:
   id: f5886398-7b0d-4a3b-84f7-5b5a12635de7
   entities_person_id: 828da3f2-7af1-46ac-a730-3822206bb842
   talks_talk_id: 9a74cf98-f426-4317-b229-dbc62e91692c
+Talks::SpeakerTalk_f9207dce-5084-46a4-8bf4-cabaa18305cf:
+  id: f9207dce-5084-46a4-8bf4-cabaa18305cf
+  entities_person_id: 856b0d94-1647-4223-9984-1452a870f8fd
+  talks_talk_id: d1682654-668e-4303-9f41-bbdad34c392a
 Talks::SpeakerTalk_f948af38-2fd8-4310-9959-321898e2a104:
   id: f948af38-2fd8-4310-9959-321898e2a104
   entities_person_id: 804a798a-d2a1-457e-aaaf-55c28a4e1386
@@ -683,3 +827,7 @@ Talks::SpeakerTalk_fc52e710-8c1b-4c44-894c-738f53582919:
   id: fc52e710-8c1b-4c44-894c-738f53582919
   entities_person_id: 92f34ef8-5314-4f5c-be5f-a514bd6e40c9
   talks_talk_id: 2d8150f0-bfb2-454b-af71-aa61859f62af
+Talks::SpeakerTalk_fd1a62e3-8857-47f5-8edb-1ba62d38cc44:
+  id: fd1a62e3-8857-47f5-8edb-1ba62d38cc44
+  entities_person_id: 735d0553-cd7d-4dae-a81d-8626f2781e7a
+  talks_talk_id: a7c892bb-d351-4a63-9366-c73fb8aad06a
