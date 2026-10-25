@@ -34,6 +34,20 @@ Locations::Address_16d4466b-429f-47c5-bcbd-ad142314371f:
   slug: erika-mann-strasse-23
   street: Erika-Mann-Straße 23
   zip_code: '80636'
+Locations::Address_39a17af5-3643-4894-8fed-606bdb285935:
+  id: 39a17af5-3643-4894-8fed-606bdb285935
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: fd0137ae-3bf3-4651-92f9-12558241d22a
+  slug: buttermelcherstrasse-6
+  street: Buttermelcherstraße 6
+  zip_code: '80469'
+Locations::Address_3cc29857-b85b-4f36-9982-6ea55026e955:
+  id: 3cc29857-b85b-4f36-9982-6ea55026e955
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 90dfa574-5ce7-4834-9314-47380af4c431
+  slug: sonnenstrasse-31
+  street: Sonnenstraße 31
+  zip_code: '80331'
 Locations::Address_3f35d020-4ee5-49af-8307-1ed67c77eadc:
   id: 3f35d020-4ee5-49af-8307-1ed67c77eadc
   locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
@@ -83,6 +97,13 @@ Locations::Address_6bf8f3b2-7dcf-419b-88fd-15789f0a21a4:
   slug: herzogspitalstrasse-24
   street: Herzogspitalstraße 24
   zip_code: '80331'
+Locations::Address_7619e363-a9f9-435d-ac83-67536d521e3d:
+  id: 7619e363-a9f9-435d-ac83-67536d521e3d
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 3133cd10-2983-46bb-87ac-6489469f8179
+  slug: marienplatz
+  street: Marienplatz
+  zip_code: '80331'
 Locations::Address_764b4ed9-7c3b-4364-b946-c6d49c915329:
   id: 764b4ed9-7c3b-4364-b946-c6d49c915329
   locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
@@ -111,6 +132,13 @@ Locations::Address_7a2d5886-0641-4104-8c8b-0cd62265fe5a:
   slug: rosenheimer-strasse-145e
   street: Rosenheimer Straße 145e
   zip_code: '81671'
+Locations::Address_7cd7fa76-d811-48ba-9f53-74bdb3d6b1c7:
+  id: 7cd7fa76-d811-48ba-9f53-74bdb3d6b1c7
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: 352ba5be-18b5-4d56-8f42-5c3541fe8f4e
+  slug: landwehrstrasse-63
+  street: Landwehrstrasse 63
+  zip_code: '80336'
 Locations::Address_7ee6fa75-f78f-41db-83bd-972d07231d29:
   id: 7ee6fa75-f78f-41db-83bd-972d07231d29
   locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
@@ -230,6 +258,13 @@ Locations::Address_de341e80-9be5-4433-8ac2-fad47d4775b1:
   slug: sophienstrasse-7
   street: Sophienstraße 7
   zip_code: '80333'
+Locations::Address_ded64db2-95ab-4db5-bc19-3f7fdef35d52:
+  id: ded64db2-95ab-4db5-bc19-3f7fdef35d52
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: cf2abda1-2ec3-484d-96bb-38475cb09a8d
+  slug: landsbergerstrasse-398
+  street: Landsbergerstraße 398
+  zip_code: '80687'
 Locations::Address_e0ae990d-b61a-4bc9-8f25-c920fb2e8d2b:
   id: e0ae990d-b61a-4bc9-8f25-c920fb2e8d2b
   locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
@@ -244,6 +279,13 @@ Locations::Address_eb96f61f-5059-4c2c-b7f6-5361a1241c16:
   slug: balanstrasse-49
   street: Balanstraße 49
   zip_code: '81669'
+Locations::Address_f275e06f-ce99-4ceb-a4c4-82fc52897219:
+  id: f275e06f-ce99-4ceb-a4c4-82fc52897219
+  locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
+  locations_coordinates_id: ff9483e9-b0ac-4b5d-a608-774c5b3a78ee
+  slug: balanstrasse-73-haus-10
+  street: Balanstraße 73, Haus 10
+  zip_code: '81541'
 Locations::Address_f7fe8226-b68a-4ec5-b626-1bcf94ce185a:
   id: f7fe8226-b68a-4ec5-b626-1bcf94ce185a
   locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89

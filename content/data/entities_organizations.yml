@@ -151,6 +151,13 @@ Entities::Organization_a986ef8b-165f-43c4-b571-3097c2651cca:
   name: Workday
   slug: workday
   website: https://www.workday.com
+Entities::Organization_ab0a62a1-c61e-4a8c-a3d9-7f46a5e05c80:
+  id: ab0a62a1-c61e-4a8c-a3d9-7f46a5e05c80
+  internal_notes: ''
+  legal_name: StyleFruits GmbH
+  name: StyleFruits
+  slug: stylefruits
+  website: http://www.stylefruits.de
 Entities::Organization_b10441a8-73dd-4d7c-ba06-45e366a3b294:
   id: b10441a8-73dd-4d7c-ba06-45e366a3b294
   internal_notes: ''
@@ -164,12 +171,30 @@ Entities::Organization_b48e8393-66ef-4fd1-911c-75ec5ae29305:
   name: Workpath
   slug: workpath
   website: https://www.workpath.com
+Entities::Organization_b790a3c7-0cfb-4920-a61c-3730f74a051e:
+  id: b790a3c7-0cfb-4920-a61c-3730f74a051e
+  internal_notes: "orceo GmbH:\r\n- Beteiligungsgesellschaft\r\n- Nicolas Wild\r\n\r\norceo
+    Media GmbH:\r\n- Digitalagentur\r\n- Maxim Roubintchik und Felix Kaindl\r\n\r\nBeide
+    Firmen sitzen an der selben Adresse. Vermutlich eine Ausgründung. Die Meetup Ankündigung
+    (https://web.archive.org/web/20120517023741/http://munich.rubyshift.org/) sagt
+    orceo GmbH, aber ich habe mal die Digitalagentur hinterlegt."
+  legal_name: orceo Media GmbH
+  name: orceo Media
+  slug: orceo-media
+  website: http://www.orceomedia.de/
 Entities::Organization_c24e58ea-48ee-4ccc-92f1-98a0c2cdb4f7:
   id: c24e58ea-48ee-4ccc-92f1-98a0c2cdb4f7
   legal_name: DataCo GmbH
   name: DataGuard
   slug: dataguard
   website: https://www.dataguard.com
+Entities::Organization_c37e11f1-7b50-4f33-97eb-40afd96323f2:
+  id: c37e11f1-7b50-4f33-97eb-40afd96323f2
+  internal_notes: ''
+  legal_name: Propertybase GmbH
+  name: Propertybase
+  slug: propertybase
+  website: http://www.propertybase.com/
 Entities::Organization_e5be2a27-e487-4ecb-9c0b-b4da4fee1de2:
   id: e5be2a27-e487-4ecb-9c0b-b4da4fee1de2
   legal_name: codecentric AG

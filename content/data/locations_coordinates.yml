@@ -23,6 +23,14 @@ Locations::Coordinates_2a4a5bfe-a0f9-42a5-989f-2a2de7163a8f:
   id: 2a4a5bfe-a0f9-42a5-989f-2a2de7163a8f
   latitude: 48.123795
   longitude: 11.597294
+Locations::Coordinates_3133cd10-2983-46bb-87ac-6489469f8179:
+  id: 3133cd10-2983-46bb-87ac-6489469f8179
+  latitude: 48.137144
+  longitude: 11.575399
+Locations::Coordinates_352ba5be-18b5-4d56-8f42-5c3541fe8f4e:
+  id: 352ba5be-18b5-4d56-8f42-5c3541fe8f4e
+  latitude: 48.136253
+  longitude: 11.556818
 Locations::Coordinates_360d2ade-b703-446e-9c2c-76c646005e9d:
   id: 360d2ade-b703-446e-9c2c-76c646005e9d
   latitude: 48.160923
@@ -83,6 +91,10 @@ Locations::Coordinates_8f5b4868-38ec-423b-a8ea-f5ac8010efa7:
   id: 8f5b4868-38ec-423b-a8ea-f5ac8010efa7
   latitude: 48.137108
   longitude: 11.575382
+Locations::Coordinates_90dfa574-5ce7-4834-9314-47380af4c431:
+  id: 90dfa574-5ce7-4834-9314-47380af4c431
+  latitude: 48.134621
+  longitude: 11.56638
 Locations::Coordinates_9f70da14-3b38-4613-8b7b-4807340e278b:
   id: 9f70da14-3b38-4613-8b7b-4807340e278b
   latitude: 48.133142
@@ -115,6 +127,10 @@ Locations::Coordinates_ceb37366-32f1-4337-a756-d4286c4074f5:
   id: ceb37366-32f1-4337-a756-d4286c4074f5
   latitude: 48.150843
   longitude: 11.547072
+Locations::Coordinates_cf2abda1-2ec3-484d-96bb-38475cb09a8d:
+  id: cf2abda1-2ec3-484d-96bb-38475cb09a8d
+  latitude: 48.145671
+  longitude: 11.482371
 Locations::Coordinates_d719ed29-7280-49a0-8ae2-f8ef7dd8589d:
   id: d719ed29-7280-49a0-8ae2-f8ef7dd8589d
   latitude: 48.123539
@@ -147,7 +163,15 @@ Locations::Coordinates_fa736ebb-c944-4c5d-95b4-f25ac1e16b9f:
   id: fa736ebb-c944-4c5d-95b4-f25ac1e16b9f
   latitude: 48.134324
   longitude: 11.565586
+Locations::Coordinates_fd0137ae-3bf3-4651-92f9-12558241d22a:
+  id: fd0137ae-3bf3-4651-92f9-12558241d22a
+  latitude: 48.13268
+  longitude: 11.577299
 Locations::Coordinates_fd869581-17de-42aa-8886-b27dc8187ebd:
   id: fd869581-17de-42aa-8886-b27dc8187ebd
   latitude: 48.138987
   longitude: 11.554181
+Locations::Coordinates_ff9483e9-b0ac-4b5d-a608-774c5b3a78ee:
+  id: ff9483e9-b0ac-4b5d-a608-774c5b3a78ee
+  latitude: 48.118054
+  longitude: 11.602434

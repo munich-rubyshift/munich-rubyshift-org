@@ -10,6 +10,19 @@ Talks::Talk_00721d1c-0907-4a86-8031-205387be75e7:
   slides_url: ''
   slug: managing-pull-requests-with-yai-you-are-it
   title: Managing Pull Requests with YAI (You Are It)
+Talks::Talk_0212d488-0ee2-415d-92fc-62d0d65ebbbc:
+  id: 0212d488-0ee2-415d-92fc-62d0d65ebbbc
+  description: Goliath is a lightweight eventmachine based web framework. I'll show
+    you the features, the caveats and give you some hints that could help you with
+    your next project.
+  events_event_id: c6cf189c-648e-4ae7-abaa-a4761d9cd555
+  kind: talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: introduction-to-goliath
+  title: Introduction to Goliath
 Talks::Talk_032c885e-a427-4b73-b031-f4a256d57199:
   id: 032c885e-a427-4b73-b031-f4a256d57199
   description: ''
@@ -21,6 +34,17 @@ Talks::Talk_032c885e-a427-4b73-b031-f4a256d57199:
   slides_url: ''
   slug: async-migrations-on-kubernetes
   title: Async migrations on Kubernetes
+Talks::Talk_03f3f686-b308-487c-98ff-c01f0fb981b3:
+  id: 03f3f686-b308-487c-98ff-c01f0fb981b3
+  description: Using Celluloid, performance and more.
+  events_event_id: a7335843-e74b-4b3e-8cba-bebd4e9e13cc
+  kind: talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: concurrent-scalable-ruby-with-actors-part-ii
+  title: Concurrent & scalable Ruby with Actors (Part II)
 Talks::Talk_0523a516-d6b5-4f4f-b8c3-53c54885a814:
   id: 0523a516-d6b5-4f4f-b8c3-53c54885a814
   description: ''
@@ -44,6 +68,18 @@ Talks::Talk_05825d7d-5638-4e7a-ac6d-67082dc62978:
   slides_url: https://urasepandia.de/download/gds-data-validation-20190710.pdf
   slug: gds-data-validation
   title: GDS Data Validation
+Talks::Talk_0871f0ad-3a9f-4222-9c4f-d9345fbc9e1f:
+  id: '0871f0ad-3a9f-4222-9c4f-d9345fbc9e1f'
+  description: What happens if you substitute your core infrastructure and move to
+    a Java based stack.
+  events_event_id: a7335843-e74b-4b3e-8cba-bebd4e9e13cc
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: migrating-a-pure-mri-rails-application-to-jruby
+  title: Migrating a pure MRI Rails Application to JRuby
 Talks::Talk_097ea9bd-b75f-4ee5-8ce8-935902d7faca:
   id: '097ea9bd-b75f-4ee5-8ce8-935902d7faca'
   description: "In this demo-heavy \"talk & deploy\" I do a classic Ruby on Rails
@@ -120,6 +156,31 @@ Talks::Talk_0c79461e-af02-492b-86f6-96a5bde70457:
   slides_url: ''
   slug: crashcourse-metaprogramming-in-ruby
   title: 'Crashcourse: Metaprogramming in Ruby'
+Talks::Talk_0e21bf6a-1ae7-4637-93a7-987e07152f6b:
+  id: 0e21bf6a-1ae7-4637-93a7-987e07152f6b
+  description: Sinatra is a small fine framework for writing fast and concise http-applications
+    in Ruby.
+  events_event_id: 7f86600e-6d02-4330-ad23-202dea797ac6
+  kind: talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: introduction-to-sinatra
+  title: Introduction to Sinatra
+Talks::Talk_112530c3-2471-4fc8-b09e-1948d0460f31:
+  id: 112530c3-2471-4fc8-b09e-1948d0460f31
+  description: A short and very opinionated resume of growing a successfull Rails
+    application over 7 years. Learnings not only on scaling Rails or Ruby but on scaling
+    development itself.
+  events_event_id: a2f5f7db-1817-43b0-90d1-bb43496137b2
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: pains-of-growing
+  title: Pains of growing
 Talks::Talk_11da4abe-4e82-465d-b269-4d7e0f926985:
   id: 11da4abe-4e82-465d-b269-4d7e0f926985
   description: Bored of ERB files or the REST+SPA overkill? Have we got something
@@ -220,6 +281,18 @@ Talks::Talk_1a467f09-5199-4a9c-9386-187e5f5be1e6:
   slides_url: ''
   slug: intuitive-client-errors-driven-by-backend
   title: Intuitive Client Errors Driven by Backend
+Talks::Talk_1a48ca31-9380-4bba-a719-dcd3146167f6:
+  id: 1a48ca31-9380-4bba-a719-dcd3146167f6
+  description: Challenges and epiphanies when learning Ruby and Ruby On Rails as a
+    newbie coming from Java. A fresh, first hand experience report.
+  events_event_id: e890a30b-2555-4851-9a6e-7b29b16d29a9
+  kind: talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: learning-ruby-and-rails-or-where-are-the-curly-braces
+  title: Learning Ruby and Rails or Where are the curly braces?
 Talks::Talk_1a8eb291-370d-4e45-926e-7f2971d9e59a:
   id: 1a8eb291-370d-4e45-926e-7f2971d9e59a
   description: A universal, composable data structure, used to store any kind of data.
@@ -344,6 +417,19 @@ Talks::Talk_2a9b8ba2-894c-4993-a5e6-2e6c210fbc07:
   slides_url: ''
   slug: our-kafka-journey-lessons-learned-pt-ii
   title: Our Kafka Journey – Lessons learned Pt. II
+Talks::Talk_2b6d04f9-64f2-4034-aad2-63ede147d4db:
+  id: 2b6d04f9-64f2-4034-aad2-63ede147d4db
+  description: Starting up Rails is crazy slow! Sometimes I drag to use some tools
+    just because they startup Rails and it takes like 30 sec. It's bad, and it breaks
+    flow. Zeus is here to change this by giving you a fast way to run your rails environment.
+  events_event_id: 49fede28-0d36-4444-b0a0-e4f1478fa41f
+  kind: talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: lighting-fast-rails-with-zeus
+  title: Lighting fast Rails with zeus
 Talks::Talk_2c048e14-fadf-4e16-938b-1082db17f831:
   id: 2c048e14-fadf-4e16-938b-1082db17f831
   description: "Note: This talk will be held remotely\r\n\r\nAbout our speaker\r\nLuca
@@ -444,6 +530,18 @@ Talks::Talk_30c0d50d-5fa7-459b-9c6a-47641be35a9e:
   slides_url: ''
   slug: scenic-versioned-database-views-for-rails
   title: 'Scenic: Versioned database views for Rails'
+Talks::Talk_31b9c02b-23b8-4a83-a114-0d1334eb814a:
+  id: 31b9c02b-23b8-4a83-a114-0d1334eb814a
+  description: An introduction for Ruby beginners and tips and tricks for advanced
+    Rakefiles.
+  events_event_id: b92e9820-5ccc-4877-9fde-0414cb82bd15
+  kind: talk
+  language_code: en
+  position: 3
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: the-all-mighty-rake
+  title: The all mighty Rake
 Talks::Talk_31cd1370-5df3-407e-95c7-86d11d4cc1ce:
   id: 31cd1370-5df3-407e-95c7-86d11d4cc1ce
   description: ''
@@ -466,6 +564,19 @@ Talks::Talk_338fa9da-6c5d-4538-ad00-4cd076de2eb0:
   slides_url: ''
   slug: salama-a-ruby-virtual-machine-in-100-ruby
   title: Salama - a ruby virtual machine in 100% ruby
+Talks::Talk_3597b4a3-322e-456a-ba36-8f0206978022:
+  id: 3597b4a3-322e-456a-ba36-8f0206978022
+  description: Search is a rather complex topic, which Elasticsearch as an open source
+    search solution tries to simplify. However, solutions are useless without integrations,
+    so we are going to checkout one of the existing ruby integrations.
+  events_event_id: c6cf189c-648e-4ae7-abaa-a4761d9cd555
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: introduction-into-elasticsearch-integration-with-ruby
+  title: Introduction into Elasticsearch - Integration with Ruby
 Talks::Talk_37bf6a56-6cf0-4787-978d-9d38bd6107fa:
   id: 37bf6a56-6cf0-4787-978d-9d38bd6107fa
   description: ''
@@ -488,6 +599,35 @@ Talks::Talk_384f558c-4c20-4bc0-b027-a02a67d31ff7:
   slides_url: ''
   slug: different-programming-paragdims-with-ruby
   title: Different programming paragdims with ruby
+Talks::Talk_3aac65e7-3ce6-4787-a36b-7ad70b2f8567:
+  id: 3aac65e7-3ce6-4787-a36b-7ad70b2f8567
+  description: An unusual introduction to Coffeescript, whitespaces, classes and other
+    scary things. This presentation will only cover very few code examples of Coffeescript
+    but I will give the audience lots of insight of how humans perceive the world.
+    The audience will learn how humans react to structure, how we perceive 'negative
+    space' (whitespaces being one instance to it) and 'symbols', and how we model
+    the world. I will give a amusing presentation on the psychology and philosophy
+    of programming and programming languages.
+  events_event_id: a2f5f7db-1817-43b0-90d1-bb43496137b2
+  kind: talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: who-is-afraid-of-the-whitespaces
+  title: Who is afraid of the whitespaces?
+Talks::Talk_3d62c716-e247-4afd-ae0a-a533b0f77f0b:
+  id: 3d62c716-e247-4afd-ae0a-a533b0f77f0b
+  description: You don't know how to re-build your servers? Time to automate your
+    infrastructure. (Tapas-style talk)
+  events_event_id: e890a30b-2555-4851-9a6e-7b29b16d29a9
+  kind: lightning_talk
+  language_code: en
+  position: 5
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: infrastructure-as-code-with-opscode-chef
+  title: Infrastructure as Code with Opscode Chef
 Talks::Talk_3f2b5395-4d0f-4174-b90b-7cb69b482578:
   id: 3f2b5395-4d0f-4174-b90b-7cb69b482578
   description: Let me tell you about Solr, CRDTs, and Authentication
@@ -552,6 +692,18 @@ Talks::Talk_413a36c9-7690-49db-b9db-bf7965667d42:
   slides_url: ''
   slug: recap-of-the-fullstack-fest-anastasia
   title: Recap of the FullStack Fest Anastasia
+Talks::Talk_4449e23c-17e4-4ff3-8621-f94447186291:
+  id: 4449e23c-17e4-4ff3-8621-f94447186291
+  description: One year ago the first Raspberry Pi was shipped. Its a success story.
+    We'll discover why, what it is and what cool stuff you can do with it!
+  events_event_id: b92e9820-5ccc-4877-9fde-0414cb82bd15
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: the-raspberry-pi-take-a-byte
+  title: The Raspberry Pi - Take a byte
 Talks::Talk_44713d8c-e28b-4ac7-8677-1a761c1a51de:
   id: 44713d8c-e28b-4ac7-8677-1a761c1a51de
   description: ''
@@ -574,6 +726,21 @@ Talks::Talk_45524644-ef0e-45f9-b68f-b51c9851b37e:
   slides_url: ''
   slug: introducing-cockroachdb-tidb
   title: Introducing CockroachDB & TiDB
+Talks::Talk_4661104b-de78-43c8-abe1-411a8e4162a7:
+  id: 4661104b-de78-43c8-abe1-411a8e4162a7
+  description: What options does Ruby offer to serve client-side web applications?
+    Using Backbone.js I will show the elements of a client-side web application (events,
+    rendering, data transport), how Rack and Sinatra can be used to serve directories
+    of JavaScript files. Lastly I show the relationship between Rack, Sprockets and
+    the Asset Pipeline and RequireJS-Rails.
+  events_event_id: 82ce5b60-d507-430e-9ce6-c6fedfbd67e2
+  kind: talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: the-client-side-on-ruby
+  title: The Client-Side on Ruby
 Talks::Talk_47052cdc-cd37-49b4-9896-28fef5a0bbdd:
   id: 47052cdc-cd37-49b4-9896-28fef5a0bbdd
   description: ''
@@ -663,6 +830,18 @@ Talks::Talk_4de2c45c-875f-4ce5-923a-79223e1da733:
   slides_url: ''
   slug: learnings-js
   title: learnings.js
+Talks::Talk_4f430890-c356-4eae-b948-6988dc1d7eb8:
+  id: 4f430890-c356-4eae-b948-6988dc1d7eb8
+  description: Every time you write a trait a kitten dies or how to abuse traits.
+    (Tapas-style talk)
+  events_event_id: e890a30b-2555-4851-9a6e-7b29b16d29a9
+  kind: lightning_talk
+  language_code: en
+  position: 3
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: how-to-not-use-traits
+  title: How to not use traits
 Talks::Talk_51bd6f16-ef3a-4204-a7d4-def58766620b:
   id: 51bd6f16-ef3a-4204-a7d4-def58766620b
   description: "Resources:\r\n\r\nUdemy Complete Elasticsearch Masterclass with Logstash
@@ -722,9 +901,10 @@ Talks::Talk_566af1b0-fcc1-414f-9038-7a2767b0497e:
   title: Docker
 Talks::Talk_580a8ede-49f9-4a30-b50c-6175315672e6:
   id: 580a8ede-49f9-4a30-b50c-6175315672e6
-  description: "A introduction and a demo to Riak and its Ruby bindings.\r\n\r\nPhil
-    is your local and friendly ruby and javascript coder, working for his company
-    Cospired."
+  description: "A short introduction to Riak with real world usage, covering some
+    basics on the Riak structure, querying and a special use case, replacing S3.\r\n\r\nAbout
+    our speaker:\r\nPhil is your local and friendly Ruby and Javascript coder, working
+    for his company Cospired."
   events_event_id: 05de9889-ca65-4996-a339-09b05a9097fd
   kind: talk
   language_code: en
@@ -808,6 +988,18 @@ Talks::Talk_6160736b-4bb4-472a-862a-365c5d30bb74:
   slides_url: ''
   slug: 2014-in-ruby
   title: 2014 in Ruby
+Talks::Talk_61764fc2-c57a-4755-a7bb-7d13a89b6178:
+  id: 61764fc2-c57a-4755-a7bb-7d13a89b6178
+  description: Talk about twilio (http://twilio.com). Twilio brings voice and messaging
+    to your web and mobile applications.
+  events_event_id: 9f745689-c95c-4f7c-b64d-ca13963eb30a
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: introduction-to-twilio
+  title: Introduction to Twilio
 Talks::Talk_647dca9c-f944-4f6f-bb56-301244da4ae3:
   id: 647dca9c-f944-4f6f-bb56-301244da4ae3
   description: ''
@@ -946,6 +1138,20 @@ Talks::Talk_74715536-db2a-4f45-8482-848a21f9c070:
   slides_url: ''
   slug: off-the-rails-alternatives-in-the-wild
   title: 'Off the Rails: alternatives in the wild'
+Talks::Talk_74762fe1-8442-4c35-8e35-90a7c573e5ef:
+  id: 74762fe1-8442-4c35-8e35-90a7c573e5ef
+  description: After trying once to speak on that subject and failing, I don't really
+    want to give up. So here we go. I'm going to speak about how's and why's of system
+    monitoring. And monitoring in general. And about how to build your own monitoring
+    tools.
+  events_event_id: 7f86600e-6d02-4330-ad23-202dea797ac6
+  kind: talk
+  language_code: en
+  position: 3
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: metrics-the-second-attempt
+  title: Metrics, the second attempt
 Talks::Talk_74dd66ab-4aef-4101-b28b-b7c34642c7c2:
   id: 74dd66ab-4aef-4101-b28b-b7c34642c7c2
   description: Understanding node and JS for ruby developers
@@ -957,6 +1163,18 @@ Talks::Talk_74dd66ab-4aef-4101-b28b-b7c34642c7c2:
   slides_url: ''
   slug: coffeescript-the-right-and-easy-way
   title: CoffeeScript, the right and easy way
+Talks::Talk_7746d6de-8604-46d4-aa1c-4b5d9dec39e6:
+  id: 7746d6de-8604-46d4-aa1c-4b5d9dec39e6
+  description: Concurrency is hard? Threads are confusing and Ruby is slow? Join me
+    on a journey to find out how to write easy, fast and scalable Ruby programs.
+  events_event_id: e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97
+  kind: talk
+  language_code: en
+  position: 4
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: concurrent-scalable-ruby-with-actors-part-i
+  title: Concurrent & scalable Ruby with Actors (Part I)
 Talks::Talk_7780ebc3-23d9-46cc-a1eb-63a74a4eb462:
   id: 7780ebc3-23d9-46cc-a1eb-63a74a4eb462
   description: "Can we strike a balance between the simplicity of a Rails Monolith
@@ -1010,6 +1228,19 @@ Talks::Talk_7c32bde0-94d9-4bab-8e08-a183b6852753:
   slides_url: ''
   slug: 429-too-many-pull-requests
   title: 429 Too Many Pull Requests
+Talks::Talk_7ed5c17b-07ed-489f-b2b9-6d5944059a54:
+  id: 7ed5c17b-07ed-489f-b2b9-6d5944059a54
+  description: Topaz is a high performance implementation of the Ruby programming
+    language, written in Python on top of RPython. Let's see a) what does it actually
+    mean, b) how does it work, and c) how you can make it better.
+  events_event_id: 82ce5b60-d507-430e-9ce6-c6fedfbd67e2
+  kind: talk
+  language_code: en
+  position: 3
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: topaz-is-ruby-in-python
+  title: Topaz is Ruby in Python
 Talks::Talk_8060ca97-2b0e-44e0-828a-c8af943eb489:
   id: 8060ca97-2b0e-44e0-828a-c8af943eb489
   description: "All you might need is internet and any terminal to work.\r\n\r\nTools
@@ -1024,6 +1255,17 @@ Talks::Talk_8060ca97-2b0e-44e0-828a-c8af943eb489:
   slides_url: https://srivishnu.totakura.in/presentations/work-from-anywhere-ruby-meetup-2019-04-10.html
   slug: work-from-anywhere
   title: Work from anywhere
+Talks::Talk_845ed8e5-d9de-45c8-abdc-8124fa8c9a84:
+  id: 845ed8e5-d9de-45c8-abdc-8124fa8c9a84
+  description: ''
+  events_event_id: 908a770a-7eb1-4009-80e7-6cd766185088
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: introduction-to-the-hexagonal-architecture
+  title: Introduction to the Hexagonal Architecture
 Talks::Talk_8486f2b9-c258-4ff9-a1c4-b3ffcf97e3c2:
   id: 8486f2b9-c258-4ff9-a1c4-b3ffcf97e3c2
   description: 'Some resource: http://guides.rubyonrails.org/i18n.html See: 6 Customize
@@ -1058,6 +1300,20 @@ Talks::Talk_85388e55-f0a1-4710-9c06-0439854ad35b:
   slides_url: ''
   slug: refugees-on-rails-munich
   title: Refugees on Rails @ Munich
+Talks::Talk_85c643ea-7a35-4165-8641-419c96264bc6:
+  id: 85c643ea-7a35-4165-8641-419c96264bc6
+  description: Ruby is nice for the scripting but doing everything by hand is tedious,
+    so Jim Weirich's Rake is a big improvement when it comes to building tasks, but
+    just not the right thing when it comes to real command line applications... But
+    there is hope, it's called Thor, and it's awesome!
+  events_event_id: e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97
+  kind: talk
+  language_code: en
+  position: 3
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: hammering-the-command-line-with-thor
+  title: Hammering the command line with Thor
 Talks::Talk_87e7c2b9-4cf3-4e4b-997d-379e4cde08ac:
   id: 87e7c2b9-4cf3-4e4b-997d-379e4cde08ac
   description: ''
@@ -1072,10 +1328,11 @@ Talks::Talk_87e7c2b9-4cf3-4e4b-997d-379e4cde08ac:
 Talks::Talk_8801813b-06fa-4362-940e-2c93a2e3cc58:
   id: 8801813b-06fa-4362-940e-2c93a2e3cc58
   description: "This talk covers main concepts of document-oriented data model, pros
-    and contras considering MongoDB and how to use this database together with Ruby-on-Rails\r\n\r\nI've
-    been working at JetBrains for almost 5 years for now and during all this time
-    I've been involved in development of Ruby-on-Rails IDE. The main goal of our team
-    is to help Ruby programmers code more effective and improve the quality of code."
+    and contras considering MongoDB and how to use this database together with Ruby-on-Rails\r\n\r\nAbout
+    our speaker:\r\nI've been working at JetBrains for almost 5 years for now and
+    during all this time I've been involved in development of Ruby-on-Rails IDE. The
+    main goal of our team is to help Ruby programmers code more effective and improve
+    the quality of code."
   events_event_id: 05de9889-ca65-4996-a339-09b05a9097fd
   kind: talk
   language_code: en
@@ -1235,6 +1492,19 @@ Talks::Talk_99637776-415d-43a8-ab45-9c1a80d46a13:
   slides_url: ''
   slug: pure-js-components-in-ruby-rails-server-rendered-pages
   title: Pure JS components in Ruby/Rails server-rendered pages
+Talks::Talk_9a453fb0-67f6-423c-a5b5-c6e4ed346d37:
+  id: 9a453fb0-67f6-423c-a5b5-c6e4ed346d37
+  description: "Simple memory management, garbage collection, data types, parser.
+    The talk is mostly based on code I've written for clispy: https://github.com/sck/clispy.\r\n\r\nWebsite:
+    https://github.com/sck"
+  events_event_id: dd5fbda7-f6ae-4732-8b39-539b4726b36a
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: the-shortest-way-to-rewrite-something-like-ruby-in-c
+  title: The shortest way to rewrite something like Ruby in C
 Talks::Talk_9a74cf98-f426-4317-b229-dbc62e91692c:
   id: 9a74cf98-f426-4317-b229-dbc62e91692c
   description: ''
@@ -1270,6 +1540,18 @@ Talks::Talk_9c6dd1a4-197b-4cd9-b124-aff45b6d8257:
   slides_url: ''
   slug: metaprogramming-in-ruby
   title: Metaprogramming in Ruby
+Talks::Talk_9d3056c6-8f85-4fb7-8f17-4238f8d72bc3:
+  id: 9d3056c6-8f85-4fb7-8f17-4238f8d72bc3
+  description: Cassandra is a fault-tolerant, distributed database, allowing you to
+    scale linearly without compromising performance or availability.
+  events_event_id: c6cf189c-648e-4ae7-abaa-a4761d9cd555
+  kind: talk
+  language_code: en
+  position: 3
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: introduction-to-cassandra
+  title: Introduction to Cassandra
 Talks::Talk_9dacb400-1a70-4f1d-957f-6aad6092e159:
   id: 9dacb400-1a70-4f1d-957f-6aad6092e159
   description: ''
@@ -1292,6 +1574,26 @@ Talks::Talk_9e68087d-505f-42ae-b0f0-fee8ca91d369:
   slides_url: https://github.com/bascht/talks/tree/master/2016-04-munich-rubyshift
   slug: ruby-news-april-2016
   title: Ruby News April 2016
+Talks::Talk_9ef229e8-935d-47c8-9e0a-7b568de4869c:
+  id: 9ef229e8-935d-47c8-9e0a-7b568de4869c
+  description: "When it comes to user permissions ('who is allowed to do what?') there
+    is no limit to the human imagination. As a development shop that works for a large
+    number of clients, we've seen many strange authorization requirements in the wild.
+    Such requirements tend to be full of case switching and exceptions and can quickly
+    infect other application concerns if you don't pay attention.\r\n\r\nThis talk
+    proposes a number of simple design guidelines to deal with the most byzantine
+    authorization requirements in a concise and structured way. These guidelines have
+    been serving us well in many production projects over the years. Code examples
+    will be in Ruby on Rails, but the techniques demonstrated are applicable to other
+    technologies as well."
+  events_event_id: 9f745689-c95c-4f7c-b64d-ca13963eb30a
+  kind: talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: solving-bizarre-authorization-requirements
+  title: Solving bizarre authorization requirements
 Talks::Talk_a1b8139a-74c3-47b1-9763-a7a011e0caf8:
   id: a1b8139a-74c3-47b1-9763-a7a011e0caf8
   description: "Zavvy has grown from a simple Rails app to a huge suite of B2B applications
@@ -1334,6 +1636,30 @@ Talks::Talk_a29b33c5-e30f-4f2a-b431-d5bf4a749730:
   slides_url: ''
   slug: actioncable
   title: ActionCable
+Talks::Talk_a2a81399-1fe3-4f8e-8688-5ccf7eec90c4:
+  id: a2a81399-1fe3-4f8e-8688-5ccf7eec90c4
+  description: In this talk I'll compare Rubinius with MRI, the canonical Ruby implementation.
+    I'll present things which make it different and discuss how technical decisions
+    made by the Rubinius team affect the performance of the whole virtual machine.
+  events_event_id: b92e9820-5ccc-4877-9fde-0414cb82bd15
+  kind: talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: rubinius-seemingly-the-same-but-completely-different
+  title: Rubinius — seemingly the same but completely different
+Talks::Talk_a5b2875e-19ff-4cb4-9504-8f18bab7637e:
+  id: a5b2875e-19ff-4cb4-9504-8f18bab7637e
+  description: A tapas style talk on optimizing model caching for Rails 3/4 with IdentityMap.
+  events_event_id: 908a770a-7eb1-4009-80e7-6cd766185088
+  kind: lightning_talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: rails-performance-and-the-indentity-mapper
+  title: Rails performance and the Indentity Mapper
 Talks::Talk_a5f16049-71e4-4517-bfb4-231ecef61981:
   id: a5f16049-71e4-4517-bfb4-231ecef61981
   description: JRuby is often portrayed as the Ruby with brilliant Garbage Collection
@@ -1359,6 +1685,19 @@ Talks::Talk_a6c10a42-bc5b-4466-acca-e900ce00070e:
   slides_url: ''
   slug: the-new-jit-compiler-in-ruby-2-6-0
   title: The new JIT compiler in Ruby 2.6.0
+Talks::Talk_a7c892bb-d351-4a63-9366-c73fb8aad06a:
+  id: a7c892bb-d351-4a63-9366-c73fb8aad06a
+  description: It's risky to use metrics in your projects. But the risks are often
+    used as an excuse not to use metrics. So what's a good way to use metrics? Hopefully
+    this talks will shed a light on this question.
+  events_event_id: 49fede28-0d36-4444-b0a0-e4f1478fa41f
+  kind: talk
+  language_code: en
+  position: 3
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: metrics-what-are-they-good-for
+  title: Metrics - What are they good for?
 Talks::Talk_a939a62a-cc6c-4afe-a139-5915c8be8fbd:
   id: a939a62a-cc6c-4afe-a139-5915c8be8fbd
   description: ''
@@ -1452,6 +1791,17 @@ Talks::Talk_b16b5ce4-cd82-4a01-a0c9-ff2c8645c958:
   slides_url: ''
   slug: moving-from-rails-secret-to-environment-variables
   title: Moving from Rails Secret to Environment Variables
+Talks::Talk_b2da2286-d59c-46bc-86fd-253c700ff0ca:
+  id: b2da2286-d59c-46bc-86fd-253c700ff0ca
+  description: ''
+  events_event_id: 908a770a-7eb1-4009-80e7-6cd766185088
+  kind: talk
+  language_code: en
+  position: 3
+  rubyevents_slug: ''
+  slides_url: https://speakerdeck.com/ifesdjeen/introduction-to-clojure-the-hard-way
+  slug: introduction-to-clojure
+  title: Introduction to Clojure
 Talks::Talk_b422a597-d268-49a6-8547-cd6d1a9a2035:
   id: b422a597-d268-49a6-8547-cd6d1a9a2035
   description: ''
@@ -1533,6 +1883,28 @@ Talks::Talk_b787ca16-bf35-4ccb-bf50-c9000c5feda9:
   slides_url: ''
   slug: experella-proxy-a-load-balancing-reverse-proxy
   title: Experella-Proxy, a load balancing reverse proxy
+Talks::Talk_b96f1438-2c38-4096-ba70-97b917f1921c:
+  id: b96f1438-2c38-4096-ba70-97b917f1921c
+  description: ''
+  events_event_id: 9f745689-c95c-4f7c-b64d-ca13963eb30a
+  kind: lightning_talk
+  language_code: en
+  position: 3
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: rails-girls-update
+  title: Rails Girls update
+Talks::Talk_b9c93904-3263-4550-a6dc-cf1ec77171a9:
+  id: b9c93904-3263-4550-a6dc-cf1ec77171a9
+  description: A tapas on finding Bugs with git.
+  events_event_id: e890a30b-2555-4851-9a6e-7b29b16d29a9
+  kind: lightning_talk
+  language_code: en
+  position: 4
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: a-byte-on-git-bisect
+  title: A byte on git bisect
 Talks::Talk_bc805f0e-6705-4688-afbe-57c9b72fa7e1:
   id: bc805f0e-6705-4688-afbe-57c9b72fa7e1
   description: ''
@@ -1615,19 +1987,30 @@ Talks::Talk_c35dc3ab-976c-4048-b4a4-44ac4072da6a:
   slides_url: https://github.com/bascht/talks/tree/master/2015-12-munich-rubyshift
   slug: ruby-news-december-2015
   title: Ruby News December 2015
+Talks::Talk_c3d684ac-7741-497d-884d-de59e8ef7dc7:
+  id: c3d684ac-7741-497d-884d-de59e8ef7dc7
+  description: Describing the challenges when crawling other jobsites.
+  events_event_id: e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97
+  kind: talk
+  language_code: en
+  position: 2
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: experteers-webcrawler
+  title: Experteers Webcrawler
 Talks::Talk_c4554c01-65ff-4d67-8050-771c527618ae:
   id: c4554c01-65ff-4d67-8050-771c527618ae
   description: "ArangoDB is an open source NoSQL database which is not narrow-mindedly
     focused on horizontal scalability. Instead, ArangoDB aims to offer developers
     great flexibility and ease-of-use. The database is suitable for use cases which
     are difficult to implement with most traditional relational databases and also
-    many of the other NoSQL databases.\r\n\r\nI’m a member of the core team of the
-    NoSQL database project ArangoDB where I work on the graph functionality, tools
-    for the Ruby community to use the database and Foxx. Furthermore I contribute
-    to various open source projects like hacken.in (http://hacken.in/) (an event calender
-    for nerds in my hometown written in Rails) and projects related to ArangoDB. You
-    can find me listening or speaking at our local usergroups for Ruby, JavaScript,
-    NoSQL and (as a coach for) Rails Girls."
+    many of the other NoSQL databases.\r\n\r\nAbout our speaker:\r\nI’m a member of
+    the core team of the NoSQL database project ArangoDB where I work on the graph
+    functionality, tools for the Ruby community to use the database and Foxx. Furthermore
+    I contribute to various open source projects like hacken.in (http://hacken.in/)
+    (an event calender for nerds in my hometown written in Rails) and projects related
+    to ArangoDB. You can find me listening or speaking at our local usergroups for
+    Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls."
   events_event_id: 05de9889-ca65-4996-a339-09b05a9097fd
   kind: talk
   language_code: en
@@ -1726,6 +2109,33 @@ Talks::Talk_d05e84a6-af8b-4128-91f1-b2e4d50ca418:
   slides_url: ''
   slug: find-unused-code-in-your-rails-project
   title: Find unused code in your (Rails) project
+Talks::Talk_d1682654-668e-4303-9f41-bbdad34c392a:
+  id: d1682654-668e-4303-9f41-bbdad34c392a
+  description: Rails migrations let you change your database schema with simple commands
+    like `create_table` or `add_column`. Unfortunately these commands are not expressive
+    enough to handle cases where existing data must be processed and moved around
+    tables. This talk shows different techniques you can use to describe nontrivial
+    migrations in Rails.
+  events_event_id: 49fede28-0d36-4444-b0a0-e4f1478fa41f
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: writing-hard-migrations-in-rails
+  title: Writing hard migrations in Rails
+Talks::Talk_d1a10138-b2db-4a95-9a09-829b889edcd6:
+  id: d1a10138-b2db-4a95-9a09-829b889edcd6
+  description: How to cope with database migrations that a take long time. (Tapas-style
+    talk)
+  events_event_id: e890a30b-2555-4851-9a6e-7b29b16d29a9
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: slow-migrations
+  title: Slow Migrations
 Talks::Talk_d4b99e9d-2f68-4667-8474-e11016d0eecf:
   id: d4b99e9d-2f68-4667-8474-e11016d0eecf
   description: About integer and floating point arithmetic, trying to cover how to
@@ -1749,6 +2159,22 @@ Talks::Talk_d5ff0cf2-f7c1-4e70-8db9-1f04e4c695b0:
   slides_url: ''
   slug: agile-testing-days-recap
   title: Agile Testing Days Recap
+Talks::Talk_d64e633a-008e-486c-8a7b-b3e0816ce5aa:
+  id: d64e633a-008e-486c-8a7b-b3e0816ce5aa
+  description: Nobody likes when their code smells. In order to prevent it, a bunch
+    of special tools and approaches have been designed. Efficient coding tools, refactorings,
+    code metrics, code analysis, code testing and debugging are all crucial for creating
+    quality, maintainable code. This talk is meant to show how to efficiently detect
+    code problems, eliminate them using refactoring, and validate everything after
+    changes.
+  events_event_id: 82ce5b60-d507-430e-9ce6-c6fedfbd67e2
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: refactoring-using-rubymine-an-indepth-view-behind-the-curtain
+  title: Refactoring using RubyMine (an indepth view behind the curtain)
 Talks::Talk_d80ef2eb-a057-486d-af62-d5441713f3f0:
   id: d80ef2eb-a057-486d-af62-d5441713f3f0
   description: "Hypermedia frameworks like htmx or Unpoly are positioning themselves
@@ -1800,6 +2226,18 @@ Talks::Talk_d93e1777-3802-45bd-ba9e-32a27ac09fd8:
   slides_url: ''
   slug: how-i-teach-my-daughter-ruby
   title: How I teach my daughter Ruby
+Talks::Talk_e2c4ee95-9c1a-4e04-8197-039eddfbf65d:
+  id: e2c4ee95-9c1a-4e04-8197-039eddfbf65d
+  description: "- app.net as an infrastructure\r\n- app.net annotations and machine
+    posts\r\n- Current status of app.net Ruby gems\r\n- Sample application with Sinatra"
+  events_event_id: a7335843-e74b-4b3e-8cba-bebd4e9e13cc
+  kind: talk
+  language_code: en
+  position: 3
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: intro-into-app-net
+  title: Intro into App.net
 Talks::Talk_e2e9088a-d42d-4512-87bb-88af50ee50dd:
   id: e2e9088a-d42d-4512-87bb-88af50ee50dd
   description: ''
@@ -1823,6 +2261,19 @@ Talks::Talk_e32384ff-684f-4f95-bbca-89fc741ec91b:
   slug: the-nitty-gritty-details-of-activerecord-associations-association-target-and-activerecord-autosaveassociation
   title: The nitty gritty details of ActiveRecord::Associations::Association#target
     and ActiveRecord::AutosaveAssociation
+Talks::Talk_e338e7d3-76fa-4914-84bb-da5032ca2991:
+  id: e338e7d3-76fa-4914-84bb-da5032ca2991
+  description: Object oriented programming does well capturing state and state changes
+    of classes, it often fails in expressing collaboration between objects, though.
+    This is what the DCI pattern tries to resolve.
+  events_event_id: e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: introduction-to-the-data-context-interaction-architecture-dci
+  title: Introduction to the data, context, interaction architecture (DCI)
 Talks::Talk_e68c33a1-8149-4c62-829f-e7427cdf21f5:
   id: e68c33a1-8149-4c62-829f-e7427cdf21f5
   description: ''
@@ -1867,6 +2318,19 @@ Talks::Talk_e750104f-7de3-4263-9d78-cf631835fb09:
   slides_url: ''
   slug: reasoning-about-code-and-configuration
   title: Reasoning about code and configuration
+Talks::Talk_e85a1ec4-7f71-4f97-9fab-78148efef924:
+  id: e85a1ec4-7f71-4f97-9fab-78148efef924
+  description: A short overview of the who, how and why's of the Ruby Girls Movement.
+    The Munich event happenend on October 12th & 13th and was a wonderful success
+    that was even recorded by the Deutsche Welle.
+  events_event_id: 908a770a-7eb1-4009-80e7-6cd766185088
+  kind: talk
+  language_code: en
+  position: 4
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: experience-report-on-the-rails-girls-munich-event
+  title: Experience report on the Rails Girls Munich event
 Talks::Talk_e8c7cf35-a3d5-4bc9-b569-2442b2675f15:
   id: e8c7cf35-a3d5-4bc9-b569-2442b2675f15
   description: A CMS (http://www.nanuq3.com) developed in Ruby on Rails.
@@ -1878,6 +2342,19 @@ Talks::Talk_e8c7cf35-a3d5-4bc9-b569-2442b2675f15:
   slides_url: ''
   slug: nanuq3-cloudcms
   title: NANUQ3 CloudCMS
+Talks::Talk_e96945e9-67ef-44a0-9d23-6eda0473c549:
+  id: e96945e9-67ef-44a0-9d23-6eda0473c549
+  description: In this talk I will describe our current process of feature specification
+    at Helpster, focusing specifically on the usage of Cucumber and RSpec for recording
+    acceptance criteria and creating a living documentation.
+  events_event_id: 7f86600e-6d02-4330-ad23-202dea797ac6
+  kind: talk
+  language_code: en
+  position: 1
+  rubyevents_slug: ''
+  slides_url: ''
+  slug: cucumber-and-rspec-for-acceptance-testing
+  title: Cucumber and RSpec for acceptance testing
 Talks::Talk_ea0eb20e-f8eb-447d-93c3-f75fbdcebf23:
   id: ea0eb20e-f8eb-447d-93c3-f75fbdcebf23
   description: ''

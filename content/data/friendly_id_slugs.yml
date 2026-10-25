@@ -1,4 +1,9 @@
 ---
+FriendlyId::Slug_00bbf801-b774-4b01-8d09-b911580eeb3c:
+  id: 00bbf801-b774-4b01-8d09-b911580eeb3c
+  slug: meetup-2013-06-12
+  sluggable_id: 82ce5b60-d507-430e-9ce6-c6fedfbd67e2
+  sluggable_type: Events::Event
 FriendlyId::Slug_014f0b24-3efa-4a7b-a9a1-ffbc704781ac:
   id: 014f0b24-3efa-4a7b-a9a1-ffbc704781ac
   slug: gutefrage-office
@@ -69,21 +74,46 @@ FriendlyId::Slug_06288889-7529-4ca8-978c-4b20625fe513:
   slug: mruby-a-short-introduction
   sluggable_id: 602a279a-f210-4c3e-8607-1faf5eaa25c9
   sluggable_type: Talks::Talk
+FriendlyId::Slug_0693f606-b368-4144-9972-99c76e2cb534:
+  id: '0693f606-b368-4144-9972-99c76e2cb534'
+  slug: cucumber-and-rspec-for-acceptance-testing
+  sluggable_id: e96945e9-67ef-44a0-9d23-6eda0473c549
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_07c25c8b-6f0c-41d8-8212-36fb6922a343:
   id: 07c25c8b-6f0c-41d8-8212-36fb6922a343
   slug: diy-ruby-framework
   sluggable_id: 59e2015e-aff3-4551-911f-0af4b04af2c0
+  sluggable_type: Talks::Talk
+FriendlyId::Slug_0811069a-a637-4920-b938-831a73dfc531:
+  id: '0811069a-a637-4920-b938-831a73dfc531'
+  slug: writing-hard-migrations-in-rails
+  sluggable_id: d1682654-668e-4303-9f41-bbdad34c392a
   sluggable_type: Talks::Talk
 FriendlyId::Slug_08e2bd4f-a6c3-4d59-9fe9-2d8f355eb462:
   id: '08e2bd4f-a6c3-4d59-9fe9-2d8f355eb462'
   slug: scaling-monolithic-rails-applications
   sluggable_id: 285c60a6-58da-4b43-aa3a-f329bf1a4765
   sluggable_type: Talks::Talk
+FriendlyId::Slug_09130439-465f-4b44-9b70-a5a884d85485:
+  id: '09130439-465f-4b44-9b70-a5a884d85485'
+  slug: coworkingmunich
+  sluggable_id: 4ae281e3-418c-4037-8eb3-de3c9b01e747
+  sluggable_type: Venues::Venue
 FriendlyId::Slug_09646ce7-4e6a-401b-b5e5-6a9ba48f87ed:
   id: '09646ce7-4e6a-401b-b5e5-6a9ba48f87ed'
   slug: clemens-helm
   sluggable_id: e5efcb66-a3af-4f5e-a70c-86e605852cf8
   sluggable_type: Entities::Person
+FriendlyId::Slug_096a71d8-7cdd-478e-8ac1-fc3024044b49:
+  id: '096a71d8-7cdd-478e-8ac1-fc3024044b49'
+  slug: sara-regan
+  sluggable_id: 31de91f1-fe56-4a48-8df6-57ad93264866
+  sluggable_type: Entities::Person
+FriendlyId::Slug_097b08bc-59fb-4d88-966d-d975825a5480:
+  id: '097b08bc-59fb-4d88-966d-d975825a5480'
+  slug: lighting-fast-rails-with-zeus
+  sluggable_id: 2b6d04f9-64f2-4034-aad2-63ede147d4db
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_0a1894df-b694-4a99-95df-61b7a3f57a48:
   id: 0a1894df-b694-4a99-95df-61b7a3f57a48
   slug: freeletics
@@ -163,6 +193,11 @@ FriendlyId::Slug_0f1846c7-f074-4544-9cfa-aa69d839617f:
   id: 0f1846c7-f074-4544-9cfa-aa69d839617f
   slug: miguel-regedor
   sluggable_id: c6488593-54ea-4b7f-8afe-b1a9bc97e77c
+  sluggable_type: Entities::Person
+FriendlyId::Slug_0f438f84-f587-441b-b6c5-593d0b9959f0:
+  id: 0f438f84-f587-441b-b6c5-593d0b9959f0
+  slug: konrad-merz
+  sluggable_id: b76c5537-d23d-48dd-b52d-c5f9f26d3fba
   sluggable_type: Entities::Person
 FriendlyId::Slug_0f447826-8c00-44a9-ac0a-04b2e9eb3e6f:
   id: 0f447826-8c00-44a9-ac0a-04b2e9eb3e6f
@@ -244,6 +279,11 @@ FriendlyId::Slug_189b7cc7-60a8-4b55-94d1-a2f0b8581166:
   slug: metoda-office
   sluggable_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   sluggable_type: Venues::Venue
+FriendlyId::Slug_18a5a004-4861-4f0e-a3fd-6577b638e571:
+  id: 18a5a004-4861-4f0e-a3fd-6577b638e571
+  slug: hammering-the-command-line-with-thor
+  sluggable_id: 85c643ea-7a35-4165-8641-419c96264bc6
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_197c62a1-eb2f-4e03-9c0a-0af7eceefd99:
   id: 197c62a1-eb2f-4e03-9c0a-0af7eceefd99
   slug: exercism-io
@@ -339,6 +379,11 @@ FriendlyId::Slug_1fc8b469-217b-48d4-8066-a2e1057b2f33:
   slug: freeletics-office-2
   sluggable_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   sluggable_type: Venues::Venue
+FriendlyId::Slug_1fcf1e79-22d4-40e3-8611-a04fad43cfc1:
+  id: 1fcf1e79-22d4-40e3-8611-a04fad43cfc1
+  slug: the-client-side-on-ruby
+  sluggable_id: 4661104b-de78-43c8-abe1-411a8e4162a7
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_21aa09ba-ca13-429c-9378-9fda07290e53:
   id: 21aa09ba-ca13-429c-9378-9fda07290e53
   slug: meetup-2023-05-11
@@ -409,6 +454,11 @@ FriendlyId::Slug_251bab62-1ef8-4bc7-a454-2692020c76ab:
   slug: meetup-2018-04-11
   sluggable_id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
   sluggable_type: Events::Event
+FriendlyId::Slug_25735d83-8df5-487d-8177-ecd967accc53:
+  id: 25735d83-8df5-487d-8177-ecd967accc53
+  slug: meetup-2012-08-08
+  sluggable_id: 9f745689-c95c-4f7c-b64d-ca13963eb30a
+  sluggable_type: Events::Event
 FriendlyId::Slug_25c17aa7-32ac-419e-a98e-ce25b8c59651:
   id: 25c17aa7-32ac-419e-a98e-ce25b8c59651
   slug: james-edward-gray-ii
@@ -424,6 +474,11 @@ FriendlyId::Slug_2646080b-29b1-451f-9811-25a5059182e8:
   slug: adding-graphs-to-redis
   sluggable_id: c1c9b370-d09d-4feb-987a-6c8eefeebc48
   sluggable_type: Talks::Talk
+FriendlyId::Slug_265a4934-0314-40de-a08c-d94b3cc17875:
+  id: 265a4934-0314-40de-a08c-d94b3cc17875
+  slug: bar-niederlassung
+  sluggable_id: 398a16cb-c67e-4b1e-87f6-2d7535a7c43c
+  sluggable_type: Venues::Venue
 FriendlyId::Slug_268a27ee-3c0a-44c9-894c-99690533e3c9:
   id: 268a27ee-3c0a-44c9-894c-99690533e3c9
   slug: ben-bachhuber
@@ -434,6 +489,11 @@ FriendlyId::Slug_26ee950c-4b3c-4c0d-9705-a22bfe34c856:
   slug: 5-things-i-wish-my-grandfather-told-me-about-activerecord-and-postgres
   sluggable_id: 31cd1370-5df3-407e-95c7-86d11d4cc1ce
   sluggable_type: Talks::Talk
+FriendlyId::Slug_27b59d68-f972-4c21-b5e5-4afd8330886e:
+  id: 27b59d68-f972-4c21-b5e5-4afd8330886e
+  slug: buttermelcherstrasse-6
+  sluggable_id: 39a17af5-3643-4894-8fed-606bdb285935
+  sluggable_type: Locations::Address
 FriendlyId::Slug_280e5aa2-5815-4d3e-afce-9394e62ac6d0:
   id: 280e5aa2-5815-4d3e-afce-9394e62ac6d0
   slug: guoy
@@ -474,6 +534,11 @@ FriendlyId::Slug_2bddcbbd-c84d-4d70-827e-7586a67795d6:
   slug: meetup-2017-08-09
   sluggable_id: 4ab85760-fd58-428f-bdf3-0b0f97e4930a
   sluggable_type: Events::Event
+FriendlyId::Slug_2c00d570-8756-48cb-91d5-2692ce4321e9:
+  id: 2c00d570-8756-48cb-91d5-2692ce4321e9
+  slug: meetup-2012-10-10
+  sluggable_id: a2f5f7db-1817-43b0-90d1-bb43496137b2
+  sluggable_type: Events::Event
 FriendlyId::Slug_2d0964e2-2545-4e20-9326-ccb6b3151d34:
   id: 2d0964e2-2545-4e20-9326-ccb6b3151d34
   slug: freeletics-office
@@ -494,6 +559,11 @@ FriendlyId::Slug_2e75764b-783a-495d-92f0-df9abe380920:
   slug: meetup-2017-07-12
   sluggable_id: 39f6c39c-523a-4f7e-bbae-54ef7574250b
   sluggable_type: Events::Event
+FriendlyId::Slug_2e86fc6e-e2e6-4808-9c77-70db77910504:
+  id: 2e86fc6e-e2e6-4808-9c77-70db77910504
+  slug: experteers-webcrawler
+  sluggable_id: c3d684ac-7741-497d-884d-de59e8ef7dc7
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_2eb6ed74-e0cb-4719-b715-31825c72f695:
   id: 2eb6ed74-e0cb-4719-b715-31825c72f695
   slug: gds-data-validation
@@ -509,6 +579,11 @@ FriendlyId::Slug_2ee9049f-507c-4997-a57b-a782ecec66ed:
   slug: ute-mayer
   sluggable_id: 80c2a3bb-8e58-4f9b-9a0f-f7e8fcf7b5a3
   sluggable_type: Entities::Person
+FriendlyId::Slug_2f34b54c-9fe2-4d7b-99d5-d28e5c3160ce:
+  id: 2f34b54c-9fe2-4d7b-99d5-d28e5c3160ce
+  slug: propertybase-office
+  sluggable_id: 1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3
+  sluggable_type: Venues::Venue
 FriendlyId::Slug_2f350f9f-81a2-4072-9e1d-3871175f653b:
   id: 2f350f9f-81a2-4072-9e1d-3871175f653b
   slug: meetup-2016-11-09
@@ -529,6 +604,11 @@ FriendlyId::Slug_308715f9-bb1a-4996-9197-4d5ccf524d27:
   slug: pascal-wengerter
   sluggable_id: 679174d1-fc1c-49ab-92a2-76200d7536ab
   sluggable_type: Entities::Person
+FriendlyId::Slug_30fea009-2989-4f81-84c8-c370530104da:
+  id: 30fea009-2989-4f81-84c8-c370530104da
+  slug: a-byte-on-git-bisect
+  sluggable_id: b9c93904-3263-4550-a6dc-cf1ec77171a9
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_32501638-092d-495e-bc3e-6934a2b60657:
   id: 32501638-092d-495e-bc3e-6934a2b60657
   slug: metoda
@@ -649,6 +729,11 @@ FriendlyId::Slug_3ba39c29-30c2-43f2-b8af-32ae610b514b:
   slug: new-work
   sluggable_id: f227be6b-03c8-4bb8-ada2-08b1f26b0fef
   sluggable_type: Entities::Organization
+FriendlyId::Slug_3bdd5685-f475-4572-923c-d09bb720de5d:
+  id: 3bdd5685-f475-4572-923c-d09bb720de5d
+  slug: nikolay-sturm
+  sluggable_id: c2c22851-ce44-40ff-bbab-9ad111350d68
+  sluggable_type: Entities::Person
 FriendlyId::Slug_3c701dfe-6dd2-4dc0-ad70-2354b670f44d:
   id: 3c701dfe-6dd2-4dc0-ad70-2354b670f44d
   slug: reasoning-about-code-and-configuration
@@ -684,6 +769,11 @@ FriendlyId::Slug_40af0f2d-2fc3-45a8-b496-c10f32a8cea1:
   slug: actioncable
   sluggable_id: a29b33c5-e30f-4f2a-b431-d5bf4a749730
   sluggable_type: Talks::Talk
+FriendlyId::Slug_40b4d87b-ec89-465c-b877-e92de7c76e99:
+  id: 40b4d87b-ec89-465c-b877-e92de7c76e99
+  slug: concurrent-scalable-ruby-with-actors-part-i
+  sluggable_id: 7746d6de-8604-46d4-aa1c-4b5d9dec39e6
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_40e29f93-c172-477c-8a7c-f86ca0702b1f:
   id: 40e29f93-c172-477c-8a7c-f86ca0702b1f
   slug: meetup-2019-06-12
@@ -708,6 +798,11 @@ FriendlyId::Slug_435a00ca-0a26-47b7-b9b9-529d5fe3fbe8:
   id: 435a00ca-0a26-47b7-b9b9-529d5fe3fbe8
   slug: fast-and-furious-slow-and-functional
   sluggable_id: 2313f5c7-b740-4083-9b06-a41a673562b1
+  sluggable_type: Talks::Talk
+FriendlyId::Slug_435b9c85-1d42-42d8-87f2-d89e353a1292:
+  id: 435b9c85-1d42-42d8-87f2-d89e353a1292
+  slug: how-to-not-use-traits
+  sluggable_id: 4f430890-c356-4eae-b948-6988dc1d7eb8
   sluggable_type: Talks::Talk
 FriendlyId::Slug_440abdfa-e6f0-4582-a00c-28019b667a48:
   id: 440abdfa-e6f0-4582-a00c-28019b667a48
@@ -784,6 +879,11 @@ FriendlyId::Slug_4a9f56ea-d291-45d7-9289-cc93d5636d24:
   slug: lanes-planes-office
   sluggable_id: c7e45563-ce0e-46c7-9805-77b86851eda6
   sluggable_type: Venues::Venue
+FriendlyId::Slug_4ad89098-32f0-4e59-80ce-efc896501d05:
+  id: 4ad89098-32f0-4e59-80ce-efc896501d05
+  slug: meetup-2013-04-10
+  sluggable_id: c6cf189c-648e-4ae7-abaa-a4761d9cd555
+  sluggable_type: Events::Event
 FriendlyId::Slug_4e44abbb-ab04-4093-a0d2-d607318fc110:
   id: 4e44abbb-ab04-4093-a0d2-d607318fc110
   slug: introduction-to-mruby
@@ -809,6 +909,11 @@ FriendlyId::Slug_4f79e7d0-7dc9-46fb-8e4c-9ae76986f29f:
   slug: meetup-2019-04-10
   sluggable_id: 5120ef88-e9ee-49c7-8d67-5a6190d3fa63
   sluggable_type: Events::Event
+FriendlyId::Slug_50250c89-5425-4ce8-9211-2ac1d6a4ec6e:
+  id: 50250c89-5425-4ce8-9211-2ac1d6a4ec6e
+  slug: rubinius-seemingly-the-same-but-completely-different
+  sluggable_id: a2a81399-1fe3-4f8e-8688-5ccf7eec90c4
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_50fc2686-5595-4219-9418-29ded8da74b5:
   id: 50fc2686-5595-4219-9418-29ded8da74b5
   slug: crewmeister
@@ -839,6 +944,11 @@ FriendlyId::Slug_53655bb1-0c13-4db5-8355-acafb8bc8706:
   slug: halunke-or-how-and-why-i-built-a-programming-language
   sluggable_id: '09d9e20d-53de-4ec9-9418-34c99dd03cf9'
   sluggable_type: Talks::Talk
+FriendlyId::Slug_552eede6-83b6-4698-816d-285207d9a3ae:
+  id: 552eede6-83b6-4698-816d-285207d9a3ae
+  slug: meetup-2013-02-16
+  sluggable_id: a7335843-e74b-4b3e-8cba-bebd4e9e13cc
+  sluggable_type: Events::Event
 FriendlyId::Slug_553e4f1a-ffe0-4e2a-bae9-866fbdd3ef13:
   id: 553e4f1a-ffe0-4e2a-bae9-866fbdd3ef13
   slug: munich-rubyshift
@@ -849,6 +959,11 @@ FriendlyId::Slug_5572413f-47ae-446d-a627-3608f4c99a6f:
   slug: shore
   sluggable_id: 70c17eee-86a3-4c9b-9a07-98e59ef59a1f
   sluggable_type: Entities::Organization
+FriendlyId::Slug_55d69c61-45c3-4ffa-b224-6f3e8734f488:
+  id: 55d69c61-45c3-4ffa-b224-6f3e8734f488
+  slug: meetup-2013-03-13
+  sluggable_id: b92e9820-5ccc-4877-9fde-0414cb82bd15
+  sluggable_type: Events::Event
 FriendlyId::Slug_55e954dd-bb65-48f8-b9fc-e4662c3d5761:
   id: 55e954dd-bb65-48f8-b9fc-e4662c3d5761
   slug: docker-based-development-environments-at-experteer
@@ -869,10 +984,30 @@ FriendlyId::Slug_573a5ccc-fda1-4e2e-be9d-080222f78937:
   slug: brienner-strasse-49
   sluggable_id: 8db60734-ff15-4d1e-a890-78e45e3013a3
   sluggable_type: Locations::Address
+FriendlyId::Slug_573e00b0-d855-40dc-9b5c-ea1ea4cd5dc6:
+  id: 573e00b0-d855-40dc-9b5c-ea1ea4cd5dc6
+  slug: introduction-to-cassandra
+  sluggable_id: 9d3056c6-8f85-4fb7-8f17-4238f8d72bc3
+  sluggable_type: Talks::Talk
+FriendlyId::Slug_582047dd-49d5-4de8-b74b-d856e1f2bd81:
+  id: 582047dd-49d5-4de8-b74b-d856e1f2bd81
+  slug: meetup-2012-11-14
+  sluggable_id: 908a770a-7eb1-4009-80e7-6cd766185088
+  sluggable_type: Events::Event
+FriendlyId::Slug_58ef53a7-ff51-4250-8b04-695b8501b3db:
+  id: 58ef53a7-ff51-4250-8b04-695b8501b3db
+  slug: introduction-to-clojure
+  sluggable_id: b2da2286-d59c-46bc-86fd-253c700ff0ca
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_58fd4c33-fac4-441c-8525-1768f1ca8fd9:
   id: 58fd4c33-fac4-441c-8525-1768f1ca8fd9
   slug: meetup-2017-06-14
   sluggable_id: 5c659335-1a76-4e74-8341-e5bed8907f8c
+  sluggable_type: Events::Event
+FriendlyId::Slug_59610a8a-69e0-436c-970e-34387b4db2b3:
+  id: 59610a8a-69e0-436c-970e-34387b4db2b3
+  slug: meetup-2013-01-16
+  sluggable_id: e890a30b-2555-4851-9a6e-7b29b16d29a9
   sluggable_type: Events::Event
 FriendlyId::Slug_5a104885-b476-4d15-8acc-d07168cd4f85:
   id: 5a104885-b476-4d15-8acc-d07168cd4f85
@@ -969,6 +1104,16 @@ FriendlyId::Slug_61c2e6da-9dc0-448c-bcb2-d0f50e045756:
   slug: tuerkenstrasse-89
   sluggable_id: cdf044dc-7abf-436a-96de-596b9ed7f71c
   sluggable_type: Locations::Address
+FriendlyId::Slug_61eaa0c6-4090-44cc-ab9c-526c9c68f346:
+  id: 61eaa0c6-4090-44cc-ab9c-526c9c68f346
+  slug: meetup-2013-05-08
+  sluggable_id: 49fede28-0d36-4444-b0a0-e4f1478fa41f
+  sluggable_type: Events::Event
+FriendlyId::Slug_625e6e46-7513-47c4-8a65-5258a1f253c5:
+  id: 625e6e46-7513-47c4-8a65-5258a1f253c5
+  slug: landwehrstrasse-63
+  sluggable_id: 7cd7fa76-d811-48ba-9f53-74bdb3d6b1c7
+  sluggable_type: Locations::Address
 FriendlyId::Slug_62c3559f-4a3a-49eb-94eb-224627be3b09:
   id: 62c3559f-4a3a-49eb-94eb-224627be3b09
   slug: codegolfing
@@ -1024,6 +1169,11 @@ FriendlyId::Slug_674f1dcd-6506-4e8e-9d59-0456dee9fc2a:
   slug: ruby-news-march-2017
   sluggable_id: fdebb11d-a914-4ac8-8205-6517fd058022
   sluggable_type: Talks::Talk
+FriendlyId::Slug_675506f5-82c0-411c-85ac-0e90e57cd890:
+  id: 675506f5-82c0-411c-85ac-0e90e57cd890
+  slug: introduction-to-twilio
+  sluggable_id: 61764fc2-c57a-4755-a7bb-7d13a89b6178
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_67713349-6acc-4e87-a11b-f77912d93850:
   id: 67713349-6acc-4e87-a11b-f77912d93850
   slug: klaus-weidinger
@@ -1054,10 +1204,20 @@ FriendlyId::Slug_68b402fd-fac9-49f7-8c0c-8577f41b858c:
   slug: meetup-2017-02-08
   sluggable_id: 1cbe4b7d-9dca-4673-a7f0-7d7133a213f7
   sluggable_type: Events::Event
+FriendlyId::Slug_69ae0a09-2ebe-4fea-bfde-d29047f86dc5:
+  id: 69ae0a09-2ebe-4fea-bfde-d29047f86dc5
+  slug: experience-report-on-the-rails-girls-munich-event
+  sluggable_id: e85a1ec4-7f71-4f97-9fab-78148efef924
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_69d0e489-5d21-4e03-bffe-629e832ab073:
   id: 69d0e489-5d21-4e03-bffe-629e832ab073
   slug: crashcourse-metaprogramming-in-ruby
   sluggable_id: 0c79461e-af02-492b-86f6-96a5bde70457
+  sluggable_type: Talks::Talk
+FriendlyId::Slug_6ac2598f-898f-49b5-8974-5b4fa16fa0d1:
+  id: 6ac2598f-898f-49b5-8974-5b4fa16fa0d1
+  slug: metrics-what-are-they-good-for
+  sluggable_id: a7c892bb-d351-4a63-9366-c73fb8aad06a
   sluggable_type: Talks::Talk
 FriendlyId::Slug_6aebcbb0-bb8f-47ed-8b3e-b6d814a5c56c:
   id: 6aebcbb0-bb8f-47ed-8b3e-b6d814a5c56c
@@ -1099,6 +1259,11 @@ FriendlyId::Slug_6fd96f0d-761c-44a9-80f6-50ce84f5728b:
   slug: chikahiro-tokoro
   sluggable_id: 2749ec29-5e0a-423d-bad4-a523d0bb6db9
   sluggable_type: Entities::Person
+FriendlyId::Slug_7040bb9a-992d-4ecf-a239-c82e47353e88:
+  id: 7040bb9a-992d-4ecf-a239-c82e47353e88
+  slug: the-raspberry-pi-take-a-byte
+  sluggable_id: 4449e23c-17e4-4ff3-8621-f94447186291
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_70c6ad07-0078-44d0-8f32-30f570ebfcce:
   id: 70c6ad07-0078-44d0-8f32-30f570ebfcce
   slug: demodesk-office
@@ -1129,6 +1294,11 @@ FriendlyId::Slug_72acaf0e-d584-46c4-9141-335679567080:
   slug: ruby-news-march-2019
   sluggable_id: 44713d8c-e28b-4ac7-8677-1a761c1a51de
   sluggable_type: Talks::Talk
+FriendlyId::Slug_73f95acf-0f1d-4319-bf75-0b81b9479514:
+  id: 73f95acf-0f1d-4319-bf75-0b81b9479514
+  slug: balanstrasse-73-haus-10
+  sluggable_id: f275e06f-ce99-4ceb-a4c4-82fc52897219
+  sluggable_type: Locations::Address
 FriendlyId::Slug_741e41d1-2cc0-40f9-84e3-d9417480a3cc:
   id: 741e41d1-2cc0-40f9-84e3-d9417480a3cc
   slug: load-testing-with-1-000-000-users
@@ -1189,6 +1359,11 @@ FriendlyId::Slug_789dd2c6-c2d1-45d2-8735-0141609aa5d2:
   slug: it-agenten-office
   sluggable_id: 8fd97a9c-10f1-4e65-a8c2-fd14c54a963a
   sluggable_type: Venues::Venue
+FriendlyId::Slug_78af0ec6-0d0d-4a1e-8736-322879f4b630:
+  id: 78af0ec6-0d0d-4a1e-8736-322879f4b630
+  slug: orceo-office
+  sluggable_id: 67929c72-6c33-4bfd-a530-6a76a272ce47
+  sluggable_type: Venues::Venue
 FriendlyId::Slug_7a0b6a0d-8f33-4a74-8179-e4d26b446d0b:
   id: 7a0b6a0d-8f33-4a74-8179-e4d26b446d0b
   slug: rails-unwired-neural-networks-in-ruby
@@ -1199,10 +1374,20 @@ FriendlyId::Slug_7a2c3592-adfb-4c9f-aed5-3a9aac239162:
   slug: deep-dive-into-the-internals-of-activesupport-callbacks
   sluggable_id: e2e9088a-d42d-4512-87bb-88af50ee50dd
   sluggable_type: Talks::Talk
+FriendlyId::Slug_7a89aaf6-5251-47ba-99d9-90e26319a6e5:
+  id: 7a89aaf6-5251-47ba-99d9-90e26319a6e5
+  slug: meetup-2012-05-15
+  sluggable_id: 0be7ac1c-2c32-41f7-a028-b352713f5ae7
+  sluggable_type: Events::Event
 FriendlyId::Slug_7a918c58-8f04-490b-8cf7-f617e2f7b49c:
   id: 7a918c58-8f04-490b-8cf7-f617e2f7b49c
   slug: meetup-2020-04-15
   sluggable_id: bb626d8b-beff-4d94-b095-d3a73a369ebb
+  sluggable_type: Events::Event
+FriendlyId::Slug_7b1936d0-ab15-4b31-8bb1-b74d4384631e:
+  id: 7b1936d0-ab15-4b31-8bb1-b74d4384631e
+  slug: meetup-2012-12-12
+  sluggable_id: e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97
   sluggable_type: Events::Event
 FriendlyId::Slug_7b25c19d-f11d-4c04-813b-96bf36110f27:
   id: 7b25c19d-f11d-4c04-813b-96bf36110f27
@@ -1214,6 +1399,11 @@ FriendlyId::Slug_7b3c6ce3-c789-4fd8-bb85-f47460eea931:
   slug: jetbrains
   sluggable_id: 29832b05-4ea1-4fc3-8cb2-a992acc590de
   sluggable_type: Entities::Organization
+FriendlyId::Slug_7b753fbb-f49a-44c4-8a60-8a8b958981c4:
+  id: 7b753fbb-f49a-44c4-8a60-8a8b958981c4
+  slug: maikel-lammers
+  sluggable_id: ef65435d-5b05-4459-b2e6-46f8b710f9a7
+  sluggable_type: Entities::Person
 FriendlyId::Slug_7cc92048-3532-4832-9dd4-e422ff94668b:
   id: 7cc92048-3532-4832-9dd4-e422ff94668b
   slug: modern-frontends-without-javascript
@@ -1254,15 +1444,30 @@ FriendlyId::Slug_7f42a041-63ac-4328-aa27-98dc1fe47820:
   slug: meetup-2015-02-11
   sluggable_id: 137da0d0-aa0f-4fc0-84de-933aae3c47de
   sluggable_type: Events::Event
+FriendlyId::Slug_7f72c16c-98b0-47e6-aa3c-ef8a7989f570:
+  id: 7f72c16c-98b0-47e6-aa3c-ef8a7989f570
+  slug: trurnit-office
+  sluggable_id: 614a9910-a2f6-4991-b2c8-6c021c91d477
+  sluggable_type: Venues::Venue
 FriendlyId::Slug_7f87df4a-a6e4-4c2d-9f21-d4b3c12bc280:
   id: 7f87df4a-a6e4-4c2d-9f21-d4b3c12bc280
   slug: meetup-2017-04-12
   sluggable_id: 5ec4c4c6-643b-40e8-b01f-f5396c2323dd
   sluggable_type: Events::Event
+FriendlyId::Slug_808aa15f-92b2-42fe-bab9-c84a08f122df:
+  id: 808aa15f-92b2-42fe-bab9-c84a08f122df
+  slug: stylefruits-office
+  sluggable_id: 875db3ec-232f-4ca5-99bf-7373a25d0681
+  sluggable_type: Venues::Venue
 FriendlyId::Slug_8193d60c-cb97-4b12-8b7c-6e124bc70a10:
   id: 8193d60c-cb97-4b12-8b7c-6e124bc70a10
   slug: marina-petrova
   sluggable_id: 92f34ef8-5314-4f5c-be5f-a514bd6e40c9
+  sluggable_type: Entities::Person
+FriendlyId::Slug_81bccbfb-319c-4db9-be27-239fd85c8664:
+  id: 81bccbfb-319c-4db9-be27-239fd85c8664
+  slug: sven-c-koehler
+  sluggable_id: 4ffdbde5-2206-430f-8cf6-da9465dd9673
   sluggable_type: Entities::Person
 FriendlyId::Slug_8275aaf9-9b33-49d1-ae48-16b6f851ddc0:
   id: 8275aaf9-9b33-49d1-ae48-16b6f851ddc0
@@ -1379,6 +1584,11 @@ FriendlyId::Slug_8c430597-8ff2-414d-aea3-ce3aa9ae42b6:
   slug: meetup-2017-11-08
   sluggable_id: a25cb714-cc6a-4e13-adae-69f1f42f1901
   sluggable_type: Events::Event
+FriendlyId::Slug_8c9af3ab-0747-4a44-aa29-2c0475aa1f6c:
+  id: 8c9af3ab-0747-4a44-aa29-2c0475aa1f6c
+  slug: introduction-to-sinatra
+  sluggable_id: 0e21bf6a-1ae7-4637-93a7-987e07152f6b
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_8d657e6a-0be3-4e00-88fc-164d1487ecd9:
   id: 8d657e6a-0be3-4e00-88fc-164d1487ecd9
   slug: how-a-502-error-led-us-to-cut-resource-usage-by-over-30
@@ -1389,6 +1599,11 @@ FriendlyId::Slug_8dd14c89-9949-498a-89b5-c75efb8ad5c7:
   slug: public-protected-private
   sluggable_id: 90c3f42e-8794-4ccb-b463-28159ccb57c3
   sluggable_type: Talks::Talk
+FriendlyId::Slug_8f13c9b5-cc44-4fd7-8c5b-4b0daa044f87:
+  id: 8f13c9b5-cc44-4fd7-8c5b-4b0daa044f87
+  slug: meetup-2012-09-10
+  sluggable_id: 7f86600e-6d02-4330-ad23-202dea797ac6
+  sluggable_type: Events::Event
 FriendlyId::Slug_8f1ccef6-fe49-4b4f-ab96-7154b4dff52b:
   id: 8f1ccef6-fe49-4b4f-ab96-7154b4dff52b
   slug: meetup-2013-08-14
@@ -1414,6 +1629,11 @@ FriendlyId::Slug_90a40c93-62b6-40d5-9f73-798f14839372:
   slug: meetup-2017-10-11
   sluggable_id: 7f01acc2-0480-41c2-810e-6b7ede0d927e
   sluggable_type: Events::Event
+FriendlyId::Slug_91b07b25-a41d-4545-bd5b-aefd04ad1050:
+  id: 91b07b25-a41d-4545-bd5b-aefd04ad1050
+  slug: landsbergerstrasse-398
+  sluggable_id: ded64db2-95ab-4db5-bc19-3f7fdef35d52
+  sluggable_type: Locations::Address
 FriendlyId::Slug_9205475c-f0b9-4035-8daa-f5d275370ba7:
   id: 9205475c-f0b9-4035-8daa-f5d275370ba7
   slug: hendrik
@@ -1434,15 +1654,35 @@ FriendlyId::Slug_93b15d6b-b15a-4b28-859b-39dd8fc08d78:
   slug: meetup-2024-03-14
   sluggable_id: 5e8801b8-b30c-49d7-b13f-63060e40667a
   sluggable_type: Events::Event
+FriendlyId::Slug_944f11b9-7e73-4d35-b9d6-51268a8d469e:
+  id: 944f11b9-7e73-4d35-b9d6-51268a8d469e
+  slug: introduction-to-the-data-context-interaction-architecture-dci
+  sluggable_id: e338e7d3-76fa-4914-84bb-da5032ca2991
+  sluggable_type: Talks::Talk
+FriendlyId::Slug_95394f98-1826-40ac-8cb6-19459f79e983:
+  id: 95394f98-1826-40ac-8cb6-19459f79e983
+  slug: metrics-the-second-attempt
+  sluggable_id: 74762fe1-8442-4c35-8e35-90a7c573e5ef
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_9553b2c7-4003-4dfe-b645-78e8cf375ae9:
   id: 9553b2c7-4003-4dfe-b645-78e8cf375ae9
   slug: meetup-2016-10-12
   sluggable_id: 60f568f0-6f60-4e53-9e04-e9ffaebb1e06
   sluggable_type: Events::Event
+FriendlyId::Slug_95591bb4-75bd-40fa-9886-1cf566eac58c:
+  id: 95591bb4-75bd-40fa-9886-1cf566eac58c
+  slug: pains-of-growing
+  sluggable_id: 112530c3-2471-4fc8-b09e-1948d0460f31
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_9562e261-b038-42fe-8bc3-106b1c234769:
   id: 9562e261-b038-42fe-8bc3-106b1c234769
   slug: dino-reic
   sluggable_id: 30572660-7e77-40b3-9e4b-eeedd6cbb06d
+  sluggable_type: Entities::Person
+FriendlyId::Slug_96000fea-ef90-49ef-8b3a-889192539730:
+  id: 96000fea-ef90-49ef-8b3a-889192539730
+  slug: christoph-engelhardt
+  sluggable_id: aa67af3b-dd60-4e61-99a0-3b2f9d4a0be5
   sluggable_type: Entities::Person
 FriendlyId::Slug_966d4d80-df07-4824-889b-426255ea032c:
   id: 966d4d80-df07-4824-889b-426255ea032c
@@ -1524,6 +1764,11 @@ FriendlyId::Slug_9d62f44c-9b03-4091-b588-905e489c85b3:
   slug: arabellastrasse-23
   sluggable_id: 87cf3aa0-21d6-48f8-8c8c-0169d9e3be81
   sluggable_type: Locations::Address
+FriendlyId::Slug_9ee432f5-300c-421a-a435-863281e9ebfc:
+  id: 9ee432f5-300c-421a-a435-863281e9ebfc
+  slug: alexander-reelsen
+  sluggable_id: 1ccb618b-25da-4b1f-85f8-fd8ba044cefb
+  sluggable_type: Entities::Person
 FriendlyId::Slug_9f4533a6-546b-4861-add9-a93a04b9ce5d:
   id: 9f4533a6-546b-4861-add9-a93a04b9ce5d
   slug: florin-oltean
@@ -1569,11 +1814,26 @@ FriendlyId::Slug_a2f99670-fe05-437e-90a1-ac72bb6e6022:
   slug: managing-pull-requests-with-yai-you-are-it
   sluggable_id: 00721d1c-0907-4a86-8031-205387be75e7
   sluggable_type: Talks::Talk
+FriendlyId::Slug_a3157b7d-faa3-4afa-b7ed-b09024652407:
+  id: a3157b7d-faa3-4afa-b7ed-b09024652407
+  slug: topaz-is-ruby-in-python
+  sluggable_id: 7ed5c17b-07ed-489f-b2b9-6d5944059a54
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_a34bc394-c731-4608-a1fe-be07436ac425:
   id: a34bc394-c731-4608-a1fe-be07436ac425
   slug: meetup-2015-05-13
   sluggable_id: 51e602d3-0a7f-4842-8257-ba514e5969dd
   sluggable_type: Events::Event
+FriendlyId::Slug_a38ade5c-f858-4d5d-a82c-d9940d70cff2:
+  id: a38ade5c-f858-4d5d-a82c-d9940d70cff2
+  slug: meetup-2012-06-05
+  sluggable_id: 2af376f0-1305-4985-bcbb-2e0faa8891a2
+  sluggable_type: Events::Event
+FriendlyId::Slug_a49788ca-de6f-4901-a673-b5f7d142fc88:
+  id: a49788ca-de6f-4901-a673-b5f7d142fc88
+  slug: slow-migrations
+  sluggable_id: d1a10138-b2db-4a95-9a09-829b889edcd6
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_a62d30fe-eba8-4b03-b26a-3c76277dd2c9:
   id: a62d30fe-eba8-4b03-b26a-3c76277dd2c9
   slug: munich
@@ -1599,6 +1859,11 @@ FriendlyId::Slug_a7274a1e-7359-49c1-a2c5-31410c4461ee:
   slug: cristian-eigel
   sluggable_id: 97c571fd-2f66-4646-b410-2dbe18eef889
   sluggable_type: Entities::Person
+FriendlyId::Slug_a73f8820-173a-4f11-a209-5c433999b49d:
+  id: a73f8820-173a-4f11-a209-5c433999b49d
+  slug: propertybase
+  sluggable_id: c37e11f1-7b50-4f33-97eb-40afd96323f2
+  sluggable_type: Entities::Organization
 FriendlyId::Slug_a8678233-c954-4e13-93e8-f17c2859aa4b:
   id: a8678233-c954-4e13-93e8-f17c2859aa4b
   slug: a-resource-oriented-file-structure-for-rails
@@ -1614,6 +1879,11 @@ FriendlyId::Slug_a8a606b6-75f3-4788-9ebf-f0d57fecb333:
   slug: flobby-media-office
   sluggable_id: 69821224-9122-4f4f-afa2-ea45b4356aa1
   sluggable_type: Venues::Venue
+FriendlyId::Slug_a9d04fb0-02af-4593-bc92-7788914cc3aa:
+  id: a9d04fb0-02af-4593-bc92-7788914cc3aa
+  slug: the-shortest-way-to-rewrite-something-like-ruby-in-c
+  sluggable_id: 9a453fb0-67f6-423c-a5b5-c6e4ed346d37
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_ab556a9d-d8ef-4e91-be63-fa4e5571575c:
   id: ab556a9d-d8ef-4e91-be63-fa4e5571575c
   slug: lucas-dohmen
@@ -1699,6 +1969,11 @@ FriendlyId::Slug_b2128e1f-9385-4d87-8f49-08883cb4978b:
   slug: ruby-news-april-2016
   sluggable_id: 9e68087d-505f-42ae-b0f0-fee8ca91d369
   sluggable_type: Talks::Talk
+FriendlyId::Slug_b259feaf-cd0a-4863-8221-a8e06c61372c:
+  id: b259feaf-cd0a-4863-8221-a8e06c61372c
+  slug: matthias-marshall
+  sluggable_id: 18ae851a-ab48-493c-8812-a366f8c27e39
+  sluggable_type: Entities::Person
 FriendlyId::Slug_b25bd114-37b2-47e6-b87c-c05efb57d110:
   id: b25bd114-37b2-47e6-b87c-c05efb57d110
   slug: kim-klotz
@@ -1749,6 +2024,11 @@ FriendlyId::Slug_b692524d-d71f-4bf4-9d3c-11347d66c22f:
   slug: robert-kuzelj
   sluggable_id: 2c336893-8a87-4d3f-9736-6d38ccd8b701
   sluggable_type: Entities::Person
+FriendlyId::Slug_b6b9b0a4-ea79-4f76-988d-5e5d17cd6849:
+  id: b6b9b0a4-ea79-4f76-988d-5e5d17cd6849
+  slug: concurrent-scalable-ruby-with-actors-part-ii
+  sluggable_id: 03f3f686-b308-487c-98ff-c01f0fb981b3
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_b6d1f100-d323-41cc-80a8-4e5db68ea63c:
   id: b6d1f100-d323-41cc-80a8-4e5db68ea63c
   slug: john-poulin
@@ -1874,6 +2154,11 @@ FriendlyId::Slug_c401802d-3b4f-4d18-bbbc-a0372c0ccbac:
   slug: meetup-2014-06-11
   sluggable_id: 55840eb2-652e-4c96-85f0-d8e8f4de320a
   sluggable_type: Events::Event
+FriendlyId::Slug_c4ac8c72-f2e8-4ce7-bbc7-69d69b511901:
+  id: c4ac8c72-f2e8-4ce7-bbc7-69d69b511901
+  slug: migrating-a-pure-mri-rails-application-to-jruby
+  sluggable_id: '0871f0ad-3a9f-4222-9c4f-d9345fbc9e1f'
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_c4c0f697-cdc0-4127-ad39-458d330a5c7a:
   id: c4c0f697-cdc0-4127-ad39-458d330a5c7a
   slug: arnulfstrasse-126
@@ -1894,6 +2179,11 @@ FriendlyId::Slug_c55b3cd9-dbc7-4f44-875b-7723eec76065:
   slug: using-database-views-in-rails-and-why-you-should-or-shouldn-t-do-it
   sluggable_id: 407ce9e5-f3d7-40ee-84e1-386737f901fb
   sluggable_type: Talks::Talk
+FriendlyId::Slug_c5e7a9e8-3f3b-4d14-a9d8-c3b8760efc4b:
+  id: c5e7a9e8-3f3b-4d14-a9d8-c3b8760efc4b
+  slug: intro-into-app-net
+  sluggable_id: e2c4ee95-9c1a-4e04-8197-039eddfbf65d
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_c672a99a-6a21-413b-bec8-bdc479e01066:
   id: c672a99a-6a21-413b-bec8-bdc479e01066
   slug: ruby-on-rails-in-mid-sized-companies
@@ -1909,10 +2199,25 @@ FriendlyId::Slug_c7282d7e-e99c-41b5-a5bf-8c800e9c90d5:
   slug: carola-boettcher
   sluggable_id: b4d6756e-0310-474b-8ae7-450d1fa5ddf1
   sluggable_type: Entities::Person
+FriendlyId::Slug_c7a268f1-cd40-4944-b6d1-b1b763889f0f:
+  id: c7a268f1-cd40-4944-b6d1-b1b763889f0f
+  slug: introduction-to-goliath
+  sluggable_id: 0212d488-0ee2-415d-92fc-62d0d65ebbbc
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_c80b8915-4ebc-4b26-8a94-1491a67634a0:
   id: c80b8915-4ebc-4b26-8a94-1491a67634a0
   slug: migrate-a-rails-backend-to-a-service
   sluggable_id: f36d5bc1-92d3-4384-9acd-2e01a820e5ca
+  sluggable_type: Talks::Talk
+FriendlyId::Slug_c8280676-e866-4725-acf4-403fe8a781ce:
+  id: c8280676-e866-4725-acf4-403fe8a781ce
+  slug: meetup-2012-07-05
+  sluggable_id: dd5fbda7-f6ae-4732-8b39-539b4726b36a
+  sluggable_type: Events::Event
+FriendlyId::Slug_c862dff2-24df-4d7d-abce-0386e6537aab:
+  id: c862dff2-24df-4d7d-abce-0386e6537aab
+  slug: the-all-mighty-rake
+  sluggable_id: 31b9c02b-23b8-4a83-a114-0d1334eb814a
   sluggable_type: Talks::Talk
 FriendlyId::Slug_c8afd56f-18e8-44ff-a915-ee5b4f52689c:
   id: c8afd56f-18e8-44ff-a915-ee5b4f52689c
@@ -1934,11 +2239,21 @@ FriendlyId::Slug_ca52d4e4-67b0-4c12-8d88-544df637feb0:
   slug: interacting-with-kubernetes-via-ruby
   sluggable_id: 96cdd56f-6017-43cf-80c5-94adf1a14c4a
   sluggable_type: Talks::Talk
+FriendlyId::Slug_ca7a89b5-03b9-4162-a9a0-65adf953a678:
+  id: ca7a89b5-03b9-4162-a9a0-65adf953a678
+  slug: rails-girls-update
+  sluggable_id: b96f1438-2c38-4096-ba70-97b917f1921c
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_cb1877a0-3841-417a-be78-4ad3f9c81f39:
   id: cb1877a0-3841-417a-be78-4ad3f9c81f39
   slug: codecentric-office
   sluggable_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
   sluggable_type: Venues::Venue
+FriendlyId::Slug_cb91d6d0-8497-4882-a6bc-e2bbbcb14812:
+  id: cb91d6d0-8497-4882-a6bc-e2bbbcb14812
+  slug: solving-bizarre-authorization-requirements
+  sluggable_id: 9ef229e8-935d-47c8-9e0a-7b568de4869c
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_cbe14f27-ecda-485f-8d15-ca10bdcc4e92:
   id: cbe14f27-ecda-485f-8d15-ca10bdcc4e92
   slug: dataguard
@@ -1964,6 +2279,11 @@ FriendlyId::Slug_d01b57e3-b7df-4527-9509-85a739773da3:
   slug: infanteriestrasse-19-haus-6
   sluggable_id: 581c789e-6408-4f1d-8a23-43ae147b210b
   sluggable_type: Locations::Address
+FriendlyId::Slug_d0c83264-8c5c-49ab-9146-fb4c48090bdc:
+  id: d0c83264-8c5c-49ab-9146-fb4c48090bdc
+  slug: infrastructure-as-code-with-opscode-chef
+  sluggable_id: 3d62c716-e247-4afd-ae0a-a533b0f77f0b
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_d123e853-5c1f-4b08-83ac-af19677cd881:
   id: d123e853-5c1f-4b08-83ac-af19677cd881
   slug: effective-testing-or-how-to-sleep-when-you-are-on-call
@@ -2004,6 +2324,21 @@ FriendlyId::Slug_d46220a5-a4bb-4225-a460-d59ae4d580a4:
   slug: riskmethods
   sluggable_id: 0e78b5fd-dfc3-41fa-b6ce-473d7bd8662d
   sluggable_type: Entities::Organization
+FriendlyId::Slug_d479c9dd-771b-4fc1-af62-a16b23985e84:
+  id: d479c9dd-771b-4fc1-af62-a16b23985e84
+  slug: robert-curth
+  sluggable_id: ad73b8b9-1ce1-4c17-88de-68a7474282eb
+  sluggable_type: Entities::Person
+FriendlyId::Slug_d4efb612-6a60-4ab3-a46c-6adcf713f251:
+  id: d4efb612-6a60-4ab3-a46c-6adcf713f251
+  slug: stylefruits
+  sluggable_id: ab0a62a1-c61e-4a8c-a3d9-7f46a5e05c80
+  sluggable_type: Entities::Organization
+FriendlyId::Slug_d5185054-90d0-48b9-9428-9b9930b07a0b:
+  id: d5185054-90d0-48b9-9428-9b9930b07a0b
+  slug: learning-ruby-and-rails-or-where-are-the-curly-braces
+  sluggable_id: 1a48ca31-9380-4bba-a719-dcd3146167f6
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_d553d9ff-67ba-47b1-83d9-476dc4d875cb:
   id: d553d9ff-67ba-47b1-83d9-476dc4d875cb
   slug: blobsterix-a-transcoding-binary-large-object-server
@@ -2084,6 +2419,11 @@ FriendlyId::Slug_dcbe4fbe-2d67-459b-8833-3c23e0a02fa0:
   slug: dmitry-gritsay
   sluggable_id: b9777a49-45e1-490f-981e-c0d565e150cc
   sluggable_type: Entities::Person
+FriendlyId::Slug_dd8f4d40-4112-4d7c-b65b-ce80e3701f3b:
+  id: dd8f4d40-4112-4d7c-b65b-ce80e3701f3b
+  slug: introduction-into-elasticsearch-integration-with-ruby
+  sluggable_id: 3597b4a3-322e-456a-ba36-8f0206978022
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_df4aad81-4903-4ebc-8115-27ca8a7afba6:
   id: df4aad81-4903-4ebc-8115-27ca8a7afba6
   slug: pharos-office
@@ -2144,6 +2484,11 @@ FriendlyId::Slug_e360c216-8463-472e-9593-fdc2a60f3dcb:
   slug: meetup-2015-01-14
   sluggable_id: ab5a4682-4a75-46dd-bc91-4af39d48df23
   sluggable_type: Events::Event
+FriendlyId::Slug_e4840c6d-2701-4840-8ad8-203ad188b89f:
+  id: e4840c6d-2701-4840-8ad8-203ad188b89f
+  slug: marienplatz
+  sluggable_id: 7619e363-a9f9-435d-ac83-67536d521e3d
+  sluggable_type: Locations::Address
 FriendlyId::Slug_e496e0e0-0491-4b99-ae4d-cb451d26d9d1:
   id: e496e0e0-0491-4b99-ae4d-cb451d26d9d1
   slug: meetup-2015-12-09
@@ -2204,6 +2549,11 @@ FriendlyId::Slug_ec4f2d46-9683-4701-a827-ace232d7e936:
   slug: adnan-husein
   sluggable_id: e8079fd4-fbc0-47ef-94b7-f3570f85f063
   sluggable_type: Entities::Person
+FriendlyId::Slug_ec57e22d-6658-457c-9339-f2892d8624f6:
+  id: ec57e22d-6658-457c-9339-f2892d8624f6
+  slug: who-is-afraid-of-the-whitespaces
+  sluggable_id: 3aac65e7-3ce6-4787-a36b-7ad70b2f8567
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_ed051b13-43e4-4755-bd2e-b0bc45f0a5d3:
   id: ed051b13-43e4-4755-bd2e-b0bc45f0a5d3
   slug: testing-llm-agent-conversations-with-rspec-agents
@@ -2229,6 +2579,11 @@ FriendlyId::Slug_edadf499-db5a-444e-b9a6-0502b3a52eae:
   slug: meetup-2016-12-14
   sluggable_id: d9055efc-3ba9-41d3-a013-57a1f5d352c6
   sluggable_type: Events::Event
+FriendlyId::Slug_edf5937b-c7d4-4498-b1a6-ee26be975624:
+  id: edf5937b-c7d4-4498-b1a6-ee26be975624
+  slug: refactoring-using-rubymine-an-indepth-view-behind-the-curtain
+  sluggable_id: d64e633a-008e-486c-8a7b-b3e0816ce5aa
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_ee6ae075-c2e5-4aa8-875f-bf92aee46e53:
   id: ee6ae075-c2e5-4aa8-875f-bf92aee46e53
   slug: software-estimates-that-suck-less
@@ -2249,11 +2604,21 @@ FriendlyId::Slug_f05666f5-2f3b-4bba-8a0e-349dd7987ca8:
   slug: asset-pipeline-and-modern-frontend-development
   sluggable_id: 8f69d24e-898d-4bdc-8542-8b7483c88bdf
   sluggable_type: Talks::Talk
+FriendlyId::Slug_f061b27f-7d5c-4215-a858-9862324f653f:
+  id: f061b27f-7d5c-4215-a858-9862324f653f
+  slug: introduction-to-the-hexagonal-architecture
+  sluggable_id: 845ed8e5-d9de-45c8-abdc-8124fa8c9a84
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_f0ec0d88-ecdd-49a9-a336-03b06df79b28:
   id: f0ec0d88-ecdd-49a9-a336-03b06df79b28
   slug: meetup-2014-08-13
   sluggable_id: 721e3030-460f-48ae-a545-cf81cb327b67
   sluggable_type: Events::Event
+FriendlyId::Slug_f190d8cd-d28b-4fa3-88e9-d9d9f17d90f4:
+  id: f190d8cd-d28b-4fa3-88e9-d9d9f17d90f4
+  slug: orceo-media
+  sluggable_id: b790a3c7-0cfb-4920-a61c-3730f74a051e
+  sluggable_type: Entities::Organization
 FriendlyId::Slug_f2a57caf-2fe6-4b43-91cf-2a0b652af306:
   id: f2a57caf-2fe6-4b43-91cf-2a0b652af306
   slug: ilya-krasnov
@@ -2294,11 +2659,26 @@ FriendlyId::Slug_f5777344-8e85-4ab0-b98c-f3ccbc2fd75b:
   slug: three-things-we-do-well-at-workpath
   sluggable_id: 68b54ead-d2f6-4402-927f-116158d94c34
   sluggable_type: Talks::Talk
+FriendlyId::Slug_f5ea60c1-891c-415c-a3dd-f547989adc18:
+  id: f5ea60c1-891c-415c-a3dd-f547989adc18
+  slug: rails-performance-and-the-indentity-mapper
+  sluggable_id: a5b2875e-19ff-4cb4-9504-8f18bab7637e
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_f6527ff2-c795-422a-b812-f8e4416e9057:
   id: f6527ff2-c795-422a-b812-f8e4416e9057
   slug: meetup-2022-07-14
   sluggable_id: 7756b666-da89-4f60-9947-cbb5d3110256
   sluggable_type: Events::Event
+FriendlyId::Slug_f7f751a5-8fb4-41d7-b549-c5535ebf410d:
+  id: f7f751a5-8fb4-41d7-b549-c5535ebf410d
+  slug: unknown
+  sluggable_id: 8578552d-0404-465a-bf8a-32a7d8120b21
+  sluggable_type: Venues::Venue
+FriendlyId::Slug_f80349f8-2593-4fca-97ab-29dfe68fcd19:
+  id: f80349f8-2593-4fca-97ab-29dfe68fcd19
+  slug: sonnenstrasse-31
+  sluggable_id: 3cc29857-b85b-4f36-9982-6ea55026e955
+  sluggable_type: Locations::Address
 FriendlyId::Slug_f9f298c5-bd9c-419d-a7d1-5eee95052518:
   id: f9f298c5-bd9c-419d-a7d1-5eee95052518
   slug: helloworld_rb
