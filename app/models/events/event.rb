@@ -1,5 +1,6 @@
 class Events::Event < ApplicationRecord
   include NormalizedStrings
+  include LocalTimes
   include Sluggable
   include Events::SeriesDefaults
   friendly_id :slug_candidates
@@ -43,6 +44,9 @@ class Events::Event < ApplicationRecord
 
   scope :by_start_date, -> { order(:start_date, :start_time) }
   scope :by_end_date, -> { order(:end_date, :end_time) }
+
+  local_time :starts_at, date: :start_date, time: :start_time
+  local_time :ends_at, date: :end_date, time: :end_time
 
   scope :not_cancelled, -> { where(status: nil).or(where.not(status: "cancelled")) }
 

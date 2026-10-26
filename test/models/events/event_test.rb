@@ -156,6 +156,43 @@ class Events::EventTest < ActiveSupport::TestCase
     assert event.valid?, event.errors.full_messages.to_sentence
   end
 
+  test "keeps its times as wall clock times in any time zone" do
+    Time.use_zone("Europe/Berlin") do
+      event = build_event(start_date: Date.new(2026, 1, 15), start_time: "19:00", end_date: Date.new(2026, 1, 15))
+      event.save!
+      event.reload
+
+      assert_equal "2000-01-01 19:00:00", event.read_attribute_before_type_cast(:start_time)
+      assert_equal "19:00", event.start_time.strftime("%H:%M")
+    end
+  end
+
+  test "keeps only the wall clock time of a time from another day" do
+    picked = Time.new(2026, 10, 26, 19, 30, 0, "+01:00")
+    event = build_event(start_date: Date.new(2026, 11, 12), start_time: picked, end_date: Date.new(2026, 11, 12), end_time: "22:00")
+
+    assert_equal Time.utc(2000, 1, 1, 19, 30), event.start_time
+    assert event.valid?, event.errors.full_messages.to_sentence
+  end
+
+  test "starts and ends at its wall clock times in Munich" do
+    winter = build_event(start_date: Date.new(2026, 1, 15), start_time: "19:00", end_date: Date.new(2026, 1, 15), end_time: "22:00")
+    summer = build_event(start_date: Date.new(2026, 7, 15), start_time: "19:00", end_date: Date.new(2026, 7, 16), end_time: "01:00")
+
+    assert_equal Time.utc(2026, 1, 15, 18), winter.starts_at
+    assert_equal Time.utc(2026, 1, 15, 21), winter.ends_at
+    assert_equal Time.utc(2026, 7, 15, 17), summer.starts_at
+    assert_equal Time.utc(2026, 7, 15, 23), summer.ends_at
+    assert_equal "Europe/Berlin", summer.starts_at.time_zone.name
+  end
+
+  test "has no start or end time without a time of day" do
+    event = build_event(start_date: Date.new(2026, 1, 15), end_date: Date.new(2026, 1, 15))
+
+    assert_nil event.starts_at
+    assert_nil event.ends_at
+  end
+
   # Without both times, only the dates can be put in order.
   test "orders a single day by its dates when a time is missing" do
     event = build_event(start_date: Date.new(2026, 9, 24), start_time: "19:00", end_date: Date.new(2026, 9, 24))
