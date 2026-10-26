@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_15_190514) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_26_180440) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -79,7 +79,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_190514) do
     t.string "events_series_id", null: false
     t.string "github"
     t.string "kind"
-    t.boolean "last_edition"
+    t.boolean "last_edition", default: false, null: false
     t.string "luma"
     t.string "mastodon"
     t.string "meetup"
@@ -120,7 +120,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_190514) do
     t.string "default_country_code"
     t.text "description"
     t.string "discord"
-    t.boolean "ended"
+    t.boolean "ended", default: false, null: false
     t.string "facebook"
     t.string "frequency"
     t.string "github"
@@ -234,10 +234,10 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_15_190514) do
   end
 
   create_table "venues_venues", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
-    t.boolean "accessibility_elevators"
+    t.boolean "accessibility_elevators", default: false, null: false
     t.text "accessibility_notes"
-    t.boolean "accessibility_restrooms"
-    t.boolean "accessibility_wheelchair"
+    t.boolean "accessibility_restrooms", default: false, null: false
+    t.boolean "accessibility_wheelchair", default: false, null: false
     t.text "description"
     t.string "entities_organization_id"
     t.text "instructions"
