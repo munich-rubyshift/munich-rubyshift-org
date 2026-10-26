@@ -4,7 +4,6 @@ Locations::City_8fe75465-9580-41ae-ba9f-80914da04b89:
   country_code: DE
   locations_coordinates_id: 8f5b4868-38ec-423b-a8ea-f5ac8010efa7
   name: Munich
-  rubyevents_slug: ''
   slug: munich
   state_code: BY
 Locations::City_eb6865f6-9a30-4e23-a6ad-c3909abeb7eb:
@@ -12,6 +11,5 @@ Locations::City_eb6865f6-9a30-4e23-a6ad-c3909abeb7eb:
   country_code: DE
   locations_coordinates_id: f14ae649-5816-4c4e-8a42-4d43c8e70922
   name: Augsburg
-  rubyevents_slug: ''
   slug: augsburg
   state_code: BY

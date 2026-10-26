@@ -1,6 +1,7 @@
 require "open-uri"
 
 class Entities::Person < ApplicationRecord
+  include NormalizedStrings
   include Sluggable
   include StoredImage
   friendly_id :name
@@ -13,6 +14,9 @@ class Entities::Person < ApplicationRecord
   has_many :speaker_talks, class_name: "Talks::SpeakerTalk", foreign_key: :entities_person_id, inverse_of: :speaker
   has_many :talks, class_name: "Talks::Talk", through: :speaker_talks
   scope :with_talks, -> { where.not(id: where.missing(:talks)) }
+
+  normalized_strings :bluesky_handle, :github_username, :linkedin_username, :mastodon, :meetup_id, :name,
+    :rubyevents_slug, :speakerdeck_username, :twitter_username, :website
 
   # We store handles like rubyevents does, except for Mastodon, where only the
   # full URL names the server.
@@ -53,6 +57,6 @@ class Entities::Person < ApplicationRecord
   end
 
   def to_s
-    name
+    name.to_s
   end
 end

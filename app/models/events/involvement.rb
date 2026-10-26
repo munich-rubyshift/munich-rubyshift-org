@@ -1,12 +1,12 @@
 class Events::Involvement < ApplicationRecord
-  include StringForeignKeys
+  include NormalizedStrings
 
   ENTITY_TYPES = %w[Entities::Person Entities::Organization].freeze
 
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :involvements
   belongs_to :entity, polymorphic: true
 
-  string_fk :events_event_id, :entity_id
+  normalized_strings :events_event_id, :entity_id, :entity_type, :role
 
   # `belongs_to` only validates when the foreign key is nil or changed, so validate explicitly.
   validates :entity, presence: true

@@ -1,5 +1,5 @@
 class Locations::City < ApplicationRecord
-  include StringForeignKeys
+  include NormalizedStrings
   include Sluggable
   include Locations::Geocodable
   friendly_id :name
@@ -8,12 +8,12 @@ class Locations::City < ApplicationRecord
 
   belongs_to :coordinates, class_name: "Locations::Coordinates", foreign_key: :locations_coordinates_id, inverse_of: :city, autosave: true
 
-  string_fk :locations_coordinates_id
+  normalized_strings :locations_coordinates_id, :country_code, :name, :rubyevents_slug, :state_code
 
   has_many :addresses, class_name: "Locations::Address", foreign_key: :locations_city_id, inverse_of: :city
 
   def to_s
-    name
+    name.to_s
   end
 
   private
