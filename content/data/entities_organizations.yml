@@ -1,7 +1,6 @@
 ---
 Entities::Organization_06503e41-194a-4ed1-b440-c301f73e6a6f:
   id: 06503e41-194a-4ed1-b440-c301f73e6a6f
-  internal_notes: ''
   legal_name: Thoughtworks Deutschland GmbH
   name: Thoughtworks
   slug: thoughtworks
@@ -15,7 +14,6 @@ Entities::Organization_0e78b5fd-dfc3-41fa-b6ce-473d7bd8662d:
   website: https://www.riskmethods.net
 Entities::Organization_15e5eebf-a915-40dc-b982-fcce3f1352b4:
   id: 15e5eebf-a915-40dc-b982-fcce3f1352b4
-  internal_notes: ''
   legal_name: Demodesk GmbH
   name: Demodesk
   slug: demodesk
@@ -56,21 +54,18 @@ Entities::Organization_29832b05-4ea1-4fc3-8cb2-a992acc590de:
   website: https://www.jetbrains.com
 Entities::Organization_3d5d1da4-6acb-43d9-b326-58831e238dea:
   id: 3d5d1da4-6acb-43d9-b326-58831e238dea
-  internal_notes: ''
   legal_name: makandra GmbH
   name: makandra
   slug: makandra
   website: https://makandra.de/en
 Entities::Organization_42f4efab-41f2-4d1f-8539-8c94cacf38da:
   id: 42f4efab-41f2-4d1f-8539-8c94cacf38da
-  internal_notes: ''
   legal_name: FORMER 03 GmbH
   name: FORMER 03
   slug: former-03
   website: https://www.former03.de
 Entities::Organization_482c6c95-e2bb-41f5-bdc6-13b0c2c0ce23:
   id: 482c6c95-e2bb-41f5-bdc6-13b0c2c0ce23
-  internal_notes: ''
   legal_name: ATOSS Aloud GmbH
   name: Crewmeister
   slug: crewmeister
@@ -85,7 +80,6 @@ Entities::Organization_5bc2ceda-e94c-49d4-ade5-a97664619255:
   website: http://www.it-agenten.com
 Entities::Organization_5da9b18f-3bf2-48ec-a257-34b02f249538:
   id: 5da9b18f-3bf2-48ec-a257-34b02f249538
-  internal_notes: ''
   legal_name: flobbymedia
   name: flobbymedia
   slug: flobbymedia
@@ -106,7 +100,6 @@ Entities::Organization_65b5f3be-9689-443d-9fa4-b64f41532260:
   website: https://www.gutefrage.net
 Entities::Organization_69afe894-6800-4d58-9134-24c34a03838e:
   id: 69afe894-6800-4d58-9134-24c34a03838e
-  internal_notes: ''
   legal_name: Hubert Burda Media Holding KG
   name: Hubert Burda Media
   slug: hubert-burda-media
@@ -139,28 +132,24 @@ Entities::Organization_942d4f0e-c013-470c-b4e1-312e0d600391:
   website: https://www.zavvy.io
 Entities::Organization_a91b7551-fc1f-4f48-a1e7-d15a6b83c24d:
   id: a91b7551-fc1f-4f48-a1e7-d15a6b83c24d
-  internal_notes: ''
   legal_name: Cospired GmbH
   name: Cospired
   slug: cospired
   website: https://cospired.com
 Entities::Organization_a986ef8b-165f-43c4-b571-3097c2651cca:
   id: a986ef8b-165f-43c4-b571-3097c2651cca
-  internal_notes: ''
   legal_name: Workday GmbH
   name: Workday
   slug: workday
   website: https://www.workday.com
 Entities::Organization_ab0a62a1-c61e-4a8c-a3d9-7f46a5e05c80:
   id: ab0a62a1-c61e-4a8c-a3d9-7f46a5e05c80
-  internal_notes: ''
   legal_name: StyleFruits GmbH
   name: StyleFruits
   slug: stylefruits
   website: http://www.stylefruits.de
 Entities::Organization_b10441a8-73dd-4d7c-ba06-45e366a3b294:
   id: b10441a8-73dd-4d7c-ba06-45e366a3b294
-  internal_notes: ''
   legal_name: Le Wagon GmbH
   name: LeWagon
   slug: lewagon
@@ -190,7 +179,6 @@ Entities::Organization_c24e58ea-48ee-4ccc-92f1-98a0c2cdb4f7:
   website: https://www.dataguard.com
 Entities::Organization_c37e11f1-7b50-4f33-97eb-40afd96323f2:
   id: c37e11f1-7b50-4f33-97eb-40afd96323f2
-  internal_notes: ''
   legal_name: Propertybase GmbH
   name: Propertybase
   slug: propertybase

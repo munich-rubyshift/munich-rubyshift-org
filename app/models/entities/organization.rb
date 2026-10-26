@@ -1,4 +1,5 @@
 class Entities::Organization < ApplicationRecord
+  include NormalizedStrings
   include Sluggable
   include StoredImage
   friendly_id :slug_candidates
@@ -11,6 +12,8 @@ class Entities::Organization < ApplicationRecord
   has_many :venues, class_name: "Venues::Venue", foreign_key: :entities_organization_id, inverse_of: :organization
 
   has_many :hosted_events, -> { not_cancelled }, through: :venues, source: :events
+
+  normalized_strings :internal_notes, :legal_name, :name, :website
 
   scope :meetup_hosts, -> {
     joins(:hosted_events)
@@ -34,6 +37,6 @@ class Entities::Organization < ApplicationRecord
   end
 
   def to_s
-    name
+    name.to_s
   end
 end

@@ -1,5 +1,5 @@
 class Talks::AdditionalResource < ApplicationRecord
-  include StringForeignKeys
+  include NormalizedStrings
 
   KINDS = %w[
     write-up blog article source-code code repo github documentation docs
@@ -9,7 +9,7 @@ class Talks::AdditionalResource < ApplicationRecord
 
   belongs_to :talk, class_name: "Talks::Talk", foreign_key: :talks_talk_id, inverse_of: :additional_resources
 
-  string_fk :talks_talk_id
+  normalized_strings :talks_talk_id, :kind, :name, :title, :url
 
   validates :name, presence: true
   validates :url, presence: true

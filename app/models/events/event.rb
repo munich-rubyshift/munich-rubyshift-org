@@ -1,5 +1,5 @@
 class Events::Event < ApplicationRecord
-  include StringForeignKeys
+  include NormalizedStrings
   include Sluggable
   include Events::SeriesDefaults
   friendly_id :slug_candidates
@@ -12,7 +12,9 @@ class Events::Event < ApplicationRecord
   belongs_to :series, class_name: "Events::Series", foreign_key: :events_series_id, inverse_of: :events
   belongs_to :venue, class_name: "Venues::Venue", foreign_key: :venues_venue_id, inverse_of: :events, optional: true
 
-  string_fk :events_series_id, :venues_venue_id
+  normalized_strings :events_series_id, :venues_venue_id, :attendance_mode, :date_precision, :description,
+    :github, :kind, :luma, :mastodon, :meetup, :rubyevents_slug, :status, :tickets_url, :title,
+    :twitter_username, :website
 
   has_many :participations, class_name: "Events::Participation", foreign_key: :events_event_id, inverse_of: :event
   has_many :participants, through: :participations, source: :person, class_name: "Entities::Person"

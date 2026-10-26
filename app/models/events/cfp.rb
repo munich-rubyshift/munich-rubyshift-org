@@ -1,5 +1,5 @@
 class Events::CFP < ApplicationRecord
-  include StringForeignKeys
+  include NormalizedStrings
   include Sluggable
   friendly_id :slug_candidates
 
@@ -7,7 +7,7 @@ class Events::CFP < ApplicationRecord
 
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :cfps
 
-  string_fk :events_event_id
+  normalized_strings :events_event_id, :external_url, :name
 
   validates :name, presence: true, uniqueness: { scope: :events_event_id, case_sensitive: false }
   validate :closes_after_it_opens
@@ -58,7 +58,7 @@ class Events::CFP < ApplicationRecord
   end
 
   def to_s
-    name
+    name.to_s
   end
 
   private
