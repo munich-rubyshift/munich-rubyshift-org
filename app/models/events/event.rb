@@ -72,6 +72,10 @@ class Events::Event < ApplicationRecord
     !online? && !cancelled?
   end
 
+  def time_zone
+    series&.time_zone
+  end
+
   def build_default_cfp
     return if cancelled?
 

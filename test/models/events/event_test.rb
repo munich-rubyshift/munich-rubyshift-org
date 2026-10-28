@@ -172,7 +172,8 @@ class Events::EventTest < ActiveSupport::TestCase
     end
   end
 
-  test "starts and ends at its wall clock times in Munich" do
+  test "starts and ends at its wall clock times in winter and summer" do
+    @series.time_zone = "Europe/Berlin"
     winter = build_event(start_date: Date.new(2026, 1, 15), start_time: "19:00", end_date: Date.new(2026, 1, 15), end_time: "22:00")
     summer = build_event(start_date: Date.new(2026, 7, 15), start_time: "19:00", end_date: Date.new(2026, 7, 16), end_time: "01:00")
 
@@ -181,6 +182,14 @@ class Events::EventTest < ActiveSupport::TestCase
     assert_equal Time.utc(2026, 7, 15, 17), summer.starts_at
     assert_equal Time.utc(2026, 7, 15, 23), summer.ends_at
     assert_equal "Europe/Berlin", summer.starts_at.time_zone.name
+  end
+
+  test "starts in its series' time zone" do
+    @series.time_zone = "America/New_York"
+    event = build_event(start_date: Date.new(2026, 1, 15), start_time: "19:00", end_date: Date.new(2026, 1, 15))
+
+    assert_equal "America/New_York", event.time_zone
+    assert_equal Time.utc(2026, 1, 16, 0), event.starts_at
   end
 
   test "has no start or end time without a time of day" do

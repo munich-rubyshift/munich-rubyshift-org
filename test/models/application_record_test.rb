@@ -4,7 +4,7 @@ class ApplicationRecordTest < ActiveSupport::TestCase
   test "sorts records by what they read as, blanks last" do
     events_series(:one).update_columns(name: "Rails Munich")
     events_series(:two).update_columns(name: "")
-    munich_ruby = Events::Series.create!(name: "Munich Ruby")
+    munich_ruby = Events::Series.create!(name: "Munich Ruby", time_zone: "Europe/Berlin")
 
     assert_equal [ munich_ruby, events_series(:one), events_series(:two) ], Events::Series.by_to_s.to_a
   end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_28_201446) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_28_201802) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -136,6 +136,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_28_201446) do
     t.string "name"
     t.string "rubyevents_slug"
     t.string "slug"
+    t.string "time_zone", null: false
     t.string "twitter_username"
     t.string "website"
   end
