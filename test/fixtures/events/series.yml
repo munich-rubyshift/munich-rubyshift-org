@@ -10,6 +10,7 @@ one:
   ended: false
   default_country_code: MyString
   language_code: en
+  time_zone: Europe/Berlin
   website: MyString
   twitter_username: MyString
   facebook: MyString
@@ -32,6 +33,7 @@ two:
   ended: false
   default_country_code: MyString
   language_code: en
+  time_zone: Europe/Berlin
   website: MyString
   twitter_username: MyString
   facebook: MyString

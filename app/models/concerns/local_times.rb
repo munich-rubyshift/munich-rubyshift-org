@@ -1,7 +1,6 @@
 module LocalTimes
   extend ActiveSupport::Concern
 
-  TIME_ZONE = ActiveSupport::TimeZone["Europe/Berlin"]
   TIME_OF_DAY = /\A([01]\d|2[0-3]):[0-5]\d\z/
 
   class_methods do
@@ -11,10 +10,10 @@ module LocalTimes
       define_method(name) do
         day = public_send(date)
         clock = public_send(time)
-        return unless day && clock&.match?(TIME_OF_DAY)
+        return unless day && clock&.match?(TIME_OF_DAY) && time_zone
 
         hour, minute = clock.split(":").map(&:to_i)
-        TIME_ZONE.local(day.year, day.month, day.day, hour, minute)
+        ActiveSupport::TimeZone[time_zone].local(day.year, day.month, day.day, hour, minute)
       end
     end
   end

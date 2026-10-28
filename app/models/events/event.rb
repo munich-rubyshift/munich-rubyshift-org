@@ -72,6 +72,11 @@ class Events::Event < ApplicationRecord
     !online? && !cancelled?
   end
 
+  # Events have no time zone column, but one added later takes precedence.
+  def time_zone
+    (super if has_attribute?(:time_zone)).presence || series&.time_zone
+  end
+
   def build_default_cfp
     return if cancelled?
 

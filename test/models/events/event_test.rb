@@ -176,6 +176,14 @@ class Events::EventTest < ActiveSupport::TestCase
     assert_equal "Europe/Berlin", summer.starts_at.time_zone.name
   end
 
+  test "starts in its series' time zone" do
+    @series.time_zone = "America/New_York"
+    event = build_event(start_date: Date.new(2026, 1, 15), start_time: "19:00", end_date: Date.new(2026, 1, 15))
+
+    assert_equal "America/New_York", event.time_zone
+    assert_equal Time.utc(2026, 1, 16, 0), event.starts_at
+  end
+
   test "has no start or end time without a time of day" do
     event = build_event(start_date: Date.new(2026, 1, 15), end_date: Date.new(2026, 1, 15))
 
