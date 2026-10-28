@@ -13,4 +13,5 @@ Events::Series_1659b292-15b3-4b8a-9f61-3f4359c74e3a:
   name: Munich Rubyshift
   rubyevents_slug: munich-rubyshift
   slug: munich-rubyshift
+  time_zone: Europe/Berlin
   website: https://munich-rubyshift.org
