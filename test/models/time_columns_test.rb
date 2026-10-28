@@ -10,6 +10,6 @@ class TimeColumnsTest < ActiveSupport::TestCase
     time_columns = models.flat_map do |model|
       model.columns.select { |column| column.type == :time }.map { |column| "#{model.table_name}.#{column.name}" }
     end
-    assert_empty time_columns, "Store a time of day as an \"HH:MM\" string, see LocalTimes"
+    assert_empty time_columns, "Store a wall clock time as an \"HH:MM\" string, see LocalTimes"
   end
 end

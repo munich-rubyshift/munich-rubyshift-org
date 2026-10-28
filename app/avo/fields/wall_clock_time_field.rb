@@ -1,8 +1,9 @@
 # Avo's time field for a string column holding a wall clock time like "19:00".
-# Generated with `bin/rails generate avo:field time_of_day --field-template time`.
+# Started from `bin/rails generate avo:field wall_clock_time --field-template time`;
+# the edit template is still Avo's.
 module Avo
   module Fields
-    class TimeOfDayField < DateTimeField
+    class WallClockTimeField < DateTimeField
       attr_reader :format
       attr_reader :picker_format
 

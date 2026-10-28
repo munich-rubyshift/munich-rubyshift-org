@@ -1,0 +1,58 @@
+# frozen_string_literal: true
+
+class Avo::Fields::WallClockTimeField::EditComponent < Avo::Fields::EditComponent
+  erb_template <<~'ERB'
+    <%= field_wrapper(**field_wrapper_args) do %>
+      <%= content_tag :div, class: "flex relative", data: {
+          controller: "date-field",
+          date_field_view_value: @view,
+          date_field_enable_time_value: true,
+          date_field_picker_format_value: @field.picker_format,
+          date_field_disable_mobile_value: @field.disable_mobile,
+          date_field_time24_hr_value: @field.time_24hr,
+          date_field_no_calendar_value: true,
+          date_field_timezone_value: @field.timezone,
+          date_field_relative_value: @field.relative,
+          date_field_field_type_value: "time",
+          date_field_picker_options_value: @field.picker_options,
+      } do %>
+        <%= @form.text_field @field.id,
+          value: @field.edit_formatted_value,
+          class: classes("w-full #{"hidden" unless params[:avo_show_hidden_inputs]}"),
+          data: {
+            date_field_target: :input,
+            placeholder: @field.placeholder,
+            **@field.get_html(:data, view: view, element: :input)
+          },
+          disabled: disabled?,
+          placeholder: @field.placeholder,
+          style: @field.get_html(:style, view: view, element: :input)
+        %>
+        <%= datetime_field "fake_#{@field.id}", "fake",
+          value: @field.edit_formatted_value,
+          class: classes("w-full"),
+          data: {
+            date_field_target: :fakeInput,
+            placeholder: @field.placeholder,
+            **@field.get_html(:data, view: view, element: :input)
+          },
+          disabled: disabled?,
+          placeholder: @field.placeholder,
+          style: @field.get_html(:style, view: view, element: :input)
+        %>
+        <%= content_tag :button,
+          class: "absolute right-0 self-center mr-4 uppercase font-semibold text-xs disabled:cursor-not-allowed disabled:opacity-50",
+          id: :reset,
+          type: :button,
+          title: t("avo.reset").capitalize,
+          disabled: disabled?,
+          data: {
+            action: "click->date-field#clear",
+            tippy: :tooltip
+          } do %>
+          <%= helpers.svg "avo/times", class: "h-4" %>
+        <% end %>
+      <% end %>
+    <% end %>
+  ERB
+end
