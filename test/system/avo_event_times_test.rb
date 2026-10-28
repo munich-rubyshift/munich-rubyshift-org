@@ -13,21 +13,22 @@ class AvoEventTimesTest < ApplicationSystemTestCase
   test "an event page shows its times as they are stored" do
     visit "/avo/resources/events_events/form-event"
 
-    assert_selector "[data-field-id='start_time'] [data-controller='date-field']", text: "19:00:00"
-    assert_selector "[data-field-id='end_time'] [data-controller='date-field']", text: "22:00:00"
+    assert_selector "[data-field-id='start_time']", text: "19:00"
+    assert_selector "[data-field-id='end_time']", text: "22:00"
+    assert_no_text "19:00:00"
   end
 
   test "an event form stores its times as they are picked" do
     visit "/avo/resources/events_events/form-event/edit"
-    assert_equal "19:00:00", picker(:start_time).value
+    assert_equal "19:00", picker(:start_time).value
 
     execute_script("document.querySelector(\"input[name='fake_start_time[fake]']\")._flatpickr.setDate('2026-11-12 19:30:00', true)")
     click_on "Save"
 
-    assert_selector "[data-field-id='start_time'] [data-controller='date-field']", text: "19:30:00"
+    assert_selector "[data-field-id='start_time']", text: "19:30"
     @event.reload
-    assert_equal "19:30", @event.start_time.strftime("%H:%M")
-    assert_equal "22:00", @event.end_time.strftime("%H:%M")
+    assert_equal "19:30", @event.start_time
+    assert_equal "22:00", @event.end_time
   end
 
   private

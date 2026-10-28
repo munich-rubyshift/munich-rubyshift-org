@@ -156,23 +156,13 @@ class Events::EventTest < ActiveSupport::TestCase
     assert event.valid?, event.errors.full_messages.to_sentence
   end
 
-  test "keeps its times as wall clock times in any time zone" do
-    Time.use_zone("Europe/Berlin") do
-      event = build_event(start_date: Date.new(2026, 1, 15), start_time: "19:00", end_date: Date.new(2026, 1, 15))
-      event.save!
-      event.reload
+  test "refuses a time that isn't hours and minutes" do
+    [ "7:00", "19:00:00", "24:00", "19.00" ].each do |time|
+      event = build_event(start_date: Date.new(2026, 1, 15), start_time: time, end_date: Date.new(2026, 1, 15))
 
-      assert_equal "2000-01-01 19:00:00", event.read_attribute_before_type_cast(:start_time)
-      assert_equal "19:00", event.start_time.strftime("%H:%M")
+      assert_not event.valid?, time
+      assert_includes event.errors[:start_time], "must be a time like 19:00"
     end
-  end
-
-  test "keeps only the wall clock time of a time from another day" do
-    picked = Time.new(2026, 10, 26, 19, 30, 0, "+01:00")
-    event = build_event(start_date: Date.new(2026, 11, 12), start_time: picked, end_date: Date.new(2026, 11, 12), end_time: "22:00")
-
-    assert_equal Time.utc(2000, 1, 1, 19, 30), event.start_time
-    assert event.valid?, event.errors.full_messages.to_sentence
   end
 
   test "starts and ends at its wall clock times in Munich" do

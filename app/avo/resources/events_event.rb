@@ -17,15 +17,14 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
 
     field :kind, as: :select, sortable: true, options: ::Events::Event::KINDS.index_by(&:humanize), include_blank: true, default: "meetup"
 
-    # Wall clock times in Munich: don't convert them to the browser's time zone.
     grouped "When?" do
       row do
         field :start_date, as: :date, **sortable(:by_start_date)
-        field :start_time, as: :time, relative: false
+        field :start_time, as: :time_of_day
       end
       row do
         field :end_date, as: :date, **sortable(:by_end_date), help: "Leave blank to end on the start date."
-        field :end_time, as: :time, relative: false
+        field :end_time, as: :time_of_day
       end
       field :date_precision, as: :select, sortable: true, options: ::Events::Event::DATE_PRECISIONS.index_by(&:humanize), include_blank: true, default: "day"
       field :status, as: :select, sortable: true, options: ::Events::Event::STATUSES.index_by(&:humanize), include_blank: true, default: "scheduled"

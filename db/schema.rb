@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_26_180440) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_28_201446) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -75,7 +75,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_26_180440) do
     t.string "date_precision"
     t.text "description"
     t.date "end_date"
-    t.time "end_time"
+    t.string "end_time"
     t.string "events_series_id", null: false
     t.string "github"
     t.string "kind"
@@ -87,7 +87,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_26_180440) do
     t.string "rubyevents_slug"
     t.string "slug"
     t.date "start_date"
-    t.time "start_time"
+    t.string "start_time"
     t.string "status"
     t.string "tickets_url"
     t.string "title"
@@ -96,6 +96,8 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_26_180440) do
     t.string "website"
     t.index ["events_series_id"], name: "index_events_events_on_events_series_id"
     t.index ["venues_venue_id"], name: "index_events_events_on_venues_venue_id"
+    t.check_constraint "end_time GLOB '[01][0-9]:[0-5][0-9]' OR end_time GLOB '2[0-3]:[0-5][0-9]'", name: "end_time_format"
+    t.check_constraint "start_time GLOB '[01][0-9]:[0-5][0-9]' OR start_time GLOB '2[0-3]:[0-5][0-9]'", name: "start_time_format"
   end
 
   create_table "events_involvements", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|

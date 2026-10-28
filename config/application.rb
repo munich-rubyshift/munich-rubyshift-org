@@ -33,8 +33,6 @@ module MunichRubyshiftOrg
     config.action_dispatch.rescue_responses["Decant::FileNotFound"] = :not_found
 
     # frozen:db
-    # Event times are wall clock times in Munich, not instants.
-    config.active_record.time_zone_aware_types = [ :datetime ]
     config.generators do |g|
       g.orm :active_record, primary_key_type: :string, timestamps: false
       g.jbuilder timestamps: false
