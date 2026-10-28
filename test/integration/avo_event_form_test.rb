@@ -19,6 +19,16 @@ class AvoEventFormTest < ActionDispatch::IntegrationTest
     assert_equal Date.new(2026, 10, 3), event.reload.end_date
   end
 
+  test "a picked time is stored without seconds" do
+    event = events_events(:one)
+
+    update event, start_date: "2026-10-01", start_time: "19:30:00", end_date: "", end_time: "22:00"
+
+    event.reload
+    assert_equal "19:30", event.start_time
+    assert_equal "22:00", event.end_time
+  end
+
   test "an undated event stays without an end date" do
     event = events_events(:one)
 

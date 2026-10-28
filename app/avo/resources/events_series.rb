@@ -18,6 +18,7 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
     field :ended, as: :boolean, sortable: true
     field :default_country_code, as: :text, sortable: true
     field :language_code, as: :select, name: "Language", sortable: true, options: ::Language::NAMES.invert, include_blank: true
+    field :time_zone, as: :select, sortable: true, options: ::Events::Series::TIME_ZONES.index_by(&:itself), include_blank: true
     field :website, as: :text, sortable: true
     field :twitter_username, as: :text, sortable: true
     field :facebook, as: :text, sortable: true

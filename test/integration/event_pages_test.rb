@@ -54,4 +54,13 @@ class EventPagesTest < ActionDispatch::IntegrationTest
 
     assert_select "a[href='/cfps/meetup-2026-11-12-call-for-proposals']", text: "CFP upcoming"
   end
+
+  test "an event page shows its times as they are" do
+    @event.update_columns(start_time: "19:00", end_time: "22:00")
+
+    get "/events/meetup-2026-11-12"
+
+    assert_select "p", text: /\AStart time:\s+19:00\z/
+    assert_select "p", text: /\AEnd time:\s+22:00\z/
+  end
 end

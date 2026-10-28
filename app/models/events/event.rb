@@ -1,5 +1,6 @@
 class Events::Event < ApplicationRecord
   include NormalizedStrings
+  include LocalTimes
   include Sluggable
   include Events::SeriesDefaults
   friendly_id :slug_candidates
@@ -13,8 +14,8 @@ class Events::Event < ApplicationRecord
   belongs_to :venue, class_name: "Venues::Venue", foreign_key: :venues_venue_id, inverse_of: :events, optional: true
 
   normalized_strings :events_series_id, :venues_venue_id, :attendance_mode, :date_precision, :description,
-    :github, :kind, :luma, :mastodon, :meetup, :rubyevents_slug, :status, :tickets_url, :title,
-    :twitter_username, :website
+    :end_time, :github, :kind, :luma, :mastodon, :meetup, :rubyevents_slug, :start_time, :status,
+    :tickets_url, :title, :twitter_username, :website
 
   has_many :participations, class_name: "Events::Participation", foreign_key: :events_event_id, inverse_of: :event
   has_many :participants, through: :participations, source: :person, class_name: "Entities::Person"
@@ -44,6 +45,9 @@ class Events::Event < ApplicationRecord
   scope :by_start_date, -> { order(:start_date, :start_time) }
   scope :by_end_date, -> { order(:end_date, :end_time) }
 
+  local_time :starts_at, date: :start_date, time: :start_time
+  local_time :ends_at, date: :end_date, time: :end_time
+
   scope :not_cancelled, -> { where(status: nil).or(where.not(status: "cancelled")) }
 
   def slug_candidates
@@ -66,6 +70,11 @@ class Events::Event < ApplicationRecord
   # Only an event people can actually show up to needs a venue.
   def venue_required?
     !online? && !cancelled?
+  end
+
+  # Events have no time zone column, but one added later takes precedence.
+  def time_zone
+    (super if has_attribute?(:time_zone)).presence || series&.time_zone
   end
 
   def build_default_cfp

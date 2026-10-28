@@ -12,9 +12,9 @@ one:
   status: MyString
   last_edition: false
   start_date: 2026-04-23
-  start_time: "19:00:00"
+  start_time: "19:00"
   end_date: 2026-04-23
-  end_time: "22:00:00"
+  end_time: "22:00"
   published_at: 2026-04-23 20:55:51
   announced_on: 2026-04-23
   date_precision: MyString
@@ -38,9 +38,9 @@ two:
   status: MyString
   last_edition: false
   start_date: 2026-04-23
-  start_time: "19:00:00"
+  start_time: "19:00"
   end_date: 2026-04-23
-  end_time: "22:00:00"
+  end_time: "22:00"
   published_at: 2026-04-23 20:55:51
   announced_on: 2026-04-23
   date_precision: MyString
