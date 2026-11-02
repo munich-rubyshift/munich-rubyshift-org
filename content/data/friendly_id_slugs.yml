@@ -944,11 +944,6 @@ FriendlyId::Slug_53655bb1-0c13-4db5-8355-acafb8bc8706:
   slug: halunke-or-how-and-why-i-built-a-programming-language
   sluggable_id: '09d9e20d-53de-4ec9-9418-34c99dd03cf9'
   sluggable_type: Talks::Talk
-FriendlyId::Slug_552eede6-83b6-4698-816d-285207d9a3ae:
-  id: 552eede6-83b6-4698-816d-285207d9a3ae
-  slug: meetup-2013-02-16
-  sluggable_id: a7335843-e74b-4b3e-8cba-bebd4e9e13cc
-  sluggable_type: Events::Event
 FriendlyId::Slug_553e4f1a-ffe0-4e2a-bae9-866fbdd3ef13:
   id: 553e4f1a-ffe0-4e2a-bae9-866fbdd3ef13
   slug: munich-rubyshift
@@ -1884,6 +1879,11 @@ FriendlyId::Slug_a9d04fb0-02af-4593-bc92-7788914cc3aa:
   slug: the-shortest-way-to-rewrite-something-like-ruby-in-c
   sluggable_id: 9a453fb0-67f6-423c-a5b5-c6e4ed346d37
   sluggable_type: Talks::Talk
+FriendlyId::Slug_aa1795a5-5631-433e-b2fe-ac0aefca1d56:
+  id: aa1795a5-5631-433e-b2fe-ac0aefca1d56
+  slug: meetup-2013-02-13
+  sluggable_id: a7335843-e74b-4b3e-8cba-bebd4e9e13cc
+  sluggable_type: Events::Event
 FriendlyId::Slug_ab556a9d-d8ef-4e91-be63-fa4e5571575c:
   id: ab556a9d-d8ef-4e91-be63-fa4e5571575c
   slug: lucas-dohmen
@@ -2138,6 +2138,11 @@ FriendlyId::Slug_c2c0931e-3dda-4eae-9099-c79d06f62a8c:
   id: c2c0931e-3dda-4eae-9099-c79d06f62a8c
   slug: meetup-2017-03-08
   sluggable_id: '01839f7a-6117-4811-97fa-bb15c798556d'
+  sluggable_type: Events::Event
+FriendlyId::Slug_c2cda556-dde2-4ab4-ba90-ca3da9a422e8:
+  id: c2cda556-dde2-4ab4-ba90-ca3da9a422e8
+  slug: meetup-2026-07-13
+  sluggable_id: 1fc2717e-5398-4859-b6fd-a610b53fa72d
   sluggable_type: Events::Event
 FriendlyId::Slug_c342f604-47bb-401f-a07f-c2f6ff0c6cd0:
   id: c342f604-47bb-401f-a07f-c2f6ff0c6cd0

@@ -274,6 +274,20 @@ Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/183070712/
   title: Ruby User Group Meetup
   venues_venue_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
+Events::Event_1fc2717e-5398-4859-b6fd-a610b53fa72d:
+  id: 1fc2717e-5398-4859-b6fd-a610b53fa72d
+  attendance_mode: in_person
+  date_precision: day
+  end_date: '2026-07-13'
+  end_time: '21:30'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  kind: meetup
+  last_edition: 0
+  slug: meetup-2026-07-13
+  start_date: '2026-07-13'
+  start_time: '18:30'
+  status: cancelled
+  title: Ruby Meetup July 2026
 Events::Event_24295c0d-0811-42c4-a837-68311abd1a63:
   id: 24295c0d-0811-42c4-a837-68311abd1a63
   attendance_mode: in_person
@@ -653,7 +667,7 @@ Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
   start_date: '2026-09-24'
   start_time: '18:30'
   status: scheduled
-  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/315466557/?eventOrigin=group_events_list
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/315466557/
   title: Ruby Meetup September 2026
   venues_venue_id: 3236f853-c433-46ee-a6e4-070b99a632fb
 Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
@@ -838,7 +852,7 @@ Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
   start_date: '2014-06-11'
   start_time: '19:00'
   status: scheduled
-  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/182433562/?eventOrigin=group_events_list
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/182433562/
   title: Ruby User Group Meetup
   venues_venue_id: f6bb5d43-abdf-464f-ab91-b68855b122c2
 Events::Event_59158906-28a1-4838-944a-529ba1fb889c:
@@ -1228,7 +1242,7 @@ Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
     Lightning Talks\r\n\r\nWe will have a slot for spontaneous Lightning Talks. This
     is your chance to shine. 5 Minutes of fame and glory. Slides are optional."
   end_date: '2018-09-12'
-  end_time: '22:00'
+  end_time: '21:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   kind: meetup
   last_edition: 0
@@ -1620,17 +1634,17 @@ Events::Event_a7335843-e74b-4b3e-8cba-bebd4e9e13cc:
   id: a7335843-e74b-4b3e-8cba-bebd4e9e13cc
   attendance_mode: in_person
   date_precision: day
-  end_date: '2013-02-16'
+  end_date: '2013-02-13'
   end_time: '22:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   kind: meetup
   last_edition: 0
-  slug: meetup-2013-02-16
-  start_date: '2013-02-16'
+  slug: meetup-2013-02-13
+  start_date: '2013-02-13'
   start_time: '19:00'
   status: scheduled
   title: Ruby Meetup February 2013
-  venues_venue_id: 8578552d-0404-465a-bf8a-32a7d8120b21
+  venues_venue_id: 875db3ec-232f-4ca5-99bf-7373a25d0681
 Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
   id: aa0190f0-4e61-4234-a914-fe39d0c25a76
   attendance_mode: in_person
@@ -1717,7 +1731,7 @@ Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
     Devil is in Details\r\n\r\nxbAV is just starting to use Kafka. We'd like to share
     some of the pitfalls we've run into so far, so you can avoid them."
   end_date: '2018-10-10'
-  end_time: '22:00'
+  end_time: '21:00'
   events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
   kind: meetup
   last_edition: 0
