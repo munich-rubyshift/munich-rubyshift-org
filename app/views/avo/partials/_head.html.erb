@@ -31,3 +31,13 @@
     align-self: flex-start;
   }
 </style>
+<script>
+  // Avo turns seconds on after applying picker_options, so change them before its pickers start.
+  Object.defineProperty(window, "flatpickr", {
+    configurable: true,
+    set(flatpickr) {
+      Object.defineProperty(window, "flatpickr", { value: flatpickr, writable: true, configurable: true })
+      flatpickr.defaultConfig.plugins = [ (picker) => { if (picker.config.noCalendar) picker.config.enableSeconds = false } ]
+    }
+  })
+</script>
