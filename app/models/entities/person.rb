@@ -15,6 +15,10 @@ class Entities::Person < ApplicationRecord
   has_many :speaker_talks, class_name: "Talks::SpeakerTalk", foreign_key: :entities_person_id, inverse_of: :speaker
   has_many :talks, class_name: "Talks::Talk", through: :speaker_talks
   scope :with_talks, -> { where.not(id: where.missing(:talks)) }
+  scope :with_involvements, -> { where(id: Events::Involvement.where(entity_type: polymorphic_name).select(:entity_id)) }
+
+  # Speakers and everyone with a role at an event, but not those who only attended.
+  scope :contributors, -> { with_talks.or(with_involvements) }
 
   normalized_strings :bluesky_handle, :github_username, :linkedin_username, :mastodon, :meetup_id, :name,
     :speakerdeck_username, :twitter_username, :website
