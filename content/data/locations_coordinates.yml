@@ -1,8 +1,4 @@
 ---
-Locations::Coordinates_05c95a3b-8a03-48ec-aae8-38ac35392a02:
-  id: 05c95a3b-8a03-48ec-aae8-38ac35392a02
-  latitude: 48.118196
-  longitude: 11.602731
 Locations::Coordinates_0dd3520c-4df2-4a85-801f-29a734625357:
   id: 0dd3520c-4df2-4a85-801f-29a734625357
   latitude: 48.133376
@@ -43,6 +39,10 @@ Locations::Coordinates_3850e9dc-8a71-426c-be3b-0bac2a1e6f48:
   id: 3850e9dc-8a71-426c-be3b-0bac2a1e6f48
   latitude: 48.150288
   longitude: 11.622526
+Locations::Coordinates_40ac01e7-c15f-44fd-a42c-0c836562036e:
+  id: 40ac01e7-c15f-44fd-a42c-0c836562036e
+  latitude: 48.119247
+  longitude: 11.601759
 Locations::Coordinates_44145238-4db3-4f9b-bdae-a68a1caa10e4:
   id: 44145238-4db3-4f9b-bdae-a68a1caa10e4
   latitude: 48.129604

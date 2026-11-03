@@ -41,6 +41,7 @@ Venues::Venue_12f15b05-65ee-431d-b691-51486c2be216:
   accessibility_elevators: 0
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
+  description: "@Mindspace"
   entities_organization_id: 942d4f0e-c013-470c-b4e1-312e0d600391
   locations_address_id: 6bf8f3b2-7dcf-419b-88fd-15789f0a21a4
   name: Zavvy Office
@@ -78,6 +79,7 @@ Venues::Venue_23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   entities_organization_id: c24e58ea-48ee-4ccc-92f1-98a0c2cdb4f7
+  instructions: 5th Floor
   locations_address_id: 3f35d020-4ee5-49af-8307-1ed67c77eadc
   name: DataGuard Office
   slug: dataguard-office
@@ -148,7 +150,7 @@ Venues::Venue_4ae281e3-418c-4037-8eb3-de3c9b01e747:
   accessibility_elevators: 0
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
-  description: https://www.facebook.com/coworkingmunich.de
+  description: "<https://www.facebook.com/coworkingmunich.de>"
   locations_address_id: e0ae990d-b61a-4bc9-8f25-c920fb2e8d2b
   name: coworkingmunich
   slug: coworkingmunich
@@ -221,6 +223,16 @@ Venues::Venue_63b14137-3cdb-4f1a-88bc-860c5e4f2223:
   accessibility_restrooms: 0
   accessibility_wheelchair: 0
   entities_organization_id: b10441a8-73dd-4d7c-ba06-45e366a3b294
+  instructions: |-
+    As the neue Balan campus is quite extensive, here some tips to make sure everyone gets here without issues:
+
+    The easiest way to locate us is to pop the location in Google Maps, the pin is very accurate.
+
+    The location is in the 4th floor.
+
+    When coming by U-Bahn (Karl Preis Platz) take the entrance onto the campus from Claudius Keller Straße. After 150 meters, you will find Haus 21A on your left hand side.
+
+    For those arriving by car, there is a large parking garage located on campus, by the northern entrance (St. Martin Straße 112).
   locations_address_id: f7fe8226-b68a-4ec5-b626-1bcf94ce185a
   name: Le Wagon Munich Coding Bootcamp
   slug: le-wagon-munich-coding-bootcamp

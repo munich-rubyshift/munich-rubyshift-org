@@ -18,6 +18,7 @@ Entities::Person_1316adf3-23e0-4c54-9ec0-3583184b241b:
   slug: bruno-brunckhorst
 Entities::Person_13af5a99-46b3-4c3d-9b2a-06c0f0e41f8e:
   id: 13af5a99-46b3-4c3d-9b2a-06c0f0e41f8e
+  meetup_id: '66445692'
   name: Mario Fernandez
   slug: mario-fernandez
 Entities::Person_18ae851a-ab48-493c-8812-a366f8c27e39:
@@ -68,6 +69,7 @@ Entities::Person_27eb9859-7d38-4d38-b380-8b99f9dbf333:
 Entities::Person_2c336893-8a87-4d3f-9736-6d38ccd8b701:
   id: 2c336893-8a87-4d3f-9736-6d38ccd8b701
   github_username: robkuz
+  meetup_id: '76890822'
   name: Robert Kuzelj
   slug: robert-kuzelj
 Entities::Person_2e5e388d-9beb-485b-b57d-4eb8eef8aa0a:
@@ -77,6 +79,7 @@ Entities::Person_2e5e388d-9beb-485b-b57d-4eb8eef8aa0a:
   twitter_username: mpapis
 Entities::Person_30572660-7e77-40b3-9e4b-eeedd6cbb06d:
   id: 30572660-7e77-40b3-9e4b-eeedd6cbb06d
+  meetup_id: '39412472'
   name: Dino Reic
   slug: dino-reic
 Entities::Person_31de91f1-fe56-4a48-8df6-57ad93264866:
@@ -91,10 +94,6 @@ Entities::Person_4188344d-77f5-48c7-9638-aa8eb7c92955:
   id: 4188344d-77f5-48c7-9638-aa8eb7c92955
   name: Kivanc Semen
   slug: kivanc-semen
-Entities::Person_4280b601-a4d0-4cd8-aa9b-bb1163bf476d:
-  id: 4280b601-a4d0-4cd8-aa9b-bb1163bf476d
-  name: Chicu
-  slug: chicu
 Entities::Person_4450a880-1fa0-4128-920c-84c1772e0f26:
   id: 4450a880-1fa0-4128-920c-84c1772e0f26
   name: Daniel Sudmann
@@ -125,6 +124,8 @@ Entities::Person_5294df43-962c-4489-8168-66e1c15da7aa:
 Entities::Person_536bc1f5-5f7f-4f1b-b6b6-e5e101b65906:
   id: 536bc1f5-5f7f-4f1b-b6b6-e5e101b65906
   github_username: dunkelziffer
+  linkedin_username: klaus-weidinger-a37a27332
+  meetup_id: '313917031'
   name: Klaus Weidinger
   slug: klaus-weidinger
   website: https://www.klausweidinger.de/
@@ -191,6 +192,10 @@ Entities::Person_76ed0ade-7f44-4ff2-9bd4-36593a6fc1ad:
   id: 76ed0ade-7f44-4ff2-9bd4-36593a6fc1ad
   name: Niko Noll
   slug: niko-noll
+Entities::Person_7d23dfc5-6978-46fe-813e-a351207170f8:
+  id: 7d23dfc5-6978-46fe-813e-a351207170f8
+  name: Tom
+  slug: tom
 Entities::Person_7f138414-a42e-40d2-9f6d-2a68ad233137:
   id: 7f138414-a42e-40d2-9f6d-2a68ad233137
   name: Clemens Kofler
@@ -198,6 +203,7 @@ Entities::Person_7f138414-a42e-40d2-9f6d-2a68ad233137:
 Entities::Person_804a798a-d2a1-457e-aaaf-55c28a4e1386:
   id: 804a798a-d2a1-457e-aaaf-55c28a4e1386
   github_username: ifesdjeen
+  meetup_id: '43533372'
   name: Alex Petrov
   slug: alex-petrov
   speakerdeck_username: ifesdjeen
@@ -212,12 +218,14 @@ Entities::Person_8241b1a4-0a2a-4486-b374-a816473c2069:
   twitter_username: jannishuebl
 Entities::Person_828da3f2-7af1-46ac-a730-3822206bb842:
   id: 828da3f2-7af1-46ac-a730-3822206bb842
+  meetup_id: '31318442'
   name: Sebastian Schulze
   slug: sebastian-schulze
 Entities::Person_856b0d94-1647-4223-9984-1452a870f8fd:
   id: 856b0d94-1647-4223-9984-1452a870f8fd
   github_username: triskweline
   linkedin_username: triskweline
+  meetup_id: '164361092'
   name: Henning Koch
   slug: henning-koch
   twitter_username: triskweline
@@ -228,6 +236,7 @@ Entities::Person_888b633e-738e-4c98-8784-8666220222e2:
   slug: kim-klotz
 Entities::Person_8af27851-1990-48bb-b952-292d0d0d7800:
   id: 8af27851-1990-48bb-b952-292d0d0d7800
+  meetup_id: '185560512'
   name: Sadiksha Gautam
   slug: sadiksha-gautam
 Entities::Person_8c2fd5f0-3374-456d-ae41-2e536ad89a53:
@@ -243,10 +252,13 @@ Entities::Person_8f851f08-93fb-4b17-b9e7-3dcc6e55ef57:
   slug: bruno-sedler
 Entities::Person_925cdc5d-b8ac-401f-8f53-27229d64ff95:
   id: 925cdc5d-b8ac-401f-8f53-27229d64ff95
+  meetup_id: '121525572'
   name: Monica Giambitto
   slug: monica-giambitto
 Entities::Person_92834ea5-e9a2-4485-ae6c-5a1c420ff3b5:
   id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
+  github_username: aronwolf90
+  meetup_id: '264213499'
   name: Aron Wolf
   slug: aron-wolf
 Entities::Person_92f34ef8-5314-4f5c-be5f-a514bd6e40c9:
@@ -268,10 +280,12 @@ Entities::Person_9b8809be-21de-41d7-ac03-852128098118:
 Entities::Person_9deb364b-ca71-43c8-8013-60ea1833f681:
   id: 9deb364b-ca71-43c8-8013-60ea1833f681
   github_username: pschrammel
+  meetup_id: '98486932'
   name: Peter Schrammel
   slug: peter-schrammel
 Entities::Person_a15393e4-dead-4f7c-825d-c72a2a0b5aa3:
   id: a15393e4-dead-4f7c-825d-c72a2a0b5aa3
+  meetup_id: '100664'
   name: Phillip Oertel
   slug: phillip-oertel
 Entities::Person_a6f26b39-39e1-4c79-a541-8d51587ee28a:
@@ -332,6 +346,7 @@ Entities::Person_c0d17bab-0ca1-4050-a33f-6764b204ec8f:
   slug: raounak-sharma
 Entities::Person_c1975494-2829-4b65-a834-2a569b857b8f:
   id: c1975494-2829-4b65-a834-2a569b857b8f
+  meetup_id: '84316572'
   name: Bibek Shrestha
   slug: bibek-shrestha
 Entities::Person_c20a75d4-5c6c-438a-bc47-09e83b3dcb15:
@@ -340,6 +355,7 @@ Entities::Person_c20a75d4-5c6c-438a-bc47-09e83b3dcb15:
   slug: ben-bachhuber
 Entities::Person_c22f0dcf-8e82-473a-bd08-71bc9b597927:
   id: c22f0dcf-8e82-473a-bd08-71bc9b597927
+  meetup_id: '111527782'
   name: Jakub Nieznalski
   slug: jakub-nieznalski
 Entities::Person_c2c22851-ce44-40ff-bbab-9ad111350d68:
@@ -441,6 +457,7 @@ Entities::Person_f12d9a66-614c-4250-acad-b563017d36b8:
   slug: omar-qunsul
 Entities::Person_f14a4ac3-c4b3-41a2-9b16-6f7c8cd7e068:
   id: f14a4ac3-c4b3-41a2-9b16-6f7c8cd7e068
+  meetup_id: '14411411'
   name: Shota Bakuradze
   slug: shota-bakuradze
 Entities::Person_f59c99b1-8bb8-44cb-8ae3-a55b17438e72:

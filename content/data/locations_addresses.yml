@@ -289,7 +289,7 @@ Locations::Address_f275e06f-ce99-4ceb-a4c4-82fc52897219:
 Locations::Address_f7fe8226-b68a-4ec5-b626-1bcf94ce185a:
   id: f7fe8226-b68a-4ec5-b626-1bcf94ce185a
   locations_city_id: 8fe75465-9580-41ae-ba9f-80914da04b89
-  locations_coordinates_id: 05c95a3b-8a03-48ec-aae8-38ac35392a02
-  slug: balanstrasse-73
-  street: Balanstraße 73
+  locations_coordinates_id: 40ac01e7-c15f-44fd-a42c-0c836562036e
+  slug: balanstrasse-73-haus-21a
+  street: Balanstraße 73, Haus 21A
   zip_code: '81541'
