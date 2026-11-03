@@ -16,10 +16,8 @@ class StoredImageComponent < ApplicationComponent
   end
 
   def call
-    if @attachment.service.exist?(@attachment.key)
+    if StorageCheckout.file_present?(@attachment)
       helpers.image_tag(@attachment, alt: "", height: @height, class: "stored-image")
-    elsif StorageCheckout.checked_out?
-      raise StorageCheckout::FileMissing, StorageCheckout.file_missing_message(@attachment.filename)
     else
       tag.span(class: "stored-image -placeholder", title: StorageCheckout.not_checked_out_message,
         style: "width: #{@height}px; height: #{@height}px")
