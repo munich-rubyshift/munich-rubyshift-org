@@ -829,11 +829,6 @@ FriendlyId::Slug_46d10e05-850a-4453-b63c-a29434159c14:
   slug: blutenburgstrasse-43
   sluggable_id: 7742024b-8219-4ae6-8917-5a9690f313dc
   sluggable_type: Locations::Address
-FriendlyId::Slug_46eccc79-f009-4bf5-acfe-6d39361b79c1:
-  id: 46eccc79-f009-4bf5-acfe-6d39361b79c1
-  slug: chicu
-  sluggable_id: 4280b601-a4d0-4cd8-aa9b-bb1163bf476d
-  sluggable_type: Entities::Person
 FriendlyId::Slug_47257620-55b7-4b2f-b29e-1ea2c60a67df:
   id: 47257620-55b7-4b2f-b29e-1ea2c60a67df
   slug: a-user-manual-to-working-better-with-a-tester
@@ -1344,11 +1339,6 @@ FriendlyId::Slug_77a95ada-737b-4135-af7f-e204e0280c16:
   slug: database-decomposition-at-gitlab-com
   sluggable_id: bcb9145f-07d6-44e0-a5fa-56a9be3efe3a
   sluggable_type: Talks::Talk
-FriendlyId::Slug_789544f9-c1e5-4f5d-a4a6-c3e32fbce3cb:
-  id: 789544f9-c1e5-4f5d-a4a6-c3e32fbce3cb
-  slug: rubocop-as-a-reformatter
-  sluggable_id: 6a40e2c4-9713-44c6-aba6-d1017af0970b
-  sluggable_type: Talks::Talk
 FriendlyId::Slug_789dd2c6-c2d1-45d2-8735-0141609aa5d2:
   id: 789dd2c6-c2d1-45d2-8735-0141609aa5d2
   slug: it-agenten-office
@@ -1449,6 +1439,11 @@ FriendlyId::Slug_7f87df4a-a6e4-4c2d-9f21-d4b3c12bc280:
   slug: meetup-2017-04-12
   sluggable_id: 5ec4c4c6-643b-40e8-b01f-f5396c2323dd
   sluggable_type: Events::Event
+FriendlyId::Slug_80481df5-c60f-4fcb-8923-4f21afbe8563:
+  id: 80481df5-c60f-4fcb-8923-4f21afbe8563
+  slug: gems-are-overrated
+  sluggable_id: 2e0e8a82-1b67-4fc4-9e2a-7379f96661cf
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_808aa15f-92b2-42fe-bab9-c84a08f122df:
   id: 808aa15f-92b2-42fe-bab9-c84a08f122df
   slug: stylefruits-office
@@ -1614,6 +1609,11 @@ FriendlyId::Slug_8f6121bd-e809-46a5-b80a-96e2707bb7b4:
   slug: after-10-years-of-ruby
   sluggable_id: e68c33a1-8149-4c62-829f-e7427cdf21f5
   sluggable_type: Talks::Talk
+FriendlyId::Slug_8fe131e5-ab05-41fc-aced-130e4a06be01:
+  id: 8fe131e5-ab05-41fc-aced-130e4a06be01
+  slug: tom
+  sluggable_id: 7d23dfc5-6978-46fe-813e-a351207170f8
+  sluggable_type: Entities::Person
 FriendlyId::Slug_907c371b-48b3-460e-adca-69a8aa02c711:
   id: 907c371b-48b3-460e-adca-69a8aa02c711
   slug: testing-ruby-gems-against-multiple-versions-of-everything
@@ -1749,11 +1749,6 @@ FriendlyId::Slug_9d14e8a9-a54b-47ab-803b-162003d95d9c:
   slug: meetup-2016-01-13
   sluggable_id: 1bd4fee4-ef7b-4050-9932-c657a72151c5
   sluggable_type: Events::Event
-FriendlyId::Slug_9d3bd144-cc16-49b2-8aba-77eaab7bf24d:
-  id: 9d3bd144-cc16-49b2-8aba-77eaab7bf24d
-  slug: balanstrasse-73
-  sluggable_id: f7fe8226-b68a-4ec5-b626-1bcf94ce185a
-  sluggable_type: Locations::Address
 FriendlyId::Slug_9d62f44c-9b03-4091-b588-905e489c85b3:
   id: 9d62f44c-9b03-4091-b588-905e489c85b3
   slug: arabellastrasse-23
@@ -1884,6 +1879,11 @@ FriendlyId::Slug_aa1795a5-5631-433e-b2fe-ac0aefca1d56:
   slug: meetup-2013-02-13
   sluggable_id: a7335843-e74b-4b3e-8cba-bebd4e9e13cc
   sluggable_type: Events::Event
+FriendlyId::Slug_aaee9480-ecac-49e7-b1dd-12bdb252d3f2:
+  id: aaee9480-ecac-49e7-b1dd-12bdb252d3f2
+  slug: balanstrasse-73-haus-21a
+  sluggable_id: f7fe8226-b68a-4ec5-b626-1bcf94ce185a
+  sluggable_type: Locations::Address
 FriendlyId::Slug_ab556a9d-d8ef-4e91-be63-fa4e5571575c:
   id: ab556a9d-d8ef-4e91-be63-fa4e5571575c
   slug: lucas-dohmen
@@ -2529,6 +2529,11 @@ FriendlyId::Slug_ea0fe2a5-449d-4812-9b22-d40608a47edf:
   slug: a-journey-into-code
   sluggable_id: 2e3d633d-0383-42f5-a95a-f7b8ea0ff53b
   sluggable_type: Talks::Talk
+FriendlyId::Slug_eaad0b2c-58e6-48d1-a776-a298bb697006:
+  id: eaad0b2c-58e6-48d1-a776-a298bb697006
+  slug: codeqa-and-rubocop
+  sluggable_id: 6a40e2c4-9713-44c6-aba6-d1017af0970b
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_eb982f87-6301-4c07-a021-b10bbd654c95:
   id: eb982f87-6301-4c07-a021-b10bbd654c95
   slug: khaled-muamar
@@ -2669,6 +2674,11 @@ FriendlyId::Slug_f5ea60c1-891c-415c-a3dd-f547989adc18:
   slug: rails-performance-and-the-indentity-mapper
   sluggable_id: a5b2875e-19ff-4cb4-9504-8f18bab7637e
   sluggable_type: Talks::Talk
+FriendlyId::Slug_f609e903-ec52-4cdc-a4d4-803445136e2c:
+  id: f609e903-ec52-4cdc-a4d4-803445136e2c
+  slug: bulldozer-a-tool-for-css-and-javascript-monitoring
+  sluggable_id: a11250c5-1a23-49c8-a12a-84f6774ed2ee
+  sluggable_type: Talks::Talk
 FriendlyId::Slug_f6527ff2-c795-422a-b812-f8e4416e9057:
   id: f6527ff2-c795-422a-b812-f8e4416e9057
   slug: meetup-2022-07-14
@@ -2733,11 +2743,6 @@ FriendlyId::Slug_fdd7fdcf-dd9f-4ffb-ae35-7f36a0d77b9a:
   id: fdd7fdcf-dd9f-4ffb-ae35-7f36a0d77b9a
   slug: ruby-news-january-2016
   sluggable_id: 93159cff-540d-46fa-a742-8f7748ab5c24
-  sluggable_type: Talks::Talk
-FriendlyId::Slug_fddeb56f-cdf5-41a3-b5aa-2309fff7a259:
-  id: fddeb56f-cdf5-41a3-b5aa-2309fff7a259
-  slug: gems-are-overrated-or-how-i-learned-to-stop-worrying-and-love-copy-pasting
-  sluggable_id: 2e0e8a82-1b67-4fc4-9e2a-7379f96661cf
   sluggable_type: Talks::Talk
 FriendlyId::Slug_fe2f41e1-80b7-44cd-a603-2b1576e4d5f1:
   id: fe2f41e1-80b7-44cd-a603-2b1576e4d5f1
