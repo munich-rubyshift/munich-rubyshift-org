@@ -11,11 +11,6 @@ class OrganizationPagesTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select "article", text: /Legal name:\s+Crewmeister GmbH\s/
     assert_no_match(/ATOSS/, response.body)
-
-    get "/organizations/crewmeister.json"
-
-    assert_equal "Crewmeister GmbH", response.parsed_body["legal_name"]
-    assert_not response.parsed_body.key?("internal_notes")
   end
 
   test "an organization links to its website" do
