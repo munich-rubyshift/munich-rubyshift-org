@@ -25,6 +25,8 @@ info:
       the attribute says so.
     - Long texts are Markdown, limited to paragraphs, line breaks, links, emphasis, inline code, lists
       and two levels of headings.
+
+    ![The resources and how they refer to each other](/api/v1/resources.svg)
 servers:
   - url: /api/v1
 tags:
