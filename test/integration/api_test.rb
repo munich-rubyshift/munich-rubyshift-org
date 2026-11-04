@@ -129,6 +129,16 @@ class ApiTest < ActionDispatch::IntegrationTest
     assert_empty OPENAPI.validate.map { |error| error["error"] }
   end
 
+  test "the schema is the bundle of its sources" do
+    bundle = Rails.root.join("tmp", "schema-#{SecureRandom.hex}.yaml")
+    assert system({ "REDOCLY_SUPPRESS_NOTIFICATIONS" => "true" }, "node_modules/.bin/redocly", "bundle",
+      "doc/api/v1/openapi.yaml", "--output", bundle.to_s, chdir: Rails.root, out: File::NULL, err: File::NULL)
+
+    assert bundle.read == Rails.root.join("public/api/v1/schema.yaml").read, "run `yarn schema:bundle` after editing doc/api/v1"
+  ensure
+    bundle&.delete if bundle&.exist?
+  end
+
   test "the schema lists the values the models allow" do
     assert_equal Events::Event::KINDS + [ nil ], enum("EventAttributes", "kind")
     assert_equal Events::Event::STATUSES + [ nil ], enum("EventAttributes", "status")

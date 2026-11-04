@@ -1,0 +1,13 @@
+get:
+  tags:
+    - Series
+  operationId: listSeries
+  summary: List series
+  description: All event series, each with all of its data.
+  responses:
+    '200':
+      description: All series.
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/SeriesDocument.yaml

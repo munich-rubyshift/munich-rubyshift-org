@@ -1,0 +1,4 @@
+type:
+  - string
+  - 'null'
+description: The slug of the same record on RubyEvents.

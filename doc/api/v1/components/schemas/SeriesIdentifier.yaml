@@ -1,0 +1,11 @@
+type: object
+description: A series, listed in `/series.json`.
+required:
+  - type
+  - id
+properties:
+  type:
+    const: series
+  id:
+    $ref: ./Slug.yaml
+additionalProperties: false

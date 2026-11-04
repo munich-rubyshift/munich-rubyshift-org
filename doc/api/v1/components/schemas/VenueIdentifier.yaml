@@ -1,0 +1,11 @@
+type: object
+description: A venue, included in the document of its event.
+required:
+  - type
+  - id
+properties:
+  type:
+    const: venues
+  id:
+    $ref: ./Slug.yaml
+additionalProperties: false

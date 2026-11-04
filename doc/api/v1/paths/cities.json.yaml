@@ -1,0 +1,13 @@
+get:
+  tags:
+    - Cities
+  operationId: listCities
+  summary: List cities
+  description: All cities our venues are in, each with all of its data.
+  responses:
+    '200':
+      description: All cities.
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/CitiesDocument.yaml

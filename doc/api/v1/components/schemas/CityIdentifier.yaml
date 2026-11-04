@@ -1,0 +1,11 @@
+type: object
+description: A city, listed in `/cities.json`.
+required:
+  - type
+  - id
+properties:
+  type:
+    const: cities
+  id:
+    $ref: ./Slug.yaml
+additionalProperties: false

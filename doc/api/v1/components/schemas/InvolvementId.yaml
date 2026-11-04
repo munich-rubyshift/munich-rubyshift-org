@@ -1,0 +1,6 @@
+type: string
+description: >-
+  An involvement's id joins the slugs of its event, its role and its person or
+  organization.
+examples:
+  - meetup-2026-04-23-organizer-klaus-weidinger

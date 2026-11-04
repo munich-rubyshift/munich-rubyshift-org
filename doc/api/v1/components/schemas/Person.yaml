@@ -1,0 +1,73 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+properties:
+  type:
+    const: people
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    type: object
+    required:
+      - name
+      - rubyevents_slug
+      - website
+      - github_username
+      - twitter_username
+      - mastodon
+      - bluesky_handle
+      - linkedin_username
+      - speakerdeck_username
+      - meetup_id
+      - avatar_url
+    properties:
+      name:
+        type:
+          - string
+          - 'null'
+      rubyevents_slug:
+        $ref: ./RubyeventsSlug.yaml
+      website:
+        $ref: ./Url.yaml
+      github_username:
+        type:
+          - string
+          - 'null'
+        description: The GitHub username, not a URL.
+      twitter_username:
+        type:
+          - string
+          - 'null'
+        description: The X (Twitter) handle, without the @.
+      mastodon:
+        $ref: ./Url.yaml
+        description: The Mastodon profile URL, which names the server too.
+      bluesky_handle:
+        type:
+          - string
+          - 'null'
+        description: The Bluesky handle, like "anna.bsky.social".
+      linkedin_username:
+        type:
+          - string
+          - 'null'
+        description: The part of the LinkedIn profile URL after `/in/`.
+      speakerdeck_username:
+        type:
+          - string
+          - 'null'
+        description: The Speaker Deck username.
+      meetup_id:
+        type:
+          - string
+          - 'null'
+        description: The Meetup.com member id.
+      avatar_url:
+        $ref: ./Url.yaml
+        description: >-
+          The path of the person's picture on our website, a PNG, JPEG, GIF or
+          WebP image.
+    additionalProperties: false
+additionalProperties: false

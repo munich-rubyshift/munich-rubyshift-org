@@ -1,0 +1,98 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+  - relationships
+properties:
+  type:
+    const: venues
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    type: object
+    required:
+      - name
+      - rubyevents_slug
+      - website
+      - description
+      - instructions
+      - accessibility_wheelchair
+      - accessibility_elevators
+      - accessibility_restrooms
+      - accessibility_notes
+      - nearby_public_transport
+      - nearby_parking
+      - map
+    properties:
+      name:
+        type:
+          - string
+          - 'null'
+      rubyevents_slug:
+        $ref: ./RubyeventsSlug.yaml
+      website:
+        $ref: ./Url.yaml
+      description:
+        $ref: ./Markdown.yaml
+      instructions:
+        $ref: ./Markdown.yaml
+        description: How to get in, like which door or floor.
+      accessibility_wheelchair:
+        type: boolean
+        description: >-
+          Whether the venue is wheelchair accessible. `false` also means we
+          haven't checked.
+      accessibility_elevators:
+        type: boolean
+        description: >-
+          Whether the venue has elevators. `false` also means we haven't
+          checked.
+      accessibility_restrooms:
+        type: boolean
+        description: >-
+          Whether the venue has accessible restrooms. `false` also means we
+          haven't checked.
+      accessibility_notes:
+        $ref: ./Markdown.yaml
+      nearby_public_transport:
+        $ref: ./Markdown.yaml
+      nearby_parking:
+        $ref: ./Markdown.yaml
+      map:
+        description: >-
+          Links to the venue on map services, where we picked them by hand. The
+          coordinates of the address always pin it.
+        oneOf:
+          - $ref: ./Map.yaml
+          - type: 'null'
+    additionalProperties: false
+  relationships:
+    type: object
+    required:
+      - address
+      - organization
+    properties:
+      address:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            $ref: ./AddressIdentifier.yaml
+        additionalProperties: false
+      organization:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            description: >-
+              The organization whose venue it is, like the company hosting a
+              meetup in its office.
+            oneOf:
+              - $ref: ./OrganizationIdentifier.yaml
+              - type: 'null'
+        additionalProperties: false
+    additionalProperties: false
+additionalProperties: false
