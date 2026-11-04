@@ -20,11 +20,14 @@ info:
       relationships, by `type` and `id`. An event's document includes the records that belong to it,
       like its venue and talks. Look up the others in the list for their type, like `/people.json` for
       `people`, and an event at `/events/{id}.json`.
-    - `slug` names a record in the URLs of our website. - Attributes hold the values that apply, with fallbacks resolved, like an event's website falling
+    - `slug` names a record in the URLs of our website.
+    - Attributes hold the values that apply, with fallbacks resolved, like an event's website falling
       back to its series'. The attribute says where a value falls back to. All keys are always
       present, and `null` means we don't know or it doesn't apply.
     - Long texts are Markdown, limited to paragraphs, line breaks, links, emphasis, inline code, lists
       and two levels of headings.
+
+    ![The resources and how they refer to each other](/api/v1/resources.svg)
 servers:
   - url: /api/v1
 tags:
