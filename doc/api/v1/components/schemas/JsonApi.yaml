@@ -1,0 +1,8 @@
+type: object
+description: The JSON:API version the document follows.
+required:
+  - version
+properties:
+  version:
+    const: '1.1'
+additionalProperties: false

@@ -1,0 +1,38 @@
+type: object
+description: A call for proposals.
+required:
+  - type
+  - id
+  - attributes
+properties:
+  type:
+    const: cfps
+  id:
+    $ref: ./Uuid.yaml
+  attributes:
+    type: object
+    required:
+      - slug
+      - name
+      - open_date
+      - close_date
+      - external_url
+    properties:
+      slug:
+        $ref: ./Slug.yaml
+      name:
+        type: string
+        examples:
+          - Call for Proposals
+      open_date:
+        $ref: ./Date.yaml
+      close_date:
+        $ref: ./Date.yaml
+        description: The last day to submit, falling back to the day before the event starts.
+      external_url:
+        $ref: ./Url.yaml
+        description: >-
+          Where to submit. `null` means through the CFP's page on our website,
+          at `/cfps/{slug}`.
+    additionalProperties: false
+additionalProperties: false

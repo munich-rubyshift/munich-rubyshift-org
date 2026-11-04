@@ -1,0 +1,23 @@
+get:
+  tags:
+    - Series data
+  operationId: showEvent
+  summary: Show an event
+  description: An event with its venue, talks, sponsors, involvements and CFPs.
+  parameters:
+    - name: id
+      in: path
+      required: true
+      description: The event's id, as listed in the `events` of its series.
+      schema:
+        $ref: ../components/schemas/Uuid.yaml
+      example: 6f1c2b7e-0d3a-4c59-9e8b-2a4f5d6c7b81
+  responses:
+    '200':
+      description: The event.
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/EventDocument.yaml
+    '404':
+      description: No event has this id.

@@ -1,0 +1,4 @@
+type:
+  - string
+  - 'null'
+description: A URL.

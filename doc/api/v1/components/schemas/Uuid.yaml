@@ -1,0 +1,4 @@
+type: string
+description: The record's UUID, unique among all records. It never changes.
+examples:
+  - 6f1c2b7e-0d3a-4c59-9e8b-2a4f5d6c7b81
