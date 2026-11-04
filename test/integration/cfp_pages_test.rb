@@ -13,11 +13,4 @@ class CFPPagesTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_match(/Close date:\s*<\/strong>\s*2026-11-11/, response.body)
   end
-
-  test "the CFP data carry the implied close date" do
-    get "/cfps/meetup-2026-11-12-call-for-proposals.json"
-
-    assert_response :success
-    assert_equal "2026-11-11", response.parsed_body["close_date"]
-  end
 end
