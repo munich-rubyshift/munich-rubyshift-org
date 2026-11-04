@@ -8,8 +8,7 @@ class Sponsors::Sponsorship < ApplicationRecord
 
   belongs_to :sponsor_tier, class_name: "Sponsors::SponsorTier", foreign_key: :sponsors_sponsor_tier_id, inverse_of: :sponsorships
 
-  normalized_strings :entities_organization_id, :sponsors_sponsor_tier_id, :badge, :logo_url,
-    :name, :rubyevents_slug, :website
+  normalized_strings :entities_organization_id, :sponsors_sponsor_tier_id, :badge, :name, :rubyevents_slug
 
   long_form_text :description
 

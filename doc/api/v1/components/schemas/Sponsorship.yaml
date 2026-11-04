@@ -16,8 +16,6 @@ properties:
       - rubyevents_slug
       - badge
       - description
-      - website
-      - logo_url
     properties:
       name:
         type:
@@ -32,12 +30,6 @@ properties:
           - 'null'
       description:
         $ref: ./Markdown.yaml
-      website:
-        $ref: ./Url.yaml
-        description: Where the sponsorship links to, if not the organization's website.
-      logo_url:
-        $ref: ./Url.yaml
-        description: A logo for this sponsorship, if not the organization's logo.
     additionalProperties: false
   relationships:
     type: object

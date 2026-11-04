@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_28_201802) do
+ActiveRecord::Schema[8.1].define(version: 2026_11_04_124750) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -196,12 +196,10 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_28_201802) do
     t.string "badge"
     t.text "description"
     t.string "entities_organization_id", null: false
-    t.string "logo_url"
     t.string "name"
     t.string "rubyevents_slug"
     t.string "slug"
     t.string "sponsors_sponsor_tier_id", null: false
-    t.string "website"
     t.index ["entities_organization_id"], name: "index_sponsors_sponsorships_on_entities_organization_id"
     t.index ["sponsors_sponsor_tier_id"], name: "index_sponsors_sponsorships_on_sponsors_sponsor_tier_id"
   end

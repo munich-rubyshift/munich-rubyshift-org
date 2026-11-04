@@ -875,8 +875,6 @@ components:
             - rubyevents_slug
             - badge
             - description
-            - website
-            - logo_url
           properties:
             name:
               type:
@@ -891,12 +889,6 @@ components:
                 - 'null'
             description:
               $ref: '#/components/schemas/Markdown'
-            website:
-              $ref: '#/components/schemas/Url'
-              description: Where the sponsorship links to, if not the organization's website.
-            logo_url:
-              $ref: '#/components/schemas/Url'
-              description: A logo for this sponsorship, if not the organization's logo.
           additionalProperties: false
         relationships:
           type: object
