@@ -1,0 +1,43 @@
+type: object
+description: Something about the talk elsewhere, like its source code or a write-up.
+required:
+  - kind
+  - name
+  - title
+  - url
+properties:
+  kind:
+    type: string
+    enum:
+      - write-up
+      - blog
+      - article
+      - source-code
+      - code
+      - repo
+      - github
+      - documentation
+      - docs
+      - presentation
+      - video
+      - podcast
+      - audio
+      - gem
+      - library
+      - transcript
+      - handout
+      - notes
+      - photos
+      - link
+      - book
+  name:
+    type: string
+    description: A short name to show, like "GitHub".
+  title:
+    type:
+      - string
+      - 'null'
+    description: The full title of the resource.
+  url:
+    type: string
+additionalProperties: false

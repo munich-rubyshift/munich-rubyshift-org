@@ -1,0 +1,5 @@
+type: string
+description: The ISO 639-1 code of the language.
+enum:
+  - en
+  - de

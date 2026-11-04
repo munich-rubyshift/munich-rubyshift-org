@@ -1,0 +1,13 @@
+type: object
+required:
+  - google_url
+  - apple_url
+  - openstreetmap_url
+properties:
+  google_url:
+    $ref: ./Url.yaml
+  apple_url:
+    $ref: ./Url.yaml
+  openstreetmap_url:
+    $ref: ./Url.yaml
+additionalProperties: false

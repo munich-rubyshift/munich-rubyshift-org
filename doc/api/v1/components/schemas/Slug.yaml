@@ -1,0 +1,6 @@
+type: string
+description: >-
+  The record's name in the URLs of our website, unique among the records of its
+  type.
+examples:
+  - meetup-2026-04-23
