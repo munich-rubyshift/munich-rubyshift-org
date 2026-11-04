@@ -1,6 +1,7 @@
 <footer class="footer" data-compiler="footer" up-data="<%= {  }.to_json %>">
   <nav>
     <%= link_to "Imprint", page_path("imprint") %>
+    <%= link_to "API", api_schema_path, "up-follow": false %>
     <% if Rails.env.development? %>
       <%= link_to "Lookbook", lookbook_path, "up-follow": false %>
       <%= link_to "Jasmine", jasmine_index_path, "up-follow": false %>

@@ -27,9 +27,9 @@ async function handleErrors(errors) {
 let entryPoints
 
 if (railsEnv === 'production') {
-  entryPoints = ['application.js', 'static.js']
+  entryPoints = ['application.js', 'static.js', 'api_reference.js']
 } else {
-  entryPoints = ['application.js', 'static.js', 'jasmine.js']
+  entryPoints = ['application.js', 'static.js', 'api_reference.js', 'jasmine.js']
 }
 
 const config = {
