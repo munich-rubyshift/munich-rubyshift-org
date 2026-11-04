@@ -5,41 +5,30 @@ info:
   summary: >-
     The events of the Munich Rubyshift meetup, their talks, people,
     organizations and places.
-  description: >
-    The data behind [munich-rubyshift.org](https://munich-rubyshift.org) as
-    static JSON files,
-
-    rebuilt whenever the website is. The documents follow [JSON:API
-    1.1](https://jsonapi.org/format/1.1/),
-
+  description: |
+    The data behind [munich-rubyshift.org](https://munich-rubyshift.org) as static JSON files,
+    rebuilt whenever the website is. The documents follow [JSON:API 1.1](https://jsonapi.org/format/1.1/),
     with these simplifications:
 
-
-    - Only `GET` requests. There are no query parameters, so no pagination,
-    filtering, sorting,
+    - Only `GET` requests. There are no query parameters, so no pagination, filtering, sorting,
       `include` or sparse fieldsets. Each list holds all of its records.
-    - The files are served as `application/json`, since the static host picks
-    the media type.
-
+    - The files are served as `application/json`, since the static host picks the media type.
 
     Conventions:
 
-
-    - A resource's `id` is its slug. Records refer to each other through
-    relationships, by `type` and
+    - A resource's `id` is its slug. Records refer to each other through relationships, by `type` and
       `id`. An event's document includes the records that belong to it, like its venue and talks. Look
       up the others in the list for their type, like `/people.json` for `people`, and an event at
       `/events/{id}.json`.
-    - `rubyevents_slug` names the same record on
-    [RubyEvents](https://www.rubyevents.org). Use it to
+    - `rubyevents_slug` names the same record on [RubyEvents](https://www.rubyevents.org). Use it to
       store a record, and `id` only to relate records to each other within this API.
-    - Attributes hold the values as we keep them: all keys are always present,
-    and `null` means we
+    - Attributes hold the values as we keep them: all keys are always present, and `null` means we
       don't know or it doesn't apply. Where `null` carries a meaning, like falling back to the series,
       the attribute says so.
-    - Long texts are Markdown, limited to paragraphs, line breaks, links,
-    emphasis, inline code, lists
+    - Long texts are Markdown, limited to paragraphs, line breaks, links, emphasis, inline code, lists
       and two levels of headings.
+
+    ![The resources and how they refer to each other](/api/v1/resources.svg)
 servers:
   - url: /api/v1
 tags:
