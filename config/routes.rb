@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
   namespace :api do
+    resource :schema, only: :show
     namespace :v1, format: true, constraints: { format: :json } do
       resources :people, :cities, :organizations, :series, only: :index
       resources :events, only: :show

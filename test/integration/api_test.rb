@@ -141,6 +141,14 @@ class ApiTest < ActionDispatch::IntegrationTest
     assert_equal Language::NAMES.keys, OPENAPI.schema("LanguageCode").value["enum"]
   end
 
+  test "the schema renders as a page" do
+    get "/api/schema"
+
+    assert_response :success
+    assert_select "#api-reference"
+    assert_select "script[src*='api_reference']"
+  end
+
   private
 
   def identifiers_in(node)
