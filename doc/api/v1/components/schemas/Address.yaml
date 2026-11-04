@@ -1,0 +1,45 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+  - relationships
+properties:
+  type:
+    const: addresses
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    type: object
+    required:
+      - street
+      - zip_code
+      - coordinates
+    properties:
+      street:
+        type:
+          - string
+          - 'null'
+        description: The street and house number.
+      zip_code:
+        type:
+          - string
+          - 'null'
+      coordinates:
+        $ref: ./Coordinates.yaml
+    additionalProperties: false
+  relationships:
+    type: object
+    required:
+      - city
+    properties:
+      city:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            $ref: ./CityIdentifier.yaml
+        additionalProperties: false
+    additionalProperties: false
+additionalProperties: false

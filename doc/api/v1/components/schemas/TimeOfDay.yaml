@@ -1,0 +1,7 @@
+type:
+  - string
+  - 'null'
+description: A wall clock time in the time zone of the event's series.
+pattern: ^([01][0-9]|2[0-3]):[0-5][0-9]$
+examples:
+  - '19:00'

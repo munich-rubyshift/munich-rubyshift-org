@@ -1,0 +1,44 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+properties:
+  type:
+    const: cities
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    type: object
+    required:
+      - name
+      - rubyevents_slug
+      - state_code
+      - country_code
+      - coordinates
+    properties:
+      name:
+        type:
+          - string
+          - 'null'
+      rubyevents_slug:
+        $ref: ./RubyeventsSlug.yaml
+      state_code:
+        type:
+          - string
+          - 'null'
+        description: The code of the state or region within the country.
+        examples:
+          - BY
+      country_code:
+        type:
+          - string
+          - 'null'
+        description: The ISO 3166-1 alpha-2 code of the country.
+        examples:
+          - DE
+      coordinates:
+        $ref: ./Coordinates.yaml
+        description: The center of the city.
+    additionalProperties: false
+additionalProperties: false

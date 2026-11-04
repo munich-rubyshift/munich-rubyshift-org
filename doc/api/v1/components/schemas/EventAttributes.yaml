@@ -1,0 +1,116 @@
+type: object
+required:
+  - title
+  - rubyevents_slug
+  - kind
+  - status
+  - attendance_mode
+  - start_date
+  - start_time
+  - end_date
+  - end_time
+  - date_precision
+  - announced_on
+  - description
+  - tickets_url
+  - website
+  - twitter_username
+  - mastodon
+  - github
+  - meetup
+  - luma
+  - participants_count
+properties:
+  title:
+    type:
+      - string
+      - 'null'
+    description: The event's own title. Often generic, like "Ruby Meetup April 2026".
+  rubyevents_slug:
+    $ref: ./RubyeventsSlug.yaml
+  kind:
+    type:
+      - string
+      - 'null'
+    enum:
+      - conference
+      - meetup
+      - retreat
+      - hackathon
+      - event
+      - workshop
+      - null
+  status:
+    type:
+      - string
+      - 'null'
+    enum:
+      - cancelled
+      - postponed
+      - scheduled
+      - null
+  attendance_mode:
+    type: string
+    description: An online event has no venue.
+    enum:
+      - in_person
+      - hybrid
+      - online
+  start_date:
+    $ref: ./Date.yaml
+    description: '`null` while the event has no date yet, and then so is `end_date`.'
+  start_time:
+    $ref: ./TimeOfDay.yaml
+  end_date:
+    $ref: ./Date.yaml
+  end_time:
+    $ref: ./TimeOfDay.yaml
+  date_precision:
+    type:
+      - string
+      - 'null'
+    description: How exact the dates are, for events whose day or month isn't known.
+    enum:
+      - year
+      - month
+      - day
+      - null
+  announced_on:
+    $ref: ./Date.yaml
+    description: When the event was announced.
+  description:
+    $ref: ./Markdown.yaml
+  tickets_url:
+    $ref: ./Url.yaml
+    description: Where to get tickets or sign up.
+  website:
+    $ref: ./Url.yaml
+    description: The event's own website. `null` means the series' website applies.
+  twitter_username:
+    type:
+      - string
+      - 'null'
+    description: >-
+      The event's own X (Twitter) handle, without the @. `null` means the
+      series' handle applies.
+  mastodon:
+    $ref: ./Url.yaml
+    description: >-
+      The event's own Mastodon profile URL. `null` means the series' profile
+      applies.
+  github:
+    $ref: ./Url.yaml
+    description: The event's own GitHub URL. `null` means the series' GitHub URL applies.
+  meetup:
+    $ref: ./Url.yaml
+    description: >-
+      The event's own Meetup.com URL. `null` means the series' Meetup.com group
+      applies.
+  luma:
+    $ref: ./Url.yaml
+    description: The event's own Luma URL. `null` means the series' Luma calendar applies.
+  participants_count:
+    type: integer
+    minimum: 0
+    description: How many people we know attended. Attendees aren't named.
+additionalProperties: false

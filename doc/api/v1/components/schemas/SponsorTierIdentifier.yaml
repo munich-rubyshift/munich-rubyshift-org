@@ -1,0 +1,11 @@
+type: object
+description: A sponsor tier, included in the document of its event.
+required:
+  - type
+  - id
+properties:
+  type:
+    const: sponsor_tiers
+  id:
+    $ref: ./Slug.yaml
+additionalProperties: false

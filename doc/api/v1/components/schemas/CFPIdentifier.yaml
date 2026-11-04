@@ -1,0 +1,11 @@
+type: object
+description: A call for proposals, included in the document of its event.
+required:
+  - type
+  - id
+properties:
+  type:
+    const: cfps
+  id:
+    $ref: ./Slug.yaml
+additionalProperties: false

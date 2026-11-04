@@ -1,0 +1,6 @@
+type: string
+description: >-
+  A sponsorship's id joins the slugs of its event, its tier and its
+  organization.
+examples:
+  - meetup-2026-04-23-location-freeletics

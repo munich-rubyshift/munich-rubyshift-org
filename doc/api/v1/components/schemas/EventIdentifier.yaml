@@ -1,0 +1,11 @@
+type: object
+description: An event, at `/events/{id}.json`.
+required:
+  - type
+  - id
+properties:
+  type:
+    const: events
+  id:
+    $ref: ./Slug.yaml
+additionalProperties: false

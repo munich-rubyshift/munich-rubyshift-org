@@ -1,0 +1,35 @@
+type: object
+description: A call for proposals.
+required:
+  - type
+  - id
+  - attributes
+properties:
+  type:
+    const: cfps
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    type: object
+    required:
+      - name
+      - open_date
+      - close_date
+      - external_url
+    properties:
+      name:
+        type: string
+        examples:
+          - Call for Proposals
+      open_date:
+        $ref: ./Date.yaml
+      close_date:
+        $ref: ./Date.yaml
+        description: The last day to submit. `null` means the day before the event starts.
+      external_url:
+        $ref: ./Url.yaml
+        description: >-
+          Where to submit. `null` means through the CFP's page on our website,
+          at `/cfps/{id}`.
+    additionalProperties: false
+additionalProperties: false

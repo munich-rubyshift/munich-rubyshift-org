@@ -1,0 +1,84 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+  - relationships
+properties:
+  type:
+    const: talks
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    type: object
+    required:
+      - title
+      - rubyevents_slug
+      - kind
+      - language_code
+      - description
+      - slides_url
+      - announced_on
+      - additional_resources
+    properties:
+      title:
+        type: string
+      rubyevents_slug:
+        $ref: ./RubyeventsSlug.yaml
+      kind:
+        type: string
+        enum:
+          - keynote
+          - talk
+          - lightning_talk
+          - open_mic
+          - announcement
+          - city_pitch
+          - panel
+          - workshop
+          - gameshow
+          - podcast
+          - q_and_a
+          - discussion
+          - fireside_chat
+          - interview
+          - award
+          - demo
+          - trailer
+          - recap
+          - aftermovie
+          - intro
+          - outro
+      language_code:
+        $ref: ./LanguageCode.yaml
+      description:
+        $ref: ./Markdown.yaml
+      slides_url:
+        $ref: ./Url.yaml
+      announced_on:
+        $ref: ./Date.yaml
+        description: >-
+          When the talk was announced. `null` means together with its event, on
+          the event's `announced_on`.
+      additional_resources:
+        type: array
+        items:
+          $ref: ./AdditionalResource.yaml
+    additionalProperties: false
+  relationships:
+    type: object
+    required:
+      - speakers
+    properties:
+      speakers:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            type: array
+            items:
+              $ref: ./PersonIdentifier.yaml
+        additionalProperties: false
+    additionalProperties: false
+additionalProperties: false

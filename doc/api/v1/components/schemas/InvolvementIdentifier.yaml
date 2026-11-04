@@ -1,0 +1,11 @@
+type: object
+description: An involvement, included in the document of its event.
+required:
+  - type
+  - id
+properties:
+  type:
+    const: involvements
+  id:
+    $ref: ./InvolvementId.yaml
+additionalProperties: false
