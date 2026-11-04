@@ -1191,6 +1191,44 @@ Events::Event_7f86600e-6d02-4330-ad23-202dea797ac6:
   status: scheduled
   title: Ruby Meetup September 2012
   venues_venue_id: 875db3ec-232f-4ca5-99bf-7373a25d0681
+Events::Event_7fd1c033-d506-4e6c-b2e0-773201fef624:
+  id: 7fd1c033-d506-4e6c-b2e0-773201fef624
+  attendance_mode: in_person
+  date_precision: day
+  description: |-
+    Dear Munich Rubyists,
+
+    the leaves are turning brown again, so it's high time for this year's November edition of our meetup!
+
+    This time, Experteer GmbH will be our hosts for location, food & drinks. Thank you Shota for establishing the contact!
+
+    Looking forward to seeing you all in November!
+
+    Discord group: <https://discord.gg/EKqHWmCxGZ>
+
+    Agenda:
+    - Welcome
+    - Location/Food & Drinks Sponsor Slot
+    - Food & Drinks (sponsored by Experteer GmbH)
+    - Talk 1: "Ruby Interpreters in Comparison and an Introduction to Four Concurrency Models in Ruby" by Marcus Poller
+    - Break
+    - *OPEN TALK SLOT*
+    - Socializing (open end/as long as the location permits)
+
+    Talk 1: "Ruby Interpreters in Comparison and an Introduction to Four Concurrency Models in Ruby" by Marcus Poller
+    - This talk will cover CRuby, JRuby, and TruffleRuby (and explain why the rest are just toys). It will also dive into the concurrent-ruby library, Ractors, Threads, Fibers, and Processes.
+  end_date: '2026-11-12'
+  end_time: '21:30'
+  events_series_id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  kind: meetup
+  last_edition: 0
+  slug: meetup-2026-11-12
+  start_date: '2026-11-12'
+  start_time: '18:30'
+  status: scheduled
+  tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/316993952/
+  title: Ruby Meetup November 2026
+  venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
 Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
   id: 81289cc1-6ab1-408c-9f39-dde415b27a20
   attendance_mode: in_person

@@ -844,6 +844,11 @@ FriendlyId::Slug_47515154-b34b-4373-b809-6d9e290daf76:
   slug: meetup-2016-08-10
   sluggable_id: 59158906-28a1-4838-944a-529ba1fb889c
   sluggable_type: Events::Event
+FriendlyId::Slug_47d62b9f-42fd-4cf1-a65b-3b6e20d4d3e8:
+  id: 47d62b9f-42fd-4cf1-a65b-3b6e20d4d3e8
+  slug: meetup-2026-11-12-call-for-proposals
+  sluggable_id: ec254d8d-3654-4ed3-b1b5-e870b556e07d
+  sluggable_type: Events::CFP
 FriendlyId::Slug_484977d0-0f39-4452-aab1-6639cc507d27:
   id: 484977d0-0f39-4452-aab1-6639cc507d27
   slug: object-modelling-with-git
@@ -2049,6 +2054,11 @@ FriendlyId::Slug_b886c25e-78cd-42fe-9e36-2aff7bc32f6c:
   slug: ken-alex-fassone
   sluggable_id: 6f6a8d24-09e3-4c54-942a-eda440206be7
   sluggable_type: Entities::Person
+FriendlyId::Slug_b9ca8751-62f1-4668-922a-74767ce9025c:
+  id: b9ca8751-62f1-4668-922a-74767ce9025c
+  slug: meetup-2026-11-12
+  sluggable_id: 7fd1c033-d506-4e6c-b2e0-773201fef624
+  sluggable_type: Events::Event
 FriendlyId::Slug_b9fb339f-da97-41bd-8abf-3ed56d602eca:
   id: b9fb339f-da97-41bd-8abf-3ed56d602eca
   slug: an-introduction-to-opal
