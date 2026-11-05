@@ -8,8 +8,10 @@ info:
     rebuilt whenever the website is. The documents follow [JSON:API 1.1](https://jsonapi.org/format/1.1/),
     with these simplifications:
 
-    - Only `GET` requests. There are no query parameters, so no pagination, filtering, sorting,
-      `include` or sparse fieldsets. Each list holds all of its records.
+    - Only `GET` requests. There are no query parameters, so no filtering, sorting, `include` or
+      sparse fieldsets.
+    - Lists come in pages: follow `links.next` until it is `null`. For now, every list fits on one
+      page.
     - The files are served as `application/json`, since the static host picks the media type.
 
     Conventions:
@@ -989,6 +991,18 @@ components:
               - $ref: '#/components/schemas/Involvement'
               - $ref: '#/components/schemas/CFP'
       additionalProperties: false
+    PageLinks:
+      type: object
+      description: Links between the pages of a list.
+      required:
+        - next
+      properties:
+        next:
+          type:
+            - string
+            - 'null'
+          description: The URL of the next page, or `null` on the last one. For now, every list fits on one page.
+      additionalProperties: false
     EventIdentifier:
       type: object
       description: An event, at `/events/{id}.json`.
@@ -1176,10 +1190,13 @@ components:
       type: object
       required:
         - jsonapi
+        - links
         - data
       properties:
         jsonapi:
           $ref: '#/components/schemas/JsonApi'
+        links:
+          $ref: '#/components/schemas/PageLinks'
         data:
           type: array
           items:
@@ -1261,10 +1278,13 @@ components:
       type: object
       required:
         - jsonapi
+        - links
         - data
       properties:
         jsonapi:
           $ref: '#/components/schemas/JsonApi'
+        links:
+          $ref: '#/components/schemas/PageLinks'
         data:
           type: array
           items:
@@ -1314,10 +1334,13 @@ components:
       type: object
       required:
         - jsonapi
+        - links
         - data
       properties:
         jsonapi:
           $ref: '#/components/schemas/JsonApi'
+        links:
+          $ref: '#/components/schemas/PageLinks'
         data:
           type: array
           items:
@@ -1372,10 +1395,13 @@ components:
       type: object
       required:
         - jsonapi
+        - links
         - data
       properties:
         jsonapi:
           $ref: '#/components/schemas/JsonApi'
+        links:
+          $ref: '#/components/schemas/PageLinks'
         data:
           type: array
           items:

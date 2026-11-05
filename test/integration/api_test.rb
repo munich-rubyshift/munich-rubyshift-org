@@ -111,6 +111,14 @@ class ApiTest < ActionDispatch::IntegrationTest
     assert_nil included.find { |resource| resource["type"] == "cfps" }.dig("attributes", "close_date")
   end
 
+  test "each list says there is no next page" do
+    %w[people cities organizations series].each do |list|
+      get "/api/v1/#{list}.json"
+
+      assert_equal({ "next" => nil }, response.parsed_body["links"], list)
+    end
+  end
+
   test "a series refers to its events, newest first, by the ids of their documents" do
     events_events(:two).update_columns(events_series_id: events_series(:one).id, slug: "meetup-2026-01-22",
       start_date: "2026-01-22", end_date: "2026-01-22")
