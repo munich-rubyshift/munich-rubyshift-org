@@ -1,8 +1,15 @@
 require_relative "test_helper"
 
 class SlugTest < Minitest::Test
-  def test_transliterates_like_rubyevents_parameterize
-    assert_equal "juergen-kuzma-strasse-o-ae", Rubyevents.slug("Jürgen Kuźma, Straße Ö ä")
+  def test_parameterizes_with_rubyevents_transliterations
+    assert_equal "juergen-kuzma-strasse-o-ae-skoluda", "Jürgen Kuźma, Straße Ö ä Skołuda".parameterize
+  end
+end
+
+class PlainTextTest < Minitest::Test
+  def test_turns_markdown_into_text_with_links
+    assert_equal "Slides (https://a.example), https://b.example and an OPEN SLOT",
+      Rubyevents.plain_text("[Slides](https://a.example), <https://b.example> and an *OPEN SLOT*")
   end
 end
 
@@ -81,6 +88,27 @@ class ListFileTest < Minitest::Test
     merge({ "name" => "B", "slug" => "b" })
 
     assert_equal "---\n- name: \"A\"\n  slug: \"a\"\n\n- name: \"B\"\n  slug: \"b\"\n\n- name: \"C\"\n  slug: \"c\"\n", File.read(@path)
+  end
+
+  def test_an_entry_found_by_an_alias_keeps_its_name
+    File.write(@path, "---\n- name: \"Ada Lovelace\"\n  github: \"\"\n  slug: \"ada-lovelace\"\n  aliases:\n    - name: \"Ada King\"\n      slug: \"ada-king\"\n")
+    list = Rubyevents::ListFile.new(@path)
+
+    status = list.merge({ "name" => "Ada King", "website" => "https://ada.example" }, lookup: [ [ "name", "Ada King" ], [ "aliases", "Ada King" ] ])
+
+    assert_equal [ :updated, "Ada Lovelace" ], status
+  end
+
+  def test_leaves_someone_with_another_github_handle_alone
+    status = merge({ "name" => "Ada Lovelace", "github" => "lovelace", "slug" => "ada-lovelace" })
+
+    assert_equal [ :conflict, "Ada Lovelace: GitHub ada, ours lovelace" ], status
+    assert_equal SPEAKERS, File.read(@path)
+  end
+
+  def test_skips_unlisted_records_without_add
+    assert_equal [ :skipped, "Bob" ], merge({ "name" => "Bob", "slug" => "bob" }, add: false)
+    assert_equal SPEAKERS, File.read(@path)
   end
 end
 
@@ -166,9 +194,9 @@ class ImportTest < Minitest::Test
       relationships: { events: [ identifier("events", "meetup-2026-09-24"), identifier("events", "meetup-2026-10-24") ] }))
   end
 
-  def event(id, talks: [], **attributes)
+  def event(id, talks: [], cfps: [], sponsor_tiers: [], **attributes)
     resource_data("events", id, title: "Meetup", attendance_mode: "online", start_date: id.delete_prefix("meetup-"), **attributes,
-      relationships: { venue: nil, talks:, involvements: [], cfps: [], sponsor_tiers: [] })
+      relationships: { venue: nil, talks:, involvements: [], cfps:, sponsor_tiers: })
   end
 
   def write
@@ -179,10 +207,49 @@ class ImportTest < Minitest::Test
     YAML.load_file(File.join(@root, "data", path))
   end
 
-  def test_replaces_the_series_without_cancelled_events
+  def add_series(*events)
+    events.each { |event| @store.add(event) }
+    @store.add(resource_data("series", "munich-rubyshift", name: "Munich Rubyshift", rubyevents_slug: "munich-rubyshift",
+      relationships: { events: events.map { |event| identifier("events", event["id"]) } }))
+  end
+
+  def test_replaces_the_series_with_cancelled_events
     write
 
-    assert_equal %w[munich-rubyshift-meetup-2026-09-24 series.yml], Dir.children(File.join(@root, "data/munich-rubyshift")).sort
+    assert_equal %w[munich-rubyshift-meetup-2026-09-24 munich-rubyshift-meetup-2026-10-24 series.yml], Dir.children(File.join(@root, "data/munich-rubyshift")).sort
+    assert_equal "cancelled", load("munich-rubyshift/munich-rubyshift-meetup-2026-10-24/event.yml")["status"]
+  end
+
+  def test_skips_events_in_person_without_a_venue
+    add_series(event("meetup-2026-12-03", attendance_mode: "in_person"))
+
+    report = write
+
+    assert_equal %w[series.yml], Dir.children(File.join(@root, "data/munich-rubyshift"))
+    assert_equal [ "meetup-2026-12-03" ], report[:"events without a venue, skipped"]
+  end
+
+  def test_an_undated_event_is_still_to_come
+    @store.add(resource_data("cfps", "talks", name: "Talks"))
+    add_series(event("meetup-tba", start_date: nil, talks: [ identifier("talks", "recap") ], cfps: [ identifier("cfps", "talks") ]))
+
+    write
+
+    assert_equal "scheduled", load("munich-rubyshift/munich-rubyshift-meetup-tba/videos.yml").first["video_provider"]
+    assert_equal [ { "name" => "Talks", "link" => "https://munich.example/cfps/talks" } ], load("munich-rubyshift/munich-rubyshift-meetup-tba/cfp.yml")
+  end
+
+  def test_refers_to_organizations_by_their_slug
+    File.write(File.join(@root, "data/organizations.yml"), "---\n- name: \"RubyTürkiye\"\n  slug: \"rubytuerkiye\"\n")
+    @store.add(resource_data("organizations", "ruby-turkiye", name: "RubyTürkiye", rubyevents_slug: "rubyturkiye"))
+    @store.add(resource_data("sponsorships", "drinks", relationships: { organization: identifier("organizations", "ruby-turkiye") }))
+    @store.add(resource_data("sponsor_tiers", "gold", name: "Gold", relationships: { sponsorships: [ identifier("sponsorships", "drinks") ] }))
+    add_series(event("meetup-2026-12-03", sponsor_tiers: [ identifier("sponsor_tiers", "gold") ]))
+
+    report = write
+
+    assert_equal [ { "slug" => "rubytuerkiye" } ], load("munich-rubyshift/munich-rubyshift-meetup-2026-12-03/sponsors.yml").first["tiers"].first["sponsors"]
+    assert_equal [ "RubyTürkiye" ], report[:"organizations.yml unchanged"]
   end
 
   def test_writes_talks_with_the_kind_rubyevents_would_not_guess

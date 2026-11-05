@@ -32,8 +32,6 @@ report = Rubyevents::Import.new(store, site:).write(out)
 system(options[:yerba], "apply", chdir: out, exception: true)
 
 report.each do |topic, names|
-  counted = topic.end_with?("without rubyevents_slug")
-  puts "#{topic} (#{names.size})#{":" unless counted}"
-  names.each { |name| puts "  #{name}" } unless counted
+  puts "#{topic} (#{names.size}):", names.map { |name| "  #{name}" }
 end
 puts "Wrote #{out}"

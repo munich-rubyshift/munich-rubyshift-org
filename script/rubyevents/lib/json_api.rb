@@ -75,7 +75,9 @@ module JsonApi
     private
 
     def fetch(url)
-      response = Net::HTTP.get_response(URI(url))
+      uri = URI(url)
+      @http ||= Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https")
+      response = @http.request(Net::HTTP::Get.new(uri))
       raise Error, "GET #{url} answered #{response.code}" unless response.is_a?(Net::HTTPSuccess)
 
       response.body
