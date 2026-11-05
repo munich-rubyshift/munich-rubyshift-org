@@ -30,5 +30,8 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
     field :luma, as: :text, sortable: true
     field :guild, as: :text, sortable: true
     field :discord, as: :text, sortable: true
+    field :banner_background, as: :text, sortable: true
+    field :featured_background, as: :text, sortable: true
+    field :featured_color, as: :text, sortable: true
   end
 end

@@ -22,6 +22,9 @@ one:
   luma: MyString
   guild: MyString
   discord: MyString
+  banner_background: MyString
+  featured_background: MyString
+  featured_color: MyString
 
 two:
   slug: MyString
@@ -45,3 +48,6 @@ two:
   luma: MyString
   guild: MyString
   discord: MyString
+  banner_background: MyString
+  featured_background: MyString
+  featured_color: MyString
