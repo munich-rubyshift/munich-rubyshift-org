@@ -1,23 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  slug: MyString
-  name: MyString
-  rubyevents_slug: MyString
   organization: one
   sponsor_tier: one
-  description: MyText
-  website: MyString
-  logo_url: MyString
   badge: MyString
 
 two:
-  slug: MyString
-  name: MyString
-  rubyevents_slug: MyString
   organization: two
   sponsor_tier: two
-  description: MyText
-  website: MyString
-  logo_url: MyString
   badge: MyString

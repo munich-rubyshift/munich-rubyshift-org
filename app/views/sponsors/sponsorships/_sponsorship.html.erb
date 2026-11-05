@@ -1,20 +1,4 @@
-<%# locals: (sponsorship:, heading_offset: 0) -%>
 <article id="<%= dom_id sponsorship %>">
-  <p>
-    <strong>Slug:</strong>
-    <%= sponsorship.slug %>
-  </p>
-
-  <p>
-    <strong>Name:</strong>
-    <%= sponsorship.name %>
-  </p>
-
-  <p>
-    <strong>Rubyevents slug:</strong>
-    <%= sponsorship.rubyevents_slug %>
-  </p>
-
   <p>
     <strong>Organization:</strong>
     <%= link_to sponsorship.organization %>
@@ -23,21 +7,6 @@
   <p>
     <strong>Sponsor tier:</strong>
     <%= link_to sponsorship.sponsor_tier %>
-  </p>
-
-  <div>
-    <strong>Description:</strong>
-    <%= render_long_form_text(sponsorship.description, heading_offset:) %>
-  </div>
-
-  <p>
-    <strong>Website:</strong>
-    <%= sponsorship.website %>
-  </p>
-
-  <p>
-    <strong>Logo url:</strong>
-    <%= sponsorship.logo_url %>
   </p>
 
   <p>
