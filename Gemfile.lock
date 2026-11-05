@@ -80,6 +80,8 @@ GEM
       uri (>= 0.13.1)
     addressable (2.9.2)
       public_suffix (>= 2.0.2, < 8.0)
+    alphabetical_schema (0.1.3)
+      rails (< 8.2)
     ast (2.4.3)
     avo (3.33.2)
       actionview (>= 6.1)
@@ -449,6 +451,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  alphabetical_schema
   avo (>= 3.2, < 4)
   bootsnap
   brakeman
@@ -500,6 +503,7 @@ CHECKSUMS
   activestorage (8.1.4.1) sha256=0f4e2f114f3584723a80a2c089aacc6170e765a0b2c385c9782e26ed78f05c66
   activesupport (8.1.4.1) sha256=16ac4f341ca65c85a1fcdb8ac73f68891aae9e3c4a6f9c3a27daed8b00017ed7
   addressable (2.9.2) sha256=9117c7e7d6ee07230e75ce41fb9401ae55354dc654fcd0e862ba41d539e9a610
+  alphabetical_schema (0.1.3) sha256=a74b66eafd3e7ddac1b0b64e3d00c3372b87ce11d1b08a9936db3fa86a0915bd
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
   avo (3.33.2) sha256=fe5751764800726a3095d9c9341bff33834a0eaeef9ffc27ab3663b0e34993ad
   avo-icons (0.1.4) sha256=4f77070a5710ebb9db5cd6746aa5f043b8e71e61b27c7fba5210a40d87898e4d
