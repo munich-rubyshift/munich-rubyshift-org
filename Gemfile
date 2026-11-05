@@ -72,6 +72,9 @@ group :development do
 
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+
+  # Sorts the columns in db/schema.rb by name, which Rails 8.1.4 stopped doing
+  gem "alphabetical_schema"
 end
 
 group :test do
