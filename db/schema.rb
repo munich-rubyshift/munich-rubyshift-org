@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_11_05_205123) do
+ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -116,12 +116,15 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_205123) do
   end
 
   create_table "events_series", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
+    t.string "banner_background"
     t.string "bluesky_handle"
     t.string "default_country_code"
     t.text "description"
     t.string "discord"
     t.boolean "ended", default: false, null: false
     t.string "facebook"
+    t.string "featured_background"
+    t.string "featured_color"
     t.string "frequency"
     t.string "github"
     t.string "guild"
