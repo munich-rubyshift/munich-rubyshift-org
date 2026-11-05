@@ -1,9 +1,12 @@
 ---
 Events::Series_1659b292-15b3-4b8a-9f61-3f4359c74e3a:
   id: 1659b292-15b3-4b8a-9f61-3f4359c74e3a
+  banner_background: "#DE2810"
   default_country_code: DE
   discord: https://discord.gg/EKqHWmCxGZ
   ended: 0
+  featured_background: "#9A0100"
+  featured_color: "#FFFFFF"
   frequency: quarterly
   github: https://github.com/munich-rubyshift
   kind: meetup
