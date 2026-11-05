@@ -1,0 +1,41 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+  - relationships
+properties:
+  type:
+    const: involvements
+  id:
+    $ref: ./InvolvementId.yaml
+  attributes:
+    type: object
+    required:
+      - role
+    properties:
+      role:
+        type:
+          - string
+          - 'null'
+        examples:
+          - Organizer
+    additionalProperties: false
+  relationships:
+    type: object
+    required:
+      - entity
+    properties:
+      entity:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            description: The person or organization with the role.
+            oneOf:
+              - $ref: ./PersonIdentifier.yaml
+              - $ref: ./OrganizationIdentifier.yaml
+        additionalProperties: false
+    additionalProperties: false
+additionalProperties: false

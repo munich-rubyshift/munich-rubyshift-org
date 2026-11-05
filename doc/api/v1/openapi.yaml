@@ -1,0 +1,52 @@
+openapi: 3.1.1
+info:
+  title: Munich Rubyshift
+  version: v1
+  summary: >-
+    The events of the Munich Rubyshift meetup, their talks, people,
+    organizations and places.
+  description: |
+    The data behind [munich-rubyshift.org](https://munich-rubyshift.org) as static JSON files,
+    rebuilt whenever the website is. The documents follow [JSON:API 1.1](https://jsonapi.org/format/1.1/),
+    with these simplifications:
+
+    - Only `GET` requests. There are no query parameters, so no filtering, sorting, `include` or
+      sparse fieldsets.
+    - Lists come in pages: follow `links.next` until it is `null`. For now, every list fits on one
+      page.
+    - The files are served as `application/json`, since the static host picks the media type.
+
+    Conventions:
+
+    - A resource's `id` is its slug. Records refer to each other through relationships, by `type` and
+      `id`. An event's document includes the records that belong to it, like its venue and talks. Look
+      up the others in the list for their type, like `/people.json` for `people`, and an event at
+      `/events/{id}.json`.
+    - `rubyevents_slug` names the same record on [RubyEvents](https://www.rubyevents.org). Use it to
+      store a record, and `id` only to relate records to each other within this API.
+    - Attributes hold the values as we keep them: all keys are always present, and `null` means we
+      don't know or it doesn't apply. Where `null` carries a meaning, like falling back to the series,
+      the attribute says so.
+    - Long texts are Markdown, limited to paragraphs, line breaks, links, emphasis, inline code, lists
+      and two levels of headings.
+
+    ![The resources and how they refer to each other](/api/v1/resources.svg)
+servers:
+  - url: /api/v1
+tags:
+  - name: Events
+  - name: Series
+  - name: People
+  - name: Organizations
+  - name: Cities
+paths:
+  /events/{id}.json:
+    $ref: paths/events_{id}.json.yaml
+  /series.json:
+    $ref: paths/series.json.yaml
+  /people.json:
+    $ref: paths/people.json.yaml
+  /organizations.json:
+    $ref: paths/organizations.json.yaml
+  /cities.json:
+    $ref: paths/cities.json.yaml

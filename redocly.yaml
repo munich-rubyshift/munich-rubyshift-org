@@ -1,0 +1,6 @@
+telemetry: "off"
+
+apis:
+  v1:
+    root: doc/api/v1/openapi.yaml
+    output: public/api/v1/schema.yaml

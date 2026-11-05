@@ -2,6 +2,7 @@
   "name": "app",
   "private": true,
   "devDependencies": {
+    "@redocly/cli": "^2.73.0",
     "esbuild": "^0.28.0",
     "esbuild-manifest-plugin": "^1.0.0",
     "esbuild-plugin-import-glob": "^0.1.1",
@@ -10,10 +11,15 @@
     "jasmine_dom_matchers": "^1.4.0"
   },
   "scripts": {
-    "build": "node esbuild.config.js"
+    "build": "node esbuild.config.js",
+    "schema:bundle": "REDOCLY_SUPPRESS_NOTIFICATIONS=true redocly bundle"
   },
   "type": "module",
   "dependencies": {
+    "swagger-ui-dist": "^5.34.1",
     "unpoly": "^3.14.2"
+  },
+  "scarfSettings": {
+    "enabled": false
   }
 }

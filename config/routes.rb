@@ -6,6 +6,14 @@ Rails.application.routes.draw do
   # get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
+  namespace :api do
+    resource :schema, only: :show
+    namespace :v1, format: true, constraints: { format: :json } do
+      resources :people, :cities, :organizations, :series, only: :index
+      resources :events, only: :show
+    end
+  end
+
   namespace :sponsors, path: "" do
     resources :sponsorships
     resources :sponsor_tiers

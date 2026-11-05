@@ -1,0 +1,23 @@
+type: object
+description: An event and the records that belong to it, like its venue and talks.
+required:
+  - jsonapi
+  - data
+  - included
+properties:
+  jsonapi:
+    $ref: ./JsonApi.yaml
+  data:
+    $ref: ./Event.yaml
+  included:
+    type: array
+    items:
+      oneOf:
+        - $ref: ./Venue.yaml
+        - $ref: ./Address.yaml
+        - $ref: ./Talk.yaml
+        - $ref: ./SponsorTier.yaml
+        - $ref: ./Sponsorship.yaml
+        - $ref: ./Involvement.yaml
+        - $ref: ./CFP.yaml
+additionalProperties: false

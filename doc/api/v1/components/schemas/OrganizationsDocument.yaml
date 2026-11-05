@@ -1,0 +1,15 @@
+type: object
+required:
+  - jsonapi
+  - links
+  - data
+properties:
+  jsonapi:
+    $ref: ./JsonApi.yaml
+  links:
+    $ref: ./PageLinks.yaml
+  data:
+    type: array
+    items:
+      $ref: ./Organization.yaml
+additionalProperties: false

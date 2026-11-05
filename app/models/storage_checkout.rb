@@ -17,6 +17,13 @@ module StorageCheckout
     raise NotCheckedOut, not_checked_out_message unless checked_out?
   end
 
+  def file_present?(attachment)
+    return true if attachment.service.exist?(attachment.key)
+    raise FileMissing, file_missing_message(attachment.filename) if checked_out?
+
+    false
+  end
+
   def not_checked_out_message
     "#{relative_root} isn't checked out, run `git submodule update --init #{relative_root}` first"
   end

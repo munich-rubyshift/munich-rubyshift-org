@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Munich Rubyshift API</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%# Nothing may load from other hosts. Swagger UI sets inline styles, so those stay allowed. %>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+
+    <link rel="icon" href="/ruby.png" type="image/png">
+    <link rel="icon" href="/ruby.svg" type="image/svg+xml">
+
+    <%= stylesheet_link_tag "api_reference" %>
+    <%= javascript_include_tag "api_reference", type: "module", defer: true %>
+  </head>
+
+  <body>
+    <div id="api-reference"></div>
+  </body>
+</html>

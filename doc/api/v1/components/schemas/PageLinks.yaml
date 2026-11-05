@@ -1,0 +1,11 @@
+type: object
+description: Links between the pages of a list.
+required:
+  - next
+properties:
+  next:
+    type:
+      - string
+      - 'null'
+    description: The URL of the next page, or `null` on the last one. For now, every list fits on one page.
+additionalProperties: false

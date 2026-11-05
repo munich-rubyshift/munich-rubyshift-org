@@ -1,0 +1,11 @@
+type: object
+description: An address, included in the document of its venue's event.
+required:
+  - type
+  - id
+properties:
+  type:
+    const: addresses
+  id:
+    $ref: ./Slug.yaml
+additionalProperties: false
