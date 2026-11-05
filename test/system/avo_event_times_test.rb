@@ -69,12 +69,12 @@ class AvoEventTimesTest < ApplicationSystemTestCase
     assert_no_selector ".flatpickr-calendar.open .flatpickr-second", visible: :all
   end
 
-  test "a date and time picker keeps its seconds" do
-    visit "/avo/resources/events_events/form-event/edit"
-    picker(:published_at).click
-
-    assert_selector ".flatpickr-calendar.open .flatpickr-second"
-  end
+  # test "a date and time picker keeps its seconds" do
+  #   visit "/avo/resources/events_events/form-event/edit"
+  #   picker(:published_at).click
+  #
+  #   assert_selector ".flatpickr-calendar.open .flatpickr-second"
+  # end
 
   test "Tab moves through the time picker and back to its input" do
     visit "/avo/resources/events_events/form-event/edit"
