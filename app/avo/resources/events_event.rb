@@ -49,9 +49,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :meetup, as: :text, sortable: true, **series_default_options(:meetup)
     field :luma, as: :text, sortable: true, **series_default_options(:luma)
 
-    field :published_at, as: :date_time, sortable: true
     field :announced_on, as: :date, sortable: true
-    field :last_edition, as: :boolean, sortable: true
 
     field :cfps, as: :has_many
   end
