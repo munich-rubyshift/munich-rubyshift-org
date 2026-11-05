@@ -1,0 +1,17 @@
+get:
+  tags:
+    - People
+  operationId: listPeople
+  summary: List people
+  description: >
+    Speakers and everyone with a role at an event, like organizers, each with
+    all of their data.
+
+    People who only attended an event are left out.
+  responses:
+    '200':
+      description: All speakers and people with a role.
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/PeopleDocument.yaml

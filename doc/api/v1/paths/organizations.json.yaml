@@ -1,0 +1,13 @@
+get:
+  tags:
+    - Organizations
+  operationId: listOrganizations
+  summary: List organizations
+  description: All organizations, like hosts and sponsors, each with all of its data.
+  responses:
+    '200':
+      description: All organizations.
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/OrganizationsDocument.yaml

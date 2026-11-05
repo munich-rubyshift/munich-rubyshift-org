@@ -1,0 +1,11 @@
+type: object
+description: A person, listed in `/people.json`.
+required:
+  - type
+  - id
+properties:
+  type:
+    const: people
+  id:
+    $ref: ./Slug.yaml
+additionalProperties: false

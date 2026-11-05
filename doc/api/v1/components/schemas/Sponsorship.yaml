@@ -1,0 +1,48 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+  - relationships
+properties:
+  type:
+    const: sponsorships
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    type: object
+    required:
+      - name
+      - rubyevents_slug
+      - badge
+      - description
+    properties:
+      name:
+        type:
+          - string
+          - 'null'
+        description: What the organization sponsored, like "Location & Drinks".
+      rubyevents_slug:
+        $ref: ./RubyeventsSlug.yaml
+      badge:
+        type:
+          - string
+          - 'null'
+      description:
+        $ref: ./Markdown.yaml
+    additionalProperties: false
+  relationships:
+    type: object
+    required:
+      - organization
+    properties:
+      organization:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            $ref: ./OrganizationIdentifier.yaml
+        additionalProperties: false
+    additionalProperties: false
+additionalProperties: false

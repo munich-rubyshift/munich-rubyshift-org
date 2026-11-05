@@ -1,0 +1,43 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+properties:
+  type:
+    const: organizations
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    type: object
+    required:
+      - name
+      - legal_name
+      - rubyevents_slug
+      - website
+      - logo_url
+    properties:
+      name:
+        type:
+          - string
+          - 'null'
+        description: The brand, like "Freeletics".
+      legal_name:
+        type:
+          - string
+          - 'null'
+        description: The registered name, like "Freeletics GmbH".
+      rubyevents_slug:
+        $ref: ./RubyeventsSlug.yaml
+        description: >-
+          Derived from the name the way RubyEvents slugs organizations, so the
+          organization may not be listed there.
+      website:
+        $ref: ./Url.yaml
+      logo_url:
+        $ref: ./Url.yaml
+        description: >-
+          The path of the organization's logo on our website, a PNG, JPEG, GIF
+          or WebP image.
+    additionalProperties: false
+additionalProperties: false

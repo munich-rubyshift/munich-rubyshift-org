@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TranscriptSchema",
+  "type": "object",
+  "properties": {
+    "video_id": {
+      "type": "string",
+      "description": "Video ID on the provider platform"
+    },
+    "cues": {
+      "type": "array",
+      "description": "Transcript cues",
+      "items": {
+        "type": "object",
+        "properties": {
+          "start_time": {
+            "type": "string",
+            "description": "Start timestamp (HH:MM:SS.mmm)"
+          },
+          "end_time": {
+            "type": "string",
+            "description": "End timestamp (HH:MM:SS.mmm)"
+          },
+          "text": {
+            "type": "string",
+            "description": "Transcript text for this cue"
+          }
+        },
+        "required": [
+          "start_time",
+          "end_time",
+          "text"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "video_id",
+    "cues"
+  ],
+  "additionalProperties": false
+}

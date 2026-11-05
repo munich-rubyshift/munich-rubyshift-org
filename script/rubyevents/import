@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+# Imports Munich Rubyshift into rubyevents' data files, read from our JSON:API.
+#
+#   script/rubyevents/import [--api URL] [--yerba PATH]
+#
+# Copies snapshot/, a copy of rubyevents' Yerbafile, schemas and global lists, to
+# tmp/rubyevents. Then writes our series there, merges the people, organizations
+# and cities it refers to into the global lists, and formats everything with
+# `yerba apply`.
+
+require "optparse"
+require "fileutils"
+require "uri"
+require_relative "lib/json_api"
+require_relative "lib/rubyevents"
+
+options = { api: "http://localhost:3000/api/v1", yerba: ENV.fetch("YERBA", "yerba") }
+OptionParser.new do |parser|
+  parser.on("--api URL", "The API to read (#{options[:api]})") { |url| options[:api] = url }
+  parser.on("--yerba PATH", "The yerba executable (YERBA or yerba on the PATH)") { |path| options[:yerba] = path }
+end.parse!
+
+store = MunichRubyshift.fetch(options[:api])
+
+out = File.expand_path("../../tmp/rubyevents", __dir__)
+FileUtils.rm_rf(out)
+FileUtils.cp_r(File.join(__dir__, "snapshot"), out)
+
+site = URI(options[:api]).tap { |uri| uri.path = "" }.to_s
+report = Rubyevents::Import.new(store, site:).write(out)
+
+system(options[:yerba], "apply", chdir: out, exception: true)
+
+report.each do |topic, names|
+  puts "#{topic} (#{names.size}):", names.map { |name| "  #{name}" }
+end
+puts "Wrote #{out}"

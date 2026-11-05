@@ -13,6 +13,13 @@ end
 Parklife.application.routes do
   root crawl: true
 
+  # Parklife only follows links on HTML pages.
+  get api_v1_people_path(format: :json)
+  get api_v1_cities_path(format: :json)
+  get api_v1_organizations_path(format: :json)
+  get api_v1_series_index_path(format: :json)
+  Events::Event.find_each { |event| get api_v1_event_path(event, format: :json) }
+
   # Add further paths not discovered by crawling from the root - Parklife's
   # Rails integration lets you use the app's route helpers:
   #

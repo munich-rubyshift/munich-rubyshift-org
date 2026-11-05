@@ -7,8 +7,6 @@ one:
   organization: one
   sponsor_tier: one
   description: MyText
-  website: MyString
-  logo_url: MyString
   badge: MyString
 
 two:
@@ -18,6 +16,4 @@ two:
   organization: two
   sponsor_tier: two
   description: MyText
-  website: MyString
-  logo_url: MyString
   badge: MyString

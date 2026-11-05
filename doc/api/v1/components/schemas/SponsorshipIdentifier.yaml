@@ -1,0 +1,11 @@
+type: object
+description: A sponsorship, included in the document of its event.
+required:
+  - type
+  - id
+properties:
+  type:
+    const: sponsorships
+  id:
+    $ref: ./Slug.yaml
+additionalProperties: false

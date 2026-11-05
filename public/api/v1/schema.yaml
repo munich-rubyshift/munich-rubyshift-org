@@ -1,0 +1,1377 @@
+openapi: 3.1.1
+info:
+  title: Munich Rubyshift
+  version: v1
+  summary: The events of the Munich Rubyshift meetup, their talks, people, organizations and places.
+  description: |
+    The data behind [munich-rubyshift.org](https://munich-rubyshift.org) as static JSON files,
+    rebuilt whenever the website is. The documents follow [JSON:API 1.1](https://jsonapi.org/format/1.1/),
+    with these simplifications:
+
+    - Only `GET` requests. There are no query parameters, so no pagination, filtering, sorting,
+      `include` or sparse fieldsets. Each list holds all of its records.
+    - The files are served as `application/json`, since the static host picks the media type.
+
+    Conventions:
+
+    - A resource's `id` is its slug. Records refer to each other through relationships, by `type` and
+      `id`. An event's document includes the records that belong to it, like its venue and talks. Look
+      up the others in the list for their type, like `/people.json` for `people`, and an event at
+      `/events/{id}.json`.
+    - `rubyevents_slug` names the same record on [RubyEvents](https://www.rubyevents.org). Use it to
+      store a record, and `id` only to relate records to each other within this API.
+    - Attributes hold the values as we keep them: all keys are always present, and `null` means we
+      don't know or it doesn't apply. Where `null` carries a meaning, like falling back to the series,
+      the attribute says so.
+    - Long texts are Markdown, limited to paragraphs, line breaks, links, emphasis, inline code, lists
+      and two levels of headings.
+
+    ![The resources and how they refer to each other](/api/v1/resources.svg)
+servers:
+  - url: /api/v1
+tags:
+  - name: Events
+  - name: Series
+  - name: People
+  - name: Organizations
+  - name: Cities
+paths:
+  /events/{id}.json:
+    get:
+      tags:
+        - Events
+      operationId: showEvent
+      summary: Show an event
+      description: An event with its venue, talks, sponsors, involvements and CFPs.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The event's slug, as listed in the `events` of its series.
+          schema:
+            $ref: '#/components/schemas/Slug'
+          example: meetup-2026-04-23
+      responses:
+        '200':
+          description: The event.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EventDocument'
+        '404':
+          description: No event has this id.
+  /series.json:
+    get:
+      tags:
+        - Series
+      operationId: listSeries
+      summary: List series
+      description: All event series, each with all of its data.
+      responses:
+        '200':
+          description: All series.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SeriesDocument'
+  /people.json:
+    get:
+      tags:
+        - People
+      operationId: listPeople
+      summary: List people
+      description: |
+        Speakers and everyone with a role at an event, like organizers, each with all of their data.
+        People who only attended an event are left out.
+      responses:
+        '200':
+          description: All speakers and people with a role.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PeopleDocument'
+  /organizations.json:
+    get:
+      tags:
+        - Organizations
+      operationId: listOrganizations
+      summary: List organizations
+      description: All organizations, like hosts and sponsors, each with all of its data.
+      responses:
+        '200':
+          description: All organizations.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrganizationsDocument'
+  /cities.json:
+    get:
+      tags:
+        - Cities
+      operationId: listCities
+      summary: List cities
+      description: All cities our venues are in, each with all of its data.
+      responses:
+        '200':
+          description: All cities.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CitiesDocument'
+components:
+  schemas:
+    Slug:
+      type: string
+      description: The record's slug, unique among the records of its type.
+      examples:
+        - meetup-2026-04-23
+    JsonApi:
+      type: object
+      description: The JSON:API version the document follows.
+      required:
+        - version
+      properties:
+        version:
+          const: '1.1'
+      additionalProperties: false
+    RubyeventsSlug:
+      type:
+        - string
+        - 'null'
+      description: The slug of the same record on RubyEvents.
+    Date:
+      type:
+        - string
+        - 'null'
+      format: date
+    TimeOfDay:
+      type:
+        - string
+        - 'null'
+      description: A wall clock time in the time zone of the event's series.
+      pattern: ^([01][0-9]|2[0-3]):[0-5][0-9]$
+      examples:
+        - '19:00'
+    Markdown:
+      type:
+        - string
+        - 'null'
+      description: Markdown, see the conventions above.
+    Url:
+      type:
+        - string
+        - 'null'
+      description: A URL.
+    EventAttributes:
+      type: object
+      required:
+        - title
+        - rubyevents_slug
+        - kind
+        - status
+        - attendance_mode
+        - last_edition
+        - start_date
+        - start_time
+        - end_date
+        - end_time
+        - date_precision
+        - announced_on
+        - published_at
+        - description
+        - tickets_url
+        - website
+        - twitter_username
+        - mastodon
+        - github
+        - meetup
+        - luma
+        - participants_count
+      properties:
+        title:
+          type:
+            - string
+            - 'null'
+          description: The event's own title. Often generic, like "Ruby Meetup April 2026".
+        rubyevents_slug:
+          $ref: '#/components/schemas/RubyeventsSlug'
+        kind:
+          type:
+            - string
+            - 'null'
+          enum:
+            - conference
+            - meetup
+            - retreat
+            - hackathon
+            - event
+            - workshop
+            - null
+        status:
+          type:
+            - string
+            - 'null'
+          enum:
+            - cancelled
+            - postponed
+            - scheduled
+            - null
+        attendance_mode:
+          type: string
+          description: An online event has no venue.
+          enum:
+            - in_person
+            - hybrid
+            - online
+        last_edition:
+          type: boolean
+          description: Whether the series ends with this event.
+        start_date:
+          $ref: '#/components/schemas/Date'
+          description: '`null` while the event has no date yet, and then so is `end_date`.'
+        start_time:
+          $ref: '#/components/schemas/TimeOfDay'
+        end_date:
+          $ref: '#/components/schemas/Date'
+        end_time:
+          $ref: '#/components/schemas/TimeOfDay'
+        date_precision:
+          type:
+            - string
+            - 'null'
+          description: How exact the dates are, for events whose day or month isn't known.
+          enum:
+            - year
+            - month
+            - day
+            - null
+        announced_on:
+          $ref: '#/components/schemas/Date'
+          description: When the event was announced.
+        published_at:
+          type:
+            - string
+            - 'null'
+          format: date-time
+          description: When the recordings of the event's talks were published.
+        description:
+          $ref: '#/components/schemas/Markdown'
+        tickets_url:
+          $ref: '#/components/schemas/Url'
+          description: Where to get tickets or sign up.
+        website:
+          $ref: '#/components/schemas/Url'
+          description: The event's own website. `null` means the series' website applies.
+        twitter_username:
+          type:
+            - string
+            - 'null'
+          description: The event's own X (Twitter) handle, without the @. `null` means the series' handle applies.
+        mastodon:
+          $ref: '#/components/schemas/Url'
+          description: The event's own Mastodon profile URL. `null` means the series' profile applies.
+        github:
+          $ref: '#/components/schemas/Url'
+          description: The event's own GitHub URL. `null` means the series' GitHub URL applies.
+        meetup:
+          $ref: '#/components/schemas/Url'
+          description: The event's own Meetup.com URL. `null` means the series' Meetup.com group applies.
+        luma:
+          $ref: '#/components/schemas/Url'
+          description: The event's own Luma URL. `null` means the series' Luma calendar applies.
+        participants_count:
+          type: integer
+          minimum: 0
+          description: How many people we know attended. Attendees aren't named.
+      additionalProperties: false
+    SeriesIdentifier:
+      type: object
+      description: A series, listed in `/series.json`.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: series
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    VenueIdentifier:
+      type: object
+      description: A venue, included in the document of its event.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: venues
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    TalkIdentifier:
+      type: object
+      description: A talk, included in the document of its event.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: talks
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    SponsorTierIdentifier:
+      type: object
+      description: A sponsor tier, included in the document of its event.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: sponsor_tiers
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    InvolvementId:
+      type: string
+      description: An involvement's id joins the slugs of its event, its role and its person or organization.
+      examples:
+        - meetup-2026-04-23-organizer-klaus-weidinger
+    InvolvementIdentifier:
+      type: object
+      description: An involvement, included in the document of its event.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: involvements
+        id:
+          $ref: '#/components/schemas/InvolvementId'
+      additionalProperties: false
+    CFPIdentifier:
+      type: object
+      description: A call for proposals, included in the document of its event.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: cfps
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    Event:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+        - relationships
+      properties:
+        type:
+          const: events
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          $ref: '#/components/schemas/EventAttributes'
+        relationships:
+          type: object
+          required:
+            - series
+            - venue
+            - talks
+            - sponsor_tiers
+            - involvements
+            - cfps
+          properties:
+            series:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  $ref: '#/components/schemas/SeriesIdentifier'
+              additionalProperties: false
+            venue:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  description: Where the event takes place. `null` for an online event, or while the venue is unknown.
+                  oneOf:
+                    - $ref: '#/components/schemas/VenueIdentifier'
+                    - type: 'null'
+              additionalProperties: false
+            talks:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: array
+                  description: The talks in running order.
+                  items:
+                    $ref: '#/components/schemas/TalkIdentifier'
+              additionalProperties: false
+            sponsor_tiers:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: array
+                  description: The sponsor tiers, lowest level first.
+                  items:
+                    $ref: '#/components/schemas/SponsorTierIdentifier'
+              additionalProperties: false
+            involvements:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: array
+                  description: Who had a role at the event, like the organizers.
+                  items:
+                    $ref: '#/components/schemas/InvolvementIdentifier'
+              additionalProperties: false
+            cfps:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: array
+                  description: The event's calls for proposals, in the order they open.
+                  items:
+                    $ref: '#/components/schemas/CFPIdentifier'
+              additionalProperties: false
+          additionalProperties: false
+      additionalProperties: false
+    Map:
+      type: object
+      required:
+        - google_url
+        - apple_url
+        - openstreetmap_url
+      properties:
+        google_url:
+          $ref: '#/components/schemas/Url'
+        apple_url:
+          $ref: '#/components/schemas/Url'
+        openstreetmap_url:
+          $ref: '#/components/schemas/Url'
+      additionalProperties: false
+    AddressIdentifier:
+      type: object
+      description: An address, included in the document of its venue's event.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: addresses
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    OrganizationIdentifier:
+      type: object
+      description: An organization, listed in `/organizations.json`.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: organizations
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    Venue:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+        - relationships
+      properties:
+        type:
+          const: venues
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          type: object
+          required:
+            - name
+            - rubyevents_slug
+            - website
+            - description
+            - instructions
+            - accessibility_wheelchair
+            - accessibility_elevators
+            - accessibility_restrooms
+            - accessibility_notes
+            - nearby_public_transport
+            - nearby_parking
+            - map
+          properties:
+            name:
+              type:
+                - string
+                - 'null'
+            rubyevents_slug:
+              $ref: '#/components/schemas/RubyeventsSlug'
+            website:
+              $ref: '#/components/schemas/Url'
+            description:
+              $ref: '#/components/schemas/Markdown'
+            instructions:
+              $ref: '#/components/schemas/Markdown'
+              description: How to get in, like which door or floor.
+            accessibility_wheelchair:
+              type: boolean
+              description: Whether the venue is wheelchair accessible. `false` also means we haven't checked.
+            accessibility_elevators:
+              type: boolean
+              description: Whether the venue has elevators. `false` also means we haven't checked.
+            accessibility_restrooms:
+              type: boolean
+              description: Whether the venue has accessible restrooms. `false` also means we haven't checked.
+            accessibility_notes:
+              $ref: '#/components/schemas/Markdown'
+            nearby_public_transport:
+              $ref: '#/components/schemas/Markdown'
+            nearby_parking:
+              $ref: '#/components/schemas/Markdown'
+            map:
+              description: Links to the venue on map services, where we picked them by hand. The coordinates of the address always pin it.
+              oneOf:
+                - $ref: '#/components/schemas/Map'
+                - type: 'null'
+          additionalProperties: false
+        relationships:
+          type: object
+          required:
+            - address
+            - organization
+          properties:
+            address:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  $ref: '#/components/schemas/AddressIdentifier'
+              additionalProperties: false
+            organization:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  description: The organization whose venue it is, like the company hosting a meetup in its office.
+                  oneOf:
+                    - $ref: '#/components/schemas/OrganizationIdentifier'
+                    - type: 'null'
+              additionalProperties: false
+          additionalProperties: false
+      additionalProperties: false
+    Coordinates:
+      type: object
+      required:
+        - latitude
+        - longitude
+      properties:
+        latitude:
+          type: number
+          minimum: -90
+          maximum: 90
+        longitude:
+          type: number
+          minimum: -180
+          maximum: 180
+      additionalProperties: false
+    CityIdentifier:
+      type: object
+      description: A city, listed in `/cities.json`.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: cities
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    Address:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+        - relationships
+      properties:
+        type:
+          const: addresses
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          type: object
+          required:
+            - street
+            - zip_code
+            - coordinates
+          properties:
+            street:
+              type:
+                - string
+                - 'null'
+              description: The street and house number.
+            zip_code:
+              type:
+                - string
+                - 'null'
+            coordinates:
+              $ref: '#/components/schemas/Coordinates'
+          additionalProperties: false
+        relationships:
+          type: object
+          required:
+            - city
+          properties:
+            city:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  $ref: '#/components/schemas/CityIdentifier'
+              additionalProperties: false
+          additionalProperties: false
+      additionalProperties: false
+    LanguageCode:
+      type: string
+      description: The ISO 639-1 code of the language.
+      enum:
+        - en
+        - de
+    AdditionalResource:
+      type: object
+      description: Something about the talk elsewhere, like its source code or a write-up.
+      required:
+        - kind
+        - name
+        - title
+        - url
+      properties:
+        kind:
+          type: string
+          enum:
+            - write-up
+            - blog
+            - article
+            - source-code
+            - code
+            - repo
+            - github
+            - documentation
+            - docs
+            - presentation
+            - video
+            - podcast
+            - audio
+            - gem
+            - library
+            - transcript
+            - handout
+            - notes
+            - photos
+            - link
+            - book
+        name:
+          type: string
+          description: A short name to show, like "GitHub".
+        title:
+          type:
+            - string
+            - 'null'
+          description: The full title of the resource.
+        url:
+          type: string
+      additionalProperties: false
+    PersonIdentifier:
+      type: object
+      description: A person, listed in `/people.json`.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: people
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    Talk:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+        - relationships
+      properties:
+        type:
+          const: talks
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          type: object
+          required:
+            - title
+            - rubyevents_slug
+            - kind
+            - language_code
+            - description
+            - slides_url
+            - announced_on
+            - additional_resources
+          properties:
+            title:
+              type: string
+            rubyevents_slug:
+              $ref: '#/components/schemas/RubyeventsSlug'
+            kind:
+              type: string
+              enum:
+                - keynote
+                - talk
+                - lightning_talk
+                - open_mic
+                - announcement
+                - city_pitch
+                - panel
+                - workshop
+                - gameshow
+                - podcast
+                - q_and_a
+                - discussion
+                - fireside_chat
+                - interview
+                - award
+                - demo
+                - trailer
+                - recap
+                - aftermovie
+                - intro
+                - outro
+            language_code:
+              $ref: '#/components/schemas/LanguageCode'
+            description:
+              $ref: '#/components/schemas/Markdown'
+            slides_url:
+              $ref: '#/components/schemas/Url'
+            announced_on:
+              $ref: '#/components/schemas/Date'
+              description: When the talk was announced. `null` means together with its event, on the event's `announced_on`.
+            additional_resources:
+              type: array
+              items:
+                $ref: '#/components/schemas/AdditionalResource'
+          additionalProperties: false
+        relationships:
+          type: object
+          required:
+            - speakers
+          properties:
+            speakers:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/PersonIdentifier'
+              additionalProperties: false
+          additionalProperties: false
+      additionalProperties: false
+    SponsorshipIdentifier:
+      type: object
+      description: A sponsorship, included in the document of its event.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: sponsorships
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    SponsorTier:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+        - relationships
+      properties:
+        type:
+          const: sponsor_tiers
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          type: object
+          required:
+            - name
+            - rubyevents_slug
+            - level
+            - description
+          properties:
+            name:
+              type:
+                - string
+                - 'null'
+            rubyevents_slug:
+              $ref: '#/components/schemas/RubyeventsSlug'
+            level:
+              type:
+                - integer
+                - 'null'
+              description: The rank of the tier. Tiers are sorted by it, lowest first.
+            description:
+              $ref: '#/components/schemas/Markdown'
+          additionalProperties: false
+        relationships:
+          type: object
+          required:
+            - sponsorships
+          properties:
+            sponsorships:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/SponsorshipIdentifier'
+              additionalProperties: false
+          additionalProperties: false
+      additionalProperties: false
+    Sponsorship:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+        - relationships
+      properties:
+        type:
+          const: sponsorships
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          type: object
+          required:
+            - name
+            - rubyevents_slug
+            - badge
+            - description
+          properties:
+            name:
+              type:
+                - string
+                - 'null'
+              description: What the organization sponsored, like "Location & Drinks".
+            rubyevents_slug:
+              $ref: '#/components/schemas/RubyeventsSlug'
+            badge:
+              type:
+                - string
+                - 'null'
+            description:
+              $ref: '#/components/schemas/Markdown'
+          additionalProperties: false
+        relationships:
+          type: object
+          required:
+            - organization
+          properties:
+            organization:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  $ref: '#/components/schemas/OrganizationIdentifier'
+              additionalProperties: false
+          additionalProperties: false
+      additionalProperties: false
+    Involvement:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+        - relationships
+      properties:
+        type:
+          const: involvements
+        id:
+          $ref: '#/components/schemas/InvolvementId'
+        attributes:
+          type: object
+          required:
+            - role
+          properties:
+            role:
+              type:
+                - string
+                - 'null'
+              examples:
+                - Organizer
+          additionalProperties: false
+        relationships:
+          type: object
+          required:
+            - entity
+          properties:
+            entity:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  description: The person or organization with the role.
+                  oneOf:
+                    - $ref: '#/components/schemas/PersonIdentifier'
+                    - $ref: '#/components/schemas/OrganizationIdentifier'
+              additionalProperties: false
+          additionalProperties: false
+      additionalProperties: false
+    CFP:
+      type: object
+      description: A call for proposals.
+      required:
+        - type
+        - id
+        - attributes
+      properties:
+        type:
+          const: cfps
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          type: object
+          required:
+            - name
+            - open_date
+            - close_date
+            - external_url
+          properties:
+            name:
+              type: string
+              examples:
+                - Call for Proposals
+            open_date:
+              $ref: '#/components/schemas/Date'
+            close_date:
+              $ref: '#/components/schemas/Date'
+              description: The last day to submit. `null` means the day before the event starts.
+            external_url:
+              $ref: '#/components/schemas/Url'
+              description: Where to submit. `null` means through the CFP's page on our website, at `/cfps/{id}`.
+          additionalProperties: false
+      additionalProperties: false
+    EventDocument:
+      type: object
+      description: An event and the records that belong to it, like its venue and talks.
+      required:
+        - jsonapi
+        - data
+        - included
+      properties:
+        jsonapi:
+          $ref: '#/components/schemas/JsonApi'
+        data:
+          $ref: '#/components/schemas/Event'
+        included:
+          type: array
+          items:
+            oneOf:
+              - $ref: '#/components/schemas/Venue'
+              - $ref: '#/components/schemas/Address'
+              - $ref: '#/components/schemas/Talk'
+              - $ref: '#/components/schemas/SponsorTier'
+              - $ref: '#/components/schemas/Sponsorship'
+              - $ref: '#/components/schemas/Involvement'
+              - $ref: '#/components/schemas/CFP'
+      additionalProperties: false
+    EventIdentifier:
+      type: object
+      description: An event, at `/events/{id}.json`.
+      required:
+        - type
+        - id
+      properties:
+        type:
+          const: events
+        id:
+          $ref: '#/components/schemas/Slug'
+      additionalProperties: false
+    Series:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+        - relationships
+      properties:
+        type:
+          const: series
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          type: object
+          required:
+            - name
+            - rubyevents_slug
+            - kind
+            - frequency
+            - language_code
+            - default_country_code
+            - time_zone
+            - ended
+            - description
+            - website
+            - twitter_username
+            - mastodon
+            - bluesky_handle
+            - github
+            - meetup
+            - luma
+            - guild
+            - linkedin
+            - discord
+            - facebook
+          properties:
+            name:
+              type:
+                - string
+                - 'null'
+            rubyevents_slug:
+              $ref: '#/components/schemas/RubyeventsSlug'
+            kind:
+              type:
+                - string
+                - 'null'
+              enum:
+                - conference
+                - meetup
+                - retreat
+                - hackathon
+                - event
+                - podcast
+                - online
+                - organisation
+                - workshop
+                - null
+            frequency:
+              type:
+                - string
+                - 'null'
+              enum:
+                - yearly
+                - monthly
+                - weekly
+                - irregular
+                - biweekly
+                - biyearly
+                - quarterly
+                - null
+            language_code:
+              description: The language of the series' events.
+              oneOf:
+                - $ref: '#/components/schemas/LanguageCode'
+                - type: 'null'
+            default_country_code:
+              type:
+                - string
+                - 'null'
+              description: The ISO 3166-1 alpha-2 code of the country the series' events usually take place in.
+              examples:
+                - DE
+            time_zone:
+              type: string
+              description: The IANA time zone of the series' events. Their `start_time` and `end_time` are wall clock times there.
+              examples:
+                - Europe/Berlin
+            ended:
+              type: boolean
+              description: Whether the series has stopped for good.
+            description:
+              $ref: '#/components/schemas/Markdown'
+            website:
+              $ref: '#/components/schemas/Url'
+            twitter_username:
+              type:
+                - string
+                - 'null'
+              description: The X (Twitter) handle, without the @.
+            mastodon:
+              $ref: '#/components/schemas/Url'
+              description: The Mastodon profile URL.
+            bluesky_handle:
+              type:
+                - string
+                - 'null'
+              description: The Bluesky handle.
+            github:
+              $ref: '#/components/schemas/Url'
+              description: The GitHub organization or repository URL.
+            meetup:
+              $ref: '#/components/schemas/Url'
+              description: The Meetup.com group URL.
+            luma:
+              $ref: '#/components/schemas/Url'
+              description: The Luma calendar URL.
+            guild:
+              $ref: '#/components/schemas/Url'
+              description: The Guild URL.
+            linkedin:
+              $ref: '#/components/schemas/Url'
+              description: The LinkedIn page or group URL.
+            discord:
+              $ref: '#/components/schemas/Url'
+              description: The Discord invite URL.
+            facebook:
+              $ref: '#/components/schemas/Url'
+              description: The Facebook page URL.
+          additionalProperties: false
+        relationships:
+          type: object
+          required:
+            - events
+          properties:
+            events:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: array
+                  description: The series' events, newest first.
+                  items:
+                    $ref: '#/components/schemas/EventIdentifier'
+              additionalProperties: false
+          additionalProperties: false
+      additionalProperties: false
+    SeriesDocument:
+      type: object
+      required:
+        - jsonapi
+        - data
+      properties:
+        jsonapi:
+          $ref: '#/components/schemas/JsonApi'
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Series'
+      additionalProperties: false
+    Person:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+      properties:
+        type:
+          const: people
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          type: object
+          required:
+            - name
+            - rubyevents_slug
+            - website
+            - github_username
+            - twitter_username
+            - mastodon
+            - bluesky_handle
+            - linkedin_username
+            - speakerdeck_username
+            - meetup_id
+            - avatar_url
+          properties:
+            name:
+              type:
+                - string
+                - 'null'
+            rubyevents_slug:
+              $ref: '#/components/schemas/RubyeventsSlug'
+            website:
+              $ref: '#/components/schemas/Url'
+            github_username:
+              type:
+                - string
+                - 'null'
+              description: The GitHub username, not a URL.
+            twitter_username:
+              type:
+                - string
+                - 'null'
+              description: The X (Twitter) handle, without the @.
+            mastodon:
+              $ref: '#/components/schemas/Url'
+              description: The Mastodon profile URL, which names the server too.
+            bluesky_handle:
+              type:
+                - string
+                - 'null'
+              description: The Bluesky handle, like "anna.bsky.social".
+            linkedin_username:
+              type:
+                - string
+                - 'null'
+              description: The part of the LinkedIn profile URL after `/in/`.
+            speakerdeck_username:
+              type:
+                - string
+                - 'null'
+              description: The Speaker Deck username.
+            meetup_id:
+              type:
+                - string
+                - 'null'
+              description: The Meetup.com member id.
+            avatar_url:
+              $ref: '#/components/schemas/Url'
+              description: The path of the person's picture on our website, a PNG, JPEG, GIF or WebP image.
+          additionalProperties: false
+      additionalProperties: false
+    PeopleDocument:
+      type: object
+      required:
+        - jsonapi
+        - data
+      properties:
+        jsonapi:
+          $ref: '#/components/schemas/JsonApi'
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Person'
+      additionalProperties: false
+    Organization:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+      properties:
+        type:
+          const: organizations
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          type: object
+          required:
+            - name
+            - legal_name
+            - rubyevents_slug
+            - website
+            - logo_url
+          properties:
+            name:
+              type:
+                - string
+                - 'null'
+              description: The brand, like "Freeletics".
+            legal_name:
+              type:
+                - string
+                - 'null'
+              description: The registered name, like "Freeletics GmbH".
+            rubyevents_slug:
+              $ref: '#/components/schemas/RubyeventsSlug'
+              description: Derived from the name the way RubyEvents slugs organizations, so the organization may not be listed there.
+            website:
+              $ref: '#/components/schemas/Url'
+            logo_url:
+              $ref: '#/components/schemas/Url'
+              description: The path of the organization's logo on our website, a PNG, JPEG, GIF or WebP image.
+          additionalProperties: false
+      additionalProperties: false
+    OrganizationsDocument:
+      type: object
+      required:
+        - jsonapi
+        - data
+      properties:
+        jsonapi:
+          $ref: '#/components/schemas/JsonApi'
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Organization'
+      additionalProperties: false
+    City:
+      type: object
+      required:
+        - type
+        - id
+        - attributes
+      properties:
+        type:
+          const: cities
+        id:
+          $ref: '#/components/schemas/Slug'
+        attributes:
+          type: object
+          required:
+            - name
+            - rubyevents_slug
+            - state_code
+            - country_code
+            - coordinates
+          properties:
+            name:
+              type:
+                - string
+                - 'null'
+            rubyevents_slug:
+              $ref: '#/components/schemas/RubyeventsSlug'
+            state_code:
+              type:
+                - string
+                - 'null'
+              description: The code of the state or region within the country.
+              examples:
+                - BY
+            country_code:
+              type:
+                - string
+                - 'null'
+              description: The ISO 3166-1 alpha-2 code of the country.
+              examples:
+                - DE
+            coordinates:
+              $ref: '#/components/schemas/Coordinates'
+              description: The center of the city.
+          additionalProperties: false
+      additionalProperties: false
+    CitiesDocument:
+      type: object
+      required:
+        - jsonapi
+        - data
+      properties:
+        jsonapi:
+          $ref: '#/components/schemas/JsonApi'
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/City'
+      additionalProperties: false

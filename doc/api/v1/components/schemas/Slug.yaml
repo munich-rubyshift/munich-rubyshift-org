@@ -1,0 +1,4 @@
+type: string
+description: The record's slug, unique among the records of its type.
+examples:
+  - meetup-2026-04-23

@@ -56,6 +56,16 @@ To add or remove an image:
    ```
 3. Commit `content/data` and `content/storage` in this repo as usual.
 
+## API
+
+`/api/v1` publishes our data as JSON files. Its OpenAPI schema is served at
+`/api/v1/schema.yaml` and rendered with Swagger UI at `/api/schema`.
+
+The schema's sources live in `doc/api/v1`. After editing them, run
+`yarn schema:bundle` to regenerate `public/api/v1/schema.yaml`; a test fails
+until you do. `redocly.yaml` turns off Redocly CLI's telemetry, and the script
+turns off its update check.
+
 ## Troubleshooting
 
 Data:

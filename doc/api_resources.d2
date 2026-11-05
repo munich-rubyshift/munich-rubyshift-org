@@ -1,0 +1,213 @@
+# The resources of our JSON:API under /api/v1, as described in doc/api/v1.
+# Arrows point from the resource holding the foreign key to the one it refers to.
+# Edge labels name the API relationship that carries the link, as type.relationship.
+# Types ending in "?" may be null.
+
+vars: {
+  d2-config: {
+    layout-engine: tala
+    pad: 20
+  }
+}
+
+direction: right
+
+legend: |md
+  **/api/v1 resources**
+
+  Arrows point along the foreign key.
+
+  Labels name the relationship, as `type.relationship`.
+
+  Dashed: polymorphic.
+
+  Double arrow: many-to-many.
+| {
+  shape: text
+  near: top-left
+}
+
+lists: "Lists: /people.json, /organizations.json, /cities.json, /series.json" {
+  people: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    name: "string?"
+    rubyevents_slug: "string?"
+    website: "string?"
+    github_username: "string?"
+    twitter_username: "string?"
+    mastodon: "string?"
+    bluesky_handle: "string?"
+    linkedin_username: "string?"
+    speakerdeck_username: "string?"
+    meetup_id: "string?"
+    avatar_url: "string?"
+  }
+
+  organizations: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    name: "string?"
+    legal_name: "string?"
+    rubyevents_slug: "string?"
+    website: "string?"
+    logo_url: "string?"
+  }
+
+  cities: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    name: "string?"
+    rubyevents_slug: "string?"
+    state_code: "string?"
+    country_code: "string?"
+    coordinates: object
+  }
+
+  series: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    name: "string?"
+    rubyevents_slug: "string?"
+    kind: "enum?"
+    frequency: "enum?"
+    language_code: "enum?"
+    default_country_code: "string?"
+    time_zone: string
+    ended: boolean
+    description: "markdown?"
+    website: "string?"
+    twitter_username: "string?"
+    mastodon: "string?"
+    bluesky_handle: "string?"
+    github: "string?"
+    meetup: "string?"
+    luma: "string?"
+    guild: "string?"
+    linkedin: "string?"
+    discord: "string?"
+    facebook: "string?"
+  }
+}
+
+event_document: "Event document: /events/{id}.json, which includes all but the event" {
+  events: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    title: "string?"
+    rubyevents_slug: "string?"
+    kind: "enum?"
+    status: "enum?"
+    attendance_mode: enum
+    last_edition: boolean
+    start_date: "date?"
+    start_time: "HH:MM?"
+    end_date: "date?"
+    end_time: "HH:MM?"
+    date_precision: "enum?"
+    announced_on: "date?"
+    published_at: "datetime?"
+    description: "markdown?"
+    tickets_url: "string?"
+    website: "string?"
+    twitter_username: "string?"
+    mastodon: "string?"
+    github: "string?"
+    meetup: "string?"
+    luma: "string?"
+    participants_count: integer
+  }
+
+  venues: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    name: "string?"
+    rubyevents_slug: "string?"
+    website: "string?"
+    description: "markdown?"
+    instructions: "markdown?"
+    accessibility_wheelchair: boolean
+    accessibility_elevators: boolean
+    accessibility_restrooms: boolean
+    accessibility_notes: "markdown?"
+    nearby_public_transport: "markdown?"
+    nearby_parking: "markdown?"
+    map: "object?"
+  }
+
+  addresses: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    street: "string?"
+    zip_code: "string?"
+    coordinates: object
+  }
+
+  talks: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    title: string
+    rubyevents_slug: "string?"
+    kind: enum
+    language_code: enum
+    description: "markdown?"
+    slides_url: "string?"
+    announced_on: "date?"
+    additional_resources: array
+  }
+
+  sponsor_tiers: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    name: "string?"
+    rubyevents_slug: "string?"
+    level: "integer?"
+    description: "markdown?"
+  }
+
+  sponsorships: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    name: "string?"
+    rubyevents_slug: "string?"
+    badge: "string?"
+    description: "markdown?"
+  }
+
+  involvements: {
+    shape: sql_table
+    id: "event-role-entity slugs" {constraint: primary_key}
+    role: "string?"
+  }
+
+  cfps: {
+    shape: sql_table
+    id: slug {constraint: primary_key}
+    name: string
+    open_date: "date?"
+    close_date: "date?"
+    external_url: "string?"
+  }
+}
+
+event_document.events -> lists.series: "events.series, series.events"
+event_document.events -> event_document.venues: "events.venue"
+event_document.talks -> event_document.events: "events.talks"
+event_document.sponsor_tiers -> event_document.events: "events.sponsor_tiers"
+event_document.involvements -> event_document.events: "events.involvements"
+event_document.cfps -> event_document.events: "events.cfps"
+
+event_document.venues -> event_document.addresses: "venues.address"
+event_document.venues -> lists.organizations: "venues.organization"
+event_document.addresses -> lists.cities: "addresses.city"
+event_document.sponsorships -> event_document.sponsor_tiers: "sponsor_tiers.sponsorships"
+event_document.sponsorships -> lists.organizations: "sponsorships.organization"
+
+event_document.talks <-> lists.people: "talks.speakers"
+
+event_document.involvements -> lists.people: "involvements.entity" {
+  style.stroke-dash: 3
+}
+event_document.involvements -> lists.organizations: "involvements.entity" {
+  style.stroke-dash: 3
+}

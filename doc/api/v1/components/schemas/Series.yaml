@@ -1,0 +1,150 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+  - relationships
+properties:
+  type:
+    const: series
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    type: object
+    required:
+      - name
+      - rubyevents_slug
+      - kind
+      - frequency
+      - language_code
+      - default_country_code
+      - time_zone
+      - ended
+      - description
+      - website
+      - twitter_username
+      - mastodon
+      - bluesky_handle
+      - github
+      - meetup
+      - luma
+      - guild
+      - linkedin
+      - discord
+      - facebook
+    properties:
+      name:
+        type:
+          - string
+          - 'null'
+      rubyevents_slug:
+        $ref: ./RubyeventsSlug.yaml
+      kind:
+        type:
+          - string
+          - 'null'
+        enum:
+          - conference
+          - meetup
+          - retreat
+          - hackathon
+          - event
+          - podcast
+          - online
+          - organisation
+          - workshop
+          - null
+      frequency:
+        type:
+          - string
+          - 'null'
+        enum:
+          - yearly
+          - monthly
+          - weekly
+          - irregular
+          - biweekly
+          - biyearly
+          - quarterly
+          - null
+      language_code:
+        description: The language of the series' events.
+        oneOf:
+          - $ref: ./LanguageCode.yaml
+          - type: 'null'
+      default_country_code:
+        type:
+          - string
+          - 'null'
+        description: >-
+          The ISO 3166-1 alpha-2 code of the country the series' events usually
+          take place in.
+        examples:
+          - DE
+      time_zone:
+        type: string
+        description: >-
+          The IANA time zone of the series' events. Their `start_time` and
+          `end_time` are wall clock times there.
+        examples:
+          - Europe/Berlin
+      ended:
+        type: boolean
+        description: Whether the series has stopped for good.
+      description:
+        $ref: ./Markdown.yaml
+      website:
+        $ref: ./Url.yaml
+      twitter_username:
+        type:
+          - string
+          - 'null'
+        description: The X (Twitter) handle, without the @.
+      mastodon:
+        $ref: ./Url.yaml
+        description: The Mastodon profile URL.
+      bluesky_handle:
+        type:
+          - string
+          - 'null'
+        description: The Bluesky handle.
+      github:
+        $ref: ./Url.yaml
+        description: The GitHub organization or repository URL.
+      meetup:
+        $ref: ./Url.yaml
+        description: The Meetup.com group URL.
+      luma:
+        $ref: ./Url.yaml
+        description: The Luma calendar URL.
+      guild:
+        $ref: ./Url.yaml
+        description: The Guild URL.
+      linkedin:
+        $ref: ./Url.yaml
+        description: The LinkedIn page or group URL.
+      discord:
+        $ref: ./Url.yaml
+        description: The Discord invite URL.
+      facebook:
+        $ref: ./Url.yaml
+        description: The Facebook page URL.
+    additionalProperties: false
+  relationships:
+    type: object
+    required:
+      - events
+    properties:
+      events:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            type: array
+            description: The series' events, newest first.
+            items:
+              $ref: ./EventIdentifier.yaml
+        additionalProperties: false
+    additionalProperties: false
+additionalProperties: false

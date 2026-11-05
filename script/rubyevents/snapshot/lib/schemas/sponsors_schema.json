@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SponsorsSchema",
+  "type": "object",
+  "properties": {
+    "tiers": {
+      "type": "array",
+      "description": "List of sponsorship tiers",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Sponsorship Tier Name"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the sponsorship tier"
+          },
+          "level": {
+            "type": "integer",
+            "description": "Sponsorship level (lower number indicates higher level)"
+          },
+          "sponsors": {
+            "type": "array",
+            "description": "List of sponsors in this tier",
+            "items": {
+              "type": "object",
+              "properties": {
+                "slug": {
+                  "type": "string",
+                  "description": "Slug of the sponsoring organization in data/organizations.yml"
+                },
+                "badge": {
+                  "type": "string",
+                  "description": "Sponsor badge text"
+                }
+              },
+              "required": [
+                "slug"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "sponsors"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "tiers"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,90 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+  - relationships
+properties:
+  type:
+    const: events
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    $ref: ./EventAttributes.yaml
+  relationships:
+    type: object
+    required:
+      - series
+      - venue
+      - talks
+      - sponsor_tiers
+      - involvements
+      - cfps
+    properties:
+      series:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            $ref: ./SeriesIdentifier.yaml
+        additionalProperties: false
+      venue:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            description: >-
+              Where the event takes place. `null` for an online event, or while
+              the venue is unknown.
+            oneOf:
+              - $ref: ./VenueIdentifier.yaml
+              - type: 'null'
+        additionalProperties: false
+      talks:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            type: array
+            description: The talks in running order.
+            items:
+              $ref: ./TalkIdentifier.yaml
+        additionalProperties: false
+      sponsor_tiers:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            type: array
+            description: The sponsor tiers, lowest level first.
+            items:
+              $ref: ./SponsorTierIdentifier.yaml
+        additionalProperties: false
+      involvements:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            type: array
+            description: Who had a role at the event, like the organizers.
+            items:
+              $ref: ./InvolvementIdentifier.yaml
+        additionalProperties: false
+      cfps:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            type: array
+            description: The event's calls for proposals, in the order they open.
+            items:
+              $ref: ./CFPIdentifier.yaml
+        additionalProperties: false
+    additionalProperties: false
+additionalProperties: false

@@ -1,0 +1,12 @@
+type: object
+required:
+  - jsonapi
+  - data
+properties:
+  jsonapi:
+    $ref: ./JsonApi.yaml
+  data:
+    type: array
+    items:
+      $ref: ./Person.yaml
+additionalProperties: false

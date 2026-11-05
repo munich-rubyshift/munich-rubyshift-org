@@ -1,0 +1,50 @@
+type: object
+required:
+  - type
+  - id
+  - attributes
+  - relationships
+properties:
+  type:
+    const: sponsor_tiers
+  id:
+    $ref: ./Slug.yaml
+  attributes:
+    type: object
+    required:
+      - name
+      - rubyevents_slug
+      - level
+      - description
+    properties:
+      name:
+        type:
+          - string
+          - 'null'
+      rubyevents_slug:
+        $ref: ./RubyeventsSlug.yaml
+      level:
+        type:
+          - integer
+          - 'null'
+        description: The rank of the tier. Tiers are sorted by it, lowest first.
+      description:
+        $ref: ./Markdown.yaml
+    additionalProperties: false
+  relationships:
+    type: object
+    required:
+      - sponsorships
+    properties:
+      sponsorships:
+        type: object
+        required:
+          - data
+        properties:
+          data:
+            type: array
+            items:
+              $ref: ./SponsorshipIdentifier.yaml
+        additionalProperties: false
+    additionalProperties: false
+additionalProperties: false
