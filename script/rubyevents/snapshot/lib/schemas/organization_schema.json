@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OrganizationSchema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Organization name"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly slug for the organization, referenced from sponsors.yml and involvements.yml files"
+    },
+    "website": {
+      "type": "string",
+      "description": "Organization's website URL"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the organization"
+    },
+    "logo_url": {
+      "type": "string",
+      "description": "URL to the organization's logo image"
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Alternative names and slugs of the organization",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "slug"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "name",
+    "slug"
+  ],
+  "additionalProperties": false
+}
