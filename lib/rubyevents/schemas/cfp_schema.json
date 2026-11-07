@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CFPSchema",
+  "type": "object",
+  "properties": {
+    "link": {
+      "type": "string",
+      "description": "CFP link"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name for the CFP (default: \"Call for Proposals\")"
+    },
+    "open_date": {
+      "type": "string",
+      "description": "CFP open date (YYYY-MM-DD format)",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "close_date": {
+      "type": "string",
+      "description": "CFP close date (YYYY-MM-DD format)",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  },
+  "required": [
+    "link"
+  ],
+  "additionalProperties": false
+}

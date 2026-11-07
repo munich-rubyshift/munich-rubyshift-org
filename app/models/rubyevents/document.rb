@@ -1,0 +1,113 @@
+module Rubyevents
+  # One generated file. Subclasses map our records onto the shape rubyevents.org
+  # expects; this base holds the two rules that apply to all of them.
+  class Document
+    attr_reader :mode, :warnings
+
+    def initialize(mode:, warnings:)
+      @mode = mode
+      @warnings = warnings
+    end
+
+    def path
+      raise NotImplementedError
+    end
+
+    def content
+      raise NotImplementedError
+    end
+
+    # Memoised because #content records warnings as a side effect, and
+    # because the export asks twice: once to skip empty files, once to write.
+    def document
+      @document ||= compact(content)
+    end
+
+    def to_yaml
+      document.to_yaml
+    end
+
+    def empty?
+      document.blank?
+    end
+
+    private
+
+    def lenient?
+      mode == :lenient
+    end
+
+    # Decision 23. A strict export copies what we hold, blanks included, and
+    # lets the schema check fail loudly on what is missing. A lenient export
+    # substitutes so the check passes, for experimenting before the data is
+    # complete.
+    def fallback(value, fake)
+      return value unless lenient?
+
+      value.presence || fake
+    end
+
+    # Decision 17.1A. Blank strings are how our dumps spell "unset", and
+    # upstream simply omits those keys. `false` and `0` are NOT blank here:
+    # `ended: false` is a statement, and `coordinates: false` is how upstream
+    # marks an online event. This is why `compact_blank` cannot be used.
+    def compact(node)
+      case node
+      when Hash then node.to_h { |key, value| [ key, compact(value) ] }.reject { |key, value| blank_value?(value) && !key.in?(keep_blank) }
+      when Array then node.map { compact(_1) }.reject { |value| blank_value?(value) }
+      else node
+      end
+    end
+
+    # Keys upstream requires even when we have nothing to put in them.
+    def keep_blank
+      []
+    end
+
+    # Deliberately not #blank?: `false` must survive.
+    def blank_value?(value)
+      value.nil? || value == "" || value == {} || value == []
+    end
+
+    def id_for(record)
+      Rubyevents::Id.for(record, lenient: lenient?)
+    end
+
+    def handle(value)
+      Rubyevents::Handle.from(value).presence
+    end
+
+    # Text typed into a browser arrives with Windows line breaks, which would
+    # turn upstream's literal blocks into quoted strings full of "\r\n".
+    def text(value)
+      value&.gsub("\r\n", "\n")&.strip
+    end
+
+    def date(value)
+      value&.to_date&.iso8601
+    end
+
+    def drop(field, reason)
+      warnings << "#{field}: #{reason}"
+      nil
+    end
+
+    # Upstream's "City, Country" display string, which we compose rather than
+    # store. Their EventCityNames validator wants the canonical city name, and
+    # LocationCountry the country written out.
+    def place(city)
+      [ city.name, country_name(city.country_code) ].compact_blank.join(", ").presence if city
+    end
+
+    def point(pin)
+      { "latitude" => pin.latitude.to_f, "longitude" => pin.longitude.to_f } if pin
+    end
+
+    # TZInfo ships with Rails and knows the English country name our schema lacks.
+    def country_name(code)
+      TZInfo::Country.get(code.to_s.upcase).name
+    rescue TZInfo::InvalidCountryCode
+      nil
+    end
+  end
+end
