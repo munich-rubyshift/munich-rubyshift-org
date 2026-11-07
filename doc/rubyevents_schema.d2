@@ -35,7 +35,8 @@ videos: {
     id: "integer" {constraint: primary_key}
     # instead of event_name. "date" is the event's start_date.
     event_id: "integer" {constraint: foreign_key}
-    # exported as "id", their static id. Blank: "<speaker slugs>-<event id>".
+    # exported as "id", their static id. Blank: derived by their own rules,
+    # "<speaker names>-<event id>" for one or two speakers (Rubyevents::TalkIds).
     rubyevents_slug: string
     # ours alone, the talk's URL here. Theirs is generated on import.
     slug: string
@@ -177,7 +178,7 @@ schedules: {
   }
 }
 
-# Besides the actual sponsors records, each event's venue organization is to be
+# Besides the actual sponsors records, each event's venue organization is
 # exported as a sponsor in a "Meetup Host" tier (see venues.venues.organization_id).
 sponsors: {
   sponsor_tiers: {
@@ -237,6 +238,8 @@ events: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
     slug: string
+    # exported as "id". Blank: "<series id>-<slug>", e.g.
+    # munich-rubyshift-meetup-2026-04-23
     rubyevents_slug: string
     series_id: "integer" {constraint: foreign_key}
     title: string
@@ -246,6 +249,7 @@ events: {
     description: string
     kind: string
     attendance_mode: string # "in_person", "hybrid" or "online"
+    # cancelled events are not exported
     status: string
     start_date: date
     start_time: time
@@ -314,7 +318,7 @@ venues: {
     # the pin comes with the address; a venue always has one
     address_id: "integer" {constraint: foreign_key}
     map_id: "integer" {constraint: foreign_key}
-    # ours, not upstream's: the company whose office it is. To be exported as a
+    # ours, not upstream's: the company whose office it is. Exported as a
     # "Meetup Host" sponsor of each event held there.
     organization_id: "integer" {constraint: foreign_key}
     accessibility_wheelchair: boolean

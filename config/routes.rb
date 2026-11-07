@@ -6,6 +6,10 @@ Rails.application.routes.draw do
   # get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
+  # Baked into the Parklife build. The route stays unconditional because the
+  # build runs in production; only the footer links are development-only.
+  get "/rubyevents-export.zip", to: "rubyevents/exports#show", as: :rubyevents_export, format: false
+
   namespace :sponsors, path: "" do
     resources :sponsorships
     resources :sponsor_tiers
