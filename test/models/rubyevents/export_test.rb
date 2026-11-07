@@ -20,7 +20,7 @@ class Rubyevents::ExportTest < ActiveSupport::TestCase
     ], files.keys.sort
   end
 
-  test "series.yml drops discord, which has no upstream field" do
+  test "series.yml places a meetup group in its home city and drops what upstream has no field for" do
     build_graph
     export = Rubyevents::Export.new(mode: :strict)
 
@@ -28,15 +28,20 @@ class Rubyevents::ExportTest < ActiveSupport::TestCase
       ---
       id: munich-rubyshift
       name: Munich Rubyshift
+      location: Munich, Germany
+      timezone: Europe/Berlin
       website: https://munich-rubyshift.org
       kind: meetup
-      frequency: quarterly
       language: English
       default_country_code: DE
       ended: false
+      coordinates:
+        latitude: 48.137108
+        longitude: 11.575382
     YAML
 
     assert_includes export.warnings, "series.discord: no field in SeriesSchema"
+    assert_includes export.warnings, "series.frequency: upstream derives it from the dates of the editions"
   end
 
   test "event.yml derives location, timezone and coordinates from the venue" do
@@ -54,15 +59,42 @@ class Rubyevents::ExportTest < ActiveSupport::TestCase
     graph = build_graph
     graph[:event].update!(
       description: "Two talks.\r\n\r\nAnd pizza.\r\n", status: "scheduled", date_precision: "day",
-      start_time: "18:30", end_time: "22:00"
+      start_time: "18:30", end_time: "22:00", tickets_url: "https://www.meetup.com/munich-rubyshift-ruby-user-group/events/313838183/"
     )
     export = Rubyevents::Export.new(mode: :strict)
 
     event = YAML.safe_load(export.files["munich-rubyshift/munich-rubyshift-2026-04/event.yml"])
 
     assert_equal "Two talks.\n\nAnd pizza.", event["description"]
-    assert_equal %w[id title location timezone kind description start_date end_date website venue coordinates], event.keys
-    assert_includes export.warnings, "event.start_time/end_time: no field in EventSchema"
+    assert_equal %w[id title location timezone kind description start_date end_date start_time end_time meetup coordinates], event.keys
+    assert_equal "https://www.meetup.com/munich-rubyshift-ruby-user-group/events/313838183/", event["meetup"]
+  end
+
+  test "event.yml titles a meetup after its group and month, keeping its own name as the subtitle" do
+    graph = build_graph
+    graph[:event].update!(title: "The big Ruby & Database shootout!")
+    Events::Event.create!(
+      series: graph[:series], title: "Ruby Meetup April 2026", slug: "meetup-2026-04-30", kind: "meetup",
+      attendance_mode: "in_person", venue: graph[:venue], start_date: Date.new(2026, 4, 30), end_date: Date.new(2026, 4, 30)
+    )
+    files = Rubyevents::Export.new(mode: :strict).files
+
+    shootout = YAML.safe_load(files["munich-rubyshift/munich-rubyshift-2026-04/event.yml"])
+    generic = YAML.safe_load(files["munich-rubyshift/munich-rubyshift-2026-04-30/event.yml"])
+
+    assert_equal [ "Munich Rubyshift Meetup April 23, 2026", "The big Ruby & Database shootout!" ], shootout.values_at("title", "subtitle")
+    assert_equal [ "Munich Rubyshift Meetup April 30, 2026", nil ], generic.values_at("title", "subtitle")
+  end
+
+  test "event.yml has times for one-day events only" do
+    graph = build_graph
+    graph[:event].update!(end_date: Date.new(2026, 4, 24), start_time: "18:30", end_time: "22:00")
+    export = Rubyevents::Export.new(mode: :strict)
+
+    event = YAML.safe_load(export.files["munich-rubyshift/munich-rubyshift-2026-04/event.yml"])
+
+    assert_nil event["start_time"]
+    assert_includes export.warnings, "event.start_time/end_time: EventSchema has them for one-day events only"
   end
 
   test "leaves out cancelled events, and people who only organized those" do
@@ -87,7 +119,7 @@ class Rubyevents::ExportTest < ActiveSupport::TestCase
       attendance_mode: "online", start_date: Date.new(2026, 7, 1), end_date: Date.new(2026, 7, 1)
     )
 
-    event = YAML.safe_load(Rubyevents::Export.new(mode: :strict).files["munich-rubyshift/munich-rubyshift-meetup-2026-07-01/event.yml"])
+    event = YAML.safe_load(Rubyevents::Export.new(mode: :strict).files["munich-rubyshift/munich-rubyshift-2026-07-01/event.yml"])
 
     assert_equal "online", event["location"]
     assert_equal "Europe/Berlin", event["timezone"]
@@ -167,6 +199,15 @@ class Rubyevents::ExportTest < ActiveSupport::TestCase
     }, speakers.first)
   end
 
+  test "speakers.yml takes a missing SpeakerDeck handle from the slides of the speaker's own talks" do
+    graph = build_graph
+    graph[:talk].update!(slides_url: "https://speakerdeck.com/hschne/gems-are-overrated")
+
+    speakers = YAML.safe_load(Rubyevents::Export.new(mode: :strict).files["speakers/speakers.yml"])
+
+    assert_equal "hschne", speakers.first["speakerdeck"]
+  end
+
   test "speakers.yml lists exactly the people upstream sees named, slugged after their names" do
     graph = build_graph
     graph[:speaker].update!(rubyevents_slug: "hschne")
@@ -178,7 +219,7 @@ class Rubyevents::ExportTest < ActiveSupport::TestCase
     speakers = YAML.safe_load(Rubyevents::Export.new(mode: :strict).files["speakers/speakers.yml"])
 
     assert_equal [ "Hans Schnedlitz", "Jürgen Müßig" ], speakers.map { _1["name"] }
-    assert_equal [ "hans-schnedlitz", "jurgen-mussig" ], speakers.map { _1["slug"] }
+    assert_equal [ "hans-schnedlitz", "juergen-muessig" ], speakers.map { _1["slug"] }
     assert_equal "", speakers.last["github"]
   end
 
@@ -228,11 +269,24 @@ class Rubyevents::ExportTest < ActiveSupport::TestCase
     build_graph(complete: false)
 
     files = Rubyevents::Export.new(mode: :strict).files
-    videos = YAML.safe_load(files["munich-rubyshift/munich-rubyshift-meetup-2026-04-23/videos.yml"])
+    videos = YAML.safe_load(files["munich-rubyshift/munich-rubyshift-2026-04-23/videos.yml"])
 
-    assert_equal "munich-rubyshift-meetup-2026-04-23", YAML.safe_load(files["munich-rubyshift/munich-rubyshift-meetup-2026-04-23/event.yml"])["id"]
-    assert_equal "hans-schnedlitz-munich-rubyshift-meetup-2026-04-23", videos.first["id"]
+    assert_equal "munich-rubyshift-2026-04-23", YAML.safe_load(files["munich-rubyshift/munich-rubyshift-2026-04-23/event.yml"])["id"]
+    assert_equal "hans-schnedlitz-munich-rubyshift-2026-04-23", videos.first["id"]
     assert_equal videos.first["id"], videos.first["video_id"]
+  end
+
+  test "a second meetup on the same day counts on in its id" do
+    graph = build_graph(complete: false)
+    Events::Event.create!(
+      series: graph[:series], title: "Late", slug: "meetup-late", kind: "meetup", attendance_mode: "in_person", venue: graph[:venue],
+      start_date: Date.new(2026, 4, 23), end_date: Date.new(2026, 4, 23), start_time: "21:00"
+    )
+    graph[:event].update!(start_time: "18:30")
+
+    events = Rubyevents::Export.new(mode: :strict).files.keys.grep(/event\.yml/)
+
+    assert_equal [ "munich-rubyshift/munich-rubyshift-2026-04-23-2/event.yml", "munich-rubyshift/munich-rubyshift-2026-04-23/event.yml" ], events.sort
   end
 
   test "videos.yml schedules the talks of an event that is not over yet, including on its day" do

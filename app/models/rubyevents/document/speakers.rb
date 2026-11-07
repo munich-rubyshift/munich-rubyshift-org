@@ -27,7 +27,7 @@ module Rubyevents
         "bluesky" => handle(person.bluesky_handle),
         "linkedin" => handle(person.linkedin_username),
         "website" => person.website,
-        "speakerdeck" => handle(person.speakerdeck_username),
+        "speakerdeck" => handle(person.speakerdeck_username) || slides_handle(person),
         "slug" => slug(person)
       }
     end
@@ -37,6 +37,14 @@ module Rubyevents
     # on rubyevents.org, which is usually the GitHub handle.
     def slug(person)
       Rubyevents.parameterize(person.name).presence || Rubyevents.parameterize(handle(person.github_username))
+    end
+
+    # Upstream's speakerdeck:check wants the handle of whoever alone gave
+    # talks with slides on SpeakerDeck, all under one account.
+    def slides_handle(person)
+      talks = person.talks.joins(:event).merge(Events::Event.not_cancelled).select { |talk| talk.speakers.one? }
+      handles = talks.filter_map { |talk| talk.slides_url.to_s[%r{speakerdeck\.com/(?:u/)?([^/]+)/}, 1] }.uniq
+      handles.first if handles.one?
     end
 
     # github is required upstream, and "" is how they spell "unknown".

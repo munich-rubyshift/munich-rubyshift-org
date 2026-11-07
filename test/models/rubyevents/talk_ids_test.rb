@@ -14,7 +14,7 @@ class Rubyevents::TalkIdsTest < ActiveSupport::TestCase
   test "transliterates names the way upstream does, not the way our slugs do" do
     one = talk("Ruby")
 
-    assert_equal "jurgen-mussig-ev", ids(one => [ "Jürgen Müßig" ])[one]
+    assert_equal "umit-muessig-ev", ids(one => [ "Ümit Müßig" ])[one]
   end
 
   test "names a talk without one or two speakers after its kind, or its title for a plain talk" do

@@ -55,10 +55,7 @@ module Rubyevents
     end
 
     def coordinates
-      pin = @venue.coordinates || city&.coordinates
-      return fallback(nil, { "latitude" => 0.0, "longitude" => 0.0 }) unless pin
-
-      { "latitude" => pin.latitude.to_f, "longitude" => pin.longitude.to_f }
+      fallback(point(@venue.coordinates || city&.coordinates), { "latitude" => 0.0, "longitude" => 0.0 })
     end
 
     # Locations::Mappable already resolves a curated link, falling back to one

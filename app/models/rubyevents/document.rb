@@ -92,6 +92,17 @@ module Rubyevents
       nil
     end
 
+    # Upstream's "City, Country" display string, which we compose rather than
+    # store. Their EventCityNames validator wants the canonical city name, and
+    # LocationCountry the country written out.
+    def place(city)
+      [ city.name, country_name(city.country_code) ].compact_blank.join(", ").presence if city
+    end
+
+    def point(pin)
+      { "latitude" => pin.latitude.to_f, "longitude" => pin.longitude.to_f } if pin
+    end
+
     # TZInfo ships with Rails and knows the English country name our schema lacks.
     def country_name(code)
       TZInfo::Country.get(code.to_s.upcase).name

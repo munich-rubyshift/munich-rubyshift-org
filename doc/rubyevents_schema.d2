@@ -27,13 +27,12 @@ speakers: {
 }
 
 videos: {
-  # BUILT as talks_talks. Exported in rubyevents' conference shape: one
-  # videos.yml per event, listing its talks (VideoSchema). Not the shape their
-  # meetups use today, a video per meetup with the talks nested under it.
+  # BUILT as talks_talks. Exported as one videos.yml per event, listing its
+  # talks (VideoSchema), the shape upstream uses for meetups too.
   videos: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
-    # instead of event_name. "date" is the event's start_date.
+    # "date" is the event's start_date.
     event_id: "integer" {constraint: foreign_key}
     # exported as "id", their static id. Blank: derived by their own rules,
     # "<speaker names>-<event id>" for one or two speakers (Rubyevents::TalkIds).
@@ -212,6 +211,7 @@ events: {
     name: string
     description: string
     kind: string
+    # not exported: upstream derives it from the dates of the editions
     frequency: string
     ended: boolean
     default_country_code: string
@@ -238,14 +238,17 @@ events: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
     slug: string
-    # exported as "id". Blank: "<series id>-<slug>", e.g.
-    # munich-rubyshift-meetup-2026-04-23
+    # exported as "id". Blank: a meetup's "<series id>-<start date>", e.g.
+    # munich-rubyshift-2026-04-23, other events' "<series id>-<slug>"
     rubyevents_slug: string
     series_id: "integer" {constraint: foreign_key}
+    # a meetup's is titled "<series> Meetup <Month> <Year>" upstream, and
+    # exported as its subtitle unless it only says as much
     title: string
-    # blank columns fall back to the series, via Events::SeriesDefaults.
-    # "kind" deliberately does not: it is required per event and the series'
-    # allowed values are wider.
+    # blank columns fall back to the series, via Events::SeriesDefaults, but
+    # only the event's own values are exported. "kind" deliberately does not
+    # fall back: it is required per event and the series' allowed values are
+    # wider.
     description: string
     kind: string
     attendance_mode: string # "in_person", "hybrid" or "online"
@@ -268,6 +271,7 @@ events: {
     github: string
     meetup: string
     luma: string
+    # exported as "meetup" when it is a meetup.com page
     tickets_url: string
     # Derive from venue !!! Or maybe mutually exclusive with venue_id
     coordinate_id: "integer" {constraint: foreign_key}

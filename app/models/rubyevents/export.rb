@@ -110,7 +110,7 @@ module Rubyevents
     # A cancelled meetup is not worth an entry upstream, unlike a cancelled
     # conference.
     def events
-      Events::Event.where(status: nil).or(Events::Event.where.not(status: "cancelled"))
+      Events::Event.not_cancelled
     end
 
     # Upstream requires a speakers.yml entry for every name in videos.yml and

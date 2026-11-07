@@ -23,7 +23,6 @@ module Rubyevents
         "id" => talk_id(talk),
         "title" => talk.title,
         "kind" => kind(talk),
-        "event_name" => @event.title,
         # We hold no talk dates: a talk happens on its event's first day.
         "date" => date(@event.start_date),
         "announced_at" => date(talk.announced_on),

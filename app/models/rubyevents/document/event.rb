@@ -13,11 +13,12 @@ module Rubyevents
     # Keys in the order of upstream's Yerbafile, so that formatting the files
     # there does not reorder them.
     def content
-      drop("event.start_time/end_time", "no field in EventSchema") if @event.start_time || @event.end_time
+      drop("event.start_time/end_time", "EventSchema has them for one-day events only") if (@event.start_time || @event.end_time) && !one_day?
 
       {
         "id" => id_for(@event),
-        "title" => @event.title,
+        "title" => meetup_title ? meetup_title.title : @event.title,
+        "subtitle" => meetup_title&.subtitle,
         "location" => fallback(location, "TODO, TODO"),
         "timezone" => @event.time_zone,
         "kind" => fallback(@event.kind, default_kind),
@@ -27,20 +28,21 @@ module Rubyevents
         "date_precision" => @event.date_precision.presence_in(Events::Event::DATE_PRECISIONS - [ "day" ]),
         "start_date" => date(@event.start_date),
         "end_date" => date(@event.end_date),
+        "start_time" => (@event.start_time if one_day?),
+        "end_time" => (@event.end_time if one_day?),
         # Upstream only marks what is unusual: cancelled or postponed events
         # and hybrid ones.
         "status" => @event.status.presence_in(Events::Event::STATUSES - [ "scheduled" ]),
         "hybrid" => (true if @event.attendance_mode == "hybrid"),
-        # website/twitter/... fall back to the series through
-        # Events::SeriesDefaults, so these read our effective values.
-        "website" => @event.website,
-        "tickets_url" => @event.tickets_url,
-        "meetup" => @event.meetup,
-        "twitter" => handle(@event.twitter_username),
-        "mastodon" => @event.mastodon,
-        "github" => @event.github,
-        "luma" => @event.luma,
-        "venue" => @event.venue&.name,
+        # Only the event's own links, without Events::SeriesDefaults: upstream
+        # rejects an event repeating its series' links.
+        "website" => @event[:website],
+        "tickets_url" => (@event.tickets_url unless meetup_page?(@event.tickets_url)),
+        "meetup" => @event[:meetup] || (@event.tickets_url if meetup_page?(@event.tickets_url)),
+        "twitter" => handle(@event[:twitter_username]),
+        "mastodon" => @event[:mastodon],
+        "github" => @event[:github],
+        "luma" => @event[:luma],
         "coordinates" => coordinates
       }
     end
@@ -53,27 +55,37 @@ module Rubyevents
       @event.series&.kind.presence_in(Events::Event::KINDS) || "meetup"
     end
 
+    def meetup_title
+      return unless @event.kind == "meetup" && @event.start_date
+
+      @meetup_title ||= Rubyevents::MeetupTitle.new(
+        @event, same_month: @event.series.events.not_cancelled.where(start_date: @event.start_date.all_month).count > 1
+      )
+    end
+
+    def one_day?
+      @event.start_date.present? && @event.start_date == @event.end_date
+    end
+
+    # Upstream keeps an event's meetup.com page in "meetup", and "tickets_url"
+    # for ticket shops.
+    def meetup_page?(url)
+      url.to_s.match?(%r{\Ahttps?://(www\.)?meetup\.com/}i)
+    end
+
     def city
       @event.venue&.address&.city
     end
 
-    # Upstream's "City, Country" display string, which we compose rather than
-    # store. Their EventCityNames validator wants the canonical city name.
     def location
-      return "online" if @event.online?
-      return nil unless city
-
-      [ city.name, country_name(city.country_code) ].compact_blank.join(", ").presence
+      @event.online? ? "online" : place(city)
     end
 
     # `false` is meaningful here: it is upstream's marker for an online event.
     def coordinates
       return false if @event.online?
 
-      pin = @event.venue&.coordinates || city&.coordinates
-      return fallback(nil, { "latitude" => 0.0, "longitude" => 0.0 }) unless pin
-
-      { "latitude" => pin.latitude.to_f, "longitude" => pin.longitude.to_f }
+      point(@event.venue&.coordinates || city&.coordinates)
     end
   end
 end

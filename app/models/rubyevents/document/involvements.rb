@@ -11,7 +11,7 @@ module Rubyevents
     end
 
     # We hold one row per (event, entity, role); upstream groups by role and
-    # splits people from organisations. Organizers lead, as they do upstream.
+    # splits people from organizations. Organizers lead, as they do upstream.
     def content
       @event.involvements.group_by(&:role).sort_by { |role, _| [ role == "Organizer" ? 0 : 1, role.to_s ] }.map do |role, involvements|
         entities = involvements.filter_map(&:entity)
@@ -19,7 +19,7 @@ module Rubyevents
         {
           "name" => fallback(role, "Organizer"),
           "users" => names(entities, Entities::Person),
-          "organisations" => names(entities, Entities::Organization)
+          "organizations" => names(entities, Entities::Organization)
         }
       end
     end
