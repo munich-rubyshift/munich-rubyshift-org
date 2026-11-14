@@ -17,5 +17,6 @@ class Avo::Resources::EventsInvolvement < Avo::BaseResource
     field :entity, as: :belongs_to, **sortable(:by_to_s, on: :entity), polymorphic_as: :entity, types: [ ::Entities::Person, ::Entities::Organization ], default: -> { ::Entities::Person.new }
     field :event, as: :belongs_to, **sortable(:by_start_date, on: :event), attach_scope: -> { query.by_start_date.reverse_order }
     field :role, as: :text, sortable: true, default: "Organizer"
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end

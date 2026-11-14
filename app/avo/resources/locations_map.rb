@@ -12,5 +12,6 @@ class Avo::Resources::LocationsMap < Avo::BaseResource
     field :google_url, as: :text, sortable: true
     field :apple_url, as: :text, sortable: true
     field :openstreetmap_url, as: :text, sortable: true
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end

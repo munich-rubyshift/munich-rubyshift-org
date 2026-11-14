@@ -1,6 +1,7 @@
 class Sponsors::SponsorTier < ApplicationRecord
   include NormalizedStrings
   include LongFormText
+  include RubyeventsData
   include Sluggable
   friendly_id :name
 

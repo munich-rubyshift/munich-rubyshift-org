@@ -14,5 +14,6 @@ class Avo::Resources::TalksAdditionalResource < Avo::BaseResource
     field :url, as: :text, sortable: true
     field :title, as: :text, sortable: true
     field :talk, as: :belongs_to, **sortable(:by_to_s, on: :talk)
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end

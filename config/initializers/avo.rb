@@ -216,6 +216,20 @@ Rails.application.config.to_prepare do
         "A blank line starts a paragraph, a single line break is just a space: end a line with <code>\\</code> to keep it."
     }.freeze
 
+    # For a model's `rubyevents_data`. Invalid JSON stays text, for the model's validation to point out.
+    RUBYEVENTS_DATA_FIELD_OPTIONS = {
+      as: :code,
+      language: "application/json",
+      help: "A JSON object whose keys replace or add attributes for RubyEvents, " \
+        "like <code>{\"slug\": \"2026-11-12\"}</code>.",
+      format_using: -> { value.nil? || value.is_a?(String) ? value : JSON.pretty_generate(value) },
+      update_using: -> do
+        JSON.parse(value)
+      rescue JSON::ParserError
+        value
+      end
+    }.freeze
+
     # Sort a column by one of the model's scopes, or with `on:` by a scope
     # of an association's model.
     def sortable(scope, on: nil)

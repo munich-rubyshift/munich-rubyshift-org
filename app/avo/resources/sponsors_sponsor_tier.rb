@@ -15,5 +15,6 @@ class Avo::Resources::SponsorsSponsorTier < Avo::BaseResource
     field :event, as: :belongs_to, **sortable(:by_start_date, on: :event)
     field :description, **LONG_FORM_TEXT_FIELD_OPTIONS
     field :level, as: :number, sortable: true
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end

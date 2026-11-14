@@ -2,6 +2,7 @@ require "open-uri"
 
 class Entities::Person < ApplicationRecord
   include NormalizedStrings
+  include RubyeventsData
   include Sluggable
   include StoredImage
   friendly_id :name

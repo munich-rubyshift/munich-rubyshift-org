@@ -27,5 +27,6 @@ class Avo::Resources::VenuesVenue < Avo::BaseResource
     field :address, as: :belongs_to, **sortable(:by_to_s, on: :address)
     field :map, as: :belongs_to, **sortable(:by_to_s, on: :map)
     field :organization, as: :belongs_to, **sortable(:by_to_s, on: :organization), attach_scope: -> { query.by_to_s }
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end

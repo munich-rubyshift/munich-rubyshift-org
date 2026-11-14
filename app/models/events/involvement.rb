@@ -1,5 +1,6 @@
 class Events::Involvement < ApplicationRecord
   include NormalizedStrings
+  include RubyeventsData
 
   ENTITY_TYPES = %w[Entities::Person Entities::Organization].freeze
 

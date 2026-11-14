@@ -30,6 +30,7 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
       help: "Leave blank if announced together with the event.",
       format_form_using: -> { record.read_attribute(:announced_on) },
       placeholder: -> { record.event&.announced_on&.iso8601 }
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
 
     field :speakers, as: :has_many, through: :speaker_talks, scope: -> { query.by_to_s }, attach_scope: -> { query.by_to_s }
     field :additional_resources, as: :has_many

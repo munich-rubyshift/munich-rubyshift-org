@@ -12,5 +12,6 @@ class Avo::Resources::SponsorsSponsorship < Avo::BaseResource
     field :organization, as: :belongs_to, **sortable(:by_to_s, on: :organization)
     field :sponsor_tier, as: :belongs_to, **sortable(:by_to_s, on: :sponsor_tier)
     field :badge, as: :text, sortable: true
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end

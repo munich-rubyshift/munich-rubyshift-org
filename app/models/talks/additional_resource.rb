@@ -1,5 +1,6 @@
 class Talks::AdditionalResource < ApplicationRecord
   include NormalizedStrings
+  include RubyeventsData
 
   KINDS = %w[
     write-up blog article source-code code repo github documentation docs

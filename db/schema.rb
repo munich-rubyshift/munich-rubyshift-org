@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
+ActiveRecord::Schema[8.1].define(version: 2026_11_14_212817) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -41,6 +41,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.text "internal_notes"
     t.string "legal_name"
     t.string "name"
+    t.json "rubyevents_data"
     t.string "slug"
     t.string "website"
   end
@@ -52,6 +53,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.string "mastodon"
     t.string "meetup_id"
     t.string "name"
+    t.json "rubyevents_data"
     t.string "rubyevents_slug"
     t.string "slug"
     t.string "speakerdeck_username"
@@ -65,6 +67,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.string "external_url"
     t.string "name"
     t.date "open_date"
+    t.json "rubyevents_data"
     t.string "slug"
     t.index ["events_event_id"], name: "index_events_cfps_on_events_event_id"
   end
@@ -82,6 +85,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.string "luma"
     t.string "mastodon"
     t.string "meetup"
+    t.json "rubyevents_data"
     t.string "rubyevents_slug"
     t.string "slug"
     t.date "start_date"
@@ -103,6 +107,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.string "entity_type", null: false
     t.string "events_event_id", null: false
     t.string "role"
+    t.json "rubyevents_data"
     t.index ["entity_type", "entity_id"], name: "index_events_involvements_on_entity"
     t.index ["events_event_id"], name: "index_events_involvements_on_events_event_id"
   end
@@ -135,6 +140,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.string "mastodon"
     t.string "meetup"
     t.string "name"
+    t.json "rubyevents_data"
     t.string "rubyevents_slug"
     t.string "slug"
     t.string "time_zone", null: false
@@ -155,6 +161,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
   create_table "locations_addresses", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "locations_city_id", null: false
     t.string "locations_coordinates_id", null: false
+    t.json "rubyevents_data"
     t.string "slug"
     t.string "street"
     t.string "zip_code"
@@ -166,6 +173,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.string "country_code"
     t.string "locations_coordinates_id", null: false
     t.string "name"
+    t.json "rubyevents_data"
     t.string "rubyevents_slug"
     t.string "slug"
     t.string "state_code"
@@ -181,6 +189,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.string "apple_url"
     t.string "google_url"
     t.string "openstreetmap_url"
+    t.json "rubyevents_data"
   end
 
   create_table "sponsors_sponsor_tiers", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
@@ -188,6 +197,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.string "events_event_id", null: false
     t.integer "level"
     t.string "name"
+    t.json "rubyevents_data"
     t.string "rubyevents_slug"
     t.string "slug"
     t.index ["events_event_id"], name: "index_sponsors_sponsor_tiers_on_events_event_id"
@@ -196,6 +206,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
   create_table "sponsors_sponsorships", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "badge"
     t.string "entities_organization_id", null: false
+    t.json "rubyevents_data"
     t.string "sponsors_sponsor_tier_id", null: false
     t.index ["entities_organization_id"], name: "index_sponsors_sponsorships_on_entities_organization_id"
     t.index ["sponsors_sponsor_tier_id"], name: "index_sponsors_sponsorships_on_sponsors_sponsor_tier_id"
@@ -204,6 +215,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
   create_table "talks_additional_resources", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "kind"
     t.string "name"
+    t.json "rubyevents_data"
     t.string "talks_talk_id", null: false
     t.string "title"
     t.string "url"
@@ -224,6 +236,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.string "kind", null: false
     t.string "language_code", null: false
     t.integer "position", null: false
+    t.json "rubyevents_data"
     t.string "rubyevents_slug"
     t.string "slides_url"
     t.string "slug"
@@ -244,6 +257,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_05_213217) do
     t.string "name"
     t.text "nearby_parking"
     t.text "nearby_public_transport"
+    t.json "rubyevents_data"
     t.string "rubyevents_slug"
     t.string "slug"
     t.string "website"

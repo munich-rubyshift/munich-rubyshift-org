@@ -1,5 +1,6 @@
 class Sponsors::Sponsorship < ApplicationRecord
   include NormalizedStrings
+  include RubyeventsData
 
   belongs_to :organization, class_name: "Entities::Organization", foreign_key: :entities_organization_id, inverse_of: :sponsorships
 

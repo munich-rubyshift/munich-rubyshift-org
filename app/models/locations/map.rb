@@ -1,5 +1,6 @@
 class Locations::Map < ApplicationRecord
   include NormalizedStrings
+  include RubyeventsData
 
   has_many :venues, class_name: "Venues::Venue", foreign_key: :locations_map_id, inverse_of: :map
 
