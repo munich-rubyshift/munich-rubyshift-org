@@ -1,5 +1,5 @@
 ---
-Events::Event_01839f7a-6117-4811-97fa-bb15c798556d:
+events_events_01839f7a-6117-4811-97fa-bb15c798556d:
   id: '01839f7a-6117-4811-97fa-bb15c798556d'
   attendance_mode: in_person
   date_precision: day
@@ -14,7 +14,7 @@ Events::Event_01839f7a-6117-4811-97fa-bb15c798556d:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/237533183/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
+events_events_05de9889-ca65-4996-a339-09b05a9097fd:
   id: 05de9889-ca65-4996-a339-09b05a9097fd
   attendance_mode: in_person
   date_precision: day
@@ -33,7 +33,7 @@ Events::Event_05de9889-ca65-4996-a339-09b05a9097fd:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/124636572/
   title: The big Ruby & Database shootout!
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
-Events::Event_0be7ac1c-2c32-41f7-a028-b352713f5ae7:
+events_events_0be7ac1c-2c32-41f7-a028-b352713f5ae7:
   id: 0be7ac1c-2c32-41f7-a028-b352713f5ae7
   attendance_mode: in_person
   date_precision: day
@@ -47,7 +47,7 @@ Events::Event_0be7ac1c-2c32-41f7-a028-b352713f5ae7:
   status: scheduled
   title: Ruby Meetup May 2012
   venues_venue_id: 67929c72-6c33-4bfd-a530-6a76a272ce47
-Events::Event_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
+events_events_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
   id: 0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6
   attendance_mode: in_person
   date_precision: day
@@ -64,7 +64,7 @@ Events::Event_0c08c3f6-ee4f-4b6f-92cf-c14105d2ebd6:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/264688734/
   title: Ruby User Group Meetup
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
-Events::Event_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
+events_events_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
   id: 0ca4de01-0994-4c1f-a277-68b7edd8a87a
   attendance_mode: in_person
   date_precision: day
@@ -97,7 +97,7 @@ Events::Event_0ca4de01-0994-4c1f-a277-68b7edd8a87a:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/301843343/
   title: Ruby Meetup January 2025
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
-Events::Event_11b7a50f-1889-41e6-91bc-53d19cd66d70:
+events_events_11b7a50f-1889-41e6-91bc-53d19cd66d70:
   id: 11b7a50f-1889-41e6-91bc-53d19cd66d70
   attendance_mode: in_person
   date_precision: day
@@ -113,7 +113,7 @@ Events::Event_11b7a50f-1889-41e6-91bc-53d19cd66d70:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760914/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
+events_events_137da0d0-aa0f-4fc0-84de-933aae3c47de:
   id: 137da0d0-aa0f-4fc0-84de-933aae3c47de
   attendance_mode: in_person
   date_precision: day
@@ -132,7 +132,7 @@ Events::Event_137da0d0-aa0f-4fc0-84de-933aae3c47de:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/219853849/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
+events_events_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
   id: 13cf2eb5-4055-4ae5-be56-c18eb875f5bc
   attendance_mode: in_person
   date_precision: day
@@ -151,7 +151,7 @@ Events::Event_13cf2eb5-4055-4ae5-be56-c18eb875f5bc:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/247415805/
   title: Ruby User Group Meetup
   venues_venue_id: '053190c9-9e62-484e-abf4-374d6e69d475'
-Events::Event_1573831b-d7d7-497c-b0b0-74772ea7a891:
+events_events_1573831b-d7d7-497c-b0b0-74772ea7a891:
   id: 1573831b-d7d7-497c-b0b0-74772ea7a891
   attendance_mode: in_person
   date_precision: day
@@ -166,7 +166,7 @@ Events::Event_1573831b-d7d7-497c-b0b0-74772ea7a891:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/227859964/
   title: Ruby User Group Meetup
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
-Events::Event_159e036d-87af-4d9b-bbc4-a2adf07f48e1:
+events_events_159e036d-87af-4d9b-bbc4-a2adf07f48e1:
   id: 159e036d-87af-4d9b-bbc4-a2adf07f48e1
   attendance_mode: in_person
   date_precision: day
@@ -181,7 +181,7 @@ Events::Event_159e036d-87af-4d9b-bbc4-a2adf07f48e1:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711164/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_1bd4fee4-ef7b-4050-9932-c657a72151c5:
+events_events_1bd4fee4-ef7b-4050-9932-c657a72151c5:
   id: 1bd4fee4-ef7b-4050-9932-c657a72151c5
   attendance_mode: in_person
   date_precision: day
@@ -196,7 +196,7 @@ Events::Event_1bd4fee4-ef7b-4050-9932-c657a72151c5:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/226343522/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_1cbe4b7d-9dca-4673-a7f0-7d7133a213f7:
+events_events_1cbe4b7d-9dca-4673-a7f0-7d7133a213f7:
   id: 1cbe4b7d-9dca-4673-a7f0-7d7133a213f7
   attendance_mode: in_person
   date_precision: day
@@ -212,7 +212,7 @@ Events::Event_1cbe4b7d-9dca-4673-a7f0-7d7133a213f7:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/236523282/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
+events_events_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
   id: 1d63997d-ac93-4cfb-8046-ebed6b6dec89
   attendance_mode: in_person
   date_precision: day
@@ -231,7 +231,7 @@ Events::Event_1d63997d-ac93-4cfb-8046-ebed6b6dec89:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/183070712/
   title: Ruby User Group Meetup
   venues_venue_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
-Events::Event_1fc2717e-5398-4859-b6fd-a610b53fa72d:
+events_events_1fc2717e-5398-4859-b6fd-a610b53fa72d:
   id: 1fc2717e-5398-4859-b6fd-a610b53fa72d
   attendance_mode: in_person
   date_precision: day
@@ -244,7 +244,7 @@ Events::Event_1fc2717e-5398-4859-b6fd-a610b53fa72d:
   start_time: '18:30'
   status: cancelled
   title: Ruby Meetup July 2026
-Events::Event_24295c0d-0811-42c4-a837-68311abd1a63:
+events_events_24295c0d-0811-42c4-a837-68311abd1a63:
   id: 24295c0d-0811-42c4-a837-68311abd1a63
   attendance_mode: in_person
   date_precision: day
@@ -259,7 +259,7 @@ Events::Event_24295c0d-0811-42c4-a837-68311abd1a63:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/236243014/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_26873fee-6a38-4179-8b79-b800be48163d:
+events_events_26873fee-6a38-4179-8b79-b800be48163d:
   id: 26873fee-6a38-4179-8b79-b800be48163d
   attendance_mode: in_person
   date_precision: day
@@ -273,7 +273,7 @@ Events::Event_26873fee-6a38-4179-8b79-b800be48163d:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/152792582/
   title: Rails Girls
-Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
+events_events_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
   id: 2a94bfd1-b358-439f-81ea-c5f6a4075d8e
   attendance_mode: in_person
   date_precision: day
@@ -288,7 +288,7 @@ Events::Event_2a94bfd1-b358-439f-81ea-c5f6a4075d8e:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760916/
   title: Ruby User Group Meetup
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
-Events::Event_2af376f0-1305-4985-bcbb-2e0faa8891a2:
+events_events_2af376f0-1305-4985-bcbb-2e0faa8891a2:
   id: 2af376f0-1305-4985-bcbb-2e0faa8891a2
   attendance_mode: in_person
   date_precision: day
@@ -302,7 +302,7 @@ Events::Event_2af376f0-1305-4985-bcbb-2e0faa8891a2:
   status: scheduled
   title: Ruby Meetup June 2012
   venues_venue_id: 398a16cb-c67e-4b1e-87f6-2d7535a7c43c
-Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
+events_events_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
   id: 31dfb46b-8e9e-4941-92e9-d429d53f6eaa
   attendance_mode: in_person
   date_precision: day
@@ -331,7 +331,7 @@ Events::Event_31dfb46b-8e9e-4941-92e9-d429d53f6eaa:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/298001922/
   title: Ruby Meetup January 2024
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
-Events::Event_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
+events_events_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
   id: 373c99ee-c1f2-4550-8e54-3575fa1c14cc
   attendance_mode: in_person
   date_precision: day
@@ -350,7 +350,7 @@ Events::Event_373c99ee-c1f2-4550-8e54-3575fa1c14cc:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/258785567/
   title: Ruby User Group Meetup
   venues_venue_id: '053190c9-9e62-484e-abf4-374d6e69d475'
-Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
+events_events_382bfc98-b62a-479c-882b-d8bc3beadfae:
   id: 382bfc98-b62a-479c-882b-d8bc3beadfae
   attendance_mode: in_person
   date_precision: day
@@ -372,7 +372,7 @@ Events::Event_382bfc98-b62a-479c-882b-d8bc3beadfae:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/140944592/
   title: Ruby User Group Meetup
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
-Events::Event_388f3a35-88ab-4c17-b911-ef743b26ab87:
+events_events_388f3a35-88ab-4c17-b911-ef743b26ab87:
   id: 388f3a35-88ab-4c17-b911-ef743b26ab87
   attendance_mode: in_person
   date_precision: day
@@ -391,7 +391,7 @@ Events::Event_388f3a35-88ab-4c17-b911-ef743b26ab87:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/244245195/
   title: Ruby User Group Meetup
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
-Events::Event_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
+events_events_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
   id: 38fe34a2-f5c1-46a4-92dc-29a27d80ff96
   attendance_mode: in_person
   date_precision: day
@@ -423,7 +423,7 @@ Events::Event_38fe34a2-f5c1-46a4-92dc-29a27d80ff96:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/296645729/
   title: Ruby Meetup November 2023
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
-Events::Event_39f6c39c-523a-4f7e-bbae-54ef7574250b:
+events_events_39f6c39c-523a-4f7e-bbae-54ef7574250b:
   id: 39f6c39c-523a-4f7e-bbae-54ef7574250b
   attendance_mode: in_person
   date_precision: day
@@ -440,7 +440,7 @@ Events::Event_39f6c39c-523a-4f7e-bbae-54ef7574250b:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/238534113/
   title: Ruby User Group Meetup
   venues_venue_id: 522de6d8-fb07-4a30-ab14-b7c8987ab943
-Events::Event_3b6374f6-81eb-4da7-9e6b-ab99549b69db:
+events_events_3b6374f6-81eb-4da7-9e6b-ab99549b69db:
   id: 3b6374f6-81eb-4da7-9e6b-ab99549b69db
   attendance_mode: in_person
   date_precision: day
@@ -455,7 +455,7 @@ Events::Event_3b6374f6-81eb-4da7-9e6b-ab99549b69db:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/226159319/
   title: Ruby User Group Meetup
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
-Events::Event_3c718b66-d23e-48d4-bc5f-a8430392ca94:
+events_events_3c718b66-d23e-48d4-bc5f-a8430392ca94:
   id: 3c718b66-d23e-48d4-bc5f-a8430392ca94
   attendance_mode: in_person
   date_precision: day
@@ -474,7 +474,7 @@ Events::Event_3c718b66-d23e-48d4-bc5f-a8430392ca94:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/262005861/
   title: Ruby User Group Meetup
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
-Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
+events_events_3da697ff-0994-4966-a445-1d2b0bfa0a55:
   id: 3da697ff-0994-4966-a445-1d2b0bfa0a55
   attendance_mode: in_person
   date_precision: day
@@ -493,7 +493,7 @@ Events::Event_3da697ff-0994-4966-a445-1d2b0bfa0a55:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/214247962/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
+events_events_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
   id: 4078ef3a-7555-429d-9a49-2d7a0fb65e01
   attendance_mode: in_person
   date_precision: day
@@ -512,7 +512,7 @@ Events::Event_4078ef3a-7555-429d-9a49-2d7a0fb65e01:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/246512326/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_49fede28-0d36-4444-b0a0-e4f1478fa41f:
+events_events_49fede28-0d36-4444-b0a0-e4f1478fa41f:
   id: 49fede28-0d36-4444-b0a0-e4f1478fa41f
   attendance_mode: in_person
   date_precision: day
@@ -526,7 +526,7 @@ Events::Event_49fede28-0d36-4444-b0a0-e4f1478fa41f:
   status: scheduled
   title: Ruby Meetup May 2013
   venues_venue_id: 614a9910-a2f6-4991-b2c8-6c021c91d477
-Events::Event_4ab85760-fd58-428f-bdf3-0b0f97e4930a:
+events_events_4ab85760-fd58-428f-bdf3-0b0f97e4930a:
   id: 4ab85760-fd58-428f-bdf3-0b0f97e4930a
   attendance_mode: in_person
   date_precision: day
@@ -542,7 +542,7 @@ Events::Event_4ab85760-fd58-428f-bdf3-0b0f97e4930a:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/241315663/
   title: Ruby User Group Meetup
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
-Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
+events_events_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
   id: 4b2f97a8-d845-475d-8fea-b1f796ab99ad
   attendance_mode: in_person
   date_precision: day
@@ -565,7 +565,7 @@ Events::Event_4b2f97a8-d845-475d-8fea-b1f796ab99ad:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/176392412/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
+events_events_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
   id: 4b3a7ec3-b6be-40c5-a307-1e560be7fdf3
   attendance_mode: in_person
   date_precision: day
@@ -598,7 +598,7 @@ Events::Event_4b3a7ec3-b6be-40c5-a307-1e560be7fdf3:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/315466557/
   title: Ruby Meetup September 2026
   venues_venue_id: 3236f853-c433-46ee-a6e4-070b99a632fb
-Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
+events_events_4c25b554-503a-485c-b562-bbf75ec6f1b4:
   id: 4c25b554-503a-485c-b562-bbf75ec6f1b4
   attendance_mode: in_person
   date_precision: day
@@ -624,7 +624,7 @@ Events::Event_4c25b554-503a-485c-b562-bbf75ec6f1b4:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/286993418/
   title: Ruby Meetup September 2022
   venues_venue_id: 8b93680b-2148-4486-93fc-9abadd022492
-Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
+events_events_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
   id: 4ef3c58d-c767-4e65-a36b-21383e9d2b8e
   attendance_mode: in_person
   date_precision: day
@@ -643,7 +643,7 @@ Events::Event_4ef3c58d-c767-4e65-a36b-21383e9d2b8e:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760921/
   title: Ruby User Group Meetup
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
-Events::Event_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
+events_events_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
   id: 4f32d5b3-03fd-42fa-bacf-c544b11ac6bd
   attendance_mode: in_person
   date_precision: day
@@ -659,7 +659,7 @@ Events::Event_4f32d5b3-03fd-42fa-bacf-c544b11ac6bd:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/267360270/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
+events_events_502aa3dd-a00b-4234-82f7-63f085564b54:
   id: 502aa3dd-a00b-4234-82f7-63f085564b54
   attendance_mode: in_person
   date_precision: day
@@ -682,7 +682,7 @@ Events::Event_502aa3dd-a00b-4234-82f7-63f085564b54:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/152792572/
   title: Rails Girls Hack and Play
   venues_venue_id: 69821224-9122-4f4f-afa2-ea45b4356aa1
-Events::Event_5120ef88-e9ee-49c7-8d67-5a6190d3fa63:
+events_events_5120ef88-e9ee-49c7-8d67-5a6190d3fa63:
   id: 5120ef88-e9ee-49c7-8d67-5a6190d3fa63
   attendance_mode: in_person
   date_precision: day
@@ -698,7 +698,7 @@ Events::Event_5120ef88-e9ee-49c7-8d67-5a6190d3fa63:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/260272989/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
+events_events_51e602d3-0a7f-4842-8257-ba514e5969dd:
   id: 51e602d3-0a7f-4842-8257-ba514e5969dd
   attendance_mode: in_person
   date_precision: day
@@ -713,7 +713,7 @@ Events::Event_51e602d3-0a7f-4842-8257-ba514e5969dd:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221456141/
   title: Ruby User Group Meetup
   venues_venue_id: acac167f-0957-4586-bcca-7ffa3ed8f06a
-Events::Event_53be3fcb-a991-4780-a53e-111ad902bb66:
+events_events_53be3fcb-a991-4780-a53e-111ad902bb66:
   id: 53be3fcb-a991-4780-a53e-111ad902bb66
   attendance_mode: in_person
   date_precision: day
@@ -728,7 +728,7 @@ Events::Event_53be3fcb-a991-4780-a53e-111ad902bb66:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/255062411/
   title: Ruby User Group Meetup
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
-Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
+events_events_55840eb2-652e-4c96-85f0-d8e8f4de320a:
   id: 55840eb2-652e-4c96-85f0-d8e8f4de320a
   attendance_mode: in_person
   date_precision: day
@@ -744,7 +744,7 @@ Events::Event_55840eb2-652e-4c96-85f0-d8e8f4de320a:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/182433562/
   title: Ruby User Group Meetup
   venues_venue_id: f6bb5d43-abdf-464f-ab91-b68855b122c2
-Events::Event_59158906-28a1-4838-944a-529ba1fb889c:
+events_events_59158906-28a1-4838-944a-529ba1fb889c:
   id: 59158906-28a1-4838-944a-529ba1fb889c
   attendance_mode: in_person
   date_precision: day
@@ -761,7 +761,7 @@ Events::Event_59158906-28a1-4838-944a-529ba1fb889c:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/231711879/
   title: Ruby User Group Meetup
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
-Events::Event_5c39c74b-af9f-47a4-a840-7daca41a559f:
+events_events_5c39c74b-af9f-47a4-a840-7daca41a559f:
   id: 5c39c74b-af9f-47a4-a840-7daca41a559f
   attendance_mode: in_person
   date_precision: day
@@ -791,7 +791,7 @@ Events::Event_5c39c74b-af9f-47a4-a840-7daca41a559f:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/293720315/
   title: Ruby Meetup July 2023
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
+events_events_5c659335-1a76-4e74-8341-e5bed8907f8c:
   id: 5c659335-1a76-4e74-8341-e5bed8907f8c
   attendance_mode: in_person
   date_precision: day
@@ -807,7 +807,7 @@ Events::Event_5c659335-1a76-4e74-8341-e5bed8907f8c:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/238446253/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_5e8801b8-b30c-49d7-b13f-63060e40667a:
+events_events_5e8801b8-b30c-49d7-b13f-63060e40667a:
   id: 5e8801b8-b30c-49d7-b13f-63060e40667a
   attendance_mode: in_person
   date_precision: day
@@ -838,7 +838,7 @@ Events::Event_5e8801b8-b30c-49d7-b13f-63060e40667a:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/299201679/
   title: Ruby Meetup March 2024
   venues_venue_id: ca9606cd-d8e0-4c53-8f0f-ee59fda172f4
-Events::Event_5ec4c4c6-643b-40e8-b01f-f5396c2323dd:
+events_events_5ec4c4c6-643b-40e8-b01f-f5396c2323dd:
   id: 5ec4c4c6-643b-40e8-b01f-f5396c2323dd
   attendance_mode: in_person
   date_precision: day
@@ -853,7 +853,7 @@ Events::Event_5ec4c4c6-643b-40e8-b01f-f5396c2323dd:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/237650225/
   title: Ruby User Group Meetup
   venues_venue_id: 00ab037e-02fc-41f7-88c3-3d5147c1bb5f
-Events::Event_60f568f0-6f60-4e53-9e04-e9ffaebb1e06:
+events_events_60f568f0-6f60-4e53-9e04-e9ffaebb1e06:
   id: 60f568f0-6f60-4e53-9e04-e9ffaebb1e06
   attendance_mode: in_person
   date_precision: day
@@ -868,7 +868,7 @@ Events::Event_60f568f0-6f60-4e53-9e04-e9ffaebb1e06:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345816/
   title: Ruby User Group Meetup
   venues_venue_id: 59fc696b-609c-4177-9afa-669185fb0dd7
-Events::Event_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
+events_events_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
   id: 6fa5571a-9a88-428f-afb6-9a0c07e1f9e3
   attendance_mode: in_person
   date_precision: day
@@ -885,7 +885,7 @@ Events::Event_6fa5571a-9a88-428f-afb6-9a0c07e1f9e3:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/124636722/
   title: August Biergarten Meetup
   venues_venue_id: d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6
-Events::Event_71a42ab5-d65d-4686-9bf6-7238a6719d66:
+events_events_71a42ab5-d65d-4686-9bf6-7238a6719d66:
   id: 71a42ab5-d65d-4686-9bf6-7238a6719d66
   attendance_mode: in_person
   date_precision: day
@@ -929,7 +929,7 @@ Events::Event_71a42ab5-d65d-4686-9bf6-7238a6719d66:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/124418592/
   title: The big bad Gems presentation Marathon
   venues_venue_id: f6bb5d43-abdf-464f-ab91-b68855b122c2
-Events::Event_721e3030-460f-48ae-a545-cf81cb327b67:
+events_events_721e3030-460f-48ae-a545-cf81cb327b67:
   id: 721e3030-460f-48ae-a545-cf81cb327b67
   attendance_mode: in_person
   date_precision: day
@@ -948,7 +948,7 @@ Events::Event_721e3030-460f-48ae-a545-cf81cb327b67:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/188259742/
   title: Ruby User Group Meetup
   venues_venue_id: 266215c5-41cf-49b6-b688-566b2d98fd48
-Events::Event_74ad1707-f344-4743-916f-c5c2a89c27bd:
+events_events_74ad1707-f344-4743-916f-c5c2a89c27bd:
   id: 74ad1707-f344-4743-916f-c5c2a89c27bd
   attendance_mode: in_person
   date_precision: day
@@ -963,7 +963,7 @@ Events::Event_74ad1707-f344-4743-916f-c5c2a89c27bd:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/152038022/
   title: January Meetup - Ruby off Rails
   venues_venue_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
-Events::Event_764df804-c67c-4803-84b3-4221968642fb:
+events_events_764df804-c67c-4803-84b3-4221968642fb:
   id: 764df804-c67c-4803-84b3-4221968642fb
   attendance_mode: in_person
   date_precision: day
@@ -982,7 +982,7 @@ Events::Event_764df804-c67c-4803-84b3-4221968642fb:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/159162612/
   title: Ruby User Group Meetup
   venues_venue_id: 215487ed-a371-488f-b43f-3caffbbdf0d0
-Events::Event_7756b666-da89-4f60-9947-cbb5d3110256:
+events_events_7756b666-da89-4f60-9947-cbb5d3110256:
   id: 7756b666-da89-4f60-9947-cbb5d3110256
   attendance_mode: in_person
   date_precision: day
@@ -1012,7 +1012,7 @@ Events::Event_7756b666-da89-4f60-9947-cbb5d3110256:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/285945003/
   title: Ruby Meetup - RELAUNCH!
   venues_venue_id: 23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2
-Events::Event_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
+events_events_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
   id: 7a93d6c3-8e39-4198-9d5e-d4030159d42b
   attendance_mode: in_person
   date_precision: day
@@ -1027,7 +1027,7 @@ Events::Event_7a93d6c3-8e39-4198-9d5e-d4030159d42b:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345780/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_7c40a4f1-fc58-46e7-8c96-53d3e07d5f88:
+events_events_7c40a4f1-fc58-46e7-8c96-53d3e07d5f88:
   id: 7c40a4f1-fc58-46e7-8c96-53d3e07d5f88
   attendance_mode: in_person
   date_precision: day
@@ -1042,7 +1042,7 @@ Events::Event_7c40a4f1-fc58-46e7-8c96-53d3e07d5f88:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/260535724/
   title: Ruby User Group Meetup
-Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
+events_events_7deebf5f-7d41-4658-b871-b12968ec0f25:
   id: 7deebf5f-7d41-4658-b871-b12968ec0f25
   attendance_mode: in_person
   date_precision: day
@@ -1067,7 +1067,7 @@ Events::Event_7deebf5f-7d41-4658-b871-b12968ec0f25:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/137766352/
   title: Ruby User Group Meetup
   venues_venue_id: e1cb528f-44ee-4d93-b715-74a738d89c56
-Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
+events_events_7e676004-2eb5-412a-85c5-ac137f22e7d7:
   id: 7e676004-2eb5-412a-85c5-ac137f22e7d7
   attendance_mode: in_person
   date_precision: day
@@ -1084,7 +1084,7 @@ Events::Event_7e676004-2eb5-412a-85c5-ac137f22e7d7:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/250536142/
   title: Ruby User Group Meetup
   venues_venue_id: 1347f7fd-3908-4c46-9325-f7f514394170
-Events::Event_7f01acc2-0480-41c2-810e-6b7ede0d927e:
+events_events_7f01acc2-0480-41c2-810e-6b7ede0d927e:
   id: 7f01acc2-0480-41c2-810e-6b7ede0d927e
   attendance_mode: in_person
   date_precision: day
@@ -1103,7 +1103,7 @@ Events::Event_7f01acc2-0480-41c2-810e-6b7ede0d927e:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/243355940/
   title: Ruby User Group Meetup
   venues_venue_id: 90a84792-1569-45c1-9c35-9e3a708e75c4
-Events::Event_7f464932-1471-4932-9732-d79d20c32844:
+events_events_7f464932-1471-4932-9732-d79d20c32844:
   id: 7f464932-1471-4932-9732-d79d20c32844
   attendance_mode: in_person
   date_precision: day
@@ -1118,7 +1118,7 @@ Events::Event_7f464932-1471-4932-9732-d79d20c32844:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345811/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_7f86600e-6d02-4330-ad23-202dea797ac6:
+events_events_7f86600e-6d02-4330-ad23-202dea797ac6:
   id: 7f86600e-6d02-4330-ad23-202dea797ac6
   attendance_mode: in_person
   date_precision: day
@@ -1132,7 +1132,7 @@ Events::Event_7f86600e-6d02-4330-ad23-202dea797ac6:
   status: scheduled
   title: Ruby Meetup September 2012
   venues_venue_id: 875db3ec-232f-4ca5-99bf-7373a25d0681
-Events::Event_7fd1c033-d506-4e6c-b2e0-773201fef624:
+events_events_7fd1c033-d506-4e6c-b2e0-773201fef624:
   id: 7fd1c033-d506-4e6c-b2e0-773201fef624
   attendance_mode: in_person
   date_precision: day
@@ -1169,7 +1169,7 @@ Events::Event_7fd1c033-d506-4e6c-b2e0-773201fef624:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/316993952/
   title: Ruby Meetup November 2026
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
+events_events_81289cc1-6ab1-408c-9f39-dde415b27a20:
   id: 81289cc1-6ab1-408c-9f39-dde415b27a20
   attendance_mode: in_person
   date_precision: day
@@ -1185,7 +1185,7 @@ Events::Event_81289cc1-6ab1-408c-9f39-dde415b27a20:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/188259462/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_82ce5b60-d507-430e-9ce6-c6fedfbd67e2:
+events_events_82ce5b60-d507-430e-9ce6-c6fedfbd67e2:
   id: 82ce5b60-d507-430e-9ce6-c6fedfbd67e2
   attendance_mode: in_person
   date_precision: day
@@ -1199,7 +1199,7 @@ Events::Event_82ce5b60-d507-430e-9ce6-c6fedfbd67e2:
   status: scheduled
   title: Ruby Meetup June 2013
   venues_venue_id: 1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3
-Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
+events_events_881f5ab6-f105-4900-a67a-1752ac42874d:
   id: 881f5ab6-f105-4900-a67a-1752ac42874d
   attendance_mode: in_person
   date_precision: day
@@ -1214,7 +1214,7 @@ Events::Event_881f5ab6-f105-4900-a67a-1752ac42874d:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/203972372/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
+events_events_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
   id: 88b1d1f2-0d79-4bc8-98b4-692410dd4d8d
   attendance_mode: in_person
   date_precision: day
@@ -1229,7 +1229,7 @@ Events::Event_88b1d1f2-0d79-4bc8-98b4-692410dd4d8d:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711190/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
+events_events_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
   id: 8fc8ef78-6750-414e-9b64-f3dee9a2e926
   attendance_mode: in_person
   date_precision: day
@@ -1245,7 +1245,7 @@ Events::Event_8fc8ef78-6750-414e-9b64-f3dee9a2e926:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/231711877/
   title: Ruby User Group Meetup
   venues_venue_id: f1d0f5b6-c721-4dd0-a632-8acec6cbcd60
-Events::Event_908a770a-7eb1-4009-80e7-6cd766185088:
+events_events_908a770a-7eb1-4009-80e7-6cd766185088:
   id: 908a770a-7eb1-4009-80e7-6cd766185088
   attendance_mode: in_person
   date_precision: day
@@ -1259,7 +1259,7 @@ Events::Event_908a770a-7eb1-4009-80e7-6cd766185088:
   status: scheduled
   title: Ruby Meetup November 2013
   venues_venue_id: 875db3ec-232f-4ca5-99bf-7373a25d0681
-Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
+events_events_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
   id: 9409bd8b-8621-4c5b-a2d9-70df47e92b62
   attendance_mode: in_person
   date_precision: day
@@ -1275,7 +1275,7 @@ Events::Event_9409bd8b-8621-4c5b-a2d9-70df47e92b62:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248733771/
   title: Ruby User Group Meetup
   venues_venue_id: e06fb1e7-d75b-4347-bef5-ab4b83b44d37
-Events::Event_969902ff-c7e8-48e5-8d0e-f64c85568e63:
+events_events_969902ff-c7e8-48e5-8d0e-f64c85568e63:
   id: 969902ff-c7e8-48e5-8d0e-f64c85568e63
   attendance_mode: in_person
   date_precision: day
@@ -1308,7 +1308,7 @@ Events::Event_969902ff-c7e8-48e5-8d0e-f64c85568e63:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/308137751/
   title: Ruby Meetup July 2025
   venues_venue_id: c7e45563-ce0e-46c7-9805-77b86851eda6
-Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
+events_events_988d2d1a-5277-4155-87b6-98e25500d5de:
   id: 988d2d1a-5277-4155-87b6-98e25500d5de
   attendance_mode: in_person
   date_precision: day
@@ -1339,7 +1339,7 @@ Events::Event_988d2d1a-5277-4155-87b6-98e25500d5de:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/306159513/
   title: Ruby Meetup March 2025
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_9f745689-c95c-4f7c-b64d-ca13963eb30a:
+events_events_9f745689-c95c-4f7c-b64d-ca13963eb30a:
   id: 9f745689-c95c-4f7c-b64d-ca13963eb30a
   attendance_mode: in_person
   date_precision: day
@@ -1353,7 +1353,7 @@ Events::Event_9f745689-c95c-4f7c-b64d-ca13963eb30a:
   status: scheduled
   title: Ruby Meetup August 2012
   venues_venue_id: 4ae281e3-418c-4037-8eb3-de3c9b01e747
-Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
+events_events_a25cb714-cc6a-4e13-adae-69f1f42f1901:
   id: a25cb714-cc6a-4e13-adae-69f1f42f1901
   attendance_mode: in_person
   date_precision: day
@@ -1376,7 +1376,7 @@ Events::Event_a25cb714-cc6a-4e13-adae-69f1f42f1901:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/244141903/
   title: Ruby User Group Meetup
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
-Events::Event_a2cad908-ac6a-4757-92b5-23360594d899:
+events_events_a2cad908-ac6a-4757-92b5-23360594d899:
   id: a2cad908-ac6a-4757-92b5-23360594d899
   attendance_mode: in_person
   date_precision: day
@@ -1392,7 +1392,7 @@ Events::Event_a2cad908-ac6a-4757-92b5-23360594d899:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/237650227/
   title: Ruby User Group Meetup
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
-Events::Event_a2f5f7db-1817-43b0-90d1-bb43496137b2:
+events_events_a2f5f7db-1817-43b0-90d1-bb43496137b2:
   id: a2f5f7db-1817-43b0-90d1-bb43496137b2
   attendance_mode: in_person
   date_precision: day
@@ -1406,7 +1406,7 @@ Events::Event_a2f5f7db-1817-43b0-90d1-bb43496137b2:
   status: scheduled
   title: Ruby Meetup October 2012
   venues_venue_id: 875db3ec-232f-4ca5-99bf-7373a25d0681
-Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
+events_events_a30e173e-4659-4cae-915b-13d81f8e8fc3:
   id: a30e173e-4659-4cae-915b-13d81f8e8fc3
   attendance_mode: in_person
   date_precision: day
@@ -1421,7 +1421,7 @@ Events::Event_a30e173e-4659-4cae-915b-13d81f8e8fc3:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/226291420/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_a4070744-c531-4689-941a-d8ebdccdfbe8:
+events_events_a4070744-c531-4689-941a-d8ebdccdfbe8:
   id: a4070744-c531-4689-941a-d8ebdccdfbe8
   attendance_mode: in_person
   date_precision: day
@@ -1438,7 +1438,7 @@ Events::Event_a4070744-c531-4689-941a-d8ebdccdfbe8:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/268082288/
   title: Ruby User Group Meetup
   venues_venue_id: 7ccf4041-03b7-452a-a7f1-efa5d22e96d4
-Events::Event_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
+events_events_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
   id: a6f30940-39ab-4e6e-9bb1-bf94d61070f5
   attendance_mode: in_person
   date_precision: day
@@ -1454,7 +1454,7 @@ Events::Event_a6f30940-39ab-4e6e-9bb1-bf94d61070f5:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711177/
   title: Ruby User Group Meetup
   venues_venue_id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
-Events::Event_a7335843-e74b-4b3e-8cba-bebd4e9e13cc:
+events_events_a7335843-e74b-4b3e-8cba-bebd4e9e13cc:
   id: a7335843-e74b-4b3e-8cba-bebd4e9e13cc
   attendance_mode: in_person
   date_precision: day
@@ -1468,7 +1468,7 @@ Events::Event_a7335843-e74b-4b3e-8cba-bebd4e9e13cc:
   status: scheduled
   title: Ruby Meetup February 2013
   venues_venue_id: 875db3ec-232f-4ca5-99bf-7373a25d0681
-Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
+events_events_aa0190f0-4e61-4234-a914-fe39d0c25a76:
   id: aa0190f0-4e61-4234-a914-fe39d0c25a76
   attendance_mode: in_person
   date_precision: day
@@ -1485,7 +1485,7 @@ Events::Event_aa0190f0-4e61-4234-a914-fe39d0c25a76:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/262005874/
   title: Ruby User Group Meetup
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
-Events::Event_aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb:
+events_events_aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb:
   id: aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb
   attendance_mode: in_person
   date_precision: day
@@ -1501,7 +1501,7 @@ Events::Event_aa0b6b37-c95d-4b7f-a1dd-cad3246ea7cb:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345823/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_ab5a4682-4a75-46dd-bc91-4af39d48df23:
+events_events_ab5a4682-4a75-46dd-bc91-4af39d48df23:
   id: ab5a4682-4a75-46dd-bc91-4af39d48df23
   attendance_mode: in_person
   date_precision: day
@@ -1517,7 +1517,7 @@ Events::Event_ab5a4682-4a75-46dd-bc91-4af39d48df23:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/216676492/
   title: Ruby User Group Meetup
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
-Events::Event_ab6dc247-9323-4567-8589-fb1953cde773:
+events_events_ab6dc247-9323-4567-8589-fb1953cde773:
   id: ab6dc247-9323-4567-8589-fb1953cde773
   attendance_mode: in_person
   date_precision: day
@@ -1533,7 +1533,7 @@ Events::Event_ab6dc247-9323-4567-8589-fb1953cde773:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221711184/
   title: Ruby User Group Meetup
   venues_venue_id: 6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f
-Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
+events_events_ac48d30d-2724-434c-815e-6853b1f10109:
   id: ac48d30d-2724-434c-815e-6853b1f10109
   attendance_mode: in_person
   date_precision: day
@@ -1548,7 +1548,7 @@ Events::Event_ac48d30d-2724-434c-815e-6853b1f10109:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/250536144/
   title: Ruby User Group Meetup
   venues_venue_id: '053190c9-9e62-484e-abf4-374d6e69d475'
-Events::Event_adea8129-c6f0-48b1-b764-296c09336343:
+events_events_adea8129-c6f0-48b1-b764-296c09336343:
   id: adea8129-c6f0-48b1-b764-296c09336343
   attendance_mode: in_person
   date_precision: day
@@ -1578,7 +1578,7 @@ Events::Event_adea8129-c6f0-48b1-b764-296c09336343:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/291687413/
   title: Ruby Meetup March 2023
   venues_venue_id: 12f15b05-65ee-431d-b691-51486c2be216
-Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
+events_events_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
   id: b4664359-c1e2-4611-a19e-b8e5cf1d8344
   attendance_mode: in_person
   date_precision: day
@@ -1599,7 +1599,7 @@ Events::Event_b4664359-c1e2-4611-a19e-b8e5cf1d8344:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/171028112/
   title: Ruby User Group Meetup
   venues_venue_id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
-Events::Event_b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5:
+events_events_b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5:
   id: b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5
   attendance_mode: in_person
   date_precision: day
@@ -1614,7 +1614,7 @@ Events::Event_b7dbdb9f-bddf-44c1-a51c-1ab0ea536ac5:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/270509881/
   title: Ruby User Group Meetup
-Events::Event_b92e9820-5ccc-4877-9fde-0414cb82bd15:
+events_events_b92e9820-5ccc-4877-9fde-0414cb82bd15:
   id: b92e9820-5ccc-4877-9fde-0414cb82bd15
   attendance_mode: in_person
   date_precision: day
@@ -1628,7 +1628,7 @@ Events::Event_b92e9820-5ccc-4877-9fde-0414cb82bd15:
   status: scheduled
   title: Ruby Meetup March 2012
   venues_venue_id: 1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3
-Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
+events_events_bb626d8b-beff-4d94-b095-d3a73a369ebb:
   id: bb626d8b-beff-4d94-b095-d3a73a369ebb
   attendance_mode: online
   date_precision: day
@@ -1650,7 +1650,7 @@ Events::Event_bb626d8b-beff-4d94-b095-d3a73a369ebb:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/269643042/
   title: Ruby User Group Meetup
-Events::Event_bd09e5ca-d692-409c-8944-d966c2a175e0:
+events_events_bd09e5ca-d692-409c-8944-d966c2a175e0:
   id: bd09e5ca-d692-409c-8944-d966c2a175e0
   attendance_mode: in_person
   date_precision: day
@@ -1685,7 +1685,7 @@ Events::Event_bd09e5ca-d692-409c-8944-d966c2a175e0:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/310392682/
   title: Ruby Meetup October 2025
   venues_venue_id: c7e45563-ce0e-46c7-9805-77b86851eda6
-Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
+events_events_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
   id: bfa2ec55-241f-4129-a1bf-92dfa03c543c
   attendance_mode: in_person
   date_precision: day
@@ -1721,7 +1721,7 @@ Events::Event_bfa2ec55-241f-4129-a1bf-92dfa03c543c:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/295448929/
   title: Ruby Meetup September 2023
   venues_venue_id: 63b14137-3cdb-4f1a-88bc-860c5e4f2223
-Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
+events_events_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
   id: c0bcaf27-90cd-4bd8-b8f3-145a42b79c90
   attendance_mode: in_person
   date_precision: day
@@ -1737,7 +1737,7 @@ Events::Event_c0bcaf27-90cd-4bd8-b8f3-145a42b79c90:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/255062412/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_c3faa100-3977-4073-82a8-0ec4625773ea:
+events_events_c3faa100-3977-4073-82a8-0ec4625773ea:
   id: c3faa100-3977-4073-82a8-0ec4625773ea
   attendance_mode: in_person
   date_precision: day
@@ -1753,7 +1753,7 @@ Events::Event_c3faa100-3977-4073-82a8-0ec4625773ea:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/125381152/
   title: Ruby Hackathon
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_c6cf189c-648e-4ae7-abaa-a4761d9cd555:
+events_events_c6cf189c-648e-4ae7-abaa-a4761d9cd555:
   id: c6cf189c-648e-4ae7-abaa-a4761d9cd555
   attendance_mode: in_person
   date_precision: day
@@ -1767,7 +1767,7 @@ Events::Event_c6cf189c-648e-4ae7-abaa-a4761d9cd555:
   status: scheduled
   title: Ruby Meetup April 2013
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
-Events::Event_c7b6e7a9-20e6-45a0-b56b-d10841ff38f4:
+events_events_c7b6e7a9-20e6-45a0-b56b-d10841ff38f4:
   id: c7b6e7a9-20e6-45a0-b56b-d10841ff38f4
   attendance_mode: in_person
   date_precision: day
@@ -1784,7 +1784,7 @@ Events::Event_c7b6e7a9-20e6-45a0-b56b-d10841ff38f4:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/266829008/
   title: Ruby User Group Meetup
   venues_venue_id: 92b5edb8-2adb-4ab7-9f06-017d2f0e64c4
-Events::Event_c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e:
+events_events_c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e:
   id: c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e
   attendance_mode: in_person
   date_precision: day
@@ -1799,7 +1799,7 @@ Events::Event_c86cb3da-70d1-41ed-b6c8-83cc0f2e4c2e:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/255062409/
   title: Ruby User Group Meetup
-Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
+events_events_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
   id: c8a5aa43-7139-44ce-8b2f-53a6c508de2e
   attendance_mode: in_person
   date_precision: day
@@ -1818,7 +1818,7 @@ Events::Event_c8a5aa43-7139-44ce-8b2f-53a6c508de2e:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/246244986/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_c92a903b-d40f-478d-a7d6-457d362bd906:
+events_events_c92a903b-d40f-478d-a7d6-457d362bd906:
   id: c92a903b-d40f-478d-a7d6-457d362bd906
   attendance_mode: in_person
   date_precision: day
@@ -1844,7 +1844,7 @@ Events::Event_c92a903b-d40f-478d-a7d6-457d362bd906:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/288656327/
   title: Ruby Meetup November 2022
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
-Events::Event_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:
+events_events_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:
   id: cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40
   attendance_mode: in_person
   date_precision: day
@@ -1859,7 +1859,7 @@ Events::Event_cc2eefc9-7ce5-4a14-8c50-cfbcb4f0fd40:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/261130049/
   title: Ruby User Group Meetup
   venues_venue_id: 23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2
-Events::Event_d03d7342-973f-4746-b70e-85309f34ae40:
+events_events_d03d7342-973f-4746-b70e-85309f34ae40:
   id: d03d7342-973f-4746-b70e-85309f34ae40
   attendance_mode: in_person
   date_precision: day
@@ -1874,7 +1874,7 @@ Events::Event_d03d7342-973f-4746-b70e-85309f34ae40:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/242248319/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_d096f26c-e4d6-4441-891c-728724a7c26a:
+events_events_d096f26c-e4d6-4441-891c-728724a7c26a:
   id: d096f26c-e4d6-4441-891c-728724a7c26a
   attendance_mode: in_person
   date_precision: day
@@ -1904,7 +1904,7 @@ Events::Event_d096f26c-e4d6-4441-891c-728724a7c26a:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/292979878/
   title: Ruby Meetup May 2023
   venues_venue_id: a2c660d1-f70d-4cf5-8dba-f0edaf6f177f
-Events::Event_d09e00e9-b43f-49d8-b211-9d09abfc482a:
+events_events_d09e00e9-b43f-49d8-b211-9d09abfc482a:
   id: d09e00e9-b43f-49d8-b211-9d09abfc482a
   attendance_mode: in_person
   date_precision: day
@@ -1919,7 +1919,7 @@ Events::Event_d09e00e9-b43f-49d8-b211-9d09abfc482a:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/157576062/
   title: Ruby Closures & Android Apps with Ruby
   venues_venue_id: 4f816bec-c6ce-4776-947f-fa6551d18108
-Events::Event_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
+events_events_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
   id: d9055efc-3ba9-41d3-a013-57a1f5d352c6
   attendance_mode: in_person
   date_precision: day
@@ -1934,7 +1934,7 @@ Events::Event_d9055efc-3ba9-41d3-a013-57a1f5d352c6:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345827/
   title: Ruby User Group Meetup
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
-Events::Event_da4b79dd-3013-476b-8fa3-96e7666e56a9:
+events_events_da4b79dd-3013-476b-8fa3-96e7666e56a9:
   id: da4b79dd-3013-476b-8fa3-96e7666e56a9
   attendance_mode: in_person
   date_precision: day
@@ -1949,7 +1949,7 @@ Events::Event_da4b79dd-3013-476b-8fa3-96e7666e56a9:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/271084351/
   title: Ruby User Group Meetup
-Events::Event_dd5fbda7-f6ae-4732-8b39-539b4726b36a:
+events_events_dd5fbda7-f6ae-4732-8b39-539b4726b36a:
   id: dd5fbda7-f6ae-4732-8b39-539b4726b36a
   attendance_mode: in_person
   date_precision: day
@@ -1963,7 +1963,7 @@ Events::Event_dd5fbda7-f6ae-4732-8b39-539b4726b36a:
   status: scheduled
   title: Ruby Meetup July 2012
   venues_venue_id: 4ae281e3-418c-4037-8eb3-de3c9b01e747
-Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
+events_events_dde2695f-80c5-48a6-a450-ad8b5948c1db:
   id: dde2695f-80c5-48a6-a450-ad8b5948c1db
   attendance_mode: in_person
   date_precision: day
@@ -1987,7 +1987,7 @@ Events::Event_dde2695f-80c5-48a6-a450-ad8b5948c1db:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/150475432/
   title: Ruby User Group Meetup
   venues_venue_id: 8fd97a9c-10f1-4e65-a8c2-fd14c54a963a
-Events::Event_de01ca60-b027-46c8-9735-c6447c68d575:
+events_events_de01ca60-b027-46c8-9735-c6447c68d575:
   id: de01ca60-b027-46c8-9735-c6447c68d575
   attendance_mode: in_person
   date_precision: day
@@ -2002,7 +2002,7 @@ Events::Event_de01ca60-b027-46c8-9735-c6447c68d575:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/228149476/
   title: Ruby User Group Meetup
   venues_venue_id: '08636c17-b994-421c-abc6-c14be18e2502'
-Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
+events_events_e0cc630a-9b72-4f95-badd-f14e16595224:
   id: e0cc630a-9b72-4f95-badd-f14e16595224
   attendance_mode: in_person
   date_precision: day
@@ -2021,7 +2021,7 @@ Events::Event_e0cc630a-9b72-4f95-badd-f14e16595224:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/267986885/
   title: Ruby User Group Meetup
   venues_venue_id: 65fca0f2-adb6-4a50-b344-8771745bee01
-Events::Event_e0e0c374-65e9-4652-9b0e-22011412a820:
+events_events_e0e0c374-65e9-4652-9b0e-22011412a820:
   id: e0e0c374-65e9-4652-9b0e-22011412a820
   attendance_mode: in_person
   date_precision: day
@@ -2060,7 +2060,7 @@ Events::Event_e0e0c374-65e9-4652-9b0e-22011412a820:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/312376792/
   title: Ruby Meetup January 2026
   venues_venue_id: 05a33493-04bf-4272-9325-d3e40bcd1f6e
-Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
+events_events_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
   id: e1b18b13-48e8-4aa0-b9c3-cf01423d46d4
   attendance_mode: in_person
   date_precision: day
@@ -2075,7 +2075,7 @@ Events::Event_e1b18b13-48e8-4aa0-b9c3-cf01423d46d4:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/228149468/
   title: Ruby User Group Meetup
   venues_venue_id: 90a84792-1569-45c1-9c35-9e3a708e75c4
-Events::Event_e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97:
+events_events_e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97:
   id: e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97
   attendance_mode: in_person
   date_precision: day
@@ -2089,7 +2089,7 @@ Events::Event_e280ff7b-5ee3-4bc9-9fc2-036a4ffeee97:
   status: scheduled
   title: Ruby Meetup December 2012
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
+events_events_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
   id: e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd
   attendance_mode: in_person
   date_precision: day
@@ -2120,7 +2120,7 @@ Events::Event_e3c8c4b9-ec5a-418e-b860-15bdc0ba77cd:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/290480070/
   title: Ruby Meetup January 2023
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
-Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
+events_events_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
   id: e3c9dfd3-52c3-4813-95e9-a940a1add48f
   attendance_mode: in_person
   date_precision: day
@@ -2135,7 +2135,7 @@ Events::Event_e3c9dfd3-52c3-4813-95e9-a940a1add48f:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/230345803/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_e56124e4-1e66-411c-a794-41ea348d7504:
+events_events_e56124e4-1e66-411c-a794-41ea348d7504:
   id: e56124e4-1e66-411c-a794-41ea348d7504
   attendance_mode: in_person
   date_precision: day
@@ -2151,7 +2151,7 @@ Events::Event_e56124e4-1e66-411c-a794-41ea348d7504:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/248760918/
   title: Ruby User Group Meetup
   venues_venue_id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
-Events::Event_e5763033-391b-4207-b889-682d099694e3:
+events_events_e5763033-391b-4207-b889-682d099694e3:
   id: e5763033-391b-4207-b889-682d099694e3
   attendance_mode: in_person
   date_precision: day
@@ -2166,7 +2166,7 @@ Events::Event_e5763033-391b-4207-b889-682d099694e3:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/221465143/
   title: Ruby User Group Meetup
   venues_venue_id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
-Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
+events_events_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   id: e6c4cb5e-4d7f-4cf6-96b1-18691856aa88
   attendance_mode: in_person
   date_precision: day
@@ -2199,7 +2199,7 @@ Events::Event_e6c4cb5e-4d7f-4cf6-96b1-18691856aa88:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/313838183/
   title: Ruby Meetup April 2026
   venues_venue_id: 581db90f-7dcd-416b-aa34-6b06b93060ac
-Events::Event_e890a30b-2555-4851-9a6e-7b29b16d29a9:
+events_events_e890a30b-2555-4851-9a6e-7b29b16d29a9:
   id: e890a30b-2555-4851-9a6e-7b29b16d29a9
   attendance_mode: in_person
   date_precision: day
@@ -2213,7 +2213,7 @@ Events::Event_e890a30b-2555-4851-9a6e-7b29b16d29a9:
   status: scheduled
   title: Ruby Meetup January 2013
   venues_venue_id: 31e5c809-fba0-4198-8858-a0054501d792
-Events::Event_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
+events_events_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
   id: e9ca82f3-5d65-40f9-8552-1a5a594f6e80
   attendance_mode: in_person
   date_precision: day
@@ -2228,7 +2228,7 @@ Events::Event_e9ca82f3-5d65-40f9-8552-1a5a594f6e80:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/220922391/
   title: Ruby User Group Meetup
   venues_venue_id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
-Events::Event_eb7f7b54-12a9-431d-b16f-a866624c3ee7:
+events_events_eb7f7b54-12a9-431d-b16f-a866624c3ee7:
   id: eb7f7b54-12a9-431d-b16f-a866624c3ee7
   attendance_mode: in_person
   date_precision: day
@@ -2243,7 +2243,7 @@ Events::Event_eb7f7b54-12a9-431d-b16f-a866624c3ee7:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/257993524/
   title: Ruby User Group Meetup
   venues_venue_id: dbfcbc47-b465-4ef7-9d4c-285208def0d1
-Events::Event_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
+events_events_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
   id: ed3a7637-6b92-4d45-bf95-56fba2a9d13a
   attendance_mode: in_person
   date_precision: day
@@ -2259,7 +2259,7 @@ Events::Event_ed3a7637-6b92-4d45-bf95-56fba2a9d13a:
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/262094188/
   title: Ruby User Group Meetup
   venues_venue_id: 3b908116-7311-4923-b840-ed89760170f8
-Events::Event_f5c1edc4-ae63-43f2-96ee-c484496986ab:
+events_events_f5c1edc4-ae63-43f2-96ee-c484496986ab:
   id: f5c1edc4-ae63-43f2-96ee-c484496986ab
   attendance_mode: in_person
   date_precision: day
@@ -2289,7 +2289,7 @@ Events::Event_f5c1edc4-ae63-43f2-96ee-c484496986ab:
   status: cancelled
   tickets_url: https://www.meetup.com/de-de/munich-rubyshift-ruby-user-group/events/301144567/
   title: Ruby Meetup July 2024
-Events::Event_f9870540-7983-496c-9541-80c13c9d4120:
+events_events_f9870540-7983-496c-9541-80c13c9d4120:
   id: f9870540-7983-496c-9541-80c13c9d4120
   attendance_mode: in_person
   date_precision: day
