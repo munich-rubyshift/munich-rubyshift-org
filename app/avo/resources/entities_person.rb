@@ -40,6 +40,7 @@ class Avo::Resources::EntitiesPerson < Avo::BaseResource
     field :linkedin_username, as: :text, sortable: true
     field :speakerdeck_username, as: :text, sortable: true
     field :meetup_id, as: :text, sortable: true, name: "Meetup user ID"
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 
   def actions

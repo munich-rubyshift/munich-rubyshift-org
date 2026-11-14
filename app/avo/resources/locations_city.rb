@@ -18,5 +18,6 @@ class Avo::Resources::LocationsCity < Avo::BaseResource
     field :state_code, as: :text, sortable: true
     field :country_code, as: :text, sortable: true
     field :coordinates, as: :belongs_to, **sortable(:by_to_s, on: :coordinates)
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end

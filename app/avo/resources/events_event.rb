@@ -50,6 +50,7 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
     field :luma, as: :text, sortable: true, **series_default_options(:luma)
 
     field :announced_on, as: :date, sortable: true
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
 
     field :cfps, as: :has_many
   end

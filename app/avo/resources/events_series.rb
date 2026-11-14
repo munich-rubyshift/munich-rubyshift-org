@@ -33,5 +33,6 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
     field :banner_background, as: :text, sortable: true
     field :featured_background, as: :text, sortable: true
     field :featured_color, as: :text, sortable: true
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end

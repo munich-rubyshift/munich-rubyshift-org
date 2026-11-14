@@ -1,5 +1,6 @@
 class Locations::Address < ApplicationRecord
   include NormalizedStrings
+  include RubyeventsData
   include Sluggable
   include Locations::Geocodable
   friendly_id :street

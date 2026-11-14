@@ -2,6 +2,7 @@ class Events::Event < ApplicationRecord
   include NormalizedStrings
   include LongFormText
   include LocalTimes
+  include RubyeventsData
   include Sluggable
   include Events::SeriesDefaults
   friendly_id :slug_candidates

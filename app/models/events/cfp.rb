@@ -1,5 +1,6 @@
 class Events::CFP < ApplicationRecord
   include NormalizedStrings
+  include RubyeventsData
   include Sluggable
   friendly_id :slug_candidates
 

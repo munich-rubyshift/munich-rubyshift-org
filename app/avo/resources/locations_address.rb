@@ -17,5 +17,6 @@ class Avo::Resources::LocationsAddress < Avo::BaseResource
     field :zip_code, as: :text, sortable: true
     field :city, as: :belongs_to, **sortable(:by_to_s, on: :city)
     field :coordinates, as: :belongs_to, **sortable(:by_to_s, on: :coordinates)
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end

@@ -18,5 +18,6 @@ class Avo::Resources::EventsCFP < Avo::BaseResource
       format_form_using: -> { record.read_attribute(:close_date) },
       placeholder: -> { record.implied_close_date&.iso8601 }
     field :event, as: :belongs_to, **sortable(:by_start_date, on: :event)
+    field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end
