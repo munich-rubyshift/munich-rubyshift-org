@@ -6,7 +6,7 @@ class Api::V1::SponsorTierSerializer < Api::V1::Serializer
 
   def sponsorships
     record.sponsorships.sort_by { |sponsorship| sponsorship.organization.slug }
-      .map { |sponsorship| Api::V1::SponsorshipSerializer.new(sponsorship) }
+      .map { |sponsorship| Api::V1::SponsorshipSerializer.new(sponsorship, rubyevents:) }
   end
 
   private

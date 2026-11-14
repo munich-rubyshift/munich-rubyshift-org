@@ -12,7 +12,7 @@ class Api::V1::VenueSerializer < Api::V1::Serializer
   attribute :nearby_parking
 
   attribute :map do
-    record.map&.slice(:google_url, :apple_url, :openstreetmap_url)
+    with_rubyevents_data(record.map, record.map.slice(:google_url, :apple_url, :openstreetmap_url)) if record.map
   end
 
   private

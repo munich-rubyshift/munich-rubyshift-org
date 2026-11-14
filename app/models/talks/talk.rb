@@ -11,6 +11,10 @@ class Talks::Talk < ApplicationRecord
     q_and_a discussion fireside_chat interview award demo trailer recap aftermovie intro outro
   ].freeze
 
+  def self.serializer_relationships
+    %w[speakers]
+  end
+
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :talks
 
   normalized_strings :events_event_id, :kind, :language_code, :slides_url, :title

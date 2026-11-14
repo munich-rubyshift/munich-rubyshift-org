@@ -61,10 +61,40 @@ To add or remove an image:
 `/api/v1` publishes our data as JSON files. Its OpenAPI schema is served at
 `/api/v1/schema.yaml` and rendered with Swagger UI at `/api/schema`.
 
-The schema's sources live in `doc/api/v1`. After editing them, run
-`yarn schema:bundle` to regenerate `public/api/v1/schema.yaml`; a test fails
-until you do. `redocly.yaml` turns off Redocly CLI's telemetry, and the script
-turns off its update check.
+`/api/rubyevents-v1` publishes the same documents for RubyEvents: there, each
+record's `rubyevents_data` (a JSON object, edited in Avo) replaces or adds to
+its attributes. Put what RubyEvents needs differently there, like their slugs,
+instead of bending our own columns.
+
+The schema's sources live in `doc/api/v1`. The RubyEvents schema is the same
+bundle with `doc/api/rubyevents-v1/overlay.yaml` applied, an
+[OpenAPI Overlay](https://spec.openapis.org/overlay/v1.0.0.html) of everything
+that differs, like its title and the series' colors, so the v1 sources stay
+untouched: each action targets a node of the bundle, like
+`$.components.schemas.Series.properties.attributes.properties`. After editing
+either, run `yarn schema:bundle` to regenerate both `public/api/*/schema.yaml`;
+a test fails until you do. `redocly.yaml` turns off Redocly CLI's telemetry,
+and the script turns off its update check.
+
+Like v1, the RubyEvents schema allows no properties beyond those it lists, so
+RubyEvents can rely on it. `test/integration/rubyevents_export_test.rb` checks
+the documents of `content/data` against it. To export a new value for
+RubyEvents:
+
+1. Document it in `doc/api/rubyevents-v1/overlay.yaml`, in the attributes of its
+   resource.
+2. Run `yarn schema:bundle`.
+3. Add it to the `rubyevents_data` of the records that have it, in Avo.
+4. Run `bin/rails test test/integration/rubyevents_export_test.rb`.
+
+The overlay only describes values. Add a rule of RubyEvents as a validation
+`on: :rubyevents` in the serializer of its resource, like their slug rule in
+`Api::V1::PersonSerializer`, never as a restriction in the overlay: a constraint
+that suits our own data belongs in the v1 schema. Such a validation neither
+touches v1 nor runs on save: `test/integration/rubyevents_export_test.rb` checks
+every record that RubyEvents gets from `content/data`, each with its own
+serializer, on CI. Without a `rubyevents_data` override, a rule constrains our
+own column.
 
 ## Troubleshooting
 

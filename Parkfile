@@ -18,7 +18,14 @@ Parklife.application.routes do
   get api_v1_cities_path(format: :json)
   get api_v1_organizations_path(format: :json)
   get api_v1_series_index_path(format: :json)
-  Events::Event.ids.each { |id| get api_v1_event_path(id, format: :json) }
+  get api_rubyevents_v1_people_path(format: :json)
+  get api_rubyevents_v1_cities_path(format: :json)
+  get api_rubyevents_v1_organizations_path(format: :json)
+  get api_rubyevents_v1_series_index_path(format: :json)
+  Events::Event.ids.each do |id|
+    get api_v1_event_path(id, format: :json)
+    get api_rubyevents_v1_event_path(id, format: :json)
+  end
 
   # Add further paths not discovered by crawling from the root - Parklife's
   # Rails integration lets you use the app's route helpers:

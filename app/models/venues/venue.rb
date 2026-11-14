@@ -6,6 +6,10 @@ class Venues::Venue < ApplicationRecord
   include Sluggable
   friendly_id :name
 
+  def self.serializer_relationships
+    %w[address organization]
+  end
+
   belongs_to :address, class_name: "::Locations::Address", foreign_key: :locations_address_id, inverse_of: :venues
   belongs_to :map, class_name: "::Locations::Map", foreign_key: :locations_map_id, inverse_of: :venues, optional: true
   belongs_to :organization, class_name: "::Entities::Organization", foreign_key: :entities_organization_id, inverse_of: :venues, optional: true

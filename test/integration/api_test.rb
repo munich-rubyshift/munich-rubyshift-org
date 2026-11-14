@@ -4,6 +4,7 @@ class ApiTest < ActionDispatch::IntegrationTest
   include StorageTestHelper
 
   OPENAPI = JSONSchemer.openapi(YAML.load_file(Rails.root.join("public/api/v1/schema.yaml")))
+  RUBYEVENTS_OPENAPI = JSONSchemer.openapi(YAML.load_file(Rails.root.join("public/api/rubyevents-v1/schema.yaml")))
 
   setup do
     Events::Event.update_all(kind: "meetup", status: nil, date_precision: nil)
@@ -132,6 +133,96 @@ class ApiTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "RubyEvents gets each record's values with its rubyevents_data put over them" do
+    venues_venues(:one).update_columns(locations_map_id: locations_maps(:one).id)
+    @event.update_columns(rubyevents_data: { "slug" => "2026-04-23", "subtitle" => "Talks and drinks" })
+    entities_people(:one).update_columns(rubyevents_data: { "name" => nil })
+    locations_maps(:one).update_columns(rubyevents_data: { "google_url" => nil })
+    talks_additional_resources(:one).update_columns(rubyevents_data: { "kind" => "video" })
+
+    get "/api/rubyevents-v1/events/#{@event.id}.json"
+    event = response.parsed_body["data"]
+    venue, talk = %w[venues talks].map do |type|
+      response.parsed_body["included"].find { |resource| resource["type"] == type }
+    end
+
+    assert_equal [ @event.id, "2026-04-23", "Talks and drinks", "meetup" ],
+      [ event["id"], *event["attributes"].values_at("slug", "subtitle", "kind") ]
+    assert_nil venue.dig("attributes", "map", "google_url")
+    assert_equal "video", talk.dig("attributes", "additional_resources", 0, "kind")
+
+    get "/api/rubyevents-v1/people.json"
+
+    assert_nil response.parsed_body["data"].find { |person| person["id"] == entities_people(:one).id }.dig("attributes", "name")
+  end
+
+  test "each RubyEvents document matches its schema, while v1 leaves the RubyEvents data out" do
+    venues_venues(:one).update_columns(entities_organization_id: entities_organizations(:one).id, locations_map_id: locations_maps(:one).id)
+    events_involvements(:two).update_columns(events_event_id: @event.id)
+    [ events_series(:one), entities_people(:one), entities_organizations(:one), locations_cities(:one), @event,
+      venues_venues(:one), talks_talks(:one), sponsors_sponsor_tiers(:one), events_cfps(:one) ]
+      .each { |record| record.update_columns(rubyevents_data: { "slug" => "rubyevents-slug" }) }
+
+    {
+      "people.json" => "PeopleDocument",
+      "cities.json" => "CitiesDocument",
+      "organizations.json" => "OrganizationsDocument",
+      "series.json" => "SeriesDocument",
+      "events/#{@event.id}.json" => "EventDocument"
+    }.each do |path, schema|
+      get "/api/rubyevents-v1/#{path}"
+
+      assert_empty RUBYEVENTS_OPENAPI.schema(schema).validate(response.parsed_body).map { |error| error["error"] }, path
+      assert_includes response.body, "rubyevents-slug", path
+
+      get "/api/v1/#{path}"
+
+      assert_empty OPENAPI.schema(schema).validate(response.parsed_body).map { |error| error["error"] }, path
+      assert_not_includes response.body, "rubyevents-slug", path
+    end
+  end
+
+  test "the RubyEvents schema rejects values it doesn't document" do
+    events_series(:one).update_columns(rubyevents_data: { "undocumented" => true })
+    get "/api/rubyevents-v1/series.json"
+
+    assert_match %r{/attributes/undocumented}, RUBYEVENTS_OPENAPI.schema("SeriesDocument").validate(response.parsed_body).map { |error| error["error"] }.join
+  end
+
+  test "the RubyEvents schema checks the values it documents beyond v1" do
+    events_series(:one).update_columns(rubyevents_data: { "frequency" => "quarterly", "inactive" => false })
+    get "/api/rubyevents-v1/series.json"
+
+    assert_empty RUBYEVENTS_OPENAPI.schema("SeriesDocument").validate(response.parsed_body).map { |error| error["error"] }
+
+    events_series(:one).update_columns(rubyevents_data: { "frequency" => "sometimes" })
+    get "/api/rubyevents-v1/series.json"
+
+    assert_match %r{/attributes/frequency}, RUBYEVENTS_OPENAPI.schema("SeriesDocument").validate(response.parsed_body).map { |error| error["error"] }.join
+  end
+
+  test "each resource and embedded value for RubyEvents carries the rubyevents_data of its own record" do
+    venues_venues(:one).update_columns(locations_map_id: locations_maps(:one).id)
+    embedded = { "map" => "Locations::Map", "additional_resources" => "Talks::AdditionalResource" }
+    (Api::V1::Serializer::TYPES.keys + embedded.values).each { |name| name.constantize.update_all(rubyevents_data: { "source" => name }) }
+
+    resources = %w[people cities organizations series].flat_map do |list|
+      get "/api/rubyevents-v1/#{list}.json"
+      response.parsed_body["data"]
+    end
+    get "/api/rubyevents-v1/events/#{@event.id}.json"
+    resources += [ response.parsed_body["data"], *response.parsed_body["included"] ]
+
+    assert_equal Api::V1::Serializer::TYPES.values.sort, resources.map { |resource| resource["type"] }.uniq.sort
+    assert_equal resources.map { |resource| Api::V1::Serializer::TYPES.key(resource["type"]) },
+      resources.map { |resource| resource.dig("attributes", "source") }
+    embedded.each do |attribute, source|
+      values = resources.filter_map { |resource| resource["attributes"][attribute] }.flatten
+
+      assert_equal [ source ], values.map { |value| value["source"] }.uniq, attribute
+    end
+  end
+
   test "a person links to their avatar" do
     check_out_storage
     @event.involvements.create!(entity: Entities::Person.create!(name: "Carla", avatar: image_upload), role: "Organizer")
@@ -146,14 +237,16 @@ class ApiTest < ActionDispatch::IntegrationTest
     assert_empty OPENAPI.validate.map { |error| error["error"] }
   end
 
-  test "the schema is the bundle of its sources" do
-    bundle = Rails.root.join("tmp", "schema-#{SecureRandom.hex}.yaml")
-    assert system({ "REDOCLY_SUPPRESS_NOTIFICATIONS" => "true" }, "node_modules/.bin/redocly", "bundle",
-      "doc/api/v1/openapi.yaml", "--output", bundle.to_s, chdir: Rails.root, out: File::NULL, err: File::NULL)
+  test "the RubyEvents schema is a valid OpenAPI document" do
+    assert_empty RUBYEVENTS_OPENAPI.validate.map { |error| error["error"] }
+  end
 
-    assert bundle.read == Rails.root.join("public/api/v1/schema.yaml").read, "run `yarn schema:bundle` after editing doc/api/v1"
-  ensure
-    bundle&.delete if bundle&.exist?
+  test "the schema is the bundle of its sources" do
+    assert_bundle_of_sources "v1"
+  end
+
+  test "the RubyEvents schema is the bundle of its sources" do
+    assert_bundle_of_sources "rubyevents-v1"
   end
 
   test "the schema lists the values the models allow" do
@@ -176,6 +269,20 @@ class ApiTest < ActionDispatch::IntegrationTest
   end
 
   private
+
+  # Bundling an API by name writes to its configured output, so this bundles in a copy.
+  def assert_bundle_of_sources(api)
+    Dir.mktmpdir do |dir|
+      FileUtils.mkdir_p(File.join(dir, "doc"))
+      FileUtils.cp_r(Rails.root.join("doc/api"), File.join(dir, "doc"))
+      FileUtils.cp(Rails.root.join("redocly.yaml"), dir)
+      assert system({ "REDOCLY_SUPPRESS_NOTIFICATIONS" => "true" }, Rails.root.join("node_modules/.bin/redocly").to_s, "bundle", api,
+        chdir: dir, out: File::NULL, err: File::NULL)
+
+      assert File.read(File.join(dir, "public/api/#{api}/schema.yaml")) == Rails.root.join("public/api/#{api}/schema.yaml").read,
+        "run `yarn schema:bundle` after editing doc/api"
+    end
+  end
 
   def identifiers_in(node)
     case node

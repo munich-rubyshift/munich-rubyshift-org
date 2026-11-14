@@ -15,6 +15,14 @@ Rails.application.routes.draw do
       resources :series, only: :index
       resources :events, only: :show
     end
+    scope "rubyevents-v1", module: :v1, as: :rubyevents_v1, format: true, constraints: { format: :json },
+      defaults: { rubyevents: true } do
+      resources :people, only: :index
+      resources :cities, only: :index
+      resources :organizations, only: :index
+      resources :series, only: :index
+      resources :events, only: :show
+    end
   end
 
   namespace :sponsors, path: "" do

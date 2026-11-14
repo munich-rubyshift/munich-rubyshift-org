@@ -5,6 +5,10 @@ class Sponsors::SponsorTier < ApplicationRecord
   include Sluggable
   friendly_id :name
 
+  def self.serializer_relationships
+    %w[sponsorships]
+  end
+
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :sponsor_tiers
 
   normalized_strings :events_event_id, :name

@@ -41,24 +41,24 @@ class Api::V1::EventSerializer < Api::V1::Serializer
   end
 
   def series
-    Api::V1::SeriesSerializer.new(record.series)
+    Api::V1::SeriesSerializer.new(record.series, rubyevents:)
   end
 
   def venue
-    Api::V1::VenueSerializer.new(record.venue) if record.venue
+    Api::V1::VenueSerializer.new(record.venue, rubyevents:) if record.venue
   end
 
   def address
-    Api::V1::AddressSerializer.new(record.venue.address) if record.venue
+    Api::V1::AddressSerializer.new(record.venue.address, rubyevents:) if record.venue
   end
 
   def talks
-    @talks ||= record.talks.includes(:speakers, :additional_resources).map { |talk| Api::V1::TalkSerializer.new(talk) }
+    @talks ||= record.talks.includes(:speakers, :additional_resources).map { |talk| Api::V1::TalkSerializer.new(talk, rubyevents:) }
   end
 
   def sponsor_tiers
     @sponsor_tiers ||= record.sponsor_tiers.includes(sponsorships: :organization).order(:level, :slug)
-      .map { |tier| Api::V1::SponsorTierSerializer.new(tier) }
+      .map { |tier| Api::V1::SponsorTierSerializer.new(tier, rubyevents:) }
   end
 
   def sponsorships
@@ -68,10 +68,10 @@ class Api::V1::EventSerializer < Api::V1::Serializer
   def involvements
     @involvements ||= record.involvements.includes(:entity)
       .sort_by { |involvement| [ involvement.role.to_s, involvement.entity_type, involvement.entity.slug ] }
-      .map { |involvement| Api::V1::InvolvementSerializer.new(involvement) }
+      .map { |involvement| Api::V1::InvolvementSerializer.new(involvement, rubyevents:) }
   end
 
   def cfps
-    @cfps ||= record.cfps.map { |cfp| Api::V1::CFPSerializer.new(cfp) }
+    @cfps ||= record.cfps.map { |cfp| Api::V1::CFPSerializer.new(cfp, rubyevents:) }
   end
 end
