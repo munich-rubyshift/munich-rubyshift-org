@@ -7,6 +7,10 @@ class Locations::Address < ApplicationRecord
 
   GEOCODED_ATTRIBUTES = %w[street zip_code locations_city_id].freeze
 
+  def self.serializer_relationships
+    %w[city]
+  end
+
   belongs_to :city, class_name: "Locations::City", foreign_key: :locations_city_id, inverse_of: :addresses
   belongs_to :coordinates, class_name: "Locations::Coordinates", foreign_key: :locations_coordinates_id, inverse_of: :addresses, autosave: true
 

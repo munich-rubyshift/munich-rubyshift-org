@@ -1,0 +1,62 @@
+overlay: 1.0.0
+info:
+  title: The RubyEvents schema, as changes to the v1 schema
+  version: rubyevents-v1
+actions:
+  - target: $.info
+    update:
+      title: Munich Rubyshift for RubyEvents
+      version: rubyevents-v1
+      summary: The documents of the Munich Rubyshift API, with the values RubyEvents needs.
+      description: |
+        The documents of the v1 API, with each record's values as [RubyEvents](https://www.rubyevents.org)
+        needs them. These may replace our values, like a `slug` that follows RubyEvents' rules, or add to
+        them, like the colors of a series. Otherwise, the description of v1 in
+        [/api/v1/schema.yaml](/api/v1/schema.yaml) applies.
+  - target: $.servers[0]
+    update:
+      url: /api/rubyevents-v1
+  - target: $.components.schemas.Slug
+    update:
+      description: >-
+        The record's name in the URLs of RubyEvents where its RubyEvents data has one, otherwise in the
+        URLs of our website.
+  - target: $.components.schemas.Series.properties.attributes.properties
+    update:
+      frequency:
+        type:
+          - string
+          - 'null'
+        enum:
+          - yearly
+          - monthly
+          - weekly
+          - irregular
+          - biweekly
+          - biyearly
+          - quarterly
+          - null
+      inactive:
+        type: boolean
+        description: Whether the series has stopped for good.
+      banner_background:
+        type:
+          - string
+          - 'null'
+        description: The CSS background of the banner of the series' events, like a color or a gradient.
+        examples:
+          - '#DE2810'
+      featured_background:
+        type:
+          - string
+          - 'null'
+        description: The CSS background color of the featured cards of the series' events.
+        examples:
+          - '#9A0100'
+      featured_color:
+        type:
+          - string
+          - 'null'
+        description: The CSS text color of the featured cards of the series' events.
+        examples:
+          - '#FFFFFF'

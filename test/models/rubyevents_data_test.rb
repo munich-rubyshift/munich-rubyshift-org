@@ -34,6 +34,26 @@ class RubyeventsDataTest < ActiveSupport::TestCase
     end
   end
 
+  test "RubyEvents data can't take the name of one of the record's relationships" do
+    event = events_events(:one)
+    series = events_series(:one)
+
+    event.rubyevents_data = series.rubyevents_data = { "venue" => "Somewhere", "series" => "Munich Rubyshift" }
+
+    assert_includes event.tap(&:validate).errors[:rubyevents_data], "can't use the reserved names venue and series"
+    assert_empty series.tap(&:validate).errors[:rubyevents_data]
+  end
+
+  test "every model names the relationships its serializer gives the record" do
+    Api::V1::Serializer::TYPES.each_key do |name|
+      model = name.constantize
+      serializer = "Api::V1::#{model.name.demodulize}Serializer".constantize
+      relationships = serializer.new(model.first!, rubyevents: false).resource.fetch(:relationships, {})
+
+      assert_equal relationships.keys.map(&:to_s).sort, model.serializer_relationships.sort, name
+    end
+  end
+
   test "every table holds RubyEvents data except join tables, coordinates and those of gems" do
     connection = ApplicationRecord.connection
     without = connection.tables.reject { |table| connection.column_exists?(table, :rubyevents_data) }

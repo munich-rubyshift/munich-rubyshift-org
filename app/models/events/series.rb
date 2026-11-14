@@ -8,6 +8,10 @@ class Events::Series < ApplicationRecord
   KINDS = %w[conference meetup retreat hackathon event podcast online organisation workshop].freeze
   TIME_ZONES = TZInfo::Timezone.all_identifiers.freeze
 
+  def self.serializer_relationships
+    %w[events]
+  end
+
   has_many :events, class_name: "Events::Event", foreign_key: :events_series_id, inverse_of: :series
 
   normalized_strings :bluesky_handle, :default_country_code, :discord, :facebook, :github, :guild, :kind,

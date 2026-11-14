@@ -1,4 +1,6 @@
 class Api::V1::Serializer
+  include ActiveModel::Validations
+
   TYPES = {
     "Entities::Person" => "people",
     "Entities::Organization" => "organizations",
@@ -23,22 +25,34 @@ class Api::V1::Serializer
 
   attr_reader :record
 
-  def initialize(record)
+  def initialize(record, rubyevents:)
     @record = record
+    @rubyevents = rubyevents
   end
 
   def resource
-    { **identifier, attributes:, relationships: }.compact
+    { **identifier, attributes: exported_attributes, relationships: }.compact
   end
 
   def identifier
     identify(record)
   end
 
+  # Runs the validations `on: :rubyevents`, which check the exported values against rules of RubyEvents.
+  def valid_for_rubyevents?
+    valid?(:rubyevents)
+  end
+
   private
+
+  attr_reader :rubyevents
 
   def attributes
     self.class.attribute_readers.to_h { |name, reader| [ name, reader ? instance_exec(&reader) : record.public_send(name) ] }
+  end
+
+  def exported_attributes
+    with_rubyevents_data(record, attributes)
   end
 
   def relationships
@@ -46,6 +60,10 @@ class Api::V1::Serializer
 
   def identify(record)
     { type: TYPES.fetch(record.class.name), id: record.id } if record
+  end
+
+  def with_rubyevents_data(record, values)
+    rubyevents ? values.stringify_keys.merge(record.rubyevents_data.to_h) : values
   end
 
   def coordinates(coordinates)

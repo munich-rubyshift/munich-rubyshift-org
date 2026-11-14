@@ -12,6 +12,10 @@ class Events::Event < ApplicationRecord
   DATE_PRECISIONS = %w[year month day].freeze
   ATTENDANCE_MODES = %w[in_person hybrid online].freeze
 
+  def self.serializer_relationships
+    %w[series venue talks sponsor_tiers involvements cfps]
+  end
+
   belongs_to :series, class_name: "Events::Series", foreign_key: :events_series_id, inverse_of: :events
   belongs_to :venue, class_name: "Venues::Venue", foreign_key: :venues_venue_id, inverse_of: :events, optional: true
 

@@ -4,6 +4,10 @@ class Events::Involvement < ApplicationRecord
 
   ENTITY_TYPES = %w[Entities::Person Entities::Organization].freeze
 
+  def self.serializer_relationships
+    %w[entity]
+  end
+
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :involvements
   belongs_to :entity, polymorphic: true
 

@@ -8,7 +8,7 @@ class Api::V1::TalkSerializer < Api::V1::Serializer
   attribute :announced_on
 
   attribute :additional_resources do
-    record.additional_resources.map { |resource| resource.slice(:kind, :name, :title, :url) }
+    record.additional_resources.map { |resource| with_rubyevents_data(resource, resource.slice(:kind, :name, :title, :url)) }
   end
 
   private

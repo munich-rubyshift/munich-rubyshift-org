@@ -220,7 +220,7 @@ Rails.application.config.to_prepare do
     RUBYEVENTS_DATA_FIELD_OPTIONS = {
       as: :code,
       language: "application/json",
-      help: "A JSON object whose keys replace or add attributes for RubyEvents, " \
+      help: "A JSON object whose keys replace or add attributes in /api/rubyevents-v1, " \
         "like <code>{\"slug\": \"2026-11-12\"}</code>.",
       format_using: -> { value.nil? || value.is_a?(String) ? value : JSON.pretty_generate(value) },
       update_using: -> do
