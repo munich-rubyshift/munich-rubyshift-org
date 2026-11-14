@@ -1,5 +1,5 @@
 ---
-Venues::Venue_00ab037e-02fc-41f7-88c3-3d5147c1bb5f:
+venues_venues_00ab037e-02fc-41f7-88c3-3d5147c1bb5f:
   id: 00ab037e-02fc-41f7-88c3-3d5147c1bb5f
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -9,7 +9,7 @@ Venues::Venue_00ab037e-02fc-41f7-88c3-3d5147c1bb5f:
   name: Burda Bootcamp
   slug: burda-bootcamp
   website: https://www.burda.com/de/marken/burda-bootcamp/
-Venues::Venue_053190c9-9e62-484e-abf4-374d6e69d475:
+venues_venues_053190c9-9e62-484e-abf4-374d6e69d475:
   id: '053190c9-9e62-484e-abf4-374d6e69d475'
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -18,7 +18,7 @@ Venues::Venue_053190c9-9e62-484e-abf4-374d6e69d475:
   locations_address_id: 0e1fb7ca-b03a-40b9-94c0-775585371919
   name: xbAV Office
   slug: xbav-office
-Venues::Venue_05a33493-04bf-4272-9325-d3e40bcd1f6e:
+venues_venues_05a33493-04bf-4272-9325-d3e40bcd1f6e:
   id: 05a33493-04bf-4272-9325-d3e40bcd1f6e
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -27,7 +27,7 @@ Venues::Venue_05a33493-04bf-4272-9325-d3e40bcd1f6e:
   locations_address_id: ce312dce-0d8a-4a65-8c49-8716f396a1f3
   name: makandra Office
   slug: makandra-office
-Venues::Venue_08636c17-b994-421c-abc6-c14be18e2502:
+venues_venues_08636c17-b994-421c-abc6-c14be18e2502:
   id: '08636c17-b994-421c-abc6-c14be18e2502'
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -36,7 +36,7 @@ Venues::Venue_08636c17-b994-421c-abc6-c14be18e2502:
   locations_address_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
   name: Xing EVENTS Office
   slug: xing-events-office
-Venues::Venue_12f15b05-65ee-431d-b691-51486c2be216:
+venues_venues_12f15b05-65ee-431d-b691-51486c2be216:
   id: 12f15b05-65ee-431d-b691-51486c2be216
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -46,7 +46,7 @@ Venues::Venue_12f15b05-65ee-431d-b691-51486c2be216:
   locations_address_id: 6bf8f3b2-7dcf-419b-88fd-15789f0a21a4
   name: Zavvy Office
   slug: zavvy-office
-Venues::Venue_1347f7fd-3908-4c46-9325-f7f514394170:
+venues_venues_1347f7fd-3908-4c46-9325-f7f514394170:
   id: 1347f7fd-3908-4c46-9325-f7f514394170
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -55,7 +55,7 @@ Venues::Venue_1347f7fd-3908-4c46-9325-f7f514394170:
   locations_address_id: 91fcd7a0-9f33-43d1-ab35-39111c44d308
   name: ThoughtWorks Office
   slug: thoughtworks-office
-Venues::Venue_1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3:
+venues_venues_1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3:
   id: 1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -64,7 +64,7 @@ Venues::Venue_1c7528f4-4f5b-4e91-a3c0-c98ec2d610d3:
   locations_address_id: 7cd7fa76-d811-48ba-9f53-74bdb3d6b1c7
   name: Propertybase Office
   slug: propertybase-office
-Venues::Venue_215487ed-a371-488f-b43f-3caffbbdf0d0:
+venues_venues_215487ed-a371-488f-b43f-3caffbbdf0d0:
   id: 215487ed-a371-488f-b43f-3caffbbdf0d0
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -73,7 +73,7 @@ Venues::Venue_215487ed-a371-488f-b43f-3caffbbdf0d0:
   locations_address_id: 7ee6fa75-f78f-41db-83bd-972d07231d29
   name: Scoreloop Office
   slug: scoreloop-office
-Venues::Venue_23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2:
+venues_venues_23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2:
   id: 23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -83,7 +83,7 @@ Venues::Venue_23ea9d51-d128-4fdc-b9d6-eacd7f4e06b2:
   locations_address_id: 3f35d020-4ee5-49af-8307-1ed67c77eadc
   name: DataGuard Office
   slug: dataguard-office
-Venues::Venue_266215c5-41cf-49b6-b688-566b2d98fd48:
+venues_venues_266215c5-41cf-49b6-b688-566b2d98fd48:
   id: 266215c5-41cf-49b6-b688-566b2d98fd48
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -91,7 +91,7 @@ Venues::Venue_266215c5-41cf-49b6-b688-566b2d98fd48:
   locations_address_id: d145e416-b509-4606-874b-9a62dd18d9bd
   name: Hofbräukeller
   slug: hofbraeukeller
-Venues::Venue_31e5c809-fba0-4198-8858-a0054501d792:
+venues_venues_31e5c809-fba0-4198-8858-a0054501d792:
   id: 31e5c809-fba0-4198-8858-a0054501d792
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -100,7 +100,7 @@ Venues::Venue_31e5c809-fba0-4198-8858-a0054501d792:
   locations_address_id: 16d4466b-429f-47c5-bcbd-ad142314371f
   name: gutefrage Office
   slug: gutefrage-office
-Venues::Venue_3236f853-c433-46ee-a6e4-070b99a632fb:
+venues_venues_3236f853-c433-46ee-a6e4-070b99a632fb:
   id: 3236f853-c433-46ee-a6e4-070b99a632fb
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -109,7 +109,7 @@ Venues::Venue_3236f853-c433-46ee-a6e4-070b99a632fb:
   locations_address_id: cdf044dc-7abf-436a-96de-596b9ed7f71c
   name: PHAROS Office
   slug: pharos-office
-Venues::Venue_398a16cb-c67e-4b1e-87f6-2d7535a7c43c:
+venues_venues_398a16cb-c67e-4b1e-87f6-2d7535a7c43c:
   id: 398a16cb-c67e-4b1e-87f6-2d7535a7c43c
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -118,7 +118,7 @@ Venues::Venue_398a16cb-c67e-4b1e-87f6-2d7535a7c43c:
   name: Bar Niederlassung
   slug: bar-niederlassung
   website: http://niederlassung.org/about-2/lage/
-Venues::Venue_3b908116-7311-4923-b840-ed89760170f8:
+venues_venues_3b908116-7311-4923-b840-ed89760170f8:
   id: 3b908116-7311-4923-b840-ed89760170f8
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -127,7 +127,7 @@ Venues::Venue_3b908116-7311-4923-b840-ed89760170f8:
   locations_address_id: eb96f61f-5059-4c2c-b7f6-5361a1241c16
   name: riskmethods Office 2
   slug: riskmethods-office-2
-Venues::Venue_4199ada8-92e2-4074-90a3-5c5dbd97f399:
+venues_venues_4199ada8-92e2-4074-90a3-5c5dbd97f399:
   id: 4199ada8-92e2-4074-90a3-5c5dbd97f399
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -136,7 +136,7 @@ Venues::Venue_4199ada8-92e2-4074-90a3-5c5dbd97f399:
   locations_address_id: a2b3bfc0-9fa5-4a08-a546-7d15ad158735
   name: codecentric Office
   slug: codecentric-office
-Venues::Venue_4615cc6d-19f4-4d57-bbe7-482e41344db1:
+venues_venues_4615cc6d-19f4-4d57-bbe7-482e41344db1:
   id: 4615cc6d-19f4-4d57-bbe7-482e41344db1
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -145,7 +145,7 @@ Venues::Venue_4615cc6d-19f4-4d57-bbe7-482e41344db1:
   locations_address_id: 0b5ec8e1-007f-4510-8d0d-ff4b87cb3b18
   name: Freeletics Office
   slug: freeletics-office
-Venues::Venue_4ae281e3-418c-4037-8eb3-de3c9b01e747:
+venues_venues_4ae281e3-418c-4037-8eb3-de3c9b01e747:
   id: 4ae281e3-418c-4037-8eb3-de3c9b01e747
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -155,7 +155,7 @@ Venues::Venue_4ae281e3-418c-4037-8eb3-de3c9b01e747:
   name: coworkingmunich
   slug: coworkingmunich
   website: http://www.coworkingmunich.de
-Venues::Venue_4f816bec-c6ce-4776-947f-fa6551d18108:
+venues_venues_4f816bec-c6ce-4776-947f-fa6551d18108:
   id: 4f816bec-c6ce-4776-947f-fa6551d18108
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -164,7 +164,7 @@ Venues::Venue_4f816bec-c6ce-4776-947f-fa6551d18108:
   locations_address_id: 581c789e-6408-4f1d-8a23-43ae147b210b
   name: Former 03 Office
   slug: former-03-office
-Venues::Venue_522de6d8-fb07-4a30-ab14-b7c8987ab943:
+venues_venues_522de6d8-fb07-4a30-ab14-b7c8987ab943:
   id: 522de6d8-fb07-4a30-ab14-b7c8987ab943
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -173,7 +173,7 @@ Venues::Venue_522de6d8-fb07-4a30-ab14-b7c8987ab943:
   locations_address_id: cdf044dc-7abf-436a-96de-596b9ed7f71c
   name: ARRI Media Office
   slug: arri-media-office
-Venues::Venue_581db90f-7dcd-416b-aa34-6b06b93060ac:
+venues_venues_581db90f-7dcd-416b-aa34-6b06b93060ac:
   id: 581db90f-7dcd-416b-aa34-6b06b93060ac
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -182,7 +182,7 @@ Venues::Venue_581db90f-7dcd-416b-aa34-6b06b93060ac:
   locations_address_id: b67de432-baa6-472d-b97f-6da7f18e8b19
   name: Freeletics Office 2
   slug: freeletics-office-2
-Venues::Venue_59fc696b-609c-4177-9afa-669185fb0dd7:
+venues_venues_59fc696b-609c-4177-9afa-669185fb0dd7:
   id: 59fc696b-609c-4177-9afa-669185fb0dd7
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -191,7 +191,7 @@ Venues::Venue_59fc696b-609c-4177-9afa-669185fb0dd7:
   locations_address_id: af20a4ff-1f6f-4384-970c-e33898c1ac00
   name: Workday Office
   slug: workday-office
-Venues::Venue_614a9910-a2f6-4991-b2c8-6c021c91d477:
+venues_venues_614a9910-a2f6-4991-b2c8-6c021c91d477:
   id: 614a9910-a2f6-4991-b2c8-6c021c91d477
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -200,7 +200,7 @@ Venues::Venue_614a9910-a2f6-4991-b2c8-6c021c91d477:
   locations_address_id: f275e06f-ce99-4ceb-a4c4-82fc52897219
   name: Trurnit Office
   slug: trurnit-office
-Venues::Venue_6309bbae-cd76-4b93-bfa7-7b1fb076177b:
+venues_venues_6309bbae-cd76-4b93-bfa7-7b1fb076177b:
   id: 6309bbae-cd76-4b93-bfa7-7b1fb076177b
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -209,7 +209,7 @@ Venues::Venue_6309bbae-cd76-4b93-bfa7-7b1fb076177b:
   locations_address_id: 5947ec85-23be-4a0d-a2c8-ce15d4b01d79
   name: Experteer Office
   slug: experteer-office
-Venues::Venue_6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f:
+venues_venues_6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f:
   id: 6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -217,7 +217,7 @@ Venues::Venue_6388f6e1-c18b-4fd0-9448-e5c3ce86bf9f:
   locations_address_id: 8db60734-ff15-4d1e-a890-78e45e3013a3
   name: Hamburgerei EINS
   slug: hamburgerei-eins
-Venues::Venue_63b14137-3cdb-4f1a-88bc-860c5e4f2223:
+venues_venues_63b14137-3cdb-4f1a-88bc-860c5e4f2223:
   id: 63b14137-3cdb-4f1a-88bc-860c5e4f2223
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -236,7 +236,7 @@ Venues::Venue_63b14137-3cdb-4f1a-88bc-860c5e4f2223:
   locations_address_id: f7fe8226-b68a-4ec5-b626-1bcf94ce185a
   name: Le Wagon Munich Coding Bootcamp
   slug: le-wagon-munich-coding-bootcamp
-Venues::Venue_65fca0f2-adb6-4a50-b344-8771745bee01:
+venues_venues_65fca0f2-adb6-4a50-b344-8771745bee01:
   id: 65fca0f2-adb6-4a50-b344-8771745bee01
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -245,7 +245,7 @@ Venues::Venue_65fca0f2-adb6-4a50-b344-8771745bee01:
   locations_address_id: 69484e6d-af88-490c-b9b9-ab961209ce10
   name: Xempus Office
   slug: xempus-office
-Venues::Venue_67929c72-6c33-4bfd-a530-6a76a272ce47:
+venues_venues_67929c72-6c33-4bfd-a530-6a76a272ce47:
   id: 67929c72-6c33-4bfd-a530-6a76a272ce47
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -254,7 +254,7 @@ Venues::Venue_67929c72-6c33-4bfd-a530-6a76a272ce47:
   locations_address_id: ded64db2-95ab-4db5-bc19-3f7fdef35d52
   name: Orceo Office
   slug: orceo-office
-Venues::Venue_69821224-9122-4f4f-afa2-ea45b4356aa1:
+venues_venues_69821224-9122-4f4f-afa2-ea45b4356aa1:
   id: 69821224-9122-4f4f-afa2-ea45b4356aa1
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -263,7 +263,7 @@ Venues::Venue_69821224-9122-4f4f-afa2-ea45b4356aa1:
   locations_address_id: e0ae990d-b61a-4bc9-8f25-c920fb2e8d2b
   name: Flobby Media Office
   slug: flobby-media-office
-Venues::Venue_7ccf4041-03b7-452a-a7f1-efa5d22e96d4:
+venues_venues_7ccf4041-03b7-452a-a7f1-efa5d22e96d4:
   id: 7ccf4041-03b7-452a-a7f1-efa5d22e96d4
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -272,7 +272,7 @@ Venues::Venue_7ccf4041-03b7-452a-a7f1-efa5d22e96d4:
   locations_address_id: 13ef6a8f-3ee9-41ab-bddb-115e01d59278
   name: Demodesk Office
   slug: demodesk-office
-Venues::Venue_8578552d-0404-465a-bf8a-32a7d8120b21:
+venues_venues_8578552d-0404-465a-bf8a-32a7d8120b21:
   id: 8578552d-0404-465a-bf8a-32a7d8120b21
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -280,7 +280,7 @@ Venues::Venue_8578552d-0404-465a-bf8a-32a7d8120b21:
   locations_address_id: 7619e363-a9f9-435d-ac83-67536d521e3d
   name: Unknown
   slug: unknown
-Venues::Venue_875db3ec-232f-4ca5-99bf-7373a25d0681:
+venues_venues_875db3ec-232f-4ca5-99bf-7373a25d0681:
   id: 875db3ec-232f-4ca5-99bf-7373a25d0681
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -289,7 +289,7 @@ Venues::Venue_875db3ec-232f-4ca5-99bf-7373a25d0681:
   locations_address_id: 3cc29857-b85b-4f36-9982-6ea55026e955
   name: StyleFruits Office
   slug: stylefruits-office
-Venues::Venue_876c3466-782e-40c3-a3c0-b08779b6cbdb:
+venues_venues_876c3466-782e-40c3-a3c0-b08779b6cbdb:
   id: 876c3466-782e-40c3-a3c0-b08779b6cbdb
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -297,7 +297,7 @@ Venues::Venue_876c3466-782e-40c3-a3c0-b08779b6cbdb:
   locations_address_id: de341e80-9be5-4433-8ac2-fad47d4775b1
   name: Park Café
   slug: park-cafe
-Venues::Venue_87befe94-27c4-488a-b3e3-d7874d97b1a7:
+venues_venues_87befe94-27c4-488a-b3e3-d7874d97b1a7:
   id: 87befe94-27c4-488a-b3e3-d7874d97b1a7
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -306,7 +306,7 @@ Venues::Venue_87befe94-27c4-488a-b3e3-d7874d97b1a7:
   locations_address_id: ab12dea4-bf3e-421b-a51c-099f3c18bf3e
   name: Metoda Office
   slug: metoda-office
-Venues::Venue_8b93680b-2148-4486-93fc-9abadd022492:
+venues_venues_8b93680b-2148-4486-93fc-9abadd022492:
   id: 8b93680b-2148-4486-93fc-9abadd022492
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -315,7 +315,7 @@ Venues::Venue_8b93680b-2148-4486-93fc-9abadd022492:
   locations_address_id: 9b3512a5-95c8-4eb6-a276-29c0bf5fd66f
   name: Workpath Office
   slug: workpath-office
-Venues::Venue_8fd97a9c-10f1-4e65-a8c2-fd14c54a963a:
+venues_venues_8fd97a9c-10f1-4e65-a8c2-fd14c54a963a:
   id: 8fd97a9c-10f1-4e65-a8c2-fd14c54a963a
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -324,7 +324,7 @@ Venues::Venue_8fd97a9c-10f1-4e65-a8c2-fd14c54a963a:
   locations_address_id: 7742024b-8219-4ae6-8917-5a9690f313dc
   name: IT:Agenten Office
   slug: it-agenten-office
-Venues::Venue_90a84792-1569-45c1-9c35-9e3a708e75c4:
+venues_venues_90a84792-1569-45c1-9c35-9e3a708e75c4:
   id: 90a84792-1569-45c1-9c35-9e3a708e75c4
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -333,7 +333,7 @@ Venues::Venue_90a84792-1569-45c1-9c35-9e3a708e75c4:
   locations_address_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
   name: Fidor Bank Office
   slug: fidor-bank-office
-Venues::Venue_92b5edb8-2adb-4ab7-9f06-017d2f0e64c4:
+venues_venues_92b5edb8-2adb-4ab7-9f06-017d2f0e64c4:
   id: 92b5edb8-2adb-4ab7-9f06-017d2f0e64c4
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -341,7 +341,7 @@ Venues::Venue_92b5edb8-2adb-4ab7-9f06-017d2f0e64c4:
   locations_address_id: 0e1b4540-68a9-4488-85f9-5c79217d93a4
   name: Christkindlmarkt am Sendlinger Tor
   slug: christkindlmarkt-am-sendlinger-tor
-Venues::Venue_a2c660d1-f70d-4cf5-8dba-f0edaf6f177f:
+venues_venues_a2c660d1-f70d-4cf5-8dba-f0edaf6f177f:
   id: a2c660d1-f70d-4cf5-8dba-f0edaf6f177f
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -350,7 +350,7 @@ Venues::Venue_a2c660d1-f70d-4cf5-8dba-f0edaf6f177f:
   locations_address_id: 56c87d8f-ae59-4c6b-a5c7-e0a4f44b1a71
   name: JetBrains Office 2
   slug: jetbrains-office-2
-Venues::Venue_acac167f-0957-4586-bcca-7ffa3ed8f06a:
+venues_venues_acac167f-0957-4586-bcca-7ffa3ed8f06a:
   id: acac167f-0957-4586-bcca-7ffa3ed8f06a
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -359,7 +359,7 @@ Venues::Venue_acac167f-0957-4586-bcca-7ffa3ed8f06a:
   locations_address_id: 7a2d5886-0641-4104-8c8b-0cd62265fe5a
   name: Shore Office
   slug: shore-office
-Venues::Venue_c7e45563-ce0e-46c7-9805-77b86851eda6:
+venues_venues_c7e45563-ce0e-46c7-9805-77b86851eda6:
   id: c7e45563-ce0e-46c7-9805-77b86851eda6
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -368,7 +368,7 @@ Venues::Venue_c7e45563-ce0e-46c7-9805-77b86851eda6:
   locations_address_id: 764b4ed9-7c3b-4364-b946-c6d49c915329
   name: Lanes & Planes Office
   slug: lanes-planes-office
-Venues::Venue_ca9606cd-d8e0-4c53-8f0f-ee59fda172f4:
+venues_venues_ca9606cd-d8e0-4c53-8f0f-ee59fda172f4:
   id: ca9606cd-d8e0-4c53-8f0f-ee59fda172f4
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -377,7 +377,7 @@ Venues::Venue_ca9606cd-d8e0-4c53-8f0f-ee59fda172f4:
   locations_address_id: 9b3512a5-95c8-4eb6-a276-29c0bf5fd66f
   name: DataGuard Office 2
   slug: dataguard-office-2
-Venues::Venue_d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6:
+venues_venues_d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6:
   id: d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -385,7 +385,7 @@ Venues::Venue_d98171d6-28f7-40e5-8dbd-0aa0c4b46ca6:
   locations_address_id: acc4d061-e232-4610-ad84-26be50187b1b
   name: Augustiner Keller
   slug: augustiner-keller
-Venues::Venue_dbfcbc47-b465-4ef7-9d4c-285208def0d1:
+venues_venues_dbfcbc47-b465-4ef7-9d4c-285208def0d1:
   id: dbfcbc47-b465-4ef7-9d4c-285208def0d1
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -394,7 +394,7 @@ Venues::Venue_dbfcbc47-b465-4ef7-9d4c-285208def0d1:
   locations_address_id: 9db5c210-e6a7-403c-88cc-f9cb417063d2
   name: New Work Office
   slug: new-work-office
-Venues::Venue_e06fb1e7-d75b-4347-bef5-ab4b83b44d37:
+venues_venues_e06fb1e7-d75b-4347-bef5-ab4b83b44d37:
   id: e06fb1e7-d75b-4347-bef5-ab4b83b44d37
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -403,7 +403,7 @@ Venues::Venue_e06fb1e7-d75b-4347-bef5-ab4b83b44d37:
   locations_address_id: 4814051f-7359-4e0e-9015-b970baacef5e
   name: crewmeister Office
   slug: crewmeister-office
-Venues::Venue_e1cb528f-44ee-4d93-b715-74a738d89c56:
+venues_venues_e1cb528f-44ee-4d93-b715-74a738d89c56:
   id: e1cb528f-44ee-4d93-b715-74a738d89c56
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -412,7 +412,7 @@ Venues::Venue_e1cb528f-44ee-4d93-b715-74a738d89c56:
   locations_address_id: 9dac9d5e-1951-48e5-b771-fce25fad6942
   name: Cospired Office
   slug: cospired-office
-Venues::Venue_f1d0f5b6-c721-4dd0-a632-8acec6cbcd60:
+venues_venues_f1d0f5b6-c721-4dd0-a632-8acec6cbcd60:
   id: f1d0f5b6-c721-4dd0-a632-8acec6cbcd60
   accessibility_elevators: 0
   accessibility_restrooms: 0
@@ -421,7 +421,7 @@ Venues::Venue_f1d0f5b6-c721-4dd0-a632-8acec6cbcd60:
   locations_address_id: 7731351b-56ab-4725-851c-bda6bba0c3a5
   name: riskmethods Office
   slug: riskmethods-office
-Venues::Venue_f6bb5d43-abdf-464f-ab91-b68855b122c2:
+venues_venues_f6bb5d43-abdf-464f-ab91-b68855b122c2:
   id: f6bb5d43-abdf-464f-ab91-b68855b122c2
   accessibility_elevators: 0
   accessibility_restrooms: 0

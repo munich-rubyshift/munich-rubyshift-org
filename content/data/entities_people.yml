@@ -1,44 +1,44 @@
 ---
-Entities::Person_0b11a1cc-a842-44b7-8a0f-fc97bdd53b3f:
+entities_people_0b11a1cc-a842-44b7-8a0f-fc97bdd53b3f:
   id: 0b11a1cc-a842-44b7-8a0f-fc97bdd53b3f
   name: Hendrik
   slug: hendrik
-Entities::Person_0f963cef-9a4d-4231-b72d-78710ee0b7c1:
+entities_people_0f963cef-9a4d-4231-b72d-78710ee0b7c1:
   id: 0f963cef-9a4d-4231-b72d-78710ee0b7c1
   name: Ilya Krasnov
   slug: ilya-krasnov
-Entities::Person_11f51d72-28d1-4d8b-88f0-11420fe4fdc1:
+entities_people_11f51d72-28d1-4d8b-88f0-11420fe4fdc1:
   id: 11f51d72-28d1-4d8b-88f0-11420fe4fdc1
   name: Jan Stępień
   slug: jan-stepien
   twitter_username: janstepien
-Entities::Person_1316adf3-23e0-4c54-9ec0-3583184b241b:
+entities_people_1316adf3-23e0-4c54-9ec0-3583184b241b:
   id: 1316adf3-23e0-4c54-9ec0-3583184b241b
   name: Bruno Brunckhorst
   slug: bruno-brunckhorst
-Entities::Person_13af5a99-46b3-4c3d-9b2a-06c0f0e41f8e:
+entities_people_13af5a99-46b3-4c3d-9b2a-06c0f0e41f8e:
   id: 13af5a99-46b3-4c3d-9b2a-06c0f0e41f8e
   meetup_id: '66445692'
   name: Mario Fernandez
   slug: mario-fernandez
-Entities::Person_18ae851a-ab48-493c-8812-a366f8c27e39:
+entities_people_18ae851a-ab48-493c-8812-a366f8c27e39:
   id: 18ae851a-ab48-493c-8812-a366f8c27e39
   name: Matthias Marshall
   slug: matthias-marshall
-Entities::Person_19f89964-dd55-4a73-b44e-c154c4da2ebd:
+entities_people_19f89964-dd55-4a73-b44e-c154c4da2ebd:
   id: 19f89964-dd55-4a73-b44e-c154c4da2ebd
   name: Thomas Mayrhofer
   slug: thomas-mayrhofer
-Entities::Person_1ccb618b-25da-4b1f-85f8-fd8ba044cefb:
+entities_people_1ccb618b-25da-4b1f-85f8-fd8ba044cefb:
   id: 1ccb618b-25da-4b1f-85f8-fd8ba044cefb
   name: Alexander Reelsen
   slug: alexander-reelsen
-Entities::Person_2098ef52-8b9f-494c-8b6e-900414dc1c4c:
+entities_people_2098ef52-8b9f-494c-8b6e-900414dc1c4c:
   id: 2098ef52-8b9f-494c-8b6e-900414dc1c4c
   github_username: dima4p
   name: Dmitry Kulikov
   slug: dmitry-kulikov
-Entities::Person_21b0b842-40b4-41b8-a798-8c417ef40986:
+entities_people_21b0b842-40b4-41b8-a798-8c417ef40986:
   id: 21b0b842-40b4-41b8-a798-8c417ef40986
   bluesky_handle: hschne
   github_username: hschne
@@ -48,13 +48,13 @@ Entities::Person_21b0b842-40b4-41b8-a798-8c417ef40986:
   slug: hans-schnedlitz
   twitter_username: hschnedlitz
   website: https://www.hansschnedlitz.com/
-Entities::Person_26c51849-0325-4097-a76a-03c7534f99ae:
+entities_people_26c51849-0325-4097-a76a-03c7534f99ae:
   id: 26c51849-0325-4097-a76a-03c7534f99ae
   github_username: tsrivishnu
   name: Sri Vishnu Totakura
   slug: sri-vishnu-totakura
   website: https://srivishnu.totakura.in/
-Entities::Person_2749ec29-5e0a-423d-bad4-a523d0bb6db9:
+entities_people_2749ec29-5e0a-423d-bad4-a523d0bb6db9:
   id: 2749ec29-5e0a-423d-bad4-a523d0bb6db9
   github_username: kibitan
   linkedin_username: chikahiro
@@ -62,66 +62,66 @@ Entities::Person_2749ec29-5e0a-423d-bad4-a523d0bb6db9:
   slug: chikahiro-tokoro
   twitter_username: chikahirotokoro
   website: https://chikahirotokoro.com/
-Entities::Person_27eb9859-7d38-4d38-b380-8b99f9dbf333:
+entities_people_27eb9859-7d38-4d38-b380-8b99f9dbf333:
   id: 27eb9859-7d38-4d38-b380-8b99f9dbf333
   name: Nelli Funk
   slug: nelli-funk
-Entities::Person_2c336893-8a87-4d3f-9736-6d38ccd8b701:
+entities_people_2c336893-8a87-4d3f-9736-6d38ccd8b701:
   id: 2c336893-8a87-4d3f-9736-6d38ccd8b701
   github_username: robkuz
   meetup_id: '76890822'
   name: Robert Kuzelj
   slug: robert-kuzelj
-Entities::Person_2e5e388d-9beb-485b-b57d-4eb8eef8aa0a:
+entities_people_2e5e388d-9beb-485b-b57d-4eb8eef8aa0a:
   id: 2e5e388d-9beb-485b-b57d-4eb8eef8aa0a
   name: Michal Papis
   slug: michal-papis
   twitter_username: mpapis
-Entities::Person_30572660-7e77-40b3-9e4b-eeedd6cbb06d:
+entities_people_30572660-7e77-40b3-9e4b-eeedd6cbb06d:
   id: 30572660-7e77-40b3-9e4b-eeedd6cbb06d
   meetup_id: '39412472'
   name: Dino Reic
   slug: dino-reic
-Entities::Person_31de91f1-fe56-4a48-8df6-57ad93264866:
+entities_people_31de91f1-fe56-4a48-8df6-57ad93264866:
   id: 31de91f1-fe56-4a48-8df6-57ad93264866
   name: Sara Regan
   slug: sara-regan
-Entities::Person_37f33012-4119-4e7c-9e0c-9b820baa7239:
+entities_people_37f33012-4119-4e7c-9e0c-9b820baa7239:
   id: 37f33012-4119-4e7c-9e0c-9b820baa7239
   name: Mathias Huber
   slug: mathias-huber
-Entities::Person_4188344d-77f5-48c7-9638-aa8eb7c92955:
+entities_people_4188344d-77f5-48c7-9638-aa8eb7c92955:
   id: 4188344d-77f5-48c7-9638-aa8eb7c92955
   name: Kivanc Semen
   slug: kivanc-semen
-Entities::Person_4450a880-1fa0-4128-920c-84c1772e0f26:
+entities_people_4450a880-1fa0-4128-920c-84c1772e0f26:
   id: 4450a880-1fa0-4128-920c-84c1772e0f26
   name: Daniel Sudmann
   slug: daniel-sudmann
-Entities::Person_48659da9-f147-43bc-b70c-934afbf64b26:
+entities_people_48659da9-f147-43bc-b70c-934afbf64b26:
   id: 48659da9-f147-43bc-b70c-934afbf64b26
   name: Patrick Mulder
   slug: patrick-mulder
   twitter_username: mulpat
   website: http://thinkingonthinking.com
-Entities::Person_4bfb0ea6-0180-4cd2-ab87-d947c1772e6d:
+entities_people_4bfb0ea6-0180-4cd2-ab87-d947c1772e6d:
   id: 4bfb0ea6-0180-4cd2-ab87-d947c1772e6d
   name: Dennis Herr
   slug: dennis-herr
-Entities::Person_4ffdbde5-2206-430f-8cf6-da9465dd9673:
+entities_people_4ffdbde5-2206-430f-8cf6-da9465dd9673:
   id: 4ffdbde5-2206-430f-8cf6-da9465dd9673
   github_username: sck
   name: Sven C. Koehler
   slug: sven-c-koehler
-Entities::Person_5245f861-a7d6-4e58-a11f-896336e30e20:
+entities_people_5245f861-a7d6-4e58-a11f-896336e30e20:
   id: 5245f861-a7d6-4e58-a11f-896336e30e20
   name: Florin Oltean
   slug: florin-oltean
-Entities::Person_5294df43-962c-4489-8168-66e1c15da7aa:
+entities_people_5294df43-962c-4489-8168-66e1c15da7aa:
   id: 5294df43-962c-4489-8168-66e1c15da7aa
   name: Rubèn Suet
   slug: ruben-suet
-Entities::Person_536bc1f5-5f7f-4f1b-b6b6-e5e101b65906:
+entities_people_536bc1f5-5f7f-4f1b-b6b6-e5e101b65906:
   id: 536bc1f5-5f7f-4f1b-b6b6-e5e101b65906
   github_username: dunkelziffer
   linkedin_username: klaus-weidinger-a37a27332
@@ -129,99 +129,99 @@ Entities::Person_536bc1f5-5f7f-4f1b-b6b6-e5e101b65906:
   name: Klaus Weidinger
   slug: klaus-weidinger
   website: https://www.klausweidinger.de/
-Entities::Person_54ea6e56-8ae3-4a08-93e4-c41e637fbf59:
+entities_people_54ea6e56-8ae3-4a08-93e4-c41e637fbf59:
   id: 54ea6e56-8ae3-4a08-93e4-c41e637fbf59
   name: Nils Gemeinhardt
   slug: nils-gemeinhardt
-Entities::Person_55cb1b0a-cc30-4dc9-9225-55c295487964:
+entities_people_55cb1b0a-cc30-4dc9-9225-55c295487964:
   id: 55cb1b0a-cc30-4dc9-9225-55c295487964
   name: Ference Brose
   slug: ference-brose
-Entities::Person_55df273d-7aee-4312-aeae-785f3fb17021:
+entities_people_55df273d-7aee-4312-aeae-785f3fb17021:
   id: 55df273d-7aee-4312-aeae-785f3fb17021
   github_username: jeg2
   name: James Edward Gray II
   slug: james-edward-gray-ii
   website: http://graysoftinc.com/
-Entities::Person_595da040-fa7b-4e58-9bf1-7c4c3c0edc05:
+entities_people_595da040-fa7b-4e58-9bf1-7c4c3c0edc05:
   id: 595da040-fa7b-4e58-9bf1-7c4c3c0edc05
   name: Frederik Fix
   slug: frederik-fix
-Entities::Person_5a0c7658-9494-4f45-bdab-627b535ea5ee:
+entities_people_5a0c7658-9494-4f45-bdab-627b535ea5ee:
   id: 5a0c7658-9494-4f45-bdab-627b535ea5ee
   name: Oleg
   slug: oleg
-Entities::Person_5c5fd1fd-209d-4852-a85d-9c65302cbccd:
+entities_people_5c5fd1fd-209d-4852-a85d-9c65302cbccd:
   id: 5c5fd1fd-209d-4852-a85d-9c65302cbccd
   name: Dennis Schreiner
   slug: dennis-schreiner
-Entities::Person_60700d75-cbb2-4e9c-8ff1-3dbf8948b76a:
+entities_people_60700d75-cbb2-4e9c-8ff1-3dbf8948b76a:
   id: 60700d75-cbb2-4e9c-8ff1-3dbf8948b76a
   name: Kuba Kuźma
   slug: kuba-kuzma
-Entities::Person_679174d1-fc1c-49ab-92a2-76200d7536ab:
+entities_people_679174d1-fc1c-49ab-92a2-76200d7536ab:
   id: 679174d1-fc1c-49ab-92a2-76200d7536ab
   name: Pascal Wengerter
   slug: pascal-wengerter
-Entities::Person_6e450ab6-7b03-4f26-af3a-b62576cbcb90:
+entities_people_6e450ab6-7b03-4f26-af3a-b62576cbcb90:
   id: 6e450ab6-7b03-4f26-af3a-b62576cbcb90
   name: Michael Sauter
   slug: michael-sauter
-Entities::Person_6f6a8d24-09e3-4c54-942a-eda440206be7:
+entities_people_6f6a8d24-09e3-4c54-942a-eda440206be7:
   id: 6f6a8d24-09e3-4c54-942a-eda440206be7
   name: Ken Alex Fassone
   slug: ken-alex-fassone
-Entities::Person_724fb7aa-9e9f-4e80-90cd-82f3cbc7989e:
+entities_people_724fb7aa-9e9f-4e80-90cd-82f3cbc7989e:
   id: 724fb7aa-9e9f-4e80-90cd-82f3cbc7989e
   name: Benjamin Wolf
   slug: benjamin-wolf
-Entities::Person_72a5e679-ebc3-49c4-b613-cd22478bce20:
+entities_people_72a5e679-ebc3-49c4-b613-cd22478bce20:
   id: 72a5e679-ebc3-49c4-b613-cd22478bce20
   name: Marco Otto-Witte
   slug: marco-otto-witte
   twitter_username: marcoow
-Entities::Person_735d0553-cd7d-4dae-a81d-8626f2781e7a:
+entities_people_735d0553-cd7d-4dae-a81d-8626f2781e7a:
   id: 735d0553-cd7d-4dae-a81d-8626f2781e7a
   name: Leif Gensert
   slug: leif-gensert
-Entities::Person_758bf906-19a7-406b-9e0a-87e1e2f276e9:
+entities_people_758bf906-19a7-406b-9e0a-87e1e2f276e9:
   id: 758bf906-19a7-406b-9e0a-87e1e2f276e9
   name: Uli Ramminger
   slug: uli-ramminger
-Entities::Person_76ed0ade-7f44-4ff2-9bd4-36593a6fc1ad:
+entities_people_76ed0ade-7f44-4ff2-9bd4-36593a6fc1ad:
   id: 76ed0ade-7f44-4ff2-9bd4-36593a6fc1ad
   name: Niko Noll
   slug: niko-noll
-Entities::Person_7d23dfc5-6978-46fe-813e-a351207170f8:
+entities_people_7d23dfc5-6978-46fe-813e-a351207170f8:
   id: 7d23dfc5-6978-46fe-813e-a351207170f8
   name: Tom
   slug: tom
-Entities::Person_7f138414-a42e-40d2-9f6d-2a68ad233137:
+entities_people_7f138414-a42e-40d2-9f6d-2a68ad233137:
   id: 7f138414-a42e-40d2-9f6d-2a68ad233137
   name: Clemens Kofler
   slug: clemens-kofler
-Entities::Person_804a798a-d2a1-457e-aaaf-55c28a4e1386:
+entities_people_804a798a-d2a1-457e-aaaf-55c28a4e1386:
   id: 804a798a-d2a1-457e-aaaf-55c28a4e1386
   github_username: ifesdjeen
   meetup_id: '43533372'
   name: Alex Petrov
   slug: alex-petrov
   speakerdeck_username: ifesdjeen
-Entities::Person_80c2a3bb-8e58-4f9b-9a0f-f7e8fcf7b5a3:
+entities_people_80c2a3bb-8e58-4f9b-9a0f-f7e8fcf7b5a3:
   id: 80c2a3bb-8e58-4f9b-9a0f-f7e8fcf7b5a3
   name: Ute Mayer
   slug: ute-mayer
-Entities::Person_8241b1a4-0a2a-4486-b374-a816473c2069:
+entities_people_8241b1a4-0a2a-4486-b374-a816473c2069:
   id: 8241b1a4-0a2a-4486-b374-a816473c2069
   name: Jannis Hübl
   slug: jannis-huebl
   twitter_username: jannishuebl
-Entities::Person_828da3f2-7af1-46ac-a730-3822206bb842:
+entities_people_828da3f2-7af1-46ac-a730-3822206bb842:
   id: 828da3f2-7af1-46ac-a730-3822206bb842
   meetup_id: '31318442'
   name: Sebastian Schulze
   slug: sebastian-schulze
-Entities::Person_856b0d94-1647-4223-9984-1452a870f8fd:
+entities_people_856b0d94-1647-4223-9984-1452a870f8fd:
   id: 856b0d94-1647-4223-9984-1452a870f8fd
   github_username: triskweline
   linkedin_username: triskweline
@@ -230,245 +230,245 @@ Entities::Person_856b0d94-1647-4223-9984-1452a870f8fd:
   slug: henning-koch
   twitter_username: triskweline
   website: https://triskweline.de/
-Entities::Person_888b633e-738e-4c98-8784-8666220222e2:
+entities_people_888b633e-738e-4c98-8784-8666220222e2:
   id: 888b633e-738e-4c98-8784-8666220222e2
   name: Kim Klotz
   slug: kim-klotz
-Entities::Person_8af27851-1990-48bb-b952-292d0d0d7800:
+entities_people_8af27851-1990-48bb-b952-292d0d0d7800:
   id: 8af27851-1990-48bb-b952-292d0d0d7800
   meetup_id: '185560512'
   name: Sadiksha Gautam
   slug: sadiksha-gautam
-Entities::Person_8c2fd5f0-3374-456d-ae41-2e536ad89a53:
+entities_people_8c2fd5f0-3374-456d-ae41-2e536ad89a53:
   id: 8c2fd5f0-3374-456d-ae41-2e536ad89a53
   github_username: sideshowcoder
   name: Phillipp Fehre
   slug: phillipp-fehre
   twitter_username: ischi
   website: https://sideshowcoder.com
-Entities::Person_8f851f08-93fb-4b17-b9e7-3dcc6e55ef57:
+entities_people_8f851f08-93fb-4b17-b9e7-3dcc6e55ef57:
   id: 8f851f08-93fb-4b17-b9e7-3dcc6e55ef57
   name: Bruno Sedler
   slug: bruno-sedler
-Entities::Person_925cdc5d-b8ac-401f-8f53-27229d64ff95:
+entities_people_925cdc5d-b8ac-401f-8f53-27229d64ff95:
   id: 925cdc5d-b8ac-401f-8f53-27229d64ff95
   meetup_id: '121525572'
   name: Monica Giambitto
   slug: monica-giambitto
-Entities::Person_92834ea5-e9a2-4485-ae6c-5a1c420ff3b5:
+entities_people_92834ea5-e9a2-4485-ae6c-5a1c420ff3b5:
   id: 92834ea5-e9a2-4485-ae6c-5a1c420ff3b5
   github_username: aronwolf90
   meetup_id: '264213499'
   name: Aron Wolf
   slug: aron-wolf
-Entities::Person_92f34ef8-5314-4f5c-be5f-a514bd6e40c9:
+entities_people_92f34ef8-5314-4f5c-be5f-a514bd6e40c9:
   id: 92f34ef8-5314-4f5c-be5f-a514bd6e40c9
   name: Marina Petrova
   slug: marina-petrova
-Entities::Person_97c571fd-2f66-4646-b410-2dbe18eef889:
+entities_people_97c571fd-2f66-4646-b410-2dbe18eef889:
   id: 97c571fd-2f66-4646-b410-2dbe18eef889
   name: Cristian Eigel
   slug: cristian-eigel
-Entities::Person_9b2c926f-437e-4b18-8681-e061dfabb5b6:
+entities_people_9b2c926f-437e-4b18-8681-e061dfabb5b6:
   id: 9b2c926f-437e-4b18-8681-e061dfabb5b6
   name: Karl Keller
   slug: karl-keller
-Entities::Person_9b8809be-21de-41d7-ac03-852128098118:
+entities_people_9b8809be-21de-41d7-ac03-852128098118:
   id: 9b8809be-21de-41d7-ac03-852128098118
   name: Jan Krutisch
   slug: jan-krutisch
-Entities::Person_9deb364b-ca71-43c8-8013-60ea1833f681:
+entities_people_9deb364b-ca71-43c8-8013-60ea1833f681:
   id: 9deb364b-ca71-43c8-8013-60ea1833f681
   github_username: pschrammel
   meetup_id: '98486932'
   name: Peter Schrammel
   slug: peter-schrammel
-Entities::Person_a15393e4-dead-4f7c-825d-c72a2a0b5aa3:
+entities_people_a15393e4-dead-4f7c-825d-c72a2a0b5aa3:
   id: a15393e4-dead-4f7c-825d-c72a2a0b5aa3
   meetup_id: '100664'
   name: Phillip Oertel
   slug: phillip-oertel
-Entities::Person_a6f26b39-39e1-4c79-a541-8d51587ee28a:
+entities_people_a6f26b39-39e1-4c79-a541-8d51587ee28a:
   id: a6f26b39-39e1-4c79-a541-8d51587ee28a
   name: John Poulin
   slug: john-poulin
   twitter_username: forced_request
-Entities::Person_a735dc3a-4ac7-4cab-ae59-588e93bc20aa:
+entities_people_a735dc3a-4ac7-4cab-ae59-588e93bc20aa:
   id: a735dc3a-4ac7-4cab-ae59-588e93bc20aa
   name: Guoy
   slug: guoy
-Entities::Person_aa67af3b-dd60-4e61-99a0-3b2f9d4a0be5:
+entities_people_aa67af3b-dd60-4e61-99a0-3b2f9d4a0be5:
   id: aa67af3b-dd60-4e61-99a0-3b2f9d4a0be5
   name: Christoph Engelhardt
   slug: christoph-engelhardt
-Entities::Person_ac0fea81-c796-4f8c-9a5b-a496570a7e82:
+entities_people_ac0fea81-c796-4f8c-9a5b-a496570a7e82:
   id: ac0fea81-c796-4f8c-9a5b-a496570a7e82
   name: Bogdans Laidins
   slug: bogdans-laidins
-Entities::Person_ad73b8b9-1ce1-4c17-88de-68a7474282eb:
+entities_people_ad73b8b9-1ce1-4c17-88de-68a7474282eb:
   id: ad73b8b9-1ce1-4c17-88de-68a7474282eb
   name: Robert Curth
   slug: robert-curth
-Entities::Person_b115cea5-1a7c-491a-abad-2cdf3a73238b:
+entities_people_b115cea5-1a7c-491a-abad-2cdf3a73238b:
   id: b115cea5-1a7c-491a-abad-2cdf3a73238b
   name: Marius Nünnerich
   slug: marius-nuennerich
-Entities::Person_b219c1de-92a8-4074-853c-61d0de5380a4:
+entities_people_b219c1de-92a8-4074-853c-61d0de5380a4:
   id: b219c1de-92a8-4074-853c-61d0de5380a4
   name: Sebastian Burkhard
   slug: sebastian-burkhard
   website: http://hasclass.com/
-Entities::Person_b4d6756e-0310-474b-8ae7-450d1fa5ddf1:
+entities_people_b4d6756e-0310-474b-8ae7-450d1fa5ddf1:
   id: b4d6756e-0310-474b-8ae7-450d1fa5ddf1
   name: Carola Boettcher
   slug: carola-boettcher
   twitter_username: carolaboettcher
-Entities::Person_b76c5537-d23d-48dd-b52d-c5f9f26d3fba:
+entities_people_b76c5537-d23d-48dd-b52d-c5f9f26d3fba:
   id: b76c5537-d23d-48dd-b52d-c5f9f26d3fba
   name: Konrad Merz
   slug: konrad-merz
-Entities::Person_b9777a49-45e1-490f-981e-c0d565e150cc:
+entities_people_b9777a49-45e1-490f-981e-c0d565e150cc:
   id: b9777a49-45e1-490f-981e-c0d565e150cc
   name: Dmitry Gritsay
   slug: dmitry-gritsay
-Entities::Person_bd0f8dee-9a7b-4efd-986e-3601f41a1c58:
+entities_people_bd0f8dee-9a7b-4efd-986e-3601f41a1c58:
   id: bd0f8dee-9a7b-4efd-986e-3601f41a1c58
   name: Christian Mager
   slug: christian-mager
-Entities::Person_be7881ab-6b7a-4eb2-947e-082f4ede9d0e:
+entities_people_be7881ab-6b7a-4eb2-947e-082f4ede9d0e:
   id: be7881ab-6b7a-4eb2-947e-082f4ede9d0e
   name: Florian Gilcher
   slug: florian-gilcher
-Entities::Person_c0d17bab-0ca1-4050-a33f-6764b204ec8f:
+entities_people_c0d17bab-0ca1-4050-a33f-6764b204ec8f:
   id: c0d17bab-0ca1-4050-a33f-6764b204ec8f
   linkedin_username: raounak-sharma
   name: Raounak Sharma
   slug: raounak-sharma
-Entities::Person_c1975494-2829-4b65-a834-2a569b857b8f:
+entities_people_c1975494-2829-4b65-a834-2a569b857b8f:
   id: c1975494-2829-4b65-a834-2a569b857b8f
   meetup_id: '84316572'
   name: Bibek Shrestha
   slug: bibek-shrestha
-Entities::Person_c20a75d4-5c6c-438a-bc47-09e83b3dcb15:
+entities_people_c20a75d4-5c6c-438a-bc47-09e83b3dcb15:
   id: c20a75d4-5c6c-438a-bc47-09e83b3dcb15
   name: Ben Bachhuber
   slug: ben-bachhuber
-Entities::Person_c22f0dcf-8e82-473a-bd08-71bc9b597927:
+entities_people_c22f0dcf-8e82-473a-bd08-71bc9b597927:
   id: c22f0dcf-8e82-473a-bd08-71bc9b597927
   meetup_id: '111527782'
   name: Jakub Nieznalski
   slug: jakub-nieznalski
-Entities::Person_c2c22851-ce44-40ff-bbab-9ad111350d68:
+entities_people_c2c22851-ce44-40ff-bbab-9ad111350d68:
   id: c2c22851-ce44-40ff-bbab-9ad111350d68
   name: Nikolay Sturm
   slug: nikolay-sturm
-Entities::Person_c3e2b467-f25a-4af7-a924-81b996880be0:
+entities_people_c3e2b467-f25a-4af7-a924-81b996880be0:
   id: c3e2b467-f25a-4af7-a924-81b996880be0
   name: Anna Bulenkova
   slug: anna-bulenkova
   twitter_username: povergo
-Entities::Person_c58afa65-10bd-435d-a750-b737caa779dc:
+entities_people_c58afa65-10bd-435d-a750-b737caa779dc:
   id: c58afa65-10bd-435d-a750-b737caa779dc
   name: Dmytro Khmelenko
   slug: dmytro-khmelenko
-Entities::Person_c6488593-54ea-4b7f-8afe-b1a9bc97e77c:
+entities_people_c6488593-54ea-4b7f-8afe-b1a9bc97e77c:
   id: c6488593-54ea-4b7f-8afe-b1a9bc97e77c
   name: Miguel Regedor
   slug: miguel-regedor
-Entities::Person_c6cfe4d7-3cf1-4e56-a245-c4bb74b2a7b9:
+entities_people_c6cfe4d7-3cf1-4e56-a245-c4bb74b2a7b9:
   id: c6cfe4d7-3cf1-4e56-a245-c4bb74b2a7b9
   github_username: jamuc
   name: Jason Franklin
   slug: jason-franklin
-Entities::Person_c970b258-4dd6-489b-9c2b-b2d066b038b9:
+entities_people_c970b258-4dd6-489b-9c2b-b2d066b038b9:
   id: c970b258-4dd6-489b-9c2b-b2d066b038b9
   name: Marcus Lankenau
   slug: marcus-lankenau
-Entities::Person_cb177900-0d43-4506-9013-1661a1411f9f:
+entities_people_cb177900-0d43-4506-9013-1661a1411f9f:
   id: cb177900-0d43-4506-9013-1661a1411f9f
   name: Sebastian Cohnen
   slug: sebastian-cohnen
   twitter_username: tisba
-Entities::Person_cc9b1dc7-2e6f-4075-93ba-751e62c24cbf:
+entities_people_cc9b1dc7-2e6f-4075-93ba-751e62c24cbf:
   id: cc9b1dc7-2e6f-4075-93ba-751e62c24cbf
   name: Torsten Ruger
   slug: torsten-ruger
-Entities::Person_d242e360-35fe-4df9-8d39-c114eeeaa577:
+entities_people_d242e360-35fe-4df9-8d39-c114eeeaa577:
   id: d242e360-35fe-4df9-8d39-c114eeeaa577
   name: Alberto Martín Mazaira
   slug: alberto-martin-mazaira
-Entities::Person_d4e57109-f6ae-4209-90b5-b7f0ac3bbe9a:
+entities_people_d4e57109-f6ae-4209-90b5-b7f0ac3bbe9a:
   id: d4e57109-f6ae-4209-90b5-b7f0ac3bbe9a
   name: Oliver Prater
   slug: oliver-prater
-Entities::Person_d698a4d9-4936-4d31-809a-08fdabdde1c7:
+entities_people_d698a4d9-4936-4d31-809a-08fdabdde1c7:
   id: d698a4d9-4936-4d31-809a-08fdabdde1c7
   name: Khaled Muamar
   slug: khaled-muamar
-Entities::Person_d9ceac70-4947-4769-8aba-2a7113513df5:
+entities_people_d9ceac70-4947-4769-8aba-2a7113513df5:
   id: d9ceac70-4947-4769-8aba-2a7113513df5
   name: Lucas Dohmen
   slug: lucas-dohmen
   twitter_username: moonbeamlabs
-Entities::Person_e5efcb66-a3af-4f5e-a70c-86e605852cf8:
+entities_people_e5efcb66-a3af-4f5e-a70c-86e605852cf8:
   id: e5efcb66-a3af-4f5e-a70c-86e605852cf8
   github_username: clemenshelm
   linkedin_username: clemenshelm
   name: Clemens Helm
   slug: clemens-helm
-Entities::Person_e6d6a233-7afa-4da8-91d5-30d3682085e9:
+entities_people_e6d6a233-7afa-4da8-91d5-30d3682085e9:
   id: e6d6a233-7afa-4da8-91d5-30d3682085e9
   github_username: deepblueness
   name: Anastasia Chicu
   slug: anastasia-chicu
   twitter_username: anastasiachicu
-Entities::Person_e7ad1f6d-286a-49a3-8242-b66a1b8e5ace:
+entities_people_e7ad1f6d-286a-49a3-8242-b66a1b8e5ace:
   id: e7ad1f6d-286a-49a3-8242-b66a1b8e5ace
   name: Marc G.
   slug: marc-g
-Entities::Person_e8079fd4-fbc0-47ef-94b7-f3570f85f063:
+entities_people_e8079fd4-fbc0-47ef-94b7-f3570f85f063:
   id: e8079fd4-fbc0-47ef-94b7-f3570f85f063
   name: Adnan Husein
   slug: adnan-husein
-Entities::Person_e9b83251-14c6-4e94-9d4d-a03842c2b8d0:
+entities_people_e9b83251-14c6-4e94-9d4d-a03842c2b8d0:
   id: e9b83251-14c6-4e94-9d4d-a03842c2b8d0
   name: Pavel Grachev
   slug: pavel-grachev
-Entities::Person_ed3a6020-bd60-40d2-baa8-c276dfa5a1b0:
+entities_people_ed3a6020-bd60-40d2-baa8-c276dfa5a1b0:
   id: ed3a6020-bd60-40d2-baa8-c276dfa5a1b0
   name: Luca Guidi
   slug: luca-guidi
-Entities::Person_ed73fe96-d736-4292-8402-bd1ab64c7442:
+entities_people_ed73fe96-d736-4292-8402-bd1ab64c7442:
   id: ed73fe96-d736-4292-8402-bd1ab64c7442
   name: Sven Ellis
   slug: sven-ellis
-Entities::Person_ef65435d-5b05-4459-b2e6-46f8b710f9a7:
+entities_people_ef65435d-5b05-4459-b2e6-46f8b710f9a7:
   id: ef65435d-5b05-4459-b2e6-46f8b710f9a7
   github_username: mlammers
   name: Maikel Lammers
   slug: maikel-lammers
-Entities::Person_f0ec601a-13b5-42eb-9865-06832b47d75e:
+entities_people_f0ec601a-13b5-42eb-9865-06832b47d75e:
   id: f0ec601a-13b5-42eb-9865-06832b47d75e
   name: Austin Moore
   slug: austin-moore
-Entities::Person_f12d9a66-614c-4250-acad-b563017d36b8:
+entities_people_f12d9a66-614c-4250-acad-b563017d36b8:
   id: f12d9a66-614c-4250-acad-b563017d36b8
   name: Omar Qunsul
   slug: omar-qunsul
-Entities::Person_f14a4ac3-c4b3-41a2-9b16-6f7c8cd7e068:
+entities_people_f14a4ac3-c4b3-41a2-9b16-6f7c8cd7e068:
   id: f14a4ac3-c4b3-41a2-9b16-6f7c8cd7e068
   meetup_id: '14411411'
   name: Shota Bakuradze
   slug: shota-bakuradze
-Entities::Person_f59c99b1-8bb8-44cb-8ae3-a55b17438e72:
+entities_people_f59c99b1-8bb8-44cb-8ae3-a55b17438e72:
   id: f59c99b1-8bb8-44cb-8ae3-a55b17438e72
   name: Andreas Eger
   slug: andreas-eger
-Entities::Person_f874af55-ff39-4072-8c99-a42d27112a53:
+entities_people_f874af55-ff39-4072-8c99-a42d27112a53:
   id: f874af55-ff39-4072-8c99-a42d27112a53
   name: Christopher Bastert
   slug: christopher-bastert
-Entities::Person_fcd48cfc-bd3e-4f3d-b15b-a706691be53b:
+entities_people_fcd48cfc-bd3e-4f3d-b15b-a706691be53b:
   id: fcd48cfc-bd3e-4f3d-b15b-a706691be53b
   name: Carsten
   slug: carsten
