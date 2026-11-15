@@ -37,7 +37,7 @@ class LongFormTextTest < ActiveSupport::TestCase
     assert_equal [ "contains a code block (a line indented by four spaces, or ```) on line 3" ], talk.errors[:description]
   end
 
-  # bin/ci never loads content/data, and loading it skips validations.
+  # The tests never load content/data, and loading it skips validations.
   test "the long texts in content/data are valid" do
     each_long_form_text_column do |model, column|
       file = StaticDb.path.join("#{model.table_name}.yml")

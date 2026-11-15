@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require_relative "../config/boot"
+require "active_support/continuous_integration"
+
+ActiveSupport::ContinuousIntegration.run "Audit", "Scanning dependencies and code for security issues" do
+  step "Security: Gem audit", "bin/bundler-audit check --update"
+  step "Security: Yarn vulnerability audit", "yarn audit"
+  step "Security: Brakeman code analysis", "bin/brakeman --quiet --no-pager --exit-on-warn --exit-on-error"
+end
