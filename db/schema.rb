@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_11_14_212817) do
+ActiveRecord::Schema[8.1].define(version: 2026_11_15_173737) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -54,7 +54,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_14_212817) do
     t.string "meetup_id"
     t.string "name"
     t.json "rubyevents_data"
-    t.string "rubyevents_slug"
     t.string "slug"
     t.string "speakerdeck_username"
     t.string "twitter_username"
@@ -86,7 +85,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_14_212817) do
     t.string "mastodon"
     t.string "meetup"
     t.json "rubyevents_data"
-    t.string "rubyevents_slug"
     t.string "slug"
     t.date "start_date"
     t.string "start_time"
@@ -121,16 +119,11 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_14_212817) do
   end
 
   create_table "events_series", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
-    t.string "banner_background"
     t.string "bluesky_handle"
     t.string "default_country_code"
     t.text "description"
     t.string "discord"
-    t.boolean "ended", default: false, null: false
     t.string "facebook"
-    t.string "featured_background"
-    t.string "featured_color"
-    t.string "frequency"
     t.string "github"
     t.string "guild"
     t.string "kind"
@@ -141,7 +134,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_14_212817) do
     t.string "meetup"
     t.string "name"
     t.json "rubyevents_data"
-    t.string "rubyevents_slug"
     t.string "slug"
     t.string "time_zone", null: false
     t.string "twitter_username"
@@ -174,7 +166,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_14_212817) do
     t.string "locations_coordinates_id", null: false
     t.string "name"
     t.json "rubyevents_data"
-    t.string "rubyevents_slug"
     t.string "slug"
     t.string "state_code"
     t.index ["locations_coordinates_id"], name: "index_locations_cities_on_locations_coordinates_id", unique: true
@@ -198,7 +189,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_14_212817) do
     t.integer "level"
     t.string "name"
     t.json "rubyevents_data"
-    t.string "rubyevents_slug"
     t.string "slug"
     t.index ["events_event_id"], name: "index_sponsors_sponsor_tiers_on_events_event_id"
   end
@@ -237,7 +227,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_14_212817) do
     t.string "language_code", null: false
     t.integer "position", null: false
     t.json "rubyevents_data"
-    t.string "rubyevents_slug"
     t.string "slides_url"
     t.string "slug"
     t.string "title", null: false
@@ -258,7 +247,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_14_212817) do
     t.text "nearby_parking"
     t.text "nearby_public_transport"
     t.json "rubyevents_data"
-    t.string "rubyevents_slug"
     t.string "slug"
     t.string "website"
     t.index ["entities_organization_id"], name: "index_venues_venues_on_entities_organization_id"

@@ -4,7 +4,6 @@ one:
   series: one
   slug: MyString
   title: MyString
-  rubyevents_slug: MyString
   venue: one
   description: MyText
   kind: MyString
@@ -28,7 +27,6 @@ two:
   series: two
   slug: MyString
   title: MyString
-  rubyevents_slug: MyString
   venue: two
   description: MyText
   kind: MyString

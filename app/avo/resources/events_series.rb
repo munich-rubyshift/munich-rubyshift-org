@@ -11,11 +11,8 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :name, as: :text, sortable: true
-    field :rubyevents_slug, as: :text, sortable: true
     field :description, **LONG_FORM_TEXT_FIELD_OPTIONS
     field :kind, as: :select, sortable: true, options: ::Events::Series::KINDS.index_by(&:humanize), include_blank: true
-    field :frequency, as: :select, sortable: true, options: ::Events::Series::FREQUENCIES.index_by(&:humanize), include_blank: true
-    field :ended, as: :boolean, sortable: true
     field :default_country_code, as: :text, sortable: true
     field :language_code, as: :select, name: "Language", sortable: true, options: ::Language::NAMES.invert, include_blank: true
     field :time_zone, as: :select, sortable: true, options: ::Events::Series::TIME_ZONES.index_by(&:itself), include_blank: true
@@ -30,9 +27,6 @@ class Avo::Resources::EventsSeries < Avo::BaseResource
     field :luma, as: :text, sortable: true
     field :guild, as: :text, sortable: true
     field :discord, as: :text, sortable: true
-    field :banner_background, as: :text, sortable: true
-    field :featured_background, as: :text, sortable: true
-    field :featured_color, as: :text, sortable: true
     field :rubyevents_data, **RUBYEVENTS_DATA_FIELD_OPTIONS
   end
 end

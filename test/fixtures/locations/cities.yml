@@ -3,7 +3,6 @@
 one:
   slug: MyString
   name: MyString
-  rubyevents_slug: MyString
   state_code: MyString
   country_code: MyString
   coordinates: one
@@ -11,7 +10,6 @@ one:
 two:
   slug: MyString
   name: MyString
-  rubyevents_slug: MyString
   state_code: MyString
   country_code: MyString
   coordinates: two

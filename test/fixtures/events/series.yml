@@ -3,11 +3,8 @@
 one:
   slug: MyString
   name: MyString
-  rubyevents_slug: MyString
   description: MyText
   kind: MyString
-  frequency: MyString
-  ended: false
   default_country_code: MyString
   language_code: en
   time_zone: Europe/Berlin
@@ -22,18 +19,12 @@ one:
   luma: MyString
   guild: MyString
   discord: MyString
-  banner_background: MyString
-  featured_background: MyString
-  featured_color: MyString
 
 two:
   slug: MyString
   name: MyString
-  rubyevents_slug: MyString
   description: MyText
   kind: MyString
-  frequency: MyString
-  ended: false
   default_country_code: MyString
   language_code: en
   time_zone: Europe/Berlin
@@ -48,6 +39,3 @@ two:
   luma: MyString
   guild: MyString
   discord: MyString
-  banner_background: MyString
-  featured_background: MyString
-  featured_color: MyString

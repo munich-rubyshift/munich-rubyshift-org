@@ -9,7 +9,7 @@ class Locations::City < ApplicationRecord
 
   belongs_to :coordinates, class_name: "Locations::Coordinates", foreign_key: :locations_coordinates_id, inverse_of: :city, autosave: true
 
-  normalized_strings :locations_coordinates_id, :country_code, :name, :rubyevents_slug, :state_code
+  normalized_strings :locations_coordinates_id, :country_code, :name, :state_code
 
   has_many :addresses, class_name: "Locations::Address", foreign_key: :locations_city_id, inverse_of: :city
 

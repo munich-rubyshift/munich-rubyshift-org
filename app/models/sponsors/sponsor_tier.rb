@@ -7,7 +7,7 @@ class Sponsors::SponsorTier < ApplicationRecord
 
   belongs_to :event, class_name: "Events::Event", foreign_key: :events_event_id, inverse_of: :sponsor_tiers
 
-  normalized_strings :events_event_id, :name, :rubyevents_slug
+  normalized_strings :events_event_id, :name
 
   long_form_text :description
 

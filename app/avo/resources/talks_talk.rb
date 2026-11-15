@@ -16,7 +16,6 @@ class Avo::Resources::TalksTalk < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
-    field :rubyevents_slug, as: :text, sortable: true
     field :event, as: :belongs_to, **sortable(:by_start_date, on: :event), attach_scope: -> { query.by_start_date.reverse_order }
     field :position, as: :number, sortable: true, help: "Leave blank to add the talk after the event's last one."
     field :kind, as: :select, sortable: true, options: KIND_OPTIONS, default: "talk"

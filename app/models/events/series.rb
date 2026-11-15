@@ -6,7 +6,6 @@ class Events::Series < ApplicationRecord
   friendly_id :name
 
   KINDS = %w[conference meetup retreat hackathon event podcast online organisation workshop].freeze
-  FREQUENCIES = %w[yearly monthly weekly irregular biweekly biyearly quarterly].freeze
   TIME_ZONES = TZInfo::Timezone.all_identifiers.freeze
 
   has_many :events, class_name: "Events::Event", foreign_key: :events_series_id, inverse_of: :series
@@ -18,7 +17,6 @@ class Events::Series < ApplicationRecord
   long_form_text :description
 
   validates :kind, inclusion: { in: KINDS }, allow_blank: true
-  validates :frequency, inclusion: { in: FREQUENCIES }, allow_blank: true
   validates :language_code, inclusion: { in: Language::NAMES.keys }, allow_blank: true
   validates :time_zone, inclusion: { in: TIME_ZONES }
 

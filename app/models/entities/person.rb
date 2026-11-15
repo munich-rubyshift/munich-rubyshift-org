@@ -17,7 +17,7 @@ class Entities::Person < ApplicationRecord
   scope :with_talks, -> { where.not(id: where.missing(:talks)) }
 
   normalized_strings :bluesky_handle, :github_username, :linkedin_username, :mastodon, :meetup_id, :name,
-    :rubyevents_slug, :speakerdeck_username, :twitter_username, :website
+    :speakerdeck_username, :twitter_username, :website
 
   # We store handles like rubyevents does, except for Mastodon, where only the
   # full URL names the server.
@@ -55,6 +55,11 @@ class Entities::Person < ApplicationRecord
 
   def speakerdeck_url
     "https://speakerdeck.com/#{speakerdeck_username}" if speakerdeck_username.present?
+  end
+
+  def rubyevents_url
+    slug = rubyevents_data&.dig("slug")
+    "https://www.rubyevents.org/profiles/#{slug}" if slug.present?
   end
 
   def to_s

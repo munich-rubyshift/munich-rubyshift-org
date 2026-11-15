@@ -35,8 +35,6 @@ videos: {
     id: "integer" {constraint: primary_key}
     # instead of event_name. "date" is the event's start_date.
     event_id: "integer" {constraint: foreign_key}
-    # exported as "id", their static id. Blank: "<speaker slugs>-<event id>".
-    rubyevents_slug: string
     # ours alone, the talk's URL here. Theirs is generated on import.
     slug: string
     title: string
@@ -207,12 +205,9 @@ events: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
     slug: string
-    rubyevents_slug: string
     name: string
     description: string
     kind: string
-    frequency: string
-    ended: boolean
     default_country_code: string
     # ISO 639-1 code, exported as its English name like the talks'
     language_code: string
@@ -226,9 +221,6 @@ events: {
     meetup: string
     luma: string
     guild: string
-    banner_background: string
-    featured_background: string
-    featured_color: string
     # ours alone, not in SeriesSchema and not exportable
     discord: string
   }
@@ -237,7 +229,6 @@ events: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
     slug: string
-    rubyevents_slug: string
     series_id: "integer" {constraint: foreign_key}
     title: string
     # blank columns fall back to the series, via Events::SeriesDefaults.
@@ -369,7 +360,6 @@ locations: {
     shape: sql_table
     id: "integer" {constraint: primary_key}
     slug: string
-    rubyevents_slug: string
     name: string
     state_code: string
     country_code: string
