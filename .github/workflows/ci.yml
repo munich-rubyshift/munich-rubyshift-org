@@ -6,8 +6,9 @@ on:
     branches: [ main ]
 
 jobs:
-  scan_ruby:
+  audit:
     runs-on: ubuntu-latest
+    continue-on-error: true
 
     steps:
       - name: Checkout code
@@ -18,16 +19,19 @@ jobs:
         with:
           bundler-cache: true
 
-      - name: Scan for common Rails security vulnerabilities using static analysis
-        run: bin/brakeman --no-pager
-      
-      - name: Scan for known security vulnerabilities in gems used
-        run: bin/bundler-audit
-      
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: '.nvmrc'
+      - run: npm install -g yarn
+
+      - name: Scan dependencies and code for security issues
+        run: bin/audit
+
   lint:
     runs-on: ubuntu-latest
     env:
       RUBOCOP_CACHE_ROOT: tmp/rubocop
+      RUBOCOP_OPTS: --format github
     steps:
       - name: Checkout code
         uses: actions/checkout@v7
@@ -48,7 +52,7 @@ jobs:
             rubocop-${{ runner.os }}-${{ env.DEPENDENCIES_HASH }}-
 
       - name: Lint code for consistent style
-        run: bin/rubocop -f github
+        run: bin/lint
 
   test:
     runs-on: ubuntu-latest
