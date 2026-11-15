@@ -10,9 +10,8 @@ class Events::Series < ApplicationRecord
 
   has_many :events, class_name: "Events::Event", foreign_key: :events_series_id, inverse_of: :series
 
-  normalized_strings :banner_background, :bluesky_handle, :default_country_code, :discord, :facebook,
-    :featured_background, :featured_color, :frequency, :github, :guild, :kind, :language_code, :linkedin,
-    :luma, :mastodon, :meetup, :name, :rubyevents_slug, :time_zone, :twitter_username, :website
+  normalized_strings :bluesky_handle, :default_country_code, :discord, :facebook, :github, :guild, :kind,
+    :language_code, :linkedin, :luma, :mastodon, :meetup, :name, :time_zone, :twitter_username, :website
 
   long_form_text :description
 
