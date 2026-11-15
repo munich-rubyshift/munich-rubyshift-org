@@ -16,7 +16,7 @@ class Events::Event < ApplicationRecord
   belongs_to :venue, class_name: "Venues::Venue", foreign_key: :venues_venue_id, inverse_of: :events, optional: true
 
   normalized_strings :events_series_id, :venues_venue_id, :attendance_mode, :date_precision,
-    :end_time, :github, :kind, :luma, :mastodon, :meetup, :rubyevents_slug, :start_time, :status,
+    :end_time, :github, :kind, :luma, :mastodon, :meetup, :start_time, :status,
     :tickets_url, :title, :twitter_username, :website
 
   long_form_text :description

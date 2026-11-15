@@ -10,8 +10,7 @@ class Venues::Venue < ApplicationRecord
   belongs_to :map, class_name: "::Locations::Map", foreign_key: :locations_map_id, inverse_of: :venues, optional: true
   belongs_to :organization, class_name: "::Entities::Organization", foreign_key: :entities_organization_id, inverse_of: :venues, optional: true
 
-  normalized_strings :locations_address_id, :locations_map_id, :entities_organization_id, :name, :rubyevents_slug,
-    :website
+  normalized_strings :locations_address_id, :locations_map_id, :entities_organization_id, :name, :website
 
   long_form_text :description, :instructions, :accessibility_notes, :nearby_public_transport, :nearby_parking
 

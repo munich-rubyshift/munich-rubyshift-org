@@ -13,7 +13,6 @@ class Avo::Resources::EventsEvent < Avo::BaseResource
   def fields
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
-    field :rubyevents_slug, as: :text, sortable: true
 
     field :kind, as: :select, sortable: true, options: ::Events::Event::KINDS.index_by(&:humanize), include_blank: true, default: "meetup"
 

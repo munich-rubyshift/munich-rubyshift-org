@@ -14,7 +14,6 @@ class Avo::Resources::EntitiesPerson < Avo::BaseResource
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :name, as: :text, sortable: true
-    field :rubyevents_slug, as: :text, sortable: true
 
     grouped "" do
       field :github_username, as: :text, sortable: true

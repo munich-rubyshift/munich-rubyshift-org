@@ -3,7 +3,6 @@
 one:
   slug: MyString
   title: MyString
-  rubyevents_slug: MyString
   event: one
   position: 1
   description: MyText
@@ -15,7 +14,6 @@ one:
 two:
   slug: MyString
   title: MyString
-  rubyevents_slug: MyString
   event: two
   position: 1
   description: MyText

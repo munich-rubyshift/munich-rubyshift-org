@@ -27,4 +27,10 @@ class Entities::PersonTest < ActiveSupport::TestCase
     assert_nil person.speakerdeck_url
     assert_nil person.mastodon_url
   end
+
+  test "links to the RubyEvents profile only with a slug in the RubyEvents data" do
+    assert_equal "https://www.rubyevents.org/profiles/hschne", Entities::Person.new(rubyevents_data: { "slug" => "hschne" }).rubyevents_url
+    assert_nil Entities::Person.new(rubyevents_data: { "name" => "Hans Schnedlitz" }).rubyevents_url
+    assert_nil Entities::Person.new.rubyevents_url
+  end
 end

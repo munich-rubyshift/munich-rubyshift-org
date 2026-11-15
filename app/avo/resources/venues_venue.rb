@@ -14,7 +14,6 @@ class Avo::Resources::VenuesVenue < Avo::BaseResource
     field :id, as: :id, **ID_FIELD_OPTIONS
     field :slug, as: :text, **SLUG_FIELD_OPTIONS
     field :name, as: :text, sortable: true
-    field :rubyevents_slug, as: :text, sortable: true
     field :description, **LONG_FORM_TEXT_FIELD_OPTIONS
     field :website, as: :text, sortable: true
     field :instructions, **LONG_FORM_TEXT_FIELD_OPTIONS

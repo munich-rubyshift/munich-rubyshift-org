@@ -4,7 +4,6 @@ one:
   address: one
   slug: MyString
   name: MyString
-  rubyevents_slug: MyString
   description: MyText
   website: MyString
   instructions: MyText
@@ -20,7 +19,6 @@ two:
   map: two
   slug: MyString
   name: MyString
-  rubyevents_slug: MyString
   description: MyText
   website: MyString
   instructions: MyText
