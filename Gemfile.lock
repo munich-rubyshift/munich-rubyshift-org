@@ -369,6 +369,11 @@ GEM
       ffi (~> 1.12)
       logger
     rubyzip (3.6.0)
+    scenic (1.9.0)
+      activerecord (>= 4.0.0)
+      railties (>= 4.0.0)
+    scenic_sqlite_adapter (0.1.0)
+      activerecord (>= 4.0.0)
     securerandom (0.4.1)
     selenium-webdriver (4.47.0)
       base64 (~> 0.2)
@@ -480,6 +485,8 @@ DEPENDENCIES
   rouge
   rubocop-rails-omakase
   ruby-vips
+  scenic
+  scenic_sqlite_adapter
   selenium-webdriver
   solid_cable
   solid_cache
@@ -627,6 +634,8 @@ CHECKSUMS
   ruby-progressbar (1.13.0) sha256=80fc9c47a9b640d6834e0dc7b3c94c9df37f08cb072b7761e4a71e22cff29b33
   ruby-vips (2.3.0) sha256=e685ec02c13969912debbd98019e50492e12989282da5f37d05f5471442f5374
   rubyzip (3.6.0) sha256=268994d44d62282d1cfd99bf10eae48d7267199158ad7ea3e1fee2da9458b695
+  scenic (1.9.0) sha256=6eec3aa049ba2a137e7eb0b4c4f0200b77f7765fc82e08ad44c01da7905563d9
+  scenic_sqlite_adapter (0.1.0) sha256=5e5b121b5b8440d4303b5fbf35ea31bd4d01909c319a288c94a1b79a4e5dd7b5
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   selenium-webdriver (4.47.0) sha256=67f915b8223d2133bbaa13e92fd98854175394f086e2036a9eff4f5561fd69e4
   simpleidn (0.3.0) sha256=12ca730bed2f3db04d11e9bfd1bca3e11fb37f55b21eb2e9793fb5814bf54d03

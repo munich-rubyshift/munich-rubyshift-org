@@ -279,4 +279,20 @@ class Events::EventTest < ActiveSupport::TestCase
   def build_event(**attributes)
     Events::Event.new(title: "Meetup", series: @series, venue: @venue, attendance_mode: "in_person", **attributes)
   end
+
+  test "lists the organization of its venue as a sponsor in a read-only Meetup Host tier, unless it was cancelled" do
+    event = events_events(:one)
+    organization = entities_organizations(:one)
+    event.venue.update_columns(entities_organization_id: organization.id)
+    host_tier = event.listed_sponsor_tiers.find_by!(slug: "meetup-host")
+
+    assert_equal [ "Meetup Host", [ organization ] ], [ host_tier.name, host_tier.sponsorships.map(&:organization) ]
+    assert_equal event.sponsor_tiers.ids.sort, (event.listed_sponsor_tiers.ids - [ host_tier.id ]).sort
+    assert_raises(ActiveRecord::ReadOnlyRecord) { host_tier.update!(name: "Host") }
+
+    event.update_columns(status: "cancelled")
+
+    assert_equal event.sponsor_tiers.ids.sort, event.listed_sponsor_tiers.ids.sort
+    assert_not_includes organization.hosted_events, event
+  end
 end

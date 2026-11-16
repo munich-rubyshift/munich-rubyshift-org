@@ -9,6 +9,7 @@ class Entities::Organization < ApplicationRecord
 
   has_many :sponsorships, class_name: "Sponsors::Sponsorship", foreign_key: :entities_organization_id, inverse_of: :organization
   has_many :sponsor_tiers, class_name: "Sponsors::SponsorTier", through: :sponsorships
+  has_many :listed_sponsorships, class_name: "Sponsors::ListedSponsorship", foreign_key: :entities_organization_id, inverse_of: :organization
 
   has_many :venues, class_name: "Venues::Venue", foreign_key: :entities_organization_id, inverse_of: :organization
 

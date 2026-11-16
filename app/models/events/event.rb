@@ -35,6 +35,7 @@ class Events::Event < ApplicationRecord
   has_many :talks, -> { by_running_order }, class_name: "Talks::Talk", foreign_key: :events_event_id, inverse_of: :event
 
   has_many :sponsor_tiers, class_name: "Sponsors::SponsorTier", foreign_key: :events_event_id, inverse_of: :event
+  has_many :listed_sponsor_tiers, class_name: "Sponsors::ListedSponsorTier", foreign_key: :events_event_id, inverse_of: :event
 
   validates :kind, inclusion: { in: KINDS }, allow_blank: true
   validates :status, inclusion: { in: STATUSES }, allow_blank: true

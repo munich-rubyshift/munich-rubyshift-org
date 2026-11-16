@@ -33,6 +33,9 @@ gem "parklife-rails"
 
 # frozen:db
 gem "static_db"
+# Database views as versioned SQL, dumped into db/schema.rb
+gem "scenic"
+gem "scenic_sqlite_adapter"
 gem "sqlite_extensions-uuid"
 gem "friendly_id"
 
