@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_11_15_173737) do
+ActiveRecord::Schema[8.1].define(version: 2026_11_16_205615) do
   create_table "active_storage_attachments", id: { type: :string, limit: 36, default: -> { "uuid()" } }, force: :cascade do |t|
     t.string "blob_id", limit: 36, null: false
     t.string "name", null: false
@@ -275,4 +275,29 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_15_173737) do
   add_foreign_key "venues_venues", "entities_organizations"
   add_foreign_key "venues_venues", "locations_addresses"
   add_foreign_key "venues_venues", "locations_maps"
+
+  create_view "events_meetup_hosts", sql_definition: <<-SQL
+      SELECT
+    events_events.id AS events_event_id,
+    venues_venues.entities_organization_id,
+    CAST(substr(events_events.id, 1, 14) || '8' || substr(events_events.id, 16, 4) || '8' || substr(events_events.id, 21) AS TEXT) AS sponsors_sponsor_tier_id,
+    CAST(substr(events_events.id, 1, 14) || '8' || substr(events_events.id, 16, 4) || '9' || substr(events_events.id, 21) AS TEXT) AS sponsors_sponsorship_id
+  FROM events_events
+  JOIN venues_venues ON venues_venues.id = events_events.venues_venue_id
+  WHERE venues_venues.entities_organization_id IS NOT NULL AND events_events.status IS NOT 'cancelled'
+  SQL
+  create_view "sponsors_listed_sponsor_tiers", sql_definition: <<-SQL
+      SELECT id, description, events_event_id, level, name, rubyevents_data, slug
+  FROM sponsors_sponsor_tiers
+  UNION ALL
+  SELECT sponsors_sponsor_tier_id, NULL, events_event_id, NULL, 'Meetup Host', NULL, 'meetup-host'
+  FROM events_meetup_hosts
+  SQL
+  create_view "sponsors_listed_sponsorships", sql_definition: <<-SQL
+      SELECT id, badge, entities_organization_id, rubyevents_data, sponsors_sponsor_tier_id
+  FROM sponsors_sponsorships
+  UNION ALL
+  SELECT sponsors_sponsorship_id, NULL, entities_organization_id, NULL, sponsors_sponsor_tier_id
+  FROM events_meetup_hosts
+  SQL
 end

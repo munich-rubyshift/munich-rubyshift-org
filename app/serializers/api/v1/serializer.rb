@@ -59,7 +59,7 @@ class Api::V1::Serializer
   end
 
   def identify(record)
-    { type: TYPES.fetch(record.class.name), id: record.id } if record
+    { type: TYPES.fetch(record.class.base_class.name), id: record.id } if record
   end
 
   def with_rubyevents_data(record, values)
