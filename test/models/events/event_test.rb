@@ -279,4 +279,32 @@ class Events::EventTest < ActiveSupport::TestCase
   def build_event(**attributes)
     Events::Event.new(title: "Meetup", series: @series, venue: @venue, attendance_mode: "in_person", **attributes)
   end
+
+  test "lists the organization of its venue as a sponsor in a read-only Meetup Host tier, unless it was cancelled" do
+    event = events_events(:one)
+    organization = entities_organizations(:one)
+    event.venue.update_columns(entities_organization_id: organization.id)
+    host_tier = event.sponsor_tiers.find { |tier| tier.slug == "meetup-host" }
+
+    assert_equal [ "Meetup Host", [ organization ] ], [ host_tier.name, host_tier.sponsorships.map(&:organization) ]
+    assert_equal Sponsors::SponsorTier.where(event:).sort_by(&:id), (event.sponsor_tiers.to_a - [ host_tier ]).sort_by(&:id)
+    assert_equal host_tier.id, Events::Event.find(event.id).sponsor_tiers.find { |tier| tier.slug == "meetup-host" }.id
+    assert_raises(ActiveRecord::ReadOnlyRecord) { host_tier.update!(name: "Host") }
+
+    event.update_columns(status: "cancelled")
+
+    assert_empty event.reload.sponsor_tiers.select { |tier| tier.slug == "meetup-host" }
+    assert_not_includes organization.hosted_events, event
+  end
+
+  test "saving an event leaves its Meetup Host tier unsaved" do
+    event = events_events(:one)
+    event.update_columns(kind: "meetup", status: nil, date_precision: nil)
+    event.venue.update_columns(entities_organization_id: entities_organizations(:one).id)
+    event.sponsor_tiers.to_a
+
+    assert_no_difference -> { Sponsors::SponsorTier.count } do
+      event.update!(title: "Ruby Meetup")
+    end
+  end
 end

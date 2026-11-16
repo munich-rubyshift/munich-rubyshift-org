@@ -34,7 +34,9 @@ class Events::Event < ApplicationRecord
 
   has_many :talks, -> { by_running_order }, class_name: "Talks::Talk", foreign_key: :events_event_id, inverse_of: :event
 
-  has_many :sponsor_tiers, class_name: "Sponsors::SponsorTier", foreign_key: :events_event_id, inverse_of: :event
+  # Saving the event mustn't try to save or validate the Meetup Host tier, see #sponsor_tiers.
+  has_many :sponsor_tiers, class_name: "Sponsors::SponsorTier", foreign_key: :events_event_id, inverse_of: :event,
+    autosave: false, validate: false
 
   validates :kind, inclusion: { in: KINDS }, allow_blank: true
   validates :status, inclusion: { in: STATUSES }, allow_blank: true
@@ -98,7 +100,29 @@ class Events::Event < ApplicationRecord
     [ kind&.humanize, start_date&.iso8601 ].compact_blank.join(" ")
   end
 
+  # The stored sponsor tiers, plus a "Meetup Host" tier for the organization of the venue unless the event was
+  # cancelled: it sponsors the meetup by hosting it. That tier and its sponsorship aren't stored. They are
+  # read-only, with ids derived from the event's, and only show up when the association is read as a whole:
+  # a query like `sponsor_tiers.order(:level)` leaves them out.
+  def sponsor_tiers
+    super.tap do
+      host = venue&.organization unless cancelled?
+      tiers = association(:sponsor_tiers)
+      tiers.add_to_target(host_sponsor_tier(host)) if host && tiers.target.none? { |tier| tier.id == derived_id("meetup-host-tier") }
+    end
+  end
+
   private
+
+  def host_sponsor_tier(host)
+    tier = Sponsors::SponsorTier.new(id: derived_id("meetup-host-tier"), events_event_id: id, slug: "meetup-host", name: "Meetup Host")
+    tier.sponsorships.build(id: derived_id("meetup-host-sponsorship"), entities_organization_id: host.id).readonly!
+    tier.tap(&:readonly!)
+  end
+
+  def derived_id(name)
+    Digest::UUID.uuid_v5(Digest::UUID::URL_NAMESPACE, "events/#{id}/#{name}")
+  end
 
   def ends_after_it_starts
     if start_date && end_date && end_date < start_date

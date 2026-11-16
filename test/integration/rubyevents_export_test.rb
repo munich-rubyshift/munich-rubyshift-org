@@ -25,18 +25,24 @@ class RubyeventsExportTest < ActionDispatch::IntegrationTest
     assert_empty errors.reject { |_path, messages| messages.empty? }
   end
 
-  # Each record on its own: an event's serializer leaves the records it includes to theirs.
+  # Each serializer on its own: an event's leaves the records it includes to theirs. Those may not be stored,
+  # like a meetup host's sponsorship, so they come from the event's serializer rather than by id.
   test "each record that RubyEvents gets is valid for RubyEvents" do
-    identifiers = documents.keys.flat_map do |path|
-      get "/api/rubyevents-v1/#{path}"
-      [ *Array.wrap(response.parsed_body["data"]), *response.parsed_body["included"] ].map { |resource| resource.values_at("type", "id") }
-    end.uniq
-    assert_not_empty identifiers
+    serializers = LISTS.keys.flat_map do |list|
+      get "/api/rubyevents-v1/#{list}.json"
+      response.parsed_body["data"].map do |resource|
+        record = Api::V1::Serializer::TYPES.key(resource["type"]).constantize.find(resource["id"])
+        "Api::V1::#{record.class.name.demodulize}Serializer".constantize.new(record, rubyevents: true)
+      end
+    end
+    serializers += Events::Event.all.flat_map do |event|
+      serializer = Api::V1::EventSerializer.new(event, rubyevents: true)
+      [ serializer, *serializer.included ]
+    end
+    assert_not_empty serializers
 
-    errors = identifiers.filter_map do |type, id|
-      record = Api::V1::Serializer::TYPES.key(type).constantize.find(id)
-      serializer = "Api::V1::#{record.class.name.demodulize}Serializer".constantize.new(record, rubyevents: true)
-      "#{type} #{id}: #{serializer.errors.full_messages.to_sentence}" unless serializer.valid_for_rubyevents?
+    errors = serializers.uniq(&:identifier).filter_map do |serializer|
+      "#{serializer.identifier.values_at(:type, :id).join(" ")}: #{serializer.errors.full_messages.to_sentence}" unless serializer.valid_for_rubyevents?
     end
 
     assert_empty errors
