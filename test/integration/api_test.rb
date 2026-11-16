@@ -102,6 +102,18 @@ class ApiTest < ActionDispatch::IntegrationTest
     assert_equal "2026-04-22", included.find { |resource| resource["type"] == "cfps" }.dig("attributes", "close_date")
   end
 
+  test "an event leads its sponsor tiers with a Meetup Host tier for the organization of its venue" do
+    venues_venues(:one).update_columns(entities_organization_id: entities_organizations(:one).id)
+
+    get "/api/v1/events/#{@event.id}.json"
+    find = ->(identifier) { response.parsed_body["included"].find { |resource| resource.slice("type", "id") == identifier } }
+    tier = find.(response.parsed_body.dig("data", "relationships", "sponsor_tiers", "data", 0))
+    sponsorship = find.(tier.dig("relationships", "sponsorships", "data", 0))
+
+    assert_equal "Meetup Host", tier.dig("attributes", "name")
+    assert_equal({ "type" => "organizations", "id" => entities_organizations(:one).id }, sponsorship.dig("relationships", "organization", "data"))
+  end
+
   test "an organization's internal notes stay private" do
     entities_organizations(:one).update_columns(internal_notes: "Invoices go to ATOSS")
 

@@ -1,6 +1,6 @@
 class Api::V1::EventsController < Api::V1::ApplicationController
   def show
     serializer = Api::V1::EventSerializer.new(Events::Event.find_by!(id: params.expect(:id)), rubyevents: rubyevents?)
-    render_document serializer.resource, included: serializer.included
+    render_document serializer.resource, included: serializer.included.map(&:resource)
   end
 end

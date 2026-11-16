@@ -24,7 +24,7 @@ class Api::V1::EventSerializer < Api::V1::Serializer
   end
 
   def included
-    [ venue, address, *talks, *sponsor_tiers, *sponsorships, *involvements, *cfps ].compact.map(&:resource)
+    [ venue, address, *talks, *sponsor_tiers, *sponsorships, *involvements, *cfps ].compact
   end
 
   private
@@ -57,8 +57,7 @@ class Api::V1::EventSerializer < Api::V1::Serializer
   end
 
   def sponsor_tiers
-    @sponsor_tiers ||= record.sponsor_tiers.includes(sponsorships: :organization).order(:level, :slug)
-      .map { |tier| Api::V1::SponsorTierSerializer.new(tier, rubyevents:) }
+    @sponsor_tiers ||= record.sponsor_tiers_with_host.map { |tier| Api::V1::SponsorTierSerializer.new(tier, rubyevents:) }
   end
 
   def sponsorships
