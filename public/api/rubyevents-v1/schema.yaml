@@ -386,7 +386,7 @@ components:
               properties:
                 data:
                   type: array
-                  description: The sponsor tiers, lowest level first.
+                  description: The sponsor tiers, lowest level first. They include a "Meetup Host" tier without a level for the organization of the venue, unless the event was cancelled.
                   items:
                     $ref: '#/components/schemas/SponsorTierIdentifier'
               additionalProperties: false
