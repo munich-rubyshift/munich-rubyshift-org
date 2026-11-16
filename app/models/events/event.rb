@@ -98,7 +98,27 @@ class Events::Event < ApplicationRecord
     [ kind&.humanize, start_date&.iso8601 ].compact_blank.join(" ")
   end
 
+  # The sponsor tiers, led by a "Meetup Host" tier for the organization of the venue unless the event was
+  # cancelled: it sponsors the meetup by hosting it. That tier and its sponsorship aren't stored. They are
+  # read-only, with ids derived from the event's.
+  def sponsor_tiers_with_host
+    [ host_sponsor_tier, *sponsor_tiers.includes(sponsorships: :organization).order(:level, :slug) ].compact
+  end
+
   private
+
+  def host_sponsor_tier
+    host = venue&.organization unless cancelled?
+    return unless host
+
+    tier = Sponsors::SponsorTier.new(id: derived_id("meetup-host-tier"), events_event_id: id, slug: "meetup-host", name: "Meetup Host")
+    tier.sponsorships.build(id: derived_id("meetup-host-sponsorship"), entities_organization_id: host.id).readonly!
+    tier.tap(&:readonly!)
+  end
+
+  def derived_id(name)
+    Digest::UUID.uuid_v5(Digest::UUID::URL_NAMESPACE, "events/#{id}/#{name}")
+  end
 
   def ends_after_it_starts
     if start_date && end_date && end_date < start_date

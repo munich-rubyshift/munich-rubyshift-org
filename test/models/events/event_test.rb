@@ -279,4 +279,30 @@ class Events::EventTest < ActiveSupport::TestCase
   def build_event(**attributes)
     Events::Event.new(title: "Meetup", series: @series, venue: @venue, attendance_mode: "in_person", **attributes)
   end
+
+  test "the organization of the venue sponsors the event in a Meetup Host tier ahead of the others" do
+    event = events_events(:one)
+    event.venue.update_columns(entities_organization_id: entities_organizations(:one).id)
+    host_tier, *tiers = event.sponsor_tiers_with_host
+
+    assert_equal [ "Meetup Host", [ entities_organizations(:one) ] ], [ host_tier.name, host_tier.sponsorships.map(&:organization) ]
+    assert_equal event.sponsor_tiers.order(:level, :slug).to_a, tiers
+    assert_equal host_tier.id, event.sponsor_tiers_with_host.first.id
+    assert host_tier.readonly? && host_tier.sponsorships.all?(&:readonly?)
+  end
+
+  test "a cancelled event or a venue without an organization leaves out the Meetup Host tier" do
+    event = events_events(:one)
+    organization = entities_organizations(:one)
+    event.venue.update_columns(entities_organization_id: organization.id)
+    event.update_columns(status: "cancelled")
+
+    assert_equal event.sponsor_tiers.to_a, event.sponsor_tiers_with_host
+    assert_not_includes organization.hosted_events, event
+
+    event.update_columns(status: nil)
+    event.venue.update_columns(entities_organization_id: nil)
+
+    assert_equal event.sponsor_tiers.to_a, event.reload.sponsor_tiers_with_host
+  end
 end
