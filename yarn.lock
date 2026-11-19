@@ -275,10 +275,10 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
-jasmine-core@^6.2.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-6.3.0.tgz#ff8e4e771a4c8e7bebd0966bc4625f000f78fa84"
-  integrity sha512-eMm5qBovNjNoGOcgE/W207+wrcK5zrQv0Rg/rWGboUJUmZp0dFCpHTyjpuDAfCwRCqg7f9U2q2jtv/aUuzdCQg==
+jasmine-core@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-7.0.2.tgz#afee5b1edd630c714b3b064193756d28f201a317"
+  integrity sha512-YMVijt84KPQQFm1db1AQAxTXfq0k3wU06OkepLViljURFqiRQ7EYYX2eUAshhUv9fA9t1E2N65GrdqvupA9VPQ==
 
 jasmine_dom_matchers@^1.4.0:
   version "1.4.0"
